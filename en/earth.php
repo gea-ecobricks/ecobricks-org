@@ -345,8 +345,8 @@
 					<p data-lang-id="078-jabung-mandala">Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p>
 					<p><a class="module-btn" href="https://ecobricks.org/jabung/" target="_blank" data-lang-id="079-view-project">View project</a></p>
 				</div>
-				<div class="gal-photo" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia')">
-					<img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia">
+				<div class="gal-photo" >
+					<img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia')">
 					<p data-lang-id="080-bathroom-wall">A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p>
 					<p><a class="module-btn" href="https://ecobricks.org/training336/" target="_blank" data-lang-id="081-view-project">View project</a></p>
 				</div>
