@@ -356,72 +356,57 @@
 			</div>
 </section>
 
-            
-<section id="FEATURED">
 
-            <div class="reg-content-block" id="block8">
-                <div class="opener-header"> 
-                    <div class="opener-header-text">
-                        <h4>Featured Earth & Ecobrick Projects</h4>
-                        <h5>The GEA leads trainings and builds around the world.  Check out our featured projects.</h5>
-                        <br>
+                <section id="FEATURED">
+                    <div class="reg-content-block" id="block8">
+                        <div class="opener-header">
+                            <div class="opener-header-text">
+                                <h4 data-lang-id="076-featured-projects">Featured Earth & Ecobrick Projects</h4>
+                                <h5 data-lang-id="077-gea-trainings">The GEA leads trainings and builds around the world. Check out our featured projects.</h5>
+                                <br>
+                            </div>
+                            <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
+                        </div>
+                        <div id="preclosed8">
+                            <br>
+                            <div class="three-column-gal">
+                                <div class="gal-photo">
+                                    <img src="../photos/jabung1.jpg" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java" onclick="viewGalleryImage('../photos/jabung1.jpg', 'Jabung Mandala Park - 2000 ecobricks, Java, Indonesia')">
+                                    <p data-lang-id="078-jabung-mandala">Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p>
+                                    <p><a class="module-btn" href="https://ecobricks.org/jabung/" data-lang-id="079-view-project">View project</a></p>
+                                </div>
+                                <div class="gal-photo" >
+                                    <img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 1560 ecobricks, Bali, Indonesia" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 156 ecobricks, Ubud, Bali, Indonesia')">
+                                    <p data-lang-id="080-bathroom-wall">A simple ecobrick bathroom wall - 156 ecobricks, Ubud, Bali, Indonesia</p>
+                                    <p><a class="module-btn" href="training.php?training_id=336" data-lang-id="081-view-project">View project</a></p>
+                                </div>
+                                <div class="gal-photo" >
+                                    <img src="../projects/photos/project-1056-1.webp" alt="Ecobrick nature pond West Berkshire, England, UK" onclick="viewGalleryImage('../projects/photos/project-1056-1.webp', 'A nature pond - 250 ecobricks, West Berkshire, England, UK')">
+                                    <p data-lang-id="082-roundhouse">A wildlife pond built with ecobricks - 250 ecobricks, England, UK</p>
+                                    <p><a class="module-btn" href="project.php?project_id=1056" data-lang-id="083-view-project">View project</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
-                </div>
-
-                <div id="preclosed8">
-
-                <br>   
-
-                <div class="three-column-gal">
-                    <div class="gal-photo" onclick="viewGalleryImage('../photos/jabung1.jpg', 'Jabung Mandala Park - 2000 ecobricks, Java, Indonesia')">
-                        <img src="../photos/jabung1.jpg" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java">
-                        <p>Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p>
-                        <p><a class="module-btn" href="https://ecobricks.org/jabung/" target="_blank">View project</a></p>
+                </section>
+                    <br>
+                    <div class="row">
+                        <div class="main2">
+                            <div class="page-paragraph-reg">
+                                <h4 data-lang-id="084-safe-passage">A Safe Passage Through Time</h4>
+                                <p data-lang-id="085-significant-responsibility">Building with ecobricks is a significant responsibility. Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
+                                <br>
+                                <p><a class="action-btn" href="/earth-methods" data-lang-id="086-earth-methods">🚀 Earth & Ecobrick Methods</a></p>
+                                <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="087-overview-methods">An overview of earth building principles and methods.</p>
+                            </div>
+                        </div>
+                        <div class="side2">
+                            <br>
+                            <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                        </div>
                     </div>
-                    <div class="gal-photo" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia')">
-                        <img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia">
-                        <p>A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p>
-                        <p><a class="module-btn" href="https://ecobricks.org/training336/" target="_blank">View project</a></p>
-                    </div>
-                    <div class="gal-photo" onclick="viewGalleryImage('../photos/prtmadog-500px.webp', 'A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK')">
-                        <img src="../photos/prtmadog-500px.webp" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK">
-                        <p>A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
-                        <p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank">View project</a></p>
-                    </div>
-</div>
 
 
-
-                </div>
-            </div>
-        
-
-            <br>
-                 
-            <div class="row">
-                
-                <div class="main2">
-                    <div class="page-paragraph-reg">
-                 
-                        <h4>A Safe Passage Through Time</h4>
-                        
-                         <p>Building with ecobricks is a significant responsibility.  Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
-                        <br><p>
-                    
-                        <a class="action-btn" href="/earth-methods">🚀 Earth & Ecobrick Methods</a>
-                        <p style="font-size: 0.85em; margin-top:20px;">An overview of earth building principles and methods.</p>    
-                    
-                    </div>
-                </div>
-
-                <div class="side2">
-                    <br><img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
-                </div>
-            </div>
-</div>
-
-</section>
 
 </article>
 
