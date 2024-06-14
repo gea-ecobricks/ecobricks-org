@@ -6,7 +6,7 @@
     <?php $version='2.1';?>
     <?php $page='earth';?>
 
-    <title>Construction Terre & Écobrique</title>
+    <title>Bangunan Tanah & Ecobrick</title>
 
     <?php require_once ("../includes/earth-inc.php");?>
 
