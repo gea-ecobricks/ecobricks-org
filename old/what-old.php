@@ -244,7 +244,7 @@ _END;?>
 			<div class="page-paragraph">
 				<p>An ecobrick is a PET bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to <a href="sequest.php">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition.php">plastic transition</a>.</p>
 				<p>
-				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="/dms">lego-furniture </a>and <a href="/openspace">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="plastic.php>Earth's example</a> of securing loose carbon to green the biosphere.</p>
+				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="/dms">lego-furniture </a>and <a href="/openspace">open spaces.</a> Ecobrick can also be put to long-term use in <a href="/earth">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="/principles">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="plastic.php">Earth's example</a> of securing loose carbon to green the biosphere.</p>
 			</div>	
 
 			<div class="reg-content-block" id="block1">
@@ -268,7 +268,7 @@ _END;?>
 							<p>The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
 				
 						<p>
-						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="plastic.php>Earth’s example of greening the biosphere</a>.</p>
+						The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics and the<a href="plastic.php">Earth’s example of greening the biosphere</a>.</p>
 						</div>
 						<div class="side2"><img src="../pngs/authenticated-ecobrick.png" width="100%">
 						</div>
@@ -296,7 +296,7 @@ _END;?>
 					<h6>
 					Learn more about the <a href="sequest.php"><strong>criteria of plastic sequestration.</strong></a>
 
-					Learn more about the<a href="plastic.php><strong> Earth’s Example</strong></a>
+					Learn more about the<a href="plastic.php"><strong> Earth’s Example</strong></a>
 					</h6>
 				</div>	
 			</div>

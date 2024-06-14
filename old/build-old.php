@@ -498,7 +498,7 @@ Content Page template: v.1.0.0-->
             <img src="../webp/earth-tree-400px.webp" width="100%" loading="lazy" alt="eco brik and earth building can make tree benches">
 				<br><h4>Good Use</h4>
 				<h5>Ecobrick building let's us put our plastic to good use in the short-term, while securing it out of industry and the biosphere for the long-term.</h5><br>
-				<a class="module-btn" href="plastic.php>Learn More</a>
+				<a class="module-btn" href="plastic.php">Learn More</a>
                 <br>
 			</div>  
             <div id="side-module-desktop-mobile">

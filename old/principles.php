@@ -251,7 +251,7 @@ _END;?>
 		<div class="page-paragraph">
 	
 
-		<p>The regenerative ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines over a decade ago.  Deeply inspired by their ancestral wisdom and <a href="/ayyew">ayyew eco-ethos</a>, ecobricking enables us to rise above the old paradigm of plastic 'waste'.  Instead, plastic becomes an opportunity to follow the <a href="plastic.php>the Earth's tried and tested example</a> of carbon management.</p>
+		<p>The regenerative ecobrick movement emerged out of the ancestral lands of the Igorot people in the Northern Philippines over a decade ago.  Deeply inspired by their ancestral wisdom and <a href="/ayyew">ayyew eco-ethos</a>, ecobricking enables us to rise above the old paradigm of plastic 'waste'.  Instead, plastic becomes an opportunity to follow the <a href="plastic.php">the Earth's tried and tested example</a> of carbon management.</p>
 		<p>In this way, as a non-capital, localized, replicable, spiral and net-green process, ecobricking can accelerate our transition from plastic to ever greener harmony with the Earth's cycles.</p>	
 
 		</div>
@@ -305,7 +305,7 @@ _END;?>
     				<li><b>Towards Awareness:</b> In the same way that the Earth cultivated higher levels of consciousness through its carbon cycling, we can do the same by connecting plastic cycling with experiential learning.</li>
 
 				</ul>
-				<h5>ℹ️ Learn about: <a href="plastic.php>The Long Story of Plastic</a></h5>
+				<h5>ℹ️ Learn about: <a href="plastic.php">The Long Story of Plastic</a></h5>
 				<h5>ℹ️ Learn about: <a href="https://earthen.io/imagine" target="_blank">Earthen Ethics</a></h5>
 
 
@@ -445,7 +445,7 @@ _END;?>
 				<img src="../webp/earthservice-400px.webp" width="90%" alt="Following the Earth's example through eco bricking">
 				<br><h4>Following the Earth's Example</h4>
 				<h5>Plastic Sequestration follows the Earth’s example.  Learn about the ancient history of this modern methodology.</h5><br>
-				<a class="module-btn" href="plastic.php>Plastic's Long Story</a>
+				<a class="module-btn" href="plastic.php">Plastic's Long Story</a>
                 <br>
 			</div>   
          
