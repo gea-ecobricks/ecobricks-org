@@ -72,6 +72,15 @@
                  <p data-lang-id="060-principles-acknowledgement">The Ecobrick movement is people powered– and fundamentally non-capital.  This means that no one gets paid to make an Ecobrick, and that all of the resources that the GEA offers, from our site, to our books, to our app, were manifested through collaboration that received no financial remuneration.  The tremendous amount of work that goes into making an Ecobrick, or for that matter developing our resources, is powered by much more potent motivations than capital.</p>
             </div>
             <br><br>
+
+            <div class="lead-page-paragraph">
+                <h3 data-lang-id="xxx">How does it spread?</h3>
+            </div>
+            <div class="page-paragraph">
+                <p data-lang-id="060-principles-acknowledgement">The Ecobrick movement is people powered– and fundamentally non-capital.  This means that no one gets paid to make an Ecobrick, and that all of the resources that the GEA offers, from our site, to our books, to our app, were manifested through collaboration that received no financial remuneration.  The tremendous amount of work that goes into making an Ecobrick, or for that matter developing our resources, is powered by much more potent motivations than capital.</p>
+            </div>
+
+
             <div class="lead-page-paragraph">
                 <h3 data-lang-id="xxx">How does it spread?</h3>
             </div>
@@ -79,19 +88,9 @@
                 <p data-lang-id="060-principles-acknowledgement">The Ecobrick movement is people powered– and fundamentally non-capital.  This means that no one gets paid to make an Ecobrick, and that all of the resources that the GEA offers, from our site, to our books, to our app, were manifested through collaboration that received no financial remuneration.  The tremendous amount of work that goes into making an Ecobrick, or for that matter developing our resources, is powered by much more potent motivations than capital.</p>
             </div>
             <br><br>
-            <div class="lead-page-paragraph">
-                <h3 data-lang-id="xxx">How does it spread?</h3>
-            </div>
-            <div class="page-paragraph">
-                <p data-lang-id="060-principles-acknowledgement">The Ecobrick movement is people powered– and fundamentally non-capital.  This means that no one gets paid to make an Ecobrick, and that all of the resources that the GEA offers, from our site, to our books, to our app, were manifested through collaboration that received no financial remuneration.  The tremendous amount of work that goes into making an Ecobrick, or for that matter developing our resources, is powered by much more potent motivations than capital.</p>
-            </div>
-            <br><br>
+
             <p><a class="action-btn" href="about.php" data-lang-id="062-about-ayyew-action">🍃 About the GEA</a></p>
             <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="063-learn-indigenous-wisdom">Learn about the Global Ecobrick Alliance.</p>
-
-
-
-
 
 
 		</DIV>
