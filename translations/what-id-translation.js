@@ -19,7 +19,7 @@ const id_Page_Translations = {
 
     '001-splash-title': 'Ecobrick',
     '002-splash-subtitle': 'Teknologi sederhana, low-tech, dan non-kapital untuk merawat plastik kita.',
-    '003-splash-image-alt': '<img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="Dasar-dasar ecobricking">',
+    '003-splash-image-alt': '<img src="../svgs/eb-blue-no-clouds.svg" style="width: 94%" alt="Dasar-dasar ecobricking">',
     '004-lead-page-paragraph': 'Ecobricking adalah cara sederhana untuk mengambil tanggung jawab pribadi atas plastik kita dengan menjaganya keluar dari industri dan biosfer.',
   
     '005-first-page-paragraph': 'Ecobrick adalah botol plastik yang dikemas padat dengan plastik bekas yang bersih dan kering. Ecobrick dibuat secara manual dengan densitas tertentu untuk <a href="sequest.php">menyekuestrasi plastik</a> dan menciptakan blok bangunan yang dapat digunakan kembali. Dengan cara ini, ecobrick menjaga plastik dari <a href="/why">terdegradasi menjadi racun dan mikroplastik</a> dan keluar dari proses industri yang berenergi tinggi dan beremisi tinggi. Tetapi yang paling penting, proses ecobricking secara langsung meningkatkan kesadaran kita tentang masalah ini dan alternatif regeneratifnya - yang kami sebut <a href="transition.php">transisi plastik</a>.',
