@@ -270,10 +270,10 @@
 
                 </div>
             </div>
-</sequest>
+</section>
 
 
-<sequest id="CUSTODIAN">
+<section id="CUSTODIAN">
 
             <div class="reg-content-block" id="block7">
                 <div class="opener-header"> 
@@ -310,10 +310,10 @@
                     <div class="license"><div class="license-image"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></div><div class="license-text"><p style="font-size: 0.85em; margin-top:20px;">The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</span></div></div>
                 </div>
             </div>
-</section>
+            </section>
 
 
-<section id="MAINTENANCE">
+            <section id="MAINTENANCE">
 
             <div class="reg-content-block" id="block6">
 				<div class="opener-header">
@@ -354,41 +354,40 @@
 			
                 </div>
 			</div>
-</section>
+            </section>
 
-
-                <section id="FEATURED">
-                    <div class="reg-content-block" id="block8">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="076-featured-projects">Featured Earth & Ecobrick Projects</h4>
-                                <h5 data-lang-id="077-gea-trainings">The GEA leads trainings and builds around the world. Check out our featured projects.</h5>
-                                <br>
-                            </div>
-                            <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
-                        </div>
-                        <div id="preclosed8">
+            <section id="FEATURED">
+                <div class="reg-content-block" id="block8">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="076-featured-projects">Featured Earth & Ecobrick Projects</h4>
+                            <h5 data-lang-id="077-gea-trainings">The GEA leads trainings and builds around the world. Check out our featured projects.</h5>
                             <br>
-                            <div class="three-column-gal">
-                                <div class="gal-photo">
-                                    <img src="../photos/jabung1.jpg" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java" onclick="viewGalleryImage('../photos/jabung1.jpg', 'Jabung Mandala Park - 2000 ecobricks, Java, Indonesia')">
-                                    <p data-lang-id="078-jabung-mandala">Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p>
-                                    <p><a class="module-btn" href="https://ecobricks.org/jabung/" data-lang-id="079-view-project">View project</a></p>
-                                </div>
-                                <div class="gal-photo" >
-                                    <img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 1560 ecobricks, Bali, Indonesia" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 156 ecobricks, Ubud, Bali, Indonesia')">
-                                    <p data-lang-id="080-bathroom-wall">A simple ecobrick bathroom wall - 156 ecobricks, Ubud, Bali, Indonesia</p>
-                                    <p><a class="module-btn" href="training.php?training_id=336" data-lang-id="081-view-project">View project</a></p>
-                                </div>
-                                <div class="gal-photo" >
-                                    <img src="../projects/photos/project-1056-1.webp" alt="Ecobrick nature pond West Berkshire, England, UK" onclick="viewGalleryImage('../projects/photos/project-1056-1.webp', 'A nature pond - 250 ecobricks, West Berkshire, England, UK')">
-                                    <p data-lang-id="082-roundhouse">A wildlife pond built with ecobricks - 250 ecobricks, England, UK</p>
-                                    <p><a class="module-btn" href="project.php?project_id=1056" data-lang-id="083-view-project">View project</a></p>
-                                </div>
+                        </div>
+                        <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
+                    </div>
+                    <div id="preclosed8">
+                        <br>
+                        <div class="three-column-gal">
+                            <div class="gal-photo">
+                                <img src="../photos/jabung1.jpg" alt="first GEA official Earth & Ecobrick Build in Probolinggo, East Java" onclick="viewGalleryImage('../photos/jabung1.jpg', 'Jabung Mandala Park - 2000 ecobricks, Java, Indonesia')">
+                                <p data-lang-id="078-jabung-mandala">Jabung Mandala Park - 2000 ecobricks, Java, Indonesia</p>
+                                <p><a class="module-btn" href="https://ecobricks.org/jabung/" data-lang-id="079-view-project">View project</a></p>
+                            </div>
+                            <div class="gal-photo" >
+                                <img src="../photos/ubudraw1.jpg" alt="A simple ecobrick bathroom wall - 1560 ecobricks, Bali, Indonesia" onclick="viewGalleryImage('../photos/ubudraw1.jpg', 'A simple ecobrick bathroom wall - 156 ecobricks, Ubud, Bali, Indonesia')">
+                                <p data-lang-id="080-bathroom-wall">A simple ecobrick bathroom wall - 156 ecobricks, Ubud, Bali, Indonesia</p>
+                                <p><a class="module-btn" href="training.php?training_id=336" data-lang-id="081-view-project">View project</a></p>
+                            </div>
+                            <div class="gal-photo" >
+                                <img src="../projects/photos/project-1056-1.webp" alt="Ecobrick nature pond West Berkshire, England, UK" onclick="viewGalleryImage('../projects/photos/project-1056-1.webp', 'A nature pond - 250 ecobricks, West Berkshire, England, UK')">
+                                <p data-lang-id="082-roundhouse">A wildlife pond built with ecobricks - 250 ecobricks, England, UK</p>
+                                <p><a class="module-btn" href="project.php?project_id=1056" data-lang-id="083-view-project">View project</a></p>
                             </div>
                         </div>
                     </div>
-                </section>
+
+                    </section>
                     <br>
                     <div class="row">
                         <div class="main2">
@@ -405,17 +404,11 @@
                             <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                         </div>
                     </div>
+            </article>
+        </div>
 
 
-
-</article>
-
-
-
-    
-	
-
-		<div class="side">
+        <div class="side">
 	
             <?php require_once ("side-modules/spiral-design.php");?>
 
