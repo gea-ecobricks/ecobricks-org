@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.11';?>
+<?php $version='2.12';?>
 <?php $page='earth';?>
 
 <title>Construction Terre & Écobrique</title>

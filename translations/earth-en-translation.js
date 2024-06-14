@@ -40,7 +40,7 @@ const en_Page_Translations = {
     "028-photo-caption": "An ecobrick and glass bottle wall -- Nepal",
     "029-paragraph": "If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them. Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc). By keeping it local, we reduce the need for long haul transportation. This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.",
     "030-paragraph": "There’s an added bonus. As we’re using the same resources that our neighbours have access to, they can copy us! As we all work with the same resources, we can learn from the trial and error of our neighbours, and they can learn from us. Sure and steady, our methods get better and greener. Since our shared resources come from nearby, we can also work together in the regrowth and management of resources.",
-    "031-paragraph": "Today’s commercial construction, in contrast, relies on industrial processes and the transportation of materials from far away. Often these materials involve much energy in their fabrication and transportation. Because we don’t get to see where they come from, we are often not aware of the mining, smelting, and energy expenditure behind them."
+    "031-paragraph": "Today’s commercial construction, in contrast, relies on industrial processes and the transportation of materials from far away. Often these materials involve much energy in their fabrication and transportation. Because we don’t get to see where they come from, we are often not aware of the mining, smelting, and energy expenditure behind them.",
 
     "032-opener-header": "Spiral Design",
     "033-opener-subheader": "When building with earth we plan for the destruction of our creation, the reuse of its materials-- in a way that ensures that the next construction will be enriched by the first.",
@@ -92,8 +92,6 @@ const en_Page_Translations = {
     "085-significant-responsibility": "Building with ecobricks is a significant responsibility. Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.",
     "086-earth-methods": "🚀 Earth & Ecobrick Methods",
     "087-overview-methods": "An overview of earth building principles and methods."
-
-
 
 
 

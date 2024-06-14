@@ -3,7 +3,7 @@
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='id';?>
-    <?php $version='2.12';?>
+    <?php $version='2.13';?>
     <?php $page='earth';?>
 
     <title>Bangunan Tanah & Ecobrick</title>
