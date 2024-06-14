@@ -350,8 +350,8 @@
 					<p data-lang-id="080-bathroom-wall">A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia</p>
 					<p><a class="module-btn" href="https://ecobricks.org/training336/" target="_blank" data-lang-id="081-view-project">View project</a></p>
 				</div>
-				<div class="gal-photo" onclick="viewGalleryImage('../photos/prtmadog-500px.webp', 'A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK')">
-					<img src="../photos/prtmadog-500px.webp" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK">
+				<div class="gal-photo" >
+					<img src="../photos/prtmadog-500px.webp" alt="A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK" onclick="viewGalleryImage('../photos/prtmadog-500px.webp', 'A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK')">
 					<p data-lang-id="082-roundhouse">A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK</p>
 					<p><a class="module-btn" href="photos/prtmadog-500px.webp" target="_blank" data-lang-id="083-view-project">View project</a></p>
 				</div>

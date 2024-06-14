@@ -80,6 +80,18 @@ const en_Page_Translations = {
     "064-download-eng-ind": "Download: <a href=\"https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A\" target=\"_blank\">🇬🇧 ENG</a> | <a href=\"https://nextcloud.ecobricks.org/index.php/s/qgX3oZ8RJEJGGc5\" target=\"_blank\">🇮🇩 IND</a>",
     "065-creative-commons": "The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.",
 
+    "076-featured-projects": "Featured Earth & Ecobrick Projects",
+    "077-gea-trainings": "The GEA leads trainings and builds around the world. Check out our featured projects.",
+    "078-jabung-mandala": "Jabung Mandala Park - 2000 ecobricks, Java, Indonesia",
+    "079-view-project": "View project",
+    "080-bathroom-wall": "A simple ecobrick bathroom wall - 250 ecobricks, Bali, Indonesia",
+    "081-view-project": "View project",
+    "082-roundhouse": "A simple earth and ecobrick roundhouse - 2000 ecobricks, Wales, UK",
+    "083-view-project": "View project",
+    "084-safe-passage": "A Safe Passage Through Time",
+    "085-significant-responsibility": "Building with ecobricks is a significant responsibility. Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.",
+    "086-earth-methods": "🚀 Earth & Ecobrick Methods",
+    "087-overview-methods": "An overview of earth building principles and methods."
 
 
 
