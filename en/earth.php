@@ -112,6 +112,8 @@
             </div>
         
 </section>
+
+
 <section id="KEEP-LOCAL">
     <div class="reg-content-block" id="block2">
         <div class="opener-header">
@@ -244,7 +246,7 @@
 	</div>
 </section>
 
-<sequest id="CUSTODIAN">
+<section id="CUSTODIAN">
 	<div class="reg-content-block" id="block7">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -283,7 +285,7 @@
 			</div>
 		</div>
 	</div>
-</sequest>
+</section>
 
 <section id="MAINTENANCE">
 	<div class="reg-content-block" id="block6">

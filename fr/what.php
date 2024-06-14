@@ -4,16 +4,16 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='1.91';?>
+<?php $version='1.92';?>
 <?php $page='what';?>
-<title>Qu'est-ce qu'une Ecobrick?</title>
+<title>Qu'est-ce qu'une écobrick?</title>
 <?php require_once ("../includes/what2-inc.php");?>
 <!--TOP PAGE BANNER-->
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Les Écobriques</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Une technologie simple, low-tech et non-capitaliste pour prendre soin de notre plastique.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title" style="font-size:small">Les écobriques</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Une methode simple et low-tech pour prendre soin de notre plastique.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="The basics of ecobricking">
     </div>	

@@ -17,8 +17,8 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const fr_Page_Translations = {
 
-    '001-splash-title': 'Les Écobriques',
-  '002-splash-subtitle': 'Une technologie simple, low-tech et non-capitaliste pour prendre soin de notre plastique.',
+    '001-splash-title': 'Les écobriques',
+  '002-splash-subtitle': 'Une technologie simple et low-tech pour prendre soin de notre plastique.',
   '003-splash-image-alt': '<img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="Les bases de l\'écobriquage">',
   '004-lead-page-paragraph': 'L\'écobriquage est un moyen simple de prendre personnellement en charge notre plastique en le gardant hors de l\'industrie et hors de la biosphère.',
   '005-first-page-paragraph': 'Une écobrique est une bouteille en plastique remplie solidement de plastique usagé propre et sec. Les écobriques sont fabriquées manuellement à une densité définie pour <a href="sequest.php">séquestrer le plastique</a> et créer des blocs de construction réutilisables. De cette manière, les écobriques gardent le plastique loin de la <a href="/why">dégradation en toxines et microplastiques</a> et hors des processus industriels à haute énergie et à forte émission. Mais plus que tout, le processus manuel d\'écobriquage approfondit notre conscience de ces problèmes et de leurs alternatives régénératives – ce que nous appelons la <a href="transition.php">transition plastique</a>.',

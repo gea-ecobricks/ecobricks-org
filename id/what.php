@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.81';?>
+<?php $version='1.83';?>
 <?php $page='what';?>
 <title>Ecobrick Essentials</title>
 <?php require_once ("../includes/what2-inc.php");?>
@@ -13,8 +13,8 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ecobricks</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A simple, low-tech, non-capital technology to take care of our plastic.</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Teknologi sederhana, low-tech, dan non-kapital untuk merawat plastik kita.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="The basics of ecobricking">
     </div>	

@@ -17,8 +17,8 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const id_Page_Translations = {
 
-    '001-splash-title': 'Ecobricks',
-    '002-splash-subtitle': 'Teknologi sederhana, low-tech, non-kapital untuk merawat plastik kita.',
+    '001-splash-title': 'Ecobrick',
+    '002-splash-subtitle': 'Teknologi sederhana, low-tech, dan non-kapital untuk merawat plastik kita.',
     '003-splash-image-alt': '<img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="Dasar-dasar ecobricking">',
     '004-lead-page-paragraph': 'Ecobricking adalah cara sederhana untuk mengambil tanggung jawab pribadi atas plastik kita dengan menjaganya keluar dari industri dan biosfer.',
   
