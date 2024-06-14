@@ -68,9 +68,31 @@ const fr_Page_Translations = {
   "053-plastic-sequestration": "Nous appelons cette trajectoire « séquestration du plastique ».",
   "054-learn-more-sequestration": "ℹ️ En savoir plus sur notre <a href=\"/sequest.php\">séquestration du plastique</a>",
 
+  "055-ecobrick-custodial": "Arrangements de Garde pour la Construction en Écobriques",
+  "056-gea-recommendation": "L'Alliance Globale d'Écobriques recommande fortement que des plans de fin de vie soient établis avec les gardiens du site et de la construction.",
+  "057-secured-plastic": "Les constructions en terre et en écobriques incarnent de grandes quantités de plastique sécurisé. Lors de la construction sur des terrains gouvernementaux ou communautaires, il est essentiel d'établir un accord de garde à long terme avec les propriétaires du terrain. Cet accord doit inclure des contrôles et des réparations annuels ainsi qu'un plan de destruction de la construction pour assurer l'intégrité indéfinie des écobriques. Cet accord doit également prendre en compte l'éventuelle élimination, la propriété et la réutilisation des écobriques incorporées.",
+  "058-gea-template": "L'Alliance Globale d'Écobriques a développé un exemple et un modèle d'utilisation libre de notre Accord de Construction et de Garde d'Écobriques. Téléchargez les versions PDF et ODG ici:",
+  "059-sample-custodial-arrangements": "📄 <b>Exemple d'Arrangements de Garde pour la Construction en Écobriques</b>",
+  "060-sample-pdf": "Exemple – PDF – 500kb",
+  "061-download-eng-ind": "Télécharger : <a href=\"https://nextcloud.ecobricks.org/index.php/s/kBr64X5XkiqQWSz\" target=\"_blank\">🇬🇧 ENG</a> | <a href=\"https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A\" target=\"_blank\">🇮🇩 IND</a>",
+  "062-template-agreement": "📄 <b>Modèle d'Accord de Construction et de Garde en Terre et Écobriques GEA</b>",
+  "063-editable-template": "Modèle Éditable – ODT – 1MB",
+  "064-download-eng-ind": "Télécharger : <a href=\"https://nextcloud.ecobricks.org/index.php/s/DjCKx9CHeG7Zb2A\" target=\"_blank\">🇬🇧 ENG</a> | <a href=\"https://nextcloud.ecobricks.org/index.php/s/qgX3oZ8RJEJGGc5\" target=\"_blank\">🇮🇩 IND</a>",
+  "065-creative-commons": "Les contrats d'Arrangements de Garde pour la Construction en Écobriques GEA sont sous licence <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International</a>.",
 
-
-
-
-
+  "076-featured-projects": "Projets en Terre et Écobriques à l'Honneur",
+  "077-gea-trainings": "L'Alliance Globale d'Écobriques dirige des formations et des constructions dans le monde entier. Découvrez nos projets à l'honneur.",
+  "078-jabung-mandala": "Parc Jabung Mandala - 2000 écobriques, Java, Indonésie",
+  "079-view-project": "Voir le projet",
+  "080-bathroom-wall": "Un simple mur de salle de bain en écobriques - 250 écobriques, Bali, Indonésie",
+  "081-view-project": "Voir le projet",
+  "082-roundhouse": "Une simple maison ronde en terre et écobriques - 2000 écobriques, Pays de Galles, Royaume-Uni",
+  "083-view-project": "Voir le projet",
+  "084-safe-passage": "Un Passage Sûr à Travers le Temps",
+  "085-significant-responsibility": "Construire avec des écobriques est une responsabilité importante. Les écobriques représentent de grandes quantités de plastique sécurisé qui dureront longtemps. Pour cette raison, il est plus important que jamais de construire en utilisant des méthodes qui incarnent des principes régénératifs.",
+  "086-earth-methods": "🚀 Méthodes de Construction en Terre et Écobriques",
+  "087-overview-methods": "Un aperçu des principes et méthodes de construction en terre."
 };
+
+
+

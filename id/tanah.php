@@ -3,7 +3,7 @@
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='id';?>
-    <?php $version='2.1';?>
+    <?php $version='2.11';?>
     <?php $page='earth';?>
 
     <title>Bangunan Tanah & Ecobrick</title>
@@ -11,9 +11,17 @@
     <?php require_once ("../includes/earth-inc.php");?>
 
 
+    <div class="splash-content-block">
+        <div class="splash-box">
+            <div class="splash-heading" data-lang-id="001-splash-title">Bangunan Tanah & Ecobrick</div>
+            <div class="splash-sub" data-lang-id="002-splash-subtitle">Bangun struktur yang indah dan kuat, resilien, dan regeneratif </div>
+        </div>
+        <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Bangun struktur yang indah dan kuat, resilien, dan regeneratif">
+        </div>
+    </div>
+    <div id="splash-bar"></div>
 
-
-
+    <!--
     <div class="splash-content-block">
         <div class="splash-box">
             <div class="splash-heading" data-lang-id="001-splash-title">Bangunan Tanah & Ecobrick</div>
@@ -22,7 +30,7 @@
         <div class="splash-image"><img src="../svgs/tree-bench.svg" style="width: 85%">
         </div>
     </div>
-    <div id="splash-bar"></div>
+    <div id="splash-bar"></div> -->
 
 
 
