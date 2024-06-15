@@ -66,7 +66,7 @@ const fr_Page_Translations = {
   "051-abandonment-of-projects": "Il est également important de prendre en compte l'abandon des projets. Le torchis, contrairement au ciment, peut être plus facilement colonisé par les plantes. Même si les structures à long terme s'effondrent, les écobriques couvertes de terre ne peuvent pas se dégrader et resteront intactes indéfiniment. La terre effondrée devient progressivement un sol fertile pour les plantes, les arbres et les forêts.",
   "052-long-term-journey": "En construisant avec la terre, en utilisant des principes circulaires et spirales, nous dirigeons nos écobriques vers un voyage sécurisé à long terme à travers le temps.",
   "053-plastic-sequestration": "Nous appelons cette trajectoire « séquestration du plastique ».",
-  "054-learn-more-sequestration": "ℹ️ En savoir plus sur notre <a href=\"/sequest.php\">séquestration du plastique</a>",
+  "054-learn-more-sequestration": "ℹ️ En savoir plus sur notre <a href=\"sequest.php\">séquestration du plastique</a>",
 
   "055-ecobrick-custodial": "Arrangements de Garde pour la Construction en Écobriques",
   "056-gea-recommendation": "L'Alliance Globale d'Écobriques recommande fortement que des plans de fin de vie soient établis avec les gardiens du site et de la construction.",

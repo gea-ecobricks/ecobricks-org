@@ -66,7 +66,7 @@ const id_Page_Translations = {
   "051-abandonment-of-projects": "Penting juga untuk mempertimbangkan pengabaian proyek. Cob, berbeda dengan semen, lebih mudah dihuni oleh tanaman. Bahkan jika struktur jangka panjang runtuh, ecobrick yang ditutupi tanah tidak dapat terurai dan akan tetap utuh selamanya. Tanah yang hancur secara bertahap menjadi tanah subur untuk tanaman, pohon, dan hutan untuk menutupinya.",
   "052-long-term-journey": "Dengan membangun dengan tanah, menggunakan prinsip melingkar dan spiral, kita mengarahkan ecobrick kita menuju perjalanan jangka panjang yang aman melalui waktu.",
   "053-plastic-sequestration": "Kami menyebut jalur ini sebagai ‘sekuester plastik’.",
-  "054-learn-more-sequestration": "ℹ️ Pelajari lebih lanjut tentang <a href=\"/sequest.php\">sekuester plastik kami</a>",
+  "054-learn-more-sequestration": "ℹ️ Pelajari lebih lanjut tentang <a href=\"sequest.php\">sekuester plastik kami</a>",
 
   "055-ecobrick-custodial": "Pengaturan Kustodian Konstruksi Ecobrick",
   "056-gea-recommendation": "Global Ecobrick Alliance sangat merekomendasikan agar rencana akhir masa pakai disusun dengan kustodian situs dan konstruksi.",

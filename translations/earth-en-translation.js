@@ -66,7 +66,7 @@ const en_Page_Translations = {
     "051-abandonment-of-projects": "It is also important to consider the abandonment of projects. Cob, in contrast to cement, can be more readily populated by plants. Even if long-term structures collapse, earth covered ecobricks have no way to degrade and will remain intact indefinitely. The crumbled earth gradually becomes fertile ground for plants, trees, and forest to cover.",
     "052-long-term-journey": "By building with earth, using circular and spiral principles, we point our ecobricks towards a secured long-term journey through time.",
     "053-plastic-sequestration": "We call this trajectory ‘plastic sequestration‘.",
-    "054-learn-more-sequestration": "ℹ️ Learn more about our <a href=\"/sequest.php\">plastic sequestration</a>",
+    "054-learn-more-sequestration": "ℹ️ Learn more about our <a href=\"sequest.php\">plastic sequestration</a>",
 
     "055-ecobrick-custodial": "Ecobrick Construction Custodial Arrangements",
     "056-gea-recommendation": "The Global Ecobrick Alliance strongly recommends that in that end-of-life plans be established with the custodians of the site and construction.",
