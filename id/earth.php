@@ -16,7 +16,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Ecobrick & Earth Building</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Build beautiful, strong, spiral, resilient and regenerative structures.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/tree-bench.svg" style="width: 85%">
+	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/tree-bench.svg" style="width: 85%" alt="Ecobrick bench and tree">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -157,7 +157,7 @@
                 </div>
             </div>
 
-            <p data-lang-id="029-paragraph">If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them. Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc). By keeping it local, we reduce the need for long haul transportation. This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
+            <p data-lang-id="029-paragraph">If there’s anything that the very different earth building traditions around the world have in common it is that they used what was local to them. Earth building makes use of the earth (sand, clay, rock, pebbles, etc.) that is nearby along with the local organic materials (wood, bamboo, reeds, grasses, etc.). By keeping it local, we reduce the need for long haul transportation. This ensures a low-energy impact footprint for our building and it encourages the community management of regrowing trees and bamboo to meet local needs.</p>
 
             <p data-lang-id="030-paragraph">There’s an added bonus. As we’re using the same resources that our neighbours have access to, they can copy us! As we all work with the same resources, we can learn from the trial and error of our neighbours, and they can learn from us. Sure and steady, our methods get better and greener. Since our shared resources come from nearby, we can also work together in the regrowth and management of resources.</p>
           
@@ -215,13 +215,12 @@
 		<div id="preclosed4">
 			<img src="../photos/earth-collab.jpg" width="100%" loading="lazy" alt="spiral earth and ecobrick bench">
 			<p data-lang-id="041-earth-ecobrick-methods">Earth and ecobrick building methods are designed from the ground up to be replicable, non-capital, non-petroleum, collaboration powered.</p>
-			<p data-lang-id="042-non-hierarchical-methods">Unlike conventional or commercial building methods, that require paying specialized architects, engineers and builders, every element of earth and ecobrick building is designed to be accessible to the participation and contribution of everyone in the community. These <i>transcaste</i> building methods are non hierarchical and readily involves all genders and ages in the various processes.</p>
+			<p data-lang-id="042-non-hierarchical-methods">Unlike conventional or commercial building methods, that require paying specialized architects, engineers and builders, every element of earth and ecobrick building is designed to be accessible to the participation and contribution of everyone in the community. These <i>transcaste</i> building methods are non-hierarchical and readily involves all genders and ages in the various processes.</p>
 			<p data-lang-id="043-mandalic-collaboration">In this way, rather than require machines and energy-intensive processes and materials, earth and ecobrick construction ideally are built by a community coming together using the principles of mandalic collaboration</p>.
 			<h5 data-lang-id="044-learn-more-mandalic">ℹ️ Learn more about our <a href="/mandalic">Mandalic Collaboration</a></h5>
 		</div>
 	</div>
 
-	<a name="LONGTERM"></a>
 	<div class="reg-content-block" id="block5">
 		<div class="opener-header">
 			<div class="opener-header-text">
@@ -243,7 +242,7 @@
 			<p data-lang-id="053-plastic-sequestration">We call this trajectory ‘plastic sequestration‘.</p>
 			<hr>
 			<br>
-			<h5 data-lang-id="054-learn-more-sequestration">ℹ️ Learn more about our <a href="/sequest.php">plastic sequestration</a></h5>
+			<h5 data-lang-id="054-learn-more-sequestration">ℹ️ Learn more about our <a href="sequest.php">plastic sequestration</a></h5>
 		</div>
 	</div>
 </section>
@@ -279,7 +278,7 @@
 			<br>
 			<div class="license">
 				<div class="license-image">
-					<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+					<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 				</div>
 				<div class="license-text">
 					<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="065-creative-commons">The GEA Ecobrick Construction Custodial Arrangement Contracts are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
@@ -306,7 +305,7 @@
 					<p data-lang-id="069-earth-methods">Earth methods are ideal when they completely cover ecobricks. This effectively inhibits plastic degradation through light, heat, fire, and friction.</p>
 				</div>
 				<div class="side2">
-					<img src="../photos/maintenance.jpg" width="90%">
+					<img src="../photos/maintenance.jpg" width="90%" alt="ecobrick maintenance">
 				</div>
 			</div>
 			<div class="row2">
@@ -314,7 +313,7 @@
 					<p data-lang-id="070-inhibiting-degradation">With the goal of inhibiting degradation pathways, we maintain our constructions:</p>
 				</div>
 				<div class="side3">
-					<img src="../photos/maintenance.jpg" width="150px">
+					<img src="../photos/maintenance.jpg" width="150px" alt="ecobrick maintenance">
 				</div>
 			</div>
 			<ul>
