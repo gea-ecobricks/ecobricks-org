@@ -42,6 +42,8 @@
                 <p data-lang-id="006-second-page-paragraph">With earth and ecobrick methods not only can we build beautiful, strong and resilient structures, we can secure our plastic out of industry and out of the biosphere. Such constructions, rather than result in emissions, actually avoid them, while absorbing physical carbon within them. This ensures that we are not just creating homes, but so too a common home for all the others with which we share ecosystem and biome.</p>
             </div>    
 
+
+
             <section id="WHAT-IS">
 
                 <div class="reg-content-block" id="block1">
@@ -358,6 +360,7 @@
 			</div>
 		</div>
 	</div>
+</section>
 	<br>
 	<div class="row">
 		<div class="main2">
@@ -374,10 +377,9 @@
 			<img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
 		</div>
 	</div>
-</section>
 
 
-</article>
+
 
 
 
@@ -400,7 +402,7 @@
 
             
 		</div>
-
+    </article>
 	</div>
 
 </div>
