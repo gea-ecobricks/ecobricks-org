@@ -1,8 +1,6 @@
-
 <?php
-//PART 1 of the code
-// process_training.php
-
+// PART 1 of the code
+// process_training2.php
 
 include '../ecobricks_env.php';
 
@@ -16,7 +14,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("<script>alert('Connection failed: " . $conn->connect_error . "');</script>");
+    die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next training?'); window.location.href = 'process_training.php?training_id=" . ($training_id + 1) . "';</script>");
 }
 
 // Prepare filters
@@ -50,7 +48,7 @@ $response = curl_exec($ch);
 // Check for cURL errors
 if ($response === false) {
     $error = curl_error($ch);
-    echo "<script>alert('Error fetching data from Knack API: " . addslashes($error) . "');</script>";
+    echo "<script>confirm('Error fetching data from Knack API: " . addslashes($error) . ". Do you want to proceed to the next training?'); window.location.href = 'process_training2.php?training_id=" . ($training_id + 1) . "';</script>";
     curl_close($ch);
     exit;
 }
@@ -67,137 +65,248 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
-// PART 2
+// PART 2: Data Retrieval and Database Insertion
 
-$data = json_decode($response, true);
-
-$record_found = false;
-$record_details = "";
-
-// Check if records were retrieved
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
     $errors = [];
 
     foreach ($data['records'] as $record) {
         if (isset($record['field_1361']) && $record['field_1361'] == $training_id) {
-
             $record_found = true;
+
             // Extract the necessary data from the Knack payload
-            $training_id = isset($record['field_1361']) ? $record['field_1361'] : '';
-            $training_title = isset($record['field_1084']) ? $record['field_1084'] : '';
-            $training_logged = isset($record['field_1085']) ? $record['field_1085'] : '';
-            $no_participants = isset($record['field_1091']) ? $record['field_1091'] : '';
-            $lead_trainer = isset($record['field_1093_raw']) && is_array($record['field_1093_raw']) ? $record['field_1093_raw'][0]['identifier'] : '';
-            $training_photo0_main = isset($record['field_1327_raw']) ? $record['field_1327_raw']['url'] : '';
-            $training_type = isset($record['field_1087']) ? $record['field_1087'] : '';
-            $briks_made = isset($record['field_1896']) ? $record['field_1896'] : '';
-            $est_plastic_packed = isset($record['field_1897']) ? $record['field_1897'] : '';
-            $location_full = isset($record['field_1114_raw']) && is_array($record['field_1114_raw']) ? $record['field_1114_raw'][0]['identifier'] : '';
-            $training_summary = isset($record['field_1362']) ? $record['field_1362'] : '';
-            $training_agenda = isset($record['field_1376']) ? $record['field_1376'] : '';
-            $training_success = isset($record['field_1377']) ? $record['field_1377'] : '';
-            $training_challenges = isset($record['field_1378']) ? $record['field_1378'] : '';
-            $training_lessons_learned = isset($record['field_1379']) ? $record['field_1379'] : '';
-            $training_photo1_main = isset($record['field_1328_raw']) ? $record['field_1328_raw']['url'] : '';
-            $training_photo2_main = isset($record['field_1329_raw']) ? $record['field_1329_raw']['url'] : '';
-            $training_photo3_main = isset($record['field_2179_raw']) ? $record['field_2179_raw']['url'] : '';
-            $training_photo4_main = $record['field_2178_raw']['url'] ?? '';
-            $training_photo5_main = $record['field_2180_raw']['url'] ?? '';
-            $training_photo6_main = $record['field_2181_raw']['url'] ?? '';
+            $training_id = $record['field_1361'] ?? '';
+            $training_title = $record['field_1084'] ?? '';
+            $training_date = $record['field_1085'] ?? '';
+            $no_participants = $record['field_1091'] ?? '';
+            $lead_trainer = isset($record['field_1093_raw'][0]['identifier']) ? $record['field_1093_raw'][0]['identifier'] : '';
+
+            $training_photo0_main = isset($record['field_1327_raw']['url']) ? $record['field_1327_raw']['url'] : '';
+            $training_type = $record['field_1087'] ?? '';
+            $briks_made = $record['field_1896'] ?? '';
+            $est_plastic_packed = $record['field_1897'] ?? '';
+
+            $training_location = isset($record['field_1124_raw'][0]['identifier']) ? $record['field_1124_raw'][0]['identifier'] : '';
+            $training_country = isset($record['field_1114_raw']) && is_array($record['field_1114_raw']) && !empty($record['field_1114_raw']) ? $record['field_1114_raw'][0]['identifier'] : '';
+            $training_summary = $record['field_1362'] ?? '';
+            $training_agenda = $record['field_1376'] ?? '';
+            $training_success = $record['field_1377'] ?? '';
+            $training_challenges = $record['field_1378'] ?? '';
+            $training_lessons_learned = $record['field_1379'] ?? '';
+            $training_photo1_main = isset($record['field_1328_raw']['url']) ? $record['field_1328_raw']['url'] : '';
+            $training_photo2_main = isset($record['field_1329_raw']['url']) ? $record['field_1329_raw']['url'] : '';
+            $training_photo3_main = isset($record['field_2179_raw']['url']) ? $record['field_2179_raw']['url'] : '';
+            $training_photo4_main = isset($record['field_2178_raw']['url']) ? $record['field_2178_raw']['url'] : '';
+            $training_photo5_main = isset($record['field_2180_raw']['url']) ? $record['field_2180_raw']['url'] : '';
+            $training_photo6_main = isset($record['field_2181_raw']['url']) ? $record['field_2181_raw']['url'] : '';
+
 
             // Check if the training ID already exists in the database
             $check_stmt = $conn->prepare("SELECT training_id FROM tb_trainings WHERE training_id = ?");
             $check_stmt->bind_param("s", $training_id);
             $check_stmt->execute();
             $check_stmt->store_result();
-            
+
             if ($check_stmt->num_rows > 0) {
                 $success = false;
                 $errors[] = "A record with Training ID $training_id already exists.";
             } else {
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_logged, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_photo3_main, training_photo4_main, training_photo5_main, training_photo6_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_date, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_photo3_main, training_photo4_main, training_photo5_main, training_photo6_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
-                    die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
+                    echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next training?')) { window.location.href = 'process_training2.php?training_id=" . ($training_id + 1) . "'; }</script>";
                 }
-                $stmt->bind_param("sssssssssssssssssssss", $training_id, $training_title, $training_logged, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_photo4_main, $training_photo5_main, $training_photo6_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
+                $stmt->bind_param("sssssssssssssssssssss", $training_id, $training_title, $training_date, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_photo4_main, $training_photo5_main, $training_photo6_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
                 // Execute statement
                 if (!$stmt->execute()) {
                     $success = false;
                     $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
                 }
-                
+
                 // Close the statement
                 $stmt->close();
             }
-            
+
             // Close the check statement
             $check_stmt->close();
-
-            // Collect record details for displaying in HTML
-            $record_details = "
-                <p><img src='$training_photo0_main' alt='Feature Photo 0' style='max-width: 400px;' title='$training_photo0_main' /></p>
-                <p><strong>Training ID:</strong> $training_id</p>
-                <p><strong>Training Title:</strong> $training_title</p>
-                <p><strong>Training Logged:</strong> $training_logged</p>
-                <p><strong>Number of Participants:</strong> $no_participants</p>
-                <p><strong>Lead Trainer:</strong> $lead_trainer</p>
-                <p><strong>Training Type:</strong> $training_type</p>
-                <p><strong>Briks Made:</strong> $briks_made</p>
-                <p><strong>Estimated Plastic Packed:</strong> $est_plastic_packed</p>
-                <p><strong>Location:</strong> $location_full</p>
-         
-
-                <p><strong>Training Summary:</strong> $training_summary</p>
-                <p><strong>Training Agenda:</strong> $training_agenda</p>
-                <p><strong>Training Success:</strong> $training_success</p>
-                <p><strong>Training Challenges:</strong> $training_challenges</p>
-                <p><strong>Training Lessons Learned:</strong> $training_lessons_learned</p>
-                <p><img src='$training_photo1_main' alt='Feature Photo 1' style='max-width: 400px;' title='$training_photo1_main' /></p>
-                <p><img src='$training_photo2_main' alt='Feature Photo 2' style='max-width: 400px;' title='$training_photo2_main' /></p>
-                <p><img src='$training_photo3_main' alt='Feature Photo 3' style='max-width: 400px;' title='$training_photo3_main' /></p>
-                <p><img src='$training_photo4_main' alt='Feature Photo 4' style='max-width: 400px;' title='$training_photo4_main' /></p>
-                <p><img src='$training_photo5_main' alt='Feature Photo 5' style='max-width: 400px;' title='$training_photo5_main' /></p>
-                <p><img src='$training_photo6_main' alt='Feature Photo 6' style='max-width: 400px;' title='$training_photo6_main' /></p>
-            ";
             break;
         }
     }
 
-    if ($record_found) {
-        if ($success) {
-            echo "<script>alert('Record added successfully.');</script>";
-        } else {
-            echo "<script>alert('Error: " . implode(", ", $errors) . "');</script>";
-        }
-    } else {
-        echo "<script>alert('No records found for the given Training ID.');</script>";
+    if (!$record_found) {
+        echo "<script>if(confirm('No records found for the given Training ID. Do you want to proceed to the next training?')) { window.location.href = 'process_training2.php?training_id=" . ($training_id + 1) . "'; }</script>";
+    } elseif (!$success) {
+        echo "<script>if(confirm('Error: " . implode(", ", $errors) . ". Do you want to proceed to the next training?')) { window.location.href = 'process_training2.php?training_id=" . ($training_id + 1) . "'; }</script>";
     }
 } else {
-    echo "<script>alert('No records found in the Knack database.');</script>";
+    echo "<script>if(confirm('No records found in the Knack database. Do you want to proceed to the next training?')) { window.location.href = 'process_training2.php?training_id=" . ($training_id + 1) . "'; }</script>";
 }
 
 
-//PART 3
-// Close the database connection
-$conn->close();
-?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Training Record Details</title>
-</head>
-<body>
-    <h1>Training Record Details</h1>
-    <?php
-    if ($record_found) {
-        echo $record_details;
+// PART 3: Image Processing
+$error_message = '';
+$full_urls = [];
+$thumbnail_paths = [];
+$main_file_sizes = [];
+$thumbnail_file_sizes = [];
+
+include '../project-photo-functions.php';
+
+$upload_dir = '../trainings/photos/';
+$thumbnail_dir = '../trainings/tmbs/';
+
+$db_fields = [];
+$db_values = [];
+$db_types = "";
+
+// List of training photo URLs
+$training_photos = [
+    $training_photo0_main,
+    $training_photo1_main,
+    $training_photo2_main,
+    $training_photo3_main,
+    $training_photo4_main,
+    $training_photo5_main,
+    $training_photo6_main
+];
+
+echo "<div class='message'>Starting image processing</div>";
+ob_flush(); flush();
+
+for ($i = 0; $i < 7; $i++) {
+    $photo_url = $training_photos[$i];
+    echo "<div class='message'>Processing photo $i: $photo_url</div>";
+    ob_flush(); flush();
+
+    if (!empty($photo_url)) {
+        $file_extension = strtolower(pathinfo($photo_url, PATHINFO_EXTENSION));
+        $new_file_name_webp = 'training-' . $training_id . '-' . $i . '.webp';
+        $targetPath = $upload_dir . $new_file_name_webp;
+
+        // Encode the URL to handle special characters
+        $encoded_url = str_replace(' ', '%20', $photo_url);
+
+        // Download the image using cURL
+        $ch = curl_init($encoded_url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Follow redirects
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL certificate verification (useful for testing)
+        $img = curl_exec($ch);
+        $curl_error = curl_error($ch);
+        curl_close($ch);
+
+        if ($img !== false) {
+            echo "<div class='message'>Image $i downloaded successfully</div>";
+            ob_flush(); flush();
+            $bytes_written = @file_put_contents($targetPath, $img);
+            if ($bytes_written !== false) {
+                $kb_written = $bytes_written / 1024;
+                echo "<div class='message'>Image $i saved successfully, {$kb_written} KB written to {$targetPath}</div>";
+                ob_flush(); flush();
+
+                if (resizeAndConvertTrainingToWebP($targetPath, $targetPath, 1020, 88)) {
+                    // Create thumbnail with height 200px while maintaining aspect ratio
+                    if (createTrainingThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 200, 77)) {
+                        echo "<div class='message'>Image $i resized and thumbnail created</div>";
+                        ob_flush(); flush();
+                        $full_urls[] = $targetPath;
+                        $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                        $main_file_sizes[] = filesize($targetPath) / 1024;
+                        $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
+
+                        array_push($db_fields, "training_photo" . $i . "_main", "training_photo" . $i . "_tmb");
+                        array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                        $db_types .= "ss";
+                    } else {
+                        $error_message .= "Failed to create thumbnail for image $i.<br>";
+                        echo "<div class='alert'>Failed to create thumbnail for image $i</div>";
+                        ob_flush(); flush();
+                    }
+                } else {
+                    $error_message .= "Error processing training image $i. Please try again.<br>";
+                    echo "<div class='alert'>Error processing training image $i</div>";
+                    ob_flush(); flush();
+                }
+            } else {
+                $error_message .= "Failed to save image $i to $targetPath.<br>";
+                echo "<div class='alert'>Failed to save image $i to $targetPath. Error: " . error_get_last()['message'] . "</div>";
+                ob_flush(); flush();
+            }
+        } else {
+            $error_message .= "Failed to download image from URL: $photo_url.<br>";
+            echo "<div class='alert'>Failed to download image $i from URL: $photo_url. Error: $curl_error</div>";
+            ob_flush(); flush();
+        }
     } else {
-        echo "<p>No record details to display.</p>";
+        echo "<div class='message'>No URL provided for image $i</div>";
+        ob_flush(); flush();
     }
-    ?>
-</body>
-</html>
+}
+
+// PART 4
+
+if (!empty($db_fields) && empty($error_message)) {
+    echo "<script>console.log('Updating database with new image data');</script>";
+
+    array_push($db_fields, "ready_to_show", "training_logged");
+    array_push($db_values, 1, date("Y-m-d H:i:s"));
+    $db_types .= "is";
+
+    $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+    $update_sql = "UPDATE tb_trainings SET {$fields_for_update} WHERE training_id = ?";
+    $db_values[] = $training_id;
+    $db_types .= "s";
+
+    echo "<script>console.log('SQL Query: " . addslashes($update_sql) . "');</script>";
+    echo "<script>console.log('Values: " . json_encode($db_values) . "');</script>";
+    echo "<script>console.log('Types: " . addslashes($db_types) . "');</script>";
+
+    // Check if the connection is still alive
+    echo "<script>console.log('Checking database connection');</script>";
+    if ($conn->ping()) {
+        echo "<script>console.log('Database connection is alive');</script>";
+    } else {
+        echo "<script>console.log('Database connection is not alive, attempting to reconnect');</script>";
+        $conn->close();
+        // Re-establish the database connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+
+        // Check connection again
+        if ($conn->connect_error) {
+            echo "<script>if(confirm('Reconnection failed: " . addslashes($conn->connect_error) . ". Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
+        } else {
+            echo "<script>console.log('Reconnected to the database');</script>";
+        }
+    }
+
+    $update_stmt = $conn->prepare($update_sql);
+    if ($update_stmt === false) {
+        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
+        echo "<script>if(confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
+    } else {
+        $update_stmt->bind_param($db_types, ...$db_values);
+
+        if (!$update_stmt->execute()) {
+            $error_message .= "Database update failed: " . $update_stmt->error;
+            echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
+            echo "<script>if(confirm('Database update failed: " . addslashes($update_stmt->error) . ". Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
+        } else {
+            echo "<script>console.log('Database updated successfully');</script>";
+        }
+        $update_stmt->close();
+    }
+}
+
+if (!empty($error_message)) {
+    http_response_code(400);
+    header('Content-Type: application/json');
+    echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
+    exit;
+} else {
+    echo "<script>if(confirm('Images processed and database updated successfully. Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
+    exit;
+}
+

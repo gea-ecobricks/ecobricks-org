@@ -14,7 +14,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next training?'); window.location.href = 'process_training2.php?training_id=" . ($training_id + 1) . "';</script>");
+    die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next training?'); window.location.href = 'process_training.php?training_id=" . ($training_id + 1) . "';</script>");
 }
 
 // Prepare filters

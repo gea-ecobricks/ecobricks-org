@@ -14,7 +14,7 @@ ini_set('display_errors', 1);?>
 <body>
     <h1>Retrieve Training from GoBrik v1.3</h1>
     <h4>Enter the training ID number your GoBrik posted workshop (see you trainer dashboard and list of completed training).  This tool will fetch the information from GoBrik and post your training to the Ecobricks.org main page gallery.  It will also generate a feature page for your training.</h4>
-    <form method="POST" action="process_training3.php">
+    <form method="POST" action="process_training.php">
         <label for="training_id">Training ID:</label>
         <input type="text" id="training_id" name="training_id" required>
         <input type="submit" value="Retrieve">
