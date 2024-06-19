@@ -61,18 +61,18 @@
 
             <div class="page-paragraph-reg">
 			    <br><br>
-                <h4 data-lang-id="xxx">How does it spread?</h4>
-                 <p data-lang-id="060-principles-acknowledgement">The Ecobrick movement is people powered– and fundamentally non-capital.  This means that no one gets paid to make an Ecobrick, and that all of the resources that the GEA offers, from our site, to our books, to our app, were manifested through collaboration that received no financial remuneration.  The tremendous amount of work that goes into making an Ecobrick, or for that matter developing our resources, is powered by much more potent motivations than capital.</p>
+                <h4 data-lang-id="010-header">How does it spread?</h4>
+                 <p data-lang-id="011-principles-acknowledgement">The Ecobrick movement is people powered– and fundamentally non-capital.  This means that no one gets paid to make an Ecobrick, and that all of the resources that the GEA offers, from our site, to our books, to our app, were manifested through collaboration that received no financial remuneration.  The tremendous amount of work that goes into making an Ecobrick, or for that matter developing our resources, is powered by much more potent motivations than capital.</p>
                 <br><br>
 
 
-                <h4 data-lang-id="xxx">How does it spread?</h4>
-                <p data-lang-id="060-principles-acknowledgement">The Ecobrick movement is people powered– and fundamentally non-capital.  This means that no one gets paid to make an Ecobrick, and that all of the resources that the GEA offers, from our site, to our books, to our app, were manifested through collaboration that received no financial remuneration.  The tremendous amount of work that goes into making an Ecobrick, or for that matter developing our resources, is powered by much more potent motivations than capital.</p>
+                <h4 data-lang-id="012-header">How does the movement work?</h4>
+                <p data-lang-id="013-principles-acknowledgement">Ecobricking is a low tech, virtually zero cost regenerative technology.  And so too are all the applications of ecobricks.  This is how we’ve designed it!  The dissemination of Ecobricks uses the principles of mandalaic collaboration.  Put simply, the intention is clear (let’s save the plastic from becoming pollution!), the collaboration is accessible (bottles and plastic are everywhere), and the way to collaborate is simple and clear (make an Ecobrick).  Consequently, anyone, anywhere can join the blossoming collaboration– or mandala– as we co-creatively unite in transcending plastic pollution once and for all.</p>
                 <br><br>
 
 
-                <h4 data-lang-id="xxx">How does it spread?</h4>
-                <p data-lang-id="060-principles-acknowledgement">The Ecobrick movement is people powered– and fundamentally non-capital.  This means that no one gets paid to make an Ecobrick, and that all of the resources that the GEA offers, from our site, to our books, to our app, were manifested through collaboration that received no financial remuneration.  The tremendous amount of work that goes into making an Ecobrick, or for that matter developing our resources, is powered by much more potent motivations than capital.</p>
+                <h4 data-lang-id="014-header">The role of the GEA</h4>
+                <p data-lang-id="015-principles-acknowledgement">The GEA is a not-for-profit, Earth Enterprise that supports the local and global ecobrick movement through the maintenance and development of resources, innovations and technology.  In particular, this website, our Vision Ecobrick publications, the GEA trainer network and the GoBrik application.  We’re here to hold the space for the unfolding dissemination of ecobricking and the raising of ecological consciousness that the spread entails.</p>
                 <br><br>
 
                 <p><a class="action-btn" href="about.php" data-lang-id="062-about-ayyew-action">🍃 About the GEA</a></p>
