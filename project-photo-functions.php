@@ -152,7 +152,6 @@ function resizeAndConvertToWebP($sourcePath, $targetPath, $maxDim, $compressionQ
 }
 
 
-
 // Function to resize original image to 1020px width and convert to WebP format
 function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $compressionQuality) {
     $fileType = strtolower(pathinfo($sourcePath, PATHINFO_EXTENSION));
@@ -173,6 +172,7 @@ function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $co
         $newHeight = $height;
     }
 
+    // Initialize image source
     $src = null;
     switch ($type) {
         case IMAGETYPE_JPEG:
@@ -182,35 +182,44 @@ function resizeAndConvertTrainingToWebP($sourcePath, $targetPath, $maxWidth, $co
             $src = imagecreatefrompng($sourcePath);
             break;
         default:
+            echo "<script>console.log('Unsupported image type');</script>";
             return false;
     }
 
     if ($src) {
+        // Create a true color image for the destination
         $dst = imagecreatetruecolor($newWidth, $newHeight);
+        imagealphablending($dst, false);
+        imagesavealpha($dst, true);
+
+        // Copy and resize the image
         imagecopyresampled($dst, $src, 0, 0, 0, 0, $newWidth, $newHeight, $width, $height);
 
         // Save the resized image as WebP
         if (imagewebp($dst, $targetPath, $compressionQuality)) {
-            // Log the new dimensions of the resized image
             echo "<script>console.log('Image resized to: {$newWidth}px x {$newHeight}px and saved to {$targetPath}');</script>";
         } else {
             echo "<script>console.log('Failed to save image as WebP');</script>";
+            imagedestroy($src);
+            imagedestroy($dst);
             return false;
         }
 
+        // Free up memory
         imagedestroy($src);
         imagedestroy($dst);
 
         // Verify the resized image
         list($newWidthVerified, $newHeightVerified) = getimagesize($targetPath);
         echo "<script>console.log('Verified resized dimensions: {$newWidthVerified}px x {$newHeightVerified}px');</script>";
-
     } else {
+        echo "<script>console.log('Failed to create image resource');</script>";
         return false;
     }
 
     return true;
 }
+
 
 
 
