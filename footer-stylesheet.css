@@ -22,7 +22,7 @@ migrated from Knack CSS
 
 .row {  
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     box-sizing: border-box;
   }
   
