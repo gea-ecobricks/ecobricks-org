@@ -40,6 +40,7 @@
             <p data-lang-id="005-first-page-paragraph">The Igorots, one of the few unconquered indigenous people of the South East Asia, have thrived for centuries in the remote mountains of Northern Luzon in the West Philippines Sea. While Spanish, Japanese and Americans colonized the remainder of the Philippines archipelago, they struggled in vain to dominate the various Igorot tribes that lived in the fertile valleys of the mountainous region.  However, lone explorers and anthropologists who reached the region were made welcome.  They documented a tapestry of fierce cultures that spun in profound sync with the ecological cycles of the region. To this day, the region is a hot bed of resistance to attempts to industrial projects that would tame ecological forces of the land.<p>
 
  <p data-lang-id="006-second-page-paragraph">While other cultures prided themselves on their paintings and sculpture, arms and architecture, the Igorots had their own art.  Like many other indigenous peoples around the world, the concept of waste does not exist in their language— and consequently in the world around them. Instead, their culture was guided by a virtue and concept known as <i>ayyew’</i></p>.
+            </div>
 
 
 
@@ -47,7 +48,11 @@
 
 
 
+                <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;border-radius:25px;">
+                    <img src="../photos/igorot-land.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;" loading="lazy">
+                </div>
 
+            <div class="page-paragraph">
             <br><br>
                 <h4 data-lang-id="058-ayyew-title">An ancient ecological ethos for our modern moment</h4>
 

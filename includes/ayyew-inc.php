@@ -103,8 +103,9 @@ ul {
     var chapName = "The Ayyew Ecological Ethos";
     var chaptURL = "ayyew.php"
 
-
-
+    window.onload = function() {
+        recreateHighlights();
+    }
 </script>
 
 
