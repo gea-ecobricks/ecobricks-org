@@ -10,11 +10,11 @@
 
 <!--BOOKNOTES PLUGIN-->
 
-<script src="https://api.earthen.io/booknotes/booknotes-curtain.js?v=3.3"></script>
+<script src="https://api.earthen.io/booknotes/booknotes-curtain.js?v=3.5"></script>
 
-<script src="https://api.earthen.io/booknotes/booknotes-scripts.js?v=3.3"></script>
+<script src="https://api.earthen.io/booknotes/booknotes-scripts.js?v=3.5"></script>
 
-<link rel="stylesheet" type="text/css" href="https://api.earthen.io/booknotes/booknotes-styles.css?v=3.3">
+<link rel="stylesheet" type="text/css" href="https://api.earthen.io/booknotes/booknotes-styles.css?v=3.5">
 
 
 
