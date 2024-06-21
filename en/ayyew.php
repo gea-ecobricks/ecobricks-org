@@ -55,17 +55,18 @@
 
                 <p>All aspects of Igorot life and culture are guided by the virtue of <i>ayyew</i>. Men, women, households and communities are admired and respected to the degree in which they embody the principle. Ayyew means to not just to be in sync with a cycle, but to tend to its spin.</p>
 
+                <p data-lang-id="059-regenerative-definition">Never  dominated by Spanish, Japanese or American colonialists, their fierce and wise ‘ayyew’ culture directly inspires and guides the ecobrick movement sweeping the globe. The ayyew concept guides the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>
 
-                <div class="row">
-                    <div class="main2">
-                        <p data-lang-id="059-regenerative-definition">Never  dominated by Spanish, Japanese or American colonialists, their fierce and wise ‘ayyew’ culture directly inspires and guides the ecobrick movement sweeping the globe. The ayyew concept guides the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>
-                    </div>
-
-                    <div class="side2" data-lang-id="078-side2-comparison">
-                        <br><img src="../photos/maligcong-rice-terraces-300x300.jpg" width="300" style="width:100%" alt="green igorot rice terraces" loading="lazy" data-lang-id="079-sustaining-vs-regenerative-alt">
-                        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="080-ecobricking-thousand-years">Maligcong Rice Terraces – Bontoc, Philippines</p>
-                    </div>
-                </div>
+<!--                <div class="row">-->
+<!--                    <div class="main2">-->
+<!--                        <p data-lang-id="059-regenerative-definition">Never  dominated by Spanish, Japanese or American colonialists, their fierce and wise ‘ayyew’ culture directly inspires and guides the ecobrick movement sweeping the globe. The ayyew concept guides the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="side2" data-lang-id="078-side2-comparison">-->
+<!--                        <br><img src="../photos/maligcong-rice-terraces-300x300.jpg" width="300" style="width:100%" alt="green igorot rice terraces" loading="lazy" data-lang-id="079-sustaining-vs-regenerative-alt">-->
+<!--                        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="080-ecobricking-thousand-years">Maligcong Rice Terraces – Bontoc, Philippines</p>-->
+<!--                    </div>-->
+<!--                </div>-->
 
 
                 <p data-lang-id="059-regenerative-definition">Phenomena such as ‘pollution’, ‘poverty’ and ‘exploitation’ also did not exist in their world prior to the arrival of European explorers. Never  dominated by Spanish, Japanese or American colonialists, their fierce and wise ‘Ayyew’ culture directly inspires and guides the ecobrick movement sweeping the globe. We consciously adapt the term to summarize and qualify the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>

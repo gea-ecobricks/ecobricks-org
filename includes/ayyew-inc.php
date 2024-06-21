@@ -92,6 +92,20 @@ ul {
 
 
 
-</style>	
+</style>
+
+
+<script>
+    // Declare the global variables
+    var lang = "en";
+    var book = "Ecobricks.org";
+    var chapNo = "2";
+    var chapName = "The Ayyew Ecological Ethos";
+    var chaptURL = "ayyew.php"
+
+
+
+</script>
+
 
 <?php require_once ("../header-2024.php");?>
