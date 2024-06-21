@@ -42,7 +42,6 @@
 <!--                <p data-lang-id="006-second-page-paragraph">While other cultures prided themselves on their paintings and sculpture, arms and architecture, the Igorots had their own art.  Like many other indigenous peoples around the world, the concept of waste does not exist in their language— and consequently in the world around them. Instead, their culture was guided by a virtue and concept known as <i>ayyew’</i></p>.-->
 
 
-            </div>
 
 
 		<!--PAGE CONTENT--->
@@ -51,7 +50,6 @@
 
 
             <br><br>
-            <div class="page-paragraph">
                 <h4 data-lang-id="058-ayyew-title">An ancient ecological ethos for our modern moment</h4>
 
 

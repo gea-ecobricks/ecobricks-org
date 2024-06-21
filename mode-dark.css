@@ -62,8 +62,36 @@
 
 --slider: #18181a;
   --header-footer: #27272c;
-  --deeper-accent-color: #17181B ;
+  --deeper-accent-color: #17181B;
+  --drop-cap: rgb(200, 200, 200);
 
+  #booknotes-curtain {
+    background: url(svgs/tractatus-mandala-full-grey.svg) center no-repeat;
+    background-size: 30%;
+    background-color: var(--slider);
+    color: var(--drop-cap);
+  }
+
+
+  .virtue img {
+    filter: invert(100%);
+  }
+
+
+  #book-box a  {
+    background: url(svgs/content-arrow-night.svg) left center no-repeat  var(--header-footer);
+    background-size: 30px !important;
+    background-position-x: 18px !important;
+    border:  var(--thin-border-color);
+
+  }
+
+  #book-box a:hover {
+    background: url(svgs/content-arrow-45-night.svg) left center no-repeat var(--deeper-accent-color);
+    background-size: 30px !important;
+    background-position-x: 18px !important;
+
+  }
 
 
 

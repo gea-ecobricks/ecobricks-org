@@ -61,8 +61,29 @@
        --deeper-accent-color: rgb(225, 225, 225) ;
        --slider: rgb(228, 228, 228);
        --header-footer: #e7e7e7;
-  
+       --drop-cap: rgb(63, 63, 63);
 
+
+       #booknotes-curtain {
+           background: url(svgs/tractatus-mandala-full-light-grey.svg) center no-repeat;
+           background-size: contain;
+           background-color: var(--slider);
+       }
+
+       #book-box a {
+
+           background: url(svgs/content-arrow.svg) left center no-repeat var(--background-color);
+           background-size: 30px;
+           background-position-x: 18px;
+       }
+
+       #book-box a:hover {
+
+           background: url(svgs/content-arrow-45.svg) left center no-repeat var(--deeper-accent-color);
+           background-size: 30px;
+           background-position-x: 18px;
+       ;
+       }
 
 
 
@@ -216,7 +237,7 @@
 }
 
 .vision-landscape {
-  background: url(svgs/ocean-footer-day.svg?v=2) no-repeat bottom;
+  background: url(svgs/ocean-footer-day.svg?v=3) no-repeat bottom;
   background-size: cover;
   /* background-color: #10ffff; */
   
