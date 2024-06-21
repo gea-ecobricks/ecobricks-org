@@ -1,6 +1,5 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Ayyew | An ancient ecological ethos for our modern moment</title>
 <meta name="keywords" content="Ecobricks, Ayyew, Sustainability, Plastic Sequestration, Regenerative Principles, Igorot, Northern Philippines, Ecological Harmony, Waste Management, Indigenous Wisdom, Plastic Pollution, Eco-friendly Building, Community Development, Green Technology, Cradle-to-Cradle, Circular Design, Environmental Conservation, Global Ecobrick Alliance, Regenerative Design, Cultural Heritage, Green Spaces, Biodegradable, Local Solutions, Recycle, Ecological Impact, Green Living, Sustainable Practices, Natural Cycles, Eco-Consciousness, Earth Care">
 
 <meta name="description" content="The Asian ecobrick movement emerged from land of the Igorot people and is deeply inspired by their ancient ancestral wisdom and Ayyew virtue.">

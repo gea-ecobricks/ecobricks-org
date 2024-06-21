@@ -56,7 +56,14 @@
   --table-background-hover: #333333;
 
   --table-background-heading: #0868AD;
- 
+
+
+/* BOOKNOTES */
+
+--slider: #18181a;
+  --header-footer: #27272c;
+  --deeper-accent-color: #17181B ;
+
 
 
 
@@ -497,3 +504,11 @@ background-size: contain;
   background-size: contain;
 
 } */
+
+
+#booknotes-curtain {
+  background: url(svgs/tractatus-mandala-full-grey.svg) center no-repeat;
+  background-size: 30%;
+  background-color: var(--slider);
+  color: var(--drop-cap);
+}
