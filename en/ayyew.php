@@ -104,6 +104,7 @@
             <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="077-learn-indigenous-wisdom">The full ayyew inspired principles of the ecobrick movement</p>
 
             </div>
+        </div>
 
 		</DIV>  <!--main close-->
 		
