@@ -66,7 +66,7 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=1<?php echo ($version); ;?>">
+<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
 <link rel="stylesheet" type="text/css" href="../subscription-stylesheet.css?v=<?php echo ($version); ;?>">
 
 
