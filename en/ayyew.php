@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.02';?>
+<?php $version='2.04';?>
 <?php $page='ayyew';?>
 
 <title>Ayyew | An ancient ecological ethos for our modern moment</title>

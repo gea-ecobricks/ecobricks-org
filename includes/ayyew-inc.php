@@ -14,7 +14,7 @@
 
 <script src="https://api.earthen.io/booknotes/booknotes-scripts.js"></script>
 
-<link rel="stylesheet" type="text/css" href="https://api.earthen.io/booknotes/booknotes-styles.css">
+<link rel="stylesheet" type="text/css" href="https://api.earthen.io/booknotes/booknotes-styles.css?v=2">
 
 
 
@@ -46,7 +46,7 @@ ul {
 
 	}
 
-  .splash-heading h1{
+  .splash-heading {
     font-size: 2.5em  !important;
 }
 
@@ -64,8 +64,8 @@ ul {
 		background-color: #088408;
     	
 }
-.splash-heading h1 {
-    font-size: 3.4em  !important;
+.splash-heading {
+    font-size: 2.5em;
 }
 
   .splash-sub{
