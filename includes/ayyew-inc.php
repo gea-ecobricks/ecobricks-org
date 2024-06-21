@@ -10,7 +10,7 @@
 
 <!--BOOKNOTES PLUGIN-->
 
-<script src="https://api.earthen.io/booknotes/booknotes-curtain.js?v=3.5"></script>
+<script src="https://api.earthen.io/booknotes/booknotes-curtain.js?v=3.6"></script>
 
 <script src="https://api.earthen.io/booknotes/booknotes-scripts.js?v=3.5"></script>
 
