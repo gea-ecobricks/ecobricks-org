@@ -286,33 +286,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             trainingLocationField.style.display = 'none';
 
             // Function to show or hide fields based on the dropdown selection
-            function toggleFields() {
-                var trainingSort = document.getElementById("training_sort").value;
-
-                // Reset visibility
-                communityField.style.display = 'none';
-                trainingTypeField.style.display = 'none';
-                trainingLocationField.style.display = 'none';
-
-                if (trainingSort === "community") {
-                    communityField.style.display = '';
-                } else if (trainingSort === "personal") {
-                    trainingTypeField.style.display = '';
-                }
-
-                // Show connected ecobricks and project duration fields if a project sort is selected
-                if (trainingSort === "community" || trainingSort === "personal") {
-                    trainingLocationField.style.display = '';
-                }
-
-                // Dynamically adjust the max-height for the advanced box content
-                const advancedBoxContent = document.querySelector('.advanced-box-content');
-                advancedBoxContent.style.maxHeight = advancedBoxContent.scrollHeight + "px";
-            }
-
-            // Add change event listener to the training sort dropdown
-            document.getElementById("training_sort").addEventListener("change", toggleFields);
-        });
+        //     function toggleFields() {
+        //         var trainingSort = document.getElementById("training_sort").value;
+        //
+        //         // Reset visibility
+        //         communityField.style.display = 'none';
+        //         trainingTypeField.style.display = 'none';
+        //         trainingLocationField.style.display = 'none';
+        //
+        //         if (trainingSort === "community") {
+        //             communityField.style.display = '';
+        //         } else if (trainingSort === "personal") {
+        //             trainingTypeField.style.display = '';
+        //         }
+        //
+        //         // Show connected ecobricks and project duration fields if a project sort is selected
+        //         if (trainingSort === "community" || trainingSort === "personal") {
+        //             trainingLocationField.style.display = '';
+        //         }
+        //
+        //         // Dynamically adjust the max-height for the advanced box content
+        //         const advancedBoxContent = document.querySelector('.advanced-box-content');
+        //         advancedBoxContent.style.maxHeight = advancedBoxContent.scrollHeight + "px";
+        //     }
+        //
+        //     // Add change event listener to the training sort dropdown
+        //     document.getElementById("training_sort").addEventListener("change", toggleFields);
+        // });
 
         //SHOW HIDE THE ADVANCED BOX
         function toggleAdvancedBox(event) {
