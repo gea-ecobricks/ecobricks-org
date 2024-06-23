@@ -275,15 +275,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <script>
         //TOGGLE COMMUNITY OR PERSONAL PROJECT SORT FIELDS
-        document.addEventListener("DOMContentLoaded", function() {
-            // Initially hide all additional fields
-            const communityField = document.getElementById("trained_community").parentNode;
-            const trainingTypeField = document.getElementById("training_type").parentNode;
-            const trainingLocationField = document.getElementById("training_location").parentNode;
-
-            communityField.style.display = 'none';
-            trainingTypeField.style.display = 'none';
-            trainingLocationField.style.display = 'none';
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     // Initially hide all additional fields
+        //     const communityField = document.getElementById("trained_community").parentNode;
+        //     const trainingTypeField = document.getElementById("training_type").parentNode;
+        //     const trainingLocationField = document.getElementById("training_location").parentNode;
+        //
+        //     communityField.style.display = 'none';
+        //     trainingTypeField.style.display = 'none';
+        //     trainingLocationField.style.display = 'none';
 
             // Function to show or hide fields based on the dropdown selection
         //     function toggleFields() {
