@@ -12,7 +12,7 @@ $thumbnail_file_sizes = [];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     $training_id = $_POST['training_id'];
-    include '../training-photo-functions.php';
+    include '../project-photo-functions.php';
 
 
     // Handle training deletion
@@ -118,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
         <div class="form-container" id="upload-photo-form">
 
             <div class="step-graphic" style="width:fit-content;margin:auto;">
-                <img src="../svgs/step2-log-training.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
+                <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
             </div>
 
             <div class="splash-form-content-block">

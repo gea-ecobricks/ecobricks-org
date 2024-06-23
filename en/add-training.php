@@ -7,7 +7,7 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    include '../training-photo-functions.php'; // Ensure this path is correct
+    include '../project-photo-functions.php'; // Ensure this path is correct
 
     $location_full = $_POST['location_address'] ?? 'Default Location';
     $training_title = $_POST['training_title'];
@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="form-container">
             <div class="form-top-header" style="display:flex;flex-flow:row;">
                 <div class="step-graphic" style="width:fit-content;margin:auto;margin-left:0px">
-                    <img src="../svgs/step1-log-training.svg" style="height:25px;">
+                    <img src="../svgs/step1-log-project.svg" style="height:25px;">
                 </div>
                 <div id="language-code" onclick="showLangSelector()" aria-label="Switch languages"><span data-lang-id="000-language-code">🌐 EN</span></div>
             </div>
@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="splash-heading" data-lang-id="001-splash-title">Post a Training</div>
                 </div>
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
-                    <img src="../svgs/training-methods.svg" style="width:65%" alt="There are many ways to conduct training with ecobricks">
+                    <img src="../svgs/shanti.svg" style="width:65%" alt="There are many ways to conduct training with ecobricks">
                 </div>
             </div>
 
