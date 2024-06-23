@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $location_full = $_POST['location_address'] ?? 'Default Location';
     $training_title = $_POST['training_title'];
     $training_date = $_POST['training_date'];
-    $training_logged = $_POST['training_logged'];
+    $training_logged = $_POST['training_logged']; //not being used til next page
     $no_participants = $_POST['no_participants'];
     $lead_trainer = $_POST['lead_trainer'];
     $trained_community = $_POST['trained_community'] ?? '';
@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $training_success = $_POST['training_success'];
     $training_challenges = $_POST['training_challenges'];
     $training_lessons_learned = $_POST['training_lessons_learned'];
-    $ready_to_show = $_POST['ready_to_show'];
+    $ready_to_show = $_POST['ready_to_show']; //not being used til next page
 
     $sql = "INSERT INTO tb_trainings (training_title, training_date, training_logged, no_participants, lead_trainer, trained_community, training_type, briks_made, avg_brik_weight, location_lat, location_long, connected_ecobricks, training_country, training_location, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned, ready_to_show) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
@@ -397,9 +397,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             var trainingDate = document.getElementById('training_date').value.trim();
             displayError('date-error-required', trainingDate === '');
 
-            // 3. Training Logged Validation
-            var trainingLogged = document.getElementById('training_logged').value.trim();
-            displayError('logged-error-required', trainingLogged === '');
+            // // 3. Training Logged Validation
+            // var trainingLogged = document.getElementById('training_logged').value.trim();
+            // displayError('logged-error-required', trainingLogged === '');
 
             // 4. Number of Participants Validation
             var noParticipants = parseInt(document.getElementById('no_participants').value, 10);
@@ -518,8 +518,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             });
 
             $('#submit-form').on('submit', function() {
-                console.log('Location Full:', $('#location_address').val());
-                alert('Location Full: ' + $('#location_address').val());
+                // console.log('Location Full:', $('#location_address').val());
+                // alert('Location Full: ' + $('#location_address').val());
             });
 
         });
