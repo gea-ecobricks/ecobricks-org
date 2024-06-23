@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <div class="splash-form-content-block">
                 <div class="splash-box">
-                    <div class="splash-heading" data-lang-id="001-splash-title">Post a Training</div>
+                    <div class="splash-heading" data-lang-id="001-splash-title">Post a GEA Training</div>
                 </div>
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
                     <img src="../svgs/shanti.svg" style="width:65%" alt="There are many ways to conduct training with ecobricks">
@@ -94,7 +94,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
 
             <div class="lead-page-paragraph">
-                <p data-lang-id="004-form-description">Share your ecobrick training with the world. Use this form to post your completed ecobricks training session onto ecobricks.org. Trainings will be featured on our main page and archived in our database.</p>
+                <p data-lang-id="004-form-description">Share your ecobrick training with the world. Use this form to post your completed workshop onto ecobricks.org. Trainings will be featured on our main page and archived in our trainings database.</p>
             </div>
             <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate>
 
@@ -119,21 +119,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
 
                 <div class="form-item">
-                    <label for="training_logged" data-lang-id="005-training-logged">Date Logged:</label><br>
-                    <input type="date" id="training_logged" name="training_logged" aria-label="Training Logged" required>
-                    <p class="form-caption" data-lang-id="005-training-logged-caption">Please provide the date the training was logged.</p>
-
-                    <!--ERRORS-->
-                    <div id="logged-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-                </div>
-
-                <div class="form-item">
                     <label for="no_participants" data-lang-id="009-participants">Number of Participants:</label><br>
                     <input type="number" id="no_participants" name="no_participants" aria-label="Number of Participants" min="1" max="5000" required>
                     <p class="form-caption" data-lang-id="009-participants-caption">Please enter a number of participants between 1-5000.</p>
                     <!--ERRORS-->
                     <div id="participants-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-                    <div id="participants-error-range" class="form-field-error" data-lang-id="000-field-participants-number-error">Just a number (between 1 and 5000).</div>
+                    <div id="participants-error-range" class="form-field-error" data-lang-id="000-field-participants-number-error">A number (between 1 and 5000).</div>
                 </div>
 
                 <div class="form-item">
@@ -153,12 +144,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
 
                 <div class="form-item">
-                    <label for="training_type" data-lang-id="011-training-type">Type of Training:</label><br>
+                    <label for="training_type" data-lang-id="011-training-type">What type of training was this?</label><br>
                     <select id="training_type" name="training_type" aria-label="Training Type" required>
                         <option value="" disabled="" selected="" data-lang-id="011-select">Select training type...</option>
-                        <option value="module" data-lang-id="011-module">Module</option>
-                        <option value="workshop" data-lang-id="011-workshop">Workshop</option>
-                        <option value="community training" data-lang-id="011-community-training">Community Training</option>
+                        <option value="Online Starter Workshop" data-lang-id="011-online-starter">Online Starter Workshop</option>
+                        <option value="Local Starter Workshop" data-lang-id="012-local-starter">Local Starter Workshop</option>
+                        <option value="Online Training of Trainers" data-lang-id="013-online-tot">Online Training of Trainers</option>
+                        <option value="Local Training of Trainers" data-lang-id="014-local-tot">Local Training of Trainers</option>
+                        <option value="Earth & Ecobrick Starter Workshop" data-lang-id="015-earth-starter">Earth & Ecobrick Starter Workshop</option>
+                        <option value="Earth & Ecobrick Starter Training of Trainers" data-lang-id="016-earth-tot">Earth & Ecobrick Starter Training of Trainers</option>
+                        <option value="Academic Lecture" data-lang-id="017-academic">Academic Lecture</option>
+                        <option value="Official GEA Presentation" data-lang-id="018-offical-gea">Official GEA Presentation</option>
+
                         <option value="other" data-lang-id="011-other">Other</option>
                     </select>
                     <br><br>
@@ -167,7 +164,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
 
                 <div class="form-item">
-                    <label for="briks_made" data-lang-id="009-briks-made">Bricks Made:</label><br>
+                    <label for="briks_made" data-lang-id="009-briks-made">How many ecobricks were made during this training?</label><br>
                     <input type="number" id="briks_made" name="briks_made" aria-label="Bricks Made" min="1" max="5000" required>
                     <p class="form-caption" data-lang-id="009-briks-made-caption">Please enter a number of bricks made between 1-5000.</p>
                     <!--ERRORS-->
@@ -176,7 +173,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
 
                 <div class="form-item">
-                    <label for="avg_brik_weight" data-lang-id="010-avg-brik-weight">Average Brick Weight (grams):</label><br>
+                    <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>
+                    <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">
+                    <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
+                    <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
+                </div>
+
+                <div class="form-item">
+                    <label for="avg_brik_weight" data-lang-id="010-avg-brik-weight">What was the average weight of ecobricks made during this training in grams? (if no ecobricks were made, leave blank)</label><br>
                     <input type="number" id="avg_brik_weight" name="avg_brik_weight" aria-label="Average Brick Weight" min="100" max="2000">
                     <p class="form-caption" data-lang-id="010-avg-brik-weight-caption">Optional: Just a number (between 100 and 2000).</p>
                     <!--ERRORS-->
@@ -184,7 +188,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
 
                 <div class="form-item">
-                    <label for="training_country" data-lang-id="011-training-country">Country:</label><br>
+                    <label for="training_country" data-lang-id="011-training-country">In what country was this workshop held?:</label><br>
                     <input type="text" id="training_country" name="training_country" aria-label="Training Country" required>
                     <p class="form-caption" data-lang-id="011-training-country-caption">Please provide the country where the training was conducted.</p>
                     <!--ERRORS-->
@@ -196,7 +200,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input type="text" id="training_location" name="training_location" aria-label="Training Location" required>
                     <p class="form-caption" data-lang-id="015-location-caption">Please provide the general location where the training was conducted.</p>
                     <!--ERRORS-->
-                    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.  For online workshops, specify the country of the lead trainer.</div>
                 </div>
 
                 <div class="form-item">
@@ -212,8 +216,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 <div class="form-item">
                     <label for="training_agenda" data-lang-id="005-training-agenda">Training Agenda:</label><br>
-                    <textarea id="training_agenda" name="training_agenda" aria-label="Training Agenda" title="Required. Max 150 words"></textarea>
-                    <p class="form-caption" data-lang-id="005-training-agenda-caption">Optional: Take as much space as you need to share the full details of your training agenda. Max 1000 words.</p>
+                    <textarea id="training_agenda" name="training_agenda" aria-label="Training Agenda" title="Optional. Max 150 words"></textarea>
+                    <p class="form-caption" data-lang-id="005-training-agenda-caption">Optional: Please layout the agenda that your training followed. Max 1000 words.</p>
 
                     <!--ERRORS-->
                     <div id="agenda-error-long" class="form-field-error" data-lang-id="000-long-field-too-long-error">Your training agenda is too long. Maximum 2000 characters.</div>
@@ -222,40 +226,52 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="form-item">
                     <label for="training_success" data-lang-id="005-training-success">Training Successes:</label><br>
                     <textarea id="training_success" name="training_success" aria-label="Training Successes" title="Required. Max 150 words" required></textarea>
-                    <p class="form-caption" data-lang-id="005-training-success-caption">Share the successes of the training. Max 150 words. Avoid special characters.</p>
+                    <p class="form-caption" data-lang-id="005-training-success-caption">Share the successes of the training. Max 500 words. Avoid special characters.</p>
 
                     <!--ERRORS-->
                     <div id="success-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-                    <div id="success-error-long" class="form-field-error" data-lang-id="000-field-success-too-long-error">Your training successes are too long. Max 255 characters.</div>
+                    <div id="success-error-long" class="form-field-error" data-lang-id="000-field-success-too-long-error">Your entry is too long. Max 2000 characters.</div>
                     <div id="success-error-invalid" class="form-field-error" data-lang-id="005b-training-success-error">Your entry contains invalid characters. Avoid quotes, slashes, and greater-than signs.</div>
                 </div>
 
                 <div class="form-item">
                     <label for="training_challenges" data-lang-id="005-training-challenges">Training Challenges:</label><br>
                     <textarea id="training_challenges" name="training_challenges" aria-label="Training Challenges" title="Required. Max 150 words" required></textarea>
-                    <p class="form-caption" data-lang-id="005-training-challenges-caption">Share the challenges of the training. Max 150 words. Avoid special characters.</p>
+                    <p class="form-caption" data-lang-id="005-training-challenges-caption">Share the challenges you faced leading your training. Max 500 words. Avoid special characters.</p>
 
                     <!--ERRORS-->
                     <div id="challenges-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-                    <div id="challenges-error-long" class="form-field-error" data-lang-id="000-field-challenges-too-long-error">Your training challenges are too long. Max 255 characters.</div>
+                    <div id="challenges-error-long" class="form-field-error" data-lang-id="000-field-challenges-too-long-error">Your entry is too long. Max 1500 characters.</div>
                     <div id="challenges-error-invalid" class="form-field-error" data-lang-id="005b-training-challenges-error">Your entry contains invalid characters. Avoid quotes, slashes, and greater-than signs.</div>
                 </div>
 
                 <div class="form-item">
                     <label for="training_lessons_learned" data-lang-id="005-training-lessons-learned">Lessons Learned:</label><br>
                     <textarea id="training_lessons_learned" name="training_lessons_learned" aria-label="Lessons Learned" title="Required. Max 150 words" required></textarea>
-                    <p class="form-caption" data-lang-id="005-training-lessons-learned-caption">Share the lessons learned from the training. Max 150 words. Avoid special characters.</p>
+                    <p class="form-caption" data-lang-id="005-training-lessons-learned-caption">Share the lessons learned from leading your training. Max 1000 words. Avoid special characters.</p>
 
                     <!--ERRORS-->
                     <div id="lessons-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
-                    <div id="lessons-error-long" class="form-field-error" data-lang-id="000-field-lessons-too-long-error">Your lessons learned are too long. Max 255 characters.</div>
+                    <div id="lessons-error-long" class="form-field-error" data-lang-id="000-field-lessons-too-long-error">Your lessons learned are too long. Max 3000 characters.</div>
                     <div id="lessons-error-invalid" class="form-field-error" data-lang-id="005b-training-lessons-error">Your entry contains invalid characters. Avoid quotes, slashes, and greater-than signs.</div>
                 </div>
 
+<!--                <div class="form-item">-->
+<!--                    <label for="ready_to_show" data-lang-id="017-ready-to-show">Publish this training publically on ecobricks.org?</label><br>-->
+<!--                    <input type="checkbox" id="ready_to_show" name="ready_to_show" aria-label="Ready to Show">-->
+<!--                    <p class="form-caption" data-lang-id="017-ready-to-show-caption">Check if this training is ready to be shown to the public.  If so it will be posted on the training feed on ecobricks.org and in our archive of completed trainings.</p>-->
+<!--                </div>-->
+
                 <div class="form-item">
-                    <label for="ready_to_show" data-lang-id="017-ready-to-show">Ready to Show:</label><br>
-                    <input type="checkbox" id="ready_to_show" name="ready_to_show" aria-label="Ready to Show">
-                    <p class="form-caption" data-lang-id="017-ready-to-show-caption">Check if this training is ready to be shown to the public.</p>
+                    <label for="location_address" data-lang-id="015-location">If this was a local training, please let us know where it was locate.</label><br>
+                    <div class="input-container">
+                        <input type="text" id="location_address" name="location_address" aria-label="Training Location" placeholder="Start typing your town..." required>
+                        <div id="loading-spinner" class="spinner" style="display: none;"></div>
+                    </div>
+                    <p class="form-caption" data-lang-id="016-location-caption">For privacy, please don't use the exact address. Choose the general neighbourhood or town. Training locations will be shown publicly.</p>
+
+                    <!--ERRORS-->
+<!--                    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>-->
                 </div>
 
                 <input type="hidden" id="lat" name="latitude">
@@ -274,6 +290,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <script>
+
+
         //TOGGLE COMMUNITY OR PERSONAL PROJECT SORT FIELDS
         // document.addEventListener("DOMContentLoaded", function() {
         //     // Initially hide all additional fields
@@ -314,39 +332,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //     document.getElementById("training_sort").addEventListener("change", toggleFields);
         // });
 
-        //SHOW HIDE THE ADVANCED BOX
-        function toggleAdvancedBox(event) {
-            // Get the current advanced box based on the clicked header
-            let currentAdvancedBox = event.currentTarget.parentElement;
-
-            // Assuming the element that will have the `aria-expanded` attribute is the header itself
-            let header = currentAdvancedBox.querySelector('.advanced-box-header');
-
-            // Find the content and icon specific to this advanced box
-            let content = currentAdvancedBox.querySelector('.advanced-box-content');
-            let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
-
-            // Check if the content is currently expanded or not
-            let isExpanded = header.getAttribute('aria-expanded') === 'true';
-
-            if (!isExpanded) {
-                content.style.maxHeight = content.scrollHeight + 'px'  //   Set to its full height
-                icon.textContent = '−';  // switch to minus symbol for an open state
-                header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
-            } else {
-                content.style.maxHeight = '0px';  // Collapse it
-                icon.textContent = '+';  // Set to plus symbol
-                header.setAttribute('aria-expanded', 'false'); // Update aria-expanded to false
-            }
-        }
+        // //SHOW HIDE THE ADVANCED BOX
+        // function toggleAdvancedBox(event) {
+        //     // Get the current advanced box based on the clicked header
+        //     let currentAdvancedBox = event.currentTarget.parentElement;
+        //
+        //     // Assuming the element that will have the `aria-expanded` attribute is the header itself
+        //     let header = currentAdvancedBox.querySelector('.advanced-box-header');
+        //
+        //     // Find the content and icon specific to this advanced box
+        //     let content = currentAdvancedBox.querySelector('.advanced-box-content');
+        //     let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
+        //
+        //     // Check if the content is currently expanded or not
+        //     let isExpanded = header.getAttribute('aria-expanded') === 'true';
+        //
+        //     if (!isExpanded) {
+        //         content.style.maxHeight = content.scrollHeight + 'px'  //   Set to its full height
+        //         icon.textContent = '−';  // switch to minus symbol for an open state
+        //         header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
+        //     } else {
+        //         content.style.maxHeight = '0px';  // Collapse it
+        //         icon.textContent = '+';  // Set to plus symbol
+        //         header.setAttribute('aria-expanded', 'false'); // Update aria-expanded to false
+        //     }
+        // }
 
         // Attach the function to all header div's click events
-        document.addEventListener("DOMContentLoaded", function() {
-            let headers = document.querySelectorAll('.advanced-box-header');
-            headers.forEach(header => {
-                header.addEventListener('click', toggleAdvancedBox);
-            });
-        });
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     let headers = document.querySelectorAll('.advanced-box-header');
+        //     headers.forEach(header => {
+        //         header.addEventListener('click', toggleAdvancedBox);
+        //     });
+        // });
 
         document.getElementById('submit-form').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent the form from submitting until validation is complete
@@ -417,8 +435,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // 12. Training Summary Validation
             var trainingSummary = document.getElementById('training_summary').value.trim();
-            displayError('summary-error-required', trainingSummary === '');
-            displayError('summary-error-long', trainingSummary.length > 255);
+            displayError('summary-error-long', trainingSummary.length > 2000);
             displayError('summary-error-invalid', hasInvalidChars(trainingSummary));
 
             // 13. Training Agenda Validation
@@ -427,20 +444,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // 14. Training Success Validation
             var trainingSuccess = document.getElementById('training_success').value.trim();
-            displayError('success-error-required', trainingSuccess === '');
-            displayError('success-error-long', trainingSuccess.length > 255);
+            displayError('success-error-long', trainingSuccess.length > 2000);
             displayError('success-error-invalid', hasInvalidChars(trainingSuccess));
 
             // 15. Training Challenges Validation
             var trainingChallenges = document.getElementById('training_challenges').value.trim();
-            displayError('challenges-error-required', trainingChallenges === '');
-            displayError('challenges-error-long', trainingChallenges.length > 255);
+            displayError('challenges-error-long', trainingChallenges.length > 2000);
             displayError('challenges-error-invalid', hasInvalidChars(trainingChallenges));
 
             // 16. Lessons Learned Validation
             var trainingLessonsLearned = document.getElementById('training_lessons_learned').value.trim();
-            displayError('lessons-error-required', trainingLessonsLearned === '');
-            displayError('lessons-error-long', trainingLessonsLearned.length > 255);
+            displayError('lessons-error-long', trainingLessonsLearned.length > 2000);
             displayError('lessons-error-invalid', hasInvalidChars(trainingLessonsLearned));
 
             // If all validations pass, submit the form
@@ -504,8 +518,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             });
 
             $('#submit-form').on('submit', function() {
-                // console.log('Location Full:', $('#location_address').val());
-                // alert('Location Full: ' + $('#location_address').val());
+                console.log('Location Full:', $('#location_address').val());
+                alert('Location Full: ' + $('#location_address').val());
             });
 
         });
