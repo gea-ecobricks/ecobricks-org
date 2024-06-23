@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     }
 
     if (!empty($db_fields) && empty($error_message)) {
-        array_push($db_fields, "logged_ts");
+        array_push($db_fields, "training_logged");
         array_push($db_values, date("Y-m-d H:i:s"));
         $db_types .= "s";
 
@@ -190,7 +190,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 
         <div id="upload-success" class="form-container" style="display:none;">
             <div class="step-graphic" style="width:fit-content;margin:auto;">
-                <img src="../svgs/step3-log-training.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
+                <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
             </div>
             <div id="upload-success-message"></div>
             <a class="confirm-button" href="training.php?training_id=<?php echo $_GET['training_id']; ?>" data-lang-id="013-view-training-post">🎉 View Training Post</a>
