@@ -14,7 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     $training_id = $_POST['training_id'];
     include '../project-photo-functions.php';
 
-
     // Handle training deletion
     if (isset($_POST['action']) && $_POST['action'] == 'delete_training') {
         $deleteResult = deleteTraining($training_id, $conn);
@@ -42,7 +41,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
             $targetPath = $upload_dir . $new_file_name_webp;
 
             if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 77);
+                // Call createThumbnail with the correct number of parameters
+                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
                 $main_file_sizes[] = filesize($targetPath) / 1024;
@@ -58,9 +58,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     }
 
     if (!empty($db_fields) && empty($error_message)) {
-        array_push($db_fields, "ready_to_show", "logged_ts");
-        array_push($db_values, 1, date("Y-m-d H:i:s"));
-        $db_types .= "is";
+        array_push($db_fields, "logged_ts");
+        array_push($db_values, date("Y-m-d H:i:s"));
+        $db_types .= "s";
 
         $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
         $update_sql = "UPDATE tb_trainings SET {$fields_for_update} WHERE training_id = ?";
@@ -95,6 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 }
 
 ?>
+
 
 <!DOCTYPE html>
 <HTML lang="en">
