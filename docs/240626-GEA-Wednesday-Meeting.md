@@ -26,9 +26,13 @@ Previous doc discussed, should this be seperated out ?
 
 ## Action items:
 -Alan to research database visualization tools
+
 -Mike to attemp capture of Knack database relationships
+
 -Jo to work on earth-methods page: set up sub pages
+
 -Russell to work on database layout into secondary tables
+
 -Russell to continue work on Training and Ecobrick migration from knack.
 
 
