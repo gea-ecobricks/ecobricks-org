@@ -268,7 +268,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
             var currentLang = window.currentLanguage || 'en';
             var chooseFileMessage = messages[currentLang] || messages.en;
 
-            var fileInput = document.getElementById('photo1_main');
+            var fileInput = document.getElementById('training_photo0_main');
             if (fileInput.files.length === 0) {
                 showFormModal(chooseFileMessage);
                 button.innerHTML = originalButtonText; // Restore button text if no file chosen
