@@ -171,12 +171,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div id="briks-error-range" class="form-field-error" data-lang-id="000-field-brik-number-error">Just a number (between 1 and 5000).</div>
                 </div>
 
-                <div class="form-item">
-                    <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>
-                    <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">
-                    <div id="serial-select"><ul id="autocomplete-results" ></ul></div>
-                    <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>
-                </div>
+<!--                <div class="form-item">-->
+<!--                    <label for="connected_ecobricks">The serials of ecobricks used in your project:</label><br>-->
+<!--                    <input type="text" id="connected_ecobricks" name="connected_ecobricks" aria-label="Connected Ecobricks" placeholder="Enter serials...">-->
+<!--                    <div id="serial-select"><ul id="autocomplete-results" ></ul></div>-->
+<!--                    <p class="form-caption">Optional: Enter the serial numbers of ecobricks connected to this project. Separate multiple serial numbers with commas.</p>-->
+<!--                </div>-->
 
                 <div class="form-item">
                     <label for="avg_brik_weight" data-lang-id="010-avg-brik-weight">What was the average weight of ecobricks made during this training in grams? (if no ecobricks were made, leave blank)</label><br>
