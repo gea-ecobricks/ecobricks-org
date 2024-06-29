@@ -35,30 +35,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     $db_values = [];
     $db_types = "";
 
-    // Upload training_photo0_main first
-    $file_input_name = "training_photo0_main";
-    if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
-        $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
-        $new_file_name_webp = 'training-' . $training_id . '-0.webp';
-        $targetPath = $upload_dir . $new_file_name_webp;
-
-        if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-            createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
-            $full_urls[] = $targetPath;
-            $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
-            $main_file_sizes[] = filesize($targetPath) / 1024;
-            $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
-
-            array_push($db_fields, "training_photo0_main", "training_photo0_tmb");
-            array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
-            $db_types .= "ss";
-        } else {
-            $error_message .= "Error processing feature image. Please try again.<br>";
-        }
-    }
-
-    // Upload other photos from training_photo1_main to training_photo6_main
-    for ($i = 1; $i <= 6; $i++) {
+    // Upload photos from training_photo0_main to training_photo6_main
+    for ($i = 0; $i <= 6; $i++) {
         $file_input_name = "training_photo{$i}_main";
         if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
             $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
@@ -236,6 +214,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
         <a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
 
     </div>
+
 
 
     <br><br>
