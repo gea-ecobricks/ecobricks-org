@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     }
 
     // Upload other photos from training_photo1_main to training_photo6_main
-    for ($i = 0; $i <= 6; $i++) {
+    for ($i = 1; $i <= 6; $i++) {
         $file_input_name = "training_photo{$i}_main";
         if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
             $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
@@ -120,8 +120,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 
 ?>
 
-
-
 <!DOCTYPE html>
 <HTML lang="en">
 <HEAD>
@@ -130,14 +128,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     <?php $version='2.37';?>
     <?php $page='add-training-images';?>
 
-
     <?php require_once ("../includes/add-training-inc.php");?>
 
     <div class="splash-content-block"></div>
     <div id="splash-bar"></div>
 
     <!-- PAGE CONTENT-->
-
 
     <div id="photos-submission-box" style="display:flex;flex-flow:column;">
 
@@ -166,8 +162,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
                 <!-- Photo 0 Main & Thumbnail -->
                 <div class="form-item">
                     <div>
-                        <label for="photo0_main" data-lang-id="003-feature-photo">Feature image:</label><br>
-                        <input type="file" id="photo0_main" name="photo0_main" required>
+                        <label for="training_photo0_main" data-lang-id="003-feature-photo">Feature image:</label><br>
+                        <input type="file" id="training_photo0_main" name="training_photo0_main" required>
                         <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this training. Required.</p>
                     </div>
                 </div>
@@ -175,44 +171,44 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
                 <!-- Photo 1 Main & Thumbnail -->
                 <div class="form-item">
                     <div>
-                        <label for="photo1_main" data-lang-id="003-feature-photo">Feature image:</label><br>
-                        <input type="file" id="photo1_main" name="photo1_main" required>
-                        <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this training. Required.</p>
+                        <label for="training_photo1_main" data-lang-id="003-feature-photo">Feature image:</label><br>
+                        <input type="file" id="training_photo1_main" name="training_photo1_main">
+                        <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this training.</p>
                     </div>
                 </div>
 
                 <!-- Photo 2 Main & Thumbnail -->
                 <div class="form-item">
-                    <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label><br>
-                    <input type="file" id="photo2_main" name="photo2_main">
+                    <label for="training_photo2_main" data-lang-id="005-another-photo">Choose another photo:</label><br>
+                    <input type="file" id="training_photo2_main" name="training_photo2_main">
                     <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
                 </div>
 
                 <!-- Photo 3 Main & Thumbnail -->
                 <div class="form-item">
-                    <label for="photo3_main" data-lang-id="007-another-photo">Choose another photo:</label><br>
-                    <input type="file" id="photo3_main" name="photo3_main">
+                    <label for="training_photo3_main" data-lang-id="007-another-photo">Choose another photo:</label><br>
+                    <input type="file" id="training_photo3_main" name="training_photo3_main">
                     <p class="form-caption" data-lang-id="008-another-photo-optional">Optional</p>
                 </div>
 
                 <!-- Photo 4 Main & Thumbnail -->
                 <div class="form-item">
-                    <label for="photo4_main" data-lang-id="009-another-photo">Choose another photo:</label><br>
-                    <input type="file" id="photo4_main" name="photo4_main">
+                    <label for="training_photo4_main" data-lang-id="009-another-photo">Choose another photo:</label><br>
+                    <input type="file" id="training_photo4_main" name="training_photo4_main">
                     <p class="form-caption" data-lang-id="010-another-photo-optional">Optional</p>
                 </div>
 
                 <!-- Photo 5 Main & Thumbnail -->
                 <div class="form-item">
-                    <label for="photo5_main" data-lang-id="011-another-photo">Choose another photo:</label><br>
-                    <input type="file" id="photo5_main" name="photo5_main">
+                    <label for="training_photo5_main" data-lang-id="011-another-photo">Choose another photo:</label><br>
+                    <input type="file" id="training_photo5_main" name="training_photo5_main">
                     <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
                 </div>
 
                 <!-- Photo 6 Main & Thumbnail -->
                 <div class="form-item">
-                    <label for="photo6_main" data-lang-id="011-another-photo">Choose another photo:</label><br>
-                    <input type="file" id="photo6_main" name="photo6_main">
+                    <label for="training_photo6_main" data-lang-id="011-another-photo">Choose another photo:</label><br>
+                    <input type="file" id="training_photo6_main" name="training_photo6_main">
                     <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
                 </div>
 
@@ -240,6 +236,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
         <a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
 
     </div>
+
 
     <br><br>
 
