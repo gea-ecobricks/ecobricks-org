@@ -2,6 +2,8 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+ini_set('memory_limit', '256M'); // Increase memory limit
+
 include '../ecobricks_env.php';
 
 $error_message = '';
@@ -33,15 +35,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     $db_values = [];
     $db_types = "";
 
+    // Upload training_photo0_main first
+    $file_input_name = "training_photo0_main";
+    if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
+        $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
+        $new_file_name_webp = 'training-' . $training_id . '-0.webp';
+        $targetPath = $upload_dir . $new_file_name_webp;
+
+        if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
+            createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
+            $full_urls[] = $targetPath;
+            $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+            $main_file_sizes[] = filesize($targetPath) / 1024;
+            $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
+
+            array_push($db_fields, "training_photo0_main", "training_photo0_tmb");
+            array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+            $db_types .= "ss";
+        } else {
+            $error_message .= "Error processing feature image. Please try again.<br>";
+        }
+    }
+
+    // Upload other photos from training_photo1_main to training_photo6_main
     for ($i = 1; $i <= 6; $i++) {
-        $file_input_name = "photo{$i}_main";
+        $file_input_name = "training_photo{$i}_main";
         if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
             $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
             $new_file_name_webp = 'training-' . $training_id . '-' . $i . '.webp';
             $targetPath = $upload_dir . $new_file_name_webp;
 
             if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                // Call createThumbnail with the correct number of parameters
                 createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 250, 77);
                 $full_urls[] = $targetPath;
                 $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
@@ -52,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
                 array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
                 $db_types .= "ss";
             } else {
-                $error_message .= "Error processing image. Please try again.<br>";
+                $error_message .= "Error processing image {$i}. Please try again.<br>";
             }
         }
     }
@@ -97,6 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 ?>
 
 
+
 <!DOCTYPE html>
 <HTML lang="en">
 <HEAD>
@@ -138,6 +163,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 
             <form id="photoform" action="" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="training_id" value="<?php echo $_GET['training_id']; ?>">
+                <!-- Photo 0 Main & Thumbnail -->
+                <div class="form-item">
+                    <div>
+                        <label for="photo0_main" data-lang-id="003-feature-photo">Feature image:</label><br>
+                        <input type="file" id="photo0_main" name="photo0_main" required>
+                        <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this training. Required.</p>
+                    </div>
+                </div>
+
                 <!-- Photo 1 Main & Thumbnail -->
                 <div class="form-item">
                     <div>

@@ -194,13 +194,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div id="country-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
                 </div>
 
-                <div class="form-item">
-                    <label for="training_location" data-lang-id="015-location">Training Location:</label><br>
-                    <input type="text" id="training_location" name="training_location" aria-label="Training Location" required>
-                    <p class="form-caption" data-lang-id="015-location-caption">Please provide the general location where the training was conducted.</p>
-                    <!--ERRORS-->
-                    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.  For online workshops, specify the country of the lead trainer.</div>
-                </div>
+<!--                <div class="form-item">-->
+<!--                    <label for="training_location" data-lang-id="015-location">Training Location:</label><br>-->
+<!--                    <input type="text" id="training_location" name="training_location" aria-label="Training Location" required>-->
+<!--                    <p class="form-caption" data-lang-id="015-location-caption">Please provide the general location where the training was conducted.</p>-->
+<!--
+<!--                    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.  For online workshops, specify the country of the lead trainer.</div>-->
+<!--                </div>-->
 
                 <div class="form-item">
                     <label for="training_summary" data-lang-id="005-training-summary">Training Summary:</label><br>
