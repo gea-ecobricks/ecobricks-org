@@ -20,19 +20,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $avg_brik_weight = $_POST['avg_brik_weight'] ?? NULL;
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
-    $connected_ecobricks = $_POST['connected_ecobricks'] ?? '';
+    // $connected_ecobricks = $_POST['connected_ecobricks'] ?? ''; // Commented out
     $training_country = $_POST['training_country'];
-    $training_location = $_POST['training_location'];
+    // $training_location = $_POST['training_location']; // Removed
     $training_summary = $_POST['training_summary'];
     $training_agenda = $_POST['training_agenda'];
     $training_success = $_POST['training_success'];
     $training_challenges = $_POST['training_challenges'];
     $training_lessons_learned = $_POST['training_lessons_learned'];
 
-    $sql = "INSERT INTO tb_trainings (training_title, training_date, no_participants, lead_trainer, trained_community, training_type, briks_made, avg_brik_weight, location_lat, location_long, connected_ecobricks, training_country, training_location, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO tb_trainings (training_title, training_date, no_participants, lead_trainer, trained_community, training_type, briks_made, avg_brik_weight, location_lat, location_long, training_country, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
     if ($stmt = $conn->prepare($sql)) {
-        $stmt->bind_param("sssisssiiddssssssss", $training_title, $training_date, $no_participants, $lead_trainer, $trained_community, $training_type, $briks_made, $avg_brik_weight, $latitude, $longitude, $connected_ecobricks, $training_country, $training_location, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
+        $stmt->bind_param("sssisssiiddssssss", $training_title, $training_date, $no_participants, $lead_trainer, $trained_community, $training_type, $briks_made, $avg_brik_weight, $latitude, $longitude, $training_country, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
         if ($stmt->execute()) {
             $training_id = $conn->insert_id;
 
@@ -57,6 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
+
 
 
 <!DOCTYPE html>
