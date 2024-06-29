@@ -284,6 +284,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -428,9 +429,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             var trainingCountry = document.getElementById('training_country').value.trim();
             displayError('country-error-required', trainingCountry === '');
 
-            // 11. Training Location Validation
-            var trainingLocation = document.getElementById('training_location').value.trim();
-            displayError('location-error-required', trainingLocation === '');
+            // // 11. Training Location Validation
+            // var trainingLocation = document.getElementById('training_location').value.trim();
+            // displayError('location-error-required', trainingLocation === '');
 
             // 12. Training Summary Validation
             var trainingSummary = document.getElementById('training_summary').value.trim();
