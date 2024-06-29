@@ -102,6 +102,47 @@ function createThumbnail($source_path, $destination_path, $width, $height, $qual
     return true;
 }
 
+
+
+
+// Function to create a thumbnail using GD library
+function createNonSquareThumbnail($source_path, $destination_path, $max_dimension, $quality) {
+    list($source_width, $source_height, $source_type) = getimagesize($source_path);
+    switch ($source_type) {
+        case IMAGETYPE_JPEG:
+            $source_image = imagecreatefromjpeg($source_path);
+            break;
+        case IMAGETYPE_PNG:
+            $source_image = imagecreatefrompng($source_path);
+            break;
+        case IMAGETYPE_WEBP:
+            $source_image = imagecreatefromwebp($source_path);
+            break;
+        default:
+            return false;
+    }
+
+    // Calculate the dimensions based on the max dimension while maintaining the aspect ratio
+    if ($source_width > $source_height) {
+        $thumbnail_width = $max_dimension;
+        $thumbnail_height = (int) ($source_height * $max_dimension / $source_width);
+    } else {
+        $thumbnail_height = $max_dimension;
+        $thumbnail_width = (int) ($source_width * $max_dimension / $source_height);
+    }
+
+    $thumbnail = imagecreatetruecolor($thumbnail_width, $thumbnail_height);
+    imagecopyresampled($thumbnail, $source_image, 0, 0, 0, 0, $thumbnail_width, $thumbnail_height, $source_width, $source_height);
+    imagedestroy($source_image);
+
+    // Save the thumbnail
+    imagejpeg($thumbnail, $destination_path, $quality);
+    imagedestroy($thumbnail);
+    return true;
+}
+
+
+
 // Function to convert image to WebP format
 function convertToWebP($source_path, $destination_path) {
     $image = imagecreatefromstring(file_get_contents($source_path));
