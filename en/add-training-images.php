@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     }
 
     // Upload other photos from training_photo1_main to training_photo6_main
-    for ($i = 1; $i <= 6; $i++) {
+    for ($i = 0; $i <= 6; $i++) {
         $file_input_name = "training_photo{$i}_main";
         if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
             $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
