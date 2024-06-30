@@ -48,7 +48,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $training_id = $conn->insert_id;
 
-            // Reactivating the logic that updates the training_url
+
+
             $training_url = "https://ecobricks.org/en/training.php?id=" . $training_id;
             $update_url_sql = "UPDATE tb_trainings SET training_url = ? WHERE training_id = ?";
 
@@ -67,6 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             } else {
                 error_log("Error preparing update URL statement: " . $conn->error);
             }
+
 
             $stmt->close();
             $conn->close();
