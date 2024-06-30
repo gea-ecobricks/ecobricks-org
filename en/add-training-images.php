@@ -60,9 +60,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
     }
 
     if (!empty($db_fields) && empty($error_message)) {
-        array_push($db_fields, "training_logged");
-        array_push($db_values, date("Y-m-d H:i:s"));
-        $db_types .= "s";
+        // Fetch the briks_made and avg_brik_weight for the current training
+        $fetch_sql = "SELECT briks_made, avg_brik_weight FROM tb_trainings WHERE training_id = ?";
+        $fetch_stmt = $conn->prepare($fetch_sql);
+        $fetch_stmt->bind_param("i", $training_id);
+        $fetch_stmt->execute();
+        $fetch_stmt->bind_result($briks_made, $avg_brik_weight);
+        $fetch_stmt->fetch();
+        $fetch_stmt->close();
+
+        // Calculate est_plastic_packed
+        $est_plastic_packed = $briks_made * $avg_brik_weight;
+
+        array_push($db_fields, "training_logged", "ready_to_show", "est_plastic_packed");
+        array_push($db_values, date("Y-m-d H:i:s"), 1, $est_plastic_packed);
+        $db_types .= "sis";
 
         $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
         $update_sql = "UPDATE tb_trainings SET {$fields_for_update} WHERE training_id = ?";
@@ -97,6 +109,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 }
 
 ?>
+
 
 <!DOCTYPE html>
 <HTML lang="en">

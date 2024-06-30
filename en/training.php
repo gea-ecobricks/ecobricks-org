@@ -122,10 +122,11 @@ if ($result->num_rows > 0) {
 				<h3><p data-lang-id="151">Global Ecobrick Alliance Workshops & Trainings</p></h3>
 			
 				<p data-lang-id="152">Check out our currently available ecobrick, earthen and regenerative courses on our GoBrik app:</p>
+				<br>
 
 	
                 <p><a class="action-btn-blue" href="https://gobrik.com/courses.php" data-lang-id="154" style="margin-top:10px;>🔎 Find a Course</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">A listing of our current course options</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">Current courses</a></p>
 
 
 				</div>
