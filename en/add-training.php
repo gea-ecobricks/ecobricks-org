@@ -37,6 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $sql = "INSERT INTO tb_trainings (training_title, training_date, no_participants, lead_trainer, trained_community, training_type, briks_made, avg_brik_weight, location_lat, location_long, training_country, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
     if ($stmt = $conn->prepare($sql)) {
         $stmt->bind_param("sssisssiiddssssss", $training_title, $training_date, $no_participants, $lead_trainer, $trained_community, $training_type, $briks_made, $avg_brik_weight, $latitude, $longitude, $training_country, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
         if ($stmt->execute()) {
@@ -47,25 +48,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $update_url_sql = "UPDATE tb_trainings SET training_url = ? WHERE training_id = ?";
             if ($update_url_stmt = $conn->prepare($update_url_sql)) {
                 $update_url_stmt->bind_param("si", $training_url, $training_id);
-                $update_url_stmt->execute();
+                if (!$update_url_stmt->execute()) {
+                    error_log("Error updating training_url: " . $update_url_stmt->error);
+                }
                 $update_url_stmt->close();
             } else {
-                echo "Error: " . $conn->error . "<br>";
+                error_log("Error preparing update_url_stmt: " . $conn->error);
             }
 
             $stmt->close();
             $conn->close();
             echo "<script>window.location.href = 'add-training-images.php?training_id=" . $training_id . "';</script>";
         } else {
+            error_log("Error executing stmt: " . $stmt->error);
             echo "Error: " . $stmt->error . "<br>";
         }
-        $stmt->close();
+        if ($stmt) $stmt->close();
     } else {
+        error_log("Prepare failed: " . $conn->error);
         echo "Prepare failed: " . $conn->error;
     }
-    $conn->close();
+    if ($conn) $conn->close();
 }
 ?>
+
 
 
 
