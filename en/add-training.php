@@ -11,17 +11,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $location_full = trim($_POST['location_address'] ?? 'Default Location');
     $training_title = trim($_POST['training_title']);
+    $lead_trainer = trim($_POST['lead_trainer']);
+    $training_country = trim($_POST['training_country']);
     $training_date = trim($_POST['training_date']);
     $no_participants = trim($_POST['no_participants']);
-    $lead_trainer = trim($_POST['lead_trainer']);
     $trained_community = trim($_POST['trained_community'] ?? '');
     $training_type = trim($_POST['training_type']);
     $briks_made = trim($_POST['briks_made']);
-    $avg_brik_weight = trim($_POST['avg_brik_weight'] ?? NULL);
+    $avg_brik_weight = (int)$_POST['avg_brik_weight'] ?? NULL;
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
     // $connected_ecobricks = $_POST['connected_ecobricks'] ?? ''; // Commented out
-    $training_country = trim($_POST['training_country']);
     // $training_location = $_POST['training_location']; // Removed
     $training_summary = trim($_POST['training_summary']);
     $training_agenda = trim($_POST['training_agenda']);
@@ -31,46 +31,64 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Debugging: Print out variables
     error_log("Training Title: $training_title");
-    error_log("Training Date: $training_date");
     error_log("Lead Trainer: $lead_trainer");
     error_log("Training Country: $training_country");
+    error_log("Training Date: $training_date");
 
-    $sql = "INSERT INTO tb_trainings (training_title, training_date, no_participants, lead_trainer, trained_community, training_type, briks_made, avg_brik_weight, location_lat, location_long, training_country, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) 
+    $sql = "INSERT INTO tb_trainings (training_title, lead_trainer, training_country, training_date, no_participants, trained_community, training_type, briks_made, avg_brik_weight, location_lat, location_long, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     if ($stmt = $conn->prepare($sql)) {
-        $stmt->bind_param("sssisssiiddssssss", $training_title, $training_date, $no_participants, $lead_trainer, $trained_community, $training_type, $briks_made, $avg_brik_weight, $latitude, $longitude, $training_country, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
+        error_log("Statement prepared successfully.");
+
+        $stmt->bind_param("sssssissiiiddssss", $training_title, $lead_trainer, $training_country, $training_date, $no_participants, $trained_community, $training_type, $briks_made, $avg_brik_weight, $latitude, $longitude, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
+
         if ($stmt->execute()) {
+            error_log("Statement executed successfully.");
+
             $training_id = $conn->insert_id;
 
-            // Update `training_url`
+            // Commenting out the logic that updates the training_url
+            /*
             $training_url = "https://ecobricks.org/en/training.php?id=" . $training_id;
             $update_url_sql = "UPDATE tb_trainings SET training_url = ? WHERE training_id = ?";
+
             if ($update_url_stmt = $conn->prepare($update_url_sql)) {
+                error_log("Update URL statement prepared successfully.");
+
                 $update_url_stmt->bind_param("si", $training_url, $training_id);
-                if (!$update_url_stmt->execute()) {
-                    error_log("Error updating training_url: " . $update_url_stmt->error);
+
+                if ($update_url_stmt->execute()) {
+                    error_log("Update URL statement executed successfully.");
+                } else {
+                    error_log("Error executing update URL statement: " . $update_url_stmt->error);
                 }
+
                 $update_url_stmt->close();
             } else {
-                error_log("Error preparing update_url_stmt: " . $conn->error);
+                error_log("Error preparing update URL statement: " . $conn->error);
             }
+            */
 
             $stmt->close();
             $conn->close();
+
             echo "<script>window.location.href = 'add-training-images.php?training_id=" . $training_id . "';</script>";
         } else {
-            error_log("Error executing stmt: " . $stmt->error);
+            error_log("Error executing statement: " . $stmt->error);
             echo "Error: " . $stmt->error . "<br>";
         }
+
         if ($stmt) $stmt->close();
     } else {
         error_log("Prepare failed: " . $conn->error);
         echo "Prepare failed: " . $conn->error;
     }
+
     if ($conn) $conn->close();
 }
 ?>
+
 
 
 
