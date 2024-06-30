@@ -69,13 +69,17 @@
                 <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;border-radius:25px;">
                     <img src="../photos/igorot-land.webp" alt="a view of earth's spiralling matter and energy" style="width: 100%;height: auto;" loading="lazy">
                 </div>
+                <p style="font-size:smaller;color:grey;">Igorot farmers tending their terraced rice paddies side-by-side the forest.  Natonim, Mt. Province. Photo by Gladys Maxio</p>
 
                 <p data-lang-id="060-chief-virtue-description">As one of the chief virtues of the Igorot people, the concept of Ayyew guides the Igorot way of life.   In Igorot culture, Ayyew is as important and as lauded as other virtues such as Courage, Honor or Loyalty.  When someone is ayyew, it means that they are striving towards ever-increasing harmony with the cycles of life.
 
                 <p data-lang-id="059-regenerative-definition"> We consciously adapt the term to summarize and qualify the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>
 
 
-CAPTION
+
+                <h4 data-lang-id="058-ayyew-title">Ayyew Guides Our Ecobricking</h4>
+
+
                 <p data-lang-id="062-direct-equivalent-description">Ayyew is the virtue of striving to be in ever more harmony with the surrounding ecological cycles.  Ayyew is not a state of being, but a process of being.  However, it is a directional process, one that leads to ever more abundance from ever more sync with the surrounding cycles of life.</p>
 
                 <p data-lang-id="063-good-thing-description">Ayyew is a virtue or a “good thing” for Igorots, something that is good for individuals, households and community to strive for. In the same way as individual voices in a choir merge to attain otherwise impossible harmonies, their lives are integrated with the cycles of other species to achieve otherwise impossible health and abundance.</p>
