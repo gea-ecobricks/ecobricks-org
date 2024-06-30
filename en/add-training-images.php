@@ -150,7 +150,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 
             <form id="photoform" action="" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="training_id" value="<?php echo $_GET['training_id']; ?>">
-                <!-- Photo 0 Main & Thumbnail -->
+
+
+                <!-- Photo 0 - the MAIN PHOTO Main & Thumbnail -->
                 <div class="form-item">
                     <div>
                         <label for="training_photo0_main" data-lang-id="003-feature-photo">Feature image:</label><br>
