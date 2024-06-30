@@ -45,10 +45,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Update `training_url`
             $training_url = "https://ecobricks.org/en/training.php?id=" . $training_id;
             $update_url_sql = "UPDATE tb_trainings SET training_url = ? WHERE training_id = ?";
-            $update_url_stmt = $conn->prepare($update_url_sql);
-            $update_url_stmt->bind_param("si", $training_url, $training_id);
-            $update_url_stmt->execute();
-            $update_url_stmt->close();
+            if ($update_url_stmt = $conn->prepare($update_url_sql)) {
+                $update_url_stmt->bind_param("si", $training_url, $training_id);
+                $update_url_stmt->execute();
+                $update_url_stmt->close();
+            } else {
+                echo "Error: " . $conn->error . "<br>";
+            }
 
             $stmt->close();
             $conn->close();
@@ -63,6 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 }
 ?>
+
 
 
 
