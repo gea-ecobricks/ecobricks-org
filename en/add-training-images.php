@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
         $fetch_stmt->close();
 
         // Calculate est_plastic_packed
-        $est_plastic_packed = $briks_made * $avg_brik_weight;
+        $est_plastic_packed = round(($briks_made * $avg_brik_weight) / 1000, 1);
 
         array_push($db_fields, "training_logged", "ready_to_show", "est_plastic_packed");
         array_push($db_values, date("Y-m-d H:i:s"), 1, $est_plastic_packed);

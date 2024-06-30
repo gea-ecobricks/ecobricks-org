@@ -9,25 +9,31 @@ $conn->set_charset("utf8mb4");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     include '../project-photo-functions.php'; // Ensure this path is correct
 
-    $location_full = $_POST['location_address'] ?? 'Default Location';
-    $training_title = $_POST['training_title'];
-    $training_date = $_POST['training_date'];
-    $no_participants = $_POST['no_participants'];
-    $lead_trainer = $_POST['lead_trainer'];
-    $trained_community = $_POST['trained_community'] ?? '';
-    $training_type = $_POST['training_type'];
-    $briks_made = $_POST['briks_made'];
-    $avg_brik_weight = $_POST['avg_brik_weight'] ?? NULL;
+    $location_full = trim($_POST['location_address'] ?? 'Default Location');
+    $training_title = trim($_POST['training_title']);
+    $training_date = trim($_POST['training_date']);
+    $no_participants = trim($_POST['no_participants']);
+    $lead_trainer = trim($_POST['lead_trainer']);
+    $trained_community = trim($_POST['trained_community'] ?? '');
+    $training_type = trim($_POST['training_type']);
+    $briks_made = trim($_POST['briks_made']);
+    $avg_brik_weight = trim($_POST['avg_brik_weight'] ?? NULL);
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
     // $connected_ecobricks = $_POST['connected_ecobricks'] ?? ''; // Commented out
-    $training_country = $_POST['training_country'];
+    $training_country = trim($_POST['training_country']);
     // $training_location = $_POST['training_location']; // Removed
-    $training_summary = $_POST['training_summary'];
-    $training_agenda = $_POST['training_agenda'];
-    $training_success = $_POST['training_success'];
-    $training_challenges = $_POST['training_challenges'];
-    $training_lessons_learned = $_POST['training_lessons_learned'];
+    $training_summary = trim($_POST['training_summary']);
+    $training_agenda = trim($_POST['training_agenda']);
+    $training_success = trim($_POST['training_success']);
+    $training_challenges = trim($_POST['training_challenges']);
+    $training_lessons_learned = trim($_POST['training_lessons_learned']);
+
+    // Debugging: Print out variables
+    error_log("Training Title: $training_title");
+    error_log("Training Date: $training_date");
+    error_log("Lead Trainer: $lead_trainer");
+    error_log("Training Country: $training_country");
 
     $sql = "INSERT INTO tb_trainings (training_title, training_date, no_participants, lead_trainer, trained_community, training_type, briks_made, avg_brik_weight, location_lat, location_long, training_country, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
