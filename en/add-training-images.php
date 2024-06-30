@@ -116,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='2.37';?>
+    <?php $version='2.38';?>
     <?php $page='add-training-images';?>
 
     <?php require_once ("../includes/add-training-inc.php");?>
@@ -137,14 +137,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
             <div class="splash-form-content-block">
                 <div class="splash-box">
 
-                    <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Images</div>
+                    <div class="splash-heading" data-lang-id="001-form-title">Upload Training Photos</div>
                 </div>
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
                     <img src="../svgs/square-training-photo.svg" style="width:65%" alt="Please take a square photo">
                 </div>
             </div>
 
-            <p data-lang-id="002-form-description2">Show the world your training! Upload one to six images showing your training session from different angles or times. <span style="color:red">Please upload only square photos. Be sure photos are under 8MB.</span></p>
+            <p data-lang-id="002-form-description2">Show the world your training! Upload up to six images showing your training session and what you accomplished. <span style="color:red">Square photos are best. Be sure photos are under 8MB.</span></p>
 
             <br>
 
