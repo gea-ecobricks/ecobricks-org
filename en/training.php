@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
                     <div class="row-details">
 
 			            <div class="lead-page-paragraph">
-                            <p>'. $array["training_title"] .'<span data-lang-id="110"> was a </span>'. $array["training_type"] .' <span data-lang-id="111">workshop run in </span>'. $array["training_location"] .', '. $array["training_country"] .'<span data-lang-id="112">.  The workshop involved </span>'. $array["no_participants"] .'<span data-lang-id="113"> and was run by GEA trainer(s) </span>'. $array["lead_trainer"] .'</p>
+                            <p>'. $array["training_title"] .'<span data-lang-id="110"> was a </span>'. $array["training_type"] .' <span data-lang-id="111">workshop run in </span>'. $array["training_country"] .'<span data-lang-id="112">.  The workshop involved </span>'. $array["no_participants"] .'<span data-lang-id="113"> and was run by GEA trainer(s) </span>'. $array["lead_trainer"] .'</p>
                         </div>
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
