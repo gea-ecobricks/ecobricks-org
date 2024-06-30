@@ -116,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='2.38';?>
+    <?php $version='2.4';?>
     <?php $page='add-training-images';?>
 
     <?php require_once ("../includes/add-training-inc.php");?>

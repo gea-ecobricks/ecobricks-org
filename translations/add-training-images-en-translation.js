@@ -9,8 +9,8 @@
 const en_Page_Translations = {
    
     "001-form-title": "Now Upload Your Images",
-    "003-splash-image-alt": '<img src="../svgs/square-photo.svg?v=2" style="width:65%" alt="Please take a square photo">',
-    "002-form-description2": "Show the world your training! Upload one to five images showing your workshop process.<span style='color:red'>Please upload only square photos. Be sure photos are under 8MB.</span>",
+    "003-splash-image-alt": '<img src="../svgs/square-training-photo.svg?v=2" style="width:65%" alt="Please take a square photo">',
+    "002-form-description2": "Show the world your training! Upload one to five images showing your workshop process.<span style='color:red'>  Square photos are best. Be sure photos are under 8MB.</span>",
 
     "003-feature-photo": "Feature image:",
     "004-feature-desc": "Please choose a featured photo for this project. Required.",
