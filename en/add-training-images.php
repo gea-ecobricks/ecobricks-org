@@ -140,7 +140,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['training_id'])) {
                     <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Images</div>
                 </div>
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
-                    <img src="../svgs/square-photo.svg?v=2" style="width:65%" alt="Please take a square photo">
+                    <img src="../svgs/square-training-photo.svg" style="width:65%" alt="Please take a square photo">
                 </div>
             </div>
 
