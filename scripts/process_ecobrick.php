@@ -67,7 +67,6 @@ $record_details = "";
 
 
 
-
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -81,9 +80,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
             // Extract the necessary data from the Knack payload
             $ecobrick_unique_id = $record['field_73_raw'] ?? '';
             $serial_no = $record['field_73_raw'] ?? '';
-            $owner = $record['field_277_raw'][0]['identifier'] ?? '';
-            $ecobricker_maker = $record['field_335_raw'][0]['identifier'] ?? '';
-            $ecobrick_full_photo_url = $record['field_37_raw']['url'] ?? '';
+            $owner = isset($record['field_277_raw'][0]['identifier']) ? $record['field_277_raw'][0]['identifier'] : '';
+            $ecobricker_maker = isset($record['field_335_raw'][0]['identifier']) ? $record['field_335_raw'][0]['identifier'] : '';
+            $ecobrick_full_photo_url = isset($record['field_37_raw']['url']) ? $record['field_37_raw']['url'] : '';
             $volume_ml = $record['field_148_raw'] ?? 0;
             $universal_volume_ml = $record['field_148_raw'] ?? 0;
             $weight_g = $record['field_12_raw'] ?? 0;
@@ -92,9 +91,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $CO2_kg = $record['field_94_raw'] ?? 0;
             $sequestration_type = $record['field_530_raw'] ?? '';
             $last_validation_ts = $record['field_1002_raw']['iso_timestamp'] ?? '';
-            $validator_1 = $record['field_644_raw'][0]['identifier'] ?? '';
-            $validator_2 = $record['field_662_raw'][0]['identifier'] ?? '';
-            $validator_3 = $record['field_663_raw'][0]['identifier'] ?? '';
+            $validator_1 = isset($record['field_644_raw'][0]['identifier']) ? $record['field_644_raw'][0]['identifier'] : '';
+            $validator_2 = isset($record['field_662_raw'][0]['identifier']) ? $record['field_662_raw'][0]['identifier'] : '';
+            $validator_3 = isset($record['field_663_raw'][0]['identifier']) ? $record['field_663_raw'][0]['identifier'] : '';
             $validation_score_avg = $record['field_568_raw'] ?? 0;
             $knack_record_id = $record['id'] ?? '';
             $final_validation_score = $record['field_1435_raw'] ?? 0;
@@ -103,14 +102,14 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $non_registered_maker_name = $record['field_1620_raw'] ?? '';
             $actual_maker_name = $record['field_1622_raw'] ?? '';
             $weight_authenticated_kg = $record['field_1410_raw'] ?? 0;
-            $location_country = $record['field_340_raw'][0]['identifier'] ?? '';
-            $location_region = $record['field_357_raw'][0]['identifier'] ?? '';
-            $location_city = $record['field_356_raw'][0]['identifier'] ?? '';
-            $location_full = $record['field_1373_raw'][0]['identifier'] ?? '';
-            $community_name = $record['field_234_raw'][0]['identifier'] ?? '';
-            $brand_name = $record['field_1602_raw'][0]['identifier'] ?? '';
-            $bottom_colour = $record['field_70_raw'][0]['identifier'] ?? '';
-            $plastic_from = $record['field_329_raw'][0]['identifier'] ?? '';
+            $location_country = isset($record['field_340_raw'][0]['identifier']) ? $record['field_340_raw'][0]['identifier'] : '';
+            $location_region = isset($record['field_357_raw'][0]['identifier']) ? $record['field_357_raw'][0]['identifier'] : '';
+            $location_city = isset($record['field_356_raw'][0]['identifier']) ? $record['field_356_raw'][0]['identifier'] : '';
+            $location_full = $record['field_1373_raw'] ?? '';
+            $community_name = isset($record['field_234_raw'][0]['identifier']) ? $record['field_234_raw'][0]['identifier'] : '';
+            $brand_name = $record['field_1602_raw'] ?? '';
+            $bottom_colour = $record['field_70_raw'] ?? '';
+            $plastic_from = $record['field_329_raw'] ?? '';
             $ecobrick_brk_display_value = $record['field_998'] ?? '';
             $ecobrick_dec_brk_val = $record['field_998_raw'] ?? 0;
             $ecobrick_brk_amt = intval($record['field_998_raw']) ?? 0;
@@ -157,7 +156,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>if(confirm('No records found in the Knack database. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
 }
-
 
 
 
