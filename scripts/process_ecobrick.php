@@ -67,7 +67,6 @@ $record_details = "";
 
 
 
-
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -88,6 +87,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $universal_volume_ml = $record['field_148_raw'] ?? 0;
             $weight_g = $record['field_12_raw'] ?? 0;
             $density = $record['field_95_raw'] ?? 0;
+            $date_logged_ts = $record['field_72_raw']['iso_timestamp'] ?? '';
+            $CO2_kg = $record['field_94_raw'] ?? 0;
+            $sequestration_type = $record['field_530_raw'] ?? '';
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
@@ -100,11 +102,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
             } else {
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
                 }
-                $stmt->bind_param("sssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density);
+                $stmt->bind_param("ssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type);
 
                 // Execute statement
                 if (!$stmt->execute()) {
@@ -132,6 +134,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 }
 
 
+
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
@@ -156,8 +159,8 @@ ob_flush(); flush();
 
 if (!empty($ecobrick_photo_url)) {
     $file_extension = strtolower(pathinfo($ecobrick_photo_url, PATHINFO_EXTENSION));
-    $new_file_name_webp = 'ecobrick-' . $serial_no . '.webp';
-    $thumbnail_file_name_webp = 'tn_ecobrick-' . $serial_no . '.webp';
+    $new_file_name_webp = 'ecobrick-' . $serial_no . '-file.webp';
+    $thumbnail_file_name_webp = 'tn_ecobrick-' . $serial_no . '-file.webp';
     $targetPath = $upload_dir . $new_file_name_webp;
     $thumbnailPath = $thumbnail_dir . $thumbnail_file_name_webp;
 
@@ -184,7 +187,7 @@ if (!empty($ecobrick_photo_url)) {
 
             if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) {
                 // Create thumbnail with height 200px while maintaining aspect ratio
-                if (createThumbnail($targetPath, $thumbnailPath, 200, 77)) {
+                if (createThumbnail($targetPath, $thumbnailPath, 200, 200, 77)) {
                     echo "<div class='message'>Image resized and thumbnail created</div>";
                     ob_flush(); flush();
                     $full_urls[] = $targetPath;
