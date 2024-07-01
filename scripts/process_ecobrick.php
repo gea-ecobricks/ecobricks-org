@@ -66,7 +66,6 @@ $record_found = false;
 $record_details = "";
 
 
-
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -90,6 +89,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $date_logged_ts = $record['field_72_raw']['iso_timestamp'] ?? '';
             $CO2_kg = $record['field_94_raw'] ?? 0;
             $sequestration_type = $record['field_530_raw'] ?? '';
+            $last_validation_ts = $record['field_1002_raw']['iso_timestamp'] ?? '';
+            $validator_1 = $record['field_644_raw'][0]['identifier'] ?? '';
+            $validator_2 = $record['field_662_raw'][0]['identifier'] ?? '';
+            $validator_3 = $record['field_663_raw'][0]['identifier'] ?? '';
+            $validation_score_avg = $record['field_568_raw'] ?? 0;
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
@@ -102,11 +106,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
             } else {
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
                 }
-                $stmt->bind_param("ssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type);
+                $stmt->bind_param("sssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg);
 
                 // Execute statement
                 if (!$stmt->execute()) {
@@ -132,6 +136,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>if(confirm('No records found in the Knack database. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
 }
+
 
 
 
