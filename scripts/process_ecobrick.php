@@ -66,6 +66,8 @@ $record_found = false;
 $record_details = "";
 
 
+
+
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -155,6 +157,8 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>if(confirm('No records found in the Knack database. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
 }
+
+
 
 
 
