@@ -1,0 +1,282 @@
+<?php
+// PART 1 of the code
+// process_ecobricks.php
+
+include '../ecobricks_env.php';
+
+// Knack API settings
+$api_key = "360aa2b0-af19-11e8-bd38-41d9fc3da0cf";
+$app_id = "5b8c28c2a1152679c209ce0c";
+$ecobrick_id = $_POST['ecobrick_id'];
+
+// Create connection to the database
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "';</script>");
+}
+
+// Prepare filters
+$filters = [
+    'match' => 'and',
+    'rules' => [
+        [
+            'field' => 'field_73',
+            'operator' => 'is',
+            'value' => $ecobrick_id
+        ]
+    ]
+];
+
+// Prepare the API request to retrieve multiple ecobrick records
+$url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters));
+
+// Initialize cURL session
+$ch = curl_init($url);
+
+// Set cURL options
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    "X-Knack-Application-Id: $app_id",
+    "X-Knack-REST-API-Key: $api_key"
+]);
+
+// Execute cURL request
+$response = curl_exec($ch);
+
+// Check for cURL errors
+if ($response === false) {
+    $error = curl_error($ch);
+    echo "<script>confirm('Error fetching data from Knack API: " . addslashes($error) . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "';</script>";
+    curl_close($ch);
+    exit;
+}
+
+// Close cURL session
+curl_close($ch);
+
+// Add console logging to confirm API access and response
+echo "<script>console.log('Knack API Request URL: " . addslashes($url) . "');</script>";
+echo "<script>console.log('Knack API Response: " . addslashes($response) . "');</script>";
+
+$data = json_decode($response, true);
+
+$record_found = false;
+$record_details = "";
+
+
+// PART 2: Data Retrieval and Database Insertion
+
+if (isset($data['records']) && count($data['records']) > 0) {
+    $success = true;
+    $errors = [];
+
+    foreach ($data['records'] as $record) {
+        if (isset($record['field_73']) && $record['field_73'] == $ecobrick_id) {
+            $record_found = true;
+
+            // Extract the necessary data from the Knack payload
+            $ecobrick_unique_id = $record['field_73'] ?? '';
+            $serial_no = $record['field_73'] ?? '';
+            $owner = $record['field_277'] ?? '';
+            $ecobricker_maker = $record['field_355'] ?? '';
+            $ecobrick_full_photo_url = isset($record['field_1328_raw']['url']) ? $record['field_1328_raw']['url'] : '';
+
+            // Check if the ecobrick ID already exists in the database
+            $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
+            $check_stmt->bind_param("s", $ecobrick_unique_id);
+            $check_stmt->execute();
+            $check_stmt->store_result();
+
+            if ($check_stmt->num_rows > 0) {
+                $success = false;
+                $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
+            } else {
+                // Prepare and bind
+                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url) VALUES (?, ?, ?, ?, ?)");
+                if ($stmt === false) {
+                    echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
+                }
+                $stmt->bind_param("sssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url);
+
+                // Execute statement
+                if (!$stmt->execute()) {
+                    $success = false;
+                    $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
+                }
+
+                // Close the statement
+                $stmt->close();
+            }
+
+            // Close the check statement
+            $check_stmt->close();
+            break;
+        }
+    }
+
+    if (!$record_found) {
+        echo "<script>if(confirm('No records found for the given Ecobrick ID. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
+    } elseif (!$success) {
+        echo "<script>if(confirm('Error: " . implode(", ", $errors) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
+    }
+} else {
+    echo "<script>if(confirm('No records found in the Knack database. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
+}
+
+
+
+// PART 3: Image Processing
+$error_message = '';
+$full_urls = [];
+$thumbnail_paths = [];
+$main_file_sizes = [];
+$thumbnail_file_sizes = [];
+
+include '../project-photo-functions.php';
+
+$upload_dir = '../briks/';
+$thumbnail_dir = '../briks/thumbnails/';
+
+$db_fields = [];
+$db_values = [];
+$db_types = "";
+
+// Main ecobrick photo URL
+$ecobrick_photo_url = $ecobrick_full_photo_url;
+
+echo "<div class='message'>Starting image processing</div>";
+ob_flush(); flush();
+
+if (!empty($ecobrick_photo_url)) {
+    $file_extension = strtolower(pathinfo($ecobrick_photo_url, PATHINFO_EXTENSION));
+    $new_file_name_webp = 'ecobrick-' . $serial_no . '.webp';
+    $thumbnail_file_name_webp = 'tn_ecobrick-' . $serial_no . '.webp';
+    $targetPath = $upload_dir . $new_file_name_webp;
+    $thumbnailPath = $thumbnail_dir . $thumbnail_file_name_webp;
+
+    // Encode the URL to handle special characters
+    $encoded_url = str_replace(' ', '%20', $ecobrick_photo_url);
+
+    // Download the image using cURL
+    $ch = curl_init($encoded_url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Follow redirects
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Disable SSL certificate verification (useful for testing)
+    $img = curl_exec($ch);
+    $curl_error = curl_error($ch);
+    curl_close($ch);
+
+    if ($img !== false) {
+        echo "<div class='message'>Image downloaded successfully</div>";
+        ob_flush(); flush();
+        $bytes_written = @file_put_contents($targetPath, $img);
+        if ($bytes_written !== false) {
+            $kb_written = $bytes_written / 1024;
+            echo "<div class='message'>Image saved successfully, {$kb_written} KB written to {$targetPath}</div>";
+            ob_flush(); flush();
+
+            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) {
+                // Create thumbnail with height 200px while maintaining aspect ratio
+                if (createThumbnail($targetPath, $thumbnailPath, 200, 77)) {
+                    echo "<div class='message'>Image resized and thumbnail created</div>";
+                    ob_flush(); flush();
+                    $full_urls[] = $targetPath;
+                    $thumbnail_paths[] = $thumbnailPath;
+                    $main_file_sizes[] = filesize($targetPath) / 1024;
+                    $thumbnail_file_sizes[] = filesize($thumbnailPath) / 1024;
+
+                    array_push($db_fields, "ecobrick_full_photo_url", "ecobrick_thumbnail_url");
+                    array_push($db_values, $targetPath, $thumbnailPath);
+                    $db_types .= "ss";
+                } else {
+                    $error_message .= "Failed to create thumbnail for image.<br>";
+                    echo "<div class='alert'>Failed to create thumbnail for image</div>";
+                    ob_flush(); flush();
+                }
+            } else {
+                $error_message .= "Error processing ecobrick image. Please try again.<br>";
+                echo "<div class='alert'>Error processing ecobrick image</div>";
+                ob_flush(); flush();
+            }
+        } else {
+            $error_message .= "Failed to save image to $targetPath.<br>";
+            echo "<div class='alert'>Failed to save image to $targetPath. Error: " . error_get_last()['message'] . "</div>";
+            ob_flush(); flush();
+        }
+    } else {
+        $error_message .= "Failed to download image from URL: $ecobrick_photo_url.<br>";
+        echo "<div class='alert'>Failed to download image from URL: $ecobrick_photo_url. Error: $curl_error</div>";
+        ob_flush(); flush();
+    }
+} else {
+    echo "<div class='message'>No URL provided for image</div>";
+    ob_flush(); flush();
+}
+
+// PART 4
+
+if (!empty($db_fields) && empty($error_message)) {
+    echo "<script>console.log('Updating database with new image data');</script>";
+
+    array_push($db_fields, "date_published_ts", "status");
+    array_push($db_values, date("Y-m-d H:i:s"), "authenticated");
+    $db_types .= "ss";
+
+    $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+    $update_sql = "UPDATE tb_ecobricks SET {$fields_for_update} WHERE ecobrick_unique_id = ?";
+    $db_values[] = $ecobrick_unique_id;
+    $db_types .= "s";
+
+    echo "<script>console.log('SQL Query: " . addslashes($update_sql) . "');</script>";
+    echo "<script>console.log('Values: " . json_encode($db_values) . "');</script>";
+    echo "<script>console.log('Types: " . addslashes($db_types) . "');</script>";
+
+    // Check if the connection is still alive
+    echo "<script>console.log('Checking database connection');</script>";
+    if ($conn->ping()) {
+        echo "<script>console.log('Database connection is alive');</script>";
+    } else {
+        echo "<script>console.log('Database connection is not alive, attempting to reconnect');</script>";
+        $conn->close();
+        // Re-establish the database connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+
+        // Check connection again
+        if ($conn->connect_error) {
+            echo "<script>if(confirm('Reconnection failed: " . addslashes($conn->connect_error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
+        } else {
+            echo "<script>console.log('Reconnected to the database');</script>";
+        }
+    }
+
+    $update_stmt = $conn->prepare($update_sql);
+    if ($update_stmt === false) {
+        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
+        echo "<script>if(confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
+    } else {
+        $update_stmt->bind_param($db_types, ...$db_values);
+
+        if (!$update_stmt->execute()) {
+            $error_message .= "Database update failed: " . $update_stmt->error;
+            echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
+            echo "<script>if(confirm('Database update failed: " . addslashes($update_stmt->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
+        } else {
+            echo "<script>console.log('Database updated successfully');</script>";
+        }
+        $update_stmt->close();
+    }
+}
+
+if (!empty($error_message)) {
+    http_response_code(400);
+    header('Content-Type: application/json');
+    echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
+    exit;
+} else {
+    echo "<script>if(confirm('Images processed and database updated successfully. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
+    exit;
+}
+?>
+

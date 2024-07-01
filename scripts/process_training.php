@@ -1,6 +1,6 @@
 <?php
 // PART 1 of the code
-// process_training2.php
+// process_training.php
 
 include '../ecobricks_env.php';
 

@@ -1,9 +1,9 @@
 
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="fr">
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang='fr';?>
 <?php $version='2.1';?>
 <?php $page='movement';?>
 
