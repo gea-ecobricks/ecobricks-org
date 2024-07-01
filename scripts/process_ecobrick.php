@@ -66,6 +66,9 @@ $record_found = false;
 $record_details = "";
 
 
+
+
+
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -107,8 +110,8 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $brand_name = $record['field_1602_raw'] ?? '';
             $bottom_colour = $record['field_70_raw'] ?? '';
             $plastic_from = $record['field_329_raw'] ?? '';
+            $photo_choice = $record['field_1064_raw'] ?? '';
             $ecobrick_brk_display_value = $record['field_998'] ?? '';
-            $ecobrick_dec_brk_val = (float)($record['field_998_raw'] ?? 0.0);
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
@@ -121,11 +124,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
             } else {
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, photo_choice, ecobrick_brk_display_value) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
                 }
-                $stmt->bind_param("ssssssssssssssssssssssssssssssd", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val);
+                $stmt->bind_param("ssssssssssssssssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $photo_choice, $ecobrick_brk_display_value);
 
                 // Execute statement
                 if (!$stmt->execute()) {
@@ -151,8 +154,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>if(confirm('No records found in the Knack database. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
 }
-
-
 
 
 
