@@ -65,6 +65,9 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
+
+
+
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -81,6 +84,10 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $owner = $record['field_277_raw'][0]['identifier'] ?? '';
             $ecobricker_maker = $record['field_335_raw'][0]['identifier'] ?? '';
             $ecobrick_full_photo_url = $record['field_37_raw']['url'] ?? '';
+            $volume_ml = $record['field_148_raw'] ?? 0;
+            $universal_volume_ml = $record['field_148_raw'] ?? 0;
+            $weight_g = $record['field_12_raw'] ?? 0;
+            $density = $record['field_95_raw'] ?? 0;
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
@@ -93,11 +100,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
             } else {
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url) VALUES (?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
                 }
-                $stmt->bind_param("sssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url);
+                $stmt->bind_param("sssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density);
 
                 // Execute statement
                 if (!$stmt->execute()) {
@@ -187,7 +194,7 @@ if (!empty($ecobrick_photo_url)) {
                     $main_file_sizes[] = filesize($targetPath) / 1024;
                     $thumbnail_file_sizes[] = filesize($thumbnailPath) / 1024;
 
-                    array_push($db_fields, "ecobrick_full_photo_url", "ecobrick_thumbnail_url");
+                    array_push($db_fields, "ecobrick_full_photo_url", "ecobrick_thumb_photo_url");
                     array_push($db_values, $targetPath, $thumbnailPath);
                     $db_types .= "ss";
                 } else {
