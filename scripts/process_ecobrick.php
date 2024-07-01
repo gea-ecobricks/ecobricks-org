@@ -66,6 +66,8 @@ $record_found = false;
 $record_details = "";
 
 
+
+
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -104,11 +106,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $location_country = $record['field_340_raw'][0]['identifier'] ?? '';
             $location_region = $record['field_357_raw'][0]['identifier'] ?? '';
             $location_city = $record['field_356_raw'][0]['identifier'] ?? '';
-            $location_full = $record['field_1373_raw'] ?? '';
+            $location_full = $record['field_1373_raw'][0]['identifier'] ?? '';
             $community_name = $record['field_234_raw'][0]['identifier'] ?? '';
-            $brand_name = $record['field_1602_raw'] ?? '';
-            $bottom_colour = $record['field_70_raw'] ?? '';
-            $plastic_from = $record['field_329_raw'] ?? '';
+            $brand_name = $record['field_1602_raw'][0]['identifier'] ?? '';
+            $bottom_colour = $record['field_70_raw'][0]['identifier'] ?? '';
+            $plastic_from = $record['field_329_raw'][0]['identifier'] ?? '';
             $ecobrick_brk_display_value = $record['field_998'] ?? '';
             $ecobrick_dec_brk_val = $record['field_998_raw'] ?? 0;
             $ecobrick_brk_amt = intval($record['field_998_raw']) ?? 0;
