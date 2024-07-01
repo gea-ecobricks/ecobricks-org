@@ -98,7 +98,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $knack_record_id = $record['id'] ?? '';
             $final_validation_score = $record['field_1435_raw'] ?? 0;
             $vision = $record['field_562_raw'] ?? '';
-            $last_ownership_change = $record['field_801_raw']['date'] ?? '';
+            $last_ownership_change = $record['field_801_raw']['iso_timestamp'] ?? '';
             $non_registered_maker_name = $record['field_1620_raw'] ?? '';
             $actual_maker_name = $record['field_1622_raw'] ?? '';
             $weight_authenticated_kg = $record['field_1410_raw'] ?? 0;
