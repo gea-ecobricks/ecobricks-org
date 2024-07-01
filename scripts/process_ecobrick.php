@@ -67,6 +67,74 @@ $record_details = "";
 
 
 
+// PART 1 of the code
+// process_ecobricks.php
+
+include '../ecobricks_env.php';
+
+// Knack API settings
+$api_key = "360aa2b0-af19-11e8-bd38-41d9fc3da0cf";
+$app_id = "5b8c28c2a1152679c209ce0c";
+$ecobrick_id = $_POST['ecobrick_id'];
+
+// Create connection to the database
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Set character set to UTF-8
+$conn->set_charset("utf8");
+
+// Check connection
+if ($conn->connect_error) {
+    die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "';</script>");
+}
+
+// Prepare filters
+$filters = [
+    'match' => 'and',
+    'rules' => [
+        [
+            'field' => 'field_73',
+            'operator' => 'is',
+            'value' => $ecobrick_id
+        ]
+    ]
+];
+
+// Prepare the API request to retrieve multiple ecobrick records
+$url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters));
+
+// Initialize cURL session
+$ch = curl_init($url);
+
+// Set cURL options
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    "X-Knack-Application-Id: $app_id",
+    "X-Knack-REST-API-Key: $api_key"
+]);
+
+// Execute cURL request
+$response = curl_exec($ch);
+
+// Check for cURL errors
+if ($response === false) {
+    $error = curl_error($ch);
+    echo "<script>confirm('Error fetching data from Knack API: " . addslashes($error) . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "';</script>";
+    curl_close($ch);
+    exit;
+}
+
+// Close cURL session
+curl_close($ch);
+
+// Add console logging to confirm API access and response
+echo "<script>console.log('Knack API Request URL: " . addslashes($url) . "');</script>";
+echo "<script>console.log('Knack API Response: " . addslashes($response) . "');</script>";
+
+$data = json_decode($response, true);
+
+$record_found = false;
+$record_details = "";
 
 
 // PART 2: Data Retrieval and Database Insertion
@@ -128,7 +196,40 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
                 }
-                $stmt->bind_param("ssssssssssssssssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $photo_choice, $ecobrick_brk_display_value);
+                $stmt->bind_param("ssssssssssssssssssssssssssssss",
+                    $ecobrick_unique_id,
+                    $serial_no,
+                    $owner,
+                    $ecobricker_maker,
+                    $ecobrick_full_photo_url,
+                    $volume_ml,
+                    $universal_volume_ml,
+                    $weight_g,
+                    $density,
+                    $date_logged_ts,
+                    $CO2_kg,
+                    $sequestration_type,
+                    $last_validation_ts,
+                    $validator_1,
+                    $validator_2,
+                    $validator_3,
+                    $validation_score_avg,
+                    $knack_record_id,
+                    $final_validation_score,
+                    $vision,
+                    $last_ownership_change,
+                    $non_registered_maker_name,
+                    $actual_maker_name,
+                    $weight_authenticated_kg,
+                    $location_country,
+                    $location_region,
+                    $community_name,
+                    $brand_name,
+                    $bottom_colour,
+                    $plastic_from,
+                    $photo_choice,
+                    $ecobrick_brk_display_value
+                );
 
                 // Execute statement
                 if (!$stmt->execute()) {
