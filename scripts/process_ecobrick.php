@@ -181,9 +181,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             // Calculations
             $weight_kg = $weight_g / 1000;
-            $ecobrick_brk_display_value = ($weight_kg * 10) . "&#8202;ß";
-            $ecobrick_dec_brk_val = number_format($weight_kg * 10, 2);
-            $ecobrick_brk_amt = ceil($weight_kg);
+            $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . "&#8202;ß";
+            $ecobrick_dec_brk_val = number_format($weight_authenticated_kg * 10, 2);
+            $ecobrick_brk_amt = ceil($wweight_authenticated_kg * 10);
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
