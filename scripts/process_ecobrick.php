@@ -105,7 +105,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $location_city = $record['field_356_raw'][0]['identifier'] ?? '';
             $location_full = $record['field_1373_raw'] ?? '';
             $community_name = $record['field_234_raw'][0]['identifier'] ?? '';
-            $brand_name = $record['field_1602_raw'] ?? '';
+            $brand_name = $record['field_1062_raw'] ?? '';
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
