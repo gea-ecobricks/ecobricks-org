@@ -1,6 +1,6 @@
 <?php
 // PART 1 of the code
-// process_ecobricks.php
+// process_ecobricks.php  here we go
 
 include '../ecobricks_env.php';
 
