@@ -65,7 +65,6 @@ $data = json_decode($response, true);
 $record_found = false;
 $record_details = "";
 
-
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -77,11 +76,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $record_found = true;
 
             // Extract the necessary data from the Knack payload
-            $ecobrick_unique_id = $record['field_73'] ?? '';
-            $serial_no = $record['field_73'] ?? '';
-            $owner = $record['field_277'] ?? '';
-            $ecobricker_maker = $record['field_355'] ?? '';
-            $ecobrick_full_photo_url = isset($record['field_1328_raw']['url']) ? $record['field_1328_raw']['url'] : '';
+            $ecobrick_unique_id = $record['field_73_raw'] ?? '';
+            $serial_no = $record['field_73_raw'] ?? '';
+            $owner = $record['field_277_raw'][0]['identifier'] ?? '';
+            $ecobricker_maker = $record['field_335_raw'][0]['identifier'] ?? '';
+            $ecobrick_full_photo_url = $record['field_37_raw']['url'] ?? '';
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
@@ -124,6 +123,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 } else {
     echo "<script>if(confirm('No records found in the Knack database. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
 }
+
 
 
 
