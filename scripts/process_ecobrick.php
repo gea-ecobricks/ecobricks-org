@@ -108,7 +108,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $bottom_colour = $record['field_70_raw'] ?? '';
             $plastic_from = $record['field_329_raw'] ?? '';
             $ecobrick_brk_display_value = $record['field_998'] ?? '';
-            $ecobrick_dec_brk_val = (float)($record['field_998_raw'] ?? 0.00);
+            $ecobrick_dec_brk_val = (float)($record['field_998_raw'] ?? 0.0);
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
