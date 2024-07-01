@@ -105,7 +105,7 @@ const es_Page_Translations = {
 '080-list-item2': '<a href="how.php">¿Cómo hacer un Ecoladrillo?</a>',
 '081-list-item3': '<a href="spiral.php">Diseño Espiral</a>',
 '082-list-item4': '<a href="build.php">Construyendo con Ecoladrillos</a>',
-'083-list-item5': '<a href="/movement">El Movimiento</a>',
+'083-list-item5': '<a href="movement.php">El Movimiento</a>',
 '084-list-item6': '<a href="/dropoff">¿Dejar ecoladrillos?</a>',
 '085-list-item7': '<a href="/trainings">Entrenamientos de Ecoladrillos</a>',
 

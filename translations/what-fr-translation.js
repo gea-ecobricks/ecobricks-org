@@ -106,7 +106,7 @@ const fr_Page_Translations = {
 '080-list-item2': '<a href="how.php">Comment écobriquer ?</a>',
 '081-list-item3': '<a href="spiral.php">Conception en Spirale</a>',
 '082-list-item4': '<a href="build.php">Construire avec des écobriques</a>',
-'083-list-item5': '<a href="/movement">Le Mouvement</a>',
+'083-list-item5': '<a href="movement.php">Le Mouvement</a>',
 '084-list-item6': '<a href="/dropoff">Déposer des écobriques ?</a>',
 '085-list-item7': '<a href="/trainings">Formations sur l\'Écobriquage</a>',
 

@@ -864,7 +864,7 @@ display: none;
 <!-- Movement -->
 <div class="submenu-item-container">
   <div class="submenu-item" data-lang-id="059-menu-5-sub-item-9">
-      <a href="/movement">The Movement</a>
+      <a href="movement.php">The Movement</a>
       <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
   </div>
   <div class="translation-info" data-lang-id="060-menu-5-trans-text-9">🏴󠁧󠁢󠁥󠁮󠁧󠁿  /movement is 100% in English however is in our non-git system | queued for transition</div>

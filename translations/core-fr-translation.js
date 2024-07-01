@@ -109,7 +109,7 @@ const fr_Translations = {
     "066-menu-5-trans-text-12": "🏴 regenreports.php a été traduit à 15%  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regenreports-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/regenreports.php\" class=\"translate-link\">code ⇗</a>",
     "067-menu-5-sub-item-13": '<a href="coefficients.php">Nos Coefficients Plastiques</a><span class="circle" title="Cette page a été traduite à 10%" style="color:orange;  ">●</span>',
     "068-menu-5-trans-text-13": "🏴 est à 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/coefficients-fr-translation.js\" class=\"translate-link\">traduction ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/coeffecients.php\" class=\"translate-link\">code ⇗</a>",
-    "059-menu-5-sub-item-9": '<a href="/movement">Le Mouvement</a><span class="circle" title="Cette page a été traduite à 0% et est dans notre format non-git. En attente de migration." style="color:red; ">●</span>',
+    "059-menu-5-sub-item-9": '<a href="movement.php">Le Mouvement</a><span class="circle" title="Cette page a été traduite à 0% et est dans notre format non-git. En attente de migration." style="color:red; ">●</span>',
     "060-menu-5-trans-text-9": "🏴  /movement est à 0%  et est est dans notre système non-git | en attente de transition",
 
 

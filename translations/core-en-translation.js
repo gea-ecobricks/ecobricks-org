@@ -96,7 +96,7 @@ const en_Translations = {
       "066-menu-5-trans-text-12": "🏴 regenreports.php has been translated 25% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/regenreports.php\" class=\"translate-link\"> code ⇗</a>",
       "067-menu-5-sub-item-13": '<a href="coefficients.php">Our Plastic Coefficients</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
       "068-menu-5-trans-text-13": "🏴 is 100% in English | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/coefficients.php\" class=\"translate-link\">code ⇗</a>",
-      "059-menu-5-sub-item-9": '<a href="/movement">The Movement</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
+      "059-menu-5-sub-item-9": '<a href="movement.php">The Movement</a><span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>',
       "060-menu-5-trans-text-9": "🏴  /movement is 100% in English however is in our non-git system | queued for transition",
 
       "061-menu-1-main-item": "Platforms & Projects",

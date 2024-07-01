@@ -101,7 +101,7 @@ const id_Translations = {
 "066-menu-5-trans-text-12": "🏴 regenreports.php telah diterjemahkan 15%  | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/regenreports-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/regenreports.php\" class=\"translate-link\">kode ⇗</a>",
 "067-menu-5-sub-item-13": '<a href="coefficients.php">Koefisien Plastik Kami</a><span class="circle" title="Halaman ini telah diterjemahkan 10%" style="color:orange;  ">●</span>',
 "068-menu-5-trans-text-13": "🏴 ada di 10% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/coefficients-fr-translation.js\" class=\"translate-link\">lihat terjemahan ⇗</a> | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/fr/coefficients.php\" class=\"translate-link\">kode ⇗</a>",
-"059-menu-5-sub-item-9": '<a href="/movement">Gerakan</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan ada dalam format non-git kami. Menunggu migrasi." style="color:red; ">●</span>',
+"059-menu-5-sub-item-9": '<a href="movement.php">Gerakan</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan ada dalam format non-git kami. Menunggu migrasi." style="color:red; ">●</span>',
 "060-menu-5-trans-text-9": "🏴  /movement ada di 0%  dan berada dalam sistem non-git kami | menunggu transisi",
 
 

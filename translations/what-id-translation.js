@@ -103,7 +103,7 @@ const id_Page_Translations = {
     '080-list-item2': '<a href="how.php">Bagaimana Cara Ecobrick?</a>',
     '081-list-item3': '<a href="spiral.php">Desain Spiral</a>',
     '082-list-item4': '<a href="build.php">Membangun dengan Ecobricks</a>',
-    '083-list-item5': '<a href="/movement">Gerakan</a>',
+    '083-list-item5': '<a href="movement.php">Gerakan</a>',
     '084-list-item6': '<a href="/dropoff">Menjatuhkan ecobricks?</a>',
     '085-list-item7': '<a href="/trainings">Pelatihan Ecobrick</a>',
     

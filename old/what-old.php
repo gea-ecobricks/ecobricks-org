@@ -465,7 +465,7 @@ _END;?>
 			<li><a href="/how">How to Ecobrick?</a></li>
 			<li><a href="/circular">Cradle to Cradle</a></li>
 			<li><a href="build.php">Building with Ecobricks</a></li>
-			<li><a href="/movement">The Movement</a></li>
+			<li><a href="movement.php">The Movement</a></li>
 			<li><a href="/dropoff">Dropping off ecobricks?</a></li>
 			<li><a href="/trainings">Ecobrick Trainings</a></li>
 		</ul>

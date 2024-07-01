@@ -726,7 +726,7 @@ Content Page template: v.1.0.0-->
 				
 					<p>The global ecobrick movement is a fundamentally decentralized and distributed network of keen green folks, communities and companies around the world.  And there's tons of diversity!  Depending on what's available folks ecobrick in unique ways across culture and continents.  While many of these folks are not online at all, many are and use social media to connect and support their local ecobrick communities.  We keep a far-from-completelist of web pages and social media pages around the world to follow, make friends and join.</p>
 
-					<div class="faq-link"><h5>Learn more: <a href="/movement">Global Ecobrick Movement</h5></a></div>                    
+					<div class="faq-link"><h5>Learn more: <a href="movement.php">Global Ecobrick Movement</h5></a></div>                    
 					<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 				</div>
 			</div>
@@ -809,7 +809,7 @@ Content Page template: v.1.0.0-->
 					
 						<p>We love to add your planet passion to our network.  There's no prequisites-- other than experience making your own ecobricks!  To get a feel for what's involved, you can join one of the GEA's starter workshops!  We've got them going on all the time, online and onffline around the world.  Once you're ready, you can register for one of our five session GEA Trainer of Trainer workshops.  While our ToTs happen online very two months, we also do them onsite by commision: for cities, governments and companies keen to deploy a local ecobricking movement.  We also have Earth & Building starter and trainer workshops too!</p>
 
-						<div class="faq-link"><h5>Learn more: <a href="/movement">GEA Trainer Programs</h5></a></div>              
+						<div class="faq-link"><h5>Learn more: <a href="movement.php">GEA Trainer Programs</h5></a></div>              
 						<div id="top-link">Back to <a href="#movement-q">Movement Questions</a></div>
 					</div>
 				</div>

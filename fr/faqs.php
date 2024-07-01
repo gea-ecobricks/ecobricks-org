@@ -590,7 +590,7 @@ GENERAL ANSWERS
 			
 				<p data-lang-id="218-movement-content">The global ecobrick movement is a fundamentally decentralized and distributed network of keen green folks, communities and companies around the world. And there's tons of diversity! Depending on what's available folks ecobrick in unique ways across culture and continents. While many of these folks are not online at all, many are and use social media to connect and support their local ecobrick communities. We keep a far-from-complete list of web pages and social media pages around the world to follow, make friends and join.</p>
 
-				<div class="faq-link"><h5 data-lang-id="219-learn-more-movement">Learn more: <a href="/movement">Global Ecobrick Movement</a></h5></div>                    
+				<div class="faq-link"><h5 data-lang-id="219-learn-more-movement">Learn more: <a href="movement.php">Global Ecobrick Movement</a></h5></div>                    
 				<div class="top-link" data-lang-id="220-back-movement-questions">Back to <a href="#movement-q">Movement Questions</a></div>
 			</div>
 			<div class="faq-image" data-lang-id="221-movement-image"><img src="../pngs/community.png" alt="community powered collaboration" loading="lazy"></div>

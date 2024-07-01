@@ -102,7 +102,7 @@
 
                 <p data-lang-id="072-strive-and-sync-description">Of course, it's possible to strive and sync even better with the surrounding ecological cycles.  An ayyew ecobricker strives to move from modules to gardens to <a href = "earth.php">earth and ecobrick</a> green space structures that <a href = "sequest.php">sequester plastic</a> and CO2.
 
-                <p data-lang-id="073-deep-and-powerful-description">Inspired by this deep and powerful Igorot concept, the Global Ecobrick Alliance has developed our principles, techniques and applications around the concept of Ayyew. Ayyew fits in closely with regenerative philosophy and guided our development of the <a href = "https://www.ecobricks.org/principles">regenerative guiding principles</a>. that underlie the work of the <a href = "about.php">Global Ecobrick Alliance</a> and the <a href = "/movement">global ecobrick movement</a>.</p>
+                <p data-lang-id="073-deep-and-powerful-description">Inspired by this deep and powerful Igorot concept, the Global Ecobrick Alliance has developed our principles, techniques and applications around the concept of Ayyew. Ayyew fits in closely with regenerative philosophy and guided our development of the <a href = "https://www.ecobricks.org/principles">regenerative guiding principles</a>. that underlie the work of the <a href = "about.php">Global Ecobrick Alliance</a> and the <a href = "movement.php">global ecobrick movement</a>.</p>
                 <br><br>
 
                 <p><a class="action-btn" href="principles.php" data-lang-id="076-principles-button">🍃 Our GEA Principles</a></p>
