@@ -368,7 +368,7 @@ input[type="submit"]:hover {
     display: none;
     position: absolute;
     top: 30%;  /* Center vertically in the input field */
-    left: 15px; /* Distance from the right edge of the input field */
+    left: 11px; /* Distance from the right edge of the input field */
     transform: translateY(-50%); /* Ensures the spinner is exactly centered vertically */
     width: 20px;
     height: 20px;

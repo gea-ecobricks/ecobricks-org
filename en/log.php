@@ -28,17 +28,41 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $last_ownership_change = date("Y-m-d");
     $actual_maker_name = $ecobricker_maker;
     $ecobrick_id = 1; // Set to 1 for testing purposes
+    $ecobrick_unique_id = 300000;
+    $serial_no = 300000;
 
     // Extract location data (assuming location_full is formatted properly)
     list($location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality) = extract_location_data($location_full);
 
-    $sql = "INSERT INTO tb_ecobricks (ecobrick_id, ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long, location_municipality, ecobrick_unique_id, serial_no) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $db_fields = [
+        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
+        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
+        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
+        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
+        'location_city', 'location_lat', 'location_long', 'location_municipality',
+        'ecobrick_unique_id', 'serial_no'
+    ];
+
+    $db_values = [
+        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
+        $plastic_from, $location_full, $community_name, $project_id, $training_id,
+        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
+        $last_ownership_change, $actual_maker_name, $location_country, $location_region,
+        $location_city, $location_lat, $location_long, $location_municipality,
+        $ecobrick_unique_id, $serial_no
+    ];
+
+    echo "Fields count: " . count($db_fields) . "<br>"; // should print 25
+    echo "Values count: " . count($db_values) . "<br>"; // should print 25
+
+    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssddii", $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long, $location_municipality, $ecobrick_id, $ecobrick_id);
+        $stmt->bind_param("isiissssiisssdssdssssddsii", ...$db_values);
+
+        error_log("Parameters bound successfully.");
 
         if ($stmt->execute()) {
             error_log("Statement executed successfully.");
@@ -225,7 +249,7 @@ function extract_location_data($location_full) {
                 <div class="form-item">
                     <label for="location_full" data-lang-id="011-location-full">Where is this ecobrick based?</label><br>
                     <div class="input-container">
-                        <input type="text" id="location_full" name="location_full" aria-label="Location Full" required style="padding-left:20px;">
+                        <input type="text" id="location_full" name="location_full" aria-label="Location Full" required style="padding-left:25px;">
                         <div id="loading-spinner" class="spinner" style="display: none;"></div>
                     </div>
                     <p class="form-caption" data-lang-id="011-location-full-caption">Provide the full location where the ecobrick is based.</p>
