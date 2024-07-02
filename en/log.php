@@ -78,6 +78,7 @@ function extract_location_data($location_full) {
 ?>
 
 
+
 <!DOCTYPE html>
 <HTML lang="en">
 <HEAD>
