@@ -7,13 +7,27 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Function to set serial number
+    function setSerialNumber($conn) {
+        $query = "SELECT MAX(serial_no) as max_serial FROM tb_ecobricks";
+        $result = $conn->query($query);
+
+        if ($result->num_rows > 0) {
+            $row = $result->fetch_assoc();
+            $max_serial = $row['max_serial'];
+            return $max_serial + 1;
+        } else {
+            return 300000; // Default starting value if no records are found
+        }
+    }
+
     // Gather form data
     $ecobricker_maker = trim($_POST['ecobricker_maker']);
     $volume_ml = (int)trim($_POST['volume_ml']);
     $weight_g = (int)trim($_POST['weight_g']);
     $sequestration_type = trim($_POST['sequestration_type']);
     $plastic_from = trim($_POST['plastic_from']);
-    $location_full = $_POST['location_address'] ?? 'Default Location';
+    $location_full = $_POST['location_full'] ?? 'Default Location';
     $latitude = (double)$_POST['latitude'];
     $longitude = (double)$_POST['longitude'];
     $community_name = trim($_POST['community_name']);
@@ -29,9 +43,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $CO2_kg = ($weight_g * 6.1) / 1000;
     $last_ownership_change = date("Y-m-d");
     $actual_maker_name = $ecobricker_maker;
-    $ecobrick_id = 1; // Set to 1 for testing purposes
-    $ecobrick_unique_id = 300000;
-    $serial_no = 300000;
+
+    // Set serial number and ecobrick ID
+    $serial_no = setSerialNumber($conn);
+    $ecobrick_id = $serial_no;
 
     $db_fields = [
         'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
@@ -48,11 +63,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
         $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
         'Unknown City', $latitude, $longitude, 'Unknown Municipality',
-        $ecobrick_unique_id, $serial_no
+        $ecobrick_id, $serial_no
     ];
-
-    echo "Fields count: " . count($db_fields) . "<br>"; // should print 25
-    echo "Values count: " . count($db_values) . "<br>"; // should print 25
 
     $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
@@ -70,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt->close();
             $conn->close();
 
-            // Redirect to log-2.php
+            // Redirect to log-2.php with the correct ecobrick_id
             echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'log-2.php?id=" . $ecobrick_id . "';</script>";
         } else {
             error_log("Error executing statement: " . $stmt->error);
@@ -86,6 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn) $conn->close();
 }
 ?>
+
 
 
 
