@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt->close();
             $conn->close();
 
-            // Redirect to log-2.php with ecobrick_id
+            // Redirect to log-2.php
             echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'log-2.php?id=" . $ecobrick_id . "';</script>";
         } else {
             error_log("Error executing statement: " . $stmt->error);
