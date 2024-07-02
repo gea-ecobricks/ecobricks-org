@@ -33,16 +33,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Extract location data (assuming location_full is formatted properly)
     list($location_city, $location_region, $location_country, $location_lat, $location_long) = extract_location_data($location_full);
 
-    // Manually set ecobrick_unique_id for testing
-    $ecobrick_unique_id = 300000;
+    // Manually set ecobrick_id for testing
+    $ecobrick_id = 1;
 
-    $sql = "INSERT INTO tb_ecobricks (ecobrick_unique_id, ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long) 
+    $sql = "INSERT INTO tb_ecobricks (ecobrick_id, ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long) 
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssdd", $ecobrick_unique_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long);
+        $stmt->bind_param("isiissssiisssdssdssssdd", $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long);
 
         if ($stmt->execute()) {
             error_log("Statement executed successfully.");
@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt->close();
             $conn->close();
 
-            echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'log-2.php?id=" . $ecobrick_unique_id . "';</script>";
+            echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'log-2.php?id=" . $ecobrick_id . "';</script>";
         } else {
             error_log("Error executing statement: " . $stmt->error);
             echo "Error: " . $stmt->error . "<br>";
@@ -76,6 +76,7 @@ function extract_location_data($location_full) {
 }
 
 ?>
+
 
 
 
