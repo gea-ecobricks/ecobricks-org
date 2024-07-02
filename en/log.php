@@ -239,25 +239,35 @@ function extract_location_data() {
                     <div id="community-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
                 </div>
 
-                <div class="form-item">
-                    <label for="project_id" data-lang-id="013-project-id">Is this ecobrick part of a project?</label><br>
-                    <input type="number" id="project_id" name="project_id" aria-label="Project ID">
-                    <p class="form-caption" data-lang-id="013-project-id-caption">Optional: Provide the project ID if this ecobrick is part of a project.</p>
+                <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1">
+                    <div class="advanced-box-header"  id="advancedBoxLabel-1">
+                        <div class="advanced-title" data-lang-id="013-advanced-options">Advanced Options</div>
+                        <div class="advanced-open-icon">+</div>
+                    </div>
+                    <div class="advanced-box-content">
 
-                    <!--ERRORS-->
-                    <div id="project-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+                        <div class="form-item">
+                            <label for="project_id" data-lang-id="014-project-id">Is this ecobrick part of a project?</label><br>
+                            <input type="number" id="project_id" name="project_id" aria-label="Project ID">
+                            <p class="form-caption" data-lang-id="014-project-id-caption">Optional: Provide the project ID if this ecobrick is part of a project.</p>
+
+                            <!--ERRORS-->
+                            <div id="project-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="training_id" data-lang-id="015-training-id">Was this ecobrick made in a training?</label><br>
+                            <input type="number" id="training_id" name="training_id" aria-label="Training ID">
+                            <p class="form-caption" data-lang-id="015-training-id-caption">Optional: Provide the training ID if this ecobrick was made in a training.</p>
+
+                            <!--ERRORS-->
+                            <div id="training-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+                        </div>
+
+                    </div>
                 </div>
 
-                <div class="form-item">
-                    <label for="training_id" data-lang-id="014-training-id">Was this ecobrick made in a training?</label><br>
-                    <input type="number" id="training_id" name="training_id" aria-label="Training ID">
-                    <p class="form-caption" data-lang-id="014-training-id-caption">Optional: Provide the training ID if this ecobrick was made in a training.</p>
-
-                    <!--ERRORS-->
-                    <div id="training-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
-                </div>
-
-                <div data-lang-id="015-submit-button">
+                <div data-lang-id="016-submit-button">
                     <input type="submit" value="Submit Ecobrick ➡️" aria-label="Submit Form">
                 </div>
 
@@ -283,6 +293,84 @@ function extract_location_data() {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
+
+
+    // TOGGLE COMMUNITY OR PERSONAL PROJECT SORT FIELDS
+    document.addEventListener("DOMContentLoaded", function() {
+        // Initially hide all additional fields
+        const communityField = document.getElementById("community_name").parentNode;
+        const projectField = document.getElementById("project_id").parentNode;
+        const trainingField = document.getElementById("training_id").parentNode;
+
+        communityField.style.display = 'none';
+        projectField.style.display = 'none';
+        trainingField.style.display = 'none';
+
+        // Function to show or hide fields based on the dropdown selection
+        function toggleFields() {
+            var projectSort = document.getElementById("project_sort").value;
+
+            // Reset visibility
+            communityField.style.display = 'none';
+            projectField.style.display = 'none';
+            trainingField.style.display = 'none';
+
+            if (projectSort === "community") {
+                communityField.style.display = '';
+            } else if (projectSort === "personal") {
+                projectField.style.display = '';
+            }
+
+            // Show community, project, and training fields if a project sort is selected
+            if (projectSort === "community" || projectSort === "personal") {
+                communityField.style.display = '';
+                projectField.style.display = '';
+                trainingField.style.display = '';
+            }
+
+            // Dynamically adjust the max-height for the advanced box content
+            const advancedBoxContent = document.querySelector('.advanced-box-content');
+            advancedBoxContent.style.maxHeight = advancedBoxContent.scrollHeight + "px";
+        }
+
+        // Add change event listener to the project sort dropdown
+        document.getElementById("project_sort").addEventListener("change", toggleFields);
+    });
+
+    // SHOW HIDE THE ADVANCED BOX
+    function toggleAdvancedBox(event) {
+        // Get the current advanced box based on the clicked header
+        let currentAdvancedBox = event.currentTarget.parentElement;
+
+        // Assuming the element that will have the `aria-expanded` attribute is the header itself
+        let header = currentAdvancedBox.querySelector('.advanced-box-header');
+
+        // Find the content and icon specific to this advanced box
+        let content = currentAdvancedBox.querySelector('.advanced-box-content');
+        let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
+
+        // Check if the content is currently expanded or not
+        let isExpanded = header.getAttribute('aria-expanded') === 'true';
+
+        if (!isExpanded) {
+            content.style.maxHeight = content.scrollHeight + 'px'; // Set to its full height
+            icon.textContent = '−'; // Switch to minus symbol for an open state
+            header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
+        } else {
+            content.style.maxHeight = '0px'; // Collapse it
+            icon.textContent = '+'; // Set to plus symbol
+            header.setAttribute('aria-expanded', 'false'); // Update aria-expanded to false
+        }
+    }
+
+    // Attach the function to all header div's click events
+    document.addEventListener("DOMContentLoaded", function() {
+        let headers = document.querySelectorAll('.advanced-box-header');
+        headers.forEach(header => {
+            header.addEventListener('click', toggleAdvancedBox);
+        });
+    });
+
 
 
     $(function() {
