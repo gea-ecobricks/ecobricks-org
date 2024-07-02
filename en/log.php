@@ -32,15 +32,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $serial_no = 300000;
 
     // Extract location data (assuming location_full is formatted properly)
-    list($location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality) = extract_location_data($location_full);
+    list($location_city, $location_region, $location_country, $location_municipality) = extract_location_data($location_full);
 
     $db_fields = [
         'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
         'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
         'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
         'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
-        'location_city', 'location_lat', 'location_long', 'location_municipality',
-        'ecobrick_unique_id', 'serial_no'
+        'location_city', 'location_municipality', 'ecobrick_unique_id', 'serial_no'
     ];
 
     $db_values = [
@@ -48,19 +47,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $plastic_from, $location_full, $community_name, $project_id, $training_id,
         $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
         $last_ownership_change, $actual_maker_name, $location_country, $location_region,
-        $location_city, $location_lat, $location_long, $location_municipality,
-        $ecobrick_unique_id, $serial_no
+        $location_city, $location_municipality, $ecobrick_unique_id, $serial_no
     ];
 
-    echo "Fields count: " . count($db_fields) . "<br>"; // should print 25
-    echo "Values count: " . count($db_values) . "<br>"; // should print 25
+    echo "Fields count: " . count($db_fields) . "<br>"; // should print 23
+    echo "Values count: " . count($db_values) . "<br>"; // should print 23
 
     $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssddsii", ...$db_values);
+        $stmt->bind_param("isiissssiisssdssdssssdii", ...$db_values);
 
         error_log("Parameters bound successfully.");
 
@@ -86,6 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn) $conn->close();
 }
+
 function extract_location_data($location_full) {
     $location_country = trim($_POST['location_country'] ?? '');
     $location_region = trim($_POST['location_region'] ?? '');
