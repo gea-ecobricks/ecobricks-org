@@ -48,7 +48,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt->close();
             $conn->close();
 
-            echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'add-ecobrick.php';</script>";
+            // Redirect to log-2.php
+            echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'log-2.php';</script>";
         } else {
             error_log("Error executing statement: " . $stmt->error);
             echo "Error: " . $stmt->error . "<br>";
@@ -62,7 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn) $conn->close();
 }
-
 
 function extract_location_data() {
     $location_country = trim($_POST['location_country'] ?? '');
@@ -224,6 +224,7 @@ function extract_location_data() {
                 <div class="form-item">
                     <label for="location_full" data-lang-id="011-location-full">Where is this ecobrick based?</label><br>
                     <input type="text" id="location_full" name="location_full" aria-label="Location Full" required>
+                    <div id="loading-spinner" class="spinner" style="display: none;">Loading...</div>
                     <p class="form-caption" data-lang-id="011-location-full-caption">Provide the full location where the ecobrick is based.</p>
 
                     <!--ERRORS-->

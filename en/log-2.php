@@ -2,6 +2,8 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+ini_set('memory_limit', '256M'); // Increase memory limit
+
 include '../ecobricks_env.php';
 
 $error_message = '';
@@ -10,61 +12,64 @@ $thumbnail_paths = [];
 $main_file_sizes = [];
 $thumbnail_file_sizes = [];
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
-    $project_id = $_POST['project_id'];
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_id'])) {
+    $ecobrick_id = $_POST['ecobrick_id'];
+    $serial_no = $_POST['serial_no']; // Ensure serial_no is passed from the previous step
     include '../project-photo-functions.php';
 
-
-    // Handle project deletion
-    if (isset($_POST['action']) && $_POST['action'] == 'delete_project') {
-        $deleteResult = deleteProject($project_id, $conn);
+    // Handle ecobrick deletion
+    if (isset($_POST['action']) && $_POST['action'] == 'delete_ecobrick') {
+        $deleteResult = deleteEcobrick($ecobrick_id, $conn);
         if ($deleteResult === true) {
-            echo "<script>alert('Project has been successfully deleted.'); window.location.href='add-project.php';</script>";
+            echo "<script>alert('Ecobrick has been successfully deleted.'); window.location.href='add-ecobrick.php';</script>";
             exit;
-        } else {    
+        } else {
             echo "<script>alert('" . $deleteResult . "');</script>";
             exit;
         }
     }
 
-    $upload_dir = '../projects/photos/';
-    $thumbnail_dir = '../projects/tmbs/';
- 
+    $upload_dir = '../briks/';
+    $thumbnail_dir = '../briks/thumbnails/';
+
     $db_fields = [];
     $db_values = [];
     $db_types = "";
 
-    for ($i = 1; $i <= 6; $i++) { // Changed from 5 to 6 to accommodate six images
-        $file_input_name = "photo{$i}_main";
+    $photo_fields = [
+        ["input" => "ecobrick_photo_main", "full" => "ecobrick_full_photo_url", "thumb" => "ecobrick_thumb_photo_url"],
+        ["input" => "selfie_photo_main", "full" => "selfie_photo_url", "thumb" => "selfie_thumb_url"]
+    ];
+
+    foreach ($photo_fields as $index => $fields) {
+        $file_input_name = $fields["input"];
         if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
             $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
-            $new_file_name_webp = 'project-' . $project_id . '-' . $i . '.webp';
+            $new_file_name_webp = "ecobrick-{$serial_no}-file{$index}.webp";
+            $thumbnail_file_name_webp = "tn_ecobrick-{$serial_no}-file{$index}.webp";
             $targetPath = $upload_dir . $new_file_name_webp;
+            $thumbnailPath = $thumbnail_dir . $thumbnail_file_name_webp;
 
             if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
-                createThumbnail($targetPath, $thumbnail_dir . $new_file_name_webp, 250, 77);
+                createTrainingThumbnail($targetPath, $thumbnailPath, 250, 250, 77);
                 $full_urls[] = $targetPath;
-                $thumbnail_paths[] = $thumbnail_dir . $new_file_name_webp;
+                $thumbnail_paths[] = $thumbnailPath;
                 $main_file_sizes[] = filesize($targetPath) / 1024;
-                $thumbnail_file_sizes[] = filesize($thumbnail_dir . $new_file_name_webp) / 1024;
+                $thumbnail_file_sizes[] = filesize($thumbnailPath) / 1024;
 
-                array_push($db_fields, "photo{$i}_main", "photo{$i}_tmb");
-                array_push($db_values, $targetPath, $thumbnail_dir . $new_file_name_webp);
+                array_push($db_fields, $fields["full"], $fields["thumb"]);
+                array_push($db_values, $targetPath, $thumbnailPath);
                 $db_types .= "ss";
             } else {
-                $error_message .= "Error processing image. Please try again.<br>";
+                $error_message .= "Error processing image {$index}. Please try again.<br>";
             }
         }
     }
 
     if (!empty($db_fields) && empty($error_message)) {
-        array_push($db_fields, "ready_to_show", "logged_ts");
-        array_push($db_values, 1, date("Y-m-d H:i:s"));
-        $db_types .= "is";
-
         $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
-        $update_sql = "UPDATE tb_projects SET {$fields_for_update} WHERE project_id = ?";
-        $db_values[] = $project_id;
+        $update_sql = "UPDATE tb_ecobricks SET {$fields_for_update} WHERE ecobrick_unique_id = ?";
+        $db_values[] = $ecobrick_id;
         $db_types .= "i";
 
         $update_stmt = $conn->prepare($update_sql);
@@ -82,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
         exit;
     } else {
         $response = array(
-            'project_id' => $project_id,
+            'ecobrick_id' => $ecobrick_id,
             'full_urls' => $full_urls,
             'thumbnail_paths' => $thumbnail_paths,
             'main_file_sizes' => $main_file_sizes,
@@ -94,133 +99,101 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
     }
 }
 
-
+function deleteEcobrick($ecobrick_id, $conn) {
+    // Dummy function to handle ecobrick deletion, replace with actual implementation
+    return true;
+}
 
 ?>
 
+
+
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="en">
 <HEAD>
-<META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='2.37';?>
-<?php $page='add-project-images';?>
+    <META charset="UTF-8">
+    <?php $lang='en';?>
+    <?php $version='2.37';?>
+    <?php $page='add-ecobrick-images';?>
 
+    <?php require_once ("../includes/add-ecobrick-inc.php");?>
 
-<?php require_once ("../includes/add-project-inc.php");?>
+    <div class="splash-content-block"></div>
+    <div id="splash-bar"></div>
 
-<div class="splash-content-block"></div>
-<div id="splash-bar"></div>
+    <!-- PAGE CONTENT-->
 
- <!-- PAGE CONTENT--> 
+    <div id="photos-submission-box" style="display:flex;flex-flow:column;">
 
+        <div class="form-container" id="upload-photo-form">
 
- <div id="photos-submission-box" style="display:flex;flex-flow:column;">
+            <div class="step-graphic" style="width:fit-content;margin:auto;">
+                <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
+            </div>
 
-    <div class="form-container" id="upload-photo-form">
+            <div class="splash-form-content-block">
+                <div class="splash-box">
 
-        <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
+                    <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Ecobrick Images</div>
+                </div>
+                <div class="splash-image" data-lang-id="003-splash-image-alt">
+                    <img src="../svgs/square-photo.svg?v=2" style="width:65%" alt="Please take a square photo">
+                </div>
+            </div>
+
+            <p data-lang-id="002-form-description2">Show the world your ecobrick! Upload two images: one of the ecobrick and one of the maker with the ecobrick. <span style="color:red">Please upload only square photos. Be sure photos are under 8MB.</span></p>
+
+            <br>
+
+            <form id="photoform" action="" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="ecobrick_id" value="<?php echo $_GET['ecobrick_id']; ?>">
+                <input type="hidden" name="serial_no" value="<?php echo $_GET['serial_no']; ?>">
+
+                <!-- Ecobrick Photo Main & Thumbnail -->
+                <div class="form-item">
+                    <div>
+                        <label for="ecobrick_photo_main" data-lang-id="003-feature-photo">Ecobrick image:</label><br>
+                        <input type="file" id="ecobrick_photo_main" name="ecobrick_photo_main" required>
+                        <p class="form-caption" data-lang-id="004-feature-desc">Please choose a photo of the ecobrick. Required.</p>
+                    </div>
+                </div>
+
+                <!-- Selfie Photo Main & Thumbnail -->
+                <div class="form-item">
+                    <label for="selfie_photo_main" data-lang-id="005-another-photo">Maker with Ecobrick image:</label><br>
+                    <input type="file" id="selfie_photo_main" name="selfie_photo_main" required>
+                    <p class="form-caption" data-lang-id="006-another-photo-optional">Please choose a photo of the maker with the ecobrick. Required.</p>
+                </div>
+
+                <div data-lang-id="013-submit-upload-button">
+                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload">
+                </div>
+            </form>
         </div>
 
-        <div class="splash-form-content-block">  
-            <div class="splash-box">
-        
-                <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Images</div>
+        <div id="upload-success" class="form-container" style="display:none;">
+            <div class="step-graphic" style="width:fit-content;margin:auto;">
+                <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
             </div>
-            <div class="splash-image" data-lang-id="003-splash-image-alt">
-                <img src="../svgs/square-photo.svg?v=2" style="width:65%" alt="Please take a square photo">
-            </div>
+            <div id="upload-success-message"></div>
+            <a class="confirm-button" href="ecobrick.php?ecobrick_id=<?php echo $_GET['ecobrick_id']; ?>" data-lang-id="013-view-ecobrick-post">🎉 View Ecobrick Post</a>
+            <a class="confirm-button" data-lang-id="014-edit-ecobrick" href="edit-ecobrick.php?ecobrick_id=<?php echo $_GET['ecobrick_id']; ?>">Edit Ecobrick Post</a>
+
+            <form id="deleteForm" action="" method="POST">
+                <input type="hidden" name="ecobrick_id" value="<?php echo htmlspecialchars($_GET['ecobrick_id']); ?>">
+                <input type="hidden" name="action" value="delete_ecobrick">
+                <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton" data-lang-id="014-delete-ecobrick">❌ Delete Ecobrick</a>
+            </form>
         </div>
 
-
-        <p data-lang-id="002-form-description2">Show the world your project!  Upload one to five images showing your construction from different angles or times. <span style="color:red">Please upload only square photos.  Be sure photos are under 8MB.</span></p>
-
-        
-        <br>
-        
-        <form id="photoform" action="" method="post" enctype="multipart/form-data">
-            <input type="hidden" name="project_id" value="<?php echo $_GET['project_id']; ?>">
-      <!-- Photo 1 Main & Thumbnail -->
-<div class="form-item">
-    <div>
-        <label for="photo1_main" data-lang-id="003-feature-photo">Feature image:</label><br>
-        <input type="file" id="photo1_main" name="photo1_main" required>
-        <p class="form-caption" data-lang-id="004-feature-desc">Please choose a featured photo for this project. Required.</p>
-    </div>
-</div>
-
-<!-- Photo 2 Main & Thumbnail -->
-<div class="form-item">
-    <label for="photo2_main" data-lang-id="005-another-photo">Choose another photo:</label><br>
-    <input type="file" id="photo2_main" name="photo2_main">
-    <p class="form-caption" data-lang-id="006-another-photo-optional">Optional</p>
-</div>
-
-<!-- Photo 3 Main & Thumbnail -->
-<div class="form-item">
-    <label for="photo3_main" data-lang-id="007-another-photo">Choose another photo:</label><br>
-    <input type="file" id="photo3_main" name="photo3_main">
-    <p class="form-caption" data-lang-id="008-another-photo-optional">Optional</p>
-</div>
-
-<!-- Photo 4 Main & Thumbnail -->
-<div class="form-item">
-    <label for="photo4_main" data-lang-id="009-another-photo">Choose another photo:</label><br>
-    <input type="file" id="photo4_main" name="photo4_main">
-    <p class="form-caption" data-lang-id="010-another-photo-optional">Optional</p>
-</div>
-
-<!-- Photo 5 Main & Thumbnail -->
-<div class="form-item">
-    <label for="photo5_main" data-lang-id="011-another-photo">Choose another photo:</label><br>
-    <input type="file" id="photo5_main" name="photo5_main">
-    <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
-</div>
-
-<!-- Photo 5 Main & Thumbnail -->
-<div class="form-item">
-    <label for="photo6_main" data-lang-id="011-another-photo">Choose another photo:</label><br>
-    <input type="file" id="photo6_main" name="photo6_main">
-    <p class="form-caption" data-lang-id="012-another-photo-optional">Optional</p>
-</div>
-
-
-
-            <div data-lang-id="013-submit-upload-button">
-                <input type="submit" value="" id="upload-progress-button" aria-lable="Submit photos for upload">⬆️ Upload Photos 
-            </div>
-        </form>
-    </div>
-
-
-
-    <div id="upload-success" class="form-container" style="display:none;">
-    <div class="step-graphic" style="width:fit-content;margin:auto;">
-            <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
-        </div>
-        <div id="upload-success-message"></div>
-        <a class="confirm-button" href="project.php?project_id=<?php echo $_GET['project_id']; ?>" data-lang-id="013-view-project-post">🎉 View Project Post</a>
-        <a class="confirm-button" data-lang-id="014-edit-project" href="edit-project.php?project_id=<?php echo $_GET['project_id']; ?>">Edit Project Post</a>
-      
-
-        <form id="deleteForm" action="" method="POST">
-            <input type="hidden" name="project_id" value="<?php echo htmlspecialchars($_GET['project_id']); ?>">
-            <input type="hidden" name="action" value="delete_project">
-            <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton" data-lang-id="014-delete-project">❌ Delete Project</a>
-        </form>
+        <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
 
     </div>
 
+    <br><br>
 
-<a href="#" onclick="goBack()"  aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
+    </div>
 
-</div>
-
-  
-<br><br>
-
-</div>
 
 
        
