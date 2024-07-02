@@ -86,16 +86,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn) $conn->close();
 }
-
 function extract_location_data($location_full) {
     $location_country = trim($_POST['location_country'] ?? '');
     $location_region = trim($_POST['location_region'] ?? '');
     $location_city = trim($_POST['location_city'] ?? '');
     $location_municipality = trim($_POST['location_municipality'] ?? '');
-    $location_lat = (float)($_POST['latitude'] ?? 0.0);
-    $location_long = (float)($_POST['longitude'] ?? 0.0);
 
-    return [$location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality];
+    return [$location_city, $location_region, $location_country, $location_municipality];
 }
 
 ?>

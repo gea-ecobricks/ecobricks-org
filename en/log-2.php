@@ -141,7 +141,8 @@ function deleteEcobrick($ecobrick_id, $conn) {
                 </div>
             </div>
 
-            <p data-lang-id="002-form-description2">Show the world your ecobrick! Upload two images: one of the ecobrick and one of the maker with the ecobrick. <span style="color:red">Please upload only square photos. Be sure photos are under 8MB.</span></p>
+            <p data-lang-id="002-form-description2">Show the world your ecobrick! Upload two images: one of the ecobrick and one of the maker with the ecobrick.</p>
+<!--            <span style="color:red">Be sure photos are under 8MB.</span>-->
 
             <br>
 
