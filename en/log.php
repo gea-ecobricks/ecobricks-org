@@ -230,14 +230,7 @@ function extract_location_data() {
                     <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
                 </div>
 
-                <div class="form-item">
-                    <label for="community_name" data-lang-id="012-community-name">Is this ecobrick part of a community initiative?</label><br>
-                    <input type="text" id="community_name" name="community_name" aria-label="Community Name">
-                    <p class="form-caption" data-lang-id="012-community-name-caption">Optional: Provide the name of the community initiative.</p>
 
-                    <!--ERRORS-->
-                    <div id="community-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
-                </div>
 
                 <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1">
                     <div class="advanced-box-header"  id="advancedBoxLabel-1">
@@ -245,6 +238,15 @@ function extract_location_data() {
                         <div class="advanced-open-icon">+</div>
                     </div>
                     <div class="advanced-box-content">
+
+                        <div class="form-item">
+                            <label for="community_name" data-lang-id="012-community-name">Is this ecobrick part of a community initiative?</label><br>
+                            <input type="text" id="community_name" name="community_name" aria-label="Community Name">
+                            <p class="form-caption" data-lang-id="012-community-name-caption">Optional: Provide the name of the community initiative.</p>
+
+                            <!--ERRORS-->
+                            <div id="community-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+                        </div>
 
                         <div class="form-item">
                             <label for="project_id" data-lang-id="014-project-id">Is this ecobrick part of a project?</label><br>
