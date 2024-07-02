@@ -31,36 +31,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ecobrick_unique_id = 300000;
     $serial_no = 300000;
 
-    // Extract location data (assuming location_full is formatted properly)
-    list($location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality) = extract_location_data($location_full);
+    // Extract location data
+    $latitude = (double)$_POST['latitude'];
+    $longitude = (double)$_POST['longitude'];
 
-    $db_fields = [
-        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
-        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
-        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
-        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
-        'location_city', 'location_lat', 'location_long', 'location_municipality',
-        'ecobrick_unique_id', 'serial_no'
-    ];
-
-    $db_values = [
-        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
-        $plastic_from, $location_full, $community_name, $project_id, $training_id,
-        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
-        $last_ownership_change, $actual_maker_name, $location_country, $location_region,
-        $location_city, $location_lat, $location_long, $location_municipality,
-        $ecobrick_unique_id, $serial_no
-    ];
-
-    echo "Fields count: " . count($db_fields) . "<br>"; // should print 25
-    echo "Values count: " . count($db_values) . "<br>"; // should print 25
-
-    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
+    $sql = "INSERT INTO tb_ecobricks (ecobrick_id, ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_lat, location_long, ecobrick_unique_id, serial_no) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssddsii", ...$db_values);
+        $stmt->bind_param("isiissssiisssdssdssii", $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $latitude, $longitude, $ecobrick_unique_id, $serial_no);
 
         error_log("Parameters bound successfully.");
 
@@ -86,23 +67,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn) $conn->close();
 }
-
-
-
-
-function extract_location_data($location_full) {
-    $location_country = trim($_POST['location_country'] ?? 'Unknown Country');
-    $location_region = trim($_POST['location_region'] ?? 'Unknown Region');
-    $location_city = trim($_POST['location_city'] ?? 'Unknown City');
-    $location_municipality = trim($_POST['location_municipality'] ?? 'Unknown Municipality');
-    $location_lat = (float)($_POST['latitude'] ?? 0.0);
-    $location_long = (float)($_POST['longitude'] ?? 0.0);
-
-    return [$location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality];
-}
-
-
 ?>
+
 
 
 
@@ -253,7 +219,7 @@ function extract_location_data($location_full) {
                 <div class="form-item">
                     <label for="location_full" data-lang-id="011-location-full">Where is this ecobrick based?</label><br>
                     <div class="input-container">
-                        <input type="text" id="location_full" name="location_full" aria-label="Location Full" required style="padding-left:25px;">
+                        <input type="text" id="location_full" name="location_full" aria-label="Location Full" required style="padding-left:35px;">
                         <div id="loading-spinner" class="spinner" style="display: none;"></div>
                     </div>
                     <p class="form-caption" data-lang-id="011-location-full-caption">Provide the full location where the ecobrick is based.</p>
@@ -529,6 +495,7 @@ function extract_location_data($location_full) {
         }
     });
 
+
     $(function() {
         let debounceTimer;
         $("#location_full").autocomplete({
@@ -573,11 +540,11 @@ function extract_location_data($location_full) {
         });
 
         $('#submit-form').on('submit', function() {
-            // console.log('Location Full:', $('#location_full').val());
-            // alert('Location Full: ' + $('#location_full').val());
+            // console.log('Location Full:', $('#location_address').val());
+            // alert('Location Full: ' + $('#location_address').val());
         });
-
     });
+
 </script>
 
 <br><br>
