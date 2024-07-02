@@ -31,25 +31,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $actual_maker_name = $ecobricker_maker;
 
     // Extract location data (assuming location_full is formatted properly)
-    list($location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality) = extract_location_data();
+    list($location_city, $location_region, $location_country, $location_lat, $location_long) = extract_location_data($location_full);
 
-    $sql = "INSERT INTO tb_ecobricks (ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long, location_municipality) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    // Manually set ecobrick_unique_id for testing
+    $ecobrick_unique_id = 300000;
+
+    $sql = "INSERT INTO tb_ecobricks (ecobrick_unique_id, ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("siissssiisssdssdssssdds", $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long, $location_municipality);
+        $stmt->bind_param("isiissssiisssdssdssssdd", $ecobrick_unique_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long);
 
         if ($stmt->execute()) {
             error_log("Statement executed successfully.");
-            $ecobrick_id = $conn->insert_id;
 
             $stmt->close();
             $conn->close();
 
-            // Redirect to log-2.php
-            echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'log-2.php';</script>";
+            echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'log-2.php?id=" . $ecobrick_unique_id . "';</script>";
         } else {
             error_log("Error executing statement: " . $stmt->error);
             echo "Error: " . $stmt->error . "<br>";
@@ -64,19 +65,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn) $conn->close();
 }
 
-function extract_location_data() {
-    $location_country = trim($_POST['location_country'] ?? '');
-    $location_region = trim($_POST['location_region'] ?? '');
-    $location_city = trim($_POST['location_city'] ?? '');
-    $location_municipality = trim($_POST['location_municipality'] ?? '');
-    $location_lat = (float)($_POST['latitude'] ?? 0.0);
-    $location_long = (float)($_POST['longitude'] ?? 0.0);
-
-    return [$location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality];
+function extract_location_data($location_full) {
+    // Dummy function to extract location data, replace with actual implementation
+    $location_city = 'Dummy City';
+    $location_region = 'Dummy Region';
+    $location_country = 'Dummy Country';
+    $location_lat = 0.0;
+    $location_long = 0.0;
+    return [$location_city, $location_region, $location_country, $location_lat, $location_long];
 }
 
-
 ?>
+
 
 <!DOCTYPE html>
 <HTML lang="en">
