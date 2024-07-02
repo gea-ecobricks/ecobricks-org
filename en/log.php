@@ -9,9 +9,8 @@ $conn->set_charset("utf8mb4");
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Function to set serial number
     function setSerialNumber($conn) {
-        $query = "SELECT MAX(serial_no) as max_serial FROM tb_ecobricks";
+        $query = "SELECT MAX(ecobrick_unique_id) as max_serial FROM tb_ecobricks";
         $result = $conn->query($query);
-
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             $max_serial = $row['max_serial'];
@@ -250,7 +249,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="form-item">
                     <label for="location_full" data-lang-id="011-location-full">Where is this ecobrick based?</label><br>
                     <div class="input-container">
-                        <input type="text" id="location_full" name="location_full" aria-label="Location Full" required style="padding-left:35px;">
+                        <input type="text" id="location_full" name="location_full" aria-label="Location Full" required style="padding-left:45px;">
                         <div id="loading-spinner" class="spinner" style="display: none;"></div>
                     </div>
                     <p class="form-caption" data-lang-id="011-location-full-caption">Provide the full location where the ecobrick is based.</p>
