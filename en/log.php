@@ -294,8 +294,6 @@ function extract_location_data() {
 
 <script>
 
-
-    // TOGGLE COMMUNITY OR PERSONAL PROJECT SORT FIELDS
     document.addEventListener("DOMContentLoaded", function() {
         // Initially hide all additional fields
         const communityField = document.getElementById("community_name").parentNode;
@@ -306,70 +304,45 @@ function extract_location_data() {
         projectField.style.display = 'none';
         trainingField.style.display = 'none';
 
-        // Function to show or hide fields based on the dropdown selection
-        function toggleFields() {
-            var projectSort = document.getElementById("project_sort").value;
+        // SHOW HIDE THE ADVANCED BOX
+        function toggleAdvancedBox(event) {
+            // Get the current advanced box based on the clicked header
+            let currentAdvancedBox = event.currentTarget.parentElement;
 
-            // Reset visibility
-            communityField.style.display = 'none';
-            projectField.style.display = 'none';
-            trainingField.style.display = 'none';
+            // Assuming the element that will have the `aria-expanded` attribute is the header itself
+            let header = currentAdvancedBox.querySelector('.advanced-box-header');
 
-            if (projectSort === "community") {
-                communityField.style.display = '';
-            } else if (projectSort === "personal") {
-                projectField.style.display = '';
+            // Find the content and icon specific to this advanced box
+            let content = currentAdvancedBox.querySelector('.advanced-box-content');
+            let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
+
+            // Check if the content is currently expanded or not
+            let isExpanded = header.getAttribute('aria-expanded') === 'true';
+
+            if (!isExpanded) {
+                content.style.maxHeight = content.scrollHeight + 'px'; // Set to its full height
+                icon.textContent = '−'; // Switch to minus symbol for an open state
+                header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
+                communityField.style.display = ''; // Show community field
+                projectField.style.display = ''; // Show project field
+                trainingField.style.display = ''; // Show training field
+            } else {
+                content.style.maxHeight = '0px'; // Collapse it
+                icon.textContent = '+'; // Set to plus symbol
+                header.setAttribute('aria-expanded', 'false'); // Update aria-expanded to false
+                communityField.style.display = 'none'; // Hide community field
+                projectField.style.display = 'none'; // Hide project field
+                trainingField.style.display = 'none'; // Hide training field
             }
-
-            // Show community, project, and training fields if a project sort is selected
-            if (projectSort === "community" || projectSort === "personal") {
-                communityField.style.display = '';
-                projectField.style.display = '';
-                trainingField.style.display = '';
-            }
-
-            // Dynamically adjust the max-height for the advanced box content
-            const advancedBoxContent = document.querySelector('.advanced-box-content');
-            advancedBoxContent.style.maxHeight = advancedBoxContent.scrollHeight + "px";
         }
 
-        // Add change event listener to the project sort dropdown
-        document.getElementById("project_sort").addEventListener("change", toggleFields);
-    });
-
-    // SHOW HIDE THE ADVANCED BOX
-    function toggleAdvancedBox(event) {
-        // Get the current advanced box based on the clicked header
-        let currentAdvancedBox = event.currentTarget.parentElement;
-
-        // Assuming the element that will have the `aria-expanded` attribute is the header itself
-        let header = currentAdvancedBox.querySelector('.advanced-box-header');
-
-        // Find the content and icon specific to this advanced box
-        let content = currentAdvancedBox.querySelector('.advanced-box-content');
-        let icon = currentAdvancedBox.querySelector('.advanced-open-icon');
-
-        // Check if the content is currently expanded or not
-        let isExpanded = header.getAttribute('aria-expanded') === 'true';
-
-        if (!isExpanded) {
-            content.style.maxHeight = content.scrollHeight + 'px'; // Set to its full height
-            icon.textContent = '−'; // Switch to minus symbol for an open state
-            header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
-        } else {
-            content.style.maxHeight = '0px'; // Collapse it
-            icon.textContent = '+'; // Set to plus symbol
-            header.setAttribute('aria-expanded', 'false'); // Update aria-expanded to false
-        }
-    }
-
-    // Attach the function to all header div's click events
-    document.addEventListener("DOMContentLoaded", function() {
+        // Attach the function to all header div's click events
         let headers = document.querySelectorAll('.advanced-box-header');
         headers.forEach(header => {
             header.addEventListener('click', toggleAdvancedBox);
         });
     });
+
 
 
 
