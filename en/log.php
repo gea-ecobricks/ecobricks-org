@@ -1,4 +1,5 @@
 <?php
+<?php
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
@@ -32,16 +33,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Extract location data (assuming location_full is formatted properly)
     list($location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality) = extract_location_data($location_full);
 
-    $sql = "INSERT INTO tb_ecobricks (ecobrick_id, ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long, location_municipality) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $db_fields = [
+        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
+        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
+        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
+        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
+        'location_city', 'location_lat', 'location_long', 'location_municipality'
+    ];
 
-    echo count($db_fields); // should print 23
-    echo count($db_values); // should print 23
+    $db_values = [
+        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
+        $plastic_from, $location_full, $community_name, $project_id, $training_id,
+        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
+        $last_ownership_change, $actual_maker_name, $location_country, $location_region,
+        $location_city, $location_lat, $location_long, $location_municipality
+    ];
+
+    echo "Fields count: " . count($db_fields) . "<br>"; // should print 24
+    echo "Values count: " . count($db_values) . "<br>"; // should print 24
+
+    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssdds", $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long, $location_municipality);
+        $stmt->bind_param("isiissssiisssdssdssssdds", ...$db_values);
 
         error_log("Parameters bound successfully.");
 
