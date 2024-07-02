@@ -114,9 +114,9 @@ function deleteEcobrick($ecobrick_id, $conn) {
     <META charset="UTF-8">
     <?php $lang='en';?>
     <?php $version='2.37';?>
-    <?php $page='add-ecobrick-images';?>
+    <?php $page='log';?>
 
-    <?php require_once ("../includes/add-ecobrick-inc.php");?>
+    <?php require_once ("../includes/log-inc.php");?>
 
     <div class="splash-content-block"></div>
     <div id="splash-bar"></div>
