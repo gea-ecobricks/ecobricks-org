@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($stmt->execute()) {
             error_log("Statement executed successfully.");
-            $ecobrick_id = $conn->insert_id;
+//            $ecobrick_id = $conn->insert_id;
 
             $stmt->close();
             $conn->close();
