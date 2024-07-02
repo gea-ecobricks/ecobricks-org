@@ -248,8 +248,10 @@ function extract_location_data($location_full) {
 
                 <div class="form-item">
                     <label for="location_full" data-lang-id="011-location-full">Where is this ecobrick based?</label><br>
-                    <input type="text" id="location_full" name="location_full" aria-label="Location Full" required>
-                    <div id="loading-spinner" class="spinner" style="display: none;"></div>
+                    <div class="input-container">
+                        <input type="text" id="location_full" name="location_full" aria-label="Location Full" required>
+                        <div id="loading-spinner" class="spinner" style="display: none;"></div>
+                    </div>
                     <p class="form-caption" data-lang-id="011-location-full-caption">Provide the full location where the ecobrick is based.</p>
 
                     <!--ERRORS-->
@@ -384,7 +386,6 @@ function extract_location_data($location_full) {
 
 
 
-
     $(function() {
         let debounceTimer;
         $("#location_full").autocomplete({
@@ -437,10 +438,12 @@ function extract_location_data($location_full) {
         });
 
         $('#submit-form').on('submit', function() {
-            // console.log('Location Full:', $('#location_full').val());
-            // alert('Location Full: ' + $('#location_full').val());
+            console.log('Location Country:', $('#location_country').val());
+            console.log('Location Region:', $('#location_region').val());
+            console.log('Location City:', $('#location_city').val());
+            console.log('Location Municipality:', $('#location_municipality').val());
+            // Add any additional form validation or processing here
         });
-
     });
 
 
