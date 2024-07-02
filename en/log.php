@@ -91,6 +91,11 @@ function extract_location_data($location_full) {
     $location_city = trim($_POST['location_city'] ?? '');
     $location_municipality = trim($_POST['location_municipality'] ?? '');
 
+    $location_country = $location_country ?: '-';
+    $location_region = $location_region ?: '-';
+    $location_city = $location_city ?: '-';
+    $location_municipality = $location_municipality ?: '-';
+
     return [$location_city, $location_region, $location_country, $location_municipality];
 }
 
@@ -244,7 +249,7 @@ function extract_location_data($location_full) {
                 <div class="form-item">
                     <label for="location_full" data-lang-id="011-location-full">Where is this ecobrick based?</label><br>
                     <input type="text" id="location_full" name="location_full" aria-label="Location Full" required>
-                    <div id="loading-spinner" class="spinner" style="display: none;">Loading...</div>
+                    <div id="loading-spinner" class="spinner" style="display: none;"></div>
                     <p class="form-caption" data-lang-id="011-location-full-caption">Provide the full location where the ecobrick is based.</p>
 
                     <!--ERRORS-->
