@@ -13,7 +13,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $weight_g = (int)trim($_POST['weight_g']);
     $sequestration_type = trim($_POST['sequestration_type']);
     $plastic_from = trim($_POST['plastic_from']);
-    $location_full = trim($_POST['location_full']);
+    $location_full = $_POST['location_address'] ?? 'Default Location';
+    $latitude = (double)$_POST['latitude'];
+    $longitude = (double)$_POST['longitude'];
     $community_name = trim($_POST['community_name']);
     $project_id = (int)trim($_POST['project_id']);
     $training_id = (int)trim($_POST['training_id']);
@@ -31,17 +33,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $ecobrick_unique_id = 300000;
     $serial_no = 300000;
 
-    // Extract location data
-    $latitude = (double)$_POST['latitude'];
-    $longitude = (double)$_POST['longitude'];
+    $db_fields = [
+        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
+        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
+        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
+        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
+        'location_city', 'location_lat', 'location_long', 'location_municipality',
+        'ecobrick_unique_id', 'serial_no'
+    ];
 
-    $sql = "INSERT INTO tb_ecobricks (ecobrick_id, ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_lat, location_long, ecobrick_unique_id, serial_no) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $db_values = [
+        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
+        $plastic_from, $location_full, $community_name, $project_id, $training_id,
+        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
+        $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
+        'Unknown City', $latitude, $longitude, 'Unknown Municipality',
+        $ecobrick_unique_id, $serial_no
+    ];
+
+    echo "Fields count: " . count($db_fields) . "<br>"; // should print 25
+    echo "Values count: " . count($db_values) . "<br>"; // should print 25
+
+    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssii", $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $latitude, $longitude, $ecobrick_unique_id, $serial_no);
+        $stmt->bind_param("isiissssiisssdssdssssddsii", ...$db_values);
 
         error_log("Parameters bound successfully.");
 
@@ -540,8 +558,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         });
 
         $('#submit-form').on('submit', function() {
-            // console.log('Location Full:', $('#location_address').val());
-            // alert('Location Full: ' + $('#location_address').val());
+            console.log('Location Full:', $('#location_full').val());
+            alert('Location Full: ' + $('#location_full').val());
         });
     });
 
