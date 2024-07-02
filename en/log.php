@@ -305,8 +305,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="hidden" id="location_region" name="location_region">
                 <input type="hidden" id="location_city" name="location_city">
                 <input type="hidden" id="location_municipality" name="location_municipality">
-                <input type="hidden" id="latitude" name="latitude">
-                <input type="hidden" id="longitude" name="longitude">
+                <input type="hidden" id="lat" name="latitude">
+                <input type="hidden" id="lon" name="longitude">
 
             </form>
 
@@ -384,67 +384,67 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         });
     });
 
-
-/* Location Setter */
-    $(function() {
-        let debounceTimer;
-        $("#location_full").autocomplete({
-            source: function(request, response) {
-                $("#loading-spinner").show();
-                clearTimeout(debounceTimer);
-                debounceTimer = setTimeout(() => {
-                    $.ajax({
-                        url: "https://nominatim.openstreetmap.org/search",
-                        dataType: "json",
-                        headers: {
-                            'User-Agent': 'ecobricks.org'
-                        },
-                        data: {
-                            q: request.term,
-                            format: "json",
-                            addressdetails: 1 // Include address details in the response
-                        },
-                        success: function(data) {
-                            $("#loading-spinner").hide();
-                            response($.map(data, function(item) {
-                                return {
-                                    label: item.display_name,
-                                    value: item.display_name,
-                                    lat: item.lat,
-                                    lon: item.lon,
-                                    address: item.address // Include address details
-                                };
-                            }));
-                        },
-                        error: function(xhr, status, error) {
-                            $("#loading-spinner").hide();
-                            console.error("Autocomplete error:", error);
-                            response([]);
-                        }
-                    });
-                }, 300);
-            },
-            select: function(event, ui) {
-                $('#lat').val(ui.item.lat);
-                $('#lon').val(ui.item.lon);
-
-                // Populate hidden fields with address details
-                $('#location_country').val(ui.item.address.country || '');
-                $('#location_region').val(ui.item.address.state || '');
-                $('#location_city').val(ui.item.address.city || ui.item.address.town || '');
-                $('#location_municipality').val(ui.item.address.village || ui.item.address.hamlet || '');
-            },
-            minLength: 3
-        });
-
-        $('#submit-form').on('submit', function() {
-            console.log('Location Country:', $('#location_country').val());
-            console.log('Location Region:', $('#location_region').val());
-            console.log('Location City:', $('#location_city').val());
-            console.log('Location Municipality:', $('#location_municipality').val());
-            // Add any additional form validation or processing here
-        });
-    });
+//
+// /* Location Setter */
+//     $(function() {
+//         let debounceTimer;
+//         $("#location_full").autocomplete({
+//             source: function(request, response) {
+//                 $("#loading-spinner").show();
+//                 clearTimeout(debounceTimer);
+//                 debounceTimer = setTimeout(() => {
+//                     $.ajax({
+//                         url: "https://nominatim.openstreetmap.org/search",
+//                         dataType: "json",
+//                         headers: {
+//                             'User-Agent': 'ecobricks.org'
+//                         },
+//                         data: {
+//                             q: request.term,
+//                             format: "json",
+//                             addressdetails: 1 // Include address details in the response
+//                         },
+//                         success: function(data) {
+//                             $("#loading-spinner").hide();
+//                             response($.map(data, function(item) {
+//                                 return {
+//                                     label: item.display_name,
+//                                     value: item.display_name,
+//                                     lat: item.lat,
+//                                     lon: item.lon,
+//                                     address: item.address // Include address details
+//                                 };
+//                             }));
+//                         },
+//                         error: function(xhr, status, error) {
+//                             $("#loading-spinner").hide();
+//                             console.error("Autocomplete error:", error);
+//                             response([]);
+//                         }
+//                     });
+//                 }, 300);
+//             },
+//             select: function(event, ui) {
+//                 $('#lat').val(ui.item.lat);
+//                 $('#lon').val(ui.item.lon);
+//
+//                 // Populate hidden fields with address details
+//                 $('#location_country').val(ui.item.address.country || '');
+//                 $('#location_region').val(ui.item.address.state || '');
+//                 $('#location_city').val(ui.item.address.city || ui.item.address.town || '');
+//                 $('#location_municipality').val(ui.item.address.village || ui.item.address.hamlet || '');
+//             },
+//             minLength: 3
+//         });
+//
+//         $('#submit-form').on('submit', function() {
+//             console.log('Location Country:', $('#location_country').val());
+//             console.log('Location Region:', $('#location_region').val());
+//             console.log('Location City:', $('#location_city').val());
+//             console.log('Location Municipality:', $('#location_municipality').val());
+//             // Add any additional form validation or processing here
+//         });
+//     });
 
 
 
@@ -525,7 +525,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     });
 
-
     $(function() {
         let debounceTimer;
         $("#location_full").autocomplete({
@@ -563,6 +562,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 }, 300);
             },
             select: function(event, ui) {
+                console.log('Selected location:', ui.item); // Debugging line
                 $('#lat').val(ui.item.lat);
                 $('#lon').val(ui.item.lon);
             },
@@ -570,10 +570,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         });
 
         $('#submit-form').on('submit', function() {
-            console.log('Location Full:', $('#location_full').val());
-            alert('Location Full: ' + $('#location_full').val());
+            console.log('Latitude:', $('#lat').val());
+            console.log('Longitude:', $('#lon').val());
+            alert('Latitude: ' + $('#lat').val() + ', Longitude: ' + $('#lon').val());
         });
     });
+
 
 </script>
 
