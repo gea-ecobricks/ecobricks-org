@@ -1,0 +1,350 @@
+<?php
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+include '../ecobricks_env.php';
+$conn->set_charset("utf8mb4");
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    include '../project-photo-functions.php'; // Ensure this path is correct
+
+    // Gather form data
+    $ecobricker_maker = trim($_POST['ecobricker_maker']);
+    $volume_ml = (int)trim($_POST['volume_ml']);
+    $weight_g = (int)trim($_POST['weight_g']);
+    $sequestration_type = trim($_POST['sequestration_type']);
+    $plastic_from = trim($_POST['plastic_from']);
+    $location_full = trim($_POST['location_full']);
+    $community_name = trim($_POST['community_name']);
+    $project_id = (int)trim($_POST['project_id']);
+    $training_id = (int)trim($_POST['training_id']);
+
+    // Background settings
+    $owner = $ecobricker_maker;
+    $status = "pending review";
+    $universal_volume_ml = $volume_ml;
+    $density = $weight_g / $volume_ml;
+    $date_logged_ts = date("Y-m-d H:i:s");
+    $CO2_kg = ($weight_g * 6.1) / 1000;
+    $last_ownership_change = date("Y-m-d");
+    $actual_maker_name = $ecobricker_maker;
+
+    // Extract location data (assuming location_full is formatted properly)
+    // This extraction depends on how the location_full is formatted
+    list($location_city, $location_region, $location_country, $location_lat, $location_long) = extract_location_data($location_full);
+
+    $sql = "INSERT INTO tb_ecobricks (ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
+    if ($stmt = $conn->prepare($sql)) {
+        error_log("Statement prepared successfully.");
+
+        $stmt->bind_param("siissssiisssdssdssssdd", $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long);
+
+        if ($stmt->execute()) {
+            error_log("Statement executed successfully.");
+            $ecobrick_id = $conn->insert_id;
+
+            $stmt->close();
+            $conn->close();
+
+            echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'add-ecobrick.php';</script>";
+        } else {
+            error_log("Error executing statement: " . $stmt->error);
+            echo "Error: " . $stmt->error . "<br>";
+        }
+
+        if ($stmt) $stmt->close();
+    } else {
+        error_log("Prepare failed: " . $conn->error);
+        echo "Prepare failed: " . $conn->error;
+    }
+
+    if ($conn) $conn->close();
+}
+
+function extract_location_data($location_full) {
+    // Dummy function to extract location data, replace with actual implementation
+    $location_city = 'Dummy City';
+    $location_region = 'Dummy Region';
+    $location_country = 'Dummy Country';
+    $location_lat = 0.0;
+    $location_long = 0.0;
+    return [$location_city, $location_region, $location_country, $location_lat, $location_long];
+}
+
+?>
+
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+    <META charset="UTF-8">
+    <?php $lang='en';?>
+    <?php $version='2.04';?>
+    <?php $page='add-ecobrick';?>
+
+    <?php require_once ("../includes/log-inc.php");?>
+
+    <div class="splash-content-block"></div>
+    <div id="splash-bar"></div>
+
+    <!-- PAGE CONTENT-->
+
+    <div id="form-submission-box">
+        <div class="form-container">
+            <div class="form-top-header" style="display:flex;flex-flow:row;">
+                <div class="step-graphic" style="width:fit-content;margin:auto;margin-left:0px">
+                    <img src="../svgs/step1-log-project.svg" style="height:25px;">
+                </div>
+                <div id="language-code" onclick="showLangSelector()" aria-label="Switch languages"><span data-lang-id="000-language-code">🌐 EN</span></div>
+            </div>
+
+            <div class="splash-form-content-block">
+                <div class="splash-box">
+                    <div class="splash-heading" data-lang-id="001-splash-title">Log an Ecobrick</div>
+                </div>
+                <div class="splash-image" data-lang-id="003-splash-image-alt">
+                    <img src="../svgs/shanti.svg" style="width:65%" alt="There are many ways to make an ecobrick">
+                </div>
+            </div>
+
+            <div class="lead-page-paragraph">
+                <p data-lang-id="004-form-description">Share your ecobrick with the world. Use this form to log your ecobrick into our database.</p>
+            </div>
+            <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate>
+
+                <div class="form-item" style="margin-top: 25px;">
+                    <label for="ecobricker_maker" data-lang-id="005-ecobricker-maker">Who made this ecobrick?</label><br>
+                    <input type="text" id="ecobricker_maker" name="ecobricker_maker" aria-label="Ecobricker Maker" title="Required. Max 255 characters." required>
+                    <p class="form-caption" data-lang-id="005b-ecobricker-maker-caption">Provide the name of the ecobricker. Avoid special characters.</p>
+
+                    <!--ERRORS-->
+                    <div id="maker-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                    <div id="maker-error-long" class="form-field-error" data-lang-id="000-maker-field-too-long-error">The name is too long. Max 255 characters.</div>
+                    <div id="maker-error-invalid" class="form-field-error" data-lang-id="005b-maker-error">The entry contains invalid characters. Avoid quotes, slashes, and greater-than signs please.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="volume_ml" data-lang-id="006-volume-ml">Volume of the Ecobrick (in milliliters):</label><br>
+                    <input type="number" id="volume_ml" name="volume_ml" aria-label="Volume in Milliliters" min="1" required>
+                    <p class="form-caption" data-lang-id="006-volume-ml-caption">Please provide the volume of the ecobrick in milliliters.</p>
+
+                    <!--ERRORS-->
+                    <div id="volume-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="weight_g" data-lang-id="007-weight-g">Weight of the Ecobrick (in grams):</label><br>
+                    <input type="number" id="weight_g" name="weight_g" aria-label="Weight in Grams" min="1" required>
+                    <p class="form-caption" data-lang-id="007-weight-g-caption">Please provide the weight of the ecobrick in grams.</p>
+
+                    <!--ERRORS-->
+                    <div id="weight-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="sequestration_type" data-lang-id="008-sequestration-type">What kind of ecobrick is this?</label><br>
+                    <input type="text" id="sequestration_type" name="sequestration_type" aria-label="Sequestration Type" required>
+                    <p class="form-caption" data-lang-id="008-sequestration-type-caption">Please describe the type of ecobrick.</p>
+
+                    <!--ERRORS-->
+                    <div id="type-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="plastic_from" data-lang-id="009-plastic-from">Where is the plastic from?</label><br>
+                    <input type="text" id="plastic_from" name="plastic_from" aria-label="Plastic From" required>
+                    <p class="form-caption" data-lang-id="009-plastic-from-caption">Describe the source of the plastic.</p>
+
+                    <!--ERRORS-->
+                    <div id="plastic-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="location_full" data-lang-id="010-location-full">Where is this ecobrick based?</label><br>
+                    <input type="text" id="location_full" name="location_full" aria-label="Location Full" required>
+                    <p class="form-caption" data-lang-id="010-location-full-caption">Provide the full location where the ecobrick is based.</p>
+
+                    <!--ERRORS-->
+                    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="community_name" data-lang-id="011-community-name">Is this ecobrick part of a community initiative?</label><br>
+                    <input type="text" id="community_name" name="community_name" aria-label="Community Name">
+                    <p class="form-caption" data-lang-id="011-community-name-caption">Optional: Provide the name of the community initiative.</p>
+
+                    <!--ERRORS-->
+                    <div id="community-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="project_id" data-lang-id="012-project-id">Is this ecobrick part of a project?</label><br>
+                    <input type="number" id="project_id" name="project_id" aria-label="Project ID">
+                    <p class="form-caption" data-lang-id="012-project-id-caption">Optional: Provide the project ID if this ecobrick is part of a project.</p>
+
+                    <!--ERRORS-->
+                    <div id="project-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="training_id" data-lang-id="013-training-id">Was this ecobrick made in a training?</label><br>
+                    <input type="number" id="training_id" name="training_id" aria-label="Training ID">
+                    <p class="form-caption" data-lang-id="013-training-id-caption">Optional: Provide the training ID if this ecobrick was made in a training.</p>
+
+                    <!--ERRORS-->
+                    <div id="training-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
+                </div>
+
+                <div data-lang-id="014-submit-button">
+                    <input type="submit" value="Submit Ecobrick ➡️" aria-label="Submit Form">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</HTML>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script>
+    document.getElementById('submit-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting until validation is complete
+        var isValid = true; // Flag to determine if the form should be submitted
+
+        // Helper function to display error messages
+        function displayError(elementId, showError) {
+            var errorDiv = document.getElementById(elementId);
+            if (showError) {
+                errorDiv.style.display = 'block'; // Show the error message
+                isValid = false; // Set form validity flag
+            } else {
+                errorDiv.style.display = 'none'; // Hide the error message
+            }
+        }
+
+        // Helper function to check for invalid characters
+        function hasInvalidChars(value) {
+            const invalidChars = /[\'\"><]/; // Regex for invalid characters
+            return invalidChars.test(value);
+        }
+
+        // 1. Ecobricker Maker Validation
+        var ecobrickerMaker = document.getElementById('ecobricker_maker').value.trim();
+        displayError('maker-error-required', ecobrickerMaker === '');
+        displayError('maker-error-long', ecobrickerMaker.length > 255);
+        displayError('maker-error-invalid', hasInvalidChars(ecobrickerMaker));
+
+        // 2. Volume (ml) Validation
+        var volumeML = parseInt(document.getElementById('volume_ml').value, 10);
+        displayError('volume-error-required', isNaN(volumeML) || volumeML < 1);
+
+        // 3. Weight (g) Validation
+        var weightG = parseInt(document.getElementById('weight_g').value, 10);
+        displayError('weight-error-required', isNaN(weightG) || weightG < 1);
+
+        // 4. Sequestration Type Validation
+        var sequestrationType = document.getElementById('sequestration_type').value.trim();
+        displayError('type-error-required', sequestrationType === '');
+
+        // 5. Plastic From Validation
+        var plasticFrom = document.getElementById('plastic_from').value.trim();
+        displayError('plastic-error-required', plasticFrom === '');
+
+        // 6. Location Full Validation
+        var locationFull = document.getElementById('location_full').value.trim();
+        displayError('location-error-required', locationFull === '');
+
+        // 7. Community Name Validation (just check length)
+        var communityName = document.getElementById('community_name').value.trim();
+        displayError('community-error-long', communityName.length > 255);
+
+        // 8. Project ID Validation (optional)
+        var projectId = document.getElementById('project_id').value.trim();
+        displayError('project-error-long', projectId !== '' && isNaN(parseInt(projectId, 10)));
+
+        // 9. Training ID Validation (optional)
+        var trainingId = document.getElementById('training_id').value.trim();
+        displayError('training-error-long', trainingId !== '' && isNaN(parseInt(trainingId, 10)));
+
+        // If all validations pass, submit the form
+        if (isValid) {
+            this.submit();
+        } else {
+            // Scroll to the first error message and center it in the viewport
+            var firstError = document.querySelector('.form-field-error[style="display: block;"]');
+            if (firstError) {
+                firstError.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+                // Optionally, find the related input and focus it
+                var relatedInput = firstError.closest('.form-item').querySelector('input, select, textarea');
+                if (relatedInput) {
+                    relatedInput.focus();
+                }
+            }
+        }
+    });
+
+    $(function() {
+        let debounceTimer;
+        $("#location_full").autocomplete({
+            source: function(request, response) {
+                $("#loading-spinner").show();
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    $.ajax({
+                        url: "https://nominatim.openstreetmap.org/search",
+                        dataType: "json",
+                        headers: {
+                            'User-Agent': 'ecobricks.org'
+                        },
+                        data: {
+                            q: request.term,
+                            format: "json"
+                        },
+                        success: function(data) {
+                            $("#loading-spinner").hide();
+                            response($.map(data, function(item) {
+                                return {
+                                    label: item.display_name,
+                                    value: item.display_name,
+                                    lat: item.lat,
+                                    lon: item.lon
+                                };
+                            }));
+                        },
+                        error: function(xhr, status, error) {
+                            $("#loading-spinner").hide();
+                            console.error("Autocomplete error:", error);
+                            response([]);
+                        }
+                    });
+                }, 300);
+            },
+            select: function(event, ui) {
+                $('#lat').val(ui.item.lat);
+                $('#lon').val(ui.item.lon);
+            },
+            minLength: 3
+        });
+
+        $('#submit-form').on('submit', function() {
+            // console.log('Location Full:', $('#location_full').val());
+            // alert('Location Full: ' + $('#location_full').val());
+        });
+
+    });
+</script>
+
+<br><br>
+</div> <!--closes main-->
+
+<!--FOOTER STARTS HERE-->
+<?php require_once ("../footer-2024.php");?>
+</div>
+
+</body>
+</html>

@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='2.03';?>
+    <?php $version='2.04';?>
     <?php $page='add-training';?>
 
     <?php require_once ("../includes/add-training-inc.php");?>
@@ -235,7 +235,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!--                    <input type="text" id="training_location" name="training_location" aria-label="Training Location" required>-->
 <!--                    <p class="form-caption" data-lang-id="015-location-caption">Please provide the general location where the training was conducted.</p>-->
 <!--
-<!--                    <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.  For online workshops, specify the country of the lead trainer.</div>-->
+                   <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.  For online workshops, specify the country of the lead trainer.</div>-->
 <!--                </div>-->
 
                 <div class="form-item">
