@@ -295,16 +295,18 @@ function extract_location_data() {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
-
     document.addEventListener("DOMContentLoaded", function() {
-        // Initially hide all additional fields
+        // Initially hide all additional fields using visibility and height
         const communityField = document.getElementById("community_name").parentNode;
         const projectField = document.getElementById("project_id").parentNode;
         const trainingField = document.getElementById("training_id").parentNode;
 
-        communityField.style.display = 'none';
-        projectField.style.display = 'none';
-        trainingField.style.display = 'none';
+        communityField.style.visibility = 'hidden';
+        communityField.style.height = '0';
+        projectField.style.visibility = 'hidden';
+        projectField.style.height = '0';
+        trainingField.style.visibility = 'hidden';
+        trainingField.style.height = '0';
 
         // SHOW HIDE THE ADVANCED BOX
         function toggleAdvancedBox(event) {
@@ -322,19 +324,28 @@ function extract_location_data() {
             let isExpanded = header.getAttribute('aria-expanded') === 'true';
 
             if (!isExpanded) {
+                // Temporarily set visibility to calculate height
+                communityField.style.visibility = 'visible';
+                communityField.style.height = 'auto';
+                projectField.style.visibility = 'visible';
+                projectField.style.height = 'auto';
+                trainingField.style.visibility = 'visible';
+                trainingField.style.height = 'auto';
+
                 content.style.maxHeight = content.scrollHeight + 'px'; // Set to its full height
                 icon.textContent = '−'; // Switch to minus symbol for an open state
                 header.setAttribute('aria-expanded', 'true'); // Update aria-expanded to true
-                communityField.style.display = ''; // Show community field
-                projectField.style.display = ''; // Show project field
-                trainingField.style.display = ''; // Show training field
             } else {
                 content.style.maxHeight = '0px'; // Collapse it
                 icon.textContent = '+'; // Set to plus symbol
                 header.setAttribute('aria-expanded', 'false'); // Update aria-expanded to false
-                communityField.style.display = 'none'; // Hide community field
-                projectField.style.display = 'none'; // Hide project field
-                trainingField.style.display = 'none'; // Hide training field
+
+                communityField.style.visibility = 'hidden';
+                communityField.style.height = '0';
+                projectField.style.visibility = 'hidden';
+                projectField.style.height = '0';
+                trainingField.style.visibility = 'hidden';
+                trainingField.style.height = '0';
             }
         }
 
