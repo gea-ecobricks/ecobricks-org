@@ -31,16 +31,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $actual_maker_name = $ecobricker_maker;
 
     // Extract location data (assuming location_full is formatted properly)
-    // This extraction depends on how the location_full is formatted
-    list($location_city, $location_region, $location_country, $location_lat, $location_long) = extract_location_data($location_full);
+    list($location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality) = extract_location_data();
 
-    $sql = "INSERT INTO tb_ecobricks (ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long) 
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO tb_ecobricks (ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full, community_name, project_id, training_id, owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country, location_region, location_city, location_lat, location_long, location_municipality) 
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("siissssiisssdssdssssdd", $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long);
+        $stmt->bind_param("siissssiisssdssdssssdds", $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full, $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country, $location_region, $location_city, $location_lat, $location_long, $location_municipality);
 
         if ($stmt->execute()) {
             error_log("Statement executed successfully.");
@@ -64,15 +63,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn) $conn->close();
 }
 
-function extract_location_data($location_full) {
-    // Dummy function to extract location data, replace with actual implementation
-    $location_city = 'Dummy City';
-    $location_region = 'Dummy Region';
-    $location_country = 'Dummy Country';
-    $location_lat = 0.0;
-    $location_long = 0.0;
-    return [$location_city, $location_region, $location_country, $location_lat, $location_long];
+
+function extract_location_data() {
+    $location_country = trim($_POST['location_country'] ?? '');
+    $location_region = trim($_POST['location_region'] ?? '');
+    $location_city = trim($_POST['location_city'] ?? '');
+    $location_municipality = trim($_POST['location_municipality'] ?? '');
+    $location_lat = (float)($_POST['latitude'] ?? 0.0);
+    $location_long = (float)($_POST['longitude'] ?? 0.0);
+
+    return [$location_city, $location_region, $location_country, $location_lat, $location_long, $location_municipality];
 }
+
 
 ?>
 
@@ -112,6 +114,10 @@ function extract_location_data($location_full) {
             <div class="lead-page-paragraph">
                 <p data-lang-id="004-form-description">Share your ecobrick with the world. Use this form to log your ecobrick into our database.</p>
             </div>
+
+
+            <!--LOG FORM-->
+
             <form id="submit-form" method="post" action="" enctype="multipart/form-data" novalidate>
 
                 <div class="form-item" style="margin-top: 25px;">
@@ -127,7 +133,22 @@ function extract_location_data($location_full) {
 
                 <div class="form-item">
                     <label for="volume_ml" data-lang-id="006-volume-ml">Volume of the Ecobrick (in milliliters):</label><br>
-                    <input type="number" id="volume_ml" name="volume_ml" aria-label="Volume in Milliliters" min="1" required>
+                    <select id="volume_ml" name="volume_ml" aria-label="Volume in Milliliters" required>
+                        <option value="" disabled selected>Select volume...</option>
+                        <option value="250">250 ml</option>
+                        <option value="300">300 ml</option>
+                        <option value="330">330 ml</option>
+                        <option value="500">500 ml</option>
+                        <option value="600">600 ml</option>
+                        <option value="900">900 ml</option>
+                        <option value="1000">1000 ml</option>
+                        <option value="1500">1500 ml</option>
+                        <option value="2000">2000 ml</option>
+                        <option value="3000">3000 ml</option>
+                        <option value="4000">4000 ml</option>
+                        <option value="5000">5000 ml</option>
+                        <option value="10000">10000 ml</option>
+                    </select>
                     <p class="form-caption" data-lang-id="006-volume-ml-caption">Please provide the volume of the ecobrick in milliliters.</p>
 
                     <!--ERRORS-->
@@ -144,64 +165,114 @@ function extract_location_data($location_full) {
                 </div>
 
                 <div class="form-item">
-                    <label for="sequestration_type" data-lang-id="008-sequestration-type">What kind of ecobrick is this?</label><br>
-                    <input type="text" id="sequestration_type" name="sequestration_type" aria-label="Sequestration Type" required>
-                    <p class="form-caption" data-lang-id="008-sequestration-type-caption">Please describe the type of ecobrick.</p>
+                    <label for="bottom_color" data-lang-id="008-bottom-color">Bottom color of the Ecobrick:</label><br>
+                    <select id="bottom_color" name="bottom_color" aria-label="Bottom Color" required>
+                        <option value="" disabled selected>Select bottom color...</option>
+                        <option value="No deliberate color set">No deliberate color set</option>
+                        <option value="clear">Clear</option>
+                        <option value="white">White</option>
+                        <option value="black">Black</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="orange">Orange</option>
+                        <option value="pink">Pink</option>
+                        <option value="purple">Purple</option>
+                        <option value="violet">Violet</option>
+                        <option value="brown">Brown</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+                    <p class="form-caption" data-lang-id="008-bottom-color-caption">Please select the bottom color of the ecobrick.</p>
+
+                    <!--ERRORS-->
+                    <div id="color-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                </div>
+
+                <div class="form-item">
+                    <label for="sequestration_type" data-lang-id="009-sequestration-type">What kind of ecobrick is this?</label><br>
+                    <select id="sequestration_type" name="sequestration_type" aria-label="Sequestration Type" required>
+                        <option value="" disabled selected>Select ecobrick type...</option>
+                        <option value="Regular ecobrick">Regular ecobrick</option>
+                        <option value="cigbrick">Cigbrick</option>
+                        <option value="ocean ecobrick">Ocean ecobrick</option>
+                    </select>
+                    <p class="form-caption" data-lang-id="009-sequestration-type-caption">Please select the type of ecobrick.</p>
 
                     <!--ERRORS-->
                     <div id="type-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
                 </div>
 
                 <div class="form-item">
-                    <label for="plastic_from" data-lang-id="009-plastic-from">Where is the plastic from?</label><br>
-                    <input type="text" id="plastic_from" name="plastic_from" aria-label="Plastic From" required>
-                    <p class="form-caption" data-lang-id="009-plastic-from-caption">Describe the source of the plastic.</p>
+                    <label for="plastic_from" data-lang-id="010-plastic-from">Where is the plastic from?</label><br>
+                    <select id="plastic_from" name="plastic_from" aria-label="Plastic From" required>
+                        <option value="" disabled selected>Select plastic source...</option>
+                        <option value="Home">Home</option>
+                        <option value="Business">Business</option>
+                        <option value="Neighbourhood">Neighbourhood</option>
+                        <option value="Beach">Beach</option>
+                        <option value="Ocean">Ocean</option>
+                        <option value="River">River</option>
+                        <option value="Field">Field</option>
+                    </select>
+                    <p class="form-caption" data-lang-id="010-plastic-from-caption">Describe the source of the plastic.</p>
 
                     <!--ERRORS-->
                     <div id="plastic-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
                 </div>
 
                 <div class="form-item">
-                    <label for="location_full" data-lang-id="010-location-full">Where is this ecobrick based?</label><br>
+                    <label for="location_full" data-lang-id="011-location-full">Where is this ecobrick based?</label><br>
                     <input type="text" id="location_full" name="location_full" aria-label="Location Full" required>
-                    <p class="form-caption" data-lang-id="010-location-full-caption">Provide the full location where the ecobrick is based.</p>
+                    <p class="form-caption" data-lang-id="011-location-full-caption">Provide the full location where the ecobrick is based.</p>
 
                     <!--ERRORS-->
                     <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
                 </div>
 
                 <div class="form-item">
-                    <label for="community_name" data-lang-id="011-community-name">Is this ecobrick part of a community initiative?</label><br>
+                    <label for="community_name" data-lang-id="012-community-name">Is this ecobrick part of a community initiative?</label><br>
                     <input type="text" id="community_name" name="community_name" aria-label="Community Name">
-                    <p class="form-caption" data-lang-id="011-community-name-caption">Optional: Provide the name of the community initiative.</p>
+                    <p class="form-caption" data-lang-id="012-community-name-caption">Optional: Provide the name of the community initiative.</p>
 
                     <!--ERRORS-->
                     <div id="community-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
                 </div>
 
                 <div class="form-item">
-                    <label for="project_id" data-lang-id="012-project-id">Is this ecobrick part of a project?</label><br>
+                    <label for="project_id" data-lang-id="013-project-id">Is this ecobrick part of a project?</label><br>
                     <input type="number" id="project_id" name="project_id" aria-label="Project ID">
-                    <p class="form-caption" data-lang-id="012-project-id-caption">Optional: Provide the project ID if this ecobrick is part of a project.</p>
+                    <p class="form-caption" data-lang-id="013-project-id-caption">Optional: Provide the project ID if this ecobrick is part of a project.</p>
 
                     <!--ERRORS-->
                     <div id="project-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
                 </div>
 
                 <div class="form-item">
-                    <label for="training_id" data-lang-id="013-training-id">Was this ecobrick made in a training?</label><br>
+                    <label for="training_id" data-lang-id="014-training-id">Was this ecobrick made in a training?</label><br>
                     <input type="number" id="training_id" name="training_id" aria-label="Training ID">
-                    <p class="form-caption" data-lang-id="013-training-id-caption">Optional: Provide the training ID if this ecobrick was made in a training.</p>
+                    <p class="form-caption" data-lang-id="014-training-id-caption">Optional: Provide the training ID if this ecobrick was made in a training.</p>
 
                     <!--ERRORS-->
                     <div id="training-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">Entry is too long.</div>
                 </div>
 
-                <div data-lang-id="014-submit-button">
+                <div data-lang-id="015-submit-button">
                     <input type="submit" value="Submit Ecobrick ➡️" aria-label="Submit Form">
                 </div>
 
+                <input type="hidden" id="location_country" name="location_country">
+                <input type="hidden" id="location_region" name="location_region">
+                <input type="hidden" id="location_city" name="location_city">
+                <input type="hidden" id="location_municipality" name="location_municipality">
+                <input type="hidden" id="latitude" name="latitude">
+                <input type="hidden" id="longitude" name="longitude">
+
             </form>
+
+
+            <!--END OF FORM-->
+
         </div>
     </div>
 </HTML>
@@ -212,6 +283,68 @@ function extract_location_data($location_full) {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
+
+
+    $(function() {
+        let debounceTimer;
+        $("#location_full").autocomplete({
+            source: function(request, response) {
+                $("#loading-spinner").show();
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    $.ajax({
+                        url: "https://nominatim.openstreetmap.org/search",
+                        dataType: "json",
+                        headers: {
+                            'User-Agent': 'ecobricks.org'
+                        },
+                        data: {
+                            q: request.term,
+                            format: "json",
+                            addressdetails: 1 // Include address details in the response
+                        },
+                        success: function(data) {
+                            $("#loading-spinner").hide();
+                            response($.map(data, function(item) {
+                                return {
+                                    label: item.display_name,
+                                    value: item.display_name,
+                                    lat: item.lat,
+                                    lon: item.lon,
+                                    address: item.address // Include address details
+                                };
+                            }));
+                        },
+                        error: function(xhr, status, error) {
+                            $("#loading-spinner").hide();
+                            console.error("Autocomplete error:", error);
+                            response([]);
+                        }
+                    });
+                }, 300);
+            },
+            select: function(event, ui) {
+                $('#lat').val(ui.item.lat);
+                $('#lon').val(ui.item.lon);
+
+                // Populate hidden fields with address details
+                $('#location_country').val(ui.item.address.country || '');
+                $('#location_region').val(ui.item.address.state || '');
+                $('#location_city').val(ui.item.address.city || ui.item.address.town || '');
+                $('#location_municipality').val(ui.item.address.village || ui.item.address.hamlet || '');
+            },
+            minLength: 3
+        });
+
+        $('#submit-form').on('submit', function() {
+            // console.log('Location Full:', $('#location_full').val());
+            // alert('Location Full: ' + $('#location_full').val());
+        });
+
+    });
+
+
+
     document.getElementById('submit-form').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent the form from submitting until validation is complete
         var isValid = true; // Flag to determine if the form should be submitted
