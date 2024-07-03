@@ -125,7 +125,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $catalyst = $record['field_1611_raw'] ?? '';
 
             // Calculate additional fields
-            $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " ß";
+            $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " BRK";
             $ecobrick_dec_brk_val = number_format($weight_authenticated_kg * 10, 2, '.', '');
             $ecobrick_brk_amt = $weight_authenticated_kg * 10;
 
@@ -261,6 +261,7 @@ if (!empty($ecobrick_photo_url)) {
     ob_flush(); flush();
 }
 // PART 4
+echo "<div class='message'>Image processing complete</div>";
 
 if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Updating database with new image data');</script>";
@@ -295,6 +296,8 @@ if (!empty($db_fields) && empty($error_message)) {
             echo "<script>console.log('Reconnected to the database');</script>";
         }
     }
+
+    echo "<div class='message'>Brikchain database updated with ecobrick details and photo</div>";
 
     $update_stmt = $conn->prepare($update_sql);
     if ($update_stmt === false) {
@@ -343,10 +346,11 @@ if ($knack_update_response === false) {
     echo "<script>console.log('Error updating Knack record: " . addslashes(curl_error($ch)) . "');</script>";
 } else {
     echo "<script>console.log('Knack record updated successfully');</script>";
+    echo "<div class='message'>Knack original record updated so that it isn't processed again.</div>";
 }
 
 curl_close($ch);
-
+echo "<div class='message'>Moving to next ecobrick...</div>";
 // Redirect to the next ecobrick processing
 echo "<script>if(confirm('Ecobrick $serial_no has been added to the database! Shall we proceed with the next one?')) { window.location.href = 'process_ecobrick.php'; }</script>";
 
