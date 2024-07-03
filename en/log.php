@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 //    echo "Fields count: " . count($db_fields) . "<br>"; // should print 26
 //    echo "Values count: " . count($db_values) . "<br>"; // should print 26
 
-    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
+//    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
@@ -86,7 +86,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $conn->close();
 
             // Redirect to log-2.php with the correct ecobrick_id
-            echo "<script>alert('Ecobrick added successfully.'); window.location.href = 'log-2.php?id=" . $ecobrick_id . "';</script>";
+            echo "<script>window.location.href = 'log-2.php?id=" . $ecobrick_id . "';</script>";
         } else {
             error_log("Error executing statement: " . $stmt->error);
             echo "Error: " . $stmt->error . "<br>";
@@ -612,7 +612,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $('#submit-form').on('submit', function() {
             console.log('Latitude:', $('#lat').val());
             console.log('Longitude:', $('#lon').val());
-            alert('Latitude: ' + $('#lat').val() + ', Longitude: ' + $('#lon').val());
+            // alert('Latitude: ' + $('#lat').val() + ', Longitude: ' + $('#lon').val());
         });
     });
 
