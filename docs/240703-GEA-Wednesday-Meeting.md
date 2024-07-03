@@ -11,6 +11,10 @@ page wired up to the correct Include and associated files ect, so we dont get wh
 Also spoke a little about Design tools for Database Entity Relationship Visuilisations 
 
 
+And the AI Tool in Zoom...
+https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013
+
+
 ## And changes to
 
 Next for Joe's Dev -> Earth Methods  
