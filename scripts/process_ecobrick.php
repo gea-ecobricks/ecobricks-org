@@ -119,7 +119,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $plastic_from = $record['field_329_raw'] ?? '';
 
             // Calculate additional fields
-            $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . "&#8202;ß";
+            $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " ß";
             $ecobrick_dec_brk_val = number_format($weight_authenticated_kg * 10, 2, '.', '');
             $ecobrick_brk_amt = $weight_authenticated_kg * 10;
 
@@ -317,38 +317,6 @@ if (!empty($error_message)) {
 
 // PART 5: Echoing Fields and Updating Knack Record
 
-if (!empty($db_fields) && empty($error_message)) {
-    echo "<script>console.log('Updating database with new image data');</script>";
-
-    array_push($db_fields, "date_published_ts", "status");
-    array_push($db_values, date("Y-m-d H:i:s"), "authenticated");
-    $db_types .= "ss";
-
-    $fields_for_update = implode(" = ?, ", $db_fields) . " = ?";
-    $update_sql = "UPDATE tb_ecobricks SET {$fields_for_update} WHERE ecobrick_unique_id = ?";
-    $db_values[] = $ecobrick_unique_id;
-    $db_types .= "s";
-
-    echo "<script>console.log('SQL Query: " . addslashes($update_sql) . "');</script>";
-    echo "<script>console.log('Values: " . json_encode($db_values) . "');</script>";
-    echo "<script>console.log('Types: " . addslashes($db_types) . "');</script>";
-
-    // Check if the connection is still alive
-    echo "<script>console.log('Checking database connection');</script>";
-    if ($conn->ping()) {
-        echo "<script>console.log('Database connection is alive');</script>";
-        echo "Database connection is alive";
-    } else {
-        echo "<script>console.log('Database connection is not alive, final update failed');</script>";
-    }
-
-    $update_stmt = $conn->prepare($update_sql);
-
-    if ($update_stmt) {
-        $update_stmt->bind_param($db_types, ...$db_values);
-
-        if ($update_stmt->execute()) {
-            echo "<script>console.log('Database has been updated.');</script>";
 
             // Update field_2492 to 'Yes' in Knack database
             echo "<script>console.log('Updating Knack database to indicate ecobrick has been migrated.');</script>";
