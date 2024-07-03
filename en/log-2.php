@@ -145,10 +145,10 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             </div>
 
             <div class="splash-form-content-block">
-                <div class="splash-box">
+<!--                <div class="splash-box">-->
 
                     <div class="splash-heading" data-lang-id="001-form-title">Record Serial & Take Photo</div>
-                </div>
+<!--                </div>-->
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
                     <img src="../pngs/weigh-your-plastic-1.png" style="width:65%" alt="Please take a square photo">
                 </div>
@@ -157,14 +157,12 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             <p data-lang-id="002-form-description2">Your ecobrick has been logged with a weight of <?php echo $weight_g; ?>g, a volume of <?php echo $universal_volume_ml; ?>ml, and a density of <?php echo $density; ?>g/ml. Your ecobrick has been allocated the serial number:</p>
             <h1><?php echo $serial_no; ?></h1>
 
-
             <br>
 
             <form id="photoform" action="" method="post" enctype="multipart/form-data">
-                <input type="hidden" name="ecobrick_id" value="<?php echo $_GET['ecobrick_id']; ?>">
-                <input type="hidden" name="serial_no" value="<?php echo $_GET['serial_no']; ?>">
-
-                <!-- Ecobrick Photo Main & Thumbnail -->
+                <input type="hidden" name="ecobrick_unique_id" value="<?php echo $ecobrick_unique_id; ?>">
+                <input type="hidden" name="serial_no" value="<?php echo $serial_no; ?>">
+                <!-- Photo 1 Main & Thumbnail -->
                 <div class="form-item">
                     <div>
                         <label for="ecobrick_photo_main" data-lang-id="003-feature-photo">Ecobrick image:</label><br>
