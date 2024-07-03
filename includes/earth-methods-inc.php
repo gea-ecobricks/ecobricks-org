@@ -9,7 +9,7 @@
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("../meta/earth-$lang.php");?>
+<?php require_once ("../meta/earth-methods-$lang.php");?>
 
 
 
