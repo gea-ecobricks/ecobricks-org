@@ -14,6 +14,8 @@ Also spoke a little about Design tools for Database Entity Relationship Visuilis
 And the AI Tool in Zoom...
 https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013
 
+https://www.google.com/search?client=firefox-b-e&q=msql+workbench
+
 
 ## And changes to
 
