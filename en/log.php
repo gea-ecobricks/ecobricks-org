@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Background settings
     $owner = $ecobricker_maker;
-    $status = "pending review";
+    $status = "not ready";
     $universal_volume_ml = $volume_ml;
     $density = $weight_g / $volume_ml;
     $date_logged_ts = date("Y-m-d H:i:s");
@@ -48,26 +48,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $serial_no = setSerialNumber($conn);
     $ecobrick_id = $serial_no;
 
-    $db_fields = [
-        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
-        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
-        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
-        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
-        'location_city', 'location_lat', 'location_long', 'location_municipality',
-        'ecobrick_unique_id', 'serial_no', 'brand_name' // Add brand_name field
-    ];
-
-    $db_values = [
-        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
-        $plastic_from, $location_full, $community_name, $project_id, $training_id,
-        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
-        $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
-        'Unknown City', $latitude, $longitude, 'Unknown Municipality',
-        $ecobrick_id, $serial_no, $brand_name // Add brand_name value
-    ];
-
-    echo "Fields count: " . count($db_fields) . "<br>"; // should print 26
-    echo "Values count: " . count($db_values) . "<br>"; // should print 26
+//    $db_fields = [
+//        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
+//        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
+//        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
+//        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
+//        'location_city', 'location_lat', 'location_long', 'location_municipality',
+//        'ecobrick_unique_id', 'serial_no', 'brand_name' // Add brand_name field
+//    ];
+//
+//    $db_values = [
+//        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
+//        $plastic_from, $location_full, $community_name, $project_id, $training_id,
+//        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
+//        $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
+//        'Unknown City', $latitude, $longitude, 'Unknown Municipality',
+//        $ecobrick_id, $serial_no, $brand_name // Add brand_name value
+//    ];
+//
+//    echo "Fields count: " . count($db_fields) . "<br>"; // should print 26
+//    echo "Values count: " . count($db_values) . "<br>"; // should print 26
 
     $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($stmt->execute()) {
             error_log("Statement executed successfully.");
-            $ecobrick_id = $conn->insert_id;
+//            $ecobrick_id = $conn->insert_id;
 
             $stmt->close();
             $conn->close();
@@ -164,16 +164,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <label for="volume_ml" data-lang-id="006-volume-ml">Volume of the Ecobrick (in milliliters):</label><br>
                     <select id="volume_ml" name="volume_ml" aria-label="Volume in Milliliters" required>
                         <option value="" disabled selected>Select volume...</option>
+                        <option value="200">250 ml</option>
                         <option value="250">250 ml</option>
                         <option value="300">300 ml</option>
                         <option value="330">330 ml</option>
+                        <option value="350">350 ml</option>
+                        <option value="360">360 ml</option>
+                        <option value="380">380 ml</option>
+                        <option value="400">400 ml</option>
+                        <option value="450">450 ml</option>
                         <option value="500">500 ml</option>
+                        <option value="525">525 ml</option>
+                        <option value="550">550 ml</option>
                         <option value="600">600 ml</option>
+                        <option value="650">650 ml</option>
+                        <option value="700">700 ml</option>
+                        <option value="750">750 ml</option>
+                        <option value="800">800 ml</option>
                         <option value="900">900 ml</option>
                         <option value="1000">1000 ml</option>
+                        <option value="1100">1100 ml</option>
+                        <option value="1250">1250 ml</option>
                         <option value="1500">1500 ml</option>
+                        <option value="1750">1750 ml</option>
                         <option value="2000">2000 ml</option>
+                        <option value="2250">2250 ml</option>
                         <option value="3000">3000 ml</option>
+                        <option value="3100">3100 ml</option>
                         <option value="4000">4000 ml</option>
                         <option value="5000">5000 ml</option>
                         <option value="10000">10000 ml</option>
@@ -210,16 +227,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="clear">Clear</option>
                         <option value="white">White</option>
                         <option value="black">Black</option>
-                        <option value="red">Red</option>
-                        <option value="blue">Blue</option>
                         <option value="yellow">Yellow</option>
                         <option value="orange">Orange</option>
+                        <option value="red">Red</option>
                         <option value="pink">Pink</option>
                         <option value="purple">Purple</option>
                         <option value="violet">Violet</option>
+                        <option value="dark blue">Dark blue</option>
+                        <option value="sky blue">Sky blue</option>
                         <option value="brown">Brown</option>
+                        <option value="grey">Grey</option>
                         <option value="silver">Silver</option>
                         <option value="gold">Gold</option>
+                        <option value="cigbrick beige">Cigbrick beige</option>
                     </select>
                     <p class="form-caption" data-lang-id="008-bottom-color-caption">Please select the bottom color of the ecobrick.</p>
 
@@ -247,10 +267,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="" disabled selected>Select plastic source...</option>
                         <option value="Home">Home</option>
                         <option value="Business">Business</option>
-                        <option value="Neighbourhood">Neighbourhood</option>
+                        <option value="Community">Neighbourhood</option>
+                        <option value="Factory">Factory</option>
                         <option value="Beach">Beach</option>
                         <option value="Ocean">Ocean</option>
                         <option value="River">River</option>
+                        <option value="Forest">Forest</option>
                         <option value="Field">Field</option>
                     </select>
                     <p class="form-caption" data-lang-id="010-plastic-from-caption">Describe the source of the plastic.</p>
