@@ -316,7 +316,6 @@ if (!empty($error_message)) {
 }
 
 
-
 // PART 5: Echoing Fields and Updating Knack Record
 
 if (!empty($db_fields) && empty($error_message)) {
@@ -357,10 +356,10 @@ if (!empty($db_fields) && empty($error_message)) {
     if ($update_stmt === false) {
         echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
         echo "<script>
-    if (confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next ecobrick?')) {
-        window.location.href = 'process_ecobrick.php';
-    }
-</script>";
+        if (confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next ecobrick?')) {
+            window.location.href = 'process_ecobrick.php';
+        }
+    </script>";
     } else {
         $update_stmt->bind_param($db_types, ...$db_values);
 
@@ -369,16 +368,10 @@ if (!empty($db_fields) && empty($error_message)) {
             echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
             echo "<script>if(confirm('Database update failed: " . addslashes($update_stmt->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
         } else {
-            echo "<script>console.log('Database updated successfully');</script>";
-
-            // PART 5: Echoing Fields and Values
-            echo "<h3>Fields and Values added to the database:</h3><ul>";
-            foreach ($db_fields as $index => $field) {
-                echo "<li>$field: " . htmlspecialchars($db_values[$index]) . "</li>";
-            }
-            echo "</ul>";
+            echo "<script>console.log('Database has been updated.');</script>";
 
             // Update field_2492 to 'Yes' in Knack database
+            echo "<script>console.log('Updating Knack database to indicate ecobrick has been migrated.');</script>";
             $update_knack_url = "https://api.knack.com/v1/objects/object_2/records/" . $knack_record_id;
             $knack_update_data = json_encode(['field_2492' => 'Yes']);
             $knack_update_headers = [
