@@ -111,7 +111,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $vision = $record['field_562_raw'] ?? '';
             $last_ownership_change = $record['field_801_raw']['date'] ?? '';
             $non_registered_maker_name = $record['field_1620_raw'] ?? '';
-            $actual_maker_name = $record['field_1622_raw'] ?? '';
+            $actual_maker_name = strip_tags($record['field_1622_raw'] ?? '');
             $weight_authenticated_kg = $record['field_1410_raw'] ?? 0;
             $location_country = $record['field_340_raw'][0]['identifier'] ?? '';
             $location_region = $record['field_357_raw'][0]['identifier'] ?? '';
@@ -120,7 +120,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $bottom_colour = $record['field_70_raw'] ?? '';
             $plastic_from = $record['field_329_raw'] ?? '';
             $photo_choice = $record['field_1064_raw'] ?? ''; // Add the new field
-            $location_city = $record['field_356_raw'][0]['identifier'] ?? '';
+            $location_city = strip_tags($record['field_356_raw'][0]['identifier'] ?? '');
             $location_full = $record['field_1373_raw'] ?? '';
             $catalyst = $record['field_1611_raw'] ?? '';
 
