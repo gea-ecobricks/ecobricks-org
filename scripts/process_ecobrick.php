@@ -117,7 +117,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $brand_name = $record['field_1602_raw'] ?? '';
             $bottom_colour = $record['field_70_raw'] ?? '';
             $plastic_from = $record['field_329_raw'] ?? '';
-            $photo_choice = $record['field_1064_raw'] ?? ''; // Add the new field
 
             // Calculate additional fields
             $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " ß";
@@ -135,48 +134,20 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
             } else {
                 // Prepare and bind
-                $db_fields = [
-                    'ecobrick_unique_id', 'serial_no', 'owner', 'ecobricker_maker', 'ecobrick_full_photo_url',
-                    'volume_ml', 'universal_volume_ml', 'weight_g', 'density', 'date_logged_ts',
-                    'CO2_kg', 'sequestration_type', 'last_validation_ts', 'validator_1', 'validator_2',
-                    'validator_3', 'validation_score_avg', 'knack_record_id', 'final_validation_score', 'vision',
-                    'last_ownership_change', 'non_registered_maker_name', 'actual_maker_name', 'weight_authenticated_kg',
-                    'location_country', 'location_region', 'community_name', 'brand_name', 'bottom_colour',
-                    'plastic_from', 'ecobrick_brk_display_value', 'ecobrick_dec_brk_val', 'ecobrick_brk_amt', 'photo_choice'
-                ];
-
-                $db_values = [
-                    $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url,
-                    $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts,
-                    $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2,
-                    $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision,
-                    $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg,
-                    $location_country, $location_region, $community_name, $brand_name, $bottom_colour,
-                    $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt, $photo_choice
-                ];
-
-                echo "Fields count: " . count($db_fields) . "<br>"; // should print 34
-                echo "Values count: " . count($db_values) . "<br>"; // should print 34
-
-                $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
-
-                if ($stmt = $conn->prepare($sql)) {
-                    error_log("Statement prepared successfully.");
-
-                    $stmt->bind_param("ssssssssssssssssssssssssssssssssss", ...$db_values);
-
-                    error_log("Parameters bound successfully.");
-
-                    if (!$stmt->execute()) {
-                        $success = false;
-                        $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
-                    }
-
-                    // Close the statement
-                    $stmt->close();
-                } else {
+                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
                 }
+                $stmt->bind_param("sssssssssssssssssssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt);
+
+                // Execute statement
+                if (!$stmt->execute()) {
+                    $success = false;
+                    $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
+                }
+
+                // Close the statement
+                $stmt->close();
             }
 
             // Close the check statement
@@ -191,14 +162,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
         echo "<script>if(confirm('Error: " . implode(", ", $errors) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
     }
 }
-
-if (!empty($error_message)) {
-    http_response_code(400);
-    header('Content-Type: application/json');
-    echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
-    exit;
-}
-?>
 
 
 
