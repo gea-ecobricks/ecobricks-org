@@ -127,42 +127,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $ecobrick_dec_brk_val = number_format($weight_authenticated_kg * 10, 2, '.', '');
             $ecobrick_brk_amt = $weight_authenticated_kg * 10;
 
-            // Display the retrieved fields and their values
-            echo "<ul>";
-            echo "<li><b>ecobrick_unique_id:</b> $ecobrick_unique_id</li>";
-            echo "<li><b>serial_no:</b> $serial_no</li>";
-            echo "<li><b>owner:</b> $owner</li>";
-            echo "<li><b>ecobricker_maker:</b> $ecobricker_maker</li>";
-            echo "<li><b>ecobrick_full_photo_url:</b> $ecobrick_full_photo_url</li>";
-            echo "<li><b>volume_ml:</b> $volume_ml</li>";
-            echo "<li><b>universal_volume_ml:</b> $universal_volume_ml</li>";
-            echo "<li><b>weight_g:</b> $weight_g</li>";
-            echo "<li><b>density:</b> $density</li>";
-            echo "<li><b>date_logged_ts:</b> $date_logged_ts</li>";
-            echo "<li><b>CO2_kg:</b> $CO2_kg</li>";
-            echo "<li><b>sequestration_type:</b> $sequestration_type</li>";
-            echo "<li><b>last_validation_ts:</b> $last_validation_ts</li>";
-            echo "<li><b>validator_1:</b> $validator_1</li>";
-            echo "<li><b>validator_2:</b> $validator_2</li>";
-            echo "<li><b>validator_3:</b> $validator_3</li>";
-            echo "<li><b>validation_score_avg:</b> $validation_score_avg</li>";
-            echo "<li><b>knack_record_id:</b> $knack_record_id</li>";
-            echo "<li><b>final_validation_score:</b> $final_validation_score</li>";
-            echo "<li><b>vision:</b> $vision</li>";
-            echo "<li><b>last_ownership_change:</b> $last_ownership_change</li>";
-            echo "<li><b>non_registered_maker_name:</b> $non_registered_maker_name</li>";
-            echo "<li><b>actual_maker_name:</b> $actual_maker_name</li>";
-            echo "<li><b>weight_authenticated_kg:</b> $weight_authenticated_kg</li>";
-            echo "<li><b>location_country:</b> $location_country</li>";
-            echo "<li><b>location_region:</b> $location_region</li>";
-            echo "<li><b>community_name:</b> $community_name</li>";
-            echo "<li><b>brand_name:</b> $brand_name</li>";
-            echo "<li><b>bottom_colour:</b> $bottom_colour</li>";
-            echo "<li><b>plastic_from:</b> $plastic_from</li>";
-            echo "<li><b>ecobrick_brk_display_value:</b> $ecobrick_brk_display_value</li>";
-            echo "<li><b>ecobrick_dec_brk_val:</b> $ecobrick_dec_brk_val</li>";
-            echo "<li><b>ecobrick_brk_amt:</b> $ecobrick_brk_amt</li>";
-            echo "</ul>";
+
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
@@ -206,6 +171,45 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<script>if(confirm('No records found in the Knack database. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
 }
 
+
+//PART 2.5
+
+// Display the retrieved fields and their values
+echo "<ul>";
+echo "<li><b>ecobrick_unique_id:</b> $ecobrick_unique_id</li>";
+echo "<li><b>serial_no:</b> $serial_no</li>";
+echo "<li><b>owner:</b> $owner</li>";
+echo "<li><b>ecobricker_maker:</b> $ecobricker_maker</li>";
+echo "<li><b>ecobrick_full_photo_url:</b> $ecobrick_full_photo_url</li>";
+echo "<li><b>volume_ml:</b> $volume_ml</li>";
+echo "<li><b>universal_volume_ml:</b> $universal_volume_ml</li>";
+echo "<li><b>weight_g:</b> $weight_g</li>";
+echo "<li><b>density:</b> $density</li>";
+echo "<li><b>date_logged_ts:</b> $date_logged_ts</li>";
+echo "<li><b>CO2_kg:</b> $CO2_kg</li>";
+echo "<li><b>sequestration_type:</b> $sequestration_type</li>";
+echo "<li><b>last_validation_ts:</b> $last_validation_ts</li>";
+echo "<li><b>validator_1:</b> $validator_1</li>";
+echo "<li><b>validator_2:</b> $validator_2</li>";
+echo "<li><b>validator_3:</b> $validator_3</li>";
+echo "<li><b>validation_score_avg:</b> $validation_score_avg</li>";
+echo "<li><b>knack_record_id:</b> $knack_record_id</li>";
+echo "<li><b>final_validation_score:</b> $final_validation_score</li>";
+echo "<li><b>vision:</b> $vision</li>";
+echo "<li><b>last_ownership_change:</b> $last_ownership_change</li>";
+echo "<li><b>non_registered_maker_name:</b> $non_registered_maker_name</li>";
+echo "<li><b>actual_maker_name:</b> $actual_maker_name</li>";
+echo "<li><b>weight_authenticated_kg:</b> $weight_authenticated_kg</li>";
+echo "<li><b>location_country:</b> $location_country</li>";
+echo "<li><b>location_region:</b> $location_region</li>";
+echo "<li><b>community_name:</b> $community_name</li>";
+echo "<li><b>brand_name:</b> $brand_name</li>";
+echo "<li><b>bottom_colour:</b> $bottom_colour</li>";
+echo "<li><b>plastic_from:</b> $plastic_from</li>";
+echo "<li><b>ecobrick_brk_display_value:</b> $ecobrick_brk_display_value</li>";
+echo "<li><b>ecobrick_dec_brk_val:</b> $ecobrick_dec_brk_val</li>";
+echo "<li><b>ecobrick_brk_amt:</b> $ecobrick_brk_amt</li>";
+echo "</ul>";
 
 
 
