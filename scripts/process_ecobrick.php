@@ -75,6 +75,8 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<h3>Ecobrick with Serial $ecobrick_unique_id is next in line for processing</h3>";
     echo "<p>Retrieval has now begun...</p>";
 }
+
+
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -169,7 +171,7 @@ if (!empty($error_message)) {
     echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
     exit;
 }
-?>
+
 
 
 
