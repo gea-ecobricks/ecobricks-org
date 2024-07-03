@@ -315,7 +315,6 @@ if (!empty($error_message)) {
     exit;
 }
 
-
 // PART 5: Echoing Fields and Updating Knack Record
 
 if (!empty($db_fields) && empty($error_message)) {
@@ -338,36 +337,17 @@ if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Checking database connection');</script>";
     if ($conn->ping()) {
         echo "<script>console.log('Database connection is alive');</script>";
+        echo "Database connection is alive";
     } else {
-        echo "<script>console.log('Database connection is not alive, attempting to reconnect');</script>";
-        $conn->close();
-        // Re-establish the database connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-
-        // Check connection again
-        if ($conn->connect_error) {
-            echo "<script>if(confirm('Reconnection failed: " . addslashes($conn->connect_error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
-        } else {
-            echo "<script>console.log('Reconnected to the database');</script>";
-        }
+        echo "<script>console.log('Database connection is not alive, final update failed');</script>";
     }
 
     $update_stmt = $conn->prepare($update_sql);
-    if ($update_stmt === false) {
-        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
-        echo "<script>
-        if (confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next ecobrick?')) {
-            window.location.href = 'process_ecobrick.php';
-        }
-    </script>";
-    } else {
+
+    if ($update_stmt) {
         $update_stmt->bind_param($db_types, ...$db_values);
 
-        if (!$update_stmt->execute()) {
-            $error_message .= "Database update failed: " . $update_stmt->error;
-            echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
-            echo "<script>if(confirm('Database update failed: " . addslashes($update_stmt->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
-        } else {
+        if ($update_stmt->execute()) {
             echo "<script>console.log('Database has been updated.');</script>";
 
             // Update field_2492 to 'Yes' in Knack database
@@ -398,8 +378,12 @@ if (!empty($db_fields) && empty($error_message)) {
 
             // Redirect to the next ecobrick processing
             echo "<script>if(confirm('Ecobrick $serial_no has been added to the database! Shall we proceed with the next one?')) { window.location.href = 'process_ecobrick.php'; }</script>";
+        } else {
+            echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
         }
         $update_stmt->close();
+    } else {
+        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
     }
 }
 
@@ -410,3 +394,4 @@ if (!empty($error_message)) {
     exit;
 }
 ?>
+
