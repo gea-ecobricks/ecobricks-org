@@ -32,6 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $community_name = trim($_POST['community_name']);
     $project_id = (int)trim($_POST['project_id']);
     $training_id = (int)trim($_POST['training_id']);
+    $brand_name = trim($_POST['brand_name']); // Collecting the brand_name field
 
     // Background settings
     $owner = $ecobricker_maker;
@@ -53,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
         'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
         'location_city', 'location_lat', 'location_long', 'location_municipality',
-        'ecobrick_unique_id', 'serial_no'
+        'ecobrick_unique_id', 'serial_no', 'brand_name' // Add brand_name field
     ];
 
     $db_values = [
@@ -62,21 +63,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
         $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
         'Unknown City', $latitude, $longitude, 'Unknown Municipality',
-        $ecobrick_id, $serial_no
+        $ecobrick_id, $serial_no, $brand_name // Add brand_name value
     ];
+
+    echo "Fields count: " . count($db_fields) . "<br>"; // should print 26
+    echo "Values count: " . count($db_values) . "<br>"; // should print 26
 
     $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssddsii", ...$db_values);
+        $stmt->bind_param("isiissssiisssdssdssssddsiss", ...$db_values);
 
         error_log("Parameters bound successfully.");
 
         if ($stmt->execute()) {
             error_log("Statement executed successfully.");
-//            $ecobrick_id = $conn->insert_id;
+            $ecobrick_id = $conn->insert_id;
 
             $stmt->close();
             $conn->close();
@@ -185,6 +189,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input type="number" id="weight_g" name="weight_g" aria-label="Weight in Grams" min="1" required>
                     <p class="form-caption" data-lang-id="007-weight-g-caption">Please provide the weight of the ecobrick in grams.</p>
 
+                    <!--ERRORS-->
+                    <div id="weight-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                </div>
+
+
+                <div class="form-item">
+                    <label for="brand_name" data-lang-id="007-brand_name">What brand of bottle is used for this ecobrick?</label><br>
+                    <input type="number" id="brand_name" name="brand_name" aria-label="Brand of bottle" min="1" required>
+                    <p class="form-caption" data-lang-id="007-weight-g-caption">Write the name of the bottle brand</p>
                     <!--ERRORS-->
                     <div id="weight-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
                 </div>
@@ -479,6 +492,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // 2. Volume (ml) Validation
         var volumeML = parseInt(document.getElementById('volume_ml').value, 10);
         displayError('volume-error-required', isNaN(volumeML) || volumeML < 1);
+
+        // 3. Weight (g) Validation
+        var weightG = parseInt(document.getElementById('weight_g').value, 10);
+        displayError('weight-error-required', isNaN(weightG) || weightG < 1);
+
 
         // 3. Weight (g) Validation
         var weightG = parseInt(document.getElementById('weight_g').value, 10);
