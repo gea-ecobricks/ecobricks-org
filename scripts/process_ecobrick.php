@@ -337,6 +337,7 @@ if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Checking database connection');</script>";
     if ($conn->ping()) {
         echo "<script>console.log('Database connection is alive');</script>";
+        echo "Database connection is alive";
     } else {
         echo "<script>console.log('Database connection is not alive, final update failed');</script>";
     }
