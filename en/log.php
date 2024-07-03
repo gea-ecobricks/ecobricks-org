@@ -258,7 +258,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="cigbrick">Cigbrick</option>
                         <option value="ocean ecobrick">Ocean ecobrick</option>
                     </select>
-                    <p class="form-caption" data-lang-id="009-sequestration-type-caption">Please select the type of ecobrick.</p>
+                    <p class="form-caption" data-lang-id="009-sequestration-type-caption">Please select the type of ecobrick.  Learn more about Ocean Ecobricks, Cigbricks and Regular ecobricks.</p>
 
                     <!--ERRORS-->
                     <div id="type-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>

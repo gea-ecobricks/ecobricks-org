@@ -12,14 +12,27 @@ $thumbnail_paths = [];
 $main_file_sizes = [];
 $thumbnail_file_sizes = [];
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_id'])) {
-    $ecobrick_id = $_POST['ecobrick_id'];
+if (isset($_GET['id'])) {
+    $ecobrick_unique_id = (int)$_GET['id'];
+
+    // Fetch the ecobrick details from the database
+    $sql = "SELECT universal_volume_ml, serial_no, density, weight_g FROM tb_ecobricks WHERE ecobrick_unique_id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $ecobrick_unique_id);
+    $stmt->execute();
+    $stmt->bind_result($universal_volume_ml, $serial_no, $density, $weight_g);
+    $stmt->fetch();
+    $stmt->close();
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id'])) {
+    $ecobrick_unique_id = (int)$_POST['ecobrick_unique_id'];
     $serial_no = $_POST['serial_no']; // Ensure serial_no is passed from the previous step
     include '../project-photo-functions.php';
 
     // Handle ecobrick deletion
     if (isset($_POST['action']) && $_POST['action'] == 'delete_ecobrick') {
-        $deleteResult = deleteEcobrick($ecobrick_id, $conn);
+        $deleteResult = deleteEcobrick($ecobrick_unique_id, $conn);
         if ($deleteResult === true) {
             echo "<script>alert('Ecobrick has been successfully deleted.'); window.location.href='add-ecobrick.php';</script>";
             exit;
@@ -69,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_id'])) {
     if (!empty($db_fields) && empty($error_message)) {
         $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
         $update_sql = "UPDATE tb_ecobricks SET {$fields_for_update} WHERE ecobrick_unique_id = ?";
-        $db_values[] = $ecobrick_id;
+        $db_values[] = $ecobrick_unique_id;
         $db_types .= "i";
 
         $update_stmt = $conn->prepare($update_sql);
@@ -87,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_id'])) {
         exit;
     } else {
         $response = array(
-            'ecobrick_id' => $ecobrick_id,
+            'ecobrick_unique_id' => $ecobrick_unique_id,
             'full_urls' => $full_urls,
             'thumbnail_paths' => $thumbnail_paths,
             'main_file_sizes' => $main_file_sizes,
@@ -99,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_id'])) {
     }
 }
 
-function deleteEcobrick($ecobrick_id, $conn) {
+function deleteEcobrick($ecobrick_unique_id, $conn) {
     // Dummy function to handle ecobrick deletion, replace with actual implementation
     return true;
 }
@@ -134,15 +147,16 @@ function deleteEcobrick($ecobrick_id, $conn) {
             <div class="splash-form-content-block">
                 <div class="splash-box">
 
-                    <div class="splash-heading" data-lang-id="001-form-title">Now Upload Your Ecobrick Images</div>
+                    <div class="splash-heading" data-lang-id="001-form-title">Record Serial & Take Photo</div>
                 </div>
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
-                    <img src="../svgs/square-photo.svg?v=2" style="width:65%" alt="Please take a square photo">
+                    <img src="../pngs/weigh-your-plastic-1.png" style="width:65%" alt="Please take a square photo">
                 </div>
             </div>
 
-            <p data-lang-id="002-form-description2">Show the world your ecobrick! Upload two images: one of the ecobrick and one of the maker with the ecobrick.</p>
-<!--            <span style="color:red">Be sure photos are under 8MB.</span>-->
+            <p data-lang-id="002-form-description2">Your ecobrick has been logged with a weight of <?php echo $weight_g; ?>g, a volume of <?php echo $universal_volume_ml; ?>ml, and a density of <?php echo $density; ?>g/ml. Your ecobrick has been allocated the serial number:</p>
+            <h1><?php echo $serial_no; ?></h1>
+
 
             <br>
 
