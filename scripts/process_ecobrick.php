@@ -174,44 +174,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 }
 
 
-//PART 2.5
-
-// Display the retrieved fields and their values
-echo "<ul>";
-echo "<li><b>ecobrick_unique_id:</b> $ecobrick_unique_id</li>";
-echo "<li><b>serial_no:</b> $serial_no</li>";
-echo "<li><b>owner:</b> $owner</li>";
-echo "<li><b>ecobricker_maker:</b> $ecobricker_maker</li>";
-echo "<li><b>ecobrick_full_photo_url:</b> $ecobrick_full_photo_url</li>";
-echo "<li><b>volume_ml:</b> $volume_ml</li>";
-echo "<li><b>universal_volume_ml:</b> $universal_volume_ml</li>";
-echo "<li><b>weight_g:</b> $weight_g</li>";
-echo "<li><b>density:</b> $density</li>";
-echo "<li><b>date_logged_ts:</b> $date_logged_ts</li>";
-echo "<li><b>CO2_kg:</b> $CO2_kg</li>";
-echo "<li><b>sequestration_type:</b> $sequestration_type</li>";
-echo "<li><b>last_validation_ts:</b> $last_validation_ts</li>";
-echo "<li><b>validator_1:</b> $validator_1</li>";
-echo "<li><b>validator_2:</b> $validator_2</li>";
-echo "<li><b>validator_3:</b> $validator_3</li>";
-echo "<li><b>validation_score_avg:</b> $validation_score_avg</li>";
-echo "<li><b>knack_record_id:</b> $knack_record_id</li>";
-echo "<li><b>final_validation_score:</b> $final_validation_score</li>";
-echo "<li><b>vision:</b> $vision</li>";
-echo "<li><b>last_ownership_change:</b> $last_ownership_change</li>";
-echo "<li><b>non_registered_maker_name:</b> $non_registered_maker_name</li>";
-echo "<li><b>actual_maker_name:</b> $actual_maker_name</li>";
-echo "<li><b>weight_authenticated_kg:</b> $weight_authenticated_kg</li>";
-echo "<li><b>location_country:</b> $location_country</li>";
-echo "<li><b>location_region:</b> $location_region</li>";
-echo "<li><b>community_name:</b> $community_name</li>";
-echo "<li><b>brand_name:</b> $brand_name</li>";
-echo "<li><b>bottom_colour:</b> $bottom_colour</li>";
-echo "<li><b>plastic_from:</b> $plastic_from</li>";
-echo "<li><b>ecobrick_brk_display_value:</b> $ecobrick_brk_display_value</li>";
-echo "<li><b>ecobrick_dec_brk_val:</b> $ecobrick_dec_brk_val</li>";
-echo "<li><b>ecobrick_brk_amt:</b> $ecobrick_brk_amt</li>";
-echo "</ul>";
 
 
 
@@ -303,7 +265,6 @@ if (!empty($ecobrick_photo_url)) {
     echo "<div class='message'>No URL provided for image</div>";
     ob_flush(); flush();
 }
-
 // PART 4
 
 if (!empty($db_fields) && empty($error_message)) {
@@ -363,9 +324,22 @@ if (!empty($error_message)) {
     header('Content-Type: application/json');
     echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
     exit;
-} else {
-    echo "<script>if(confirm('Images processed and database updated successfully. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "'; }</script>";
-    exit;
 }
+
+// PART 5
+
+echo "<h3>Fields and Values Added to the Database:</h3>";
+echo "<ul>";
+foreach ($db_fields as $index => $field) {
+    echo "<li><strong>$field:</strong> " . htmlspecialchars($db_values[$index]) . "</li>";
+}
+echo "</ul>";
+
+echo "<script>
+    if (confirm('Ecobrick $serial_no has been added to the database! Shall we proceed with the next one?')) {
+        window.location.href = 'process_ecobrick.php?ecobrick_id=" . ($ecobrick_id + 1) . "';
+    }
+</script>";
 ?>
+
 
