@@ -48,28 +48,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $serial_no = setSerialNumber($conn);
     $ecobrick_id = $serial_no;
 
-//    $db_fields = [
-//        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
-//        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
-//        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
-//        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
-//        'location_city', 'location_lat', 'location_long', 'location_municipality',
-//        'ecobrick_unique_id', 'serial_no', 'brand_name' // Add brand_name field
-//    ];
-//
-//    $db_values = [
-//        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
-//        $plastic_from, $location_full, $community_name, $project_id, $training_id,
-//        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
-//        $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
-//        'Unknown City', $latitude, $longitude, 'Unknown Municipality',
-//        $ecobrick_id, $serial_no, $brand_name // Add brand_name value
-//    ];
-//
-//    echo "Fields count: " . count($db_fields) . "<br>"; // should print 26
-//    echo "Values count: " . count($db_values) . "<br>"; // should print 26
+    $db_fields = [
+        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
+        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
+        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
+        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
+        'location_city', 'location_lat', 'location_long', 'location_municipality',
+        'ecobrick_unique_id', 'serial_no', 'brand_name' // Add brand_name field
+    ];
 
-//    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
+    $db_values = [
+        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
+        $plastic_from, $location_full, $community_name, $project_id, $training_id,
+        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
+        $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
+        'Unknown City', $latitude, $longitude, 'Unknown Municipality',
+        $ecobrick_id, $serial_no, $brand_name // Add brand_name value
+    ];
+
+    echo "Fields count: " . count($db_fields) . "<br>"; // should print 26
+    echo "Values count: " . count($db_values) . "<br>"; // should print 26
+
+    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
@@ -213,11 +213,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 <div class="form-item">
                     <label for="brand_name" data-lang-id="007-brand_name">What brand of bottle is used for this ecobrick?</label><br>
-                    <input type="number" id="brand_name" name="brand_name" aria-label="Brand of bottle" min="1" required>
+                    <input type="text" id="brand_name" name="brand_name" aria-label="Brand of bottle" required>
                     <p class="form-caption" data-lang-id="007-weight-g-caption">Write the name of the bottle brand</p>
                     <!--ERRORS-->
-                    <div id="weight-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                    <div id="brand-name-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
+                    <div id="brand-name-error-long" class="form-field-error" data-lang-id="000-field-too-long-error">This entry should be under 100 characters. All we need is the bottle brand name i.e. "Max Water".</div>
+                    <div id="brand-name-error-invalid" class="form-field-error" data-lang-id="000-field-invalid-error">The entry contains invalid characters. Avoid quotes, slashes, and greater-than signs please.</div>
                 </div>
+
 
                 <div class="form-item">
                     <label for="bottom_color" data-lang-id="008-bottom-color">Bottom color of the Ecobrick:</label><br>
@@ -419,70 +422,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         });
     });
 
-//
-// /* Location Setter */
-//     $(function() {
-//         let debounceTimer;
-//         $("#location_full").autocomplete({
-//             source: function(request, response) {
-//                 $("#loading-spinner").show();
-//                 clearTimeout(debounceTimer);
-//                 debounceTimer = setTimeout(() => {
-//                     $.ajax({
-//                         url: "https://nominatim.openstreetmap.org/search",
-//                         dataType: "json",
-//                         headers: {
-//                             'User-Agent': 'ecobricks.org'
-//                         },
-//                         data: {
-//                             q: request.term,
-//                             format: "json",
-//                             addressdetails: 1 // Include address details in the response
-//                         },
-//                         success: function(data) {
-//                             $("#loading-spinner").hide();
-//                             response($.map(data, function(item) {
-//                                 return {
-//                                     label: item.display_name,
-//                                     value: item.display_name,
-//                                     lat: item.lat,
-//                                     lon: item.lon,
-//                                     address: item.address // Include address details
-//                                 };
-//                             }));
-//                         },
-//                         error: function(xhr, status, error) {
-//                             $("#loading-spinner").hide();
-//                             console.error("Autocomplete error:", error);
-//                             response([]);
-//                         }
-//                     });
-//                 }, 300);
-//             },
-//             select: function(event, ui) {
-//                 $('#lat').val(ui.item.lat);
-//                 $('#lon').val(ui.item.lon);
-//
-//                 // Populate hidden fields with address details
-//                 $('#location_country').val(ui.item.address.country || '');
-//                 $('#location_region').val(ui.item.address.state || '');
-//                 $('#location_city').val(ui.item.address.city || ui.item.address.town || '');
-//                 $('#location_municipality').val(ui.item.address.village || ui.item.address.hamlet || '');
-//             },
-//             minLength: 3
-//         });
-//
-//         $('#submit-form').on('submit', function() {
-//             console.log('Location Country:', $('#location_country').val());
-//             console.log('Location Region:', $('#location_region').val());
-//             console.log('Location City:', $('#location_city').val());
-//             console.log('Location Municipality:', $('#location_municipality').val());
-//             // Add any additional form validation or processing here
-//         });
-//     });
-
-
-
 
     document.getElementById('submit-form').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent the form from submitting until validation is complete
@@ -519,11 +458,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         var weightG = parseInt(document.getElementById('weight_g').value, 10);
         displayError('weight-error-required', isNaN(weightG) || weightG < 1);
 
-
-        // 3. Weight (g) Validation
-        var weightG = parseInt(document.getElementById('weight_g').value, 10);
-        displayError('weight-error-required', isNaN(weightG) || weightG < 1);
-
         // 4. Sequestration Type Validation
         var sequestrationType = document.getElementById('sequestration_type').value.trim();
         displayError('type-error-required', sequestrationType === '');
@@ -548,6 +482,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         var trainingId = document.getElementById('training_id').value.trim();
         displayError('training-error-long', trainingId !== '' && isNaN(parseInt(trainingId, 10)));
 
+        // 10. Brand Name Validation
+        var brandName = document.getElementById('brand_name').value.trim();
+        displayError('brand-name-error-required', brandName === '');
+        displayError('brand-name-error-long', brandName.length > 100);
+        displayError('brand-name-error-invalid', hasInvalidChars(brandName));
+
         // If all validations pass, submit the form
         if (isValid) {
             this.submit();
@@ -564,6 +504,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         }
     });
+
 
     $(function() {
         let debounceTimer;
