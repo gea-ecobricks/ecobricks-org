@@ -315,6 +315,8 @@ if (!empty($error_message)) {
     exit;
 }
 
+
+
 // PART 5: Echoing Fields and Updating Knack Record
 
 if (!empty($db_fields) && empty($error_message)) {
@@ -324,7 +326,7 @@ if (!empty($db_fields) && empty($error_message)) {
     array_push($db_values, date("Y-m-d H:i:s"), "authenticated");
     $db_types .= "ss";
 
-    $fields_for_update = implode(", ", array_map(function($field) { return "{$field} = ?"; }, $db_fields));
+    $fields_for_update = implode(" = ?, ", $db_fields) . " = ?";
     $update_sql = "UPDATE tb_ecobricks SET {$fields_for_update} WHERE ecobrick_unique_id = ?";
     $db_values[] = $ecobrick_unique_id;
     $db_types .= "s";
@@ -336,7 +338,7 @@ if (!empty($db_fields) && empty($error_message)) {
     // Check if the connection is still alive
     echo "<script>console.log('Checking database connection');</script>";
     if ($conn->ping()) {
-        echo "<script>console.log('Database connection is five alive');</script>";
+        echo "<script>console.log('Database connection is alive');</script>";
     } else {
         echo "<script>console.log('Database connection is not alive, attempting to reconnect');</script>";
         $conn->close();
@@ -350,8 +352,6 @@ if (!empty($db_fields) && empty($error_message)) {
             echo "<script>console.log('Reconnected to the database');</script>";
         }
     }
-
-
 
     $update_stmt = $conn->prepare($update_sql);
     if ($update_stmt === false) {
