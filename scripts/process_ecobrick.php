@@ -275,7 +275,7 @@ if (!empty($db_fields) && empty($error_message)) {
     // Check if the connection is still alive
     echo "<script>console.log('Checking database connection');</script>";
     if ($conn->ping()) {
-        echo "<script>console.log('Database connection is alive');</script>";
+        echo "<script>console.log('Database connection is alive sir!');</script>";
     } else {
         echo "<script>console.log('Database connection is not alive, attempting to reconnect');</script>";
         $conn->close();
@@ -336,7 +336,7 @@ if (!empty($db_fields) && empty($error_message)) {
     // Check if the connection is still alive
     echo "<script>console.log('Checking database connection');</script>";
     if ($conn->ping()) {
-        echo "<script>console.log('Database connection is alive');</script>";
+        echo "<script>console.log('Database connection is five alive');</script>";
     } else {
         echo "<script>console.log('Database connection is not alive, attempting to reconnect');</script>";
         $conn->close();
@@ -351,10 +351,16 @@ if (!empty($db_fields) && empty($error_message)) {
         }
     }
 
+
+
     $update_stmt = $conn->prepare($update_sql);
     if ($update_stmt === false) {
         echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
-        echo "<script>if(confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
+        echo "<script>
+    if (confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next ecobrick?')) {
+        window.location.href = 'process_ecobrick.php';
+    }
+</script>";
     } else {
         $update_stmt->bind_param($db_types, ...$db_values);
 
