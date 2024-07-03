@@ -75,7 +75,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
     echo "<h3>Ecobrick with Serial $ecobrick_unique_id is next in line for processing</h3>";
     echo "<p>Retrieval has now begun...</p>";
 }
-
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -117,9 +116,10 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $brand_name = $record['field_1602_raw'] ?? '';
             $bottom_colour = $record['field_70_raw'] ?? '';
             $plastic_from = $record['field_329_raw'] ?? '';
+            $photo_choice = $record['field_1064'] ?? ''; // Add the new field
 
             // Calculate additional fields
-            $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " ß";
+            $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " ß";
             $ecobrick_dec_brk_val = number_format($weight_authenticated_kg * 10, 2, '.', '');
             $ecobrick_brk_amt = $weight_authenticated_kg * 10;
 
@@ -134,11 +134,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
             } else {
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt, photo_choice) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
                 }
-                $stmt->bind_param("sssssssssssssssssssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt);
+                $stmt->bind_param("ssssssssssssssssssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt, $photo_choice);
 
                 // Execute statement
                 if (!$stmt->execute()) {
@@ -163,7 +163,13 @@ if (isset($data['records']) && count($data['records']) > 0) {
     }
 }
 
-
+if (!empty($error_message)) {
+    http_response_code(400);
+    header('Content-Type: application/json');
+    echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
+    exit;
+}
+?>
 
 
 
