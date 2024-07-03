@@ -71,7 +71,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
     $record_details = $record;
 
     echo "<h3>Ecobrick with Serial $ecobrick_unique_id is next in line for processing</h3>";
-    echo "<p>Retrieval has now begun...</p>";
 } else {
     echo "<h3>No ecobricks found with field_2492 set to 'No'</h3>";
     echo "<p>No ecobricks to process at this time.</p>";
@@ -84,11 +83,13 @@ if (isset($data['records']) && count($data['records']) > 0) {
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
     $errors = [];
+    echo "<p>Retrieval starting...</p>";
 
     foreach ($data['records'] as $record) {
-        if (isset($record['field_73']) && $record['field_73'] == $ecobrick_id) {
+        if (isset($record['field_73']) && $record['field_73'] == $ecobrick_unique_id) {
             $record_found = true;
 
+            echo "<p>Retrieval has now begun...</p>";
             // Extract the necessary data from the Knack payload
             $ecobrick_unique_id = $record['field_73_raw'] ?? '';
             $serial_no = $record['field_73_raw'] ?? '';
