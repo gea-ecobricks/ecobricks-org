@@ -118,7 +118,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $brand_name = $record['field_1602_raw'] ?? '';
             $bottom_colour = $record['field_70_raw'] ?? '';
             $plastic_from = $record['field_329_raw'] ?? '';
-            $photo_choice = $record['field_1064'] ?? ''; // Add the new field
+            $photo_choice = $record['field_1064_raw'] ?? ''; // Add the new field
 
             // Calculate additional fields
             $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " ß";
