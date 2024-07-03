@@ -1,8 +1,8 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Bangunan Tanah & Ecobrick</title>
+<title>Earth building methods</title>
 
-<meta name="keywords" content="eco, bata, eco brick, ecobrick, eco-brick, eco, bata, eco brick, ecobrick, eco-brick, bata, bata, plastik, bangunan, bumi, tongkol, adobe, lumpur, bangunan, konstruksi, bumi & ecobrick, bangunan bumi dan ecobrick, sekuestrasi plastik, bangunan sekuestrasi, rumah spons, bangunan hijau, konstruksi hijau, bangunan hijau bersih, bangunan nol jaring, teknik, regeneratif, prinsip">
+<meta name="keywords" content="eco, bata, eco brick, ecobrick, eco-brick, eco, bata, eco brick, ecobrick, eco-brick, bata, bata, plastik, bangunan, bumi, tongkol, adobe, lumpur, bangunan, konstruksi, bumi & ecobrick, bangunan bumi dan ecobrick, sekuestrasi plastik, bangunan sekuestrasi, rumah spons, bangunan hijau, konstruksi hijau, bangunan hijau bersih, bangunan nol jaring, teknik, regeneratif, prinsip, methods">
 
 <meta name="description" content="Bangun taman, rumah, dan bangunan paling hijau menggunakan teknik dan prinsip konstruksi tanah dan ecobrick.">
 	
