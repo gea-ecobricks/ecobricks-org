@@ -4,19 +4,19 @@ Appologies from Mike
 
 ## Discussion centered around
 
-https://github.com/gea-ecobricks/EarthenAuth/blob/main/user_tb.sql 
+Changes to get the new version of the [Earth Methods](https://ecobricks.org/en/earth-methods.php) 
+page wired up to the correct Include and associated files ect, so we dont get white page broken script issues.
+
+
+Also spoke a little about Design tools for Database Entity Relationship Visuilisations 
+
 
 ## And changes to
-https://ecobricks.org/en/welcome.php
-Current page -> https://ecobricks.org/en/movement.php
 
-Next for Joe's Dev -> Earth Methods page next for dev  
+Next for Joe's Dev -> Earth Methods  
 
-https://dev.to/mochafreddo/how-to-manage-documentation-in-a-github-repository-a-guide-for-junior-developers-pgo
 
-Very short meeting but had some interesting points 
 
-Previous doc discussed, should this be seperated out ?
 #  **GEA Development Road Map**
 
 
