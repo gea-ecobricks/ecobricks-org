@@ -43,7 +43,17 @@
 		<p data-lang-id="009-first-page-paragraph">Today’s conventional construction is driven by capital and relies on industrial methods and materials with additive plastic and CO2 impacts (greying).  GEA recommended building methods are based on regenerative principles to ensure that their net CO2 and plastic impacts are subtractive (greening).</p>
 		<p data-lang-id="010-link-learn-more"><a href = "https://www.ecobricks.org/new-earth">Learn more about Ecobrick & Earth Building Principles</a></p>
 	    </div>
-</div>
+	</div>
+	<div class="et_pb_module et_pb_accordion et_pb_accordion_0">
+		<div class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_0  et_pb_toggle_open">
+			<h5 class="et_pb_toggle_title" data-lang-id="011-header">Caution!</h5>
+			<div class="et_pb_toggle_content clearfix">
+				<p data-lang-id="012-first-page-paragraph"><strong>Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</strong></p>
+				<p data-lang-id="013-first-page-paragraph">Today's conventional construction is driven by capital and relies on industrial methods and materials with additive plastic and CO2 impacts (greying).  GEA recommended building methods are based on regenerative principles to ensure that their net CO2 and plastic impacts are subtractive (greening).</p>
+				<p data-lang-id="014-first-page-paragraph"><strong><a href="/new-earth">Learn more about Ecobrick & Earth Building Principles</a></strong></p>
+			</div>
+		</div>
+	</div>
 
 
 
