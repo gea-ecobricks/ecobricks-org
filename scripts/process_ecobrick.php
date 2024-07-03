@@ -314,46 +314,35 @@ if (!empty($error_message)) {
     echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
     exit;
 }
+// PART 5: Updating Knack Record
 
-// PART 5: Echoing Fields and Updating Knack Record
+echo "<script>console.log('Updating Knack database to indicate ecobrick has been migrated.');</script>";
+$update_knack_url = "https://api.knack.com/v1/objects/object_2/records/" . $knack_record_id;
+$knack_update_data = json_encode(['field_2492' => 'Yes']);
+$knack_update_headers = [
+    "X-Knack-Application-Id: $app_id",
+    "X-Knack-REST-API-Key: $api_key",
+    "Content-Type: application/json"
+];
 
+$ch = curl_init($update_knack_url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+curl_setopt($ch, CURLOPT_POSTFIELDS, $knack_update_data);
+curl_setopt($ch, CURLOPT_HTTPHEADER, $knack_update_headers);
 
-            // Update field_2492 to 'Yes' in Knack database
-            echo "<script>console.log('Updating Knack database to indicate ecobrick has been migrated.');</script>";
-            $update_knack_url = "https://api.knack.com/v1/objects/object_2/records/" . $knack_record_id;
-            $knack_update_data = json_encode(['field_2492' => 'Yes']);
-            $knack_update_headers = [
-                "X-Knack-Application-Id: $app_id",
-                "X-Knack-REST-API-Key: $api_key",
-                "Content-Type: application/json"
-            ];
+$knack_update_response = curl_exec($ch);
 
-            $ch = curl_init($update_knack_url);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $knack_update_data);
-            curl_setopt($ch, CURLOPT_HTTPHEADER, $knack_update_headers);
-
-            $knack_update_response = curl_exec($ch);
-
-            if ($knack_update_response === false) {
-                echo "<script>console.log('Error updating Knack record: " . addslashes(curl_error($ch)) . "');</script>";
-            } else {
-                echo "<script>console.log('Knack record updated successfully');</script>";
-            }
-
-            curl_close($ch);
-
-            // Redirect to the next ecobrick processing
-            echo "<script>if(confirm('Ecobrick $serial_no has been added to the database! Shall we proceed with the next one?')) { window.location.href = 'process_ecobrick.php'; }</script>";
-        } else {
-            echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
-        }
-        $update_stmt->close();
-    } else {
-        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
-    }
+if ($knack_update_response === false) {
+    echo "<script>console.log('Error updating Knack record: " . addslashes(curl_error($ch)) . "');</script>";
+} else {
+    echo "<script>console.log('Knack record updated successfully');</script>";
 }
+
+curl_close($ch);
+
+// Redirect to the next ecobrick processing
+echo "<script>if(confirm('Ecobrick $serial_no has been added to the database! Shall we proceed with the next one?')) { window.location.href = 'process_ecobrick.php'; }</script>";
 
 if (!empty($error_message)) {
     http_response_code(400);
@@ -362,4 +351,5 @@ if (!empty($error_message)) {
     exit;
 }
 ?>
+
 
