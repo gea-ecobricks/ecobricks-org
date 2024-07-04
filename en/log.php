@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Fields count: " . count($db_fields) . "<br>"; // should print 28
     echo "Values count: " . count($db_values) . "<br>"; // should print 28
 
-    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
+    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) ) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
