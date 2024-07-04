@@ -185,7 +185,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $catalyst = $record['field_1611_raw'] ?? '';
 
             // Calculate additional fields
-            $ecobrick_brk_display_value = ($weight_authenticated_kg * 10);
+            $ecobrick_brk_display_value = ((float)$weight_authenticated_kg * 10) . " BRK";
             $ecobrick_dec_brk_val = number_format($weight_authenticated_kg * 10, 2, '.', '');
             $ecobrick_brk_amt = $weight_authenticated_kg * 10;
             $brik_notes = "PHP API transfer from Gobrik developed by R.Maier, July 2024";
