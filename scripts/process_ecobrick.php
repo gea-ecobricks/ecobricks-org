@@ -237,6 +237,8 @@ if (!empty($ecobrick_photo_url)) {
                     array_push($db_fields, "ecobrick_full_photo_url", "ecobrick_thumb_photo_url");
                     array_push($db_values, $targetPath, $thumbnailPath);
                     $db_types .= "ss";
+                    echo "<div class='message'>Main image:<br><img src='{$targetPath}' width='500px'></div>";
+                    echo "<div class='message'>Thumbnail image:<br><img src='{$thumbnailPath}' width='150px'></div>";
                 } else {
                     $error_message .= "Failed to create thumbnail for image.<br>";
                     echo "<div class='alert'>Failed to create thumbnail for image</div>";
