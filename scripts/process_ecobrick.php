@@ -19,6 +19,20 @@
     <button class="button" onclick="startProcessing()">Start Processing</button>
 </div>
 
+<script>
+    function stopProcessing() {
+        if (confirm('Are you sure you want to stop the processing?')) {
+            window.location.href = 'process_ecobrick.php?action=stop';
+        }
+    }
+
+    function startProcessing() {
+        if (confirm('Are you sure you want to start the processing?')) {
+            window.location.href = 'process_ecobrick.php?action=start';
+        }
+    }
+</script>
+
 <?php
 
 // PART 1 of the code
@@ -407,18 +421,8 @@ if (!empty($error_message)) {
 
 
 
-<script>
-    function stopProcessing() {
-        if (confirm('Are you sure you want to stop the processing?')) {
-            window.location.href = 'process_ecobrick.php?action=stop';
-        }
-    }
 
-    function startProcessing() {
-        if (confirm('Are you sure you want to start the processing?')) {
-            window.location.href = 'process_ecobrick.php?action=start';
-        }
-    }
-</script>
+
+
 </body>
 </html>
