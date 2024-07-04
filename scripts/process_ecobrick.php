@@ -128,7 +128,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " BRK";
             $ecobrick_dec_brk_val = number_format($weight_authenticated_kg * 10, 2, '.', '');
             $ecobrick_brk_amt = $weight_authenticated_kg * 10;
-            $brik_notes = "PHP API transfer from Gobrik developed by R.Maier, July 2024 "
+            $brik_notes = "PHP API transfer from Gobrik developed by R.Maier, July 2024";
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
@@ -152,9 +152,11 @@ if (isset($data['records']) && count($data['records']) > 0) {
                     $success = false;
                     $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
                 }
+
                 // Close the statement
                 $stmt->close();
             }
+
             // Close the check statement
             $check_stmt->close();
             break;
@@ -167,9 +169,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
         echo "<script>if(confirm('Error: " . implode(", ", $errors) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
     }
 }
-
-
-
 
 
 
