@@ -21,104 +21,67 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Gather form data
-    $ecobricker_maker = trim($_POST['ecobricker_maker']);
-    $volume_ml = (int)trim($_POST['volume_ml']);
-    $weight_g = (int)trim($_POST['weight_g']);
-    $sequestration_type = trim($_POST['sequestration_type']);
-    $plastic_from = trim($_POST['plastic_from']);
-    $location_full = $_POST['location_full'] ?? 'Default Location';
-    $latitude = (double)$_POST['latitude'];
-    $longitude = (double)$_POST['longitude'];
-    $community_name = trim($_POST['community_name']);
-    $project_id = (int)trim($_POST['project_id']);
-    $training_id = (int)trim($_POST['training_id']);
-    $brand_name = trim($_POST['brand_name']); // Collecting the brand_name field
-
-    // Background settings
-    $owner = $ecobricker_maker;
-    $status = "not ready";
-    $universal_volume_ml = $volume_ml;
-    $density = $weight_g / $volume_ml;
-    $date_logged_ts = date("Y-m-d H:i:s");
-    $CO2_kg = ($weight_g * 6.1) / 1000;
-    $last_ownership_change = date("Y-m-d");
-    $actual_maker_name = $ecobricker_maker;
+//    $ecobricker_maker = trim($_POST['ecobricker_maker']);
+//    $volume_ml = (int)trim($_POST['volume_ml']);
+//    $weight_g = (int)trim($_POST['weight_g']);
+//    $sequestration_type = trim($_POST['sequestration_type']);
+//    $plastic_from = trim($_POST['plastic_from']);
+//    $location_full = $_POST['location_full'] ?? 'Default Location';
+//    $latitude = (double)$_POST['latitude'];
+//    $longitude = (double)$_POST['longitude'];
+//    $community_name = trim($_POST['community_name']);
+//    $project_id = (int)trim($_POST['project_id']);
+//    $training_id = (int)trim($_POST['training_id']);
+//    $brand_name = trim($_POST['brand_name']); // Collecting the brand_name field
+//
+//    // Background settings
+//    $owner = $ecobricker_maker;
+//    $status = "not ready";
+//    $universal_volume_ml = $volume_ml;
+//    $density = $weight_g / $volume_ml;
+//    $date_logged_ts = date("Y-m-d H:i:s");
+//    $CO2_kg = ($weight_g * 6.1) / 1000;
+//    $last_ownership_change = date("Y-m-d");
+//    $actual_maker_name = $ecobricker_maker;
 
     // Set serial number and ecobrick ID
     $serial_no = setSerialNumber($conn);
     $brik_notes = "Directly logged on ecobricks.org";
     $date_published_ts = date("Y-m-d H:i:s");
 
-    // Log the values
-    error_log("Values being inserted:");
-    error_log("ecobricker_maker: $ecobricker_maker");
-    error_log("volume_ml: $volume_ml");
-    error_log("weight_g: $weight_g");
-    error_log("sequestration_type: $sequestration_type");
-    error_log("plastic_from: $plastic_from");
-    error_log("location_full: $location_full");
-    error_log("latitude: $latitude");
-    error_log("longitude: $longitude");
-    error_log("community_name: $community_name");
-    error_log("project_id: $project_id");
-    error_log("training_id: $training_id");
-    error_log("owner: $owner");
-    error_log("status: $status");
-    error_log("universal_volume_ml: $universal_volume_ml");
-    error_log("density: $density");
-    error_log("date_logged_ts: $date_logged_ts");
-    error_log("CO2_kg: $CO2_kg");
-    error_log("last_ownership_change: $last_ownership_change");
-    error_log("actual_maker_name: $actual_maker_name");
-    error_log("serial_no: $serial_no");
-    error_log("brand_name: $brand_name");
-    error_log("brik_notes: $brik_notes");
-    error_log("date_published_ts: $date_published_ts");
-
-    echo "<script>console.log('Values being inserted:');</script>";
-    echo "<script>console.log('ecobricker_maker: " . addslashes($ecobricker_maker) . "');</script>";
-    echo "<script>console.log('volume_ml: " . addslashes($volume_ml) . "');</script>";
-    echo "<script>console.log('weight_g: " . addslashes($weight_g) . "');</script>";
-    echo "<script>console.log('sequestration_type: " . addslashes($sequestration_type) . "');</script>";
-    echo "<script>console.log('plastic_from: " . addslashes($plastic_from) . "');</script>";
-    echo "<script>console.log('location_full: " . addslashes($location_full) . "');</script>";
-    echo "<script>console.log('latitude: " . addslashes($latitude) . "');</script>";
-    echo "<script>console.log('longitude: " . addslashes($longitude) . "');</script>";
-    echo "<script>console.log('community_name: " . addslashes($community_name) . "');</script>";
-    echo "<script>console.log('project_id: " . addslashes($project_id) . "');</script>";
-    echo "<script>console.log('training_id: " . addslashes($training_id) . "');</script>";
-    echo "<script>console.log('owner: " . addslashes($owner) . "');</script>";
-    echo "<script>console.log('status: " . addslashes($status) . "');</script>";
-    echo "<script>console.log('universal_volume_ml: " . addslashes($universal_volume_ml) . "');</script>";
-    echo "<script>console.log('density: " . addslashes($density) . "');</script>";
-    echo "<script>console.log('date_logged_ts: " . addslashes($date_logged_ts) . "');</script>";
-    echo "<script>console.log('CO2_kg: " . addslashes($CO2_kg) . "');</script>";
-    echo "<script>console.log('last_ownership_change: " . addslashes($last_ownership_change) . "');</script>";
-    echo "<script>console.log('actual_maker_name: " . addslashes($actual_maker_name) . "');</script>";
-    echo "<script>console.log('serial_no: " . addslashes($serial_no) . "');</script>";
-    echo "<script>console.log('brand_name: " . addslashes($brand_name) . "');</script>";
-    echo "<script>console.log('brik_notes: " . addslashes($brik_notes) . "');</script>";
-    echo "<script>console.log('date_published_ts: " . addslashes($date_published_ts) . "');</script>";
 
     // Update SQL and binding to match the fields and values
     $sql = "INSERT INTO tb_ecobricks (
-        ecobricker_maker, volume_ml, weight_g, sequestration_type,
-        plastic_from, location_full, community_name, project_id, training_id,
-        owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg,
-        last_ownership_change, actual_maker_name, location_lat, location_long,
-        ecobrick_unique_id, serial_no, brand_name, brik_notes, date_published_ts
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+         serial_no, brik_notes, date_published_ts
+    ) VALUES (?, ?, ?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdsdssissssss",
-            $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
-            $plastic_from, $location_full, $community_name, $project_id, $training_id,
-            $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
-            $last_ownership_change, $actual_maker_name, $latitude, $longitude,
-            $serial_no, $brand_name, $brik_notes, $date_published_ts
+        $stmt->bind_param("sss",
+            $serial_no, $brik_notes, $date_published_ts
         );
+
+//
+//    // Update SQL and binding to match the fields and values
+//    $sql = "INSERT INTO tb_ecobricks (
+//        ecobricker_maker, volume_ml, weight_g, sequestration_type,
+//        plastic_from, location_full, community_name, project_id, training_id,
+//        owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg,
+//        last_ownership_change, actual_maker_name, location_lat, location_long,
+//        ecobrick_unique_id, serial_no, brand_name, brik_notes, date_published_ts
+//    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+//
+//    if ($stmt = $conn->prepare($sql)) {
+//        error_log("Statement prepared successfully.");
+//
+//        $stmt->bind_param("isiissssiisssdsdssissssss",
+//            $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
+//            $plastic_from, $location_full, $community_name, $project_id, $training_id,
+//            $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
+//            $last_ownership_change, $actual_maker_name, $latitude, $longitude,
+//            $serial_no, $brand_name, $brik_notes, $date_published_ts
+//        );
 
         error_log("Parameters bound successfully.");
 
