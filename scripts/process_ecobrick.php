@@ -131,7 +131,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 }
 
 
-
+<?php
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -143,40 +143,40 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $record_found = true;
 
             // Extract the necessary data from the Knack payload
-            $ecobrick_unique_id = $record['field_73_raw'] ?? '';
-            $serial_no = $record['field_73_raw'] ?? '';
-            $owner = $record['field_277_raw'][0]['identifier'] ?? '';
-            $ecobricker_maker = $record['field_335_raw'][0]['identifier'] ?? '';
-            $ecobrick_full_photo_url = $record['field_37_raw']['url'] ?? '';
-            $volume_ml = $record['field_148_raw'] ?? 0;
-            $universal_volume_ml = $record['field_148_raw'] ?? 0;
-            $weight_g = $record['field_12_raw'] ?? 0;
-            $density = $record['field_95_raw'] ?? 0;
-            $date_logged_ts = $record['field_72_raw']['iso_timestamp'] ?? '';
-            $CO2_kg = $record['field_94_raw'] ?? 0;
-            $sequestration_type = $record['field_530_raw'] ?? '';
-            $last_validation_ts = $record['field_1002_raw']['iso_timestamp'] ?? '';
-            $validator_1 = $record['field_644_raw'][0]['identifier'] ?? '';
-            $validator_2 = $record['field_662_raw'][0]['identifier'] ?? '';
-            $validator_3 = $record['field_663_raw'][0]['identifier'] ?? '';
-            $validation_score_avg = $record['field_568_raw'] ?? 0;
-            $knack_record_id = $record['id'] ?? '';
-            $final_validation_score = $record['field_1435_raw'] ?? 0;
-            $vision = $record['field_562_raw'] ?? '';
-            $last_ownership_change = $record['field_801_raw']['date'] ?? '';
-            $non_registered_maker_name = $record['field_1620_raw'] ?? '';
+            $ecobrick_unique_id = strip_tags($record['field_73_raw'] ?? '');
+            $serial_no = strip_tags($record['field_73_raw'] ?? '');
+            $owner = strip_tags($record['field_277_raw'][0]['identifier'] ?? '');
+            $ecobricker_maker = strip_tags($record['field_335_raw'][0]['identifier'] ?? '');
+            $ecobrick_full_photo_url = strip_tags($record['field_37_raw']['url'] ?? '');
+            $volume_ml = strip_tags($record['field_148_raw'] ?? 0);
+            $universal_volume_ml = strip_tags($record['field_148_raw'] ?? 0);
+            $weight_g = strip_tags($record['field_12_raw'] ?? 0);
+            $density = strip_tags($record['field_95_raw'] ?? 0);
+            $date_logged_ts = strip_tags($record['field_72_raw']['iso_timestamp'] ?? '');
+            $CO2_kg = strip_tags($record['field_94_raw'] ?? 0);
+            $sequestration_type = strip_tags($record['field_530_raw'] ?? '');
+            $last_validation_ts = strip_tags($record['field_1002_raw']['iso_timestamp'] ?? '');
+            $validator_1 = strip_tags($record['field_644_raw'][0]['identifier'] ?? '');
+            $validator_2 = strip_tags($record['field_662_raw'][0]['identifier'] ?? '');
+            $validator_3 = strip_tags($record['field_663_raw'][0]['identifier'] ?? '');
+            $validation_score_avg = strip_tags($record['field_568_raw'] ?? 0);
+            $knack_record_id = strip_tags($record['id'] ?? '');
+            $final_validation_score = strip_tags($record['field_1435_raw'] ?? 0);
+            $vision = strip_tags($record['field_562_raw'] ?? '');
+            $last_ownership_change = strip_tags($record['field_801_raw']['date'] ?? '');
+            $non_registered_maker_name = strip_tags($record['field_1620_raw'] ?? '');
             $actual_maker_name = strip_tags($record['field_1622_raw'] ?? '');
-            $weight_authenticated_kg = $record['field_1410_raw'] ?? 0;
-            $location_country = $record['field_340_raw'][0]['identifier'] ?? '';
-            $location_region = $record['field_357_raw'][0]['identifier'] ?? '';
-            $community_name = $record['field_234_raw'][0]['identifier'] ?? '';
-            $brand_name = $record['field_1062_raw'] ?? '';
-            $bottom_colour = $record['field_70_raw'] ?? '';
-            $plastic_from = $record['field_329_raw'] ?? '';
-            $photo_choice = $record['field_1064_raw'] ?? ''; // Add the new field
+            $weight_authenticated_kg = strip_tags($record['field_1410_raw'] ?? 0);
+            $location_country = strip_tags($record['field_340_raw'][0]['identifier'] ?? '');
+            $location_region = strip_tags($record['field_357_raw'][0]['identifier'] ?? '');
             $location_city = strip_tags($record['field_356_raw'][0]['identifier'] ?? '');
-            $location_full = $record['field_1373_raw'] ?? '';
-            $catalyst = $record['field_1611_raw'] ?? '';
+            $community_name = strip_tags($record['field_234_raw'][0]['identifier'] ?? '');
+            $brand_name = strip_tags($record['field_1062_raw'] ?? '');
+            $bottom_colour = strip_tags($record['field_70_raw'] ?? '');
+            $plastic_from = strip_tags($record['field_329_raw'] ?? '');
+            $photo_choice = strip_tags($record['field_1064_raw'] ?? ''); // Add the new field
+            $location_full = strip_tags($record['field_1373_raw'] ?? '');
+            $catalyst = strip_tags($record['field_1611_raw'] ?? '');
 
             // Calculate additional fields
             $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " BRK";
@@ -205,13 +205,13 @@ if (isset($data['records']) && count($data['records']) > 0) {
             } else {
                 // Close the check statement
                 $check_stmt->close();
-            } else {
+
                 // Prepare and bind
-                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt, photo_choice, location_city, location_full, catalyst, brik_notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+                $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, location_city, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt, photo_choice, location_full, catalyst, brik_notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
                 }
-                $stmt->bind_param("ssssssssssssssssssssssssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt, $photo_choice, $location_city, $location_full, $catalyst, $brik_notes);
+                $stmt->bind_param("sssssssssssssssssssssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $location_city, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt, $photo_choice, $location_full, $catalyst, $brik_notes);
 
                 // Execute statement
                 if (!$stmt->execute()) {
@@ -223,8 +223,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 $stmt->close();
             }
 
-            // Close the check statement
-            $check_stmt->close();
             break;
         }
     }
@@ -235,6 +233,30 @@ if (isset($data['records']) && count($data['records']) > 0) {
         echo "<script>if(confirm('Error: " . implode(", ", $errors) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
     }
 }
+
+// Handle overwrite action
+if (isset($_GET['action']) && $_GET['action'] == 'overwrite' && isset($_GET['ecobrick_unique_id'])) {
+    $ecobrick_unique_id = $_GET['ecobrick_unique_id'];
+    // Extract the necessary data again from the Knack payload or retrieve the data needed for the overwrite operation
+
+    // Prepare and bind
+    $stmt = $conn->prepare("UPDATE tb_ecobricks SET serial_no=?, owner=?, ecobricker_maker=?, ecobrick_full_photo_url=?, volume_ml=?, universal_volume_ml=?, weight_g=?, density=?, date_logged_ts=?, CO2_kg=?, sequestration_type=?, last_validation_ts=?, validator_1=?, validator_2=?, validator_3=?, validation_score_avg=?, knack_record_id=?, final_validation_score=?, vision=?, last_ownership_change=?, non_registered_maker_name=?, actual_maker_name=?, weight_authenticated_kg=?, location_country=?, location_region=?, location_city=?, community_name=?, brand_name=?, bottom_colour=?, plastic_from=?, ecobrick_brk_display_value=?, ecobrick_dec_brk_val=?, ecobrick_brk_amt=?, photo_choice=?, location_full=?, catalyst=?, brik_notes=? WHERE ecobrick_unique_id=?");
+    if ($stmt === false) {
+        echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
+    }
+    $stmt->bind_param("sssssssssssssssssssssssssssssssssssss", $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $location_city, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt, $photo_choice, $location_full, $catalyst, $brik_notes, $ecobrick_unique_id);
+
+    // Execute statement
+    if (!$stmt->execute()) {
+        echo "<script>alert('Execute failed: " . htmlspecialchars($stmt->error) . "'); window.location.href = 'process_ecobrick.php';</script>";
+    } else {
+        echo "<script>alert('Record with Ecobrick ID $ecobrick_unique_id has been overwritten.'); window.location.href = 'process_ecobrick.php';</script>";
+    }
+
+    // Close the statement
+    $stmt->close();
+}
+
 
 
 
