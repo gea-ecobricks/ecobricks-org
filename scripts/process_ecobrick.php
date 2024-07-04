@@ -191,8 +191,20 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $check_stmt->store_result();
 
             if ($check_stmt->num_rows > 0) {
-                $success = false;
-                $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
+                // Close the check statement
+                $check_stmt->close();
+
+                echo "<script>
+                    if (confirm('A record with Ecobrick ID $ecobrick_unique_id already exists. Do you want to overwrite it?')) {
+                        window.location.href = 'process_ecobrick.php?action=overwrite&ecobrick_unique_id=$ecobrick_unique_id';
+                    } else {
+                        window.location.href = 'process_ecobrick.php?action=skip';
+                    }
+                </script>";
+                exit;
+            } else {
+                // Close the check statement
+                $check_stmt->close();
             } else {
                 // Prepare and bind
                 $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt, photo_choice, location_city, location_full, catalyst, brik_notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
