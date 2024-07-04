@@ -264,7 +264,7 @@ strong {
 
 <a name="top"></a>
 
-				
+    <div id="gea-logo" style="position: fixed; top:10px; left:10px;width=:50px;height:50px"><img src="../logos/perspective-emblem.webp"></div>
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
 				<p>An overview of the GEA accounting transaction<br>in our <a href="https://ecobricks.org/en/openbooks.php"> Open Books system.</a></p><br>
 </div>
@@ -338,9 +338,9 @@ strong {
 
 // DETAILS OPTIONAL
 
-                    if (isset($array["total_product_cost_incl_shipping"]) && preg_match('/[0-9]/', $array["total_product_cost_incl_shipping"])) {
-                        echo "<p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] . "</var></p>";
-                    }
+//      off              if (isset($array["total_product_cost_incl_shipping"]) && preg_match('/[0-9]/', $array["total_product_cost_incl_shipping"])) {
+//                        echo "<p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] . "</var></p>";
+//                    }
 
 
 if ( isset($array["product"]) && $array["product"] != '0' ) { 
@@ -357,13 +357,13 @@ if ( isset($array["product_cost"]) && $array["product_cost"] != '0' ) {
 			echo " <p><b>Shipping Cost:</b> <var> " . $array["shipping_cost"] ."</var></p>" ;
 		}
 
-		if ( isset($array["shipping_cost_+ccy_display"]) && $array["shipping_cost_+ccy_display"] != '0' ) { 
-					echo " <p><b>shipping_cost_+ccy_display:</b> " . $array["shipping_cost_+ccy_display"] ."</p>" ;
-		}
-
-		if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '0' ) { 
-			echo " <p><b>total_product_cost_+ccy_display:</b> " . $array["total_product_cost_+ccy_display"] ."</p>" ;
-}
+//	off	if ( isset($array["shipping_cost_+ccy_display"]) && $array["shipping_cost_+ccy_display"] != '0' ) {
+//					echo " <p><b>shipping_cost_+ccy_display:</b> " . $array["shipping_cost_+ccy_display"] ."</p>" ;
+//		}
+//
+//		if ( isset($array["total_product_cost_+ccy_display"]) && $array["total_product_cost_+ccy_display"] != '0' ) {
+//			echo " <p><b>total_product_cost_+ccy_display:</b> " . $array["total_product_cost_+ccy_display"] ."</p>" ;
+//}
 
 		if ( isset($array["receiving_gea_acct"]) && $array["receiving_gea_acct"] != '' ) { 
 			echo " <p><b>receiving_gea_acct:</b> " . $array["receiving_gea_acct"] ."</p>" ;
