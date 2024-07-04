@@ -34,104 +34,102 @@
 </script>
 
 <div id="ecobrick-being-processed">
+    <?php
 
-<?php
+    // PART 1 of the code
+    // process_ecobricks.php  here we go
+    session_start();
 
-// PART 1 of the code
-// process_ecobricks.php  here we go
-session_start();
-
-if (isset($_GET['action'])) {
-    $action = $_GET['action'];
-    if ($action === 'stop') {
-        $_SESSION['processing'] = false;
-        echo "<script>alert('Processing has been stopped.');</script>";
-    } elseif ($action === 'start') {
-        $_SESSION['processing'] = true;
-        echo "<script>alert('Processing has been started.');</script>";
+    if (isset($_GET['action'])) {
+        $action = $_GET['action'];
+        if ($action === 'stop') {
+            $_SESSION['processing'] = false;
+            echo "<script>alert('Processing has been stopped.');</script>";
+        } elseif ($action === 'start') {
+            $_SESSION['processing'] = true;
+            echo "<script>alert('Processing has been started.');</script>";
+        }
     }
-}
 
-// Check if processing should continue
-if (isset($_SESSION['processing']) && $_SESSION['processing'] === false) {
-    echo "<script>alert('Processing is currently stopped.');</script>";
-    exit;
-}
+    // Check if processing should continue
+    if (isset($_SESSION['processing']) && $_SESSION['processing'] === false) {
+        echo "<script>alert('Processing is currently stopped.');</script>";
+        exit;
+    }
 
 
-include '../ecobricks_env.php';
+    include '../ecobricks_env.php';
 
-// Knack API settings
-$api_key = "360aa2b0-af19-11e8-bd38-41d9fc3da0cf";
-$app_id = "5b8c28c2a1152679c209ce0c";
+    // Knack API settings
+    $api_key = "360aa2b0-af19-11e8-bd38-41d9fc3da0cf";
+    $app_id = "5b8c28c2a1152679c209ce0c";
 
-// Create connection to the database
-$conn = new mysqli($servername, $username, $password, $dbname);
+    // Create connection to the database
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if ($conn->connect_error) {
-    die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
-}
+    // Check connection
+    if ($conn->connect_error) {
+        die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
+    }
 
-// Prepare filters to get records with field_2492 set to "No"
-$filters = [
-    'match' => 'and',
-    'rules' => [
-        [
-            'field' => 'field_2492',
-            'operator' => 'is',
-            'value' => 'No'
+    // Prepare filters to get records with field_2492 set to "No"
+    $filters = [
+        'match' => 'and',
+        'rules' => [
+            [
+                'field' => 'field_2492',
+                'operator' => 'is',
+                'value' => 'No'
+            ]
         ]
-    ]
-];
+    ];
 
-// Prepare the API request to retrieve multiple ecobrick records
-$url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=desc&rows_per_page=1";
+    // Prepare the API request to retrieve multiple ecobrick records
+    $url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=desc&rows_per_page=1";
 
+    // Initialize cURL session
+    $ch = curl_init($url);
 
-// Initialize cURL session
-$ch = curl_init($url);
+    // Set cURL options
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        "X-Knack-Application-Id: $app_id",
+        "X-Knack-REST-API-Key: $api_key"
+    ]);
 
-// Set cURL options
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_HTTPHEADER, [
-    "X-Knack-Application-Id: $app_id",
-    "X-Knack-REST-API-Key: $api_key"
-]);
+    // Execute cURL request
+    $response = curl_exec($ch);
 
-// Execute cURL request
-$response = curl_exec($ch);
+    // Check for cURL errors
+    if ($response === false) {
+        $error = curl_error($ch);
+        echo "<script>confirm('Error fetching data from Knack API: " . addslashes($error) . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>";
+        curl_close($ch);
+        exit;
+    }
 
-// Check for cURL errors
-if ($response === false) {
-    $error = curl_error($ch);
-    echo "<script>confirm('Error fetching data from Knack API: " . addslashes($error) . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>";
+    // Close cURL session
     curl_close($ch);
-    exit;
-}
 
-// Close cURL session
-curl_close($ch);
+    // Add console logging to confirm API access and response
+    echo "<script>console.log('Knack API Request URL: " . addslashes($url) . "');</script>";
+    echo "<script>console.log('Knack API Response: " . addslashes($response) . "');</script>";
 
-// Add console logging to confirm API access and response
-echo "<script>console.log('Knack API Request URL: " . addslashes($url) . "');</script>";
-echo "<script>console.log('Knack API Response: " . addslashes($response) . "');</script>";
+    $data = json_decode($response, true);
 
-$data = json_decode($response, true);
+    $record_found = false;
+    $record_details = "";
 
-$record_found = false;
-$record_details = "";
+    if (isset($data['records']) && count($data['records']) > 0) {
+        $record = $data['records'][0];
+        $ecobrick_unique_id = $record['field_73'];
+        $record_found = true;
+        $record_details = $record;
 
-if (isset($data['records']) && count($data['records']) > 0) {
-    $record = $data['records'][0];
-    $ecobrick_unique_id = $record['field_73'];
-    $record_found = true;
-    $record_details = $record;
-
-    // Displaying the serial number and message
-    echo "<h3>Ecobrick with Serial $ecobrick_unique_id is next in line for processing</h3>";
-    echo "<p>Retrieval has now begun...</p>";
-}
+        // Displaying the serial number and message
+        echo "<h3>Ecobrick with Serial $ecobrick_unique_id is next in line for processing</h3>";
+        echo "<p>Retrieval has now begun...</p>";
+    }
 
 
 
