@@ -2,6 +2,25 @@
 
 // PART 1 of the code
 // process_ecobricks.php  here we go
+session_start();
+
+if (isset($_GET['action'])) {
+    $action = $_GET['action'];
+    if ($action === 'stop') {
+        $_SESSION['processing'] = false;
+        echo "<script>alert('Processing has been stopped.');</script>";
+    } elseif ($action === 'start') {
+        $_SESSION['processing'] = true;
+        echo "<script>alert('Processing has been started.');</script>";
+    }
+}
+
+// Check if processing should continue
+if (isset($_SESSION['processing']) && $_SESSION['processing'] === false) {
+    echo "<script>alert('Processing is currently stopped.');</script>";
+    exit;
+}
+
 
 include '../ecobricks_env.php';
 
@@ -366,3 +385,38 @@ if (!empty($error_message)) {
 ?>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecobrick Processing Control</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="control-buttons">
+    <button class="button" onclick="stopProcessing()">Stop Processing</button>
+    <button class="button" onclick="startProcessing()">Start Processing</button>
+</div>
+
+<script>
+    function stopProcessing() {
+        if (confirm('Are you sure you want to stop the processing?')) {
+            window.location.href = 'process_ecobrick.php?action=stop';
+        }
+    }
+
+    function startProcessing() {
+        if (confirm('Are you sure you want to start the processing?')) {
+            window.location.href = 'process_ecobrick.php?action=start';
+        }
+    }
+</script>
+</body>
+</html>
