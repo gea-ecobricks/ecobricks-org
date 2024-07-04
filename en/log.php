@@ -49,34 +49,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $brik_notes = "Directly logged on ecobricks.org";
     $date_published_ts = date("Y-m-d H:i:s");
 
-
-    $db_fields = [
-        'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
-        'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
-        'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
-        'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
-        'location_city', 'location_lat', 'location_long', 'location_municipality',
-        'ecobrick_unique_id', 'serial_no', 'brand_name', 'brik_notes', 'date_published_ts'
-    ];
-
-    $db_values = [
-        $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
-        $plastic_from, $location_full, $community_name, $project_id, $training_id,
-        $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
-        $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
-        'Unknown City', $latitude, $longitude, 'Unknown Municipality',
-        $serial_no, $brand_name, $brik_notes, $date_published_ts // Add brand_name value
-    ];
-
-    echo "Fields count: " . count($db_fields) . "<br>"; // should print 28
-    echo "Values count: " . count($db_values) . "<br>"; // should print 28
-
-    $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
+    $sql = "INSERT INTO tb_ecobricks (
+        ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full,
+        community_name, project_id, training_id, owner, status, universal_volume_ml, density,
+        date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country,
+        location_region, location_city, location_lat, location_long, location_municipality,
+        ecobrick_unique_id, serial_no, brand_name, brik_notes, date_published_ts
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssddsissss", ...$db_values);
+        $stmt->bind_param(
+            "isiissssiisssdssdssssddsissss",
+            $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full,
+            $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density,
+            $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, 'Unknown Country',
+            'Unknown Region', 'Unknown City', $latitude, $longitude, 'Unknown Municipality',
+            $serial_no, $serial_no, $brand_name, $brik_notes, $date_published_ts
+        );
 
         error_log("Parameters bound successfully.");
 
@@ -87,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $conn->close();
 
             // Redirect to log-2.php with the correct ecobrick_unique_id
-            echo "<script>window.location.href = 'log-2.php?id=" . $ecobrick_unique_id . "';</script>";
+            echo "<script>window.location.href = 'log-2.php?id=" . $serial_no . "';</script>";
         } else {
             error_log("Error executing statement: " . $stmt->error);
             echo "Error: " . $stmt->error . "<br>";
