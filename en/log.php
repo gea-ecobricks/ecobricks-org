@@ -47,6 +47,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Set serial number and ecobrick ID
     $serial_no = setSerialNumber($conn);
     $ecobrick_id = $serial_no;
+    $brik_notes = "Directly logged on ecobricks.org";
+    $date_published_ts = date("Y-m-d H:i:s");
+
 
     $db_fields = [
         'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
@@ -363,9 +366,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <script>
 
-
     function showModalInfo(type) {
-        const modalMessageDiv = document.querySelector('.modal-message');
+        const modal = document.getElementById('form-modal-message');
+        const messageContainer = modal.querySelector('.modal-message');
         let content = '';
 
         switch(type) {
@@ -397,13 +400,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 content = '<p>Invalid ecobrick type selected.</p>';
         }
 
-        modalMessageDiv.innerHTML = content;
-        document.getElementById('form-modal-message').classList.remove('modal-hidden');
+        messageContainer.innerHTML = content;
+
+        // Show the modal and update other page elements
+        modal.style.display = 'flex';
+        document.getElementById('page-content').classList.add('blurred');
+        document.getElementById('footer-full').classList.add('blurred');
+        document.body.classList.add('modal-open');
     }
 
-    function closeInfoModal() {
-        document.getElementById('form-modal-message').classList.add('modal-hidden');
-    }
+
+
+
+
 
     document.addEventListener("DOMContentLoaded", function() {
         // Initially hide all additional fields using visibility and height
