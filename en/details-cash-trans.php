@@ -264,7 +264,7 @@ strong {
 
 <a name="top"></a>
 
-    <div id="gea-logo" style="position: fixed; top:10px; left:10px;width=:50px;height:50px"><img src="../logos/perspective-emblem.webp"></div>
+    <div id="gea-logo" style="position:absolute; top:10px; left:10px;width=:50px;height:50px"><img src="../logos/perspective-emblem.webp?v=2"></div>
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
 				<p>An overview of the GEA accounting transaction<br>in our <a href="https://ecobricks.org/en/openbooks.php"> Open Books system.</a></p><br>
 </div>
@@ -292,7 +292,7 @@ strong {
 						echo '<div id="photo"><img src="'. $array["paymt_record_url"] .'" width="90%"/></div>';
 					}
 
-                    echo " <div class=\"serial\"><b>Amount:</b> <var>" . $array["native_ccy_amt"] ." " ;
+                    echo " <div class=\"serial\"><b>Amt:</b> <var>" . $array["native_ccy_amt"] ." " ;
                     echo " " . $array["currency_code"] ."</var></div>" ;
 
 					echo " <div class=\"general-field\">" . $array["tran_name_desc"] ."</var><br><br></div>" ;
