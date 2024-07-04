@@ -1,5 +1,8 @@
 <?php
 
+
+
+
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
@@ -7,7 +10,7 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Function to set serial number and ecobrick_unique_id
+    // Function to set serial number and ecobrick_unique_idsdfsfd
     function setSerialNumber($conn) {
         $query = "SELECT MAX(serial_no) as max_serial, MAX(ecobrick_unique_id) as max_unique_id FROM tb_ecobricks";
         $result = $conn->query($query);
