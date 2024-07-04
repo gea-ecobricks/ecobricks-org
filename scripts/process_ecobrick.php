@@ -226,7 +226,7 @@ if (!empty($ecobrick_photo_url)) {
 
             if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 77)) {
                 // Create thumbnail with height 200px while maintaining aspect ratio
-                if (createThumbnail($targetPath, $thumbnailPath, 125, 66)) {
+                if (createThumbnail($targetPath, $thumbnailPath, 125, 125, 66)) {
                     echo "<div class='message'>Image resized and thumbnail created</div>";
                     ob_flush(); flush();
                     $full_urls[] = $targetPath;
