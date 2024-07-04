@@ -66,7 +66,7 @@ echo '
 					<div class="page-paragraph">
 						<p><span data-lang-id="114">This ecobrick was with a density of </span>'. $array["density"] .'&#8202;g/ml <span data-lang-id="115">and represents </span>'. $array["CO2_kg"] .'&#8202;kg <span data-lang-id="116">of sequestered C02. The ecobrick is permanently marked with Serial Number </span>'. $array["serial_no"] .'<span data-lang-id="117"> and on </span>'. $array["date_logged_ts"] .'<span data-lang-id="118"> was automatically added to the validation queue.  Based in </span>'. $array["location_region"] .', '. $array["owner"] .'<span data-lang-id="119"> and their community </span>'. $array["community_name"] .', <span data-lang-id="120"> are working hard to keep plastic out of the biosphere in </span>'. $array["location_country"] .'. </p>
 
-						<p><span data-lang-id="121">On </span>'. $array["date_logged_ts"] .'<span data-lang-id="122"> the ecobrick was authenticated with an average validation score of </span>'. $array["final_validation_score"] .'.<span data-lang-id="123"> The ecobrick’s authentication generated </span>'. $array["ecobrick_dec_brk_val"] .'&#8202;ß. <span data-lang-id="124">The ecobrick was ranked with the score of </span>'. $array["validation_score_avg"] .'.</p>
+						<p><span data-lang-id="121">On </span>'. $array["date_logged_ts"] .'<span data-lang-id="122"> the ecobrick was authenticated after being reviewed by three independent validators. The ecobrick’s authentication generated </span>'. $array["ecobrick_dec_brk_val"] .'&#8202;ß. <span data-lang-id="124">The ecobrick was ranked with the score of </span>'. $array["final_validation_score"] .'.</p>
 						<br>
 					</div>
 				</div>';
@@ -116,6 +116,7 @@ echo '
 			echo ' <p><b data-lang-id="145">Validator 2:</b> <var>' . $array["validator_2"] .'</var> </p>' ;
 			echo ' <p><b data-lang-id="146">Validator 3:</b> <var>' . $array["validator_3"] .'</var> </p>' ;
 			echo ' <p><b data-lang-id="147">Validation score avg.:</b> <var>' . $array["validation_score_avg"] .'</var></p>' ;
+        echo ' <p><b data-lang-id="147b">Catalyst:</b> <var>' . $array["catalyst"] .'</var></p>' ;
 
 			echo ' <p><b data-lang-id="148">Validation score final:</b> <var>' . $array["final_validation_score"] .'</var></p>' ;
 			echo ' <p><b data-lang-id="149">Authenticated weight:</b> <var> ' . $array["weight_authenticated_kg"] .'&#8202;kg</p>
@@ -225,7 +226,9 @@ echo '
 				<a class="module-btn" href="brikcoins.php" data-lang-id="103-side-brikcoins-button">About Brikcoins</a><br><br>
 			</div>
 
-		</div>
+            <?php include 'side-modules/for-earth.php';?>
+
+    </div>
 
 	</div>
 </div>
