@@ -245,7 +245,7 @@ if (!empty($ecobrick_photo_url)) {
 
             if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 77)) {
                 // Create thumbnail with height 200px while maintaining aspect ratio
-                if (createThumbnail($targetPath, $thumbnailPath, 125, 125, 66)) {
+                if (createTrainingThumbnail($targetPath, $thumbnailPath, 125, 66)) {
                     echo "<div class='message'>Image resized and thumbnail created</div>";
                     ob_flush(); flush();
                     $full_urls[] = $targetPath;
@@ -256,7 +256,7 @@ if (!empty($ecobrick_photo_url)) {
                     array_push($db_fields, "ecobrick_full_photo_url", "ecobrick_thumb_photo_url");
                     array_push($db_values, $targetPath, $thumbnailPath);
                     $db_types .= "ss";
-                    echo "<div class='message'>Main image:<br><img src='{$targetPath}' width='500px'></div>";
+//                    echo "<div class='message'>Main image:<br><img src='{$targetPath}' width='500px'></div>";
                     echo "<div class='message'>Thumbnail image:<br><img src='{$thumbnailPath}' width='150px'></div>";
                 } else {
                     $error_message .= "Failed to create thumbnail for image.<br>";
