@@ -152,11 +152,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
                     $success = false;
                     $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
                 }
-
                 // Close the statement
                 $stmt->close();
             }
-
             // Close the check statement
             $check_stmt->close();
             break;
