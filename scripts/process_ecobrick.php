@@ -199,7 +199,7 @@ ob_flush(); flush();
 if (!empty($ecobrick_photo_url)) {
     $file_extension = strtolower(pathinfo($ecobrick_photo_url, PATHINFO_EXTENSION));
     $new_file_name_webp = 'ecobrick-' . $serial_no . '-file.webp';
-    $thumbnail_file_name_webp = 'tn_ecobrick-' . $serial_no . '-file.webp';
+    $thumbnail_file_name_webp = 'tn-ecobrick-' . $serial_no . '-file.webp';
     $targetPath = $upload_dir . $new_file_name_webp;
     $thumbnailPath = $thumbnail_dir . $thumbnail_file_name_webp;
 
@@ -224,9 +224,9 @@ if (!empty($ecobrick_photo_url)) {
             echo "<div class='message'>Image saved successfully, {$kb_written} KB written to {$targetPath}</div>";
             ob_flush(); flush();
 
-            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 88)) {
+            if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 77)) {
                 // Create thumbnail with height 200px while maintaining aspect ratio
-                if (createThumbnail($targetPath, $thumbnailPath, 200, 200, 77)) {
+                if (createThumbnail($targetPath, $thumbnailPath, 125, 66)) {
                     echo "<div class='message'>Image resized and thumbnail created</div>";
                     ob_flush(); flush();
                     $full_urls[] = $targetPath;
