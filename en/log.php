@@ -258,7 +258,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="cigbrick">Cigbrick</option>
                         <option value="ocean ecobrick">Ocean ecobrick</option>
                     </select>
-                    <p class="form-caption" data-lang-id="009-sequestration-type-caption">Please select the type of ecobrick.  Learn more about Ocean Ecobricks, Cigbricks and Regular ecobricks.</p>
+                    <p class="form-caption" data-lang-id="009-sequestration-type-caption">Please select the type of ecobrick. Learn more about <a href="#" onclick="showModalInfo('ocean')" class="underline-link">Ocean Ecobricks</a>, <a href="#" onclick="showModalInfo('cigbrick')" class="underline-link">Cigbricks</a> and <a href="#" onclick="showModalInfo('regular')" class="underline-link">Regular ecobricks</a>.</p>
+
 
                     <!--ERRORS-->
                     <div id="type-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
@@ -361,6 +362,49 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
 <script>
+
+
+    function showModalInfo(type) {
+        const modalMessageDiv = document.querySelector('.modal-message');
+        let content = '';
+
+        switch(type) {
+            case 'ocean':
+                content = `
+                <img src="../pngs/oceanecobrick.png" alt="Ocean Ecobrick Image">
+                <h3>Ocean Ecobricks</h3>
+                <p>The Ocean Ecobrick is a new class of ecobrick especially designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
+                <a class="module-btn" href="/ocean">Learn more</a>
+            `;
+                break;
+            case 'cigbrick':
+                content = `
+                <img src="../pngs/cigbrickstandalone.png" alt="Cigbrick Image">
+                <h3>Cigbricks</h3>
+                <p>Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
+                <a class="module-btn" href="/cigbricks">Learn more</a>
+            `;
+                break;
+            case 'regular':
+                content = `
+                <img src="../pngs/justandecobrick.png" alt="Regular Ecobrick Image">
+                <h3>Regular Ecobricks</h3>
+                <p>An ecobrick is a PET bottle packed solid with used plastic to the standards of plastic sequestration in order to make a reusable building block. There are several types of ecobricks-- ocean ecobricks, cigbricks and normal ecobricks. A normal ecobrick is an uncut bottle packed solid with used plastic to a set density (between 0.33 and 0.7 g/ml) to make a reusable building block.</p>
+                <a class="module-btn" href="what.php">Learn more</a>
+            `;
+                break;
+            default:
+                content = '<p>Invalid ecobrick type selected.</p>';
+        }
+
+        modalMessageDiv.innerHTML = content;
+        document.getElementById('form-modal-message').classList.remove('modal-hidden');
+    }
+
+    function closeInfoModal() {
+        document.getElementById('form-modal-message').classList.add('modal-hidden');
+    }
+
     document.addEventListener("DOMContentLoaded", function() {
         // Initially hide all additional fields using visibility and height
         const communityField = document.getElementById("community_name").parentNode;
