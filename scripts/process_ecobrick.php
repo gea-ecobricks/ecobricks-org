@@ -86,7 +86,8 @@ $filters = [
 ];
 
 // Prepare the API request to retrieve multiple ecobrick records
-$url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=asc&rows_per_page=1";
+$url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=desc&rows_per_page=1";
+
 
 // Initialize cURL session
 $ch = curl_init($url);
@@ -161,7 +162,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $validator_1 = $record['field_644_raw'][0]['identifier'] ?? '';
             $validator_2 = $record['field_662_raw'][0]['identifier'] ?? '';
             $validator_3 = $record['field_663_raw'][0]['identifier'] ?? '';
-            $validation_score_avg = $record['field_568_raw'] ?? 0;
+            $validation_score_avg = isset($record['field_568_raw']) ? $record['field_568_raw'] : round($record['field_1435_raw'] ?? 0);
             $knack_record_id = $record['id'] ?? '';
             $final_validation_score = $record['field_1435_raw'] ?? 0;
             $vision = $record['field_562_raw'] ?? '';
