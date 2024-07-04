@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
         'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
         'location_city', 'location_lat', 'location_long', 'location_municipality',
-        'ecobrick_unique_id', 'serial_no', 'brand_name' // Add brand_name field
+        'ecobrick_unique_id', 'serial_no', 'brand_name', 'brik_notes', 'date_published'
     ];
 
     $db_values = [
@@ -66,18 +66,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
         $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
         'Unknown City', $latitude, $longitude, 'Unknown Municipality',
-        $ecobrick_id, $serial_no, $brand_name // Add brand_name value
+        $ecobrick_id, $serial_no, $brand_name, $brik_notes, $date_published_ts // Add brand_name value
     ];
 
-    echo "Fields count: " . count($db_fields) . "<br>"; // should print 26
-    echo "Values count: " . count($db_values) . "<br>"; // should print 26
+    echo "Fields count: " . count($db_fields) . "<br>"; // should print 28
+    echo "Values count: " . count($db_values) . "<br>"; // should print 28
 
     $sql = "INSERT INTO tb_ecobricks (" . implode(', ', $db_fields) . ") VALUES (" . str_repeat('?, ', count($db_fields) - 1) . "?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssddsiss", ...$db_values);
+        $stmt->bind_param("isiissssiisssdssdssssddsissss", ...$db_values);
 
         error_log("Parameters bound successfully.");
 
