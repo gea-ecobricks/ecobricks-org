@@ -266,7 +266,7 @@ strong {
 
 				
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
-				<p>An overview of the GEA accounting transcation in our <a href="../open-books.php"> Open Books system.</a></p><br>
+				<p>An overview of the GEA accounting transaction<br>in our <a href="https://ecobricks.org/en/openbooks.php"> Open Books system.</a></p><br>
 </div>
 		
 <!-- The DB connection creator -->
@@ -329,17 +329,18 @@ strong {
 
 					echo " <p><b>Transaction name:</b> " . $array["tran_name_desc"] ."</p>" ;
 
-					echo " <p><b>Native Currency Amount:</b> " . $array["native_ccy_amt_display"] ."</p>" ;
-
+                    if ($array["native_ccy_amt_display"] !== "0.00") {
+                        echo "<p><b>Native Currency Amount:</b> " . $array["native_ccy_amt_display"] . "</p>";
+                    }
                     echo " <p><b>Exchange rate:</b> <var>" . $array["exchange_ratio"] ."</var> </p>" ;
 
 					echo " <p><b>Amount USD:</b> <var>" . $array["usd_amount"] ."</var> </p>" ;
 
 // DETAILS OPTIONAL
 
-if ( isset($array["total_product_cost_incl_shipping"]) && $array["total_product_cost_incl_shipping"] != '0' ) { 
-	echo " <p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] ."</var> </p>" ;
-	}
+                    if (isset($array["total_product_cost_incl_shipping"]) && preg_match('/[0-9]/', $array["total_product_cost_incl_shipping"])) {
+                        echo "<p><b>Total product cost (incl. shipping):</b> <var>" . $array["total_product_cost_incl_shipping"] . "</var></p>";
+                    }
 
 
 if ( isset($array["product"]) && $array["product"] != '0' ) { 
