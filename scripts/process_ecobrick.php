@@ -1,3 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecobrick Processing Control</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="control-buttons">
+    <button class="button" onclick="stopProcessing()">Stop Processing</button>
+    <button class="button" onclick="startProcessing()">Start Processing</button>
+</div>
+
 <?php
 
 // PART 1 of the code
@@ -245,7 +266,7 @@ if (!empty($ecobrick_photo_url)) {
 
             if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 77)) {
                 // Create thumbnail with height 200px while maintaining aspect ratio
-                if (createTrainingThumbnail($targetPath, $thumbnailPath, 125, 66)) {
+                if (createTrainingThumbnail($targetPath, $thumbnailPath, 150, 66)) {
                     echo "<div class='message'>Image resized and thumbnail created</div>";
                     ob_flush(); flush();
                     $full_urls[] = $targetPath;
@@ -257,8 +278,8 @@ if (!empty($ecobrick_photo_url)) {
                     array_push($db_values, $targetPath, $thumbnailPath);
                     $db_types .= "ss";
 //                    echo "<div class='message'>Main image:<br><img src='{$targetPath}' width='500px'></div>";
-                    echo "<div class='message'>Thumbnail image:<br><img src='{$thumbnailPath}' width='150px'></div>";
-                } else {
+                    echo "<script>console.log('Thumbnail Path: " . addslashes($thumbnailPath) . "');</script>";
+                    echo "<div class='message'>Thumbnail image:<br><img src='{$thumbnailPath}' height='150px' alt='Thumbnail'></div>";                } else {
                     $error_message .= "Failed to create thumbnail for image.<br>";
                     echo "<div class='alert'>Failed to create thumbnail for image</div>";
                     ob_flush(); flush();
@@ -385,25 +406,6 @@ if (!empty($error_message)) {
 ?>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Ecobrick Processing Control</title>
-    <style>
-        .button {
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-<div class="control-buttons">
-    <button class="button" onclick="stopProcessing()">Stop Processing</button>
-    <button class="button" onclick="startProcessing()">Start Processing</button>
-</div>
 
 <script>
     function stopProcessing() {
