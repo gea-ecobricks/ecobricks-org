@@ -100,20 +100,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<script>console.log('brik_notes: " . addslashes($brik_notes) . "');</script>";
     echo "<script>console.log('date_published_ts: " . addslashes($date_published_ts) . "');</script>";
 
+    // Update SQL and binding to match the fields and values
     $sql = "INSERT INTO tb_ecobricks (
         ecobricker_maker, volume_ml, weight_g, sequestration_type,
         plastic_from, location_full, community_name, project_id, training_id,
         owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg,
         last_ownership_change, actual_maker_name, location_lat, location_long,
         ecobrick_unique_id, serial_no, brand_name, brik_notes, date_published_ts
-    ) VALUES (
-        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
-    )";
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdsdssissss",
+        $stmt->bind_param("isiissssiisssdsdssissssss",
             $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
             $plastic_from, $location_full, $community_name, $project_id, $training_id,
             $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
@@ -145,6 +144,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn) $conn->close();
 }
 ?>
+
 
 
 
