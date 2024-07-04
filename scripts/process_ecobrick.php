@@ -353,7 +353,7 @@ if ($knack_update_response === false) {
 curl_close($ch);
 echo "<div class='message'>Moving to next ecobrick...</div>";
 // Redirect to the next ecobrick processing
-echo "<script>if(confirm('Ecobrick $serial_no has been added to the database! Shall we proceed with the next one?')) { window.location.href = 'process_ecobrick.php'; }</script>";
+echo "<script>window.location.href = 'process_ecobrick.php';</script>";
 
 if (!empty($error_message)) {
     http_response_code(400);
