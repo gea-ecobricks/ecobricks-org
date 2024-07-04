@@ -57,7 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
         'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
         'location_city', 'location_lat', 'location_long', 'location_municipality',
-        'ecobrick_unique_id', 'serial_no', 'brand_name', 'brik_notes', 'date_published'
+        'ecobrick_unique_id', 'serial_no', 'brand_name', 'brik_notes', 'date_published_ts'
     ];
 
     $db_values = [
