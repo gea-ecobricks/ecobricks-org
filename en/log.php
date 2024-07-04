@@ -53,22 +53,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ecobricker_maker, volume_ml, weight_g, sequestration_type,
         plastic_from, location_full, community_name, project_id, training_id,
         owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg,
-        last_ownership_change, actual_maker_name, location_country, location_region,
-        location_city, location_lat, location_long, location_municipality,
+        last_ownership_change, actual_maker_name, location_lat, location_long,
         ecobrick_unique_id, serial_no, brand_name, brik_notes, date_published_ts
     ) VALUES (
-        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
     )";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdsdssssddsissss",
+        $stmt->bind_param("isiissssiisssdsdssissss",
             $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
             $plastic_from, $location_full, $community_name, $project_id, $training_id,
             $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
-            $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
-            'Unknown City', $latitude, $longitude, 'Unknown Municipality',
+            $last_ownership_change, $actual_maker_name, $latitude, $longitude,
             $serial_no, $brand_name, $brik_notes, $date_published_ts
         );
 
@@ -96,6 +94,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn) $conn->close();
 }
 ?>
+
 
 
 
