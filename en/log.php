@@ -49,30 +49,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $brik_notes = "Directly logged on ecobricks.org";
     $date_published_ts = date("Y-m-d H:i:s");
 
-    // Prepare SQL statement
     $sql = "INSERT INTO tb_ecobricks (
-        ecobricker_maker, volume_ml, weight_g, sequestration_type, plastic_from, location_full,
-        community_name, project_id, training_id, owner, status, universal_volume_ml, density,
-        date_logged_ts, CO2_kg, last_ownership_change, actual_maker_name, location_country,
-        location_region, location_city, location_lat, location_long, location_municipality,
+        ecobricker_maker, volume_ml, weight_g, sequestration_type,
+        plastic_from, location_full, community_name, project_id, training_id,
+        owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg,
+        last_ownership_change, actual_maker_name, location_country, location_region,
+        location_city, location_lat, location_long, location_municipality,
         ecobrick_unique_id, serial_no, brand_name, brik_notes, date_published_ts
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    ) VALUES (
+        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+    )";
 
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $location_country = 'Unknown Country';
-        $location_region = 'Unknown Region';
-        $location_city = 'Unknown City';
-        $location_municipality = 'Unknown Municipality';
-
-        $stmt->bind_param(
-            "isiissssiisssdssdssssddsissss",
-            $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type, $plastic_from, $location_full,
-            $community_name, $project_id, $training_id, $owner, $status, $universal_volume_ml, $density,
-            $date_logged_ts, $CO2_kg, $last_ownership_change, $actual_maker_name, $location_country,
-            $location_region, $location_city, $latitude, $longitude, $location_municipality,
-            $serial_no, $serial_no, $brand_name, $brik_notes, $date_published_ts
+        $stmt->bind_param("isiissssiisssdsdssssddsissss",
+            $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
+            $plastic_from, $location_full, $community_name, $project_id, $training_id,
+            $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
+            $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
+            'Unknown City', $latitude, $longitude, 'Unknown Municipality',
+            $serial_no, $brand_name, $brik_notes, $date_published_ts
         );
 
         error_log("Parameters bound successfully.");
@@ -99,6 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($conn) $conn->close();
 }
 ?>
+
 
 
 
