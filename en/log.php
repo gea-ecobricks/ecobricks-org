@@ -355,9 +355,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     function showModalInfo(type) {
         const modal = document.getElementById('form-modal-message');
+        const photobox = document.getElementById('modal-photo-box');
         const messageContainer = modal.querySelector('.modal-message');
         let content = '';
-
+        photobox.style.display = 'none';
         switch(type) {
             case 'ocean':
                 content = `
