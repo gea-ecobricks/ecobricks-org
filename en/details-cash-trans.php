@@ -264,7 +264,7 @@ strong {
 
 <a name="top"></a>
 
-    <div id="gea-logo" style="position:absolute; top:10px; left:10px;width=:50px;height:50px"><img src="../logos/perspective-emblem.webp?v=2"></div>
+    <div id="gea-logo" style="position:absolute; top:10px; left:10px;width=:40px;height:40px; padding:8px;"><img src="../logos/perspective-emblem.webp?v=2"></div>
 				<button onClick="javascript:window.close('','_parent','');">Close & Return</button><br><br><br><br>
 				<p>An overview of the GEA accounting transaction<br>in our <a href="https://ecobricks.org/en/openbooks.php"> Open Books system.</a></p><br>
 </div>
