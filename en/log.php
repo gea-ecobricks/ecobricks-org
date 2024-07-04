@@ -7,109 +7,72 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Function to set serial number
+    // Function to set serial number and ecobrick_unique_id
     function setSerialNumber($conn) {
-        $query = "SELECT MAX(ecobrick_unique_id) as max_serial FROM tb_ecobricks";
+        $query = "SELECT MAX(serial_no) as max_serial, MAX(ecobrick_unique_id) as max_unique_id FROM tb_ecobricks";
         $result = $conn->query($query);
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             $max_serial = $row['max_serial'];
-            return $max_serial + 1;
+            $max_unique_id = $row['max_unique_id'];
+            return [
+                'serial_no' => $max_serial + 1,
+                'ecobrick_unique_id' => $max_unique_id + 1
+            ];
         } else {
-            return 300000; // Default starting value if no records are found
+            // Handle case where there are no records
+            throw new Exception('No records found in the database.');
         }
     }
 
-    // Gather form data
-//    $ecobricker_maker = trim($_POST['ecobricker_maker']);
-//    $volume_ml = (int)trim($_POST['volume_ml']);
-//    $weight_g = (int)trim($_POST['weight_g']);
-//    $sequestration_type = trim($_POST['sequestration_type']);
-//    $plastic_from = trim($_POST['plastic_from']);
-//    $location_full = $_POST['location_full'] ?? 'Default Location';
-//    $latitude = (double)$_POST['latitude'];
-//    $longitude = (double)$_POST['longitude'];
-//    $community_name = trim($_POST['community_name']);
-//    $project_id = (int)trim($_POST['project_id']);
-//    $training_id = (int)trim($_POST['training_id']);
-//    $brand_name = trim($_POST['brand_name']); // Collecting the brand_name field
-//
-//    // Background settings
-//    $owner = $ecobricker_maker;
-//    $status = "not ready";
-//    $universal_volume_ml = $volume_ml;
-//    $density = $weight_g / $volume_ml;
-//    $date_logged_ts = date("Y-m-d H:i:s");
-//    $CO2_kg = ($weight_g * 6.1) / 1000;
-//    $last_ownership_change = date("Y-m-d");
-//    $actual_maker_name = $ecobricker_maker;
+    try {
+        // Set serial number and ecobrick ID
+        $ids = setSerialNumber($conn);
+        $serial_no = $ids['serial_no'];
+        $ecobrick_unique_id = $ids['ecobrick_unique_id'];
+        $brik_notes = "Directly logged on ecobricks.org";
+        $date_published_ts = date("Y-m-d H:i:s");
 
-    // Set serial number and ecobrick ID
-    $serial_no = setSerialNumber($conn);
-    $brik_notes = "Directly logged on ecobricks.org";
-    $date_published_ts = date("Y-m-d H:i:s");
+        // Update SQL and binding to match the fields and values
+        $sql = "INSERT INTO tb_ecobricks (
+            ecobrick_unique_id, serial_no, brik_notes, date_published_ts
+        ) VALUES (?, ?, ?, ?)";
 
+        if ($stmt = $conn->prepare($sql)) {
+            error_log("Statement prepared successfully.");
 
-    // Update SQL and binding to match the fields and values
-    $sql = "INSERT INTO tb_ecobricks (
-         serial_no, brik_notes, date_published_ts
-    ) VALUES (?, ?, ?)";
+            $stmt->bind_param("isss",
+                $ecobrick_unique_id, $serial_no, $brik_notes, $date_published_ts
+            );
 
-    if ($stmt = $conn->prepare($sql)) {
-        error_log("Statement prepared successfully.");
+            error_log("Parameters bound successfully.");
 
-        $stmt->bind_param("sss",
-            $serial_no, $brik_notes, $date_published_ts
-        );
+            if ($stmt->execute()) {
+                error_log("Statement executed successfully.");
 
-//
-//    // Update SQL and binding to match the fields and values
-//    $sql = "INSERT INTO tb_ecobricks (
-//        ecobricker_maker, volume_ml, weight_g, sequestration_type,
-//        plastic_from, location_full, community_name, project_id, training_id,
-//        owner, status, universal_volume_ml, density, date_logged_ts, CO2_kg,
-//        last_ownership_change, actual_maker_name, location_lat, location_long,
-//        ecobrick_unique_id, serial_no, brand_name, brik_notes, date_published_ts
-//    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-//
-//    if ($stmt = $conn->prepare($sql)) {
-//        error_log("Statement prepared successfully.");
-//
-//        $stmt->bind_param("isiissssiisssdsdssissssss",
-//            $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
-//            $plastic_from, $location_full, $community_name, $project_id, $training_id,
-//            $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
-//            $last_ownership_change, $actual_maker_name, $latitude, $longitude,
-//            $serial_no, $brand_name, $brik_notes, $date_published_ts
-//        );
+                $stmt->close();
+                $conn->close();
 
-        error_log("Parameters bound successfully.");
+                // Redirect to log-2.php with the correct ecobrick_unique_id
+                echo "<script>window.location.href = 'log-2.php?id=" . $serial_no . "';</script>";
+            } else {
+                error_log("Error executing statement: " . $stmt->error);
+                echo "Error: " . $stmt->error . "<br>";
+            }
 
-        if ($stmt->execute()) {
-            error_log("Statement executed successfully.");
-
-            $stmt->close();
-            $conn->close();
-
-            // Redirect to log-2.php with the correct ecobrick_unique_id
-            echo "<script>window.location.href = 'log-2.php?id=" . $serial_no . "';</script>";
+            if ($stmt) $stmt->close();
         } else {
-            error_log("Error executing statement: " . $stmt->error);
-            echo "Error: " . $stmt->error . "<br>";
+            error_log("Prepare failed: " . $conn->error);
+            echo "Prepare failed: " . $conn->error;
         }
 
-        if ($stmt) $stmt->close();
-    } else {
-        error_log("Prepare failed: " . $conn->error);
-        echo "Prepare failed: " . $conn->error;
+        if ($conn) $conn->close();
+    } catch (Exception $e) {
+        error_log("Error: " . $e->getMessage());
+        echo "Error: " . $e->getMessage() . "<br>";
     }
-
-    if ($conn) $conn->close();
 }
 ?>
-
-
-
 
 
 
