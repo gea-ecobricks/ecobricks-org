@@ -1,7 +1,5 @@
 <?php
 
-
-
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
@@ -9,7 +7,7 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Function to set serial number and ecobrick_unique
+    // Function to set serial number and ecobrick_unique_id
     function setSerialNumber($conn) {
         $query = "SELECT MAX(ecobrick_unique_id) as max_unique_id FROM tb_ecobricks";
         $result = $conn->query($query);
@@ -30,8 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // Set serial number and ecobrick ID
         $ids = setSerialNumber($conn);
-        $serial_no = $ids['serial_no'];
         $ecobrick_unique_id = $ids['ecobrick_unique_id'];
+        $serial_no = $ids['serial_no'];
         $brik_notes = "Directly logged on ecobricks.org";
         $date_published_ts = date("Y-m-d H:i:s");
 
@@ -75,6 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
 
 
 
