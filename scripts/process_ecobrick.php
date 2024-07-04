@@ -172,6 +172,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
 
 
+
+
+
 // PART 3: Image Processing
 $error_message = '';
 $full_urls = [];
