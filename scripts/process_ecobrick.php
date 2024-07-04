@@ -131,7 +131,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
 }
 
 
-<?php
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
