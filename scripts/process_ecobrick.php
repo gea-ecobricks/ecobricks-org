@@ -287,13 +287,15 @@ if (!empty($ecobrick_photo_url)) {
                     $thumbnail_paths[] = $thumbnailPath;
                     $main_file_sizes[] = filesize($targetPath) / 1024;
                     $thumbnail_file_sizes[] = filesize($thumbnailPath) / 1024;
-
+                    $uniqueThumbnailPath = $thumbnailPath . '?t=' . time();
                     array_push($db_fields, "ecobrick_full_photo_url", "ecobrick_thumb_photo_url");
                     array_push($db_values, $targetPath, $thumbnailPath);
                     $db_types .= "ss";
 //                    echo "<div class='message'>Main image:<br><img src='{$targetPath}' width='500px'></div>";
-                    echo "<script>console.log('Thumbnail Path: " . addslashes($thumbnailPath) . "');</script>";
-                    echo "<div class='message'>Thumbnail image:<br><img src='{$thumbnailPath}' height='150px' alt='Thumbnail'></div>";                } else {
+                    echo "<div class='message'>Thumbnail image:<br><img src='{$uniqueThumbnailPath}' width='500px' alt='Thumbnail'></div>";
+
+                    echo "<script>console.log('Thumbnail Path: " . addslashes($uniqueThumbnailPath) . "');</script>";
+                } else {
                     $error_message .= "Failed to create thumbnail for image.<br>";
                     echo "<div class='alert'>Failed to create thumbnail for image</div>";
                     ob_flush(); flush();
