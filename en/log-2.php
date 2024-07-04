@@ -189,11 +189,11 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
             </div>
             <div id="upload-success-message"></div>
-            <a class="confirm-button" href="ecobrick.php?ecobrick_id=<?php echo $_GET['ecobrick_id']; ?>" data-lang-id="013-view-ecobrick-post">🎉 View Ecobrick Post</a>
-            <a class="confirm-button" data-lang-id="014-edit-ecobrick" href="edit-ecobrick.php?ecobrick_id=<?php echo $_GET['ecobrick_id']; ?>">Edit Ecobrick Post</a>
+            <a class="confirm-button" href="ecobrick.php?ecobrick_unique_id=<?php echo $_GET['ecobrick_unique_id']; ?>" data-lang-id="013-view-ecobrick-post">🎉 View Ecobrick Post</a>
+            <a class="confirm-button" data-lang-id="014-edit-ecobrick" href="edit-ecobrick.php?ecobrick_unique_id=<?php echo $_GET['ecobrick_unique_id']; ?>">Edit Ecobrick Post</a>
 
             <form id="deleteForm" action="" method="POST">
-                <input type="hidden" name="ecobrick_id" value="<?php echo htmlspecialchars($_GET['ecobrick_id']); ?>">
+                <input type="hidden" name="ecobrick_unique_id" value="<?php echo htmlspecialchars($_GET['ecobrick_unique_id']); ?>">
                 <input type="hidden" name="action" value="delete_ecobrick">
                 <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton" data-lang-id="014-delete-ecobrick">❌ Delete Ecobrick</a>
             </form>

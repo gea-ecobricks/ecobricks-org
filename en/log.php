@@ -46,13 +46,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Set serial number and ecobrick ID
     $serial_no = setSerialNumber($conn);
-    $ecobrick_id = $serial_no;
     $brik_notes = "Directly logged on ecobricks.org";
     $date_published_ts = date("Y-m-d H:i:s");
 
 
     $db_fields = [
-        'ecobrick_id', 'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
+        'ecobricker_maker', 'volume_ml', 'weight_g', 'sequestration_type',
         'plastic_from', 'location_full', 'community_name', 'project_id', 'training_id',
         'owner', 'status', 'universal_volume_ml', 'density', 'date_logged_ts', 'CO2_kg',
         'last_ownership_change', 'actual_maker_name', 'location_country', 'location_region',
@@ -61,12 +60,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ];
 
     $db_values = [
-        $ecobrick_id, $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
+        $ecobricker_maker, $volume_ml, $weight_g, $sequestration_type,
         $plastic_from, $location_full, $community_name, $project_id, $training_id,
         $owner, $status, $universal_volume_ml, $density, $date_logged_ts, $CO2_kg,
         $last_ownership_change, $actual_maker_name, 'Unknown Country', 'Unknown Region',
         'Unknown City', $latitude, $longitude, 'Unknown Municipality',
-        $ecobrick_id, $serial_no, $brand_name, $brik_notes, $date_published_ts // Add brand_name value
+        $serial_no, $brand_name, $brik_notes, $date_published_ts // Add brand_name value
     ];
 
     echo "Fields count: " . count($db_fields) . "<br>"; // should print 28
@@ -77,19 +76,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt = $conn->prepare($sql)) {
         error_log("Statement prepared successfully.");
 
-        $stmt->bind_param("isiissssiisssdssdssssddsissss", ...$db_values);
+        $stmt->bind_param("siissssiisssdssdssssddsissss", ...$db_values);
 
         error_log("Parameters bound successfully.");
 
         if ($stmt->execute()) {
             error_log("Statement executed successfully.");
-//            $ecobrick_id = $conn->insert_id;
 
             $stmt->close();
             $conn->close();
 
-            // Redirect to log-2.php with the correct ecobrick_id
-            echo "<script>window.location.href = 'log-2.php?id=" . $ecobrick_id . "';</script>";
+            // Redirect to log-2.php with the correct ecobrick_unique_id
+            echo "<script>window.location.href = 'log-2.php?id=" . $ecobrick_unique_id . "';</script>";
         } else {
             error_log("Error executing statement: " . $stmt->error);
             echo "Error: " . $stmt->error . "<br>";
