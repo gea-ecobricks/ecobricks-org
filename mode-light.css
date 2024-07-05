@@ -55,6 +55,9 @@
 
   --table-background-heading: #2A91DA;
 
+       .modal-content-box {
+           background: #ffffff;
+       }
 
        /*BOOK NOTES */
 

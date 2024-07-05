@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.09';?>
+<?php $version='2.11';?>
 <?php $page='ayyew';?>
 
 <title>Ayyew | An ancient ecological ethos for our modern moment</title>
@@ -37,9 +37,13 @@
 
             <div class="page-paragraph">
 
-            <p data-lang-id="005-first-page-paragraph">The Igorots, one of the few unconquered indigenous people of the South East Asia, have thrived for centuries in the remote mountains of Northern Luzon in the West Philippines Sea. While Spanish, Japanese and Americans colonized the remainder of the Philippines archipelago, they struggled in vain to dominate the various Igorot tribes that lived in the fertile valleys of the mountainous region.  However, lone explorers and anthropologists who reached the region were made welcome.  It was here that in 2011, the Asian ecobrick movement was ignited as a means of transformative resistance to deal with the innundation of plastic from American, Swiss and Filipino companies attempting to distribute their packaged food products in Igorot traditional territory.<p>
+            <p data-lang-id="005-first-page-paragraph">The Igorots, one of the few unconquered indigenous people of the South East Asia, have thrived for centuries in the remote mountains of Northern Luzon in the West Philippines Sea. While Spanish, Japanese and Americans colonized the remainder of the Philippines archipelago, they struggled in vain to dominate the various Igorot tribes that lived in the fertile valleys of the mountainous region.</p>
 
- <p data-lang-id="006-second-page-paragraph">Like many other indigenous peoples around the world, the concept of waste does not exist in the Igorot language prior to the arrival of colonists.  All materials and objects in Igorot use had its own cycles of various phases of use.  The cycles of life, of matter, and of the seasons were so important to the Igorots, that their culture was centered upon them.  To this day, cyclocentric Igorot culture continues to thrive-- their fields and forest being some of the most verdant and biodiverse in South East Asia, while their innovations (like ecobricking) have inspired tens of millions.</p>.
+                <p>It was in the land of the Igorot people that in 2011, the Asian ecobrick movement was ignited.  What started out as a village's transformative resistance to deal with the plastic from American, Swiss and Filipino companies attempting to distribute their packaged food products in Igorot traditional territory, soon spread to the rest of the region, province and country.  And beyond.<p>
+
+                <p>Though at first glance this may sound suprising, given the remarkable history and vision of the Igorots, it isn't at all.</p>
+
+
             </div>
 
 
@@ -56,6 +60,7 @@
             <br><br>
                 <h4 data-lang-id="058-ayyew-title">An ancient ecological ethos for our modern moment</h4>
 
+                <p data-lang-id="006-second-page-paragraph">Like many other indigenous peoples around the world, the concept of waste does not exist in the Igorot language prior to the arrival of colonists.  All materials and objects in Igorot use had its own cycles of various phases of use.  The cycles of life, of matter, and of the seasons were so important to the Igorots, that their culture was centered upon them.  To this day, cyclocentric Igorot culture continues to thrive-- their fields and forest being some of the most verdant and biodiverse in South East Asia, while their innovations (like ecobricking) have inspired tens of millions.</p>.
 
                 <p>Underlying Igorot cyclocentric culture is their concept of <i>ayyew</i>-- a term that has no corollary in latin languages or western philosophy.   When Igorots refer to a person or process being "ayyew" they are referring to the harmony by which it is in synk with an ecological cycle.  Specifically, the contribution that the person or the process is making to enrich that cycle.  In Igorot society, a person, household or community is admired and respected to the degree in which they embody the principle.</p>
 
@@ -73,11 +78,11 @@
 
                 <p data-lang-id="060-chief-virtue-description">As one of the chief virtues of the Igorot people, the concept of Ayyew guides the Igorot way of life.   In Igorot culture, Ayyew is as important and as lauded as other virtues such as Courage, Honor or Loyalty.  When someone is ayyew, it means that they are striving towards ever-increasing harmony with the cycles of life.
 
-                <p data-lang-id="059-regenerative-definition"> We consciously adapt the term to summarize and qualify the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>
+<!--                <p data-lang-id="059-regenerative-definition"> We consciously adapt the term to summarize and qualify the principles of the ecobrick movement. We feel it fills a pressing linguistic gap and helps us articulate our way forward.</p>-->
 
 
 
-                <h4 data-lang-id="058-ayyew-title">Ayyew Guides Our Ecobricking</h4>
+                <h4 data-lang-id="058-ayyew-title">An Ayyew View of Plastic</h4>
 
 
                 <p data-lang-id="062-direct-equivalent-description">Ayyew is the virtue of striving to be in ever more harmony with the surrounding ecological cycles.  Ayyew is not a state of being, but a process of being.  However, it is a directional process, one that leads to ever more abundance from ever more sync with the surrounding cycles of life.</p>

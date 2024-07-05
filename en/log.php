@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='1';?>
+    <?php $version='1.1';?>
     <?php $page='log';?>
 
     <?php require_once ("../includes/log-inc.php");?>
@@ -327,7 +327,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
 
                 <div data-lang-id="016-submit-button">
-                    <input type="submit" value="Submit Ecobrick ➡️" aria-label="Submit Form">
+                    <input type="submit" value="Next: Upload Photo" aria-label="Submit Form">
                 </div>
 
                 <input type="hidden" id="location_country" name="location_country">
@@ -362,15 +362,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         switch(type) {
             case 'ocean':
                 content = `
-                <img src="../pngs/oceanecobrick.png" alt="Ocean Ecobrick Image">
-                <h3>Ocean Ecobricks</h3>
-                <p>The Ocean Ecobrick is a new class of ecobrick especially designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
+                <img src="../pngs/oceanecobrick.png" alt="Ocean Ecobrick Image" height="300" width="300">
+                <h4>Ocean Ecobricks</h4>
+                <p style="font-size:1em">The Ocean Ecobrick is a new class of ecobrick especially designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
                 <a class="module-btn" href="/ocean">Learn more</a>
             `;
                 break;
             case 'cigbrick':
                 content = `
-                <img src="../pngs/cigbrickstandalone.png" alt="Cigbrick Image">
+                <img src="../pngs/cigbrickstandalone.png" alt="Cigbrick Image" height="300" width="300">
                 <h3>Cigbricks</h3>
                 <p>Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</p>
                 <a class="module-btn" href="/cigbricks">Learn more</a>
@@ -378,7 +378,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 break;
             case 'regular':
                 content = `
-                <img src="../pngs/justandecobrick.png" alt="Regular Ecobrick Image">
+                <img src="../pngs/justandecobrick.png" alt="Regular Ecobrick Image" height="300" width="300">
                 <h3>Regular Ecobricks</h3>
                 <p>An ecobrick is a PET bottle packed solid with used plastic to the standards of plastic sequestration in order to make a reusable building block. There are several types of ecobricks-- ocean ecobricks, cigbricks and normal ecobricks. A normal ecobrick is an uncut bottle packed solid with used plastic to a set density (between 0.33 and 0.7 g/ml) to make a reusable building block.</p>
                 <a class="module-btn" href="what.php">Learn more</a>

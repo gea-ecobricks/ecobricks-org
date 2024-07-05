@@ -430,8 +430,7 @@ display: none;
 
   position: relative; 
   padding: 20px; 
-  background-color: var(--emblem-pink); 
-  border-radius: 10px; 
+  border-radius: 10px;
   max-width: 90%; 
   max-height: 80vh; 
   min-height: 50%;
@@ -442,6 +441,7 @@ display: none;
   font-size: 1.4em;
   display: flex;
   margin: auto;
+    text-align: center;
 }
 
 .modal-message {
