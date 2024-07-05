@@ -32,10 +32,10 @@
 
 
 
-
+/*  To be fixed:  IMAGE URL NEEDS TO BE INPUTED DIRECTLY*/
 function ecobrickPreview(brik_serial, weight, owner, location) {
-    // Construct the image source URL
-    var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.jpeg';
+    // Construct the image source URL FIX:
+    var imageUrl = 'https://ecobricks.org/briks/ecobrick-' + brik_serial + '-file.webp';
 
     const modal = document.getElementById('form-modal-message');
     const contentBox = modal.querySelector('.modal-content-box'); // This is the part we want to hide
