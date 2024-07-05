@@ -38,7 +38,7 @@
 
     // PART 1 of the code
     // process_ecobricks.php  here we go
-//    session_start();
+    session_start();
 
     if (isset($_GET['action'])) {
         $action = $_GET['action'];
@@ -57,7 +57,6 @@
         exit;
     }
 
-
     include '../ecobricks_env.php';
 
     // Knack API settings
@@ -72,7 +71,7 @@
         die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
     }
 
-    // Prepare filters to get records with field_2492 set to "No"
+    // Prepare filters to get records with field_2492 set to "No" and field_534 containing "Authenticated"
     $filters = [
         'match' => 'and',
         'rules' => [
@@ -80,6 +79,11 @@
                 'field' => 'field_2492',
                 'operator' => 'is',
                 'value' => 'No'
+            ],
+            [
+                'field' => 'field_534',
+                'operator' => 'contains',
+                'value' => 'Authenticated'
             ]
         ]
     ];
@@ -133,7 +137,7 @@
 
 
 
-// PART 2: Data Retrieval and Database Insertion
+    // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
