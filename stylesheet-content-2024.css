@@ -566,7 +566,6 @@ margin-top: 40px;
     font-size: 16px;
     padding: 8px 15px 8px 15px;
     text-decoration: none;
-    overflow-x: none;
     border: 1px;
     border-color: grey;
     cursor: pointer;
@@ -603,7 +602,7 @@ margin-top: 40px;
 
 .preview-image {
     position: absolute;
-    top: 10px
+    top: 10px;
     right:50%;
     left:50%;
     z-index:9;
@@ -619,15 +618,15 @@ margin-top: 40px;
 
 
 .module-btn {
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
   font-family: 'Mulish', Arial, Helvetica, sans-serif;
   color: var(--slide-overlays);
   font-size: 16px;
   padding: 8px 15px 8px 15px;
   text-decoration: none;
-  overflow-x: none;
+
   border: none; 
   cursor: pointer;
 }
@@ -1040,8 +1039,8 @@ color: var(--h1);
         
   
   
-  img {
-    aspect-ratio: attr(width) / attr(height);
-  }
+  /*img {*/
+  /*  aspect-ratio: attr(width) / attr(height);*/
+  /*}*/
   
   
