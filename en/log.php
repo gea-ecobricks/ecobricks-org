@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='1.31';?>
+    <?php $version='1.32';?>
     <?php $page='log';?>
 
     <?php require_once ("../includes/log-inc.php");?>
@@ -371,7 +371,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             case 'cigbrick':
                 content = `
                 <img src="../pngs/cigbrickstandalone.png" alt="Cigbrick Image" height="300" width="300">
-                <div class="module-title">Cigbricks</div>
+                <div class="preview-title">Cigbricks</div>
                 <div class="module-top-line"></div>
                 <div class="preview-text">Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</div>
                 <a class="preview-btn" href="/cigbricks">Learn more</a>
