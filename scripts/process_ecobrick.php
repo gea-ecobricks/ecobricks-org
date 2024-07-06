@@ -353,6 +353,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
 
 
+    ob_start();
 
 
 // PART 3: Image Processing
