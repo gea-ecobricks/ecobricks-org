@@ -55,7 +55,7 @@
                 <div style="width: 100%; overflow: hidden;margin-top: 30px;margin-bottom:10px;border-radius:25px;">
                     <img src="../webp/chico-river-green.webp" alt="the chico river near bontoc by andre cawagas - https://www.flickr.com/photos/andrecawagas/" style="width: 100%;height: auto;" loading="lazy">
                 </div>
-            <p style="font-size:smaller;color:grey;margin-bottom:10px">The chico river, near Bontoc, flows through the fertile valleys and forested mountains of Igorot territory.  Photo by andre cawagas - https://www.flickr.com/photos/andrecawagas/</p>
+            <p style="font-size:smaller;color:grey;margin-bottom:10px">The chico river, near Bontoc, flows through the fertile valleys and forested mountains of Igorot territory.  Photo by Andre Cawagas - https://www.flickr.com/photos/andrecawagas/</p>
 
             <div class="page-paragraph">
             <br><br>
@@ -63,16 +63,16 @@
 
                 <p data-lang-id="006-second-page-paragraph">Like many other indigenous peoples around the world, <a href="https://medium.com/earthen/1000-years-pollution-free-d8ddb70a703f" target="_blank">the concept of waste does not exist</a> in the Igorot language prior to the arrival of colonists.  All materials and objects in Igorot use had its own cycles of various phases of use.  The cycles of life, of matter, and of the seasons were so important to the Igorots, that their culture was centered upon them.  To this day, <a href="https://book.earthen.io/en/kincentric">cyclocentric Igorot society</a> continues to thrive-- their fields and forest being some of the most verdant and biodiverse in South East Asia, while their innovations (like ecobricking) have inspired tens of millions.</p>.
 
-                <p>Underlying Igorot cyclocentric culture is their concept of <i>ayyew</i>-- a term that has no corollary in latin languages or western philosophy.</p>
+                <p>Underlying Igorot cyclocentric culture is their concept of <i>ayyew</i>— a term that has no corollary in latin languages or western philosophy.</p>
 
                 <p data-lang-id="060-chief-virtue-description">As one of the chief virtues of the Igorot people, the concept of Ayyew guides the Igorot way of life.   In Igorot culture, Ayyew is as important and as lauded as other virtues such as Courage, Honor or Loyalty..</p>
 
                 <p>When Igorots refer to a person or process being "ayyew" they are referring to how well that person is in sync with the cycles of life around them.  When someone is ayyew, it means that they are harmonizing with ecological cycles.  If someone is not ayyew, well, that means they are jamming things up and causing trouble.</p>
 
-                <p>However, being ayyew doesn't mean being in harmony-- or not.  Its more than that.</p>
+                <p>However, being ayyew doesn't mean being in harmony— or not.  Its more than that.</p>
 
-                <p style="margin-left:15px; border-left:2px solid var(--text-color);padding-left:10px;"><i>All aspects of Igorot life and culture are guided by the virtue of ayyew³. Men, women, households and communities are admired and respected to the degree in which they embody the principle. Ayyew means to not just to be in sync with a cycle, but to tend to its spin.</i></p>
-                <p style="font-size:small;color:grey;text-align:right;margin-top:-8px;margin-bottom:10px;">
+                <p style="margin-left:15px; margin-top:20px; border-left:2px solid var(--text-color);padding-left:10px;"><i>All aspects of Igorot life and culture are guided by the virtue of ayyew. Men, women, households and communities are admired and respected to the degree in which they embody the principle. Ayyew means to not just to be in sync with a cycle, but to tend to its spin.</i></p>
+                <p style="font-size:small;text-align:right;margin-top:-8px;margin-bottom:30px;">
                     — Banayan & Maier, <a href="https://book.earthen.io/en/spirals.html">Tractatus Ayyew, Cycles that Spiral</a></p>
 
                 <p>In other words, being ayyew refers to the cyclical contribution a person is adding to a particular cycle.  In this way, a person, household or community is admired and respected to the degree in which they are enriching the cycles of life of which they are part.</p>
