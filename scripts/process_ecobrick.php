@@ -196,12 +196,56 @@
     if (isset($data['records']) && count($data['records']) > 0) {
         $record = $data['records'][0];
         $ecobrick_unique_id = $record['field_73'];
+        $knack_record_id = $record['id'];  // Assuming the record ID is stored in 'id'
         $record_found = true;
         $record_details = $record;
 
         // Displaying the serial number and message
         echo "<h3>Ecobrick with Serial $ecobrick_unique_id is next in line for processing</h3>";
         echo "<p>Retrieval has now begun...</p>";
+
+        // Now, update the record to set field_2492 to 'Yes'
+        $update_url = "https://api.knack.com/v1/objects/object_2/records/$knack_record_id";
+        $update_data = json_encode(['field_2492' => 'Yes']);
+
+        // Initialize cURL session for update
+        $ch_update = curl_init($update_url);
+
+        // Set cURL options for update
+        curl_setopt($ch_update, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch_update, CURLOPT_CUSTOMREQUEST, "PUT");
+        curl_setopt($ch_update, CURLOPT_POSTFIELDS, $update_data);
+        curl_setopt($ch_update, CURLOPT_HTTPHEADER, [
+            "X-Knack-Application-Id: $app_id",
+            "X-Knack-REST-API-Key: $api_key",
+            "Content-Type: application/json"
+        ]);
+
+        // Execute cURL request for update
+        $update_response = curl_exec($ch_update);
+
+        // Check for cURL errors in the update request
+        if ($update_response === false) {
+            $error = curl_error($ch_update);
+            echo "<script>confirm('Error updating data in Knack API: " . addslashes($error) . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>";
+            curl_close($ch_update);
+            exit;
+        }
+
+        // Close cURL session for update
+        curl_close($ch_update);
+
+        // Add console logging to confirm update API access and response
+        echo "<script>console.log('Knack API Update Request URL: " . addslashes($update_url) . "');</script>";
+        echo "<script>console.log('Knack API Update Response: " . addslashes($update_response) . "');</script>";
+
+        // Check update response
+        $update_data = json_decode($update_response, true);
+        if (isset($update_data['field_2492']) && $update_data['field_2492'] === 'Yes') {
+            echo "<p>Field 2492 successfully updated to Yes.</p>";
+        } else {
+            echo "<p>Failed to update Field 2492 to Yes.</p>";
+        }
     }
 
 
@@ -466,34 +510,36 @@ if (!empty($error_message)) {
     exit;
 }
 // PART 5: Updating Knack Record
+//
+//echo "<script>console.log('Updating Knack database to indicate ecobrick has been migrated.');</script>";
+//$update_knack_url = "https://api.knack.com/v1/objects/object_2/records/" . $knack_record_id;
+//$knack_update_data = json_encode(['field_2492' => 'Yes']);
+//$knack_update_headers = [
+//    "X-Knack-Application-Id: $app_id",
+//    "X-Knack-REST-API-Key: $api_key",
+//    "Content-Type: application/json"
+//];
+//
+//$ch = curl_init($update_knack_url);
+//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+//curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+//curl_setopt($ch, CURLOPT_POSTFIELDS, $knack_update_data);
+//curl_setopt($ch, CURLOPT_HTTPHEADER, $knack_update_headers);
+//
+//$knack_update_response = curl_exec($ch);
+//
+//if ($knack_update_response === false) {
+//    echo "<script>console.log('Error updating Knack record: " . addslashes(curl_error($ch)) . "');</script>";
+//} else {
+//    echo "<script>console.log('Knack record updated successfully');</script>";
+//    echo "<div class='message'>Knack original record updated so that it isn't processed again.</div>";
+//}
+//
+//curl_close($ch);
 
-echo "<script>console.log('Updating Knack database to indicate ecobrick has been migrated.');</script>";
-$update_knack_url = "https://api.knack.com/v1/objects/object_2/records/" . $knack_record_id;
-$knack_update_data = json_encode(['field_2492' => 'Yes']);
-$knack_update_headers = [
-    "X-Knack-Application-Id: $app_id",
-    "X-Knack-REST-API-Key: $api_key",
-    "Content-Type: application/json"
-];
 
-$ch = curl_init($update_knack_url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
-curl_setopt($ch, CURLOPT_POSTFIELDS, $knack_update_data);
-curl_setopt($ch, CURLOPT_HTTPHEADER, $knack_update_headers);
-
-$knack_update_response = curl_exec($ch);
-
-if ($knack_update_response === false) {
-    echo "<script>console.log('Error updating Knack record: " . addslashes(curl_error($ch)) . "');</script>";
-} else {
-    echo "<script>console.log('Knack record updated successfully');</script>";
-    echo "<div class='message'>Knack original record updated so that it isn't processed again.</div>";
-}
-
-curl_close($ch);
 echo "<div class='message'>Moving to next ecobrick...</div>";
-// CHANGE THIS LINE TO CLEAR the div with id "ecobrick-being-processed" and to post the thumbnail of the processed ecobrick in the ecobricks-processed-gallery div
+
 echo "<script>window.location.href = 'process_ecobrick.php';</script>";
 
 if (!empty($error_message)) {
