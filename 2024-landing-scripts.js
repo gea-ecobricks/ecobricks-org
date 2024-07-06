@@ -65,7 +65,7 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
     var details = document.createElement('div');
     details.className = 'ecobrick-details';
     details.innerHTML = '<p>Ecobrick ' + brik_serial + ' | ' + weight + 'g of plastic sequestered by ' + owner + ' in ' + location + '.</p>' +
-                        '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '" class="btn featured-gallery-button" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
+                        '<a href="details-ecobrick-page.php?serial_no=' + brik_serial + '" class="preview-btn" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
     photoContainer.appendChild(details);
 
     // Hide other parts of the modal that are not used for this preview
@@ -112,7 +112,7 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
     var details = document.createElement('div');
     details.className = 'ecobrick-details';
     details.style.margin = '20px 10% auto 10%'; // Adjust the margin as per your design
-    details.innerHTML = `<p style="font-size:small">${description} | ${ecobricks_used} ecobricks | ${location_full}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="btn featured-gallery-button" href="project.php?project_id=${project_id}">ℹ️ View Project</a>';    `;
+    details.innerHTML = `<p style="font-size:small">${description} | ${ecobricks_used} ecobricks | ${location_full}</p><a style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;" class="preview-btn" href="project.php?project_id=${project_id}">ℹ️ View Project</a>';    `;
     photoContainer.appendChild(details);
 
     // Show the modal

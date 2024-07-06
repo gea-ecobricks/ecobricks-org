@@ -557,6 +557,28 @@ margin-top: 40px;
 
 
 
+.preview-btn {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+    overflow-x: none;
+    border: 1px;
+    border-color: grey;
+    cursor: pointer;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.preview-btn:hover {
+    background: grey;
+}
+
 
 
 
