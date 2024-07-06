@@ -573,13 +573,21 @@ margin-top: 40px;
     text-align: center;
     width: 60%;
     margin: auto;
+    display: block;
+    border: solid;
 }
 
 .preview-btn:hover {
     background: grey;
+    color: #fff;
 }
 
-
+.preview-text {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color);
+}
 
 
 .module-btn {
