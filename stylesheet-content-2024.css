@@ -587,6 +587,25 @@ margin-top: 40px;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
     color: var(--text-color);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.preview-title {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-bottom: 1px;
+    border: solid;
+    color: var(--subdued-text);
+
+}
+
+.module-top-line {
+    position: absolute;
+    border: 1px solid grey;
+    width: 100%;
+    top: 50px;
 }
 
 
