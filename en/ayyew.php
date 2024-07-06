@@ -71,9 +71,9 @@
 
                 <p>However, being ayyew doesn't mean being in harmony-- or not.  Its more than that.</p>
 
-                <p style="margin-left:15px; border-left:1px solid grey"><i>All aspects of Igorot life and culture are guided by the virtue of ayyew³. Men, women, households and communities are admired and respected to the degree in which they embody the principle. Ayyew means to not just to be in sync with a cycle, but to tend to its spin.</i></p>
-                <p style="font-size:small;color:grey;text-align:right;margin-top:-8px;">
-                    —Banayan & Maier, <a href="https://book.earthen.io/en/spirals.html">Tractatus Ayyew, Cycles that Spiral</a></p>
+                <p style="margin-left:15px; border-left:2px solid var(--text-color);padding-left:10px;"><i>All aspects of Igorot life and culture are guided by the virtue of ayyew³. Men, women, households and communities are admired and respected to the degree in which they embody the principle. Ayyew means to not just to be in sync with a cycle, but to tend to its spin.</i></p>
+                <p style="font-size:small;color:grey;text-align:right;margin-top:-8px;margin-bottom:10px;">
+                    — Banayan & Maier, <a href="https://book.earthen.io/en/spirals.html">Tractatus Ayyew, Cycles that Spiral</a></p>
 
                 <p>In other words, being ayyew refers to the cyclical contribution a person is adding to a particular cycle.  In this way, a person, household or community is admired and respected to the degree in which they are enriching the cycles of life of which they are part.</p>
 
