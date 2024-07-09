@@ -71,7 +71,7 @@
         $query = "SELECT serial_no, ecobrick_thumb_photo_url FROM tb_ecobricks 
           WHERE status = 'authenticated' 
           ORDER BY date_published_ts DESC 
-          LIMIT 25";
+          LIMIT 16";
 
         $result = $conn->query($query);
         ?>
@@ -158,7 +158,7 @@
     ];
 
     // Prepare the API request to retrieve multiple ecobrick records
-    $url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=desc&rows_per_page=1";
+    $url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=asc&rows_per_page=1";
 
     // Initialize cURL session
     $ch = curl_init($url);
