@@ -11,7 +11,7 @@ TEXT TRANSLATION SNIPPETS FOR ECOBRICKS.ORG
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
 
 
-const es_Page_Translations: {} = {
+const es_Page_Translations: = {
 
 
     
