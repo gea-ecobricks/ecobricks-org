@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Latest Ecobrick Imports</title>
+    <title>ᐉ Latest Ecobrick Imports</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,7 +35,7 @@
 <body>
 <div class="control-buttons">
     <button class="button" onclick="stopProcessing()">Stop Processing</button>
-    <button class="button" onclick="startProcessing()">Start Processing</button>
+    <button class="button" onclick="startProcessing()">ᐉ Start Processing</button>
 </div>
 
 <script>
@@ -71,7 +71,7 @@
         $query = "SELECT serial_no, ecobrick_thumb_photo_url FROM tb_ecobricks 
           WHERE status = 'authenticated' 
           ORDER BY date_published_ts DESC 
-          LIMIT 10";
+          LIMIT 25";
 
         $result = $conn->query($query);
         ?>
@@ -87,7 +87,7 @@
                     $serial_no = $row['serial_no'];
                     $thumb_url = $row['ecobrick_thumb_photo_url'];
                     echo "<a href='https://ecobricks.org/en/details-ecobrick-page.php?serial_no=$serial_no' target='_blank'>
-                    <img src='$thumb_url' alt='Ecobrick $serial_no'>
+                    <img src='$thumb_url' alt='Ecobrick $serial_no' title='Ecobrick $serial_no'>
                   </a>";
                 }
             } else {
@@ -158,7 +158,7 @@
     ];
 
     // Prepare the API request to retrieve multiple ecobrick records
-    $url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=asc&rows_per_page=1";
+    $url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=desc&rows_per_page=1";
 
     // Initialize cURL session
     $ch = curl_init($url);
@@ -201,8 +201,8 @@
         $record_details = $record;
 
         // Displaying the serial number and message
-        echo "<h3>Ecobrick with Serial $ecobrick_unique_id is next in line for processing</h3>";
-        echo "<p>Retrieval has now begun...</p>";
+        echo "<h3>Starting to retrieve ecobrick $ecobrick_unique_id for processing</h3>";
+        echo "<p>Connected to Knack server...</p>";
 
         // Now, update the record to set field_2492 to 'Yes'
         $update_url = "https://api.knack.com/v1/objects/object_2/records/$knack_record_id";
@@ -242,9 +242,9 @@
         // Check update response
         $update_data = json_decode($update_response, true);
         if (isset($update_data['field_2492']) && $update_data['field_2492'] === 'Yes') {
-            echo "<p>Field 2492 successfully updated to Yes.</p>";
+            echo "<p>Knack database updated to indicate transfer of ecobrick.</p>";
         } else {
-            echo "<p>Failed to update Field 2492 to Yes.</p>";
+            echo "<p>Failed to update Knack field 2492 to Yes.</p>";
         }
     }
 
@@ -389,12 +389,12 @@ if (!empty($ecobrick_photo_url)) {
     curl_close($ch);
 
     if ($img !== false) {
-        echo "<div class='message'>Image downloaded successfully</div>";
+        echo "<div class='message'>Knack ecobrick $ecobrick_unique_id image downloaded successfully</div>";
         ob_flush(); flush();
         $bytes_written = @file_put_contents($targetPath, $img);
         if ($bytes_written !== false) {
             $kb_written = $bytes_written / 1024;
-            echo "<div class='message'>Image saved successfully, {$kb_written} KB written to {$targetPath}</div>";
+            echo "<div class='message'>Image saved: {$kb_written} KB written.</div>";
             ob_flush(); flush();
 
             if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 77)) {
@@ -410,9 +410,8 @@ if (!empty($ecobrick_photo_url)) {
                     array_push($db_fields, "ecobrick_full_photo_url", "ecobrick_thumb_photo_url");
                     array_push($db_values, $targetPath, $thumbnailPath);
                     $db_types .= "ss";
-//                    echo "<div class='message'>Main image:<br><img src='{$targetPath}' width='500px'></div>";
-                    echo "<div class='message'>Thumbnail image:<br><img src='{$uniqueThumbnailPath}' width='500px' alt='Thumbnail'></div>";
-
+                    echo "<div class='message'>Main image path: '{$targetPath}'</div>";
+                    echo "<div class='message'>Thumbnail image path:'{$uniqueThumbnailPath}'></div>";
                     echo "<script>console.log('Thumbnail Path: " . addslashes($uniqueThumbnailPath) . "');</script>";
                 } else {
                     $error_message .= "Failed to create thumbnail for image.<br>";
@@ -439,7 +438,7 @@ if (!empty($ecobrick_photo_url)) {
     ob_flush(); flush();
 }
 // PART 4
-echo "<div class='message'>Image processing complete</div>";
+echo "<div class='message'>Image processing complete.</div>";
 
 if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Updating database with new image data');</script>";
@@ -475,7 +474,7 @@ if (!empty($db_fields) && empty($error_message)) {
         }
     }
 
-    echo "<div class='message'>Brikchain database updated with ecobrick details and photo</div>";
+    echo "<div class='message'><b>Success!</b>  Brikchain database updated with ecobrick $ecobrick_unique_id data and photo!</div>";
 
     $update_stmt = $conn->prepare($update_sql);
     if ($update_stmt === false) {
@@ -530,7 +529,7 @@ if (!empty($error_message)) {
 //curl_close($ch);
 
 
-echo "<div class='message'>Moving to next ecobrick...</div>";
+echo "<div class='message'>Now closing databse session, an moving to next ecobrick...</div>";
 
 echo "<script>window.location.href = 'process_ecobrick.php';</script>";
 
