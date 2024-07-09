@@ -249,8 +249,7 @@
     }
 
 
-
-    // PART 2: Data Retrieval and Database Insertion
+// PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
     $success = true;
@@ -278,11 +277,6 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $validator_2 = $record['field_662_raw'][0]['identifier'] ?? '';
             $validator_3 = $record['field_663_raw'][0]['identifier'] ?? '';
             $validation_score_avg = $record['field_568_raw'] ?? 0;
-//            $validation_score_avg = (isset($record['field_568_raw']) && $record['field_568_raw'] !== null && $record['field_568_raw'] != '0.00')
-//                ? $record['field_568_raw']
-//                : round($record['field_1435_raw'] ?? 0);
-
-
             $knack_record_id = $record['id'] ?? '';
             $final_validation_score = $record['field_1435_raw'] ?? 0;
             $vision = $record['field_562_raw'] ?? '';
@@ -317,9 +311,9 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $check_stmt->store_result();
 
             if ($check_stmt->num_rows > 0) {
-
-                $success = false;
-                $errors[] = "A record with Ecobrick ID $ecobrick_unique_id already exists.";
+                // Record exists, reload the page to process the next record
+                echo "<script>window.location.href = 'process_ecobrick.php';</script>";
+                exit; // Terminate the script to prevent further execution
             } else {
                 // Prepare and bind
                 $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt, photo_choice, location_city, location_full, catalyst, brik_notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
@@ -351,10 +345,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
     }
 }
 
-
-
-    ob_start();
-
+ob_start();
 
 // PART 3: Image Processing
 $error_message = '';
