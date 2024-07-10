@@ -1,0 +1,25 @@
+
+# Meeting started at 1pm UK time
+Appologies from Mike
+
+## Discussion centered around
+
+And the AI Tool in Zoom...
+https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0058013
+
+https://www.google.com/search?client=firefox-b-e&q=msql+workbench
+
+
+## And changes to
+
+
+
+
+
+#  **GEA Development Road Map**
+
+
+## Intentions
+
+- Exit from 	dependence on Knack to running on our own code, servers and 	databases
+- Build up our 	own revamped version of GoBrik phase by phase learning from our 	lessons
