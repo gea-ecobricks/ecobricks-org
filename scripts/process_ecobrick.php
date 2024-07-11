@@ -312,7 +312,10 @@ if (isset($data['records']) && count($data['records']) > 0) {
 
             if ($check_stmt->num_rows > 0) {
                 // Record exists, reload the page to process the next record
+                echo "<p>Looks like this record already is loaded into our database.</p>";
+
                 echo "<script>window.location.href = 'process_ecobrick.php';</script>";
+                echo "<p>Reloading page to try another ecobrick...</p>";
                 exit; // Terminate the script to prevent further execution
             } else {
                 // Prepare and bind

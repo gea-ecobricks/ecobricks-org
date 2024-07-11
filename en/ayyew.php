@@ -37,7 +37,7 @@
 
             <div class="page-paragraph">
 
-            <p data-lang-id="005-first-page-paragraph">The Igorots, one of the few unconquered indigenous people of the South East Asia, have thrived for centuries in the remote mountains of Northern Luzon in the West Philippines Sea. While Spanish, Japanese and Americans colonized the remainder of the Philippines archipelago, they struggled in vain to dominate the various Igorot tribes that lived in the fertile valleys of the mountainous region.</p>
+            <p data-lang-id="005-first-page-paragraph">The Igorots, one of the few unconquered indigenous people of the South East Asia, have thrived for centuries in the remote mountains of Northern Luzon in the West Philippines Sea. While over the last 300 years, Spanish, Japanese and Americans colinized the Philippines archipelago, they were unable to dominate the various Igorot tribes that lived in the fertile valleys of the mountainous region.</p>
 
                 <p>It was in the land of the Igorot people that in 2011, <a href="/story">the Asian ecobrick movement was ignited</a>.  What started out the <a href="https://www.ecobricks.org/reports-of-ecobrick-making-flood-in-from-across-mt-province/">resistance of small villages</a> to the plastic of American, Swiss and Filipino companies attempting to distribute their packaged food products in Igorot traditional territory, soon spread to the rest of the region, province and country.  And beyond.<p>
 
