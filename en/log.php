@@ -269,7 +269,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="Forest">Forest</option>
                         <option value="Field">Field</option>
                     </select>
-                    <p class="form-caption" data-lang-id="010-plastic-from-caption">Describe the source of the plastic.</p>
+                    <p class="form-caption" data-lang-id="010-plastic-from-caption">Where does the plastic in this ecobrick come from?</p>
 
                     <!--ERRORS-->
                     <div id="plastic-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
@@ -281,7 +281,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <input type="text" id="location_full" name="location_full" aria-label="Location Full" required style="padding-left:45px;">
                         <div id="loading-spinner" class="spinner" style="display: none;"></div>
                     </div>
-                    <p class="form-caption" data-lang-id="011-location-full-caption">Provide the full location where the ecobrick is based.</p>
+                    <p class="form-caption" data-lang-id="011-location-full-caption">Start typing the name of your town or city, and we'll fill in the rest using the open source, non-corporate openstreetmaps API.  Avoid using your exact address for privacy-- just your town, city or country is fine.</p>
 
                     <!--ERRORS-->
                     <div id="location-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>

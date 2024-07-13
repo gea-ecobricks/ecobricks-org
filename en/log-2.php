@@ -144,14 +144,16 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
             </div>
 
-            <div class="splash-form-content-block">
+            <div class="splash-form-content-block" style="text-align:center">
 <!--                <div class="splash-box">-->
 
-                    <div class="splash-heading" data-lang-id="001-form-title">Record Serial & Take Photo</div>
 <!--                </div>-->
+
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
-                    <img src="../pngs/weigh-your-plastic-1.png" style="width:65%" alt="Please take a square photo">
+                    <img src="../pngs/weigh-your-plastic-1.png" style="width:35%" alt="Please take a square photo">
                 </div>
+                <h4 data-lang-id="001-form-title">Record Serial & Take Photo</h4>
+
             </div>
 
             <p data-lang-id="002-form-description2">Your ecobrick has been logged with a weight of <?php echo $weight_g; ?>g, a volume of <?php echo $universal_volume_ml; ?>ml, and a density of <?php echo $density; ?>g/ml. Your ecobrick has been allocated the serial number:</p>
