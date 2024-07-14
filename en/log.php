@@ -353,7 +353,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <script>
 
-
     function showModalInfo(type) {
         const modal = document.getElementById('form-modal-message');
         const photobox = document.getElementById('modal-photo-box');
@@ -371,7 +370,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 break;
             case 'cigbrick':
                 content = `
-                <img src="../svgs/cigbrick.svg" alt="Cigbrick Image" height="250px" width="250px" class="preview-image">
+                <img src="../pngs/cigbrickstandalone.png" alt="Cigbrick Image" height="250px" width="250px" class="preview-image">
                 <div class="preview-title">Cigbricks</div>
                 <div class="preview-text">Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</div>
                 <a class="preview-btn" href="/cigbricks">Learn more</a>
@@ -380,7 +379,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             case 'regular':
                 content = `
                 <img class="preview-image" src="../pngs/justandecobrick.png" alt="Regular Ecobrick Image" height="300" width="300">
-                <div class="preview-title">Regular Ecobricks</div>
+                 <div class="preview-title">Regular Ecobricks</div>
                 <p class="preview-text">An ecobrick is a PET bottle packed solid with used plastic to the standards of plastic sequestration in order to make a reusable building block.  A regular ecobrick is an uncut bottle packed solid with used plastic to a set density (between 0.33 and 0.7 g/ml) to make a reusable building block.</p>
                 <a class="preview-btn" href="what.php">Learn more</a>
             `;
@@ -396,14 +395,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         document.getElementById('page-content').classList.add('blurred');
         document.getElementById('footer-full').classList.add('blurred');
         document.body.classList.add('modal-open');
-
-        // Disable body scrolling
-        document.body.style.overflow = 'hidden';
-
-        // Prevent page from scrolling to the top
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        modal.style.top = `${scrollTop}px`;
     }
+
 
 
 
