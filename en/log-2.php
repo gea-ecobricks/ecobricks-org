@@ -235,7 +235,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 <!--                </div>-->
 
                 <div class="splash-image" data-lang-id="003-weigh-plastic-image-alt">
-                    <img src="../pngs/weigh-your-plastic-1.png" style="width:55%; margin:auto" alt="Please take a square photo">
+                    <img src="../svgs/snapit.svg" style="width:55%; margin:auto" alt="Please take a square photo">
                 </div>
                 <div><h2 data-lang-id="001-form-title">Record Serial & Take Photo</h2></div>
 
@@ -245,6 +245,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             <h1 style="text-align: center;"><?php echo $serial_no; ?></h1>
 
             <br>
+
 
 
             <form id="photoform" action="" method="post" enctype="multipart/form-data">
@@ -293,9 +294,12 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 </div>
 
                 <div data-lang-id="013-submit-upload-button">
-                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload">
+                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload" style="display: none;">
                 </div>
             </form>
+
+
+
 
 
 
@@ -336,23 +340,26 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
 <script>
 
-
     document.addEventListener('DOMContentLoaded', function () {
         const enscribeField = document.getElementById('enscribe');
         const photoOptionsField = document.getElementById('photo-options');
         const photoOptionsContainer = document.getElementById('photo-options-container');
         const basicPhotoField = document.getElementById('basic-photo');
         const selfiePhotoField = document.getElementById('selfie-photo');
+        const submitButton = document.querySelector('input[type="submit"]');
 
         function showHidePhotoFields() {
+            // Hide or show photo options based on enscribe field value
             if (enscribeField.value) {
                 photoOptionsContainer.style.display = 'block';
             } else {
                 photoOptionsContainer.style.display = 'none';
                 basicPhotoField.style.display = 'none';
                 selfiePhotoField.style.display = 'none';
+                submitButton.style.display = 'none';
             }
 
+            // Hide or show photo fields based on photo options field value
             if (photoOptionsField.value) {
                 if (photoOptionsField.value === 'basic') {
                     basicPhotoField.style.display = 'block';
@@ -368,12 +375,24 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 basicPhotoField.style.display = 'none';
                 selfiePhotoField.style.display = 'none';
             }
+
+            // Check if a photo has been selected in either photo field
+            if (document.getElementById('ecobrick_photo_main').files.length > 0 || document.getElementById('selfie_photo_main').files.length > 0) {
+                submitButton.style.display = 'block';
+            } else {
+                submitButton.style.display = 'none';
+            }
         }
 
+        // Add event listeners
         enscribeField.addEventListener('change', showHidePhotoFields);
         photoOptionsField.addEventListener('change', showHidePhotoFields);
-    });
+        document.getElementById('ecobrick_photo_main').addEventListener('change', showHidePhotoFields);
+        document.getElementById('selfie_photo_main').addEventListener('change', showHidePhotoFields);
 
+        // Initial state
+        submitButton.style.display = 'none';
+    });
 
 
 
