@@ -1038,8 +1038,8 @@ GUIDED TOUR---*
 
 /* CSS for overflow and max-height when modal is open */
 body.modal-open {
-  overflow: hidden;
-  max-height: 100vh;
+  /*overflow: hidden;*/
+  /*max-height: 100vh;*/
 }
 
 

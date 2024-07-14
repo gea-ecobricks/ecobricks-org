@@ -34,6 +34,10 @@
             height: 200px;
             width: 200px;
         }
+
+        #language-code {
+            display:none;}
+        }
     }
 
 

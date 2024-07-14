@@ -14,9 +14,9 @@
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Methods & Techniques</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Earth & Ecobrick Building Guidelines.</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Earth & Ecobrick Building Guidelines</div>
 	</div> 
-	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Ecobrick & Earth Building methods and guidelines">
+	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Ecobrick & Earth Building methods and guidelines" loading="eager">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -59,7 +59,7 @@
 
                     <p data-lang-id="009-block-1-opener-subheader">Today’s conventional construction is driven by capital and relies on industrial methods and materials with additive plastic and CO2 impacts (greying).  GEA recommended building methods are based on regenerative principles to ensure that their net CO2 and plastic impacts are subtractive (greening).</p>
 
-                    <a href="earth.php">Learn more about Ecobrick & Earth Building Principles</a>
+                    <p><a href="earth.php">Learn more about Ecobrick & Earth Building Principles</a></p>
 
 
                 </div>
@@ -82,21 +82,21 @@
                     <div id="three-column-gal" class="three-column-gal">
 
                         <!--photo1-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali')">
-                            <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
-                            <p data-lang-id="009-photo-caption">Mud Mosque in Djene, Mali</p>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
+                            <img src="../photos/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
+                            <p data-lang-id="009-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
                         </div>
 
                         <!--photo2-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth2.jpg', '16th Century Tudor Cob Home, England')">
-                            <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
-                            <p data-lang-id="010-photo-caption">16th Century Tudor Cob Home - England</p>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
+                            <img src="../photos/green-space2.jpg.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
+                            <p data-lang-id="010-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
                         </div>
 
                         <!--photo3-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth3.jpg', 'Ancient Navajo Dwelling')">
-                            <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
-                            <p data-lang-id="011-photo-caption">Ancient Navajo Dwelling -New Mexico, America</p>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'A circular ecobrick garden planter')">
+                            <img src="../photos/green-space3.png" alt="A circular ecobrick garden planter">
+                            <p data-lang-id="011-photo-caption">A circular ecobrick garden planter</p>
                         </div>
 
 
@@ -318,12 +318,13 @@
 	
 
 		<div class="side">
-	
+
+            <?php require_once ("side-modules/good-use.php");?>
+
             <?php require_once ("side-modules/spiral-design.php");?>
 
             <?php require_once ("side-modules/sequest-module.php");?>
                 
-            <?php require_once ("side-modules/good-use.php");?>
 
             <?php require_once ("side-modules/earthen-ethics.php");?>
 
