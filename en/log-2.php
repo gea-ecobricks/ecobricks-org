@@ -281,6 +281,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 <div class="form-item" id="basic-photo" style="display: none;">
                     <div>
                         <img src="../svgs/basic.svg" style="width: 200px">
+                        <br>
                         <label for="ecobrick_photo_main" data-lang-id="003-feature-photo">Upload a basic ecobrick photo:</label><br>
                         <input type="file" id="ecobrick_photo_main" name="ecobrick_photo_main">
                         <p class="form-caption" data-lang-id="004-feature-desc">Please choose a photo of the ecobrick. Required.</p>
@@ -290,13 +291,14 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 <!-- Selfie Photo Main & Thumbnail -->
                 <div class="form-item" id="selfie-photo" style="display: none;">
                     <img src="../svgs/selfie.svg" style="height: 200px">
+                    <br>
                     <label for="selfie_photo_main" data-lang-id="005-another-photo">Upload an ecobrick selfie:</label><br>
                     <input type="file" id="selfie_photo_main" name="selfie_photo_main">
                     <p class="form-caption" data-lang-id="006-another-photo-optional">Please choose a photo of the maker with the ecobrick. Required.</p>
                 </div>
 
                 <div data-lang-id="013-submit-upload-button">
-                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload" style="display: none;">
+                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload">
                 </div>
             </form>
 
