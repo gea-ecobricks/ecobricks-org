@@ -25,7 +25,7 @@ if (isset($_GET['id'])) {
     $stmt->close();
 }
 
-echo "<script>var density = $density, niversal_volume_ml = '$volume', weight_g = '$weight';</script>";
+echo "<script>var density = $density, volume = '$universal_volume_ml', weight = '$weight_g';</script>";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id'])) {
     $ecobrick_unique_id = (int)$_POST['ecobrick_unique_id'];
@@ -235,7 +235,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 <!--                </div>-->
 
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
-                    <img src="../pngs/weigh-your-plastic-1.png" style="width:35%" alt="Please take a square photo">
+                    <img src="../pngs/weigh-your-plastic-1.png" style="width:49%" alt="Please take a square photo">
                 </div>
                 <div><h4 data-lang-id="001-form-title">Record Serial & Take Photo</h4></div>
 
