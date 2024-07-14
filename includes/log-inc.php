@@ -109,7 +109,7 @@
         
 	}
 
-  .splash-image {display: none !important;}
+  /*.splash-image {display: none !important;}*/
 
   /* .splash-image img  {height: 200px;} */
 }
