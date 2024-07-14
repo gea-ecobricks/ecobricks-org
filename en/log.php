@@ -269,7 +269,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="Forest">Forest</option>
                         <option value="Field">Field</option>
                     </select>
-                    <p class="form-caption" data-lang-id="010-plastic-from-caption">Where does the plastic in this ecobrick come from?</p>
+                    <p class="form-caption" data-lang-id="010-plastic-from-caption">The collection source for your ecobrick's plastic.?</p>
 
                     <!--ERRORS-->
                     <div id="plastic-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
@@ -362,9 +362,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         switch(type) {
             case 'ocean':
                 content = `
-                <img src="../pngs/oceanecobrick.png" alt="Ocean Ecobrick Image" height="300" width="300">
+                <img class="brik-type-image" src="../svgs/oebs.svg" alt="Ocean Ecobrick Image" height="200" width="200">
                 <h4>Ocean Ecobricks</h4>
-                <p style="font-size:1em">The Ocean Ecobrick is a new class of ecobrick especially designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
+                <div class=".brik-modal-message-text ">The Ocean Ecobrick is a new class of ecobrick especially designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
                 <a class="preview-btn" href="/ocean">Learn more</a>
             `;
                 break;

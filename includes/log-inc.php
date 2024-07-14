@@ -6,8 +6,37 @@
 <STYLE>
 
 
+    .brik-modal-message-text {
+        font-size: 1em;
+        font-family: 'Mulish', Arial, Helvetica, sans-serif;
+        font-weight: 300;
+        -webkit-font-smoothing: antialiased;
+        color: var(--text-color);
+    }
 
-.advanced-box-content {
+    @media screen and (min-width: 700px) {
+        .brik-type-text {
+            font-size: 1em;
+        }
+
+        .brik-type-image {
+            height: 300px;
+            width: 300px;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .brik-type-text {
+            font-size: 1em;
+        }
+        .brik-type-image img {
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+
+        .advanced-box-content {
     padding: 2px 15px 15px 15px;
     max-height: 0;  /* Initially set to 0 */
     overflow: hidden;  /* Hide any overflowing content */
