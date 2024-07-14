@@ -269,7 +269,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <option value="Forest">Forest</option>
                         <option value="Field">Field</option>
                     </select>
-                    <p class="form-caption" data-lang-id="010-plastic-from-caption">The collection source for your ecobrick's plastic.?</p>
+                    <p class="form-caption" data-lang-id="010-plastic-from-caption">From where was your ecobrick's plastic sourced?</p>
 
                     <!--ERRORS-->
                     <div id="plastic-error-required" class="form-field-error" data-lang-id="000-field-required-error">This field is required.</div>
@@ -353,6 +353,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <script>
 
+
     function showModalInfo(type) {
         const modal = document.getElementById('form-modal-message');
         const photobox = document.getElementById('modal-photo-box');
@@ -370,9 +371,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 break;
             case 'cigbrick':
                 content = `
-                <img src="../pngs/cigbrickstandalone.png" alt="Cigbrick Image" height="250px" width="250px" class="preview-image">
+                <img src="../svgs/cigbrick.svg" alt="Cigbrick Image" height="250px" width="250px" class="preview-image">
                 <div class="preview-title">Cigbricks</div>
-                <div class="module-top-line"></div>
                 <div class="preview-text">Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</div>
                 <a class="preview-btn" href="/cigbricks">Learn more</a>
             `;
@@ -380,8 +380,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             case 'regular':
                 content = `
                 <img class="preview-image" src="../pngs/justandecobrick.png" alt="Regular Ecobrick Image" height="300" width="300">
-                <h3>Regular Ecobricks</h3>
-                <p class="preview-text">An ecobrick is a PET bottle packed solid with used plastic to the standards of plastic sequestration in order to make a reusable building block. There are several types of ecobricks-- ocean ecobricks, cigbricks and normal ecobricks. A normal ecobrick is an uncut bottle packed solid with used plastic to a set density (between 0.33 and 0.7 g/ml) to make a reusable building block.</p>
+                <div class="preview-title">Regular Ecobricks</div>
+                <p class="preview-text">An ecobrick is a PET bottle packed solid with used plastic to the standards of plastic sequestration in order to make a reusable building block.  A regular ecobrick is an uncut bottle packed solid with used plastic to a set density (between 0.33 and 0.7 g/ml) to make a reusable building block.</p>
                 <a class="preview-btn" href="what.php">Learn more</a>
             `;
                 break;
@@ -395,9 +395,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         modal.style.display = 'flex';
         document.getElementById('page-content').classList.add('blurred');
         document.getElementById('footer-full').classList.add('blurred');
-        // document.body.classList.add('modal-open');
-    }
+        document.body.classList.add('modal-open');
 
+        // Disable body scrolling
+        document.body.style.overflow = 'hidden';
+
+        // Prevent page from scrolling to the top
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        modal.style.top = `${scrollTop}px`;
+    }
 
 
 
