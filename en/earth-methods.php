@@ -122,8 +122,8 @@
             <div class="reg-content-block" id="block3">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="029-block-3-opener-header">3. Get your stick ready</h4>
-                        <h5 data-lang-id="030-block-3-opener-subheader">Ecobrickers like to call their packing stick, their magic wand. It makes the plastic disappear!</h5>
+                        <h4 data-lang-id="029-block-3-opener-header">Start Real Small</h4>
+                        <h5 data-lang-id="030-block-3-opener-subheader">New to earth building?  Before building something permanent, its invaluable to experience the full circle of earth and ecobrick building. </h5>
                         <br>
                     </div>
                     <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-expanded="false">+</button>
@@ -131,30 +131,37 @@
 
                 <div id="preclosed3">
                     <br>
-                    <img src="../svgs/03-Get-your-stick-ready.svg" width="640" loading="lazy" alt="Pack your eco-brick with recycle plastics using a stick" class="full-width-image" data-lang-id="031-block-3-main-image-alt">
 
-                    <p data-lang-id="032-block-3-paragraph-1">Having the right stick will make a big difference to your ecobricking.</p>
-                    <p data-lang-id="033-block-3-paragraph-2">Bamboo and wood make the best sticks. The size of the stick depends on the type of bottle you go with. You want a stick with a diameter roughly one third the width of a standard bottle opening– so about 6mm. You want your stick to be about twice the height of your bottle, with a slightly rounded tip. Avoid sharp cornered sticks as they can rupture your bottle– and yes, this means you have to start your ecobrick all over again!</p>
 
-                    <p data-lang-id="034-block-3-paragraph-3">Once you've got a stick with a good size and shape, you’re set! You can then give it to others to copy and replicate. That’s how our GEA Trainers do their workshops- more magic! One stick turns into many!</p>
 
-                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-3">
-                        <div class="advanced-box-header"  id="advancedBoxLabel-3">
-                            <div class="advanced-title" data-lang-id="035-block-3-advanced-title">Advanced</div>
-                            <div class="advanced-open-icon">+</div>
+                    <p>Making an Earth Module is a super simple way to become acquainted with all the steps of earth and ecobrick building.</p>
+
+                    <p>A great way to learn the basics of earth and ecobrick building is to put together your own earth module.  Earth modules, only use a few ecobricks, yet apply all the steps of the GEA recommended methods.  Each of the steps below references one of the more detailed building steps found on this page.</p>
+
+                    <div id="three-column-gal" class="three-column-gal">
+
+                        <!--photo1-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
+                            <img src="../photos/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
+                            <p data-lang-id="009-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
                         </div>
-                        <div class="advanced-box-content">
-                            <div class="row">
-                                <div class="main2">
-                                    <p data-lang-id="036-block-3-advanced-paragraph">💡 The GEA has developed the optimal ecobricking tool– we call it the EarthWand. Earthwands can usually be purchased from GEA Trainers after a workshop, or you can order them from the <a href="https://www.gobrik.com/store" target="_blank" rel="noopener noreferrer">GoBrik Shop</a>. EarthWands are a regenerative product whose sale goes to support the local and global ecobrick movement.</p>
-                                </div>
-                                <div class="side2">
-                                    <br><img src="../pngs/EarthWand-Grey-Icon-256x300.png" width="150" alt="EarthWand icon" loading="lazy" data-lang-id="037-block-3-advanced-image-alt">
-                                </div>
-                                <p><a href="../earthwand" data-lang-id="038-block-3-learn-more">Learn more..</a></p>
-                            </div>
-                        </div><!--Advanced content closed-->
-                    </div>
+
+                        <!--photo2-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
+                            <img src="../photos/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
+                            <p data-lang-id="010-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
+                        </div>
+
+                        <!--photo3-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'A circular ecobrick garden planter')">
+                            <img src="../photos/green-space3.png" alt="A circular ecobrick garden planter">
+                            <p data-lang-id="011-photo-caption">A circular ecobrick garden planter</p>
+                        </div>
+
+
+                    </div><!--closes gallery-->
+
+
                 </div>
             </div>
         </section>

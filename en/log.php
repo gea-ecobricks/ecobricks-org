@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='1.38';?>
+    <?php $version='1.39';?>
     <?php $page='log';?>
 
     <?php require_once ("../includes/log-inc.php");?>

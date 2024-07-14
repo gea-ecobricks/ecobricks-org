@@ -496,8 +496,9 @@ display: none;
 
 
 <div id="form-modal-message" class="modal-hidden">
-    <div class="modal-content-box">
     <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button"></button>
+    <div class="modal-content-box">
+
         <div class="modal-message"></div>
     </div>
     <div class="modal-photo-box" id="modal-photo-box">
