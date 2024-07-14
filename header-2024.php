@@ -439,22 +439,30 @@ display: none;
 }
 
 @media screen and (min-width: 700px) {
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 90%;
-    max-height: 80vh;
-    min-height: 50%;
-    min-width: 70%;
-    width: 50%;
-    font-size: 1.4em;
+
+
+    .modal-content-box {
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 90%;
+        max-height: 80vh;
+        min-height: 50%;
+        min-width: 70%;
+        width: 50%;
+        font-size: 1.4em;
+    }
 }
 
 @media screen and (max-width: 700px) {
-    padding: 10px;
-    border-radius: 8px;
-    width: 88%;
-    height: 80%;
-    font-size: 1.2em;
+
+    .modal-content-box {
+        padding: 10px;
+        border-radius: 8px;
+        width: 88%;
+        height: 80%;
+        font-size: 1.2em;
+    }
+
 }
 
 .modal-message {
