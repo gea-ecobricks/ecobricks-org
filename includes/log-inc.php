@@ -15,6 +15,11 @@
     }
 
 
+    .step-graphic {
+    width:fit-content;
+    margin:auto;
+    }
+
     @media screen and (min-width: 700px) {
         .preview-text {
             font-size: 1em;
@@ -23,6 +28,10 @@
         .brik-type-image {
             height: 300px;
             width: 300px;
+        }
+
+        .step-graphic {
+            margin-left:0px;
         }
     }
 

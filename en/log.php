@@ -115,8 +115,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div id="form-submission-box">
         <div class="form-container">
             <div class="form-top-header" style="display:flex;flex-flow:row;">
-                <div class="step-graphic" style="width:fit-content;margin:auto;margin-left:0px">
-                    <img src="../svgs/step1-log-project.svg" style="height:25px;">
+                <div class="step-graphic">
+                    <img src="../svgs/step1-log-project.svg" style="height:25px;" loading="eager">
                 </div>
                 <div id="language-code" onclick="showLangSelector()" aria-label="Switch languages"><span data-lang-id="000-language-code">🌐 EN</span></div>
             </div>
