@@ -45,7 +45,7 @@
 
 
         <section id="SAVE">
-            <div class="reg-content-block" id="block1">
+            <div class="reg-content-block" id="block1" style="background:orange;">
                 <div class="opener-header">
                     <div class="opener-header-text">
                         <h4 data-lang-id="006-block-1-opener-header">CAUTION!</h4>
@@ -70,43 +70,46 @@
             <div class="reg-content-block" id="block2">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="016-block-2-opener-header">2. Choose your bottle</h4>
-                        <h5 data-lang-id="017-block-2-opener-subheader">Before you start ecobricking, choose one specific bottle and stick with it.</h5>
+                        <h4 data-lang-id="016-block-2-opener-header">Green Spaces</h4>
+                        <h5 data-lang-id="017-block-2-opener-subheader">Ecobrick & Earth construction is ideal for simple, non-structural green spaces that serve your local community and ecosystem.</h5>
                         <br>
                     </div>
                     <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
                 </div>
 
                 <div id="preclosed2">
-                    <br>
-                    <img src="../svgs/02-Choose-your-Bottle-1.svg" width="640" alt="Choose the ideal bottle type" loading="lazy" class="full-width-image" data-lang-id="018-block-2-main-image-alt">
-                    <br>
-                    <p data-lang-id="019-block-2-paragraph-1">When it comes time to building, having perfectly identical ecobrick sizes is important for making solid and steady modules. It also helps having at least the same general size of bottle when it comes to building with earth and ecobricks. Talk with ecobrickers in your community and make the choice together of what bottle to use.</p>
-                    <p data-lang-id="020-block-2-paragraph-2">When selecting the bottle that you will use, consider three factors: the bottle’s availability, the volume, and the project you will use the ecobrick for.</p>
 
-                    <ol style="font-size: smaller;color:var(--text-color)">
-                        <li>
-                            <p data-lang-id="021-block-2-list-availability"><strong>Availability</strong></p>
-                            <p data-lang-id="022-block-2-list-availability-detail">The last thing you want to have to do is buy drinks to have a bottle for your ecobricking! Soon many people will be ecobricking in your community and it is ideal to have everyone using the same brand and bottle. Be sure to choose a bottle that everyone can easily come by.</p>
-                        </li>
-                        <li>
-                            <p data-lang-id="023-block-2-list-volume"><strong>Bottle Volume</strong></p>
-                            <p data-lang-id="024-block-2-list-volume-detail">Choose the bottle volume you want to go with. GEA Trainers teach ecobricking with bottles under 600ml. Large 1500ml bottles will take a lot of plastic, but also take a long time to make! Small volume bottles allow first-time ecobrickers to finish their first ecobrick and quickly learn from their mistakes. Large bottles are best for advanced ecobrickers.</p>
-                        </li>
-                        <li>
-                            <p data-lang-id="025-block-2-list-project"><strong>Your Project</strong></p>
-                            <p data-lang-id="026-block-2-list-project-detail">For building modules with Ecobricks, you need bottles that are exactly the same size and shape. For outdoor building projects, exact sameness is not so important, so long as the volume is consistent (i.e. all 600ml bottles). Depending on the size of construction, you will need different size bottles. For example, small bottles make good walls, and large bottles make good benches.</p>
-                        </li>
-                    </ol>
-                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-2">
-                        <div class="advanced-box-header" id="advancedBoxLabel-2">
-                            <div class="advanced-title" data-lang-id="027-block-2-advanced-title">Advanced</div>
-                            <div class="advanced-open-icon"  >+</div>
+                    <div id="three-column-gal" class="three-column-gal">
+
+                        <!--photo1-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth1.jpg?v=2', 'Mud Mosque in Djene, Mali')">
+                            <img src="../photos/earth1.jpg?v=2" alt="Mud Mosque in Djene, Mali">
+                            <p data-lang-id="009-photo-caption">Mud Mosque in Djene, Mali</p>
                         </div>
-                        <div class="advanced-box-content">
-                            <p data-lang-id="028-block-2-advanced-paragraph">💡 If you’re thinking of making <a href="../dms">Dieleman Lego Modules</a> with your ecobricks, you must also consider the top tapper of your bottle. Dieleman modules work best when the distance between the top of the bottle and the start of the tapper is small. This allows more surface area for the inverted peg of the Dieleman module to be attached.</p>
+
+                        <!--photo2-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth2.jpg', '16th Century Tudor Cob Home, England')">
+                            <img src="../photos/earth2.jpg" alt="16th Century Tudor Cob Home, England">
+                            <p data-lang-id="010-photo-caption">16th Century Tudor Cob Home - England</p>
                         </div>
-                    </div>
+
+                        <!--photo3-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth3.jpg', 'Ancient Navajo Dwelling')">
+                            <img src="../photos/earth3.jpg" alt="Ancient Navajo Dwelling">
+                            <p data-lang-id="011-photo-caption">Ancient Navajo Dwelling -New Mexico, America</p>
+                        </div>
+
+
+                    </div><!--closes gallery-->
+
+                    <p>The Global Ecobrick Alliance recommends building small scale green spaces that serve your local community.  This means that you can enlist the help of your neighbours to not only get the ecobricks you need, but to help you build.  Small builds of two to three layers embody can easily embody all the principles of earth and ecobrick building and plastic sequestration and make full use of the unique properties of ecobricks for building.</p>
+
+                    <p>Horizontally laid ecobricks are ideal for creating curving garden benches/raised-beds where we can sit, play and eat.   In particular we recommend design spaces that can be gardened with edible plants (fruit trees, berries, herbs, etc.).   Given that most of the plastic we stuff into our ecobricks comes from food packaging, building gardens that grow real food, is pretty apt!  </p>
+
+                    <p>Because Ecobrick and earth building methods are non-capital and replicable, students and youth groups can take full charge of a project– from making the ecobricks, to designing the space, to building and gardening.  This creates a sense of pride and ownership that is greatly empowering.   Best of all, the earth and ecobrick technique you will learn is indefinitely scalable– these are the same fundamentals used to construct houses and buildings.</p>
+
+                    <p>Done properly, benches can be stood on and used to play tag.  Done poorly, well…  a bench does not have the same risks considerations as a wall or structure.  Ecobrick green spaces are a great educactional launch into earth building.</p>
+
                 </div>
             </div>
         </section>

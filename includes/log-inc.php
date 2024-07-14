@@ -5,17 +5,18 @@
   
 <STYLE>
 
-
-    .brik-modal-message-text {
-        font-size: 1em;
+    .preview-text {
         font-family: 'Mulish', Arial, Helvetica, sans-serif;
         font-weight: 300;
         -webkit-font-smoothing: antialiased;
         color: var(--text-color);
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
+
     @media screen and (min-width: 700px) {
-        .brik-type-text {
+        .preview-text {
             font-size: 1em;
         }
 
@@ -26,8 +27,8 @@
     }
 
     @media screen and (max-width: 700px) {
-        .brik-type-text {
-            font-size: 1em;
+        .preview-text {
+            font-size: 0.8em;
         }
         .brik-type-image img {
             height: 200px;

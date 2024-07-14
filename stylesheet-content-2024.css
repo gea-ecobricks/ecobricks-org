@@ -582,14 +582,7 @@ margin-top: 40px;
     color: #fff;
 }
 
-.preview-text {
-    font-family: 'Mulish', Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    -webkit-font-smoothing: antialiased;
-    color: var(--text-color);
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+
 
 .preview-title {
     position: absolute;

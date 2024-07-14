@@ -362,9 +362,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         switch(type) {
             case 'ocean':
                 content = `
-                <img class="brik-type-image" src="../svgs/oebs.svg" alt="Ocean Ecobrick Image" height="200" width="200">
+                <img class="preview-image" class="brik-type-image" src="../svgs/oebs.svg" alt="Ocean Ecobrick Image" height="200" width="200">
                 <h4>Ocean Ecobricks</h4>
-                <div class=".brik-modal-message-text ">The Ocean Ecobrick is a new class of ecobrick especially designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
+                <div class="preview-text">The Ocean Ecobrick are designed for plastics found on beaches, rivers and in the ocean where plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
                 <a class="preview-btn" href="/ocean">Learn more</a>
             `;
                 break;
@@ -379,9 +379,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 break;
             case 'regular':
                 content = `
-                <img src="../pngs/justandecobrick.png" alt="Regular Ecobrick Image" height="300" width="300">
+                <img class="preview-image" src="../pngs/justandecobrick.png" alt="Regular Ecobrick Image" height="300" width="300">
                 <h3>Regular Ecobricks</h3>
-                <p>An ecobrick is a PET bottle packed solid with used plastic to the standards of plastic sequestration in order to make a reusable building block. There are several types of ecobricks-- ocean ecobricks, cigbricks and normal ecobricks. A normal ecobrick is an uncut bottle packed solid with used plastic to a set density (between 0.33 and 0.7 g/ml) to make a reusable building block.</p>
+                <p class="preview-text">An ecobrick is a PET bottle packed solid with used plastic to the standards of plastic sequestration in order to make a reusable building block. There are several types of ecobricks-- ocean ecobricks, cigbricks and normal ecobricks. A normal ecobrick is an uncut bottle packed solid with used plastic to a set density (between 0.33 and 0.7 g/ml) to make a reusable building block.</p>
                 <a class="preview-btn" href="what.php">Learn more</a>
             `;
                 break;
