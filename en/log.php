@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='1.35';?>
+    <?php $version='1.36';?>
     <?php $page='log';?>
 
     <?php require_once ("../includes/log-inc.php");?>
@@ -395,7 +395,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         modal.style.display = 'flex';
         document.getElementById('page-content').classList.add('blurred');
         document.getElementById('footer-full').classList.add('blurred');
-        document.body.classList.add('modal-open');
+        // document.body.classList.add('modal-open');
     }
 
 

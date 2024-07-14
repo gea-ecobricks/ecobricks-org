@@ -44,7 +44,7 @@
 
 
 
-        <section id="SAVE">
+        <section id="CAUTION">
             <div class="reg-content-block" id="block1" style="background:orange;">
                 <div class="opener-header">
                     <div class="opener-header-text">
@@ -66,7 +66,7 @@
             </div>
         </section>
 
-        <section id="CHOOSE">
+        <section id="GREEN">
             <div class="reg-content-block" id="block2">
                 <div class="opener-header">
                     <div class="opener-header-text">
@@ -89,7 +89,7 @@
 
                         <!--photo2-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
-                            <img src="../photos/green-space2.jpg.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
+                            <img src="../photos/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
                             <p data-lang-id="010-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
                         </div>
 
