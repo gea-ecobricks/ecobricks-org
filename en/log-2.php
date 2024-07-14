@@ -246,22 +246,49 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
             <br>
 
+
             <form id="photoform" action="" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="ecobrick_unique_id" value="<?php echo $ecobrick_unique_id; ?>">
                 <input type="hidden" name="serial_no" value="<?php echo $serial_no; ?>">
-                <!-- Photo 1 Main & Thumbnail -->
+
+                <!-- Eenscribe Field -->
                 <div class="form-item">
+                    <label for="enscribe" data-lang-id="enscribe-label">How would you like to enscribe the serial number on your ecobrick?</label><br>
+                    <select id="enscribe" name="enscribe" required>
+                        <option value="" disabled selected>Select one...</option>
+                        <option value="Permanent marker">Permanent marker</option>
+                        <option value="Impermanent marker">Impermanent marker</option>
+                        <option value="Enamel paint">Enamel paint</option>
+                        <option value="Nail polish">Nail polish</option>
+                        <option value="Plastic insert">Plastic insert</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <!-- Photo Options Field -->
+                <div class="form-item" id="photo-options-container" style="display: none;">
+                    <label for="photo-options" data-lang-id="photo-options-label">What kind of photo would you like to log of your ecobrick?</label><br>
+                    <select id="photo-options" name="photo-options" required>
+                        <option value="" disabled selected>Select one...</option>
+                        <option value="basic">A basic ecobrick photo</option>
+                        <option value="selfie">A selfie photo</option>
+                        <option value="both">A basic photo and a selfie photo (best option)</option>
+                    </select>
+                </div>
+
+                <!-- Photo 1 Main & Thumbnail -->
+                <div class="form-item" id="basic-photo" style="display: none;">
                     <div>
-                        <label for="ecobrick_photo_main" data-lang-id="003-feature-photo">Ecobrick image:</label><br>
-                        <input type="file" id="ecobrick_photo_main" name="ecobrick_photo_main" required>
+                        <label for="ecobrick_photo_main" data-lang-id="003-feature-photo">Upload a basic ecobrick photo:</label><br>
+                        <input type="file" id="ecobrick_photo_main" name="ecobrick_photo_main">
                         <p class="form-caption" data-lang-id="004-feature-desc">Please choose a photo of the ecobrick. Required.</p>
                     </div>
                 </div>
 
                 <!-- Selfie Photo Main & Thumbnail -->
-                <div class="form-item">
-                    <label for="selfie_photo_main" data-lang-id="005-another-photo">Maker with Ecobrick image:</label><br>
-                    <input type="file" id="selfie_photo_main" name="selfie_photo_main" required>
+                <div class="form-item" id="selfie-photo" style="display: none;">
+                    <label for="selfie_photo_main" data-lang-id="005-another-photo">Upload an ecobrick selfie:</label><br>
+                    <input type="file" id="selfie_photo_main" name="selfie_photo_main">
                     <p class="form-caption" data-lang-id="006-another-photo-optional">Please choose a photo of the maker with the ecobrick. Required.</p>
                 </div>
 
@@ -269,6 +296,9 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                     <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload">
                 </div>
             </form>
+
+
+
         </div>
 
         <div id="upload-success" class="form-container" style="display:none;">
@@ -305,34 +335,50 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
 
 <script>
-    
-//DELETE BUTTON
-
-// Define messages for different languages
-var messages = {
-    en: 'Are you sure you want to delete this project? This action cannot be undone.',
-    id: 'Apakah Anda yakin ingin menghapus proyek ini? Tindakan ini tidak dapat dibatalkan.',
-    es: '¿Estás seguro de que deseas eliminar este proyecto? Esta acción no se puede deshacer.',
-    fr: 'Êtes-vous sûr de vouloir supprimer ce projet ? Cette action est irréversible.'
-};
-
-// Detect the current language, defaulting to English if not set or unsupported
-var currentLang = window.currentLanguage || 'en';
-var confirmationMessage = messages[currentLang] || messages.en;
-
-// Set up the event listener
-document.getElementById('deleteButton').addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent navigation
-    if (confirm(confirmationMessage)) {
-        document.getElementById('deleteForm').submit();
-    }
-});
 
 
+    document.addEventListener('DOMContentLoaded', function () {
+        const enscribeField = document.getElementById('enscribe');
+        const photoOptionsField = document.getElementById('photo-options');
+        const photoOptionsContainer = document.getElementById('photo-options-container');
+        const basicPhotoField = document.getElementById('basic-photo');
+        const selfiePhotoField = document.getElementById('selfie-photo');
+
+        function showHidePhotoFields() {
+            if (enscribeField.value) {
+                photoOptionsContainer.style.display = 'block';
+            } else {
+                photoOptionsContainer.style.display = 'none';
+                basicPhotoField.style.display = 'none';
+                selfiePhotoField.style.display = 'none';
+            }
+
+            if (photoOptionsField.value) {
+                if (photoOptionsField.value === 'basic') {
+                    basicPhotoField.style.display = 'block';
+                    selfiePhotoField.style.display = 'none';
+                } else if (photoOptionsField.value === 'selfie') {
+                    basicPhotoField.style.display = 'none';
+                    selfiePhotoField.style.display = 'block';
+                } else if (photoOptionsField.value === 'both') {
+                    basicPhotoField.style.display = 'block';
+                    selfiePhotoField.style.display = 'block';
+                }
+            } else {
+                basicPhotoField.style.display = 'none';
+                selfiePhotoField.style.display = 'none';
+            }
+        }
+
+        enscribeField.addEventListener('change', showHidePhotoFields);
+        photoOptionsField.addEventListener('change', showHidePhotoFields);
+    });
 
 
 
-//UPLOAD SUBMIT ACTION AND BUTTON
+
+
+    //UPLOAD SUBMIT ACTION AND BUTTON
 
 document.querySelector('#photoform').addEventListener('submit', function(event) {
     event.preventDefault();
