@@ -235,7 +235,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 <!--                </div>-->
 
                 <div class="splash-image" data-lang-id="003-weigh-plastic-image-alt">
-                    <img src="../svgs/snapit.svg?v=2width:55%; margin:auto" alt="Please take a square photo">
+                    <img src="../svgs/snapit.svg?v=3" style="width:55%; margin:auto" alt="Please take a square photo">
                 </div>
                 <div><h2 data-lang-id="001-form-title">Record Serial & Take Photo</h2></div>
 
