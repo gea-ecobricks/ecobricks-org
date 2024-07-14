@@ -25,7 +25,7 @@ if (isset($_GET['id'])) {
     $stmt->close();
 }
 
-echo "<script>var density = $density, volume_ml = '$volume', weight_g = '$weight';</script>";
+echo "<script>var density = $density, niversal_volume_ml = '$volume', weight_g = '$weight';</script>";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id'])) {
     $ecobrick_unique_id = (int)$_POST['ecobrick_unique_id'];
