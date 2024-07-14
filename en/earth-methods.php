@@ -16,7 +16,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Methods & Techniques</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Earth & Ecobrick Building Guidelines.</div>
 	</div> 
-	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/earth-home-animated-v4.svg" style="width: 85%" alt="Ecobrick & Earth Building methods and guidelines">
+	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Ecobrick & Earth Building methods and guidelines">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -48,71 +48,20 @@
             <div class="reg-content-block" id="block1">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="006-block-1-opener-header">1. Save, Segregate, Clean & Dry Plastics</h4>
-                        <h5 data-lang-id="007-block-1-opener-subheader">Ecobricks are made with clean and dry plastic.  Start by segregating your plastic from all other materials. </h5>
+                        <h4 data-lang-id="006-block-1-opener-header">CAUTION!</h4>
+                        <h5 data-lang-id="007-block-1-opener-subheader"><b>Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b> </h5>
                         <br>
                     </div>
                     <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
                 </div>
 
                 <div id="preclosed1">
-                    <p data-lang-id="008-block-1-opener-main-image-alt">
-                        <img src="../pngs/01-Save-Segregate-Prep-your-Plastics-800px.png" width="640" loading="lazy" class="full-width-image" alt="Save, segragate, clean, dry plastics"></p>
 
-                    <p data-lang-id="009-block-1-opener-subheader"> Some ecobrickers bring a bottle with them everywhere they go.  Others save up their ecobrickable plastic in a bin til they have time to get to it.</p>
-                    <p data-lang-id="010-block-1-paragraph">If there is any food, oil or dirt on your plastic, be sure to wash it off.  Dirty plastic inside an ecobrick will lead to microbiological growth and methane forming inside your ecobrick (for a solution for dirty plastic see the Ocean Ecobrick).  Since ecobricks are often used to make home furniture you also want to avoid unsightly ecobricks, bloated bottles and in rare cases, caps popping off.</p>
+                    <p data-lang-id="009-block-1-opener-subheader">Today’s conventional construction is driven by capital and relies on industrial methods and materials with additive plastic and CO2 impacts (greying).  GEA recommended building methods are based on regenerative principles to ensure that their net CO2 and plastic impacts are subtractive (greening).</p>
 
-                    <p data-lang-id="011-block-1-opener-subheader">Its likewise important that the plastic is dry!  Wet and moist plastic will also encourage mircobial growth.  Ecobrikers around the world use different methods for drying their washed plastic– from laundry machines to cloths lines.</p>
-
-                    <div id="three-column-gal" class="three-column-gal">
-
-                        <!--photo1-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean1.jpeg', 'Cleaning plastic before ecobricking is important')">
-                            <img src="../photos/how/clean1.jpeg" alt="Cleaning plastic before ecobricking is important">
-                            <p>Cleaning plastic before ecobricking is important</p>
-                        </div>
-
-                        <!--photo2-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean2.jpeg', 'Hang dry plastic in the sun')">
-                            <img src="../photos/how/clean2.jpeg" alt="Hang dry plastic in the sun">
-                            <p>Hang dry plastic in the sun</p>
-                        </div>
-
-                        <!--photo3-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/how/clean3.jpeg', 'Ensure plastic is dry befor packing')">
-                            <img src="../photos/how/clean3.jpeg" alt="Ensure plastic is dry befor packing">
-                            <p>Ensure plastic is dry befor packing</p>
-                        </div>
-
-                    </div><!--closes gallery-->
-
-                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1">
-                        <div class="advanced-box-header"  id="advancedBoxLabel-1">
-                            <div class="advanced-title" data-lang-id="012-block-1-advanced">Advanced</div>
-                            <div class="advanced-open-icon" >+
-                            </div>
-                        </div>
+                    <a href="earth.php">Learn more about Ecobrick & Earth Building Principles</a>
 
 
-
-
-                        <div class="advanced-box-content">
-                            <div class="row">
-
-                                <div class="main2">
-                                    <p data-lang-id="013-block-1-advanced-paragraph">💡 Many ecobrickers track their household’s plastic consumption on a monthly basis in order to determine their <a href="../ptr">Plastic Transition Ratio (PTR)</a>.  Over the course of the calendar month they save, clean and dry their consumed plastic and put it into a dedicated bin.  At the end of the month, they weigh this plastic and record the amount (our GoBrik app can help you do this!).</p>
-                                </div>
-
-                                <div class="side2">
-                                    <p data-lang-id="014-block-1-advanced-image-alt"><img src="../pngs/weighed-plastic-150x150.png" width="150" height="150" loading="lazy" alt="weighed plastic">
-                                    </p>
-                                </div>
-
-                                <p data-lang-id="015-block-1-advanced-paragraph">They then transfer this plastic into their “To Ecobrick” bin, which anyone in the home can use to directly ecobrick.  Month by month ecobrickers track their plastic, and compare it to their month ecobrick.  This enables them to determine their PTR and their progress reaching zero waste and going beyond!</p>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -334,6 +283,9 @@
             </div>
         </section>
 
+
+
+
         <br>
         <div class="row">
             <div class="main2">
@@ -350,7 +302,7 @@
                 <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
             </div>
         </div>
-        </article>
+
 
     </div> <!--closes main-->
 
