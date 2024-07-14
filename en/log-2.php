@@ -25,7 +25,7 @@ if (isset($_GET['id'])) {
     $stmt->close();
 }
 
-echo "<script>var density = $density, volume = '$volume', weight = '$weight';</script>";
+echo "<script>var density = $density, volume_ml = '$volume', weight_g = '$weight';</script>";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id'])) {
     $ecobrick_unique_id = (int)$_POST['ecobrick_unique_id'];
@@ -134,43 +134,46 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
     <?php require_once ("../includes/log-inc.php");?>
 
     <script>
-
         function showDensityConfirmation(density, volume, weight) {
             const modal = document.getElementById('form-modal-message');
             const messageContainer = modal.querySelector('.modal-message');
             let content = '';
 
+            // Hide all buttons with class "x-button"
+            const xButtons = document.querySelectorAll('.x-button');
+            xButtons.forEach(button => button.style.display = 'none');
+
             if (density < 0.33) {
                 content = `
-            <img class="preview-image" class="brik-type-image" src="../svgs/stop.svg" alt="Under Density Image" height="200" width="200">
+            <h1>⛔</h1>
             <h4>Under Density</h4>
             <div class="preview-text">Your ecobrick's density of ${density} is under the GEA standard of 0.33g/ml. Please check that you have entered the weight and volume correctly. If so, then please repack your ecobrick with more plastic to achieve minimum density. GEA guidelines are developed to ensure the building integrity, fire safety and reusability of an ecobrick.</p>
             <a class="preview-btn" href="/what">GEA Standards</a>
         `;
             } else if (density >= 0.33 && density < 0.36) {
                 content = `
-            <img class="preview-image" class="brik-type-image" src="../svgs/warning.svg" alt="Low Density Image" height="200" width="200">
+            <h1>⚠️</h1>
             <h4>Low Density</h4>
             <div class="preview-text">Careful, your ecobrick's density of ${density} is low. Your ${volume} bottle packed with ${weight} of plastic passes the minimum standard of 0.33g/ml however, its density makes it less solid, fire safe and reusable. See if you can pack more plastic next time.</p>
             <a class="preview-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
         `;
             } else if (density >= 0.36 && density < 0.65) {
                 content = `
-            <img class="preview-image" class="brik-type-image" src="../svgs/great-job.svg" alt="Ideal Density Image" height="200" width="200">
+            <h1>👍</h1>
             <h4>Great job!</h4>
             <div class="preview-text">Your ecobrick's density of ${density} is ideal. It passes the minimum standard of 0.33g/ml making it solid, fire safe and reusable.</p>
             <a class="preview-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
         `;
             } else if (density >= 0.65 && density < 0.73) {
                 content = `
-            <img class="preview-image" class="brik-type-image" src="../svgs/warning.svg" alt="High Density Image" height="200" width="200">
+            <h1>⚠️</h1>
             <h4>High Density</h4>
             <div class="preview-text">Careful, your ecobrick's density of ${density} is very high. Your ${volume} bottle packed with ${weight} of plastic is under the maximum density of 0.73g/ml however, its high density makes it nearly too solid and too heavy for certain ecobrick applications.</p>
             <a class="preview-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
         `;
             } else if (density >= 0.73) {
                 content = `
-            <img class="preview-image" class="brik-type-image" src="../svgs/stop.svg" alt="Over Density Image" height="200" width="200">
+            <h1>⛔</h1>
             <h4>Over Max Density</h4>
             <div class="preview-text">Your ecobrick's density of ${density} is over the GEA standard of 0.73g/ml. Please check that you have entered the weight and volume correctly. If so, then please repack your ecobrick with less plastic. GEA guidelines are developed to ensure the safety and usability of ecobricks for all short and long term applications.</p>
             <a class="preview-btn" href="log.php">Go Back</a>
@@ -200,10 +203,15 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             document.getElementById('footer-full').classList.remove('blurred');
             document.body.classList.remove('modal-open');
             document.body.style.overflow = ''; // Re-enable body scrolling
+
+            // Show all buttons with class "x-button" again
+            const xButtons = document.querySelectorAll('.x-button');
+            xButtons.forEach(button => button.style.display = 'inline-block');
         }
 
         // Assuming density, volume, and weight are set in your PHP and passed to JavaScript
         showDensityConfirmation(density, volume, weight);
+
 
 
     </script>
@@ -221,7 +229,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
             </div>
 
-            <div class="splash-form-content-block" style="text-align:center">
+            <div class="splash-form-content-block" style="text-align:center; display:flex;flex-flow:column;">
 <!--                <div class="splash-box">-->
 
 <!--                </div>-->
@@ -229,7 +237,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
                     <img src="../pngs/weigh-your-plastic-1.png" style="width:35%" alt="Please take a square photo">
                 </div>
-                <h4 data-lang-id="001-form-title">Record Serial & Take Photo</h4>
+                <div><h4 data-lang-id="001-form-title">Record Serial & Take Photo</h4></div>
 
             </div>
 
