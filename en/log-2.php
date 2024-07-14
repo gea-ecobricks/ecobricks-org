@@ -196,18 +196,18 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             modal.style.top = `${scrollTop}px`;
         }
 
-        // function closeModal() {
-        //     const modal = document.getElementById('form-modal-message');
-        //     modal.style.display = 'none';
-        //     document.getElementById('page-content').classList.remove('blurred');
-        //     document.getElementById('footer-full').classList.remove('blurred');
-        //     document.body.classList.remove('modal-open');
-        //     document.body.style.overflow = ''; // Re-enable body scrolling
-        //
-        //     // Show all buttons with class "x-button" again
-        //     const xButtons = document.querySelectorAll('.x-button');
-        //     xButtons.forEach(button => button.style.display = 'inline-block');
-        // }
+        function closeModal() {
+            const modal = document.getElementById('form-modal-message');
+            modal.style.display = 'none';
+            document.getElementById('page-content').classList.remove('blurred');
+            // document.getElementById('footer-full').classList.remove('blurred');
+            document.body.classList.remove('modal-open');
+            document.body.style.overflow = ''; // Re-enable body scrolling
+
+            // Show all buttons with class "x-button" again
+            const xButtons = document.querySelectorAll('.x-button');
+            xButtons.forEach(button => button.style.display = 'inline-block');
+        }
 
         // Assuming density, volume, and weight are set in your PHP and passed to JavaScript
         showDensityConfirmation(density, volume, weight);
