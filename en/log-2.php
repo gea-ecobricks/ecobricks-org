@@ -339,7 +339,6 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
 
 <script>
-
     document.addEventListener('DOMContentLoaded', function () {
         const enscribeField = document.getElementById('enscribe');
         const photoOptionsField = document.getElementById('photo-options');
@@ -377,7 +376,10 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             }
 
             // Check if a photo has been selected in either photo field
-            if (document.getElementById('ecobrick_photo_main').files.length > 0 || document.getElementById('selfie_photo_main').files.length > 0) {
+            const basicPhotoSelected = document.getElementById('ecobrick_photo_main').files.length > 0;
+            const selfiePhotoSelected = document.getElementById('selfie_photo_main').files.length > 0;
+
+            if (basicPhotoSelected || selfiePhotoSelected) {
                 submitButton.style.display = 'block';
             } else {
                 submitButton.style.display = 'none';
@@ -393,8 +395,6 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
         // Initial state
         submitButton.style.display = 'none';
     });
-
-
 
 
     //UPLOAD SUBMIT ACTION AND BUTTON
