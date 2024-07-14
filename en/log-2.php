@@ -25,22 +25,24 @@ if (isset($_GET['id'])) {
     $stmt->close();
 }
 
+echo "<script>var density = $density, volume = '$volume', weight = '$weight';</script>";
+
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id'])) {
     $ecobrick_unique_id = (int)$_POST['ecobrick_unique_id'];
     $serial_no = $_POST['serial_no']; // Ensure serial_no is passed from the previous step
     include '../project-photo-functions.php';
 
     // Handle ecobrick deletion
-    if (isset($_POST['action']) && $_POST['action'] == 'delete_ecobrick') {
-        $deleteResult = deleteEcobrick($ecobrick_unique_id, $conn);
-        if ($deleteResult === true) {
-            echo "<script>alert('Ecobrick has been successfully deleted.'); window.location.href='add-ecobrick.php';</script>";
-            exit;
-        } else {
-            echo "<script>alert('" . $deleteResult . "');</script>";
-            exit;
-        }
-    }
+//    if (isset($_POST['action']) && $_POST['action'] == 'delete_ecobrick') {
+//        $deleteResult = deleteEcobrick($ecobrick_unique_id, $conn);
+//        if ($deleteResult === true) {
+//            echo "<script>alert('Ecobrick has been successfully deleted.'); window.location.href='add-ecobrick.php';</script>";
+//            exit;
+//        } else {
+//            echo "<script>alert('" . $deleteResult . "');</script>";
+//            exit;
+//        }
+//    }
 
     $upload_dir = '../briks/';
     $thumbnail_dir = '../briks/thumbnails/';
@@ -130,6 +132,81 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
     <?php $page='log';?>
 
     <?php require_once ("../includes/log-inc.php");?>
+
+    <script>
+
+        function showDensityConfirmation(density, volume, weight) {
+            const modal = document.getElementById('form-modal-message');
+            const messageContainer = modal.querySelector('.modal-message');
+            let content = '';
+
+            if (density < 0.33) {
+                content = `
+            <img class="preview-image" class="brik-type-image" src="../svgs/stop.svg" alt="Under Density Image" height="200" width="200">
+            <h4>Under Density</h4>
+            <div class="preview-text">Your ecobrick's density of ${density} is under the GEA standard of 0.33g/ml. Please check that you have entered the weight and volume correctly. If so, then please repack your ecobrick with more plastic to achieve minimum density. GEA guidelines are developed to ensure the building integrity, fire safety and reusability of an ecobrick.</p>
+            <a class="preview-btn" href="/what">GEA Standards</a>
+        `;
+            } else if (density >= 0.33 && density < 0.36) {
+                content = `
+            <img class="preview-image" class="brik-type-image" src="../svgs/warning.svg" alt="Low Density Image" height="200" width="200">
+            <h4>Low Density</h4>
+            <div class="preview-text">Careful, your ecobrick's density of ${density} is low. Your ${volume} bottle packed with ${weight} of plastic passes the minimum standard of 0.33g/ml however, its density makes it less solid, fire safe and reusable. See if you can pack more plastic next time.</p>
+            <a class="preview-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
+        `;
+            } else if (density >= 0.36 && density < 0.65) {
+                content = `
+            <img class="preview-image" class="brik-type-image" src="../svgs/great-job.svg" alt="Ideal Density Image" height="200" width="200">
+            <h4>Great job!</h4>
+            <div class="preview-text">Your ecobrick's density of ${density} is ideal. It passes the minimum standard of 0.33g/ml making it solid, fire safe and reusable.</p>
+            <a class="preview-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
+        `;
+            } else if (density >= 0.65 && density < 0.73) {
+                content = `
+            <img class="preview-image" class="brik-type-image" src="../svgs/warning.svg" alt="High Density Image" height="200" width="200">
+            <h4>High Density</h4>
+            <div class="preview-text">Careful, your ecobrick's density of ${density} is very high. Your ${volume} bottle packed with ${weight} of plastic is under the maximum density of 0.73g/ml however, its high density makes it nearly too solid and too heavy for certain ecobrick applications.</p>
+            <a class="preview-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
+        `;
+            } else if (density >= 0.73) {
+                content = `
+            <img class="preview-image" class="brik-type-image" src="../svgs/stop.svg" alt="Over Density Image" height="200" width="200">
+            <h4>Over Max Density</h4>
+            <div class="preview-text">Your ecobrick's density of ${density} is over the GEA standard of 0.73g/ml. Please check that you have entered the weight and volume correctly. If so, then please repack your ecobrick with less plastic. GEA guidelines are developed to ensure the safety and usability of ecobricks for all short and long term applications.</p>
+            <a class="preview-btn" href="log.php">Go Back</a>
+        `;
+            }
+
+            messageContainer.innerHTML = content;
+
+            // Show the modal and update other page elements
+            modal.style.display = 'flex';
+            document.getElementById('page-content').classList.add('blurred');
+            document.getElementById('footer-full').classList.add('blurred');
+            document.body.classList.add('modal-open');
+
+            // Disable body scrolling
+            document.body.style.overflow = 'hidden';
+
+            // Prevent page from scrolling to the top
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            modal.style.top = `${scrollTop}px`;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('form-modal-message');
+            modal.style.display = 'none';
+            document.getElementById('page-content').classList.remove('blurred');
+            document.getElementById('footer-full').classList.remove('blurred');
+            document.body.classList.remove('modal-open');
+            document.body.style.overflow = ''; // Re-enable body scrolling
+        }
+
+        // Assuming density, volume, and weight are set in your PHP and passed to JavaScript
+        showDensityConfirmation(density, volume, weight);
+
+
+    </script>
 
     <div class="splash-content-block"></div>
     <div id="splash-bar"></div>

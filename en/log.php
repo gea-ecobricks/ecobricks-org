@@ -370,7 +370,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 break;
             case 'cigbrick':
                 content = `
-                <img src="../pngs/cigbrickstandalone.png" alt="Cigbrick Image" height="250px" width="250px" class="preview-image">
+                <img src="../svgs/cigbrick.svg" alt="Cigbrick Image" height="250px" width="250px" class="preview-image">
                 <div class="preview-title">Cigbricks</div>
                 <div class="preview-text">Cigbricks are a new class of ecobrick design to transform the habit of smoking and the acetate from the cigarette filter into a personal and environmental solution. Cigbricks are made exclusively from the packed acetate filters of cigarette butts (with the paper removed).</div>
                 <a class="preview-btn" href="/cigbricks">Learn more</a>
