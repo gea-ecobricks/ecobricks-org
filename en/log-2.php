@@ -298,7 +298,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 </div>
 
                 <div data-lang-id="013-submit-upload-button">
-                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload">
+                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload" style="display: none;">
                 </div>
             </form>
 
@@ -545,7 +545,7 @@ function uploadSuccess(data) {
 
         // Add blur effect and hide overflow on page-content and footer-full
         document.getElementById('page-content').classList.add('blurred');
-        document.getElementById('footer-full').classList.add('blurred');
+        // document.getElementById('footer-full').classList.add('blurred');
         document.body.classList.add('modal-open');
 
         // Close modal when clicking outside
