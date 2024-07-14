@@ -154,7 +154,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 content = `
             <h1>⚠️</h1>
             <h4>Low Density</h4>
-            <div class="preview-text">Careful, your ecobrick's density of ${density} is low. Your ${volume} bottle packed with ${weight} of plastic passes the minimum standard of 0.33g/ml however, its density makes it less solid, fire safe and reusable. See if you can pack more plastic next time.</p>
+            <div class="preview-text">Careful, your ecobrick's density of ${density}ml is on the low side. It passes the minimum standard of 0.33g/ml however, its density makes it less solid, fire safe and reusable than it could be. Keep going and log this ecobrick, but see if you can pack more plastic next time.</p>
             <a class="preview-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
         `;
             } else if (density >= 0.36 && density < 0.65) {
@@ -226,7 +226,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
         <div class="form-container" id="upload-photo-form">
 
             <div class="step-graphic" style="width:fit-content;margin:auto;">
-                <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 2: Upload images">
+                <img src="../svgs/step2-log-project.svg" style="height:30px;margin-bottom:25px;" alt="Step 2: Upload images">
             </div>
 
             <div class="splash-form-content-block" style="text-align:center; display:flex;flex-flow:column;">
