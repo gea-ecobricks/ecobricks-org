@@ -327,7 +327,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
 
                 <div data-lang-id="016-submit-button">
-                    <input type="submit" value="Next: Upload Photo" aria-label="Submit Form">
+                    <input type="submit" value="Next: Check Ecobrick Density" aria-label="Submit Form">
                 </div>
 
                 <input type="hidden" id="location_country" name="location_country">
