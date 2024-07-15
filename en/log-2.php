@@ -279,15 +279,15 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 <div class="form-item" id="basic-photo" style="display: none;">
                     <div>
                         <img src="../svgs/basic.svg" style="width: 200px">
-                        <br>
+                        <br><br>
                         <label for="ecobrick_photo_main" data-lang-id="003-feature-photo">Upload a basic ecobrick photo:</label><br>
                         <ul>
-                            <li>1. Take a vertical portrait photo</li>
-                            <li>2. Be sure your photo shows the serial & weight clearly</li>
-                            <li>3. Be sure your photo shows your ecobricks bottom color</li>
-                            <li>4. Be sure your photo shows your ecobricks top</li>
-                            <li>5. Be sure your data is permanently enscribed!</li>
-                            <li>6. Do not use an external label to mark the ecobrick </li>
+                            <li>Take a vertical portrait photo</li>
+                            <li>Be sure your photo shows the serial & weight clearly</li>
+                            <li>Be sure your photo shows your ecobricks bottom color</li>
+                            <li>Be sure your photo shows your ecobricks top</li>
+                            <li>Be sure your data is permanently enscribed!</li>
+                            <li>Do not use an external label to mark the ecobrick </li>
                         </ul>
                         <input type="file" id="ecobrick_photo_main" name="ecobrick_photo_main">
                         <p class="form-caption" data-lang-id="004-feature-desc">Please choose a photo of the ecobrick. Required.</p>
@@ -297,10 +297,21 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 <!-- Selfie Photo Main & Thumbnail -->
                 <div class="form-item" id="selfie-photo" style="display: none;">
                     <img src="../svgs/selfie.svg" style="height: 200px">
-                    <br>
+                    <br><br>
                     <label for="selfie_photo_main" data-lang-id="005-another-photo">Upload an ecobrick selfie:</label><br>
+                    <ul>
+                        <li>Be sure your photo is a horizontal landscape</li>
+                        <li>Be sure your photo shows the serial & weight clearly</li>
+                        <li>Be sure your photo shows your ecobricks bottom color</li>
+                        <li>Be sure your photo shows your ecobricks top</li>
+                        <li>Be sure your data is permanently enscribed!</li>
+                        <li>Do not use an external label to mark the ecobrick</li>
+                        <li>And smile!</li>
+
+                    </ul>
+
                     <input type="file" id="selfie_photo_main" name="selfie_photo_main">
-                    <p class="form-caption" data-lang-id="006-another-photo-optional">Please choose a photo of the maker with the ecobrick. Required.</p>
+                    <p class="form-caption" data-lang-id="006-another-photo-optional">Your photo will be uploaded to on Ecobricks.org Brikchain.</p>
                 </div>
 
                 <div data-lang-id="013-submit-upload-button">
@@ -309,34 +320,23 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             </form>
 
 
-            <div style="margin-bottom:100px;">
-                <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
-            </div>
+
 
 
 
 
         </div>
 
-        <div id="upload-success" class="form-container" style="display:none;">
-            <div class="step-graphic" style="width:fit-content;margin:auto;">
-                <img src="../svgs/step3-log-project.svg" style="height:30px;margin-bottom:40px;" alt="Step 3: Upload Success">
-            </div>
-            <div id="upload-success-message"></div>
-            <a class="confirm-button" href="ecobrick.php?ecobrick_unique_id=<?php echo $_GET['ecobrick_unique_id']; ?>" data-lang-id="013-view-ecobrick-post">🎉 View Ecobrick Post</a>
-            <a class="confirm-button" data-lang-id="014-edit-ecobrick" href="edit-ecobrick.php?ecobrick_unique_id=<?php echo $_GET['ecobrick_unique_id']; ?>">Edit Ecobrick Post</a>
 
-            <form id="deleteForm" action="" method="POST">
-                <input type="hidden" name="ecobrick_unique_id" value="<?php echo htmlspecialchars($_GET['ecobrick_unique_id']); ?>">
-                <input type="hidden" name="action" value="delete_ecobrick">
-                <a class="confirm-button" style="background:red; cursor:pointer;" id="deleteButton" data-lang-id="014-delete-ecobrick">❌ Delete Ecobrick</a>
-            </form>
-        </div>
+
+
 
 
 
     </div>
-
+    <div style="margin-bottom:100px;">
+        <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
+    </div>
     <br><br>
 
     </div>
@@ -407,7 +407,6 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
 
     //UPLOAD SUBMIT ACTION AND BUTTON
-
     document.querySelector('#photoform').addEventListener('submit', function(event) {
         event.preventDefault();
 
@@ -426,9 +425,10 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
         var currentLang = window.currentLanguage || 'en';
         var chooseFileMessage = messages[currentLang] || messages.en;
 
-        var basicFileInput = document.getElementById('ecobrick_photo_main');
-        var selfieFileInput = document.getElementById('selfie_photo_main');
-        if (basicFileInput.files.length === 0 && selfieFileInput.files.length === 0) {
+        var fileInput = document.getElementById('ecobrick_photo_main');
+        var selfieInput = document.getElementById('selfie_photo_main');
+
+        if ((fileInput.files.length === 0 && selfieInput.files.length === 0)) {
             showFormModal(chooseFileMessage);
             button.innerHTML = originalButtonText; // Restore button text if no file chosen
             button.disabled = false; // Enable button
@@ -451,7 +451,11 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             if (xhr.readyState == XMLHttpRequest.DONE) {
                 button.innerHTML = originalButtonText; // Restore button text after upload
                 button.disabled = false; // Enable button
-                handleFormResponse(xhr.responseText);
+                if (xhr.status === 200) {
+                    window.location.href = 'upload-success.php'; // Redirect to success page
+                } else {
+                    handleFormResponse(xhr.responseText); // Handle error response
+                }
             }
         };
 
@@ -459,123 +463,12 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
         xhr.send(formData);
     });
 
-
-
-
-
-// Function to handle form submission response
-function handleFormResponse(response) {
-    try {
-        var responseData = JSON.parse(response);
-        if (responseData.error) {
-            showFormModal(responseData.error);
-            console.log(responseData.error);
-        } else {
-            // Call the uploadSuccess function with the new structure
-            uploadSuccess(responseData);
-        }
-    } catch (error) {
-        showFormModal("Error parsing server response: " + response);
-        console.error(error);
-    }
-}
-
-
-// Updated function to handle upload success with multiple images
-function uploadSuccess(data) {
-    // Define messages for different languages
-    var messages = {
-        en: {
-            heading: "Upload Successful!",
-            description: "Nice. Your project has now been added to the database.",
-            button: "➕ Add Next Project"
-        },
-        es: {
-            heading: "Carga Exitosa!",
-            description: "Genial. Tu proyecto ha sido agregado a la base de datos.",
-            button: "➕ Agregar Siguiente Proyecto"
-        },
-        fr: {
-            heading: "Téléchargement Réussi!",
-            description: "Super. Votre projet a été ajouté à la base de données.",
-            button: "➕ Ajouter le Projet Suivant"
-        },
-        id: {
-            heading: "Berhasil Diunggah!",
-            description: "Bagus. Proyek Anda telah ditambahkan ke dalam basis data.",
-            button: "➕ Tambah Proyek Berikutnya"
-        }
-    };
-
-    var currentLang = window.currentLanguage || 'en';
-    var selectedMessage = messages[currentLang] || messages.en;
-
-    var successMessage = '<h1>' + selectedMessage.heading + '</h1>';
-    successMessage += '<p>' + selectedMessage.description + '</p><br>';
-    
-    var galleryHTML = '<div id="three-column-gal" class="three-column-gal">';
-
-    // Iterate over the thumbnail_paths and full_urls to build the gallery items with added file size details
-    for (var i = 0; i < data.thumbnail_paths.length; i++) {
-        var directoryPathText = data.thumbnail_paths[i].substring(data.thumbnail_paths[i].lastIndexOf('/') + 1);
-        var captionText = directoryPathText + ' | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' KB | ' + data.main_file_sizes[i].toFixed(1) + ' KB';
-        var fullUrlText = data.full_urls[i];
-        var modalCaption = captionText = directoryPathText + ' | ' + data.main_file_sizes[i].toFixed(1) + ' Kb | ' + data.thumbnail_file_sizes[i].toFixed(1) + ' Kb';
-
-        galleryHTML += '<div class="gal-photo" onclick="viewGalleryImage(\'' + fullUrlText + '\', \'' + modalCaption + '\')">';
-        galleryHTML += '<img src="' + data.thumbnail_paths[i] + '" alt="' + directoryPathText + '">';
-        galleryHTML += '<p style="font-size:small;">' + captionText + '</p>';
-        galleryHTML += '</div>';
-    }
-
-    galleryHTML += '</div>';
-    successMessage += galleryHTML;
-
-    successMessage += '<a class="confirm-button" href="add-project.php">' + selectedMessage.button + '</a>';
-
-    var uploadSuccessDiv = document.getElementById('upload-success');
-    var uploadSuccessMessageDiv = document.getElementById('upload-success-message');
-    uploadSuccessMessageDiv.innerHTML = successMessage;
-    uploadSuccessDiv.style.display = 'block';
-
-    document.getElementById('upload-photo-form').style.display = 'none';
-    window.scrollTo(0, 0);
-}
-
-
-
-    // Function to show form modal
     function showFormModal(message) {
-        var modal = document.getElementById('form-modal-message');
-        var modalMessage = modal.querySelector('.modal-message');
-        var modalPhoto = modal.querySelector('.modal-photo-box');
-        modalMessage.innerHTML = message;
+        const modal = document.getElementById('form-modal-message');
+        const messageContainer = modal.querySelector('.modal-message');
+        messageContainer.innerHTML = message;
         modal.style.display = 'flex';
-        modalPhoto.style.display = 'none';
-
-        // Add blur effect and hide overflow on page-content and footer-full
-        document.getElementById('page-content').classList.add('blurred');
-        // document.getElementById('footer-full').classList.add('blurred');
-        document.body.classList.add('modal-open');
-
-        // Close modal when clicking outside
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                closeInfoModal();
-            }
-        }
     }
-
-    // // Function to close the modal
-    // function closeInfoModal() {
-    //     var modal = document.getElementById('form-modal-message');
-    //     modal.style.display = 'none';
-    //
-    //     // Remove blur effect and show overflow on page-content and footer-full
-    //     document.getElementById('page-content').classList.remove('blurred');
-    //     // document.getElementById('footer-full').classList.remove('blurred');
-    //     document.body.classList.remove('modal-open');
-    // }
 
 
 

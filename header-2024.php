@@ -502,7 +502,7 @@ display: none;
         <div class="modal-message"></div>
     </div>
     <div class="modal-photo-box" id="modal-photo-box">
-        <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button"></button>
+<!--        <button type="button" onclick="closeInfoModal()" aria-label="Click to close modal" class="x-button"></button>-->
         <div class ="modal-photo"></div>
     </div>
 

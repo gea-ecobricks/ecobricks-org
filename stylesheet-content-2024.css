@@ -565,23 +565,26 @@ margin-top: 40px;
     border-radius: 10px;
     font-family: 'Mulish', Arial, Helvetica, sans-serif;
     color: grey;
-    font-size: 16px;
+    font-size: 1.5em;
     padding: 8px 15px 8px 15px;
     text-decoration: none;
     border: 1px;
-    border-color: grey;
+
     cursor: pointer;
     text-align: center;
     width: 60%;
     margin: auto;
     display: block;
     border: solid;
-    margin-top: 10px;
+    margin-top: 25px;
+    background: #8080809c;
+    color: #fff;
 }
 
 .preview-btn:hover {
     background: grey;
     color: #fff;
+    border-color: white;
 }
 
 
