@@ -299,7 +299,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 </div>
 
                 <div data-lang-id="013-submit-upload-button">
-                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload" style="display: none;">
+                    <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload">
                 </div>
             </form>
 
@@ -392,7 +392,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
         document.getElementById('selfie_photo_main').addEventListener('change', showHidePhotoFields);
 
         // Initial state
-        // submitButton.style.display = 'none';
+        submitButton.style.display = 'none';
     });
 
 
