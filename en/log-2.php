@@ -134,6 +134,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
     <?php require_once ("../includes/log-inc.php");?>
 
     <script>
+
         function showDensityConfirmation(density, volume, weight) {
             const modal = document.getElementById('form-modal-message');
             const messageContainer = modal.querySelector('.modal-message');
@@ -190,10 +191,10 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
             // Disable body scrolling
             document.body.style.overflow = 'hidden';
-
-            // Prevent page from scrolling to the top
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            modal.style.top = `${scrollTop}px`;
+            //
+            // // Prevent page from scrolling to the top
+            // const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            // modal.style.top = `${scrollTop}px`;
         }
 
         function closeModal() {
