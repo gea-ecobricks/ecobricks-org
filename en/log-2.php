@@ -400,55 +400,56 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
     //UPLOAD SUBMIT ACTION AND BUTTON
 
-document.querySelector('#photoform').addEventListener('submit', function(event) {
-    event.preventDefault();
+    document.querySelector('#photoform').addEventListener('submit', function(event) {
+        event.preventDefault();
 
-    var button = document.getElementById('upload-progress-button');
-    var originalButtonText = button.value; // Save the original button text
-    button.innerHTML = '<div class="spinner-photo-loading"></div>'; // Replace button text with spinner
-    button.disabled = true; // Disable button to prevent multiple submissions
+        var button = document.getElementById('upload-progress-button');
+        var originalButtonText = button.value; // Save the original button text
+        button.innerHTML = '<div class="spinner-photo-loading"></div>'; // Replace button text with spinner
+        button.disabled = true; // Disable button to prevent multiple submissions
 
-    var messages = {
-        en: "Please choose a file.",
-        es: "Por favor, elige un archivo.",
-        fr: "Veuillez choisir un fichier.",
-        id: "Silakan pilih sebuah berkas."
-    };
+        var messages = {
+            en: "Please choose a file.",
+            es: "Por favor, elige un archivo.",
+            fr: "Veuillez choisir un fichier.",
+            id: "Silakan pilih sebuah berkas."
+        };
 
-    var currentLang = window.currentLanguage || 'en';
-    var chooseFileMessage = messages[currentLang] || messages.en;
+        var currentLang = window.currentLanguage || 'en';
+        var chooseFileMessage = messages[currentLang] || messages.en;
 
-    var fileInput = document.getElementById('photo1_main');
-    if (fileInput.files.length === 0) {
-        showFormModal(chooseFileMessage);
-        button.innerHTML = originalButtonText; // Restore button text if no file chosen
-        button.disabled = false; // Enable button
-        return;
-    }
-
-    var form = event.target;
-    var formData = new FormData(form);
-    var xhr = new XMLHttpRequest();
-
-    xhr.upload.onprogress = function(event) {
-        if (event.lengthComputable) {
-            var progress = (event.loaded / event.total) * 100;
-            document.getElementById('upload-progress-button').style.backgroundSize = progress + '%';
-            document.getElementById('upload-progress-button').classList.add('progress-bar');
-        }
-    };
-
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState == XMLHttpRequest.DONE) {
-            button.innerHTML = originalButtonText; // Restore button text after upload
+        var basicFileInput = document.getElementById('ecobrick_photo_main');
+        var selfieFileInput = document.getElementById('selfie_photo_main');
+        if (basicFileInput.files.length === 0 && selfieFileInput.files.length === 0) {
+            showFormModal(chooseFileMessage);
+            button.innerHTML = originalButtonText; // Restore button text if no file chosen
             button.disabled = false; // Enable button
-            handleFormResponse(xhr.responseText);
+            return;
         }
-    };
 
-    xhr.open(form.method, form.action, true);
-    xhr.send(formData);
-});
+        var form = event.target;
+        var formData = new FormData(form);
+        var xhr = new XMLHttpRequest();
+
+        xhr.upload.onprogress = function(event) {
+            if (event.lengthComputable) {
+                var progress = (event.loaded / event.total) * 100;
+                document.getElementById('upload-progress-button').style.backgroundSize = progress + '%';
+                document.getElementById('upload-progress-button').classList.add('progress-bar');
+            }
+        };
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == XMLHttpRequest.DONE) {
+                button.innerHTML = originalButtonText; // Restore button text after upload
+                button.disabled = false; // Enable button
+                handleFormResponse(xhr.responseText);
+            }
+        };
+
+        xhr.open(form.method, form.action, true);
+        xhr.send(formData);
+    });
 
 
 
