@@ -3,6 +3,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 ini_set('memory_limit', '256M'); // Increase memory limit
+ob_start(); // Start output buffering
 
 include '../ecobricks_env.php';
 
@@ -25,7 +26,6 @@ if (isset($_GET['id'])) {
     $stmt->close();
 }
 
-echo "<script>var density = $density, volume = '$universal_volume_ml', weight = '$weight_g';</script>";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id'])) {
     $ecobrick_unique_id = (int)$_POST['ecobrick_unique_id'];
@@ -88,11 +88,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id']))
     }
 
     if (!empty($error_message)) {
+        ob_end_clean(); // Clean the output buffer before sending headers
         http_response_code(400);
         header('Content-Type: application/json');
         echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
         exit;
     } else {
+        ob_end_clean(); // Clean the output buffer before sending headers
         $response = array(
             'ecobrick_unique_id' => $ecobrick_unique_id,
             'full_urls' => $full_urls,
@@ -105,6 +107,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id']))
         exit;
     }
 }
+
+echo "<script>var density = $density, volume = '$universal_volume_ml', weight = '$weight_g';</script>";
 
 
 function deleteEcobrick($ecobrick_unique_id, $conn) {
@@ -149,7 +153,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             <h1>⚠️</h1>
             <h4>Low Density</h4>
             <div class="preview-text">Careful, your ecobrick's density of ${density}ml is on the low side. It passes the minimum standard of 0.33g/ml however, its density makes it less solid, fire safe and reusable than it could be. Keep going and log this ecobrick, but see if you can pack more plastic next time.</p>
-            <a class="preview-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
+            <a class="module-btn" onclick="closeInfoModal()" aria-label="Click to close modal">Next: Register Serial</a>
         `;
             } else if (density >= 0.36 && density < 0.65) {
                 content = `
@@ -248,7 +252,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
                 <!-- Eenscribe Field -->
                 <div class="form-item">
-                    <label for="enscribe" data-lang-id="enscribe-label">How would you like to enscribe the serial number on your ecobrick?</label><br>
+                    <label for="enscribe" data-lang-id="enscribe-label">How would you like to inscribe the serial number on your ecobrick?</label><br>
                     <select id="enscribe" name="enscribe" required>
                         <option value="" disabled selected>Select one...</option>
                         <option value="Permanent marker">Permanent marker</option>
@@ -277,6 +281,14 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                         <img src="../svgs/basic.svg" style="width: 200px">
                         <br>
                         <label for="ecobrick_photo_main" data-lang-id="003-feature-photo">Upload a basic ecobrick photo:</label><br>
+                        <ul>
+                            <li>1. Take a vertical portrait photo</li>
+                            <li>2. Be sure your photo shows the serial & weight clearly</li>
+                            <li>3. Be sure your photo shows your ecobricks bottom color</li>
+                            <li>4. Be sure your photo shows your ecobricks top</li>
+                            <li>5. Be sure your data is permanently enscribed!</li>
+                            <li>6. Do not use an external label to mark the ecobrick </li>
+                        </ul>
                         <input type="file" id="ecobrick_photo_main" name="ecobrick_photo_main">
                         <p class="form-caption" data-lang-id="004-feature-desc">Please choose a photo of the ecobrick. Required.</p>
                     </div>
