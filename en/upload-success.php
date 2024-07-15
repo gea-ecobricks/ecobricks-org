@@ -5,18 +5,34 @@ error_reporting(E_ALL);
 
 include '../ecobricks_env.php';
 
+// Debug: Check if the ID parameter is being passed correctly
 if (isset($_GET['id'])) {
     $ecobrick_unique_id = (int)$_GET['id'];
+    echo "Ecobrick ID: " . $ecobrick_unique_id . "<br>"; // Debug line
 
     // Fetch the ecobrick details from the database
     $sql = "SELECT serial_no, ecobrick_full_photo_url, ecobrick_thumb_photo_url, selfie_photo_url, selfie_thumb_url 
             FROM tb_ecobricks 
             WHERE ecobrick_unique_id = ? AND status = 'authenticated'";
     $stmt = $conn->prepare($sql);
+
+    if ($stmt === false) {
+        echo "Prepare failed: (" . $conn->errno . ") " . $conn->error;
+        exit;
+    }
+
     $stmt->bind_param("i", $ecobrick_unique_id);
     $stmt->execute();
     $stmt->bind_result($serial_no, $ecobrick_full_photo_url, $ecobrick_thumb_photo_url, $selfie_photo_url, $selfie_thumb_url);
     $stmt->fetch();
+
+    // Debug: Check if the data is being fetched correctly
+    echo "Serial No: " . $serial_no . "<br>"; // Debug line
+    echo "Full Photo URL: " . $ecobrick_full_photo_url . "<br>"; // Debug line
+    echo "Thumb Photo URL: " . $ecobrick_thumb_photo_url . "<br>"; // Debug line
+    echo "Selfie Photo URL: " . $selfie_photo_url . "<br>"; // Debug line
+    echo "Selfie Thumb URL: " . $selfie_thumb_url . "<br>"; // Debug line
+
     $stmt->close();
 } else {
     echo "No ecobrick ID provided.";
