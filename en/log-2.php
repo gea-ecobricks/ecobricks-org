@@ -190,7 +190,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             document.body.classList.add('modal-open');
 
             // Disable body scrolling
-            document.body.style.overflow = 'hidden';
+            // document.body.style.overflow = 'hidden';
             //
             // // Prevent page from scrolling to the top
             // const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -345,7 +345,6 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 
 <script>
 
-
     document.addEventListener('DOMContentLoaded', function () {
         const enscribeField = document.getElementById('enscribe');
         const photoOptionsField = document.getElementById('photo-options');
@@ -395,6 +394,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
         // Initial state
         submitButton.style.display = 'none';
     });
+
 
 
 
