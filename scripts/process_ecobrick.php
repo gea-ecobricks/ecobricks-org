@@ -292,7 +292,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $plastic_from = $record['field_329_raw'] ?? '';
             $photo_choice = $record['field_1064_raw'] ?? ''; // Add the new field
             $location_city = strip_tags($record['field_356_raw'][0]['identifier'] ?? '');
-            $location_full = $record['field_1373_raw'] ?? '';
+            $location_full = strip_tags($record['field_1373_raw'] ?? '');
             $catalyst = $record['field_1611_raw'] ?? '';
 
             // Convert weight_authenticated_kg to float for arithmetic operations

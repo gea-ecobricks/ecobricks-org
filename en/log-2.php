@@ -32,38 +32,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id']))
     $serial_no = $_POST['serial_no']; // Ensure serial_no is passed from the previous step
     include '../project-photo-functions.php';
 
-    // Handle ecobrick deletion
-//    if (isset($_POST['action']) && $_POST['action'] == 'delete_ecobrick') {
-//        $deleteResult = deleteEcobrick($ecobrick_unique_id, $conn);
-//        if ($deleteResult === true) {
-//            echo "<script>alert('Ecobrick has been successfully deleted.'); window.location.href='add-ecobrick.php';</script>";
-//            exit;
-//        } else {
-//            echo "<script>alert('" . $deleteResult . "');</script>";
-//            exit;
-//        }
-//    }
-
-    $upload_dir = '../briks/';
-    $thumbnail_dir = '../briks/thumbnails/';
+    $upload_dirs = [
+        "basic" => '../briks/2024/basic/',
+        "basic-thumb" => '../briks/2024/basic-thumb/',
+        "selfie" => '../briks/2024/selfie/',
+        "selfie-thumb" => '../briks/2024/selfie-thumb/'
+    ];
 
     $db_fields = [];
     $db_values = [];
     $db_types = "";
 
     $photo_fields = [
-        ["input" => "ecobrick_photo_main", "full" => "ecobrick_full_photo_url", "thumb" => "ecobrick_thumb_photo_url"],
-        ["input" => "selfie_photo_main", "full" => "selfie_photo_url", "thumb" => "selfie_thumb_url"]
+        ["input" => "ecobrick_photo_main", "full" => "ecobrick_full_photo_url", "thumb" => "ecobrick_thumb_photo_url", "dir" => "basic", "thumb_dir" => "basic-thumb"],
+        ["input" => "selfie_photo_main", "full" => "selfie_photo_url", "thumb" => "selfie_thumb_url", "dir" => "selfie", "thumb_dir" => "selfie-thumb"]
     ];
 
     foreach ($photo_fields as $index => $fields) {
         $file_input_name = $fields["input"];
         if (isset($_FILES[$file_input_name]) && $_FILES[$file_input_name]['error'] == UPLOAD_ERR_OK) {
             $file_extension = strtolower(pathinfo($_FILES[$file_input_name]['name'], PATHINFO_EXTENSION));
-            $new_file_name_webp = "ecobrick-{$serial_no}-file{$index}.webp";
-            $thumbnail_file_name_webp = "tn_ecobrick-{$serial_no}-file{$index}.webp";
-            $targetPath = $upload_dir . $new_file_name_webp;
-            $thumbnailPath = $thumbnail_dir . $thumbnail_file_name_webp;
+            $new_file_name_webp = "ecobrick-{$serial_no}.webp";
+            $thumbnail_file_name_webp = "ecobrick-{$serial_no}.webp";
+            $targetPath = $upload_dirs[$fields["dir"]] . $new_file_name_webp;
+            $thumbnailPath = $upload_dirs[$fields["thumb_dir"]] . $thumbnail_file_name_webp;
 
             if (resizeAndConvertToWebP($_FILES[$file_input_name]['tmp_name'], $targetPath, 1000, 88)) {
                 createTrainingThumbnail($targetPath, $thumbnailPath, 250, 250, 77);
@@ -113,6 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['ecobrick_unique_id']))
         exit;
     }
 }
+
 
 function deleteEcobrick($ecobrick_unique_id, $conn) {
     // Dummy function to handle ecobrick deletion, replace with actual implementation
@@ -304,6 +297,9 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             </form>
 
 
+            <div style="margin-bottom:100px;">
+                <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
+            </div>
 
 
 
@@ -325,9 +321,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             </form>
         </div>
 
-        <div style="margin-bottom:100px;">
-            <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
-        </div>
+
 
     </div>
 
