@@ -5,6 +5,10 @@
   
 <STYLE>
 
+    #main {
+        height: fit-content;
+    }
+
     .preview-text {
         font-family: 'Mulish', Arial, Helvetica, sans-serif;
         font-weight: 300;

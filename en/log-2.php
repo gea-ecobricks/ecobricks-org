@@ -314,10 +314,12 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 </div>
             </form>
 
+            <div style="margin-bottom:100px;">
+                <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
+            </div>
+
     </div>
-    <div style="margin-bottom:100px;">
-        <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
-    </div>
+
     <br><br>
 
     </div>
