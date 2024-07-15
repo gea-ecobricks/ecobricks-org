@@ -351,7 +351,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
         const photoOptionsContainer = document.getElementById('photo-options-container');
         const basicPhotoField = document.getElementById('basic-photo');
         const selfiePhotoField = document.getElementById('selfie-photo');
-        const submitButton = document.querySelector('input[type="submit"]');
+        const submitButton = document.getElementById('upload-progress-button');
 
         function showHidePhotoFields() {
             // Hide or show photo options based on enscribe field value
@@ -557,16 +557,16 @@ function uploadSuccess(data) {
         }
     }
 
-    // Function to close the modal
-    function closeInfoModal() {
-        var modal = document.getElementById('form-modal-message');
-        modal.style.display = 'none';
-
-        // Remove blur effect and show overflow on page-content and footer-full
-        document.getElementById('page-content').classList.remove('blurred');
-        // document.getElementById('footer-full').classList.remove('blurred');
-        document.body.classList.remove('modal-open');
-    }
+    // // Function to close the modal
+    // function closeInfoModal() {
+    //     var modal = document.getElementById('form-modal-message');
+    //     modal.style.display = 'none';
+    //
+    //     // Remove blur effect and show overflow on page-content and footer-full
+    //     document.getElementById('page-content').classList.remove('blurred');
+    //     // document.getElementById('footer-full').classList.remove('blurred');
+    //     document.body.classList.remove('modal-open');
+    // }
 
 
 
