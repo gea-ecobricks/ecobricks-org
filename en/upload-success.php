@@ -35,7 +35,11 @@ if (isset($_GET['id'])) {
     <?php $version='2.42';?>
     <?php $page='log';?>
     <?php require_once ("../includes/log-inc.php");?>
+
+
     <script>
+
+
         document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('deleteButton').addEventListener('click', function(event) {
                 event.preventDefault(); // Prevent default action
@@ -67,6 +71,7 @@ if (isset($_GET['id'])) {
                 }
             });
         });
+
     </script>
 </head>
 <body>
