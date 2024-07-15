@@ -392,7 +392,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
         document.getElementById('selfie_photo_main').addEventListener('change', showHidePhotoFields);
 
         // Initial state
-        submitButton.style.display = 'none';
+        // submitButton.style.display = 'none';
     });
 
 
