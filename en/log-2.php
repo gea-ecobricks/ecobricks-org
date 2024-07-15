@@ -125,7 +125,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='2.44';?>
+    <?php $version='2.45';?>
     <?php $page='log';?>
 
     <?php require_once ("../includes/log-inc.php");?>
@@ -314,12 +314,12 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 </div>
             </form>
 
-            <div style="margin-bottom:100px;">
-                <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
-            </div>
+
 
     </div>
-
+        <div style="margin: auto; margin-bottom:100px; margin-top: 50px; text-align:center;">
+            <a href="#" onclick="goBack()" aria-label="Go back to re-enter data" class="back-link" data-lang-id="015-go-back-link">↩ Back to Step 1</a>
+        </div>
     <br><br>
 
     </div>
