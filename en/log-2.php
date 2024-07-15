@@ -435,7 +435,14 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                 button.innerHTML = originalButtonText; // Restore button text after upload
                 button.disabled = false; // Enable button
                 if (xhr.status === 200) {
-                    window.location.href = 'upload-success.php'; // Redirect to success page
+                    try {
+                        var response = JSON.parse(xhr.responseText);
+                        var ecobrick_unique_id = response.ecobrick_unique_id;
+                        window.location.href = 'upload-success.php?ecobrick_unique_id=' + ecobrick_unique_id; // Redirect to success page with ecobrick_unique_id
+                    } catch (e) {
+                        console.error('Error parsing server response:', e);
+                        handleFormResponse(xhr.responseText); // Handle error response
+                    }
                 } else {
                     handleFormResponse(xhr.responseText); // Handle error response
                 }
