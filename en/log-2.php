@@ -128,7 +128,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='2.41';?>
+    <?php $version='2.42';?>
     <?php $page='log';?>
 
     <?php require_once ("../includes/log-inc.php");?>
@@ -197,18 +197,18 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             // modal.style.top = `${scrollTop}px`;
         }
 
-        function closeModal() {
-            const modal = document.getElementById('form-modal-message');
-            modal.style.display = 'none';
-            document.getElementById('page-content').classList.remove('blurred');
-            // document.getElementById('footer-full').classList.remove('blurred');
-            document.body.classList.remove('modal-open');
-            document.body.style.overflow = ''; // Re-enable body scrolling
-
-            // Show all buttons with class "x-button" again
-            const xButtons = document.querySelectorAll('.x-button');
-            xButtons.forEach(button => button.style.display = 'inline-block');
-        }
+        // function closeModal() {
+        //     const modal = document.getElementById('form-modal-message');
+        //     modal.style.display = 'none';
+        //     document.getElementById('page-content').classList.remove('blurred');
+        //     // document.getElementById('footer-full').classList.remove('blurred');
+        //     document.body.classList.remove('modal-open');
+        //     document.body.style.overflow = ''; // Re-enable body scrolling
+        //
+        //     // Show all buttons with class "x-button" again
+        //     const xButtons = document.querySelectorAll('.x-button');
+        //     xButtons.forEach(button => button.style.display = 'inline-block');
+        // }
 
         // Assuming density, volume, and weight are set in your PHP and passed to JavaScript
         showDensityConfirmation(density, volume, weight);

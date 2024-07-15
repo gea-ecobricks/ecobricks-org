@@ -322,6 +322,11 @@ function createInfoModal(infoText) {
     document.getElementById('footer-full').classList.add('blurred');
     document.body.classList.add('modal-open');
 
+
+    // Show all buttons with class "x-button" again
+    const xButtons = document.querySelectorAll('.x-button');
+    xButtons.forEach(button => button.style.display = 'inline-block');
+
 }
 
 
@@ -336,6 +341,9 @@ function closeInfoModal() {
     document.getElementById('page-content').classList.remove('blurred');
     document.getElementById('footer-full').classList.remove('blurred');
     document.body.classList.remove('modal-open');
+
+    document.body.style.overflow = ''; // Re-enable body scrolling
+
 }
 
 

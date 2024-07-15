@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <HEAD>
     <META charset="UTF-8">
     <?php $lang='en';?>
-    <?php $version='1.391';?>
+    <?php $version='1.392';?>
     <?php $page='log';?>
 
     <?php require_once ("../includes/log-inc.php");?>
@@ -126,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="splash-heading" data-lang-id="001-splash-title">Log an Ecobrick</div>
                 </div>
                 <div class="splash-image" data-lang-id="003-splash-image-alt">
-                    <img src="../webp/eb-sky-400px.webp" style="width:65%" alt="There are many ways to make an ecobrick">
+                    <img src="../webp/eb-sky-400px.webp" style="width:65%; text-align:center;" alt="There are many ways to make an ecobrick">
                 </div>
             </div>
 
