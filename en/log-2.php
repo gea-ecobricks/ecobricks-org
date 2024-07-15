@@ -228,9 +228,6 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             </div>
 
             <div class="splash-form-content-block" style="text-align:center; display:flex;flex-flow:column;">
-<!--                <div class="splash-box">-->
-
-<!--                </div>-->
 
                 <div class="splash-image-2" data-lang-id="003-weigh-plastic-image-alt">
                     <img src="../svgs/snapit.svg?v=3" style="width:55%; margin:auto" alt="Please take a square photo">
@@ -243,8 +240,6 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
             <h1 style="text-align: center;"><?php echo $serial_no; ?></h1>
 
             <br>
-
-
 
             <form id="photoform" action="" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="ecobrick_unique_id" value="<?php echo $ecobrick_unique_id; ?>">
@@ -318,20 +313,6 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
                     <input type="submit" value="⬆️ Upload Photos" id="upload-progress-button" aria-label="Submit photos for upload">
                 </div>
             </form>
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
 
     </div>
     <div style="margin-bottom:100px;">
