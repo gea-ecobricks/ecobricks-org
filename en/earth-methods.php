@@ -179,12 +179,13 @@
                 <div id="preclosed4">
                     <br>
 			<p data-lang_id= 041-block-4-paragraph-1>Our ancestors built earthen structures that lasted decades, centuries and in some cases mellenia!  Do some research near you to find walls or structures built using earthen techniques.  Rather than reinventing methods, you can see how their methods stood up against the unique conditions of your locale– and adapt accordingly for your ecobricking earth constructions.</p>
-                    	<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" data-lang-id="042-block-4-sub-image-alt">
-                    	<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/2-ashim-traditional-house-scaled.jpg" alt="An ancestral home in Nepal" data-lang-id="043-block-4-sub-image-alt">
-                	<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob" data-lang-id="044-block-4-sub-image-alt">
+                    	<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" data-lang-id="042-block-4-sub-image-alt">
+                    	<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="An ancestral home in Nepal" data-lang-id="043-block-4-sub-image-alt">
+                	<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob" data-lang-id="044-block-4-sub-image-alt">
 			<br>
-			<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/IMG-4921-400x284.jpg" alt="A very basic cob wall in Indonesia" data-lang-id="045-block-4-sub-image-alt">
-			<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/IMG-4921-400x284.jpg" alt="A wattle & daub shed in the UK" data-lang-id="046-block-4-sub-image-alt">
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="A very basic cob wall in Indonesia" data-lang-id="045-block-4-sub-image-alt">
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="A wattle & daub shed in the UK" data-lang-id="046-block-4-sub-image-alt">
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Old wattle & daub" data-lang-id="047-block-4-sub-image-alt">
                 </div>
             </div>
         </section>
