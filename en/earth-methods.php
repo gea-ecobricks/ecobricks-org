@@ -166,39 +166,25 @@
             </div>
         </section>
 
-        <section id="NO-GLASS">
+        <section id="ANCESTORS">
             <div class="reg-content-block" id="block4">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="039-block-4-opener-header">4. No glass, metal or biodegradables</h4>
-                        <h5 data-lang-id="040-block-4-opener-subheader">What you <strong>don't</strong> put in your ecobrick is just as important as what you do!</h5>
+                        <h4 data-lang-id="039-block-4-opener-header">1. Learn from your Ancestors</h4>
+                        <h5 data-lang-id="040-block-4-opener-subheader">Earth building traditions were used by our ancestors before industrial construction methods took over.  In most places, with a little looking and you can find earth building traditions in your part of the world .</h5>
                     </div>
                     <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-expanded="false" aria-label="Toggle Section Four">+</button>
                 </div>
 
                 <div id="preclosed4">
                     <br>
-                    <img width="640" loading="lazy" class="full-width-image" src="../pngs/no-glass-metal-or-biodegradables-900px-1.png" alt="what to put in your eco brick" data-lang-id="041-block-4-main-image-alt">
-                    <p data-lang-id="042-block-4-paragraph-1">The reason we are putting plastic inside a bottle is to secure it- otherwise it would get loose into the environment and degrade into microplastics and toxins. Stuff like cotton cloth, metal, paper, cardboard, glass, and organic material will not degrade into toxins so there is no need to secure them. Be especially careful <strong>not</strong> to pack sharp metal or glass into an ecobrick– they can rupture the sides and pose a danger for handling. There are other solutions for these materials:</p>
-
-                    <ol style="font-size: smaller; color: var(--text-color)" data-lang-id="043-block-4-list">
-                        <li><p data-lang-id="044-block-4-list-item-1">Paper and cardboard can be safely industrially recycled, composted, or burnt.</p></li>
-                        <li><p data-lang-id="045-block-4-list-item-2">Biodegradables can be composted or left to biodegrade.</p></li>
-                        <li><p data-lang-id="046-block-4-list-item-3">Metals and glass can be industrially recycled.</p></li>
-                    </ol>
-
-                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-4">
-                        <div class="advanced-box-header"  id="advancedBoxLabel-4">
-                            <div class="advanced-title" data-lang-id="047-block-4-advanced-title">Advanced</div>
-                            <div class="advanced-open-icon" >+</div>
-                        </div>
-
-                        <div class="advanced-box-content">
-                            <div class="row">
-                                <p data-lang-id="048-block-4-advanced-paragraph">💡 What about combinations of plastic and paper? What about a sticker on a paper envelope? Putting a little paper into your ecobrick isn't the end of the world. The contained environment will keep it from degrading. The main reason for not putting dry paper (or other organic materials) into an ecobrick is to maximize the space for containing plastic. There are many lively discussions in our social media communities about what should and should not go into an ecobrick. <a href="../movement">Feel free to join a group near you and ask a question.</a></p>
-                            </div>
-                        </div><!-- Advanced content closed -->
-                    </div>
+			<p data-lang_id= 041-block-4-paragraph-1>Our ancestors built earthen structures that lasted decades, centuries and in some cases mellenia!  Do some research near you to find walls or structures built using earthen techniques.  Rather than reinventing methods, you can see how their methods stood up against the unique conditions of your locale– and adapt accordingly for your ecobricking earth constructions.</p>
+                    	<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" data-lang-id="042-block-4-sub-image-alt">
+                    	<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/2-ashim-traditional-house-scaled.jpg" alt="An ancestral home in Nepal" data-lang-id="043-block-4-sub-image-alt">
+                	<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob" data-lang-id="044-block-4-sub-image-alt">
+			<br>
+			<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/IMG-4921-400x284.jpg" alt="A very basic cob wall in Indonesia" data-lang-id="045-block-4-sub-image-alt">
+			<img width="480" loading="lazy" class="full-width-image" src="https://www.ecobricks.org/wp-content/uploads/2021/01/IMG-4921-400x284.jpg" alt="A wattle & daub shed in the UK" data-lang-id="046-block-4-sub-image-alt">
                 </div>
             </div>
         </section>
