@@ -73,7 +73,7 @@
         $query = "SELECT serial_no, ecobrick_thumb_photo_url FROM tb_ecobricks 
           WHERE status = 'authenticated' 
           ORDER BY date_published_ts DESC 
-          LIMIT 25";
+          LIMIT 18";
 
         $result = $conn->query($query);
         ?>
