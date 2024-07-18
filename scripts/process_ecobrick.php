@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ᐉ Latest Ecobrick Imports</title>
+    <title>ᐉ Help the Great GoBrik Migration</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -38,6 +38,7 @@
     <button class="button" onclick="stopProcessing()">Stop Processing</button>
     <button class="button" onclick="startProcessing()">ᐉ Start Processing</button>
 </div>
+<p>We're migrating ecobricks from our old server to our new.  Help us out by running this page on your computer or phone.  Just keep it up.  If it crashes or stops, reload page. Thank you! 🙏</p>
 
 <script>
     function stopProcessing() {
