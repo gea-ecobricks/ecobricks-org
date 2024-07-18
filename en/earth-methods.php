@@ -82,19 +82,19 @@
                     <div id="three-column-gal" class="three-column-gal">
 
                         <!--photo1-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
                             <img src="../photos/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
                             <p data-lang-id="009-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
                         </div>
 
                         <!--photo2-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
                             <img src="../photos/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
                             <p data-lang-id="010-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
                         </div>
 
                         <!--photo3-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'A circular ecobrick garden planter')">
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space3.png', 'A circular ecobrick garden planter')">
                             <img src="../photos/green-space3.png" alt="A circular ecobrick garden planter">
                             <p data-lang-id="011-photo-caption">A circular ecobrick garden planter</p>
                         </div>
