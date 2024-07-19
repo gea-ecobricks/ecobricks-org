@@ -32,13 +32,7 @@
             cursor: pointer;
         }
     </style>
-</head>
-<body>
-<div class="control-buttons">
-    <button class="button" onclick="stopProcessing()">Stop Processing</button>
-    <button class="button" onclick="startProcessing()">ᐉ Start Processing</button>
-</div>
-<p>We're migrating ecobricks from our old server to our new.  Help us out by running this page on your computer or phone.  Just keep it up.  If it crashes or stops, reload page. Thank you! 🙏</p>
+
 
 <script>
     function stopProcessing() {
@@ -53,6 +47,15 @@
         }
     }
 </script>
+
+</head>
+<body>
+<div class="control-buttons">
+    <button class="button" onclick="stopProcessing()">Stop Processing</button>
+    <button class="button" onclick="startProcessing()">ᐉ Start Processing</button>
+</div>
+<p>We're migrating ecobricks from our old server to our new.  Help us out by running this page on your computer or phone.  Just keep it up.  If it crashes or stops, reload page. Thank you!</p>
+
 
 <div id="ecobrick-being-processed">
 

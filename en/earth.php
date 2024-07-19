@@ -415,11 +415,6 @@
 	<?php require_once ("../footer-2024.php");?>
 
 
-<!-- CUSTOM PAGE SCRIPTS-->
-<script>
-
-
-</script>
 
 <!-- This script is for pages that use the accordion content system-->
 <script src="../accordion-scripts.js?v=2" defer></script>
