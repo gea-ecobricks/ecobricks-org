@@ -3,7 +3,6 @@
  <?php
 
 
-include '../ecobricks_env.php';
 
 /* 
  * DataTables example server-side processing script.
