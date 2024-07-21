@@ -1,7 +1,7 @@
 
 
         <?php
- 
+include '../ecobricks_env.php';
 /* 
  * DataTables example server-side processing script.
  *
@@ -94,13 +94,7 @@ $columns = array(
     */
 
  
-// SQL server connection information
-$sql_details = array(
-    'user' => 'ecobricks_russs',
-    'pass' => '1ecobricks!',
-    'db'   => 'ecobricks_gobrik_msql_db',
-    'host' => 'localhost'
-);
+
  
 
 
