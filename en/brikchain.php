@@ -6,7 +6,6 @@
 <?php $version='1.62';?>
 <?php $page='brikchain';?>
 
-
 <?php require_once ("../includes/brikchain2-inc.php");?>
 
 
