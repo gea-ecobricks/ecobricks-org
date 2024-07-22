@@ -607,6 +607,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!--FOOTER STARTS HERE-->
 <?php require_once ("../footer-2024.php");?>
 </div>
+<script>
+
 
 </body>
 </html>
