@@ -328,6 +328,7 @@
 		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
 		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
 		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+				    <br>
 		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
 		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">   
                                 <p data-lang-id="094-block-1-advanced-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
@@ -336,7 +337,33 @@
                             </div>
                         </div><!-- Advanced content closed -->
                     </div>
-			
+                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-2">
+                        <div class="advanced-box-header"  id="advancedBoxLabel-2">
+                            <div class="advanced-title" data-lang-id="097-block-2-advanced-title">6.2 Cement Foundations</div>
+                            <div class="advanced-open-icon" >+</div>
+                        </div>
+
+                        <div class="advanced-box-content">
+                            <div class="row">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Mix cement 1:8" data-lang-id="098-block-advanced-2-sub-image-alt">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Pour over wet cement" data-lang-id="099-block-advanced-2-sub-image-alt">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Mix dry batch" data-lang-id="100-block-advanced-2-sub-image-alt">
+				    <br>
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Lay Second layer + ecobricks" data-lang-id="101-block-advanced-2-sub-image-alt">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Fill spaces with rocks" data-lang-id="102-block-advanced-2-sub-image-alt">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="20%-30% submerged" data-lang-id="103-block-advanced-2-sub-image-alt">
+                                <p data-lang-id="104-block-2-advanced-paragraph-1">There are various ways to lay your foundation.  One option is using a base-layer of cement.  The cement is an effective means of preventing your cob bench from seaping up water from the ground, which would undermine its structural integrity.  By raising the cement foundation 10cm above the ground, we also prevent seepage in through the benches outer layer in case of pooling rain or flooding.</p>
+	    		    	<li data-lang-id="105a-block-2-advanced-list-paragraph-1">Mix cement to a 1:7 ratio of cement to sand/gravel.  You’ll be making two batches.  The first will be somewhat wet (the constiently of thick soup) and the second will be dryer (the consistency of yogurt)</li>
+				<li data-lang-id="105b-block-2-advanced-list-paragraph-2">Ensure that the stones you’ve laid into the trench are not touching.</li>
+				<li data-lang-id="105c-block-2-advanced-list-paragraph-3">Use a bucket of water to wet your trench and laid stones.</li>
+				<li data-lang-id="105d-block-2-advanced-list-paragraph-4">Pour your first wet mix of cement over all the stones, filling the trench entirely to the ground level.  Make sure the cement seeps all the way down between the stones.</li>
+				<li data-lang-id="105e-block-2-advanced-list-paragraph-5">Lay the second mix of yogurt cement over the first. If your first layer has already dried, be sure to score it with stick, then wet it again.</li>
+				<li data-lang-id="105f-block-2-advanced-list-paragraph-6">Lay your first level of ecobricks down, resting in the cement.  Space ecobricks approxamitely 4 cm apart.</li>
+				<li data-lang-id="105g-block-2-advanced-list-paragraph-7">Make sure that the ecobricks are a minimum of 20% submerged in the cement.  Do not submerge more than 40% or they may be un-removeable in the future.</li>
+				<li data-lang-id="105h-block-2-advanced-list-paragraph-8">Let dry over night.</li>
+			    </div>
+                        </div><!-- Advanced content closed -->
+                    </div>
 		</div>
             </div>
         </section>
