@@ -190,92 +190,78 @@
             </div>
         </section>
 
-        <section id="BOTTOM">
+        <section id="KNOW">
             <div class="reg-content-block" id="block5">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="049-block-5-opener-header">5. Start by adding a bottom color</h4>
-                        <h5 data-lang-id="050-block-5-opener-subheader">It is important to start your ecobrick by adding a bottom color.</h5>
+                        <h4 data-lang-id="048-block-5-opener-header">2. Get to know your Earth</h4>
                     </div>
                     <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-expanded="false" aria-label="Toggle Section Five">+</button>
                 </div>
 
                 <div id="preclosed5">
                     <br>
-                    <img src="../svgs/5-Add-a-bottom-color.svg" width="640" loading="lazy" class="full-width-image" alt="Add a bottom color to your eco brick" data-lang-id="051-block-5-main-image-alt">
-
-                    <p data-lang-id="052-block-5-paragraph-1">This is part of the circular design principle of ecobricking: we're thinking about the next use of the ecobrick. When your ecobrick is put to use in a module or an earth construction, the bottom color will help make patterns and designs.</p>
-
-                    <p data-lang-id="053-block-5-paragraph-2">To create your ecobrick's bottom color, choose a soft plastic with a solid color, then push it down to the bottom of your ecobrick. You'll want to fill the bottle loosely about halfway with soft plastic of your chosen color. Then, pack it in with your stick. If your bottle has "legs" or dimples at the bottom, be sure to pack these solid and full. Once all your soft plastic is compressed, you want it to fill the first 1-2cms of the bottle.</p>
-
-                    <p data-lang-id="054-block-5-paragraph-3">Often schools or companies will ask their ecobrickers to make ecobricks with their community colors. By giving your ecobrick bottom a color, you open up colorful design possibilities for making modules or earth and ecobrick walls.</p>
-                </div>
+                    	<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Test your earth" data-lang-id="049-block-5-sub-image-alt">
+                    	<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Observe Dry" data-lang-id="050-block-5-sub-image-alt">
+                	<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Test different ratios" data-lang-id="051-block-5-sub-image-alt">
+			<br>
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Use consistent size" data-lang-id="052-block-5-sub-image-alt">
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Cob pancake" data-lang-id="053-block-5-sub-image-alt">
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Record details" data-lang-id="054-block-5-sub-image-alt">
+			<h4 data-lang_id= 055-block-5-header-1>Earth is different everywhere on Earth!  Before we get started, we get to know our local earth.</h4>
+			<p data-lang_id= 056-block-5-paragrah-1>The first step is to test the earth that you will use for your construction.  Choose a soil near your building site with a high clay content, no stone, and no silt (decayed organic material). Ideally your earth sticks together nicely and can be formed into a ball that holds together.</p>
+			<p data-lang_id= 057-block-5-paragrah-2>Of course, soil is different everywhere!  A soil’s character comes from the different amounts of sand, clay and silt in it.   If there’s too much clay in the earth, it will crack when it dries.  If there’s too much sand it will crumble when it dries.  If there’s do much silt, it won’t hold together nor be maleable like we need it to be.  We can however adjust our local soil to be better for building by adding more sand to it.  To do this, we  want to figure out the best combination of sand and earth to make your final building material– what we call ‘cob’.</p>
+			<p data-lang_id= 058-block-5-paragrah-3>With your chosen earth, make some cob pancakes!  It’s just like baking with dirt when you were a kid, but more scientific!  Mix small batches of cob with varying ratios of your local sand and clay.   Make pancakes of about 3cm by 15cm.  Try different rations, like one part sand, two parts clay.  Lay out a mix of different rations (i.e.  1:0, 0:1, 1:3, 1:1, 3:1) on a board.   Let them dry in the sun and out of the rain.  Note that for this testing, we don’t yet add any organic binder (i.e. straw, hay) as we are solely focused on testing the earth.  The binder comes later and will add strength to the final cob.</p>
+			<p data-lang_id= 059-block-5-paragrah-4>After two or three days, when the samples are fully dry, review your pancakes.  Break them carefully feeling how they hold up under pressure.</p>
+			<p data-lang_id= 060-block-5-paragrah-5>Based on your review you are now able to make an educated decision on the ratio to use for your project’s cob!  Choose the ratio that does not crumble easily, nor which hasn’t cracked.  Of course, you’ll also want to factor in things like the transportation and cost of the sand or the cost.  Some cracking (especially for the interior of non-structural benches) is not a big deal– and remember, the binder we add will add strength.</p>
+			<p data-lang_id= 061-block-5-paragrah-6>Once you have chosen your ideal ratio of sand and earth and have found an organic binder you’re ready to make cob!</p>
+			<p data-lang_id= 062-block-5-paragrah-7>Its time to prepare your materials….</p>
+		</div>
             </div>
         </section>
 
-        <section id="PACK">
+        <section id="BINDER">
             <div class="reg-content-block" id="block6">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="055-block-6-opener-header">6. Pack the bottle tight, mixing plastics as you go</h4>
-                        <h5 data-lang-id="056-block-6-opener-subheader">Now it's time to pack away! Cut or rip up large plastics into smaller pieces.</h5>
+                        <h4 data-lang-id="063-block-6-opener-header">3. Choose your organic binder</h4>
+                        <h5 data-lang-id="064-block-6-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
                     </div>
                     <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6" aria-expanded="false" aria-label="Toggle Section Six">+</button>
                 </div>
                 <div id="preclosed6">
                     <br>
-                    <img src="../svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics" data-lang-id="057-block-6-main-image-alt">
-
-                    <p data-lang-id="058-block-6-paragraph-1">The smaller the pieces, the denser you'll get! Fill the bottle up halfway with loose plastic, then use your stick to push down around the sides of the bottle. Keep pushing down as you move around the circumference of the bottle. Once compressed, add more loose plastics. To maximize the density, it's good to mix soft, then hard plastic. If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
-
-                    <p data-lang-id="059-block-6-paragraph-2">Did you push too hard? In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again. Ruptured bottles will not last and can leak plastics. Cut the bottle open, remove the plastic and start again. Cut or damaged PET plastic is readily recycled.</p>
-
-                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-5">
-                        <div class="advanced-box-header"  id="advancedBoxLabel-5">
-                            <div class="advanced-title" data-lang-id="060-block-6-advanced-title">Advanced</div>
-
-                            <div class="advanced-open-icon" >+</div>
-                        </div>
-                        <div class="advanced-box-content">
-                            <p data-lang-id="061-block-6-advanced-paragraph">💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic. By forming a center white ring of plastic, you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
-                        </div>
-                    </div><!--Advanced content closed-->
+                    <p data-lang-id="065-block-6-paragraph-1">Across cultures and continents our ancestors have used earth to make a building material by reinforcing with local fibers.  The choice of fibers was largely determined by what was available!  In Europe straw from the local grain harvest was used.  In Asia, rice straw or coconut fiber did the trick.   In some places, where neither was available horse or even human hair was used.</p>
+                    <p data-lang-id="066-block-6-paragraph-2">Organic binder is chosen by its availability, tensile strength and flexibility.  In other words, when it is pulled it doesn’t break easily and when it bends it doesn’t snap.</p>
+               	    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Tensile strength" data-lang-id="067-block-6-sub-image-alt">
+                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Coconut fiber" data-lang-id="068-block-6-sub-image-alt">
+                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Rice straw" data-lang-id="069-block-6-sub-image-alt">
+		    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Sturdy hay" data-lang-id="070-block-6-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Leftover rice straw" data-lang-id="071-block-6-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Ideal dried straw" data-lang-id="072-block-6-sub-image-alt">
+                    <p data-lang-id="073-block-6-paragraph-3"><b>Caution:</b>Although plastic fibers meets all three criteria above– using it in cob goes against our principles of <a href="https://www.ecobricks.org/circular">circular design</a>.  Once a construction comes to its end, it is impossible to remove the plastic from the cob and use it again.  This means that the plastic will certainly escape, degrade and <a href = "https://www.ecobricks.org/poison">contaminate the local ecosystem</a>.</p>
                 </div>
             </div>
         </section>
 
 
-        <section id="WEIGH">
+        <section id="PREPARE">
             <div class="reg-content-block" id="block7">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="062-block-7-opener-header">7. Weigh your Ecobrick to ensure quality</h4>
-                        <h5 data-lang-id="063-block-7-opener-subheader">Now it's time to weigh! Cut or rip up large plastics into smaller pieces.</h5>
+                        <h4 data-lang-id="074-block-7-opener-header">4. Prepare your materials</h4>
                     </div>
                     <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
                 </div>
 
                 <div id="preclosed7">
                     <br>
-                    <img width="640" loading="lazy" class="full-width-image" src="svg/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg" alt="Weigh the eco brick and its recycled plastic waste" data-lang-id="064-block-7-main-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Straw" data-lang-id="075-block-7-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Sand" data-lang-id="076-block-7-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Earth Soak Pit" data-lang-id="077-block-7-sub-image-alt">
+			<p data-lang-id="078-block-7-paragraph-1">To begin, gather your materials and get them ready.</p>
 
-                    <p data-lang-id="065-block-7-paragraph-1">Ecobricks that are solid and strong are densely packed. The full volume is used for plastics, and there is no air or spaces inside. The GEA has determined that an ecobrick's density must be higher than <strong>0.33 g/ml</strong>. This means that a 600ml bottle must be above 200 grams and a 1500ml bottle must be above a weight of 500 grams. Experienced ecobrickers tend to regard 0.37 g/ml and above as the range of good ecobricks.</p>
-
-                    <p data-lang-id="066-block-7-paragraph-2">We've discovered that obligating minimum density in your community's ecobricking is essential to ensure quality ecobricks. Quality ecobricks ensure solid and safe constructions and maximize the bottle's volume for securing plastic out of the environment.</p>
-
-                    <p data-lang-id="067-block-7-paragraph-3">Ecobricks that are below 0.33 g/ml are too squishy to be used for modules and are not ideal for earth building. Soft ecobricks can compromise structural constructions and will dent easily, which reduces their lifespan. Low-density ecobricks are also <a href="/fire">fire hazards</a> because of the air pockets remaining inside them.</p>
-
-                    <p data-lang-id="068-block-7-paragraph-4">That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud of and which will inspire others! An ecobrick's heft and quality set an inspiring example for others and energize the social spread of ecobricks. When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
-
-                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-6">
-                        <div class="advanced-box-header"  id="advancedBoxLabel-6">
-                            <div class="advanced-title" data-lang-id="069-block-7-advanced-title">Advanced</div>
-                            <div class="advanced-open-icon" >+</div>
-                        </div>
-                        <div class="advanced-box-content">
-                            <p data-lang-id="070-block-7-advanced-paragraph">Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold. Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
