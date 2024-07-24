@@ -246,7 +246,7 @@
         </section>
 
 
-        <section id="PREPARE">
+        <section id="MATERIALS">
             <div class="reg-content-block" id="block7">
                 <div class="opener-header">
                     <div class="opener-header-text">
@@ -260,13 +260,86 @@
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Straw" data-lang-id="075-block-7-sub-image-alt">
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Sand" data-lang-id="076-block-7-sub-image-alt">
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Earth Soak Pit" data-lang-id="077-block-7-sub-image-alt">
-			<p data-lang-id="078-block-7-paragraph-1">To begin, gather your materials and get them ready.</p>
-
+		    <p data-lang-id="078-block-7-paragraph-1">To begin, gather your materials and get them ready.</p>
+		    <li data-lang-id="079a-block-7-list-paragraph-1">Earth & Sand: Based on your soil test, you should have a good idea of how much sand and earth you’re going to to need.  You’ll need to procure piles of each corresponding to the proportions of your soil test.</li>
+		    <li data-lang-id="079b-block-7-list-paragraph-2">Cob binder: Gather enough of your binder for your project.  Keep dry.</li>
+		    <li data-lang-id="079c-block-7-list-paragraph-3">Soak your Earth:  It is important to soak your earth before using it, especially if it contains large dry rocky clumps.   This will greatly speed up the cob making process and result in a strong dried mortar.  Prepare a pit, or raised pool lined with a tarp.  For smallers you can use a large basin or oil drum.  Fill 3/4 with your chosen earth.  Fill the 4/5 with water.  Cover to avoid rain spilling it over (and loosing the important sediments) and to prevent it being accessed by mosquitoes.</li>
                 </div>
             </div>
         </section>
 
+        <section id="BUILDING SITE">
+            <div class="reg-content-block" id="block8">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="080-block-8-opener-header">5. Prepare your building site</h4>
+                        <h5 data-lang-id="081-block-8-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
+                    </div>
+                    <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
+                </div>
 
+                <div id="preclosed8">
+                    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
+		    <p data-lang-id="082-block-8-paragraph-1">Clear the space where you will be working of all hazards.  Make sure that there is plenty of free space to work and move.  Allocate a space for mixing the cob, for piling materials, and for tools.  Make sure there are no hazards on the ground for when you get started.</p>
+		    <p data-lang-id="083-block-8-paragraph-2">Use chalk, or stakes to set out the footprint of your build.  Once this is done, you’ll want to give some thought to the pathways and flow of the collaboration.  This is particularly important if you’re evolving dozens or hundreds of participants for a large build.  Think about where to place your tools and materials for the different teams that will be working on different aspects of the construction.</p>
+		    <p data-lang-id="084-block-8-paragraph-3">Plan out the pathways that your teams will move on between work sites, materials, and the build.  Try to make sure that the paths do not overlap, and that teams have ample space to work.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="DIG">
+            <div class="reg-content-block" id="block9">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="085-block-9-opener-header">6. Dig your foundation</h4>
+                    </div>
+                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
+                </div>
+
+                <div id="preclosed9">
+                    <br>
+               	    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Lay medium stones in your trench" data-lang-id="086-block-9-sub-image-alt">
+                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Dig a 10cm deep trench in which to lay your cement foundation." data-lang-id="087-block-9-sub-image-alt">
+		    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Lay out ecobricks" data-lang-id="088-block-9-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
+
+		    <p data-lang-id="089-block-9-paragraph-1">Once you’ve got your bench line figured out and marked with chalk and sticks, lay your ecobricks into the space.  Use the loose ecobricks to finalize the footprint of your construction. This will help you put the final touches on the curves of the footprint and determine precisely how many ecobricks you will need.  Adjust as you see fit. When all is ready, remove the ecobricks.</p>
+ 		    <p data-lang-id="090-block-9-paragraph-2">Now you’re ready to break ground!</p>
+		    <li data-lang-id="091a-block-9-list-paragraph-1">Dig down 10 cm for the entire footprint of your foundation.</li>
+		    <li data-lang-id="091b-block-9-list-paragraph-2">Place loose ecobricks in the trench to make sure its the right size.  Space the ecobricks 4cm apart to estimate how many ecobricks you will need per level.</li>
+		    <li data-lang-id="091c-block-9-list-paragraph-3">Remove all ecobricks, and dirt.  Fill the trench with a base layer of medium sized stones.</li>
+		    <li data-lang-id="091d-block-9-list-paragraph-4">Lay the stones so that their tops are level with the ground.</li>
+ 		    <p data-lang-id="092-block-9-paragraph-3">There are two main ways of completing your foundation: with cement or without…</p>
+
+                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1">
+                        <div class="advanced-box-header"  id="advancedBoxLabel-1">
+                            <div class="advanced-title" data-lang-id="093-block-1-advanced-title">6.1 Non-Cement Foundation</div>
+                            <div class="advanced-open-icon" >+</div>
+                        </div>
+
+                        <div class="advanced-box-content">
+                            <div class="row">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">   
+                                <p data-lang-id="094-block-1-advanced-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
+                                <p data-lang-id="095-block-1-advanced-paragraph-2">Lay medium sized stones in your trench making a free draining foundation. (A land drain could be added on wetter sites). Tamp down. It can be infilled with some smaller stones to make it level with the ground, or a little higher.</p>
+                                <p data-lang-id="096-block-1-advanced-paragraph-3">It is now possible to build with ecobricks on this foundation/rubble trench. If you are building a large structure or if ground conditions are sometimes wet consider raising the walls further from the ground. The Porthmadog site in Wales is on a flood plain and gets very wet in winter, so the chosen method combined aspects of the following examples. It is advised that you examine vernacular buildings for local, cement free and climate appropriate solutions. Sustainable architects and engineers can also help with this.</p>
+                            </div>
+                        </div><!-- Advanced content closed -->
+                    </div>
+			
+		</div>
+            </div>
+        </section>
 
 
         <br>
