@@ -54,8 +54,8 @@ $conn->set_charset("utf8mb4");
 
 // SQL query to fetch the latest 18 authenticated ecobricks whose maker_id is not '000000000000000000000000'
 $query = "SELECT serial_no, ecobrick_thumb_photo_url FROM tb_ecobricks
-          WHERE status = maker_id != '000000000000000000000000'
-          ORDER BY date_published_ts ASC
+          WHERE status = 'authenticated' AND maker_id != '000000000000000000000000'
+          ORDER BY ecobrick_unique_id DESC
           LIMIT 6";
 
 $result = $conn->query($query);
