@@ -190,97 +190,183 @@
             </div>
         </section>
 
-        <section id="BOTTOM">
+        <section id="KNOW">
             <div class="reg-content-block" id="block5">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="049-block-5-opener-header">5. Start by adding a bottom color</h4>
-                        <h5 data-lang-id="050-block-5-opener-subheader">It is important to start your ecobrick by adding a bottom color.</h5>
+                        <h4 data-lang-id="048-block-5-opener-header">2. Get to know your Earth</h4>
                     </div>
                     <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-expanded="false" aria-label="Toggle Section Five">+</button>
                 </div>
 
                 <div id="preclosed5">
                     <br>
-                    <img src="../svgs/5-Add-a-bottom-color.svg" width="640" loading="lazy" class="full-width-image" alt="Add a bottom color to your eco brick" data-lang-id="051-block-5-main-image-alt">
-
-                    <p data-lang-id="052-block-5-paragraph-1">This is part of the circular design principle of ecobricking: we're thinking about the next use of the ecobrick. When your ecobrick is put to use in a module or an earth construction, the bottom color will help make patterns and designs.</p>
-
-                    <p data-lang-id="053-block-5-paragraph-2">To create your ecobrick's bottom color, choose a soft plastic with a solid color, then push it down to the bottom of your ecobrick. You'll want to fill the bottle loosely about halfway with soft plastic of your chosen color. Then, pack it in with your stick. If your bottle has "legs" or dimples at the bottom, be sure to pack these solid and full. Once all your soft plastic is compressed, you want it to fill the first 1-2cms of the bottle.</p>
-
-                    <p data-lang-id="054-block-5-paragraph-3">Often schools or companies will ask their ecobrickers to make ecobricks with their community colors. By giving your ecobrick bottom a color, you open up colorful design possibilities for making modules or earth and ecobrick walls.</p>
-                </div>
+                    	<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Test your earth" data-lang-id="049-block-5-sub-image-alt">
+                    	<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Observe Dry" data-lang-id="050-block-5-sub-image-alt">
+                	<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Test different ratios" data-lang-id="051-block-5-sub-image-alt">
+			<br>
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Use consistent size" data-lang-id="052-block-5-sub-image-alt">
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Cob pancake" data-lang-id="053-block-5-sub-image-alt">
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Record details" data-lang-id="054-block-5-sub-image-alt">
+			<h4 data-lang_id= 055-block-5-header-1>Earth is different everywhere on Earth!  Before we get started, we get to know our local earth.</h4>
+			<p data-lang_id= 056-block-5-paragrah-1>The first step is to test the earth that you will use for your construction.  Choose a soil near your building site with a high clay content, no stone, and no silt (decayed organic material). Ideally your earth sticks together nicely and can be formed into a ball that holds together.</p>
+			<p data-lang_id= 057-block-5-paragrah-2>Of course, soil is different everywhere!  A soil’s character comes from the different amounts of sand, clay and silt in it.   If there’s too much clay in the earth, it will crack when it dries.  If there’s too much sand it will crumble when it dries.  If there’s do much silt, it won’t hold together nor be maleable like we need it to be.  We can however adjust our local soil to be better for building by adding more sand to it.  To do this, we  want to figure out the best combination of sand and earth to make your final building material– what we call ‘cob’.</p>
+			<p data-lang_id= 058-block-5-paragrah-3>With your chosen earth, make some cob pancakes!  It’s just like baking with dirt when you were a kid, but more scientific!  Mix small batches of cob with varying ratios of your local sand and clay.   Make pancakes of about 3cm by 15cm.  Try different rations, like one part sand, two parts clay.  Lay out a mix of different rations (i.e.  1:0, 0:1, 1:3, 1:1, 3:1) on a board.   Let them dry in the sun and out of the rain.  Note that for this testing, we don’t yet add any organic binder (i.e. straw, hay) as we are solely focused on testing the earth.  The binder comes later and will add strength to the final cob.</p>
+			<p data-lang_id= 059-block-5-paragrah-4>After two or three days, when the samples are fully dry, review your pancakes.  Break them carefully feeling how they hold up under pressure.</p>
+			<p data-lang_id= 060-block-5-paragrah-5>Based on your review you are now able to make an educated decision on the ratio to use for your project’s cob!  Choose the ratio that does not crumble easily, nor which hasn’t cracked.  Of course, you’ll also want to factor in things like the transportation and cost of the sand or the cost.  Some cracking (especially for the interior of non-structural benches) is not a big deal– and remember, the binder we add will add strength.</p>
+			<p data-lang_id= 061-block-5-paragrah-6>Once you have chosen your ideal ratio of sand and earth and have found an organic binder you’re ready to make cob!</p>
+			<p data-lang_id= 062-block-5-paragrah-7>Its time to prepare your materials….</p>
+		</div>
             </div>
         </section>
 
-        <section id="PACK">
+        <section id="BINDER">
             <div class="reg-content-block" id="block6">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="055-block-6-opener-header">6. Pack the bottle tight, mixing plastics as you go</h4>
-                        <h5 data-lang-id="056-block-6-opener-subheader">Now it's time to pack away! Cut or rip up large plastics into smaller pieces.</h5>
+                        <h4 data-lang-id="063-block-6-opener-header">3. Choose your organic binder</h4>
+                        <h5 data-lang-id="064-block-6-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
                     </div>
                     <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6" aria-expanded="false" aria-label="Toggle Section Six">+</button>
                 </div>
                 <div id="preclosed6">
                     <br>
-                    <img src="../svgs/06-Pack-the-bottle-tight-mixing-plastics-as-you-go.svg" width="640" loading="lazy" class="full-width-image" alt="Pack your eco-brick right with recycled plastics" data-lang-id="057-block-6-main-image-alt">
-
-                    <p data-lang-id="058-block-6-paragraph-1">The smaller the pieces, the denser you'll get! Fill the bottle up halfway with loose plastic, then use your stick to push down around the sides of the bottle. Keep pushing down as you move around the circumference of the bottle. Once compressed, add more loose plastics. To maximize the density, it's good to mix soft, then hard plastic. If it's your first ecobrick, weigh occasionally to make sure you are on track for your target minimum weight.</p>
-
-                    <p data-lang-id="059-block-6-paragraph-2">Did you push too hard? In rare cases, when using a sharp stick, a thin bottle or too much lateral force, an ecobrick will rupture. If so, start again. Ruptured bottles will not last and can leak plastics. Cut the bottle open, remove the plastic and start again. Cut or damaged PET plastic is readily recycled.</p>
-
-                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-5">
-                        <div class="advanced-box-header"  id="advancedBoxLabel-5">
-                            <div class="advanced-title" data-lang-id="060-block-6-advanced-title">Advanced</div>
-
-                            <div class="advanced-open-icon" >+</div>
-                        </div>
-                        <div class="advanced-box-content">
-                            <p data-lang-id="061-block-6-advanced-paragraph">💡 Once you get to the middle of your ecobrick, pack 2-3cms of lighter colored plastic. By forming a center white ring of plastic, you will later have a clear location to label your Ecobrick with a permanent black marker.</p>
-                        </div>
-                    </div><!--Advanced content closed-->
+                    <p data-lang-id="065-block-6-paragraph-1">Across cultures and continents our ancestors have used earth to make a building material by reinforcing with local fibers.  The choice of fibers was largely determined by what was available!  In Europe straw from the local grain harvest was used.  In Asia, rice straw or coconut fiber did the trick.   In some places, where neither was available horse or even human hair was used.</p>
+                    <p data-lang-id="066-block-6-paragraph-2">Organic binder is chosen by its availability, tensile strength and flexibility.  In other words, when it is pulled it doesn’t break easily and when it bends it doesn’t snap.</p>
+               	    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Tensile strength" data-lang-id="067-block-6-sub-image-alt">
+                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Coconut fiber" data-lang-id="068-block-6-sub-image-alt">
+                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Rice straw" data-lang-id="069-block-6-sub-image-alt">
+		    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Sturdy hay" data-lang-id="070-block-6-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Leftover rice straw" data-lang-id="071-block-6-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Ideal dried straw" data-lang-id="072-block-6-sub-image-alt">
+                    <p data-lang-id="073-block-6-paragraph-3"><b>Caution:</b>Although plastic fibers meets all three criteria above– using it in cob goes against our principles of <a href="https://www.ecobricks.org/circular">circular design</a>.  Once a construction comes to its end, it is impossible to remove the plastic from the cob and use it again.  This means that the plastic will certainly escape, degrade and <a href = "https://www.ecobricks.org/poison">contaminate the local ecosystem</a>.</p>
                 </div>
             </div>
         </section>
 
 
-        <section id="WEIGH">
+        <section id="MATERIALS">
             <div class="reg-content-block" id="block7">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="062-block-7-opener-header">7. Weigh your Ecobrick to ensure quality</h4>
-                        <h5 data-lang-id="063-block-7-opener-subheader">Now it's time to weigh! Cut or rip up large plastics into smaller pieces.</h5>
+                        <h4 data-lang-id="074-block-7-opener-header">4. Prepare your materials</h4>
                     </div>
                     <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
                 </div>
 
                 <div id="preclosed7">
                     <br>
-                    <img width="640" loading="lazy" class="full-width-image" src="svg/07-Weigh-your-ecobrick-to-ensure-density-FLAT.svg" alt="Weigh the eco brick and its recycled plastic waste" data-lang-id="064-block-7-main-image-alt">
-
-                    <p data-lang-id="065-block-7-paragraph-1">Ecobricks that are solid and strong are densely packed. The full volume is used for plastics, and there is no air or spaces inside. The GEA has determined that an ecobrick's density must be higher than <strong>0.33 g/ml</strong>. This means that a 600ml bottle must be above 200 grams and a 1500ml bottle must be above a weight of 500 grams. Experienced ecobrickers tend to regard 0.37 g/ml and above as the range of good ecobricks.</p>
-
-                    <p data-lang-id="066-block-7-paragraph-2">We've discovered that obligating minimum density in your community's ecobricking is essential to ensure quality ecobricks. Quality ecobricks ensure solid and safe constructions and maximize the bottle's volume for securing plastic out of the environment.</p>
-
-                    <p data-lang-id="067-block-7-paragraph-3">Ecobricks that are below 0.33 g/ml are too squishy to be used for modules and are not ideal for earth building. Soft ecobricks can compromise structural constructions and will dent easily, which reduces their lifespan. Low-density ecobricks are also <a href="/fire">fire hazards</a> because of the air pockets remaining inside them.</p>
-
-                    <p data-lang-id="068-block-7-paragraph-4">That said, a good solid ecobrick that meets all GEA guidelines is something you can be proud of and which will inspire others! An ecobrick's heft and quality set an inspiring example for others and energize the social spread of ecobricks. When others see and hold your ecobrick, they will understand immediately that something important has happened: "waste" has been transformed into something fundamentally useful.</p>
-
-                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-6">
-                        <div class="advanced-box-header"  id="advancedBoxLabel-6">
-                            <div class="advanced-title" data-lang-id="069-block-7-advanced-title">Advanced</div>
-                            <div class="advanced-open-icon" >+</div>
-                        </div>
-                        <div class="advanced-box-content">
-                            <p data-lang-id="070-block-7-advanced-paragraph">Some advanced ecobrickers are so industrious at chopping up their plastic and packing their bottles that their ecobricks are too dense! When these ecobricks are used to make modules, the weight of the ecobricks can be too much for the silicone bonds to hold. Also, such modules are too heavy to be safely moved by children or older people. For these reasons, the GEA recommends keeping your density below 0.7 g/ml.</p>
-                        </div>
-                    </div>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Straw" data-lang-id="075-block-7-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Sand" data-lang-id="076-block-7-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Earth Soak Pit" data-lang-id="077-block-7-sub-image-alt">
+		    <p data-lang-id="078-block-7-paragraph-1">To begin, gather your materials and get them ready.</p>
+		    <li data-lang-id="079a-block-7-list-paragraph-1">Earth & Sand: Based on your soil test, you should have a good idea of how much sand and earth you’re going to to need.  You’ll need to procure piles of each corresponding to the proportions of your soil test.</li>
+		    <li data-lang-id="079b-block-7-list-paragraph-2">Cob binder: Gather enough of your binder for your project.  Keep dry.</li>
+		    <li data-lang-id="079c-block-7-list-paragraph-3">Soak your Earth:  It is important to soak your earth before using it, especially if it contains large dry rocky clumps.   This will greatly speed up the cob making process and result in a strong dried mortar.  Prepare a pit, or raised pool lined with a tarp.  For smallers you can use a large basin or oil drum.  Fill 3/4 with your chosen earth.  Fill the 4/5 with water.  Cover to avoid rain spilling it over (and loosing the important sediments) and to prevent it being accessed by mosquitoes.</li>
                 </div>
             </div>
         </section>
 
+        <section id="BUILDING SITE">
+            <div class="reg-content-block" id="block8">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="080-block-8-opener-header">5. Prepare your building site</h4>
+                        <h5 data-lang-id="081-block-8-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
+                    </div>
+                    <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
+                </div>
 
+                <div id="preclosed8">
+                    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
+		    <p data-lang-id="082-block-8-paragraph-1">Clear the space where you will be working of all hazards.  Make sure that there is plenty of free space to work and move.  Allocate a space for mixing the cob, for piling materials, and for tools.  Make sure there are no hazards on the ground for when you get started.</p>
+		    <p data-lang-id="083-block-8-paragraph-2">Use chalk, or stakes to set out the footprint of your build.  Once this is done, you’ll want to give some thought to the pathways and flow of the collaboration.  This is particularly important if you’re evolving dozens or hundreds of participants for a large build.  Think about where to place your tools and materials for the different teams that will be working on different aspects of the construction.</p>
+		    <p data-lang-id="084-block-8-paragraph-3">Plan out the pathways that your teams will move on between work sites, materials, and the build.  Try to make sure that the paths do not overlap, and that teams have ample space to work.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="DIG">
+            <div class="reg-content-block" id="block9">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="085-block-9-opener-header">6. Dig your foundation</h4>
+                    </div>
+                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
+                </div>
+
+                <div id="preclosed9">
+                    <br>
+               	    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Lay medium stones in your trench" data-lang-id="086-block-9-sub-image-alt">
+                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Dig a 10cm deep trench in which to lay your cement foundation." data-lang-id="087-block-9-sub-image-alt">
+		    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Lay out ecobricks" data-lang-id="088-block-9-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
+
+		    <p data-lang-id="089-block-9-paragraph-1">Once you’ve got your bench line figured out and marked with chalk and sticks, lay your ecobricks into the space.  Use the loose ecobricks to finalize the footprint of your construction. This will help you put the final touches on the curves of the footprint and determine precisely how many ecobricks you will need.  Adjust as you see fit. When all is ready, remove the ecobricks.</p>
+ 		    <p data-lang-id="090-block-9-paragraph-2">Now you’re ready to break ground!</p>
+		    <li data-lang-id="091a-block-9-list-paragraph-1">Dig down 10 cm for the entire footprint of your foundation.</li>
+		    <li data-lang-id="091b-block-9-list-paragraph-2">Place loose ecobricks in the trench to make sure its the right size.  Space the ecobricks 4cm apart to estimate how many ecobricks you will need per level.</li>
+		    <li data-lang-id="091c-block-9-list-paragraph-3">Remove all ecobricks, and dirt.  Fill the trench with a base layer of medium sized stones.</li>
+		    <li data-lang-id="091d-block-9-list-paragraph-4">Lay the stones so that their tops are level with the ground.</li>
+ 		    <p data-lang-id="092-block-9-paragraph-3">There are two main ways of completing your foundation: with cement or without…</p>
+
+                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1">
+                        <div class="advanced-box-header"  id="advancedBoxLabel-1">
+                            <div class="advanced-title" data-lang-id="093-block-1-advanced-title">6.1 Non-Cement Foundation</div>
+                            <div class="advanced-open-icon" >+</div>
+                        </div>
+
+                        <div class="advanced-box-content">
+                            <div class="row">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+				    <br>
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">   
+                                <p data-lang-id="094-block-1-advanced-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
+                                <p data-lang-id="095-block-1-advanced-paragraph-2">Lay medium sized stones in your trench making a free draining foundation. (A land drain could be added on wetter sites). Tamp down. It can be infilled with some smaller stones to make it level with the ground, or a little higher.</p>
+                                <p data-lang-id="096-block-1-advanced-paragraph-3">It is now possible to build with ecobricks on this foundation/rubble trench. If you are building a large structure or if ground conditions are sometimes wet consider raising the walls further from the ground. The Porthmadog site in Wales is on a flood plain and gets very wet in winter, so the chosen method combined aspects of the following examples. It is advised that you examine vernacular buildings for local, cement free and climate appropriate solutions. Sustainable architects and engineers can also help with this.</p>
+                            </div>
+                        </div><!-- Advanced content closed -->
+                    </div>
+                    <div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-2">
+                        <div class="advanced-box-header"  id="advancedBoxLabel-2">
+                            <div class="advanced-title" data-lang-id="097-block-2-advanced-title">6.2 Cement Foundations</div>
+                            <div class="advanced-open-icon" >+</div>
+                        </div>
+
+                        <div class="advanced-box-content">
+                            <div class="row">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Mix cement 1:8" data-lang-id="098-block-advanced-2-sub-image-alt">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Pour over wet cement" data-lang-id="099-block-advanced-2-sub-image-alt">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Mix dry batch" data-lang-id="100-block-advanced-2-sub-image-alt">
+				    <br>
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Lay Second layer + ecobricks" data-lang-id="101-block-advanced-2-sub-image-alt">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Fill spaces with rocks" data-lang-id="102-block-advanced-2-sub-image-alt">
+		                    <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="20%-30% submerged" data-lang-id="103-block-advanced-2-sub-image-alt">
+                                <p data-lang-id="104-block-2-advanced-paragraph-1">There are various ways to lay your foundation.  One option is using a base-layer of cement.  The cement is an effective means of preventing your cob bench from seaping up water from the ground, which would undermine its structural integrity.  By raising the cement foundation 10cm above the ground, we also prevent seepage in through the benches outer layer in case of pooling rain or flooding.</p>
+	    		    	<li data-lang-id="105a-block-2-advanced-list-paragraph-1">Mix cement to a 1:7 ratio of cement to sand/gravel.  You’ll be making two batches.  The first will be somewhat wet (the constiently of thick soup) and the second will be dryer (the consistency of yogurt)</li>
+				<li data-lang-id="105b-block-2-advanced-list-paragraph-2">Ensure that the stones you’ve laid into the trench are not touching.</li>
+				<li data-lang-id="105c-block-2-advanced-list-paragraph-3">Use a bucket of water to wet your trench and laid stones.</li>
+				<li data-lang-id="105d-block-2-advanced-list-paragraph-4">Pour your first wet mix of cement over all the stones, filling the trench entirely to the ground level.  Make sure the cement seeps all the way down between the stones.</li>
+				<li data-lang-id="105e-block-2-advanced-list-paragraph-5">Lay the second mix of yogurt cement over the first. If your first layer has already dried, be sure to score it with stick, then wet it again.</li>
+				<li data-lang-id="105f-block-2-advanced-list-paragraph-6">Lay your first level of ecobricks down, resting in the cement.  Space ecobricks approxamitely 4 cm apart.</li>
+				<li data-lang-id="105g-block-2-advanced-list-paragraph-7">Make sure that the ecobricks are a minimum of 20% submerged in the cement.  Do not submerge more than 40% or they may be un-removeable in the future.</li>
+				<li data-lang-id="105h-block-2-advanced-list-paragraph-8">Let dry over night.</li>
+			    </div>
+                        </div><!-- Advanced content closed -->
+                    </div>
+		</div>
+            </div>
+        </section>
 
 
         <br>
