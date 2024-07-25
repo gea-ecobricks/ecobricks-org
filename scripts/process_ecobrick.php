@@ -62,7 +62,7 @@ $result = $conn->query($query);
 ?>
 
 <body>
-<h1>Latest Ecobrick Imports</h1>
+<h1>Latest Ecobrick+Maker Records Processed...</h1>
 <div class="gallery">
     <?php
     if ($result->num_rows > 0) {
@@ -70,7 +70,7 @@ $result = $conn->query($query);
             $serial_no = $row['serial_no'];
             $thumb_url = $row['ecobrick_thumb_photo_url'];
             echo "<a href='https://ecobricks.org/en/details-ecobrick-page.php?serial_no=$serial_no' target='_blank'>
-                    <img src='https://ecobricks.org/$thumb_url' alt='Ecobrick $serial_no' title='Ecobrick $serial_no'>
+                    <img src='$thumb_url' alt='Ecobrick $serial_no' title='Ecobrick $serial_no'>
                   </a>";
         }
     } else {
