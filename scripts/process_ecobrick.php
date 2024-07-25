@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ᐉ Maker ID Update</title>
+    <title>ᐉ Ecobricker Migration to GoBrik 3.0</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,7 +35,7 @@
 </head>
 <body>
 
-<p>We're updating ecobrick records with the maker id</p>
+<p>The ecobrick migration is complete!  Thank you for your help.  Now we're migrating ecobrickers to our new GoBrik 3.0 server.  The first part of this is updating our ecobricks with their ecobricker record IDs.  To help keep this window open and let it run on your computer.  Thank you!</p>
 
 <div id="ecobrick-being-processed">
 
@@ -270,7 +270,7 @@ $conn2->close();
 
 echo "<div class='message'>Now closing databse session, an moving to next ecobrick...</div>";
 
-echo "<script>window.location.href = 'process_ecobrick_maker_id.php';</script>";
+echo "<script>window.location.href = 'process_ecobrick.php';</script>";
 
 exit();
 ?>
