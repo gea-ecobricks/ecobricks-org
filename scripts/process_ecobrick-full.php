@@ -252,7 +252,6 @@
             echo "<p>Failed to update Knack field 2492 to Yes.</p>";
         }
     }
-
 // PART 2: Data Retrieval and Database Insertion
 
 if (isset($data['records']) && count($data['records']) > 0) {
@@ -316,14 +315,23 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $check_stmt->store_result();
 
             if ($check_stmt->num_rows > 0) {
-                // Record exists, reload the page to process the next record
-                echo "<p>Looks like this record already is loaded into our database.</p>";
+                // Record exists, update the existing record
+                $update_stmt = $conn->prepare("UPDATE tb_ecobricks SET serial_no = ?, owner = ?, ecobricker_maker = ?, ecobrick_full_photo_url = ?, volume_ml = ?, universal_volume_ml = ?, weight_g = ?, density = ?, date_logged_ts = ?, CO2_kg = ?, sequestration_type = ?, last_validation_ts = ?, validator_1 = ?, validator_2 = ?, validator_3 = ?, validation_score_avg = ?, knack_record_id = ?, final_validation_score = ?, vision = ?, last_ownership_change = ?, non_registered_maker_name = ?, actual_maker_name = ?, weight_authenticated_kg = ?, location_country = ?, location_region = ?, community_name = ?, brand_name = ?, bottom_colour = ?, plastic_from = ?, ecobrick_brk_display_value = ?, ecobrick_dec_brk_val = ?, ecobrick_brk_amt = ?, photo_choice = ?, location_city = ?, location_full = ?, catalyst = ?, brik_notes = ?, maker_record_id = ? WHERE ecobrick_unique_id = ?");
+                if ($update_stmt === false) {
+                    echo "<script>if(confirm('Update prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick-full.php'; }</script>";
+                }
+                $update_stmt->bind_param("sssssssssssssssssssssssssssssssssssssss", $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt, $photo_choice, $location_city, $location_full, $catalyst, $brik_notes, $maker_record_id, $ecobrick_unique_id);
 
-                echo "<script>window.location.href = 'process_ecobrick-full.php';</script>";
-                echo "<p>Reloading page to try another ecobrick...</p>";
-                exit; // Terminate the script to prevent further execution
+                // Execute update statement
+                if (!$update_stmt->execute()) {
+                    $success = false;
+                    $errors[] = "Update execute failed: " . htmlspecialchars($update_stmt->error);
+                }
+
+                // Close the update statement
+                $update_stmt->close();
             } else {
-                // Prepare and bind
+                // Record does not exist, insert new record
                 $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt, photo_choice, location_city, location_full, catalyst, brik_notes, maker_record_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
                     echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick-full.php'; }</script>";
@@ -509,38 +517,13 @@ if (!empty($error_message)) {
     echo json_encode(['error' => "An error has occurred: " . $error_message . " END"]);
     exit;
 }
-// PART 5: Updating Knack Record
-//
-//echo "<script>console.log('Updating Knack database to indicate ecobrick has been migrated.');</script>";
-//$update_knack_url = "https://api.knack.com/v1/objects/object_2/records/" . $knack_record_id;
-//$knack_update_data = json_encode(['field_2492' => 'Yes']);
-//$knack_update_headers = [
-//    "X-Knack-Application-Id: $app_id",
-//    "X-Knack-REST-API-Key: $api_key",
-//    "Content-Type: application/json"
-//];
-//
-//$ch = curl_init($update_knack_url);
-//curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
-//curl_setopt($ch, CURLOPT_POSTFIELDS, $knack_update_data);
-//curl_setopt($ch, CURLOPT_HTTPHEADER, $knack_update_headers);
-//
-//$knack_update_response = curl_exec($ch);
-//
-//if ($knack_update_response === false) {
-//    echo "<script>console.log('Error updating Knack record: " . addslashes(curl_error($ch)) . "');</script>";
-//} else {
-//    echo "<script>console.log('Knack record updated successfully');</script>";
-//    echo "<div class='message'>Knack original record updated so that it isn't processed again.</div>";
-//}
-//
-//curl_close($ch);
+
+
 
 
 echo "<div class='message'>Now closing databse session, an moving to next ecobrick...</div>";
 
-echo "<script>window.location.href = 'process_ecobrick-full.php';</script>";
+// echo "<script>window.location.href = 'process_ecobrick-full.php';</script>";
 
 if (!empty($error_message)) {
     http_response_code(400);
