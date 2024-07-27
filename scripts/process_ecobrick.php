@@ -139,7 +139,7 @@ $filters = [
 ];
 
 // Prepare the API request to retrieve ecobrick record...
-$url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=desc&rows_per_page=1";
+$url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=asc&rows_per_page=1";
 
 // Initialize cURL session
 $ch = curl_init($url);
