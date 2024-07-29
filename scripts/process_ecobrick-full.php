@@ -523,7 +523,7 @@ if (!empty($error_message)) {
 
 echo "<div class='message'>Now closing databse session, an moving to next ecobrick...</div>";
 
-// echo "<script>window.location.href = 'process_ecobrick-full.php';</script>";
+echo "<script>window.location.href = 'process_ecobrick-full.php';</script>";
 
 if (!empty($error_message)) {
     http_response_code(400);
