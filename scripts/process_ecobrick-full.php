@@ -163,7 +163,7 @@
     ];
 
     // Prepare the API request to retrieve multiple ecobrick records
-    $url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=asc&rows_per_page=1";
+    $url = "https://api.knack.com/v1/objects/object_2/records?filters=" . urlencode(json_encode($filters)) . "&sort_field=field_73&sort_order=desc&rows_per_page=1";
 
     // Initialize cURL session
     $ch = curl_init($url);
@@ -306,7 +306,7 @@ if (isset($data['records']) && count($data['records']) > 0) {
             $ecobrick_brk_display_value = ($weight_authenticated_kg * 10) . " BRK";
             $ecobrick_dec_brk_val = number_format($weight_authenticated_kg * 10, 2, '.', '');
             $ecobrick_brk_amt = $weight_authenticated_kg * 10;
-            $brik_notes = "PHP API transfer from Gobrik developed by R.Maier, July 2024";
+            $brik_notes = "PHP API transfer with maker id from Gobrik by R.Maier, July 2024";
 
             // Check if the ecobrick ID already exists in the database
             $check_stmt = $conn->prepare("SELECT ecobrick_unique_id FROM tb_ecobricks WHERE ecobrick_unique_id = ?");
