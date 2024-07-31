@@ -92,7 +92,6 @@
 
     <?php
     // PART 1: Process Control
-    session_start();
     if (isset($_GET['action'])) {
         $action = $_GET['action'];
         if ($action === 'stop') {
@@ -334,8 +333,7 @@
     $ecobrick_photo_url = $ecobrick_full_photo_url;
 
     echo "<div class='message'>Starting image processing</div>";
-    ob_flush();
-    flush();
+
 
     if (!empty($ecobrick_photo_url)) {
         $file_extension = strtolower(pathinfo($ecobrick_photo_url, PATHINFO_EXTENSION));
@@ -356,8 +354,7 @@
 
         if ($img !== false) {
             echo "<div class='message'>Knack ecobrick $ecobrick_unique_id image downloaded successfully</div>";
-            ob_flush();
-            flush();
+
             $bytes_written = @file_put_contents($targetPath, $img);
             if ($bytes_written !== false) {
                 $kb_written = $bytes_written / 1024;
