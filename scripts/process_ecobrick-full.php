@@ -359,14 +359,12 @@
             if ($bytes_written !== false) {
                 $kb_written = $bytes_written / 1024;
                 echo "<div class='message'>Image saved: {$kb_written} KB written.</div>";
-                ob_flush();
-                flush();
+
 
                 if (resizeAndConvertToWebP($targetPath, $targetPath, 1020, 77)) {
                     if (createTrainingThumbnail($targetPath, $thumbnailPath, 150, 66)) {
                         echo "<div class='message'>Image resized and thumbnail created</div>";
-                        ob_flush();
-                        flush();
+
                         $full_urls[] = $targetPath;
                         $thumbnail_paths[] = $thumbnailPath;
                         $main_file_sizes[] = filesize($targetPath) / 1024;
