@@ -212,6 +212,7 @@
         // Now, update the record to set field_2492 to 'Yes'
         $update_url = "https://api.knack.com/v1/objects/object_2/records/$knack_record_id";
         $update_data = json_encode(['field_2492' => 'Yes']);
+        $update_data = json_encode(['field_2525' => 'Yes']);
 
         // Initialize cURL session for update
         $ch_update = curl_init($update_url);
