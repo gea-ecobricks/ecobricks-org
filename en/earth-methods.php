@@ -275,7 +275,7 @@
                         <h4 data-lang-id="080-block-8-opener-header">5. Prepare your building site</h4>
                         <h5 data-lang-id="081-block-8-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
                     </div>
-                    <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
+                    <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Eight">+</button>
                 </div>
 
                 <div id="preclosed8">
@@ -296,7 +296,7 @@
                     <div class="opener-header-text">
                         <h4 data-lang-id="085-block-9-opener-header">6. Dig your foundation</h4>
                     </div>
-                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
+                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Nine">+</button>
                 </div>
 
                 <div id="preclosed9">
@@ -361,6 +361,8 @@
 				<li data-lang-id="105f-block-2-advanced-list-paragraph-6">Lay your first level of ecobricks down, resting in the cement.  Space ecobricks approxamitely 4 cm apart.</li>
 				<li data-lang-id="105g-block-2-advanced-list-paragraph-7">Make sure that the ecobricks are a minimum of 20% submerged in the cement.  Do not submerge more than 40% or they may be un-removeable in the future.</li>
 				<li data-lang-id="105h-block-2-advanced-list-paragraph-8">Let dry over night.</li>
+	                        <p data-lang-id="106-block-2-advanced-paragraph-2"><b>Caution:</b>The use of cement in a project has a significant grey environmental impact.  The production, shipping and sale of cement is one of the largest sources of human CO2 emissions.  It is estimated that for every 1kg of <a href="https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf">cement  0.5-0.9kg of CO2e is released</a>.   If you choose to use cement, be sure that the green impact of your projects (the garden your will grow, the trees in your green space, your sequestration of plastic, etc.) are greater than your grey impacts.   Only in this way can you assure that your project is <a href"https://www.ecobricks.org/principles">net-green and regenerative.</a></p>
+	                        <p data-lang-id="107-block-2-advanced-paragraph-3"><b>Caution:</b>CAUTION:  Be sure that your use of cement does not completely encase your ecobricks– which will prevent them from being removed undamaged in the future.</p>
 			    </div>
                         </div><!-- Advanced content closed -->
                     </div>
@@ -368,7 +370,30 @@
             </div>
         </section>
 
-
+        <section id="MASH">
+            <div class="reg-content-block" id="block10">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="108-block-10-opener-header">7. Mash your cob mixture</h4>
+                    </div>
+                    <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Ten">+</button>
+                </div>	    
+		    
+                <div id="preclosed8">
+                    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Mix your cob mixture to your ratio." data-lang-id="109-block-10-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
+      		    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">			
+		    <p data-lang-id="082-block-8-paragraph-1">Clear the space where you will be working of all hazards.  Make sure that there is plenty of free space to work and move.  Allocate a space for mixing the cob, for piling materials, and for tools.  Make sure there are no hazards on the ground for when you get started.</p>
+		    <p data-lang-id="083-block-8-paragraph-2">Use chalk, or stakes to set out the footprint of your build.  Once this is done, you’ll want to give some thought to the pathways and flow of the collaboration.  This is particularly important if you’re evolving dozens or hundreds of participants for a large build.  Think about where to place your tools and materials for the different teams that will be working on different aspects of the construction.</p>
+		    <p data-lang-id="084-block-8-paragraph-3">Plan out the pathways that your teams will move on between work sites, materials, and the build.  Try to make sure that the paths do not overlap, and that teams have ample space to work.</p>
+                </div>
+            </div>
+        </section>
         <br>
         <div class="row">
             <div class="main2">
