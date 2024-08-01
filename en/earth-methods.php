@@ -375,22 +375,23 @@
                 <div class="opener-header">
                     <div class="opener-header-text">
                         <h4 data-lang-id="108-block-10-opener-header">7. Mash your cob mixture</h4>
+                        <h5 data-lang-id="109-block-10-opener-subheader">Now for the fun part.  This is where we get everyone involved…</h5>
                     </div>
                     <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Ten">+</button>
                 </div>	    
 		    
-                <div id="preclosed8">
+                <div id="preclosed10">
                     <br>
-		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Mix your cob mixture to your ratio." data-lang-id="109-block-10-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Mix your cob mixture to your ratio." data-lang-id="110-block-10-sub-image-alt">
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
       		    <br>
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">			
-		    <p data-lang-id="082-block-8-paragraph-1">Clear the space where you will be working of all hazards.  Make sure that there is plenty of free space to work and move.  Allocate a space for mixing the cob, for piling materials, and for tools.  Make sure there are no hazards on the ground for when you get started.</p>
-		    <p data-lang-id="083-block-8-paragraph-2">Use chalk, or stakes to set out the footprint of your build.  Once this is done, you’ll want to give some thought to the pathways and flow of the collaboration.  This is particularly important if you’re evolving dozens or hundreds of participants for a large build.  Think about where to place your tools and materials for the different teams that will be working on different aspects of the construction.</p>
-		    <p data-lang-id="084-block-8-paragraph-3">Plan out the pathways that your teams will move on between work sites, materials, and the build.  Try to make sure that the paths do not overlap, and that teams have ample space to work.</p>
+		    <p data-lang-id="111-block-10-paragraph-1">Mix your cob to the ratio that you discovered was best in Step 1. Use buckets to measure each part.  Dump the buckets of sand and clay onto a large tarp.  Add your organic binder (straw, hay, coconut fibre, etc…).  </p>
+		    <p data-lang-id="112-block-10-paragraph-2">Use your feet to mash and mix the cob.  Add small quantities of water as you go to help the mixing (but not too much or your mix will be too soupy).  You want your cob to have the consistency of playdough. </p>
+		    <p data-lang-id="113-block-10-paragraph-3">Your mix is ready once there is absolutely no trace of sand grains.   Remember, one of the factors in the stength of your cob (and final construction) is how well it is mixed.</p>
                 </div>
             </div>
         </section>
