@@ -395,6 +395,28 @@
                 </div>
             </div>
         </section>
+
+        <section id="BALLS">
+            <div class="reg-content-block" id="block11">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="114-block-11-opener-header">8. Make Cob Balls</h4>
+                        <h5 data-lang-id="115-block-11-opener-subheader">Cob Balling is a fun and valuable step that helps include just about everybody in the collaboration.</h5>
+                    </div>
+                    <button onclick="preclosed11()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
+                </div>	    
+		    
+                <div id="preclosed11">
+                    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Anyone can help" data-lang-id="116-block-11-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="A final manual cob prep" data-lang-id="117-block-11-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Balls are ready to be laid" data-lang-id="118-block-11-sub-image-alt">
+		    <p data-lang-id="119-block-11-paragraph-1">You will know that the mixture is complete when you can no longer see any sand and the entire batch is of the same homogenous consistency.  But even then, you can add one more level of mixing to enhance the strength of your dried cob. </p>
+		    <p data-lang-id="112-block-11-paragraph-2">When you’re ready, have your team use their hands to make balls out of the mix.  Cob balls help refine the mix one last time, and make the cob easier to transport and handy to lay in between ecobricks. </p>
+		    <p data-lang-id="113-block-11-paragraph-3">No need for gloves!  Cob is 100% safe to handle with your hands, and many builders are even convinced that its therapeutic!</p>
+                </div>
+            </div>
+        </section>
         <br>
         <div class="row">
             <div class="main2">
