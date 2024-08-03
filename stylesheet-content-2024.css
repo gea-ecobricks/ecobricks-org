@@ -216,7 +216,6 @@ SPLASH TOP
 		padding: 50px 5% 25px 5%;
 		margin-bottom: 0px;
 		z-index: 5;
-
     	background-repeat: no-repeat;
 		background-size: cover;
 		margin-top: 45px;
@@ -224,8 +223,7 @@ SPLASH TOP
 		display: flex;
  		box-sizing: border-box;
 		flex-direction: column;
-	position: relative;
-
+	    position: relative;
 	}
 
   .splash-image {
