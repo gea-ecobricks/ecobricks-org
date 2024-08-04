@@ -20,7 +20,6 @@ $lang = isset($path_segments[0]) ? $path_segments[0] : 'en'; // Default to Engli
 
 <!--PAGE BANNER-->
 
-
  <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Sorry!</div>
@@ -31,7 +30,6 @@ $lang = isset($path_segments[0]) ? $path_segments[0] : 'en'; // Default to Engli
 </div>
 
 <!-- PAGE CONTENT-->
-
 
         <div id="main-content">
 
