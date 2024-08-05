@@ -296,7 +296,7 @@
                     <div class="opener-header-text">
                         <h4 data-lang-id="085-block-9-opener-header">6. Dig your foundation</h4>
                     </div>
-                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Nine">+</button>
+                    <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9" aria-expanded="false" aria-label="Toggle Section Nine">+</button>
                 </div>
 
                 <div id="preclosed9">
@@ -377,7 +377,7 @@
                         <h4 data-lang-id="108-block-10-opener-header">7. Mash your cob mixture</h4>
                         <h5 data-lang-id="109-block-10-opener-subheader">Now for the fun part.  This is where we get everyone involved…</h5>
                     </div>
-                    <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Ten">+</button>
+                    <button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10" aria-expanded="false" aria-label="Toggle Section Ten">+</button>
                 </div>	    
 		    
                 <div id="preclosed10">
@@ -403,29 +403,75 @@
                         <h4 data-lang-id="114-block-11-opener-header">8. Make Cob Balls</h4>
                         <h5 data-lang-id="115-block-11-opener-subheader">Cob Balling is a fun and valuable step that helps include just about everybody in the collaboration.</h5>
                     </div>
-                    <button onclick="preclosed11()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
+                    <button onclick="preclosed11()" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
                 </div>	    
 		    
                 <div id="preclosed11">
-                    <br>
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Anyone can help" data-lang-id="116-block-11-sub-image-alt">
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="A final manual cob prep" data-lang-id="117-block-11-sub-image-alt">
 		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Balls are ready to be laid" data-lang-id="118-block-11-sub-image-alt">
 		    <p data-lang-id="119-block-11-paragraph-1">You will know that the mixture is complete when you can no longer see any sand and the entire batch is of the same homogenous consistency.  But even then, you can add one more level of mixing to enhance the strength of your dried cob. </p>
-		    <p data-lang-id="112-block-11-paragraph-2">When you’re ready, have your team use their hands to make balls out of the mix.  Cob balls help refine the mix one last time, and make the cob easier to transport and handy to lay in between ecobricks. </p>
-		    <p data-lang-id="113-block-11-paragraph-3">No need for gloves!  Cob is 100% safe to handle with your hands, and many builders are even convinced that its therapeutic!</p>
+		    <p data-lang-id="120-block-11-paragraph-2">When you’re ready, have your team use their hands to make balls out of the mix.  Cob balls help refine the mix one last time, and make the cob easier to transport and handy to lay in between ecobricks. </p>
+		    <p data-lang-id="121-block-11-paragraph-3">No need for gloves!  Cob is 100% safe to handle with your hands, and many builders are even convinced that its therapeutic!</p>
                 </div>
             </div>
         </section>
-        <br>
+        <section id="SECONDLAYER">
+            <div class="reg-content-block" id="block12">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="122-block-12-opener-header">9. Lay the second layer of Ecobricks</h4>
+                        <h5 data-lang-id="123-block-12-opener-subheader">Now, its time to produce and lay cob and ecobricks.  The brunt of the work is now ahead, but with everyone working together it goes fun and fast!</h5>
+                    </div>
+                    <button onclick="preclosed12()" class="block-toggle" id="block-toggle-show12" aria-expanded="false" aria-label="Toggle Section Twelve">+</button>
+                </div>
+		    
+                <div id="preclosed12">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg"" alt="Add a two finger high layer of cob on top" data-lang-id="124-block-12-sub-image-alt">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg>
+                    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Pack another layer of cob over top" data-lang-id="125-block-12-sub-image-alt">
+		    <p data-lang-id="126-block-12-paragraph-1">This is where the earlier layout of your work site pathways is key (Step 3).  Have your cob mashing team move to mash on another tarp, while you ball-making team takes over.  Once the balls are ready, they are brought to the team compacting them onto the build.</p>
+		    <p data-lang-id="127-block-12-paragraph-2">Bang the cob balls around the ecobricks that are set in the cement.  Pack the cob all the way down between bottles.  It can be helpful to lay small stones between the bottles to take up space and minimize the use of cob.</p>
+		    <p data-lang-id="128-block-12-paragraph-3">Make sure that 2cm of the bottom and top of the ecobricks are exposed on the inside and outside of your bench.  Later, this space will be filled with your finishing skin-layer of cob.</p>
+		    <p data-lang-id="129-block-12-paragraph-4">Cover the ecobricks with a layer of compacted cob approximately 5cm high.  Bang your new ecobricks down as you lay this level.  Aim for 4cm of distance between the ecobricks below. Keep your horizontal spacing consistent at 4 cm between bottles.  Position each new ecobrick in between the two below it.</p>
+                </div>
+            </div>
+        </section>
+        <section id="BUILDINGUP">
+            <div class="reg-content-block" id="block13">
+                <div class="opener-header">
+                    <div class="opener-header-text">
+                        <h4 data-lang-id="130-block-13-opener-header">10. Keep building up layer by layer</h4>
+                    </div>
+                    <button onclick="preclosed13()" class="block-toggle" id="block-toggle-show13" aria-expanded="false" aria-label="Toggle Section Thirteen">+</button>
+                </div>
+		    
+                <div id="preclosed13">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg"">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg>
+                    <br>
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
+		    <img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
+		    <p data-lang-id="131-block-13-paragraph-1">Once the bottles are snug in the lower cob layer, fill in any large gaps between bottles (i.e. on curves) with stones.  This will help your cob mixture go further.  Fill in with cob between the bottles.  Add another layer of 5cm on top of the bottles.  Bang your new ecobricks down as you lay this level.  Aim for 4cm of distance between the ecobricks below.</p>
+		    <p data-lang-id="132-block-13-paragraph-2">Keep adding layers of bottles and cob!  We find that benches are good with two or three layers of bottles.  For walls, add a row of iron re-bar at every 5th layer of bottles.</p>
+                </div>
+            </div>
+        </section>
+	<br>
         <div class="row">
             <div class="main2">
                 <div class="page-paragraph-reg">
-                    <h4 data-lang-id="084-safe-passage">A Safe Passage Through Time</h4>
-                    <p data-lang-id="085-significant-responsibility">Building with ecobricks is a significant responsibility. Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
+                    <h4 data-lang-id="172-safe-passage">A Safe Passage Through Time</h4>
+                    <p data-lang-id="173-significant-responsibility">Building with ecobricks is a significant responsibility. Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
                     <br>
-                    <p><a class="action-btn" href="/earth-methods" data-lang-id="086-earth-methods">🚀 Earth & Ecobrick Methods</a></p>
-                    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="087-overview-methods">An overview of earth building principles and methods.</p>
+                    <p><a class="action-btn" href="/earth-methods" data-lang-id="174-earth-methods">🚀 Earth & Ecobrick Methods</a></p>
+                    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="175-overview-methods">An overview of earth building principles and methods.</p>
                 </div>
             </div>
             <div class="side2">
