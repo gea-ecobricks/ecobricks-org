@@ -36,9 +36,9 @@
             <div class="page-paragraph-reg">
                 <p data-lang-id="005-first-page-paragraph">The Global Ecobrick Alliance recommends the use of earth and ecobricks to build non-structural, non-load bearing green spaces such as benches, planters, and food forest play parks.  By using simple methods to build small-scale inspiring constructions that fully embody regenerative principles, we enable others to copy our constructions.  As more and more ecobrickers lead and assist in earth building, more and more plastic is sequestered.  And as more and more people get their hands dirty building with earth, more and more we reconnect to the earth and... Earth!</p>
 
-                <p>Earthen building with ecobricks is a key step in our individual and collective journeys of plastic transition.</p>
+                <p data-lang-id="007-first-page-paragraph">Earthen building with ecobricks is a key step in our individual and collective journeys of plastic transition.</p>
 
-		<p data-lang-id="006-first-page-paragraph">Our recommended GEA earth building methods are designed to be both adaptable and scalable. Ecobrick and earth building is fundamentally about working with what resources are locally available– so we encourage you to adapt accordingly to your local context. We encourage you to start by learning from ancestral earth building methods in your region and starting small.  By starting small, you and your community can master methods and principles that apply equally to large projects as they do small. Once we have mastered small non-structural applications, we fully envisions homes and structures built with earth and ecobricks.</p>
+		<p data-lang-id="008-first-page-paragraph">Our recommended GEA earth building methods are designed to be both adaptable and scalable. Ecobrick and earth building is fundamentally about working with what resources are locally available– so we encourage you to adapt accordingly to your local context. We encourage you to start by learning from ancestral earth building methods in your region and starting small.  By starting small, you and your community can master methods and principles that apply equally to large projects as they do small. Once we have mastered small non-structural applications, we fully envisions homes and structures built with earth and ecobricks.</p>
 	    </div>
 
 
@@ -48,20 +48,17 @@
             <div class="reg-content-block" id="block1" style="background:orange;">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="006-block-1-opener-header">CAUTION!</h4>
-                        <h5 data-lang-id="007-block-1-opener-subheader"><b>Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b> </h5>
+                        <h4 data-lang-id="009-block-1-opener-header">CAUTION!</h4>
+                        <h5 data-lang-id="010-block-1-opener-subheader"><b>Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b> </h5>
                         <br>
                     </div>
                     <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
                 </div>
 
                 <div id="preclosed1">
+                    <p data-lang-id="011-block-1-opener-subheader">Today’s conventional construction is driven by capital and relies on industrial methods and materials with additive plastic and CO2 impacts (greying).  GEA recommended building methods are based on regenerative principles to ensure that their net CO2 and plastic impacts are subtractive (greening).</p>
 
-                    <p data-lang-id="009-block-1-opener-subheader">Today’s conventional construction is driven by capital and relies on industrial methods and materials with additive plastic and CO2 impacts (greying).  GEA recommended building methods are based on regenerative principles to ensure that their net CO2 and plastic impacts are subtractive (greening).</p>
-
-                    <p><a href="earth.php">Learn more about Ecobrick & Earth Building Principles</a></p>
-
-
+                    <p data-lang-id="012-block-1-link"><a href="earth.php">Learn more about Ecobrick & Earth Building Principles</a></p>
                 </div>
             </div>
         </section>
@@ -70,8 +67,8 @@
             <div class="reg-content-block" id="block2">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="016-block-2-opener-header">Green Spaces</h4>
-                        <h5 data-lang-id="017-block-2-opener-subheader">Ecobrick & Earth construction is ideal for simple, non-structural green spaces that serve your local community and ecosystem.</h5>
+                        <h4 data-lang-id="013-block-2-opener-header">Green Spaces</h4>
+                        <h5 data-lang-id="014-block-2-opener-subheader">Ecobrick & Earth construction is ideal for simple, non-structural green spaces that serve your local community and ecosystem.</h5>
                         <br>
                     </div>
                     <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
@@ -84,46 +81,42 @@
                         <!--photo1-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
                             <img src="../photos/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
-                            <p data-lang-id="009-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
+                            <p data-lang-id="015-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
                         </div>
 
                         <!--photo2-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
                             <img src="../photos/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
-                            <p data-lang-id="010-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
+                            <p data-lang-id="016-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
                         </div>
 
                         <!--photo3-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space3.png', 'A circular ecobrick garden planter')">
                             <img src="../photos/green-space3.png" alt="A circular ecobrick garden planter">
-                            <p data-lang-id="011-photo-caption">A circular ecobrick garden planter</p>
+                            <p data-lang-id="017-photo-caption">A circular ecobrick garden planter</p>
                         </div>
 
 
                     </div><!--closes gallery-->
 
-                    <p>The Global Ecobrick Alliance recommends building small scale green spaces that serve your local community.  This means that you can enlist the help of your neighbours to not only get the ecobricks you need, but to help you build.  Small builds of two to three layers embody can easily embody all the principles of earth and ecobrick building and plastic sequestration and make full use of the unique properties of ecobricks for building.</p>
+                    <p data-lang-id="018-block-2-paragraph-1">The Global Ecobrick Alliance recommends building small scale green spaces that serve your local community.  This means that you can enlist the help of your neighbours to not only get the ecobricks you need, but to help you build.  Small builds of two to three layers embody can easily embody all the principles of earth and ecobrick building and plastic sequestration and make full use of the unique properties of ecobricks for building.</p>
 
-                    <p>Horizontally laid ecobricks are ideal for creating curving garden benches/raised-beds where we can sit, play and eat.   In particular we recommend design spaces that can be gardened with edible plants (fruit trees, berries, herbs, etc.).   Given that most of the plastic we stuff into our ecobricks comes from food packaging, building gardens that grow real food, is pretty apt!  </p>
+                    <p data-lang-id="019-block-2-paragraph-2">Horizontally laid ecobricks are ideal for creating curving garden benches/raised-beds where we can sit, play and eat.   In particular we recommend design spaces that can be gardened with edible plants (fruit trees, berries, herbs, etc.).   Given that most of the plastic we stuff into our ecobricks comes from food packaging, building gardens that grow real food, is pretty apt!  </p>
 
-                    <p>Because Ecobrick and earth building methods are non-capital and replicable, students and youth groups can take full charge of a project– from making the ecobricks, to designing the space, to building and gardening.  This creates a sense of pride and ownership that is greatly empowering.   Best of all, the earth and ecobrick technique you will learn is indefinitely scalable– these are the same fundamentals used to construct houses and buildings.</p>
+                    <p data-lang-id="020-block-2-paragraph-3">Because Ecobrick and earth building methods are non-capital and replicable, students and youth groups can take full charge of a project– from making the ecobricks, to designing the space, to building and gardening.  This creates a sense of pride and ownership that is greatly empowering.   Best of all, the earth and ecobrick technique you will learn is indefinitely scalable– these are the same fundamentals used to construct houses and buildings.</p>
 
-                    <p>Done properly, benches can be stood on and used to play tag.  Done poorly, well…  a bench does not have the same risks considerations as a wall or structure.  Ecobrick green spaces are a great educactional launch into earth building.</p>
+                    <p data-lang-id="021-block-2-paragraph-4">Done properly, benches can be stood on and used to play tag.  Done poorly, well…  a bench does not have the same risks considerations as a wall or structure.  Ecobrick green spaces are a great educactional launch into earth building.</p>
 
                 </div>
             </div>
         </section>
 
-
-
-
-
         <section id="GET">
             <div class="reg-content-block" id="block3">
                 <div class="opener-header">
                     <div class="opener-header-text">
-                        <h4 data-lang-id="029-block-3-opener-header">Start Real Small</h4>
-                        <h5 data-lang-id="030-block-3-opener-subheader">New to earth building?  Before building something permanent, its invaluable to experience the full circle of earth and ecobrick building. </h5>
+                        <h4 data-lang-id="022-block-3-opener-header">Start Real Small</h4>
+                        <h5 data-lang-id="023-block-3-opener-subheader">New to earth building?  Before building something permanent, its invaluable to experience the full circle of earth and ecobrick building. </h5>
                         <br>
                     </div>
                     <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-expanded="false">+</button>
@@ -131,33 +124,37 @@
 
                 <div id="preclosed3">
                     <br>
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg">
+                    	<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
+                    <p data-lang-id="024-block-3-paragraph-1">Making an Earth Module is a super simple way to become acquainted with all the steps of earth and ecobrick building.</p>
 
+                    <p data-lang-id="025-block-3-paragraph-2">A great way to learn the basics of earth and ecobrick building is to put together your own earth module.  Earth modules, only use a few ecobricks, yet apply all the steps of the GEA recommended methods.  Each of the steps below references one of the more detailed building steps found on this page.</p>
 
-
-                    <p>Making an Earth Module is a super simple way to become acquainted with all the steps of earth and ecobrick building.</p>
-
-                    <p>A great way to learn the basics of earth and ecobrick building is to put together your own earth module.  Earth modules, only use a few ecobricks, yet apply all the steps of the GEA recommended methods.  Each of the steps below references one of the more detailed building steps found on this page.</p>
-
-                    <div id="three-column-gal" class="three-column-gal">
+                    <div id="nine-column-gal" class="nine-column-gal">
 
                         <!--photo1-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
-                            <img src="../photos/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
-                            <p data-lang-id="009-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space1.jpg', 'Soil test')">
+                            <img src="../photos/green-space1.jpg" alt="Soil test" loading="lazy">
+                            <p data-lang-id="026-photo-caption">Soil test</p>
                         </div>
 
                         <!--photo2-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
-                            <img src="../photos/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
-                            <p data-lang-id="010-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space2.jpg', 'Find a smooth, flat surface (i.e large tile)')">
+                            <img src="../photos/green-space2.jpg" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
+                            <p data-lang-id="027-photo-caption">Find a smooth, flat surface (i.e large tile)</p>
                         </div>
 
                         <!--photo3-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'A circular ecobrick garden planter')">
-                            <img src="../photos/green-space3.png" alt="A circular ecobrick garden planter">
-                            <p data-lang-id="011-photo-caption">A circular ecobrick garden planter</p>
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Put on some oil')">
+                            <img src="../photos/green-space3.png" alt="Put on some oil">
+                            <p data-lang-id="028-photo-caption">Put on some oil</p>
+                        </div4
+			    
+                        <!--photo4-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Mix a small batch of 1:6 cement')">
+                            <img src="../photos/green-space3.png" alt="Mix a small batch of 1:6 cement">
+                            <p data-lang-id="029-photo-caption">Mix a small batch of 1:6 cement</p>
                         </div>
-
 
                     </div><!--closes gallery-->
 
@@ -179,7 +176,30 @@
                 <div id="preclosed4">
                     <br>
 			<p data-lang_id= 041-block-4-paragraph-1>Our ancestors built earthen structures that lasted decades, centuries and in some cases mellenia!  Do some research near you to find walls or structures built using earthen techniques.  Rather than reinventing methods, you can see how their methods stood up against the unique conditions of your locale– and adapt accordingly for your ecobricking earth constructions.</p>
-                    	<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" data-lang-id="042-block-4-sub-image-alt">
+	                    <div id="six-column-gal" class="six-column-gal">
+	
+	                        <!--photo1-->
+	                        <div class="gal-photo" onclick="viewGalleryImage('.../photos/IMG-4927-400x284.jpg', 'A wall built with cob mortar and stone bricks')">
+	                            <img src=".../photos/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" loading="lazy">
+	                            <p data-lang-id="042-photo-caption">A wall built with cob mortar and stone bricks</p>
+	                        </div>
+	
+	                        <!--photo2-->
+	                        <div class="gal-photo" onclick="viewGalleryImage('.../photos/2-ashim-traditional-house-scaled.jpg', 'Building a raised garden bench in Bali, Indonesia')">
+	                            <img src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
+	                            <p data-lang-id="043-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
+	                        </div>
+	
+	                        <!--photo3-->
+	                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'A circular ecobrick garden planter')">
+	                            <img src="../photos/green-space3.png" alt="A circular ecobrick garden planter">
+	                            <p data-lang-id="044-photo-caption">A circular ecobrick garden planter</p>
+	                        </div>
+	
+	
+	                    </div><!--closes gallery-->
+
+			<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" data-lang-id="042-block-4-sub-image-alt">
                     	<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="An ancestral home in Nepal" data-lang-id="043-block-4-sub-image-alt">
                 	<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob" data-lang-id="044-block-4-sub-image-alt">
 			<br>
