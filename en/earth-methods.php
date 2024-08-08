@@ -108,7 +108,6 @@
 			                <div id="preclosed3">
 						<br>
 						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
 						<p data-lang-id="024-block-3-paragraph-1">Making an Earth Module is a super simple way to become acquainted with all the steps of earth and ecobrick building.</p>	
 						<p data-lang-id="025-block-3-paragraph-2">A great way to learn the basics of earth and ecobrick building is to put together your own earth module.  Earth modules, only use a few ecobricks, yet apply all the steps of the GEA recommended methods.  Each of the steps below references one of the more detailed building steps found on this page.</p>
 						<div id="three-column-gal" class="three-column-gal">
