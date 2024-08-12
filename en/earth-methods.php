@@ -113,92 +113,92 @@
 						<div id="three-column-gal" class="three-column-gal">
 		
 				                        <!--photo1-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space1.jpg', 'Soil test')">
-				                            <img src="../photos/green-space1.jpg" alt="Soil test" loading="lazy">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small1.png', 'Soil test')">
+				                            <img src="../photos/start_real_small1.png" alt="Soil test" loading="lazy">
 				                            <p data-lang-id="026-photo-caption">Soil test</p>
 				                        </div>
 				
 				                        <!--photo2-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space2.jpg', 'Find a smooth, flat surface (i.e large tile)')">
-				                            <img src="../photos/green-space2.jpg" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small2.png', 'Find a smooth, flat surface (i.e large tile)')">
+				                            <img src="../photos/start_real_small2.png" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
 				                            <p data-lang-id="027-photo-caption">Find a smooth, flat surface (i.e large tile)</p>
 				                        </div>
 				
 				                        <!--photo3-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Put on some oil')">
-				                            <img src="../photos/green-space3.png" alt="Put on some oil">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small3.png', 'Put on some oil')">
+				                            <img src="../photos/start_real_small3.png" alt="Put on some oil">
 				                            <p data-lang-id="028-photo-caption">Put on some oil</p>
 				                        </div4
 							    
 				                        <!--photo4-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Mix a small batch of 1:6 cement')">
-				                            <img src="../photos/green-space3.png" alt="Mix a small batch of 1:6 cement">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small4.png', 'Mix a small batch of 1:6 cement')">
+				                            <img src="../photos/start_real_small4.png" alt="Mix a small batch of 1:6 cement">
 				                            <p data-lang-id="029-photo-caption">Mix a small batch of 1:6 cement</p>
 				                        </div>
 				
 				                        <!--photo5-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Lay out your cement foundation/top')">
-				                            <img src="../photos/green-space3.png" alt="Lay out your cement foundation/top">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small5.png', 'Lay out your cement foundation/top')">
+				                            <img src="../photos/start_real_small5.png" alt="Lay out your cement foundation/top">
 				                            <p data-lang-id="030-photo-caption">Lay out your cement foundation/top</p>
 				                        </div>
 				
 							<!--photo6-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Create a hole for the ecobrick')">
-				                            <img src="../photos/green-space3.png" alt="Create a hole for the ecobrick">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small6.png', 'Create a hole for the ecobrick')">
+				                            <img src="../photos/start_real_small6.png" alt="Create a hole for the ecobrick">
 				                            <p data-lang-id="031-photo-caption">Create a hole for the ecobrick</p>
 				                        </div>
 				
 							<!--photo7-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Add first ecobrick')">
-				                            <img src="../photos/green-space3.png" alt="Add first ecobrick">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small7.png', 'Add first ecobrick')">
+				                            <img src="../photos/start_real_small7.png" alt="Add first ecobrick">
 				                            <p data-lang-id="032-photo-caption">Add first ecobrick</p>
 				                        </div>
 				
 							<!--photo8-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Continue adding ecobricks')">
-				                            <img src="../photos/green-space3.png" alt="Continue adding ecobricks">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small8.png', 'Continue adding ecobricks')">
+				                            <img src="../photos/start_real_small8.png" alt="Continue adding ecobricks">
 				                            <p data-lang-id="033-photo-caption">Continue adding ecobricks</p>
 				                        </div>
 				
 							<!--photo9-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Add all bottles, let dry.')">
-				                            <img src="../photos/green-space3.png" alt="Add all bottles, let dry.">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small9.png', 'Add all bottles, let dry.')">
+				                            <img src="../photos/start_real_small9.png" alt="Add all bottles, let dry.">
 				                            <p data-lang-id="034-photo-caption">Add all bottles, let dry.</p>
 				                        </div>
 				
 							<!--photo10-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Mix your cob mixture to your ratio.')">
-				                            <img src="../photos/green-space3.png" alt="Mix your cob mixture to your ratio.">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small10.jpg', 'Mix your cob mixture to your ratio.')">
+				                            <img src="../photos/start_real_small10.jpg" alt="Mix your cob mixture to your ratio.">
 				                            <p data-lang-id="035-photo-caption">Mix your cob mixture to your ratio.</p>
 				                        </div>
 				
 							<!--photo11-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Layer cob on top of dry cement')">
-				                            <img src="../photos/green-space3.png" alt="Layer cob on top of dry cement">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small11.png', 'Layer cob on top of dry cement')">
+				                            <img src="../photos/start_real_small11.png" alt="Layer cob on top of dry cement">
 				                            <p data-lang-id="036-photo-caption">Layer cob on top of dry cement</p>
 				                        </div>
 				
 							<!--photo12-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Finish with a thin layer of cob/cement')">
-				                            <img src="../photos/green-space3.png" alt="Finish with a thin layer of cob/cement">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small12.png', 'Finish with a thin layer of cob/cement')">
+				                            <img src="../photos/start_real_small12.png" alt="Finish with a thin layer of cob/cement">
 				                            <p data-lang-id="037-photo-caption">Finish with a thin layer of cob/cement</p>
 				                        </div>
 				
 							<!--photo13-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Let dry!')">
-				                            <img src="../photos/green-space3.png" alt="Let dry!">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small13.png', 'Let dry!')">
+				                            <img src="../photos/start_real_small13.png" alt="Let dry!">
 				                            <p data-lang-id="038-photo-caption">Let dry!</p>
 				                        </div>
 				
 							<!--photo14-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Sand off rough edges')">
-				                            <img src="../photos/green-space3.png" alt="Sand off rough edges">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small14.png', 'Sand off rough edges')">
+				                            <img src="../photos/start_real_small14.png" alt="Sand off rough edges">
 				                            <p data-lang-id="039-photo-caption">Sand off rough edges</p>
 				                        </div>
 				
 							<!--photo15-->
-				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/green-space3.png', 'Enjoy!')">
-				                            <img src="../photos/green-space3.png" alt="Enjoy!">
+				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small15.jpg', 'Enjoy!')">
+				                            <img src="../photos/start_real_small15.jpg" alt="Enjoy!">
 				                            <p data-lang-id="040-photo-caption">Enjoy!</p>
 				                        </div>
 						</div><!--closes gallery-->
