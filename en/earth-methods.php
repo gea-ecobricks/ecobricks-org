@@ -271,13 +271,43 @@
 	
 					<div id="preclosed5">
 						<br>
-				                <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Test your earth" data-lang-id="051-block-5-sub-image-alt">
-				                <img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Observe Dry" data-lang-id="052-block-5-sub-image-alt">
-				                <img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Test different ratios" data-lang-id="053-block-5-sub-image-alt">
-						<br>
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Use consistent size" data-lang-id="054-block-5-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Cob pancake" data-lang-id="055-block-5-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Record details" data-lang-id="056-block-5-sub-image-alt">
+						<div id="six-column-gal" class="six-column-gal">
+							<!--photo1-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth1.png', 'Test your earth')">
+								<img src=".../photos/Get-to-know-earth1.png" alt="Test your earth" loading="lazy">
+								<p data-lang-id="051-photo-caption">Test your earth</p>
+							</div>
+	
+							<!--photo2-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth2.jpg', 'Observe Dry')">
+								<img src=".../photos/Get-to-know-earth2.jpg" alt="Observe Dry" loading="lazy">
+								<p data-lang-id="052-photo-caption">Observe Dry</p>
+							</div>
+			
+							<!--photo3-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth3.jpg', 'Test different ratios')">
+								<img src=".../photos/Get-to-know-earth3.jpg" alt="Test different ratios">
+								<p data-lang-id="053-photo-caption">Test different ratios</p>
+							</div>
+		
+							<!--photo4-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth4.jpeg', 'Use consistent size')">
+								<img src=".../photos/Get-to-know-earth4.jpeg" alt="Use consistent size">
+								<p data-lang-id="054-photo-caption">Use consistent size</p>
+							</div>
+	
+							<!--photo5-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth5.jpeg', 'Cob pancake')">
+								<img src=".../photos/Get-to-know-earth5.jpeg" alt="Cob pancake">
+								<p data-lang-id="055-photo-caption">Cob pancake</p>
+							</div>
+	
+							<!--photo6-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth6.jpg', 'Record details')">
+								<img src=".../photos/Get-to-know-earth6.jpg" alt="Record details">
+								<p data-lang-id="056-photo-caption">Record details</p>
+							</div>
+						</div><!--closes gallery-->
 						<h4 data-lang_id= 057-block-5-header-1>Earth is different everywhere on Earth!  Before we get started, we get to know our local earth.</h4>
 						<p data-lang_id= 058-block-5-paragrah-1>The first step is to test the earth that you will use for your construction.  Choose a soil near your building site with a high clay content, no stone, and no silt (decayed organic material). Ideally your earth sticks together nicely and can be formed into a ball that holds together.</p>
 						<p data-lang_id= 059-block-5-paragrah-2>Of course, soil is different everywhere!  A soil’s character comes from the different amounts of sand, clay and silt in it.   If there’s too much clay in the earth, it will crack when it dries.  If there’s too much sand it will crumble when it dries.  If there’s do much silt, it won’t hold together nor be maleable like we need it to be.  We can however adjust our local soil to be better for building by adding more sand to it.  To do this, we  want to figure out the best combination of sand and earth to make your final building material– what we call ‘cob’.</p>
