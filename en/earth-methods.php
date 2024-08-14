@@ -70,18 +70,18 @@
 						<div id="three-column-gal" class="three-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
-								<img src="../photos/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
+								<img src="../photos/earth-methods/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
 								<p data-lang-id="015-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
 							</div>
 			                        	<!--photo2-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
-								<img src="../photos/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
+								<img src="../photos/earth-methods/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
 								<p data-lang-id="016-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
 			                        	</div>
 			
 				                        <!--photo3-->
 			        	                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space3.png', 'A circular ecobrick garden planter')">
-			                	            <img src="../photos/green-space3.png" alt="A circular ecobrick garden planter">
+			                	            <img src="../photos/earth-methods/green-space3.png" alt="A circular ecobrick garden planter">
 			                        	    <p data-lang-id="017-photo-caption">A circular ecobrick garden planter</p>
 				                        </div>
 						</div><!--closes gallery-->
@@ -110,7 +110,7 @@
 						<img width="480" loading="lazy" class="full-width-image" src=".../photos/Ashims-Module-1.png">
 						<p data-lang-id="024-block-3-paragraph-1">Making an Earth Module is a super simple way to become acquainted with all the steps of earth and ecobrick building.</p>
 						<p data-lang-id="025-block-3-paragraph-2">A great way to learn the basics of earth and ecobrick building is to put together your own earth module.  Earth modules, only use a few ecobricks, yet apply all the steps of the GEA recommended methods.  Each of the steps below references one of the more detailed building steps found on this page.</p>
-						<div id="three-column-gal" class="three-column-gal">
+						<div id="twelve-column-gal-srs" class="twelve-column-gal">
 		
 				                        <!--photo1-->
 				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small1.png', 'Soil test')">
@@ -219,7 +219,7 @@
 					<div id="preclosed4">
 						<br>
 						<p data-lang_id= 043-block-4-paragraph-1>Our ancestors built earthen structures that lasted decades, centuries and in some cases mellenia!  Do some research near you to find walls or structures built using earthen techniques.  Rather than reinventing methods, you can see how their methods stood up against the unique conditions of your locale– and adapt accordingly for your ecobricking earth constructions.</p>
-						<div id="six-column-gal" class="six-column-gal">
+						<div id="six-column-gal1" class="six-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/IMG-4927-400x284.jpg', 'A wall built with cob mortar and stone bricks')">
 								<img src=".../photos/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" loading="lazy">
@@ -234,25 +234,25 @@
 			
 							<!--photo3-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/IMG-4923-400x284.jpg', 'An arch in Bali, Indonesia made from cob')">
-								<img src=".../photos/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob">
+								<img src=".../photos/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob" loading="lazy">
 								<p data-lang-id="046-photo-caption">An arch in Bali, Indonesia made from cob</p>
 							</div>
 		
 							<!--photo4-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/IMG-4921-400x284.jpg', 'A very basic cob wall in Indonesia')">
-								<img src=".../photos/IMG-4921-400x284.jpg" alt="A very basic cob wall in Indonesia">
+								<img src=".../photos/IMG-4921-400x284.jpg" alt="A very basic cob wall in Indonesia" loading="lazy">
 								<p data-lang-id="047-photo-caption">A very basic cob wall in Indonesia</p>
 							</div>
 	
 							<!--photo5-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg', 'A wattle & daub shed in the UK')">
-								<img src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="A wattle & daub shed in the UK">
+								<img src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="A wattle & daub shed in the UK" loading="lazy">
 								<p data-lang-id="048-photo-caption">A wattle & daub shed in the UK</p>
 							</div>
 	
 							<!--photo6-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/800px-Wattle_and_daub_construction.jpeg', 'Old wattle & daub')">
-								<img src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Old wattle & daub">
+								<img src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Old wattle & daub" loading="lazy">
 								<p data-lang-id="049-photo-caption">Old wattle & daub</p>
 							</div>
 						</div><!--closes gallery-->
@@ -271,7 +271,7 @@
 	
 					<div id="preclosed5">
 						<br>
-						<div id="six-column-gal" class="six-column-gal">
+						<div id="six-column-gal2" class="six-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth1.png', 'Test your earth')">
 								<img src=".../photos/Get-to-know-earth1.png" alt="Test your earth" loading="lazy">
@@ -286,25 +286,25 @@
 			
 							<!--photo3-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth3.jpg', 'Test different ratios')">
-								<img src=".../photos/Get-to-know-earth3.jpg" alt="Test different ratios">
+								<img src=".../photos/Get-to-know-earth3.jpg" alt="Test different ratios" loading="lazy">
 								<p data-lang-id="053-photo-caption">Test different ratios</p>
 							</div>
 		
 							<!--photo4-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth4.jpeg', 'Use consistent size')">
-								<img src=".../photos/Get-to-know-earth4.jpeg" alt="Use consistent size">
+								<img src=".../photos/Get-to-know-earth4.jpeg" alt="Use consistent size" loading="lazy">
 								<p data-lang-id="054-photo-caption">Use consistent size</p>
 							</div>
 	
 							<!--photo5-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth5.jpeg', 'Cob pancake')">
-								<img src=".../photos/Get-to-know-earth5.jpeg" alt="Cob pancake">
+								<img src=".../photos/Get-to-know-earth5.jpeg" alt="Cob pancake" loading="lazy">
 								<p data-lang-id="055-photo-caption">Cob pancake</p>
 							</div>
 	
 							<!--photo6-->
 							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth6.jpg', 'Record details')">
-								<img src=".../photos/Get-to-know-earth6.jpg" alt="Record details">
+								<img src=".../photos/Get-to-know-earth6.jpg" alt="Record details" loading="lazy">
 								<p data-lang-id="056-photo-caption">Record details</p>
 							</div>
 						</div><!--closes gallery-->
@@ -333,13 +333,43 @@
 						<br>
 						<p data-lang-id="067-block-6-paragraph-1">Across cultures and continents our ancestors have used earth to make a building material by reinforcing with local fibers.  The choice of fibers was largely determined by what was available!  In Europe straw from the local grain harvest was used.  In Asia, rice straw or coconut fiber did the trick.   In some places, where neither was available horse or even human hair was used.</p>
 						<p data-lang-id="068-block-6-paragraph-2">Organic binder is chosen by its availability, tensile strength and flexibility.  In other words, when it is pulled it doesn’t break easily and when it bends it doesn’t snap.</p>
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Tensile strength" data-lang-id="069-block-6-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="Coconut fiber" data-lang-id="070-block-6-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Rice straw" data-lang-id="071-block-6-sub-image-alt">
-						<br>
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Sturdy hay" data-lang-id="072-block-6-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Leftover rice straw" data-lang-id="073-block-6-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Ideal dried straw" data-lang-id="074-block-6-sub-image-alt">
+						<div id="six-column-gal3" class="six-column-gal">
+							<!--photo1-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder1.jpg', 'Tensile strength')">
+								<img src=".../photos/Choose-organic-binder1.jpg" alt="Tensile strength" loading="lazy">
+								<p data-lang-id="069-photo-caption">Tensile strength</p>
+							</div>
+	
+							<!--photo2-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder2.jpg, 'Coconut fiber')">
+								<img src=".../photos/Choose-organic-binder2.jpg" alt="Coconut fiber" loading="lazy">
+								<p data-lang-id="070-photo-caption">Coconut fiber</p>
+							</div>
+			
+							<!--photo3-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder3.jpg', 'Rice straw')">
+								<img src=".../photos/Choose-organic-binder3.jpg" alt="Rice straw" loading="lazy">
+								<p data-lang-id="071-photo-caption">Rice straw</p>
+							</div>
+		
+							<!--photo4-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder4.jpeg', 'Sturdy hay')">
+								<img src=".../photos/Choose-organic-binder4.jpeg" alt="Sturdy hay" loading="lazy">
+								<p data-lang-id="072-photo-caption">Sturdy hay</p>
+							</div>
+	
+							<!--photo5-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder5.jpeg', 'Leftover rice straw')">
+								<img src=".../photos/Choose-organic-binder5.jpeg" alt="Leftover rice straw"loading="lazy">
+								<p data-lang-id="073-photo-caption">Leftover rice straw</p>
+							</div>
+	
+							<!--photo6-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder6.jpg', 'Ideal dried straw')">
+								<img src=".../photos/Choose-organic-binder6.jpg" alt="Ideal dried straw" loading="lazy">
+								<p data-lang-id="074-photo-caption">Ideal dried straw</p>
+							</div>
+						</div><!--closes gallery-->
 						<p data-lang-id="075-block-6-paragraph-3"><b>Caution:</b>Although plastic fibers meets all three criteria above– using it in cob goes against our principles of <a href="https://www.ecobricks.org/circular">circular design</a>.  Once a construction comes to its end, it is impossible to remove the plastic from the cob and use it again.  This means that the plastic will certainly escape, degrade and <a href = "https://www.ecobricks.org/poison">contaminate the local ecosystem</a>.</p>
 					</div>
 				</div>
@@ -356,9 +386,24 @@
 	
 					<div id="preclosed7">
 						<br>
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg" alt="Straw" data-lang-id="077-block-7-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Sand" data-lang-id="078-block-7-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Earth Soak Pit" data-lang-id="079-block-7-sub-image-alt">
+						<div id="three-column-gal4" class="three-column-gal">
+							<!--photo1-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Prepare-your-materials1.jpg', 'Straw')">
+								<img src="../photos/Prepare-your-materials1.jpg" alt="Straw" loading="lazy">
+								<p data-lang-id="077-photo-caption">Straw</p>
+							</div>
+			                        	<!--photo2-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Prepare-your-materials2.jpg', 'Sand')">
+								<img src="../photos/Prepare-your-materials2.jpg" alt="Sand" loading="lazy">
+								<p data-lang-id="078-photo-caption">Sand</p>
+			                        	</div>
+			
+				                        <!--photo3-->
+			        	                <div class="gal-photo" onclick="viewGalleryImage('../photos/Prepare-your-materials3.jpg', 'Earth Soak Pit')">
+			                	            <img src="../photos/Prepare-your-materials3.jpg" alt="Earth Soak Pit">
+			                        	    <p data-lang-id="079-photo-caption">Earth Soak Pit</p>
+				                        </div>
+						</div><!--closes gallery-->
 						<p data-lang-id="080-block-7-paragraph-1">To begin, gather your materials and get them ready.</p>
 						<li data-lang-id="081a-block-7-list-paragraph-1">Earth & Sand: Based on your soil test, you should have a good idea of how much sand and earth you’re going to to need.  You’ll need to procure piles of each corresponding to the proportions of your soil test.</li>
 						<li data-lang-id="081b-block-7-list-paragraph-2">Cob binder: Gather enough of your binder for your project.  Keep dry.</li>
@@ -379,9 +424,21 @@
 	
 					<div id="preclosed8">
 						<br>
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
+						<div id="three-column-gal5" class="three-column-gal">
+							<!--photo1-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-builing-site1.jpg', ' ')">
+								<img src="../photos/earth-methods/Prepare-builing-site1.jpg" loading="lazy">
+							</div>
+			                        	<!--photo2-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-builing-site2.jpg', ' ')">
+								<img src="../photos/earth-methods/Prepare-builing-site2.jpg" loading="lazy">
+			                        	</div>
+			
+				                        <!--photo3-->
+			        	                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-builing-site3.jpg', 'Earth Soak Pit')">
+			                	            <img src="../photos/earth-methods/Prepare-builing-site.jpg" alt="Earth Soak Pit">
+				                        </div>
+						</div><!--closes gallery-->
 						<p data-lang-id="084-block-8-paragraph-1">Clear the space where you will be working of all hazards.  Make sure that there is plenty of free space to work and move.  Allocate a space for mixing the cob, for piling materials, and for tools.  Make sure there are no hazards on the ground for when you get started.</p>
 						<p data-lang-id="085-block-8-paragraph-2">Use chalk, or stakes to set out the footprint of your build.  Once this is done, you’ll want to give some thought to the pathways and flow of the collaboration.  This is particularly important if you’re evolving dozens or hundreds of participants for a large build.  Think about where to place your tools and materials for the different teams that will be working on different aspects of the construction.</p>
 						<p data-lang-id="086-block-8-paragraph-3">Plan out the pathways that your teams will move on between work sites, materials, and the build.  Try to make sure that the paths do not overlap, and that teams have ample space to work.</p>
@@ -400,23 +457,50 @@
 	
 					<div id="preclosed9">
 						<br>
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4927-400x284.jpg" alt="Lay medium stones in your trench" data-lang-id="086-block-9-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4923-400x284.jpg" alt="Dig a 10cm deep trench in which to lay your cement foundation." data-lang-id="087-block-9-sub-image-alt">
-						<br>
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/IMG-4921-400x284.jpg">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="Lay out ecobricks" data-lang-id="088-block-9-sub-image-alt">
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/800px-Wattle_and_daub_construction.jpeg">
-						<p data-lang-id="089-block-9-paragraph-1">Once you’ve got your bench line figured out and marked with chalk and sticks, lay your ecobricks into the space.  Use the loose ecobricks to finalize the footprint of your construction. This will help you put the final touches on the curves of the footprint and determine precisely how many ecobricks you will need.  Adjust as you see fit. When all is ready, remove the ecobricks.</p>
-						<p data-lang-id="090-block-9-paragraph-2">Now you’re ready to break ground!</p>
-						<li data-lang-id="091a-block-9-list-paragraph-1">Dig down 10 cm for the entire footprint of your foundation.</li>
-						<li data-lang-id="091b-block-9-list-paragraph-2">Place loose ecobricks in the trench to make sure its the right size.  Space the ecobricks 4cm apart to estimate how many ecobricks you will need per level.</li>
-						<li data-lang-id="091c-block-9-list-paragraph-3">Remove all ecobricks, and dirt.  Fill the trench with a base layer of medium sized stones.</li>
-						<li data-lang-id="091d-block-9-list-paragraph-4">Lay the stones so that their tops are level with the ground.</li>
-						<p data-lang-id="092-block-9-paragraph-3">There are two main ways of completing your foundation: with cement or without…</p>
+					<div id="six-column-gal6" class="six-column-gal">
+							<!--photo1-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation1.jpg', 'Lay medium stones in your trench')">
+								<img src=".../photos/earth-methods/Dig-your-foundation1.jpg" alt="Lay medium stones in your trench" loading="lazy">
+								<p data-lang-id="088-photo-caption">Lay medium stones in your trench</p>
+							</div>
+	
+							<!--photo2-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation2.jpg, ' ')">
+								<img src=".../photos/earth-methods/Dig-your-foundation2.jpg" loading="lazy">
+							</div>
+			
+							<!--photo3-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation3.jpg', 'Dig a 10cm deep trench in which to lay your cement foundation.')">
+								<img src=".../photos/earth-methods/Dig-your-foundation3.jpg" alt="Dig a 10cm deep trench in which to lay your cement foundation." loading="lazy">
+								<p data-lang-id="089-photo-caption">Dig a 10cm deep trench in which to lay your cement foundation./p>
+							</div>
+		
+							<!--photo4-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation4.jpg', '')">
+								<img src=".../photos/earth-methods/Dig-your-foundation4.jpg" loading="lazy">
+							</div>
+	
+							<!--photo5-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation5.png', 'Lay out ecobricks')">
+								<img src=".../photos/earth-methods/Dig-your-foundation5.png" alt="Lay out ecobricks" loading="lazy">
+								<p data-lang-id="090-photo-caption">Lay out ecobricks</p>
+							</div>
+	
+							<!--photo6-->
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation6.jpg', ' ')">
+								<img src=".../photos/earth-methods/Dig-your-foundation6.jpg" loading="lazy">
+							</div>
+						</div><!--closes gallery-->				
+						<p data-lang-id="091-block-9-paragraph-1">Once you’ve got your bench line figured out and marked with chalk and sticks, lay your ecobricks into the space.  Use the loose ecobricks to finalize the footprint of your construction. This will help you put the final touches on the curves of the footprint and determine precisely how many ecobricks you will need.  Adjust as you see fit. When all is ready, remove the ecobricks.</p>
+						<p data-lang-id="092-block-9-paragraph-2">Now you’re ready to break ground!</p>
+						<li data-lang-id="093a-block-9-list-paragraph-1">Dig down 10 cm for the entire footprint of your foundation.</li>
+						<li data-lang-id="093b-block-9-list-paragraph-2">Place loose ecobricks in the trench to make sure its the right size.  Space the ecobricks 4cm apart to estimate how many ecobricks you will need per level.</li>
+						<li data-lang-id="093c-block-9-list-paragraph-3">Remove all ecobricks, and dirt.  Fill the trench with a base layer of medium sized stones.</li>
+						<li data-lang-id="093d-block-9-list-paragraph-4">Lay the stones so that their tops are level with the ground.</li>
+						<p data-lang-id="094-block-9-paragraph-3">There are two main ways of completing your foundation: with cement or without…</p>
 						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1">
 							<div class="advanced-box-header"  id="advancedBoxLabel-1">
-								<div class="advanced-title" data-lang-id="093-block-1-advanced-title">6.1 Non-Cement Foundation</div>
+								<div class="advanced-title" data-lang-id="095-block-1-advanced-title">6.1 Non-Cement Foundation</div>
 								<div class="advanced-open-icon" >+</div>
 							</div>
 			
@@ -428,9 +512,9 @@
 									<br>
 									<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">
 									<img width="480" loading="lazy" class="full-width-image" src=".../photos/2-ashim-traditional-house-scaled.jpg">   
-									<p data-lang-id="094-block-1-advanced-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
-									<p data-lang-id="095-block-1-advanced-paragraph-2">Lay medium sized stones in your trench making a free draining foundation. (A land drain could be added on wetter sites). Tamp down. It can be infilled with some smaller stones to make it level with the ground, or a little higher.</p>
-									<p data-lang-id="096-block-1-advanced-paragraph-3">It is now possible to build with ecobricks on this foundation/rubble trench. If you are building a large structure or if ground conditions are sometimes wet consider raising the walls further from the ground. The Porthmadog site in Wales is on a flood plain and gets very wet in winter, so the chosen method combined aspects of the following examples. It is advised that you examine vernacular buildings for local, cement free and climate appropriate solutions. Sustainable architects and engineers can also help with this.</p>
+									<p data-lang-id="096-block-1-advanced-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
+									<p data-lang-id="097-block-1-advanced-paragraph-2">Lay medium sized stones in your trench making a free draining foundation. (A land drain could be added on wetter sites). Tamp down. It can be infilled with some smaller stones to make it level with the ground, or a little higher.</p>
+									<p data-lang-id="098-block-1-advanced-paragraph-3">It is now possible to build with ecobricks on this foundation/rubble trench. If you are building a large structure or if ground conditions are sometimes wet consider raising the walls further from the ground. The Porthmadog site in Wales is on a flood plain and gets very wet in winter, so the chosen method combined aspects of the following examples. It is advised that you examine vernacular buildings for local, cement free and climate appropriate solutions. Sustainable architects and engineers can also help with this.</p>
 								</div>
 				                        </div><!-- Advanced content closed -->
 						</div>
