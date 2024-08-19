@@ -798,18 +798,40 @@
 					<div id="preclosed14">
 						<div id="six-column-gal10" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/keep-building-up1.jpg', ' ')">
-								<img src=".../photos/earth-methods/keep-building-up1.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Apply-outer-skin1.jpg', ' ')">
+								<img src=".../photos/earth-methods/Apply-outer-skin1.jpg" loading="lazy">
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/keep-building-up2.jpg", ' ')">
-								<img src=".../photos/earth-methods/keep-building-up2.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Apply-outer-skin2.jpg", ' ')">
+								<img src=".../photos/earth-methods/Apply-outer-skin2.jpg" loading="lazy">
 							</div>
 						</div> <!--Closes gallery-->
 						<p data-lang-id="135-block-14-paragraph-1">The finishing cob is mixed without binder and using fine sand (i.e. no small stones).  Has your cob shown any signs of cracking as it dries?  You may also want to add some more sand to your mix.  These adjustments help ensure a smooth outer layer with no cracking.  Now, you’ve got two choice for your final cob mixture– with cement or without.  Each have their advantages disadvantages.</p>
+						<br>
 						<p data-lang-id="136-block-14-paragraph-2"><b>With Cement</b></p>
 						<p data-lang-id="137-block-14-paragraph-3">Mixing a small amount of cement in with your cob (1 cement : 6 cob) makes a fast drying outer skin that is strong, water resilient and semi-breathable.  This is the easiest way to complete a construction and does not require an outer render (Skip Step 7).   Cement/cob skin is ideal for playgrounds that will endure much abuse over time.  This method however, relies on high-impact industrial cement and requires gloves for safe handling and application.  In addition you potentially compomise the reusability of your cob when you’re construction comes to its end– the stiff cement-skin chucks won’t make for pleasant mixing and will need to be removed.</p>
+						<br>
+						<p data-lang-id="138-block-14-paragraph-4"><b>Without Cement</b></p>
+						<p data-lang-id="139-block-14-paragraph-5">It is also possible to complete your bench without cement.  This greatly reduces the additive impact of your bench.  When you’re bench comes to its end, all the cob is easily resuable too!  You just need to add a little water, re-mash it, and it and your ecobricks can be used again.  However, in order to weather proof your bench (water will erode it easily) you must add an outer render.  See Step 7.</p>
+						<br>
+						<p data-lang-id="140-block-14-paragraph-6"><b>Process</b></p>
+						<br>
+			    		    	<li data-lang-id="141a-block-14-advanced-list-paragraph-1">Mix your outer skin as you have with your other batch of cob.</li>
+			    		    	<li data-lang-id="141b-block-14-advanced-list-paragraph-2">Optional: Mix in 1 part cement to 7 parts cob</li>
+			    		    	<li data-lang-id="141c-block-14-advanced-list-paragraph-3">Be sure not to add binder and to use sand without stones.</li>
+			    		    	<li data-lang-id="141d-block-14-advanced-list-paragraph-4">Acheive a playdough consistency</li>
+			    		    	<li data-lang-id="141e-block-14-advanced-list-paragraph-5">Be sure to make into cob balls to ensure a full mixing.</li>
+			    		    	<li data-lang-id="141f-block-14-advanced-list-paragraph-6">Wet the outside of your bench</li>
+			    		    	<li data-lang-id="141g-block-14-advanced-list-paragraph-7">Smack cob balls onto the outside of your bench.  Use your palm to pack the cob down and acheive a smooth surface.</li>
+			    		    	<li data-lang-id="141h-block-14-advanced-list-paragraph-8">Be sure to use gloves if you’ve mixed in cement.</li>
+						<br>
+						<p data-lang-id="142-block-14-paragraph-7"><b>To show or not to Show</b></p>
+						<img src=".../photos/earth-methods/Apply-outer-skin3.jpg" loading="lazy">
+						<p data-lang-id="143-block-14-paragraph-8">When finishing your bench you need to choose whether to leave exposed the bottom of your ecobricks, or else to cover them up.    Each has its advantages…</p>
+			    		    	<li data-lang-id="144a-block-14-advanced-list-paragraph-9"><b>To Show:</b>  Leaving the bottom of your ecobricks exposed is a safe way to show that your wall is made from ecobricks.  By choosing ecobricks with set bottom colors you can make patterns and even write words.  However, the exposed bottoms are succepible to degradation and damage over time.  Not recommend on walls exposed to the full sun.</li>
+			    		    	<li data-lang-id="144b-block-14-advanced-list-paragraph-10"><b>To Hide:</b>  This is the safest way to use your ecobricks… but no one will know your wall is made with ecobricks.  There are ways around this by leaving one or two ecobricks exposed, or using glasses to cover the ecobrick.</li>
+			    		    	<li data-lang-id="144c-block-14-advanced-list-paragraph-11"><b>Caps:</b> We do not recommend leaving ecobrick caps exposed on walls facing the outdoors as the HDPE plastic degrades quickly with even small amounts of sun exposure.</li>
 					</div>
 				</div>
 		        </section>
