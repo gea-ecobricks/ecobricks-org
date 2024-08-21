@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.07';?>
+<?php $version='2.10';?>
 <?php $page='earth-methods';?>
  
 <title>Earth & Ecobrick Building Methods</title>
@@ -107,7 +107,7 @@
 	
 			                <div id="preclosed3">
 						<br>
-						<img width="480" loading="lazy" class="full-width-image" src=".../photos/Ashims-Module-1.png">
+						<img width="480" loading="lazy" class="full-width-image" src="../photos/Ashims-Module-1.png">
 						<p data-lang-id="024-block-3-paragraph-1">Making an Earth Module is a super simple way to become acquainted with all the steps of earth and ecobrick building.</p>
 						<p data-lang-id="025-block-3-paragraph-2">A great way to learn the basics of earth and ecobrick building is to put together your own earth module.  Earth modules, only use a few ecobricks, yet apply all the steps of the GEA recommended methods.  Each of the steps below references one of the more detailed building steps found on this page.</p>
 						<div id="twelve-column-gal-srs" class="twelve-column-gal">
@@ -221,38 +221,38 @@
 						<p data-lang_id= 043-block-4-paragraph-1>Our ancestors built earthen structures that lasted decades, centuries and in some cases mellenia!  Do some research near you to find walls or structures built using earthen techniques.  Rather than reinventing methods, you can see how their methods stood up against the unique conditions of your locale– and adapt accordingly for your ecobricking earth constructions.</p>
 						<div id="six-column-gal1" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/IMG-4927-400x284.jpg', 'A wall built with cob mortar and stone bricks')">
-								<img src=".../photos/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/IMG-4927-400x284.jpg', 'A wall built with cob mortar and stone bricks')">
+								<img src="../photos/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" loading="lazy">
 								<p data-lang-id="044-photo-caption">A wall built with cob mortar and stone bricks</p>
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/2-ashim-traditional-house-scaled.jpg', 'An ancestral home in Nepal')">
-								<img src=".../photos/2-ashim-traditional-house-scaled.jpg" alt="An ancestral home in Nepal" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/2-ashim-traditional-house-scaled.jpg', 'An ancestral home in Nepal')">
+								<img src="../photos/2-ashim-traditional-house-scaled.jpg" alt="An ancestral home in Nepal" loading="lazy">
 								<p data-lang-id="045-photo-caption">An ancestral home in Nepal</p>
 							</div>
 			
 							<!--photo3-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/IMG-4923-400x284.jpg', 'An arch in Bali, Indonesia made from cob')">
-								<img src=".../photos/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/IMG-4923-400x284.jpg', 'An arch in Bali, Indonesia made from cob')">
+								<img src="../photos/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob" loading="lazy">
 								<p data-lang-id="046-photo-caption">An arch in Bali, Indonesia made from cob</p>
 							</div>
 		
 							<!--photo4-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/IMG-4921-400x284.jpg', 'A very basic cob wall in Indonesia')">
-								<img src=".../photos/IMG-4921-400x284.jpg" alt="A very basic cob wall in Indonesia" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/IMG-4921-400x284.jpg', 'A very basic cob wall in Indonesia')">
+								<img src="../photos/IMG-4921-400x284.jpg" alt="A very basic cob wall in Indonesia" loading="lazy">
 								<p data-lang-id="047-photo-caption">A very basic cob wall in Indonesia</p>
 							</div>
 	
 							<!--photo5-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg', 'A wattle & daub shed in the UK')">
-								<img src=".../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="A wattle & daub shed in the UK" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg', 'A wattle & daub shed in the UK')">
+								<img src="../photos/Wattle-And-Daub-Barn-Building-jpg.jpeg" alt="A wattle & daub shed in the UK" loading="lazy">
 								<p data-lang-id="048-photo-caption">A wattle & daub shed in the UK</p>
 							</div>
 	
 							<!--photo6-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/800px-Wattle_and_daub_construction.jpeg', 'Old wattle & daub')">
-								<img src=".../photos/800px-Wattle_and_daub_construction.jpeg" alt="Old wattle & daub" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/800px-Wattle_and_daub_construction.jpeg', 'Old wattle & daub')">
+								<img src="../photos/800px-Wattle_and_daub_construction.jpeg" alt="Old wattle & daub" loading="lazy">
 								<p data-lang-id="049-photo-caption">Old wattle & daub</p>
 							</div>
 						</div><!--closes gallery-->
@@ -273,38 +273,38 @@
 						<br>
 						<div id="six-column-gal2" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth1.png', 'Test your earth')">
-								<img src=".../photos/Get-to-know-earth1.png" alt="Test your earth" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth1.png', 'Test your earth')">
+								<img src="../photos/Get-to-know-earth1.png" alt="Test your earth" loading="lazy">
 								<p data-lang-id="051-photo-caption">Test your earth</p>
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth2.jpg', 'Observe Dry')">
-								<img src=".../photos/Get-to-know-earth2.jpg" alt="Observe Dry" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth2.jpg', 'Observe Dry')">
+								<img src="../photos/Get-to-know-earth2.jpg" alt="Observe Dry" loading="lazy">
 								<p data-lang-id="052-photo-caption">Observe Dry</p>
 							</div>
 			
 							<!--photo3-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth3.jpg', 'Test different ratios')">
-								<img src=".../photos/Get-to-know-earth3.jpg" alt="Test different ratios" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth3.jpg', 'Test different ratios')">
+								<img src="../photos/Get-to-know-earth3.jpg" alt="Test different ratios" loading="lazy">
 								<p data-lang-id="053-photo-caption">Test different ratios</p>
 							</div>
 		
 							<!--photo4-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth4.jpeg', 'Use consistent size')">
-								<img src=".../photos/Get-to-know-earth4.jpeg" alt="Use consistent size" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth4.jpeg', 'Use consistent size')">
+								<img src="../photos/Get-to-know-earth4.jpeg" alt="Use consistent size" loading="lazy">
 								<p data-lang-id="054-photo-caption">Use consistent size</p>
 							</div>
 	
 							<!--photo5-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth5.jpeg', 'Cob pancake')">
-								<img src=".../photos/Get-to-know-earth5.jpeg" alt="Cob pancake" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth5.jpeg', 'Cob pancake')">
+								<img src="../photos/Get-to-know-earth5.jpeg" alt="Cob pancake" loading="lazy">
 								<p data-lang-id="055-photo-caption">Cob pancake</p>
 							</div>
 	
 							<!--photo6-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Get-to-know-earth6.jpg', 'Record details')">
-								<img src=".../photos/Get-to-know-earth6.jpg" alt="Record details" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth6.jpg', 'Record details')">
+								<img src="../photos/Get-to-know-earth6.jpg" alt="Record details" loading="lazy">
 								<p data-lang-id="056-photo-caption">Record details</p>
 							</div>
 						</div><!--closes gallery-->
@@ -335,42 +335,42 @@
 						<p data-lang-id="068-block-6-paragraph-2">Organic binder is chosen by its availability, tensile strength and flexibility.  In other words, when it is pulled it doesn’t break easily and when it bends it doesn’t snap.</p>
 						<div id="six-column-gal3" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder1.jpg', 'Tensile strength')">
-								<img src=".../photos/Choose-organic-binder1.jpg" alt="Tensile strength" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder1.jpg', 'Tensile strength')">
+								<img src="../photos/Choose-organic-binder1.jpg" alt="Tensile strength" loading="lazy">
 								<p data-lang-id="069-photo-caption">Tensile strength</p>
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder2.jpg, 'Coconut fiber')">
-								<img src=".../photos/Choose-organic-binder2.jpg" alt="Coconut fiber" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder2.jpg, 'Coconut fiber')">
+								<img src="../photos/Choose-organic-binder2.jpg" alt="Coconut fiber" loading="lazy">
 								<p data-lang-id="070-photo-caption">Coconut fiber</p>
 							</div>
 			
 							<!--photo3-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder3.jpg', 'Rice straw')">
-								<img src=".../photos/Choose-organic-binder3.jpg" alt="Rice straw" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder3.jpg', 'Rice straw')">
+								<img src="../photos/Choose-organic-binder3.jpg" alt="Rice straw" loading="lazy">
 								<p data-lang-id="071-photo-caption">Rice straw</p>
 							</div>
 		
 							<!--photo4-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder4.jpeg', 'Sturdy hay')">
-								<img src=".../photos/Choose-organic-binder4.jpeg" alt="Sturdy hay" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder4.jpeg', 'Sturdy hay')">
+								<img src="../photos/Choose-organic-binder4.jpeg" alt="Sturdy hay" loading="lazy">
 								<p data-lang-id="072-photo-caption">Sturdy hay</p>
 							</div>
 	
 							<!--photo5-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder5.jpeg', 'Leftover rice straw')">
-								<img src=".../photos/Choose-organic-binder5.jpeg" alt="Leftover rice straw"loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder5.jpeg', 'Leftover rice straw')">
+								<img src="../photos/Choose-organic-binder5.jpeg" alt="Leftover rice straw"loading="lazy">
 								<p data-lang-id="073-photo-caption">Leftover rice straw</p>
 							</div>
 	
 							<!--photo6-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/Choose-organic-binder6.jpg', 'Ideal dried straw')">
-								<img src=".../photos/Choose-organic-binder6.jpg" alt="Ideal dried straw" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder6.jpg', 'Ideal dried straw')">
+								<img src="../photos/Choose-organic-binder6.jpg" alt="Ideal dried straw" loading="lazy">
 								<p data-lang-id="074-photo-caption">Ideal dried straw</p>
 							</div>
 						</div><!--closes gallery-->
-						<p data-lang-id="075-block-6-paragraph-3"><b>Caution:</b>Although plastic fibers meets all three criteria above– using it in cob goes against our principles of <a href="https://www.ecobricks.org/circular">circular design</a>.  Once a construction comes to its end, it is impossible to remove the plastic from the cob and use it again.  This means that the plastic will certainly escape, degrade and <a href = "https://www.ecobricks.org/poison">contaminate the local ecosystem</a>.</p>
+						<p data-lang-id="075-block-6-paragraph-3"><b>Caution:</b>Although plastic fibers meets all three criteria above– using it in cob goes against our principles of <a href="circular.php">circular design</a>.  Once a construction comes to its end, it is impossible to remove the plastic from the cob and use it again.  This means that the plastic will certainly escape, degrade and <a href="poison.php">contaminate the local ecosystem</a>.</p>
 					</div>
 				</div>
 			</section>
@@ -459,36 +459,36 @@
 						<br>
 						<div id="six-column-gal6" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation1.jpg', 'Lay medium stones in your trench')">
-								<img src=".../photos/earth-methods/Dig-your-foundation1.jpg" alt="Lay medium stones in your trench" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation1.jpg', 'Lay medium stones in your trench')">
+								<img src="../photos/earth-methods/Dig-your-foundation1.jpg" alt="Lay medium stones in your trench" loading="lazy">
 								<p data-lang-id="088-photo-caption">Lay medium stones in your trench</p>
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation2.jpg, ' ')">
-								<img src=".../photos/earth-methods/Dig-your-foundation2.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation2.jpg, ' ')">
+								<img src="../photos/earth-methods/Dig-your-foundation2.jpg" loading="lazy">
 							</div>
 			
 							<!--photo3-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation3.jpg', 'Dig a 10cm deep trench in which to lay your cement foundation.')">
-								<img src=".../photos/earth-methods/Dig-your-foundation3.jpg" alt="Dig a 10cm deep trench in which to lay your cement foundation." loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation3.jpg', 'Dig a 10cm deep trench in which to lay your cement foundation.')">
+								<img src="../photos/earth-methods/Dig-your-foundation3.jpg" alt="Dig a 10cm deep trench in which to lay your cement foundation." loading="lazy">
 								<p data-lang-id="089-photo-caption">Dig a 10cm deep trench in which to lay your cement foundation./p>
 							</div>
 		
 							<!--photo4-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation4.jpg', '')">
-								<img src=".../photos/earth-methods/Dig-your-foundation4.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation4.jpg', '')">
+								<img src="../photos/earth-methods/Dig-your-foundation4.jpg" loading="lazy">
 							</div>
 	
 							<!--photo5-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation5.png', 'Lay out ecobricks')">
-								<img src=".../photos/earth-methods/Dig-your-foundation5.png" alt="Lay out ecobricks" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation5.png', 'Lay out ecobricks')">
+								<img src="../photos/earth-methods/Dig-your-foundation5.png" alt="Lay out ecobricks" loading="lazy">
 								<p data-lang-id="090-photo-caption">Lay out ecobricks</p>
 							</div>
 	
 							<!--photo6-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Dig-your-foundation6.jpg', ' ')">
-								<img src=".../photos/earth-methods/Dig-your-foundation6.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation6.jpg', ' ')">
+								<img src="../photos/earth-methods/Dig-your-foundation6.jpg" loading="lazy">
 							</div>
 						</div><!--closes gallery-->				
 						<p data-lang-id="091-block-9-paragraph-1">Once you’ve got your bench line figured out and marked with chalk and sticks, lay your ecobricks into the space.  Use the loose ecobricks to finalize the footprint of your construction. This will help you put the final touches on the curves of the footprint and determine precisely how many ecobricks you will need.  Adjust as you see fit. When all is ready, remove the ecobricks.</p>
@@ -508,28 +508,28 @@
 								<div class="row">
 									<div id="five-column-gal61" class="five-column-gal">
 										<!--photo1-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Non-cement-foundation1.png', ' ')">
-											<img src=".../photos/earth-methods/Non-cement-foundation1.png" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation1.png', ' ')">
+											<img src="../photos/earth-methods/Non-cement-foundation1.png" loading="lazy">
 										</div>
 				
 										<!--photo2-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Non-cement-foundation2.png, ' ')">
-											<img src=".../photos/earth-methods/Non-cement-foundation2.png" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation2.png, ' ')">
+											<img src="../photos/earth-methods/Non-cement-foundation2.png" loading="lazy">
 										</div>
 						
 										<!--photo3-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Non-cement-foundation3.png', ' ')">
-											<img src=".../photos/earth-methods/Non-cement-foundation3.png" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation3.png', ' ')">
+											<img src="../photos/earth-methods/Non-cement-foundation3.png" loading="lazy">
 										</div>
 					
 										<!--photo4-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Non-cement-foundation4.png', ' ')">
-											<img src=".../photos/earth-methods/Non-cement-foundation4.png" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation4.png', ' ')">
+											<img src="../photos/earth-methods/Non-cement-foundation4.png" loading="lazy">
 										</div>
 				
 										<!--photo5-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Non-cement-foundation5.png', ' ')">
-											<img src=".../photos/earth-methods/Non-cement-foundation5.png" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation5.png', ' ')">
+											<img src="../photos/earth-methods/Non-cement-foundation5.png" loading="lazy">
 										</div>
 									</div><!--closes gallery-->
 									<p data-lang-id="096-block-1-advanced-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
@@ -549,38 +549,38 @@
 								<div class="row">
 									<div id="six-column-gal62" class="six-column-gal">
 										<!--photo1-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Cement-foundations1.jpg', 'Mix cement 1:8')">
-											<img src=".../photos/earth-methods/Cement-foundations1.jpg" alt="Mix cement 1:8" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations1.jpg', 'Mix cement 1:8')">
+											<img src="../photos/earth-methods/Cement-foundations1.jpg" alt="Mix cement 1:8" loading="lazy">
 											<p data-lang-id="100-photo-caption">Mix cement 1:8</p>
 										</div>
 
 										<!--photo2-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Cement-foundations2.jpg', 'Pour over wet cement')">
-											<img src=".../photos/earth-methods/Cement-foundations2.jpg" alt="Pour over wet cement" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations2.jpg', 'Pour over wet cement')">
+											<img src="../photos/earth-methods/Cement-foundations2.jpg" alt="Pour over wet cement" loading="lazy">
 											<p data-lang-id="101-photo-caption">Pour over wet cement</p>
 										</div>
 				
 										<!--photo3-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Cement-foundations3.jpg', 'Mix dry batch')">
-											<img src=".../photos/earth-methods/Cement-foundations3.jpg" alt="Mix dry batch" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations3.jpg', 'Mix dry batch')">
+											<img src="../photos/earth-methods/Cement-foundations3.jpg" alt="Mix dry batch" loading="lazy">
 											<p data-lang-id="102-photo-caption">Mix dry batch</p>
 										</div>
 						
 										<!--photo4-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Cement-foundations4.png', 'Lay Second layer + ecobricks')">
-											<img src=".../photos/earth-methods/Cement-foundations4.jpg" alt="Lay Second layer + ecobricks" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations4.png', 'Lay Second layer + ecobricks')">
+											<img src="../photos/earth-methods/Cement-foundations4.jpg" alt="Lay Second layer + ecobricks" loading="lazy">
 											<p data-lang-id="103-photo-caption">Lay Second layer + ecobricks</p>
 										</div>
 					
 										<!--photo5-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Cement-foundations5.jpg', 'Fill spaces with rocks')">
-											<img src=".../photos/earth-methods/Cement-foundations5.jpg" alt="Fill spaces with rocks" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations5.jpg', 'Fill spaces with rocks')">
+											<img src="../photos/earth-methods/Cement-foundations5.jpg" alt="Fill spaces with rocks" loading="lazy">
 											<p data-lang-id="104-photo-caption">Fill spaces with rocks</p>
 										</div>
 				
 										<!--photo6-->
-										<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Cement-foundations6.jpg', '20%-30% submerged')">
-											<img src=".../photos/earth-methods/Cement-foundations6.jpg" alt="20%-30% submerged" loading="lazy">
+										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations6.jpg', '20%-30% submerged')">
+											<img src="../photos/earth-methods/Cement-foundations6.jpg" alt="20%-30% submerged" loading="lazy">
 											<p data-lang-id="105-photo-caption">20%-30% submerged</p>
 										</div>
 									</div><!--closes gallery-->
@@ -593,7 +593,7 @@
 									<li data-lang-id="107f-block-2-advanced-list-paragraph-6">Lay your first level of ecobricks down, resting in the cement.  Space ecobricks approxamitely 4 cm apart.</li>
 									<li data-lang-id="107g-block-2-advanced-list-paragraph-7">Make sure that the ecobricks are a minimum of 20% submerged in the cement.  Do not submerge more than 40% or they may be un-removeable in the future.</li>
 									<li data-lang-id="107h-block-2-advanced-list-paragraph-8">Let dry over night.</li>
-						                        <p data-lang-id="108-block-2-advanced-paragraph-2"><b>Caution:</b>The use of cement in a project has a significant grey environmental impact.  The production, shipping and sale of cement is one of the largest sources of human CO2 emissions.  It is estimated that for every 1kg of <a href="https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf">cement  0.5-0.9kg of CO2e is released</a>.   If you choose to use cement, be sure that the green impact of your projects (the garden your will grow, the trees in your green space, your sequestration of plastic, etc.) are greater than your grey impacts.   Only in this way can you assure that your project is <a href"https://www.ecobricks.org/principles">net-green and regenerative.</a></p>
+						                        <p data-lang-id="108-block-2-advanced-paragraph-2"><b>Caution:</b>The use of cement in a project has a significant grey environmental impact.  The production, shipping and sale of cement is one of the largest sources of human CO2 emissions.  It is estimated that for every 1kg of <a href="https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf">cement  0.5-0.9kg of CO2e is released</a>.   If you choose to use cement, be sure that the green impact of your projects (the garden your will grow, the trees in your green space, your sequestration of plastic, etc.) are greater than your grey impacts.   Only in this way can you assure that your project is <a href"principles.php">net-green and regenerative.</a></p>
 						                        <p data-lang-id="109-block-2-advanced-paragraph-3"><b>Caution:</b>CAUTION:  Be sure that your use of cement does not completely encase your ecobricks– which will prevent them from being removed undamaged in the future.</p>
 								</div>
 							</div><!-- Advanced content closed -->
@@ -616,34 +616,34 @@
 						<br>
 						<div id="six-column-gal6" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Mash-your-cob-mixture1.jpg', 'Mix your cob mixture to your ratio.')">
-								<img src=".../photos/earth-methods/Mash-your-cob-mixture1.jpg" alt="Mix your cob mixture to your ratio." loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture1.jpg', 'Mix your cob mixture to your ratio.')">
+								<img src="../photos/earth-methods/Mash-your-cob-mixture1.jpg" alt="Mix your cob mixture to your ratio." loading="lazy">
 								<p data-lang-id="112-photo-caption">Mix your cob mixture to your ratio.</p>
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Mash-your-cob-mixture2.jpg, ' ')">
-								<img src=".../photos/earth-methods/Mash-your-cob-mixture2.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture2.jpg, ' ')">
+								<img src="../photos/earth-methods/Mash-your-cob-mixture2.jpg" loading="lazy">
 							</div>
 			
 							<!--photo3-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Mash-your-cob-mixture3.jpg', ' ')">
-								<img src=".../photos/earth-methods/Mash-your-cob-mixture3.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture3.jpg', ' ')">
+								<img src="../photos/earth-methods/Mash-your-cob-mixture3.jpg" loading="lazy">
 							</div>
 		
 							<!--photo4-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Mash-your-cob-mixture4.jpg', ' ')">
-								<img src=".../photos/earth-methods/Mash-your-cob-mixture4.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture4.jpg', ' ')">
+								<img src="../photos/earth-methods/Mash-your-cob-mixture4.jpg" loading="lazy">
 							</div>
 	
 							<!--photo5-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Mash-your-cob-mixture5.jpg', ' ')">
-								<img src=".../photos/earth-methods/Mash-your-cob-mixture5.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture5.jpg', ' ')">
+								<img src="../photos/earth-methods/Mash-your-cob-mixture5.jpg" loading="lazy">
 							</div>
 	
 							<!--photo6-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Mash-your-cob-mixture6.jpg', ' ')">
-								<img src=".../photos/earth-methods/Mash-your-cob-mixture6.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture6.jpg', ' ')">
+								<img src="../photos/earth-methods/Mash-your-cob-mixture6.jpg" loading="lazy">
 							</div>
 						</div><!--closes gallery-->
 						<p data-lang-id="113-block-10-paragraph-1">Mix your cob to the ratio that you discovered was best in Step 1. Use buckets to measure each part.  Dump the buckets of sand and clay onto a large tarp.  Add your organic binder (straw, hay, coconut fibre, etc…).  </p>
@@ -699,34 +699,34 @@
 					<div id="preclosed12">
 						<div id="six-column-gal9" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Lay-second-layer1.jpg', ' ')">
-								<img src=".../photos/earth-methods/Lay-second-layer1.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer1.jpg', ' ')">
+								<img src="../photos/earth-methods/Lay-second-layer1.jpg" loading="lazy">
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Lay-second-layer2.jpg", 'Add a two finger high layer of cob on top')">
-								<img src=".../photos/earth-methods/Lay-second-layer2.jpg" alt="Add a two finger high layer of cob on top" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer2.jpg", 'Add a two finger high layer of cob on top')">
+								<img src="../photos/earth-methods/Lay-second-layer2.jpg" alt="Add a two finger high layer of cob on top" loading="lazy">
 								<p data-lang-id="124-photo-caption">Add a two finger high layer of cob on top</p>
 							</div>
 			
 							<!--photo3-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Lay-second-layer3.jpg', ' ')">
-								<img src=".../photos/earth-methods/Lay-second-layer3.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer3.jpg', ' ')">
+								<img src="../photos/earth-methods/Lay-second-layer3.jpg" loading="lazy">
 							</div>
 		
 							<!--photo4-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Lay-second-layer4.jpg', ' ')">
-								<img src=".../photos/earth-methods/Lay-second-layer4.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer4.jpg', ' ')">
+								<img src="../photos/earth-methods/Lay-second-layer4.jpg" loading="lazy">
 							</div>
 	
 							<!--photo5-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Lay-second-layer5.jpg', ' ')">
-								<img src=".../photos/earth-methods/Lay-second-layer5.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer5.jpg', ' ')">
+								<img src="../photos/earth-methods/Lay-second-layer5.jpg" loading="lazy">
 							</div>
 	
 							<!--photo6-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Mash-your-cob-mixture6.jpg', 'Pack another layer of cob over top')">
-								<img src=".../photos/earth-methods/Mash-your-cob-mixture6.jpg" alt="Pack another layer of cob over top" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture6.jpg', 'Pack another layer of cob over top')">
+								<img src="../photos/earth-methods/Mash-your-cob-mixture6.jpg" alt="Pack another layer of cob over top" loading="lazy">
 								<p data-lang-id="125-photo-caption">Pack another layer of cob over top</p>
 							</div>
 						</div><!--closes gallery-->
@@ -750,33 +750,33 @@
 					<div id="preclosed13">
 						<div id="six-column-gal10" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/keep-building-up1.jpg', ' ')">
-								<img src=".../photos/earth-methods/keep-building-up1.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up1.jpg', ' ')">
+								<img src="../photos/earth-methods/keep-building-up1.jpg" loading="lazy">
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/keep-building-up2.jpg", ' ')">
-								<img src=".../photos/earth-methods/keep-building-up2.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up2.jpg", ' ')">
+								<img src="../photos/earth-methods/keep-building-up2.jpg" loading="lazy">
 							</div>
 			
 							<!--photo3-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/keep-building-up3.jpg', ' ')">
-								<img src=".../photos/earth-methods/keep-building-up3.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up3.jpg', ' ')">
+								<img src="../photos/earth-methods/keep-building-up3.jpg" loading="lazy">
 							</div>
 		
 							<!--photo4-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/keep-building-up4.jpg', ' ')">
-								<img src=".../photos/earth-methods/keep-building-up4.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up4.jpg', ' ')">
+								<img src="../photos/earth-methods/keep-building-up4.jpg" loading="lazy">
 							</div>
 	
 							<!--photo5-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/keep-building-up5.jpg', ' ')">
-								<img src=".../photos/earth-methods/keep-building-up5.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up5.jpg', ' ')">
+								<img src="../photos/earth-methods/keep-building-up5.jpg" loading="lazy">
 							</div>
 	
 							<!--photo6-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/keep-building-up6.jpg', ' ')">
-								<img src=".../photos/earth-methods/keep-building-up6.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up6.jpg', ' ')">
+								<img src="../photos/earth-methods/keep-building-up6.jpg" loading="lazy">
 							</div>
 						</div><!--closes gallery-->
 						<p data-lang-id="131-block-13-paragraph-1">Once the bottles are snug in the lower cob layer, fill in any large gaps between bottles (i.e. on curves) with stones.  This will help your cob mixture go further.  Fill in with cob between the bottles.  Add another layer of 5cm on top of the bottles.  Bang your new ecobricks down as you lay this level.  Aim for 4cm of distance between the ecobricks below.</p>
@@ -798,13 +798,13 @@
 					<div id="preclosed14">
 						<div id="six-column-gal10" class="six-column-gal">
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Apply-outer-skin1.jpg', ' ')">
-								<img src=".../photos/earth-methods/Apply-outer-skin1.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Apply-outer-skin1.jpg', ' ')">
+								<img src="../photos/earth-methods/Apply-outer-skin1.jpg" loading="lazy">
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('.../photos/earth-methods/Apply-outer-skin2.jpg", ' ')">
-								<img src=".../photos/earth-methods/Apply-outer-skin2.jpg" loading="lazy">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Apply-outer-skin2.jpg", ' ')">
+								<img src="../photos/earth-methods/Apply-outer-skin2.jpg" loading="lazy">
 							</div>
 						</div> <!--Closes gallery-->
 						<p data-lang-id="135-block-14-paragraph-1">The finishing cob is mixed without binder and using fine sand (i.e. no small stones).  Has your cob shown any signs of cracking as it dries?  You may also want to add some more sand to your mix.  These adjustments help ensure a smooth outer layer with no cracking.  Now, you’ve got two choice for your final cob mixture– with cement or without.  Each have their advantages disadvantages.</p>
@@ -827,11 +827,32 @@
 			    		    	<li data-lang-id="141h-block-14-advanced-list-paragraph-8">Be sure to use gloves if you’ve mixed in cement.</li>
 						<br>
 						<p data-lang-id="142-block-14-paragraph-7"><b>To show or not to Show</b></p>
-						<img src=".../photos/earth-methods/Apply-outer-skin3.jpg" loading="lazy">
+						<img src="../photos/earth-methods/Apply-outer-skin3.jpg" loading="lazy">
 						<p data-lang-id="143-block-14-paragraph-8">When finishing your bench you need to choose whether to leave exposed the bottom of your ecobricks, or else to cover them up.    Each has its advantages…</p>
 			    		    	<li data-lang-id="144a-block-14-advanced-list-paragraph-9"><b>To Show:</b>  Leaving the bottom of your ecobricks exposed is a safe way to show that your wall is made from ecobricks.  By choosing ecobricks with set bottom colors you can make patterns and even write words.  However, the exposed bottoms are succepible to degradation and damage over time.  Not recommend on walls exposed to the full sun.</li>
 			    		    	<li data-lang-id="144b-block-14-advanced-list-paragraph-10"><b>To Hide:</b>  This is the safest way to use your ecobricks… but no one will know your wall is made with ecobricks.  There are ways around this by leaving one or two ecobricks exposed, or using glasses to cover the ecobrick.</li>
 			    		    	<li data-lang-id="144c-block-14-advanced-list-paragraph-11"><b>Caps:</b> We do not recommend leaving ecobrick caps exposed on walls facing the outdoors as the HDPE plastic degrades quickly with even small amounts of sun exposure.</li>
+					</div>
+				</div>
+		        </section>
+		        <section id="RENDER">
+				<div class="reg-content-block" id="block15">
+					<div class="opener-header">
+						<div class="opener-header-text">
+							<h4 data-lang-id="145-block-15-opener-header">12. Outer Render</h4>
+							<h5 data-lang-id="146-block-15-opener-subheader">If you opted not to use cement in your skin-layer then you’ll need to finish with an outer render</h5>
+						</div>
+						<button onclick="preclosed15()" class="block-toggle" id="block-toggle-show15" aria-expanded="false" aria-label="Toggle Section Fifteen">+</button>
+					</div>
+				    
+					<div id="preclosed15">
+						<p data-lang-id="147-block-15-paragraph-1">The final layer of earthern constructions is ancient art form that is highly specific to your local materials and climate.  The best place to start is to research the ancestral earth building traditions in your region.  Time is the true test!  Look for building built before the 1900’s and research how their walls were finished.  There are several main methods…</p>
+						<br>
+			    		    	<li data-lang-id="148a-block-15-advanced-list-paragraph-1">Using a comibination of fine sand and cow dung</li>
+			    		    	<li data-lang-id="148b-block-15-advanced-list-paragraph-2">Using a mix of lime and sand. </li>
+			    		    	<li data-lang-id="148c-block-15-advanced-list-paragraph-3">Using egg whites, lime and sand.</li>
+						<br>
+						<p data-lang-id="149-block-15-paragraph-2">A modern alternative is to coat with transparent acrylic (non-oil based, non-plastic) paint. </p>
 					</div>
 				</div>
 		        </section>
