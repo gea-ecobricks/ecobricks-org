@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.11';?>
+<?php $version='2.12';?>
 <?php $page='earth-methods';?>
  
 <title>Earth & Ecobrick Building Methods</title>
@@ -882,16 +882,62 @@
 					</div>
 				</div>
 		        </section>
+		        <section id="BROKENTILES">
+				<div class="reg-content-block" id="block16">
+					<div class="opener-header">
+						<div class="opener-header-text">
+							<h4 data-lang-id="150-block-16-opener-header">13. Cement bench top with broken tiles</h4>
+							<h5 data-lang-id="151-block-16-opener-subheader">Complete your ecobrick and earth bench with colorful pattern of inlaid broken tiles.</h5>
+						</div>
+						<button onclick="preclosed16()" class="block-toggle" id="block-toggle-show16" aria-expanded="false" aria-label="Toggle Section Sixteen">+</button>
+					</div>
+				    
+					<div id="preclosed16">
+						<div id="three-column-gal-brokentiles1" class="three-column-gal">
+							<!--photo1-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-bench-top1.jpg', 'Break tiles into small pieces')">
+								<img src="../photos/earth-methods/Cement-bench-top1.jpg" alt="Break tiles into small pieces" loading="lazy">
+								<p data-lang-id="152-photo-caption">Break tiles into small pieces</p>
+							</div>
+	
+							<!--photo2-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-bench-top2.jpg", ' ')">
+								<img src="../photos/earth-methods/Cement-bench-top2.jpg" loading="lazy">
+							</div>
+			
+							<!--photo3-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-bench-top3.jpg', 'Lay tiles into cement/clay top layer')">
+								<img src="../photos/earth-methods/Cement-bench-top3.jpg" alt="Lay tiles into cement/clay top layer" loading="lazy">
+								<p data-lang-id="153-photo-caption">Lay tiles into cement/clay top layer</p>
+							</div>
+						</div>
+						<br>
+						<div id="three-column-gal-brokentiles2" class="three-column-gal">		
+							<!--photo4-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-bench-top4.jpg', 'Use a sponge to smoothen and fill in cracks.')">
+								<img src="../photos/earth-methods/Cement-bench-top4.jpg" alt="Use a sponge to smoothen and fill in cracks." loading="lazy">
+								<p data-lang-id="154-photo-caption">Use a sponge to smoothen and fill in cracks.</p>
+							</div>
+						</div><!--closes gallery-->
+						<img src="../photos/earth-methods/Cement-bench-top5.jpg" loading="lazy">						
+						<p data-lang-id="155-block-16-paragraph-1">For benches that will be sat and played upon, adding a protective top layer is important.   Broken tiles are a great way to add character and color to the bench.</p>
+						<p data-lang-id="156-block-16-paragraph-2">Be sure to prepare your broken tiles before you mix the cement.  The last thing you want to do is rush to figure out your pattern while your cement is drying!</p>
+						<p data-lang-id="157-block-16-paragraph-3">Sort broken tiles into bowls of color.  Using a flat board, lay tile out your tiles in the desire pattern</p>
+						<p data-lang-id="158-block-16-paragraph-4">Mix cement at 1 part cement : 6 parts sand.  Be sure to use sifted sand with no stones.  Score and wet your the top of your cob bench.  Apply the cement with gloved hands at a minimum thickness of 5 cm. Use a trovel to smooth the top.</p>
+						<p data-lang-id="159-block-16-paragraph-5">Move your board beside your bench.  While the cement is still wet, press the broken tiles 3/4 of the way into the cement.  Once semi-dry, use a trowel to cover with a layer of fine cement (1:4 mix).  Use a wet sponge to continually wipe clean.</p>
+					</div>
+				</div>
+		        </section>						
 		</div>
 	</div> <!--closes main-->
 	<div class="row">
 		<div class="main2">
 			<div class="page-paragraph-reg">
-				<h4 data-lang-id="172-safe-passage">A Safe Passage Through Time</h4>
-				<p data-lang-id="173-significant-responsibility">Building with ecobricks is a significant responsibility. Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
+				<h4 data-lang-id="160-safe-passage">A Safe Passage Through Time</h4>
+				<p data-lang-id="161-significant-responsibility">Building with ecobricks is a significant responsibility. Ecobricks represent large amounts of secured plastic that will last a long time. For this reason it is more important than ever to build using methods that embody regenerative principles.</p>
 				<br>
-				<p><a class="action-btn" href="/earth-methods" data-lang-id="174-earth-methods">🚀 Earth & Ecobrick Methods</a></p>
-				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="175-overview-methods">An overview of earth building principles and methods.</p>
+				<p><a class="action-btn" href="/earth-methods" data-lang-id="162-earth-methods">🚀 Earth & Ecobrick Methods</a></p>
+				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="163-overview-methods">An overview of earth building principles and methods.</p>
 			</div>
 	        </div>
 	        <div class="side2">
