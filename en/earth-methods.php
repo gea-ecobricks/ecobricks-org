@@ -686,6 +686,7 @@
 					</div>	    
 	
 					<div id="preclosed11">
+						<br>
 						<div id="three-column-gal-balls" class="three-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Make-cob-balls1.jpg', 'Anyone can help')">
@@ -719,6 +720,7 @@
 					</div>
 	
 					<div id="preclosed12">
+						<br>
 						<div id="three-column-gal-secondlayer1" class="three-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer1.jpg', ' ')">
@@ -772,6 +774,7 @@
 					</div>
 				    
 					<div id="preclosed13">
+						<br>
 						<div id="three-column-gal-buildingup1" class="three-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up1.jpg', ' ')">
@@ -822,6 +825,7 @@
 					</div>
 				    
 					<div id="preclosed14">
+						<br>
 						<div id="three-column-gal-outerskin1" class="three-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Apply-outer-skin1.jpg', ' ')">
@@ -872,6 +876,7 @@
 					</div>
 				    
 					<div id="preclosed15">
+						<br>
 						<p data-lang-id="147-block-15-paragraph-1">The final layer of earthern constructions is ancient art form that is highly specific to your local materials and climate.  The best place to start is to research the ancestral earth building traditions in your region.  Time is the true test!  Look for building built before the 1900’s and research how their walls were finished.  There are several main methods…</p>
 						<br>
 			    		    	<li data-lang-id="148a-block-15-advanced-list-paragraph-1">Using a comibination of fine sand and cow dung</li>
@@ -893,6 +898,7 @@
 					</div>
 				    
 					<div id="preclosed16">
+						<br>
 						<div id="three-column-gal-brokentiles1" class="three-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-bench-top1.jpg', 'Break tiles into small pieces')">
