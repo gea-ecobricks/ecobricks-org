@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.12';?>
+<?php $version='2.14';?>
 <?php $page='earth-methods';?>
  
 <title>Earth & Ecobrick Building Methods</title>
@@ -419,9 +419,11 @@
 				                        </div>
 						</div><!--closes gallery-->
 						<p data-lang-id="080-block-7-paragraph-1">To begin, gather your materials and get them ready.</p>
-						<li data-lang-id="081a-block-7-list-paragraph-1">Earth & Sand: Based on your soil test, you should have a good idea of how much sand and earth you’re going to to need.  You’ll need to procure piles of each corresponding to the proportions of your soil test.</li>
-						<li data-lang-id="081b-block-7-list-paragraph-2">Cob binder: Gather enough of your binder for your project.  Keep dry.</li>
-						<li data-lang-id="081c-block-7-list-paragraph-3">Soak your Earth:  It is important to soak your earth before using it, especially if it contains large dry rocky clumps.   This will greatly speed up the cob making process and result in a strong dried mortar.  Prepare a pit, or raised pool lined with a tarp.  For smallers you can use a large basin or oil drum.  Fill 3/4 with your chosen earth.  Fill the 4/5 with water.  Cover to avoid rain spilling it over (and loosing the important sediments) and to prevent it being accessed by mosquitoes.</li>
+						<ul>
+							<li data-lang-id="081a-block-7-list-paragraph-1">Earth & Sand: Based on your soil test, you should have a good idea of how much sand and earth you’re going to to need.  You’ll need to procure piles of each corresponding to the proportions of your soil test.</li>
+							<li data-lang-id="081b-block-7-list-paragraph-2">Cob binder: Gather enough of your binder for your project.  Keep dry.</li>
+							<li data-lang-id="081c-block-7-list-paragraph-3">Soak your Earth:  It is important to soak your earth before using it, especially if it contains large dry rocky clumps.   This will greatly speed up the cob making process and result in a strong dried mortar.  Prepare a pit, or raised pool lined with a tarp.  For smallers you can use a large basin or oil drum.  Fill 3/4 with your chosen earth.  Fill the 4/5 with water.  Cover to avoid rain spilling it over (and loosing the important sediments) and to prevent it being accessed by mosquitoes.</li>
+						</ul>
 					</div>
 				</div>
 		        </section>
@@ -509,115 +511,121 @@
 						</div><!--closes gallery-->				
 						<p data-lang-id="091-block-9-paragraph-1">Once you’ve got your bench line figured out and marked with chalk and sticks, lay your ecobricks into the space.  Use the loose ecobricks to finalize the footprint of your construction. This will help you put the final touches on the curves of the footprint and determine precisely how many ecobricks you will need.  Adjust as you see fit. When all is ready, remove the ecobricks.</p>
 						<p data-lang-id="092-block-9-paragraph-2">Now you’re ready to break ground!</p>
-						<li data-lang-id="093a-block-9-list-paragraph-1">Dig down 10 cm for the entire footprint of your foundation.</li>
-						<li data-lang-id="093b-block-9-list-paragraph-2">Place loose ecobricks in the trench to make sure its the right size.  Space the ecobricks 4cm apart to estimate how many ecobricks you will need per level.</li>
-						<li data-lang-id="093c-block-9-list-paragraph-3">Remove all ecobricks, and dirt.  Fill the trench with a base layer of medium sized stones.</li>
-						<li data-lang-id="093d-block-9-list-paragraph-4">Lay the stones so that their tops are level with the ground.</li>
+						<ul>
+							<li data-lang-id="093a-block-9-list-paragraph-1">Dig down 10 cm for the entire footprint of your foundation.</li>
+							<li data-lang-id="093b-block-9-list-paragraph-2">Place loose ecobricks in the trench to make sure its the right size.  Space the ecobricks 4cm apart to estimate how many ecobricks you will need per level.</li>
+							<li data-lang-id="093c-block-9-list-paragraph-3">Remove all ecobricks, and dirt.  Fill the trench with a base layer of medium sized stones.</li>
+							<li data-lang-id="093d-block-9-list-paragraph-4">Lay the stones so that their tops are level with the ground.</li>
+						</ul>
 						<p data-lang-id="094-block-9-paragraph-3">There are two main ways of completing your foundation: with cement or without…</p>
-						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-1">
-							<div class="advanced-box-header"  id="advancedBoxLabel-1">
-								<div class="advanced-title" data-lang-id="095-block-1-advanced-title">6.1 Non-Cement Foundation</div>
-								<div class="advanced-open-icon" >+</div>
-							</div>
-			
-							<div class="advanced-box-content">
-								<div class="row">
-									<div id="three-column-gal-61-1" class="three-column-gal">
-										<!--photo1-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation1.png', ' ')">
-											<img src="../photos/earth-methods/Non-cement-foundation1.png" loading="lazy">
-										</div>
-				
-										<!--photo2-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation2.png, ' ')">
-											<img src="../photos/earth-methods/Non-cement-foundation2.png" loading="lazy">
-										</div>
-						
-										<!--photo3-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation3.png', ' ')">
-											<img src="../photos/earth-methods/Non-cement-foundation3.png" loading="lazy">
-										</div>
-									</div>
-									<br>
-									<div id="three-column-gal-61-2" class="three-column-gal">
-										<!--photo4-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation4.png', ' ')">
-											<img src="../photos/earth-methods/Non-cement-foundation4.png" loading="lazy">
-										</div>
-				
-										<!--photo5-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation5.png', ' ')">
-											<img src="../photos/earth-methods/Non-cement-foundation5.png" loading="lazy">
-										</div>
-									</div><!--closes gallery-->
-									<p data-lang-id="096-block-1-advanced-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
-									<p data-lang-id="097-block-1-advanced-paragraph-2">Lay medium sized stones in your trench making a free draining foundation. (A land drain could be added on wetter sites). Tamp down. It can be infilled with some smaller stones to make it level with the ground, or a little higher.</p>
-									<p data-lang-id="098-block-1-advanced-paragraph-3">It is now possible to build with ecobricks on this foundation/rubble trench. If you are building a large structure or if ground conditions are sometimes wet consider raising the walls further from the ground. The Porthmadog site in Wales is on a flood plain and gets very wet in winter, so the chosen method combined aspects of the following examples. It is advised that you examine vernacular buildings for local, cement free and climate appropriate solutions. Sustainable architects and engineers can also help with this.</p>
-								</div>
-				                        </div><!-- Advanced content closed -->
-						</div>
-						<div class="advanced-box" aria-expanded="false" role="region" aria-labelledby="advancedBoxLabel-2">
-							<div class="advanced-box-header"  id="advancedBoxLabel-2">
-								<div class="advanced-title" data-lang-id="099-block-2-advanced-title">6.2 Cement Foundations</div>
-								<div class="advanced-open-icon" >+</div>
-							</div>
-							<div class="advanced-box-content">
-								<div class="row">
-							<div class="advanced-box-content">
-								<div class="row">
-									<div id="three-column-gal62-1" class="three-column-gal">
-										<!--photo1-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations1.jpg', 'Mix cement 1:8')">
-											<img src="../photos/earth-methods/Cement-foundations1.jpg" alt="Mix cement 1:8" loading="lazy">
-											<p data-lang-id="100-photo-caption">Mix cement 1:8</p>
-										</div>
+					</div>
+				</div>
+			</section>
 
-										<!--photo2-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations2.jpg', 'Pour over wet cement')">
-											<img src="../photos/earth-methods/Cement-foundations2.jpg" alt="Pour over wet cement" loading="lazy">
-											<p data-lang-id="101-photo-caption">Pour over wet cement</p>
-										</div>
-				
-										<!--photo3-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations3.jpg', 'Mix dry batch')">
-											<img src="../photos/earth-methods/Cement-foundations3.jpg" alt="Mix dry batch" loading="lazy">
-											<p data-lang-id="102-photo-caption">Mix dry batch</p>
-										</div>
-									</div>
-									<br>
-									<div id="three-column-gal62-2" class="three-column-gal">
-										<!--photo4-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations4.png', 'Lay Second layer + ecobricks')">
-											<img src="../photos/earth-methods/Cement-foundations4.jpg" alt="Lay Second layer + ecobricks" loading="lazy">
-											<p data-lang-id="103-photo-caption">Lay Second layer + ecobricks</p>
-										</div>
-					
-										<!--photo5-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations5.jpg', 'Fill spaces with rocks')">
-											<img src="../photos/earth-methods/Cement-foundations5.jpg" alt="Fill spaces with rocks" loading="lazy">
-											<p data-lang-id="104-photo-caption">Fill spaces with rocks</p>
-										</div>
-				
-										<!--photo6-->
-										<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations6.jpg', '20%-30% submerged')">
-											<img src="../photos/earth-methods/Cement-foundations6.jpg" alt="20%-30% submerged" loading="lazy">
-											<p data-lang-id="105-photo-caption">20%-30% submerged</p>
-										</div>
-									</div><!--closes gallery-->
-					                                <p data-lang-id="106-block-2-advanced-paragraph-1">There are various ways to lay your foundation.  One option is using a base-layer of cement.  The cement is an effective means of preventing your cob bench from seaping up water from the ground, which would undermine its structural integrity.  By raising the cement foundation 10cm above the ground, we also prevent seepage in through the benches outer layer in case of pooling rain or flooding.</p>
-						    		    	<li data-lang-id="107a-block-2-advanced-list-paragraph-1">Mix cement to a 1:7 ratio of cement to sand/gravel.  You’ll be making two batches.  The first will be somewhat wet (the constiently of thick soup) and the second will be dryer (the consistency of yogurt)</li>
-									<li data-lang-id="107b-block-2-advanced-list-paragraph-2">Ensure that the stones you’ve laid into the trench are not touching.</li>
-									<li data-lang-id="107c-block-2-advanced-list-paragraph-3">Use a bucket of water to wet your trench and laid stones.</li>
-									<li data-lang-id="107d-block-2-advanced-list-paragraph-4">Pour your first wet mix of cement over all the stones, filling the trench entirely to the ground level.  Make sure the cement seeps all the way down between the stones.</li>
-									<li data-lang-id="107e-block-2-advanced-list-paragraph-5">Lay the second mix of yogurt cement over the first. If your first layer has already dried, be sure to score it with stick, then wet it again.</li>
-									<li data-lang-id="107f-block-2-advanced-list-paragraph-6">Lay your first level of ecobricks down, resting in the cement.  Space ecobricks approxamitely 4 cm apart.</li>
-									<li data-lang-id="107g-block-2-advanced-list-paragraph-7">Make sure that the ecobricks are a minimum of 20% submerged in the cement.  Do not submerge more than 40% or they may be un-removeable in the future.</li>
-									<li data-lang-id="107h-block-2-advanced-list-paragraph-8">Let dry over night.</li>
-						                        <p data-lang-id="108-block-2-advanced-paragraph-2"><b>Caution:</b>The use of cement in a project has a significant grey environmental impact.  The production, shipping and sale of cement is one of the largest sources of human CO2 emissions.  It is estimated that for every 1kg of <a href="https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf">cement  0.5-0.9kg of CO2e is released</a>.   If you choose to use cement, be sure that the green impact of your projects (the garden your will grow, the trees in your green space, your sequestration of plastic, etc.) are greater than your grey impacts.   Only in this way can you assure that your project is <a href"principles.php">net-green and regenerative.</a></p>
-						                        <p data-lang-id="109-block-2-advanced-paragraph-3"><b>Caution:</b>CAUTION:  Be sure that your use of cement does not completely encase your ecobricks– which will prevent them from being removed undamaged in the future.</p>
-								</div>
-							</div><!-- Advanced content closed -->
+			<section id="ADVANCED1">
+				<div class="reg-content-block" id="block9a">
+					<div class="opener-header">
+						<div class="opener-header-text">
+							<h4 data-lang-id="095-block-9a-opener-header">6.1 Non-Cement Foundation</h4>
 						</div>
+						<button onclick="preclosed9a()" class="block-toggle" id="block-toggle-show9a" aria-expanded="false" aria-label="Toggle Section Nine Point One">+</button>
+					</div>
+					<div id="preclosed9a">
+						<br>			
+						<div id="three-column-gal-61-1" class="three-column-gal">
+							<!--photo1-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation1.png', ' ')">
+								<img src="../photos/earth-methods/Non-cement-foundation1.png" loading="lazy">
+							</div>
+							<!--photo2-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation2.png, ' ')">
+								<img src="../photos/earth-methods/Non-cement-foundation2.png" loading="lazy">
+							</div>
+						
+							<!--photo3-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation3.png', ' ')">
+								<img src="../photos/earth-methods/Non-cement-foundation3.png" loading="lazy">
+							</div>
+						</div>
+						<br>
+						<div id="three-column-gal-61-2" class="three-column-gal">
+							<!--photo4-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation4.png', ' ')">
+								<img src="../photos/earth-methods/Non-cement-foundation4.png" loading="lazy">
+							</div>
+							<!--photo5-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation5.png', ' ')">
+								<img src="../photos/earth-methods/Non-cement-foundation5.png" loading="lazy">
+							</div>
+						</div><!--closes gallery-->
+						<p data-lang-id="096-block-9a-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
+						<p data-lang-id="097-block-9a-paragraph-2">Lay medium sized stones in your trench making a free draining foundation. (A land drain could be added on wetter sites). Tamp down. It can be infilled with some smaller stones to make it level with the ground, or a little higher.</p>
+						<p data-lang-id="098-block-9a-paragraph-3">It is now possible to build with ecobricks on this foundation/rubble trench. If you are building a large structure or if ground conditions are sometimes wet consider raising the walls further from the ground. The Porthmadog site in Wales is on a flood plain and gets very wet in winter, so the chosen method combined aspects of the following examples. It is advised that you examine vernacular buildings for local, cement free and climate appropriate solutions. Sustainable architects and engineers can also help with this.</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="ADVANCED2">
+				<div class="reg-content-block" id="block9b">
+					<div class="opener-header">
+						<div class="opener-header-text">
+							<h4 data-lang-id="099-block-9b-opener-header">6.2 Cement Foundations</h4>
+						</div>
+						<button onclick="preclosed9a()" class="block-toggle" id="block-toggle-show9b" aria-expanded="false" aria-label="Toggle Section Nine Point One">+</button>
+					</div>
+					<div id="preclosed9b">
+						<div id="three-column-gal62-1" class="three-column-gal">
+						<!--photo1-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations1.jpg', 'Mix cement 1:8')">
+								<img src="../photos/earth-methods/Cement-foundations1.jpg" alt="Mix cement 1:8" loading="lazy">
+								<p data-lang-id="100-photo-caption">Mix cement 1:8</p>
+							</div>
+
+							<!--photo2-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations2.jpg', 'Pour over wet cement')">
+								<img src="../photos/earth-methods/Cement-foundations2.jpg" alt="Pour over wet cement" loading="lazy">
+								<p data-lang-id="101-photo-caption">Pour over wet cement</p>
+							</div>
+				
+							<!--photo3-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations3.jpg', 'Mix dry batch')">
+								<img src="../photos/earth-methods/Cement-foundations3.jpg" alt="Mix dry batch" loading="lazy">
+								<p data-lang-id="102-photo-caption">Mix dry batch</p>
+							</div>
+						</div>
+						<br>
+						<div id="three-column-gal62-2" class="three-column-gal">
+							<!--photo4-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations4.png', 'Lay Second layer + ecobricks')">
+								<img src="../photos/earth-methods/Cement-foundations4.jpg" alt="Lay Second layer + ecobricks" loading="lazy">
+								<p data-lang-id="103-photo-caption">Lay Second layer + ecobricks</p>
+							</div>
+					
+							<!--photo5-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations5.jpg', 'Fill spaces with rocks')">
+								<img src="../photos/earth-methods/Cement-foundations5.jpg" alt="Fill spaces with rocks" loading="lazy">
+								<p data-lang-id="104-photo-caption">Fill spaces with rocks</p>
+							</div>
+				
+							<!--photo6-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations6.jpg', '20%-30% submerged')">
+								<img src="../photos/earth-methods/Cement-foundations6.jpg" alt="20%-30% submerged" loading="lazy">
+								<p data-lang-id="105-photo-caption">20%-30% submerged</p>
+							</div>
+						</div><!--closes gallery-->
+					        <p data-lang-id="106-block-9b-paragraph-1">There are various ways to lay your foundation.  One option is using a base-layer of cement.  The cement is an effective means of preventing your cob bench from seaping up water from the ground, which would undermine its structural integrity.  By raising the cement foundation 10cm above the ground, we also prevent seepage in through the benches outer layer in case of pooling rain or flooding.</p>
+						<ul>
+							<li data-lang-id="107a-block-9b-list-paragraph-1">Mix cement to a 1:7 ratio of cement to sand/gravel.  You’ll be making two batches.  The first will be somewhat wet (the constiently of thick soup) and the second will be dryer (the consistency of yogurt)</li>
+							<li data-lang-id="107b-block-9b-list-paragraph-2">Ensure that the stones you’ve laid into the trench are not touching.</li>
+							<li data-lang-id="107c-block-9b-list-paragraph-3">Use a bucket of water to wet your trench and laid stones.</li>
+							<li data-lang-id="107d-block-9b-list-paragraph-4">Pour your first wet mix of cement over all the stones, filling the trench entirely to the ground level.  Make sure the cement seeps all the way down between the stones.</li>
+							<li data-lang-id="107e-block-9b-list-paragraph-5">Lay the second mix of yogurt cement over the first. If your first layer has already dried, be sure to score it with stick, then wet it again.</li>
+							<li data-lang-id="107f-block-9b-list-paragraph-6">Lay your first level of ecobricks down, resting in the cement.  Space ecobricks approxamitely 4 cm apart.</li>
+							<li data-lang-id="107g-block-9b-list-paragraph-7">Make sure that the ecobricks are a minimum of 20% submerged in the cement.  Do not submerge more than 40% or they may be un-removeable in the future.</li>
+							<li data-lang-id="107h-block-9b-list-paragraph-8">Let dry over night.</li>
+						</ul>
+						<p data-lang-id="108-block-9b-paragraph-2"><b>Caution:</b>The use of cement in a project has a significant grey environmental impact.  The production, shipping and sale of cement is one of the largest sources of human CO2 emissions.  It is estimated that for every 1kg of <a href="https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf">cement  0.5-0.9kg of CO2e is released</a>.   If you choose to use cement, be sure that the green impact of your projects (the garden your will grow, the trees in your green space, your sequestration of plastic, etc.) are greater than your grey impacts.   Only in this way can you assure that your project is <a href"principles.php">net-green and regenerative.</a></p>
+						<p data-lang-id="109-block-9b-paragraph-3"><b>Caution:</b>CAUTION:  Be sure that your use of cement does not completely encase your ecobricks– which will prevent them from being removed undamaged in the future.</p>
 					</div>
 				</div>
 			</section>
@@ -683,7 +691,7 @@
 							<h5 data-lang-id="117-block-11-opener-subheader">Cob Balling is a fun and valuable step that helps include just about everybody in the collaboration.</h5>
 						</div>
 						<button onclick="preclosed11()" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
-					</div>	    
+					</div>
 	
 					<div id="preclosed11">
 						<br>
@@ -839,29 +847,33 @@
 						</div> <!--Closes gallery-->
 						<p data-lang-id="135-block-14-paragraph-1">The finishing cob is mixed without binder and using fine sand (i.e. no small stones).  Has your cob shown any signs of cracking as it dries?  You may also want to add some more sand to your mix.  These adjustments help ensure a smooth outer layer with no cracking.  Now, you’ve got two choice for your final cob mixture– with cement or without.  Each have their advantages disadvantages.</p>
 						<br>
-						<p data-lang-id="136-block-14-paragraph-2"><b>With Cement</b></p>
+						<p data-lang-id="136-block-14-paragraph-2"><h4>With Cement</h4></p>
 						<p data-lang-id="137-block-14-paragraph-3">Mixing a small amount of cement in with your cob (1 cement : 6 cob) makes a fast drying outer skin that is strong, water resilient and semi-breathable.  This is the easiest way to complete a construction and does not require an outer render (Skip Step 7).   Cement/cob skin is ideal for playgrounds that will endure much abuse over time.  This method however, relies on high-impact industrial cement and requires gloves for safe handling and application.  In addition you potentially compomise the reusability of your cob when you’re construction comes to its end– the stiff cement-skin chucks won’t make for pleasant mixing and will need to be removed.</p>
 						<br>
-						<p data-lang-id="138-block-14-paragraph-4"><b>Without Cement</b></p>
+						<p data-lang-id="138-block-14-paragraph-4"><h4>Without Cement</h4></p>
 						<p data-lang-id="139-block-14-paragraph-5">It is also possible to complete your bench without cement.  This greatly reduces the additive impact of your bench.  When you’re bench comes to its end, all the cob is easily resuable too!  You just need to add a little water, re-mash it, and it and your ecobricks can be used again.  However, in order to weather proof your bench (water will erode it easily) you must add an outer render.  See Step 7.</p>
 						<br>
-						<p data-lang-id="140-block-14-paragraph-6"><b>Process</b></p>
+						<p data-lang-id="140-block-14-paragraph-6"><h4>Process</h4></p>
 						<br>
-			    		    	<li data-lang-id="141a-block-14-advanced-list-paragraph-1">Mix your outer skin as you have with your other batch of cob.</li>
-			    		    	<li data-lang-id="141b-block-14-advanced-list-paragraph-2">Optional: Mix in 1 part cement to 7 parts cob</li>
-			    		    	<li data-lang-id="141c-block-14-advanced-list-paragraph-3">Be sure not to add binder and to use sand without stones.</li>
-			    		    	<li data-lang-id="141d-block-14-advanced-list-paragraph-4">Acheive a playdough consistency</li>
-			    		    	<li data-lang-id="141e-block-14-advanced-list-paragraph-5">Be sure to make into cob balls to ensure a full mixing.</li>
-			    		    	<li data-lang-id="141f-block-14-advanced-list-paragraph-6">Wet the outside of your bench</li>
-			    		    	<li data-lang-id="141g-block-14-advanced-list-paragraph-7">Smack cob balls onto the outside of your bench.  Use your palm to pack the cob down and acheive a smooth surface.</li>
-			    		    	<li data-lang-id="141h-block-14-advanced-list-paragraph-8">Be sure to use gloves if you’ve mixed in cement.</li>
+						<ul>
+				    		    	<li data-lang-id="141a-block-14-advanced-list-paragraph-1">Mix your outer skin as you have with your other batch of cob.</li>
+				    		    	<li data-lang-id="141b-block-14-advanced-list-paragraph-2">Optional: Mix in 1 part cement to 7 parts cob</li>
+				    		    	<li data-lang-id="141c-block-14-advanced-list-paragraph-3">Be sure not to add binder and to use sand without stones.</li>
+				    		    	<li data-lang-id="141d-block-14-advanced-list-paragraph-4">Acheive a playdough consistency</li>
+				    		    	<li data-lang-id="141e-block-14-advanced-list-paragraph-5">Be sure to make into cob balls to ensure a full mixing.</li>
+				    		    	<li data-lang-id="141f-block-14-advanced-list-paragraph-6">Wet the outside of your bench</li>
+				    		    	<li data-lang-id="141g-block-14-advanced-list-paragraph-7">Smack cob balls onto the outside of your bench.  Use your palm to pack the cob down and acheive a smooth surface.</li>
+				    		    	<li data-lang-id="141h-block-14-advanced-list-paragraph-8">Be sure to use gloves if you’ve mixed in cement.</li>
+						</ul>
 						<br>
-						<p data-lang-id="142-block-14-paragraph-7"><b>To show or not to Show</b></p>
+						<p data-lang-id="142-block-14-paragraph-7"><h4>To show or not to Show</h4></p>
 						<img src="../photos/earth-methods/Apply-outer-skin3.jpg" loading="lazy">
 						<p data-lang-id="143-block-14-paragraph-8">When finishing your bench you need to choose whether to leave exposed the bottom of your ecobricks, or else to cover them up.    Each has its advantages…</p>
-			    		    	<li data-lang-id="144a-block-14-advanced-list-paragraph-9"><b>To Show:</b>  Leaving the bottom of your ecobricks exposed is a safe way to show that your wall is made from ecobricks.  By choosing ecobricks with set bottom colors you can make patterns and even write words.  However, the exposed bottoms are succepible to degradation and damage over time.  Not recommend on walls exposed to the full sun.</li>
-			    		    	<li data-lang-id="144b-block-14-advanced-list-paragraph-10"><b>To Hide:</b>  This is the safest way to use your ecobricks… but no one will know your wall is made with ecobricks.  There are ways around this by leaving one or two ecobricks exposed, or using glasses to cover the ecobrick.</li>
-			    		    	<li data-lang-id="144c-block-14-advanced-list-paragraph-11"><b>Caps:</b> We do not recommend leaving ecobrick caps exposed on walls facing the outdoors as the HDPE plastic degrades quickly with even small amounts of sun exposure.</li>
+						<ul>
+							<li data-lang-id="144a-block-14-advanced-list-paragraph-9"><b>To Show:</b>  Leaving the bottom of your ecobricks exposed is a safe way to show that your wall is made from ecobricks.  By choosing ecobricks with set bottom colors you can make patterns and even write words.  However, the exposed bottoms are succepible to degradation and damage over time.  Not recommend on walls exposed to the full sun.</li>
+				    		    	<li data-lang-id="144b-block-14-advanced-list-paragraph-10"><b>To Hide:</b>  This is the safest way to use your ecobricks… but no one will know your wall is made with ecobricks.  There are ways around this by leaving one or two ecobricks exposed, or using glasses to cover the ecobrick.</li>
+				    		    	<li data-lang-id="144c-block-14-advanced-list-paragraph-11"><b>Caps:</b> We do not recommend leaving ecobrick caps exposed on walls facing the outdoors as the HDPE plastic degrades quickly with even small amounts of sun exposure.</li>
+						</ul>
 					</div>
 				</div>
 		        </section>
@@ -879,9 +891,11 @@
 						<br>
 						<p data-lang-id="147-block-15-paragraph-1">The final layer of earthern constructions is ancient art form that is highly specific to your local materials and climate.  The best place to start is to research the ancestral earth building traditions in your region.  Time is the true test!  Look for building built before the 1900’s and research how their walls were finished.  There are several main methods…</p>
 						<br>
-			    		    	<li data-lang-id="148a-block-15-advanced-list-paragraph-1">Using a comibination of fine sand and cow dung</li>
-			    		    	<li data-lang-id="148b-block-15-advanced-list-paragraph-2">Using a mix of lime and sand. </li>
-			    		    	<li data-lang-id="148c-block-15-advanced-list-paragraph-3">Using egg whites, lime and sand.</li>
+						<ol>
+				    		    	<li data-lang-id="148a-block-15-advanced-list-paragraph-1">Using a comibination of fine sand and cow dung</li>
+				    		    	<li data-lang-id="148b-block-15-advanced-list-paragraph-2">Using a mix of lime and sand. </li>
+				    		    	<li data-lang-id="148c-block-15-advanced-list-paragraph-3">Using egg whites, lime and sand.</li>
+						</ol>
 						<br>
 						<p data-lang-id="149-block-15-paragraph-2">A modern alternative is to coat with transparent acrylic (non-oil based, non-plastic) paint. </p>
 					</div>
