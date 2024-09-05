@@ -278,9 +278,205 @@
 			  x.innerHTML = "+";
 		  }
 	  }
+	function preclosed11() {
+		var x = document.getElementById("preclosed11");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
   
-  
+	  var y = document.getElementById("block11");
+	  if (y.style.display === "grid") {
+		  y.style.background = "var(--accordion-background)";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "var(--main-background)";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show11");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }  
 
+	function preclosed12() {
+		var x = document.getElementById("preclosed12");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block12");
+	  if (y.style.display === "grid") {
+		  y.style.background = "var(--accordion-background)";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "var(--main-background)";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show12");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }  
+
+	function preclosed13() {
+		var x = document.getElementById("preclosed13");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block13");
+	  if (y.style.display === "grid") {
+		  y.style.background = "var(--accordion-background)";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "var(--main-background)";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show13");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+
+	function preclosed14() {
+		var x = document.getElementById("preclosed14");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block14");
+	  if (y.style.display === "grid") {
+		  y.style.background = "var(--accordion-background)";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "var(--main-background)";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show14");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+
+	function preclosed15() {
+		var x = document.getElementById("preclosed15");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block15");
+	  if (y.style.display === "grid") {
+		  y.style.background = "var(--accordion-background)";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "var(--main-background)";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show15");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+
+	function preclosed16() {
+		var x = document.getElementById("preclosed16");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block16");
+	  if (y.style.display === "grid") {
+		  y.style.background = "var(--accordion-background)";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "var(--main-background)";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show16");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+
+	function preclosed17() {
+		var x = document.getElementById("preclosed17");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block17");
+	  if (y.style.display === "grid") {
+		  y.style.background = "var(--accordion-background)";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "var(--main-background)";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show17");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
+
+	function preclosed18() {
+		var x = document.getElementById("preclosed18");
+		  if (x.style.display === "block") {
+			  x.style.display = "none";
+		  } else {
+			  x.style.display = "block";
+		  }
+  
+	  var y = document.getElementById("block18");
+	  if (y.style.display === "grid") {
+		  y.style.background = "var(--accordion-background)";
+		  y.style.display = "block";
+	  } else {
+		  y.style.background = "var(--main-background)";
+		  y.style.display = "grid";
+	  }
+	  
+	  var x = document.getElementById("block-toggle-show18");
+		  if (x.innerHTML === "+") {
+			  x.innerHTML = "-";
+		  } else {
+			  x.innerHTML = "+";
+		  }
+	  }
 	  //to move!!
 
 
