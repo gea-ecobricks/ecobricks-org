@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.15';?>
+<?php $version='2.16';?>
 <?php $page='earth-methods';?>
  
 <title>Earth & Ecobrick Building Methods</title>
@@ -994,7 +994,7 @@
 </script>
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
+<script src="../accordion-scripts.js?v=2.1" defer></script>
 
 </div>
 </body>
