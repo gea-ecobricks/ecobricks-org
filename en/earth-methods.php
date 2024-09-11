@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.17';?>
+<?php $version='2.18';?>
 <?php $page='earth-methods';?>
  
 <title>Earth & Ecobrick Building Methods</title>
@@ -571,7 +571,7 @@
 						<div class="opener-header-text">
 							<h4 data-lang-id="099-block-11-opener-header">6.2 Cement Foundations</h4>
 						</div>
-						<button onclick="preclosed11()" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven>+</button>
+						<button onclick="preclosed11()" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
 					</div>
 					<div id="preclosed11">
 						<div id="three-column-gal62-1" class="three-column-gal">
