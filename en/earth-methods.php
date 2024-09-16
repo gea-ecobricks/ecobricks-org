@@ -972,6 +972,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                 <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
         </div>
     </div>
+</div>
 </div> <!--closes page's main section-->
 
 <div class="side">
