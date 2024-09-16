@@ -47,7 +47,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 		                	<div class="opener-header">
 		                    		<div class="opener-header-text">
 		                        		<h4 data-lang-id="009-block-1-opener-header">HEADS UP!</h4>
-		                        		<h5 data-lang-id="010-block-1-opener-subheader"><b>Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b> </h5>
+		                        		<h5 data-lang-id="010-block-1-opener-subheader"><b>⚠️ Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b></h5>
 							<br>
 						</div>
 		                    		<button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
@@ -783,6 +783,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 					<div class="opener-header">
 						<div class="opener-header-text">
 							<h4 data-lang-id="130-block-15-opener-header">10. Keep building up layer by layer</h4>
+							<h5 data-lang-id="130b-block-15-opener-subheader">Let the first layer dry, then add the next.</h5>
 						</div>
 						<button onclick="toggleAccordion(15)" class="block-toggle" id="block-toggle-show15" aria-expanded="false" aria-label="Toggle Section Thirteen">+</button>
 					</div>
@@ -965,39 +966,32 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 				<p><a class="action-btn" href="/earth-methods" data-lang-id="162-earth-methods">🚀 Earth & Ecobrick Methods</a></p>
 				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="163-overview-methods">An overview of earth building principles and methods.</p>
 			</div>
-	        </div>
-	        <div class="side2">
-	        	<br>
-	                <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
-	        </div>
-	</div>
+        </div>
+        <div class="side2">
+            <br>
+                <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+        </div>
+    </div>
+</div> <!--closes page's main section-->
 
-	<div class="side">
-		<?php require_once ("side-modules/good-use.php");?>
+<div class="side">
+    <?php require_once ("side-modules/good-use.php");?>
 
-		<?php require_once ("side-modules/spiral-design.php");?>
+    <?php require_once ("side-modules/spiral-design.php");?>
 
-		<?php require_once ("side-modules/sequest-module.php");?>
-                
-		<?php require_once ("side-modules/earthen-ethics.php");?>
+    <?php require_once ("side-modules/sequest-module.php");?>
 
-		<?php require_once ("side-modules/transcaste-principle.php");?>
+    <?php require_once ("side-modules/earthen-ethics.php");?>
 
-		<?php require_once ("side-modules/plastic-carbon.php");?>
-	</div>
+    <?php require_once ("side-modules/transcaste-principle.php");?>
 
+    <?php require_once ("side-modules/plastic-carbon.php");?>
+</div>
 
 
 	<!--FOOTER STARTS HERE-->
 
 	<?php require_once ("../footer-2024.php");?>
-
-
-<!-- CUSTOM PAGE SCRIPTS-->
-<script>
-
-
-</script>
 
 <!-- This script is for pages that use the accordion content system
 
@@ -1005,7 +999,10 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 
 
 -->
+
+<!-- CUSTOM PAGE SCRIPTS-->
 <script>
+
   function toggleAccordion(blockNumber) {
     // Toggle the display of the content block
     var contentBlock = document.getElementById("preclosed" + blockNumber);
