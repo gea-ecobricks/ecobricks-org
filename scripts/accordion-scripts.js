@@ -9,7 +9,7 @@
 		x.style.display = "none";
 	  }
 
-	
+
   var x = document.getElementById("toggle-hide");
   if (x.innerHTML === "⬆ Hide") {
     x.innerHTML = "⬇ Show";
@@ -36,7 +36,7 @@
 		y.style.background = "#fff";
 		y.style.display = "grid";
 	}
-	
+
 	var x = document.getElementById("block-toggle-show1");
 		if (x.innerHTML === "+") {
 			x.innerHTML = "-";
@@ -53,7 +53,7 @@
 			x.style.display = "block";
 		}
 
-	
+
 		var y = document.getElementById("block2");
 	if (y.style.display === "grid") {
 		y.style.background = "#f6f6f6";
@@ -62,7 +62,7 @@
 		y.style.background = "#fff";
 		y.style.display = "grid";
 	}
-	
+
 	var x = document.getElementById("block-toggle-show2");
 		if (x.innerHTML === "+") {
 			x.innerHTML = "-";
@@ -87,7 +87,7 @@
 		y.style.background = "#fff";
 		y.style.display = "grid";
 	}
-	
+
 	var x = document.getElementById("block-toggle-show3");
 		if (x.innerHTML === "+") {
 			x.innerHTML = "-";
@@ -112,7 +112,7 @@
 		y.style.background = "#fff";
 		y.style.display = "grid";
 	}
-	
+
 	var x = document.getElementById("block-toggle-show4");
 		if (x.innerHTML === "+") {
 			x.innerHTML = "-";
@@ -137,7 +137,7 @@
 		y.style.background = "#fff";
 		y.style.display = "grid";
 	}
-	
+
 	var x = document.getElementById("block-toggle-show5");
 		if (x.innerHTML === "+") {
 			x.innerHTML = "-";
@@ -155,7 +155,7 @@
 		  } else {
 			  x.style.display = "block";
 		  }
-  
+
 	  var y = document.getElementById("block6");
 	  if (y.style.display === "grid") {
 		  y.style.background = "#f6f6f6";
@@ -164,7 +164,7 @@
 		  y.style.background = "#fff";
 		  y.style.display = "grid";
 	  }
-	  
+
 	  var x = document.getElementById("block-toggle-show6");
 		  if (x.innerHTML === "+") {
 			  x.innerHTML = "-";
@@ -172,9 +172,9 @@
 			  x.innerHTML = "+";
 		  }
 	  }
-  
 
-	
+
+
 	  function preclosed7() {
 		var x = document.getElementById("preclosed7");
 		  if (x.style.display === "block") {
@@ -182,7 +182,7 @@
 		  } else {
 			  x.style.display = "block";
 		  }
-  
+
 	  var y = document.getElementById("block7");
 	  if (y.style.display === "grid") {
 		  y.style.background = "#f6f6f6";
@@ -191,7 +191,7 @@
 		  y.style.background = "#fff";
 		  y.style.display = "grid";
 	  }
-	  
+
 	  var x = document.getElementById("block-toggle-show7");
 		  if (x.innerHTML === "+") {
 			  x.innerHTML = "-";
@@ -208,7 +208,7 @@
 		  } else {
 			  x.style.display = "block";
 		  }
-  
+
 	  var y = document.getElementById("block8");
 	  if (y.style.display === "grid") {
 		  y.style.background = "#f6f6f6";
@@ -217,7 +217,7 @@
 		  y.style.background = "#fff";
 		  y.style.display = "grid";
 	  }
-	  
+
 	  var x = document.getElementById("block-toggle-show8");
 		  if (x.innerHTML === "+") {
 			  x.innerHTML = "-";
@@ -234,7 +234,7 @@
 		  } else {
 			  x.style.display = "block";
 		  }
-  
+
 	  var y = document.getElementById("block9");
 	  if (y.style.display === "grid") {
 		  y.style.background = "#f6f6f6";
@@ -243,7 +243,7 @@
 		  y.style.background = "#fff";
 		  y.style.display = "grid";
 	  }
-	  
+
 	  var x = document.getElementById("block-toggle-show9");
 		  if (x.innerHTML === "+") {
 			  x.innerHTML = "-";
@@ -259,7 +259,7 @@
 		  } else {
 			  x.style.display = "block";
 		  }
-  
+
 	  var y = document.getElementById("block10");
 	  if (y.style.display === "grid") {
 		  y.style.background = "#f6f6f6";
@@ -268,7 +268,7 @@
 		  y.style.background = "#fff";
 		  y.style.display = "grid";
 	  }
-	  
+
 	  var x = document.getElementById("block-toggle-show10");
 		  if (x.innerHTML === "+") {
 			  x.innerHTML = "-";

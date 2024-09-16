@@ -50,7 +50,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 		                        		<h5 data-lang-id="010-block-1-opener-subheader"><b>Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b> </h5>
 							<br>
 						</div>
-		                    		<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
+		                    		<button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
 					</div>
 					
 					<div id="preclosed1">
@@ -68,7 +68,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h5 data-lang-id="014-block-2-opener-subheader">Ecobrick & Earth construction is ideal for simple, non-structural green spaces that serve your local community and ecosystem.</h5>
 							<br>
 						</div>
-						<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
+						<button onclick="toggleAccordion(2)" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
 					</div>
 			                <div id="preclosed2">
 						<div id="three-column-gal" class="three-column-gal">
@@ -106,7 +106,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<h5 data-lang-id="023-block-3-opener-subheader">New to earth building?  Before building something permanent, its a great idea to experience the full circle of earth and ecobrick building first. </h5>
 						<br>
 						</div>
-						<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-expanded="false">+</button>
+						<button onclick="toggleAccordion(3)" class="block-toggle" id="block-toggle-show3" aria-expanded="false">+</button>
 					</div>
 	
 			                <div id="preclosed3">
@@ -225,7 +225,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h4 data-lang-id="041-block-4-opener-header">1. Learn from your Ancestors</h4>
 							<h5 data-lang-id="042-block-4-opener-subheader">Earth building traditions were used by our ancestors before industrial construction methods took over.  In most places, with a little looking and you can find earth building traditions in your part of the world .</h5>
 						</div>
-						<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-expanded="false" aria-label="Toggle Section Four">+</button>
+						<button onclick="toggleAccordion(4)" class="block-toggle" id="block-toggle-show4" aria-expanded="false" aria-label="Toggle Section Four">+</button>
 					</div>
 	
 					<div id="preclosed4">
@@ -280,7 +280,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<div class="opener-header-text">
 							<h4 data-lang-id="050-block-5-opener-header">2. Get to know your Earth</h4>
 						</div>
-						<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-expanded="false" aria-label="Toggle Section Five">+</button>
+						<button onclick="toggleAccordion(5)" class="block-toggle" id="block-toggle-show5" aria-expanded="false" aria-label="Toggle Section Five">+</button>
 					</div>
 	
 					<div id="preclosed5">
@@ -343,7 +343,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h4 data-lang-id="065-block-6-opener-header">3. Choose your organic binder</h4>
 							<h5 data-lang-id="066-block-6-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
 						</div>
-						<button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6" aria-expanded="false" aria-label="Toggle Section Six">+</button>
+						<button onclick="toggleAccordion(6)" class="block-toggle" id="block-toggle-show6" aria-expanded="false" aria-label="Toggle Section Six">+</button>
 					</div>
 					<div id="preclosed6">
 						<br>
@@ -399,7 +399,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<div class="opener-header-text">
 							<h4 data-lang-id="076-block-7-opener-header">4. Prepare your materials</h4>
 						</div>
-						<button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
+						<button onclick="toggleAccordion(7)" class="block-toggle" id="block-toggle-show7" aria-expanded="false" aria-label="Toggle Section Seven">+</button>
 					</div>
 	
 					<div id="preclosed7">
@@ -439,7 +439,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h4 data-lang-id="082-block-8-opener-header">5. Prepare your building site</h4>
 							<h5 data-lang-id="083-block-8-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
 						</div>
-						<button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Eight">+</button>
+						<button onclick="toggleAccordion(8)" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Eight">+</button>
 					</div>
 	
 					<div id="preclosed8">
@@ -472,7 +472,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<div class="opener-header-text">
 							<h4 data-lang-id="087-block-9-opener-header">6. Dig your foundation</h4>
 						</div>
-						<button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9" aria-expanded="false" aria-label="Toggle Section Nine">+</button>
+						<button onclick="toggleAccordion(9)" class="block-toggle" id="block-toggle-show9" aria-expanded="false" aria-label="Toggle Section Nine">+</button>
 					</div>
 	
 					<div id="preclosed9">
@@ -532,7 +532,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<div class="opener-header-text">
 							<h4 data-lang-id="095-block-10-opener-header">6.1 Non-Cement Foundation</h4>
 						</div>
-						<button onclick="preclosed10()" class="block-toggle" id="block-toggle-show10" aria-expanded="false" aria-label="Toggle Section Ten">+</button>
+						<button onclick="toggleAccordion(10)" class="block-toggle" id="block-toggle-show10" aria-expanded="false" aria-label="Toggle Section Ten">+</button>
 					</div>
 					<div id="preclosed10">
 						<br>			
@@ -575,7 +575,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<div class="opener-header-text">
 							<h4 data-lang-id="099-block-11-opener-header">6.2 Cement Foundations</h4>
 						</div>
-						<button onclick="preclosed11()" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
+						<button onclick="toggleAccordion(11)" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
 					</div>
 
 					<div id="preclosed11">
@@ -643,7 +643,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h4 data-lang-id="110-block-12-opener-header">7. Mash your cob mixture</h4>
 							<h5 data-lang-id="111-block-12-opener-subheader">Now for the fun part.  This is where we get everyone involved…</h5>
 						</div>
-						<button onclick="preclosed12()" class="block-toggle" id="block-toggle-show12" aria-expanded="false" aria-label="Toggle Section Twelve">+</button>
+						<button onclick="toggleAccordion(12)" class="block-toggle" id="block-toggle-show12" aria-expanded="false" aria-label="Toggle Section Twelve">+</button>
 					</div>
 					
 					<div id="preclosed12">
@@ -696,7 +696,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h4 data-lang-id="116-block-13-opener-header">8. Make Cob Balls</h4>
 							<h5 data-lang-id="117-block-13-opener-subheader">Cob Balling is a fun and valuable step that helps include just about everybody in the collaboration.</h5>
 						</div>
-						<button onclick="preclosed13()" class="block-toggle" id="block-toggle-show13" aria-expanded="false" aria-label="Toggle Section Thirteen">+</button>
+						<button onclick="toggleAccordion(13)" class="block-toggle" id="block-toggle-show13" aria-expanded="false" aria-label="Toggle Section Thirteen">+</button>
 					</div>
 	
 					<div id="preclosed13">
@@ -730,7 +730,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h4 data-lang-id="122-block-14-opener-header">9. Lay the second layer of Ecobricks</h4>
 							<h5 data-lang-id="123-block-14-opener-subheader">Now, its time to produce and lay cob and ecobricks.  The brunt of the work is now ahead, but with everyone working together it goes fun and fast!</h5>
 						</div>
-						<button onclick="preclosed14()" class="block-toggle" id="block-toggle-show14" aria-expanded="false" aria-label="Toggle Section Fourteen">+</button>
+						<button onclick="toggleAccordion(14)" class="block-toggle" id="block-toggle-show14" aria-expanded="false" aria-label="Toggle Section Fourteen">+</button>
 					</div>
 	
 					<div id="preclosed14">
@@ -784,7 +784,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<div class="opener-header-text">
 							<h4 data-lang-id="130-block-15-opener-header">10. Keep building up layer by layer</h4>
 						</div>
-						<button onclick="preclosed15()" class="block-toggle" id="block-toggle-show13" aria-expanded="false" aria-label="Toggle Section Thirteen">+</button>
+						<button onclick="toggleAccordion(15)" class="block-toggle" id="block-toggle-show15" aria-expanded="false" aria-label="Toggle Section Thirteen">+</button>
 					</div>
 				    
 					<div id="preclosed15">
@@ -835,7 +835,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h4 data-lang-id="133-block-16-opener-header">11. Apply the outer skin</h4>
 							<h5 data-lang-id="134-block-16-opener-subheader">Now its time for the finishing layer!  This requires a special mix of cob.</h5>
 						</div>
-						<button onclick="preclosed16()" class="block-toggle" id="block-toggle-show16" aria-expanded="false" aria-label="Toggle Section Sixteen">+</button>
+						<button onclick="toggleAccordion(16)" class="block-toggle" id="block-toggle-show16" aria-expanded="false" aria-label="Toggle Section Sixteen">+</button>
 					</div>
 				    
 					<div id="preclosed16">
@@ -890,7 +890,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<h4 data-lang-id="145-block-17-opener-header">12. Outer Render</h4>
 							<h5 data-lang-id="146-block-17-opener-subheader">If you opted not to use cement in your skin-layer then you’ll need to finish with an outer render</h5>
 						</div>
-						<button onclick="preclosed17()" class="block-toggle" id="block-toggle-show17" aria-expanded="false" aria-label="Toggle Section Seventeen">+</button>
+						<button onclick="toggleAccordion(17)" class="block-toggle" id="block-toggle-show17" aria-expanded="false" aria-label="Toggle Section Seventeen">+</button>
 					</div>
 				    
 					<div id="preclosed17">
@@ -1001,7 +1001,35 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 
 <!-- This script is for pages that use the accordion content system-->
 <script src="../accordion-scripts.js?v=<?php echo ($version); ;?>" defer></script>
+<script>
+    function toggleAccordion(blockNumber) {
+    // Toggle the display of the content block
+    var contentBlock = document.getElementById("preclosed" + blockNumber);
+    if (contentBlock.style.display === "block") {
+        contentBlock.style.display = "none";
+    } else {
+        contentBlock.style.display = "block";
+    }
 
+    // Toggle the styling of the main block
+    var mainBlock = document.getElementById("block" + blockNumber);
+    if (mainBlock.style.display === "grid") {
+        mainBlock.style.background = "#f6f6f6";
+        mainBlock.style.display = "block";
+    } else {
+        mainBlock.style.background = "#fff";
+        mainBlock.style.display = "grid";
+    }
+
+    // Toggle the button text
+    var toggleButton = document.getElementById("block-toggle-show" + blockNumber);
+    if (toggleButton.innerHTML === "+") {
+        toggleButton.innerHTML = "-";
+    } else {
+        toggleButton.innerHTML = "+";
+    }
+}
+</script>
 </div>
 </body>
 </html>
