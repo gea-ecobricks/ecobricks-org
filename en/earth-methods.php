@@ -117,7 +117,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                                             <!--photo1-->
                                             <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small1.png', 'Soil test')">
                                                 <img src="../photos/start_real_small1.png" alt="Soil test" loading="lazy">
-                                                <p data-lang-id="026-photo-caption">Soil test</p>
+                                                <p data-lang-id="026-photo-caption">Pancake soil test:  See section 2 below.</p>
                                             </div>
 
                                             <!--photo2-->
@@ -233,7 +233,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<div id="three-column-gal-anc1" class="three-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/IMG-4927-scaled.jpg', 'A wall built with cob mortar and stone bricks')">
-								<img src="../photos/IMG-4927-400x284.jpg" alt="A wall built with cob mortar and stone bricks" loading="lazy">
+								<img src="../photos/IMG-4927-scaled.jpg" alt="A wall built with cob mortar and stone bricks" loading="lazy">
 								<p data-lang-id="044-photo-caption">A wall built with cob mortar and stone bricks</p>
 							</div>
 	
@@ -245,14 +245,14 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 			
 							<!--photo3-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/IMG-4923-scaled.jpg', 'An arch in Bali, Indonesia made from cob')">
-								<img src="../photos/IMG-4923-400x284.jpg" alt="An arch in Bali, Indonesia made from cob" loading="lazy">
+								<img src="../photos/IMG-4923-scaled.jpg" alt="An arch in Bali, Indonesia made from cob" loading="lazy">
 								<p data-lang-id="046-photo-caption">An arch in Bali, Indonesia made from cob</p>
 							</div>
 						</div>
 						<br>
 						<div id="three-column-gal-anc2" class="three-column-gal">		
 							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('../photos/IMG-4921-400x284.jpg', 'A very basic cob wall in Indonesia')">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/IMG-4921-scaled.jpg', 'A very basic cob wall in Indonesia')">
 								<img src="../photos/IMG-4921-scaled.jpg" alt="A very basic cob wall in Indonesia" loading="lazy">
 								<p data-lang-id="047-photo-caption">A very basic cob wall in Indonesia</p>
 							</div>
@@ -278,7 +278,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 					<div class="opener-header">
 						<div class="opener-header-text">
 							<h4 data-lang-id="050-block-5-opener-header">2. Get to know your earth</h4>
-							<h5 data-lang-id="050b-block-4-opener-subheader">Soil is different everywhere.  Its crucial to know the characteristics of yous.</h5>
+							<h5 data-lang-id="050b-block-4-opener-subheader">Soil is different everywhere.  Its crucial to know the characteristics of yours.</h5>
 						</div>
 						<button onclick="toggleAccordion(5)" class="block-toggle" id="block-toggle-show5" aria-expanded="false" aria-label="Toggle Section Five">+</button>
 					</div>
@@ -289,19 +289,19 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth1.png', 'Test your earth')">
 								<img src="../photos/Get-to-know-earth1.png" alt="Test your earth" loading="lazy">
-								<p data-lang-id="051-photo-caption">Test your earth</p>
+								<p data-lang-id="051-photo-caption">Make soil pancakes with local soil and added sand.</p>
 							</div>
 	
 							<!--photo2-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth2.jpg', 'Observe Dry')">
 								<img src="../photos/Get-to-know-earth2.jpg" alt="Observe Dry" loading="lazy">
-								<p data-lang-id="052-photo-caption">Observe Dry</p>
+								<p data-lang-id="052-photo-caption">Let dry in the sun.  Avoid rain. Observe how they dry.</p>
 							</div>
 			
 							<!--photo3-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth3.jpg', 'Test different ratios')">
 								<img src="../photos/Get-to-know-earth3.jpg" alt="Test different ratios" loading="lazy">
-								<p data-lang-id="053-photo-caption">Test different ratios</p>
+								<p data-lang-id="053-photo-caption">Test different ratios of earth to sand.  i.e. 1 soil with 1 added sand, 1:2, 1:3, etc.</p>
 							</div>
 						</div>
 						<br>
@@ -309,19 +309,19 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth4.jpeg', 'Use consistent size')">
 								<img src="../photos/Get-to-know-earth4.jpeg" alt="Use consistent size" loading="lazy">
-								<p data-lang-id="054-photo-caption">Use consistent size</p>
+								<p data-lang-id="054-photo-caption">Use consistent a consistent size:  i.e. 2.5cm thick, 20cm wide.</p>
 							</div>
 	
 							<!--photo2-->
-							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth5.jpeg', 'Cob pancake')">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth5.jpeg', 'A close up of a pancake with the ratio written on top')">
 								<img src="../photos/Get-to-know-earth5.jpeg" alt="Cob pancake" loading="lazy">
-								<p data-lang-id="055-photo-caption">Cob pancake</p>
+								<p data-lang-id="055-photo-caption">A close up of a pancake with the ratio written on top </p>
 							</div>
 	
 							<!--photo3-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Get-to-know-earth6.jpg', 'Record details')">
-								<img src="../photos/Get-to-know-earth6.jpg" alt="Record details" loading="lazy">
-								<p data-lang-id="056-photo-caption">Record details</p>
+								<img src="../photos/Get-to-know-earth6.jpg" alt="Record details of each pancake so you don't forget." loading="lazy">
+								<p data-lang-id="056-photo-caption">Record details of each pancake so you don't forget.</p>
 							</div>
 						</div><!--closes gallery-->
 						<p data-lang_id= 057-block-5-header-1>Earth is different everywhere on Earth!  Before we get started, we get to know our local earth.</p>
@@ -349,44 +349,50 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						<br>
 						<p data-lang-id="067-block-6-paragraph-1">Across cultures and continents our ancestors have used earth to make a building material by reinforcing with local fibers.  The choice of fibers was largely determined by what was available!  In Europe straw from the local grain harvest was used.  In Asia, rice straw or coconut fiber did the trick.   In some places, where neither was available horse or even human hair was used.</p>
 						<p data-lang-id="068-block-6-paragraph-2">Organic binder is chosen by its availability, tensile strength and flexibility.  In other words, when it is pulled it doesn’t break easily and when it bends it doesn’t snap.</p>
+
 						<div id="three-column-gal=binder1" class="three-column-gal">
-							<!--photo1-->
-							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder1.jpg', 'Tensile strength')">
-								<img src="../photos/Choose-organic-binder1.jpg" alt="Tensile strength" loading="lazy">
-								<p data-lang-id="069-photo-caption">Tensile strength</p>
-							</div>
-	
 							<!--photo2-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder2.jpg, 'Coconut fiber')">
 								<img src="../photos/Choose-organic-binder2.jpg" alt="Coconut fiber" loading="lazy">
 								<p data-lang-id="070-photo-caption">Coconut fiber</p>
 							</div>
-			
+
 							<!--photo3-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder3.jpg', 'Rice straw')">
 								<img src="../photos/Choose-organic-binder3.jpg" alt="Rice straw" loading="lazy">
 								<p data-lang-id="071-photo-caption">Rice straw</p>
 							</div>
-						</div>
-						<br>
-						<div id="three-column-gal=binder2" class="three-column-gal">		
-							<!--photo4-->
-							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder4.jpeg', 'Sturdy hay')">
-								<img src="../photos/Choose-organic-binder4.jpeg" alt="Sturdy hay" loading="lazy">
-								<p data-lang-id="072-photo-caption">Sturdy hay</p>
-							</div>
-	
+
 							<!--photo5-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder5.jpeg', 'Leftover rice straw')">
 								<img src="../photos/Choose-organic-binder5.jpeg" alt="Leftover rice straw"loading="lazy">
 								<p data-lang-id="073-photo-caption">Leftover rice straw</p>
 							</div>
-	
-							<!--photo6-->
+                        <br>
+                        </div>
+
+                        <!--photo1-->
+                        <div id="three-column-gal=binder2" class="three-column-gal">
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder1.jpg', 'Tensile strength')">
+								<img src="../photos/Choose-organic-binder1.jpg" alt="Tensile strength" loading="lazy">
+								<p data-lang-id="069-photo-caption">Tensile strength</p>
+							</div>
+
+                        <!--photo4-->
+							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder4.jpeg', 'Sturdy hay')">
+								<img src="../photos/Choose-organic-binder4.jpeg" alt="Sturdy hay" loading="lazy">
+								<p data-lang-id="072-photo-caption">Sturdy hay</p>
+							</div>
+                        <!--photo6-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/Choose-organic-binder6.jpg', 'Ideal dried straw')">
 								<img src="../photos/Choose-organic-binder6.jpg" alt="Ideal dried straw" loading="lazy">
 								<p data-lang-id="074-photo-caption">Ideal dried straw</p>
 							</div>
+                        <br>
+	
+
+	
+
 						</div><!--closes gallery-->
 						<p data-lang-id="075-block-6-paragraph-3"><b>Caution:</b>Although plastic fibers meets all three criteria above– using it in cob goes against our principles of <a href="circular.php">circular design</a>.  Once a construction comes to its end, it is impossible to remove the plastic from the cob and use it again.  This means that the plastic will certainly escape, degrade and <a href="poison.php">contaminate the local ecosystem</a>.</p>
 					</div>
