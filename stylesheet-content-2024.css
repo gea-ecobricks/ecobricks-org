@@ -735,16 +735,12 @@ FAQS
 
 ------------------------------------*/
 
-#preclosed1 {display: none;}
-#preclosed2 {display: none;}
-#preclosed3 {display: none;}
-#preclosed4 {display: none;}
-#preclosed5 {display: none;}
-#preclosed6 {display: none;}
-#preclosed7 {display: none;}
-#preclosed8 {display: none;}
-#preclosed9 {display: none;}
-#preclosed10 {display: none;}
+/*start all our accordion blocks closed*/
+
+div[id^="preclosed"] {
+    display: none;
+}
+
 
 
 
