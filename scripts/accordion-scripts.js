@@ -252,8 +252,6 @@
 		  }
 	  }
 
-
-
 	function preclosed10() {
 		var x = document.getElementById("preclosed10");
 		  if (x.style.display === "block") {
@@ -281,7 +279,7 @@
   
   
 
-	  //to move!!
+	  //to move!! check
 
 
 

@@ -23,7 +23,9 @@
 
 
 
-<!-- PAGE CONTENT-->
+<!-- PAGE CONTENT
+
+The Global Ecobrick Alliance recommends the use of earth and ecobricks to build non-structural, non-load bearing green spaces such as benches, planters, and food forest play parks.  Earthen building with ecobricks is a key step in our individual and collective journeys of plastic transition.-->
 
 
 <div id="main-content">
@@ -31,18 +33,20 @@
 	<div class="row">
 		<div class="main">
 			<div class="lead-page-paragraph">
-				<p data-lang-id="004-lead-page-paragraph">The Global Ecobrick Alliance has developed best-practices  for building with earth and ecobricks.  Our methods are designed to ensure the long-term sequestration of plastic in solid and safe constructions that can be built by anyone anywhere.</p>
+				<p data-lang-id="004-lead-page-paragraph">The Global Ecobrick Alliance has developed best-practices for building with earth and ecobricks.  Our methods are designed to ensure the long-term sequestration of plastic in practical and safe constructions that can be built by anyone anywhere.</p>
 			</div>
 			<div class="page-paragraph-reg">
-				<p data-lang-id="005-first-page-paragraph">The Global Ecobrick Alliance recommends the use of earth and ecobricks to build non-structural, non-load bearing green spaces such as benches, planters, and food forest play parks.  By using simple methods to build small-scale inspiring constructions that fully embody regenerative principles, we enable others to copy our constructions.  As more and more ecobrickers lead and assist in earth building, more and more plastic is sequestered.  And as more and more people get their hands dirty building with earth, more and more we reconnect to the earth and... Earth!</p>
-				<p data-lang-id="007-first-page-paragraph">Earthen building with ecobricks is a key step in our individual and collective journeys of plastic transition.</p>
-				<p data-lang-id="008-first-page-paragraph">Our recommended GEA earth building methods are designed to be both adaptable and scalable. Ecobrick and earth building is fundamentally about working with what resources are locally available– so we encourage you to adapt accordingly to your local context. We encourage you to start by learning from ancestral earth building methods in your region and starting small.  By starting small, you and your community can master methods and principles that apply equally to large projects as they do small. Once we have mastered small non-structural applications, we fully envisions homes and structures built with earth and ecobricks.</p>
+				<p data-lang-id="005-first-page-paragraph">By using simple, low-tech methods to build we can build small-scale inspiring constructions that fully embody regenerative principles.  As more and more ecobrickers lead and assist in earth building, more and more plastic is sequestered.  And as more and more people get their hands dirty building with earth, more and more we reconnect to the earth and... Earth!</p>
+
+				<p data-lang-id="007-third-page-paragraph">Our recommended GEA earth building methods are designed to be both adaptable and scalable. Ecobrick and earth building is fundamentally about working with what resources are locally available– so we encourage you to adapt accordingly to your local context. </p>
+
+				<p data-lang-id="008-second-page-paragraph">We encourage you to start by learning from ancestral earth building methods in your region and starting small.  By starting small, you and your community can master methods and principles that apply equally to large projects as they do small. Once we have mastered small non-structural applications, we fully envisions homes and structures built with earth and ecobricks.</p>
 			</div>
 			<section id="CAUTION">
-		        	<div class="reg-content-block" id="block1" style="background:orange;">
+		        	<div class="reg-content-block" id="block1" style="filter:saturate(2);">
 		                	<div class="opener-header">
 		                    		<div class="opener-header-text">
-		                        		<h4 data-lang-id="009-block-1-opener-header">CAUTION!</h4>
+		                        		<h4 data-lang-id="009-block-1-opener-header">HEADS UP!</h4>
 		                        		<h5 data-lang-id="010-block-1-opener-subheader"><b>Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b> </h5>
 							<br>
 						</div>
@@ -50,8 +54,8 @@
 					</div>
 					
 					<div id="preclosed1">
-						<p data-lang-id="011-block-1-opener-subheader">Today’s conventional construction is driven by capital and relies on industrial methods and materials with additive plastic and CO2 impacts (greying).  GEA recommended building methods are based on regenerative principles to ensure that their net CO2 and plastic impacts are subtractive (greening).</p>
-						<p data-lang-id="012-block-1-link"><a href="earth.php">Learn more about Ecobrick & Earth Building Principles</a></p>
+						<p data-lang-id="011-block-1-opener-subheader">Today’s conventional construction relies on industrial materials and methods that can only be bought.  These materials and methods (and the industries and capital behind them) are ecological depleting.  In contrast, Earthen construction is all about ecological benefit (sequestering carbon, supporting biodiversity, etc.).  Instead we use local materials and locally appropriate methods guided by regenerative principles to ensure that our constructions are ecological contributions.</p>
+						<p data-lang-id="012-block-1-link">ℹ️ Learn more about:<a href="earth.php"> Ecobrick & Earth Building Principles</a></p>
 			                </div>
 				</div>
 		        </section>
@@ -99,7 +103,7 @@
 		                	<div class="opener-header">
 						<div class="opener-header-text">
 						<h4 data-lang-id="022-block-3-opener-header">Start Real Small</h4>
-						<h5 data-lang-id="023-block-3-opener-subheader">New to earth building?  Before building something permanent, its invaluable to experience the full circle of earth and ecobrick building. </h5>
+						<h5 data-lang-id="023-block-3-opener-subheader">New to earth building?  Before building something permanent, its a great idea to experience the full circle of earth and ecobrick building first. </h5>
 						<br>
 						</div>
 						<button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-expanded="false">+</button>
@@ -120,13 +124,13 @@
 				                        <!--photo2-->
 				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small2.png', 'Find a smooth, flat surface (i.e large tile)')">
 				                            <img src="../photos/start_real_small2.png" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
-				                            <p data-lang-id="027-photo-caption">Find a smooth, flat surface (i.e large tile)</p>
+				                            <p data-lang-id="027-photo-caption">Find a smooth, flat surface.  A large ceramic tile works great.</p>
 				                        </div>
 				
 				                        <!--photo3-->
 				                        <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small3.png', 'Put on some oil')">
 				                            <img src="../photos/start_real_small3.png" alt="Put on some oil">
-				                            <p data-lang-id="028-photo-caption">Put on some oil</p>
+				                            <p data-lang-id="028-photo-caption">Coat the surface with some vegetable oil.</p>
 							</div>
 						</div>
 						<br>
@@ -226,7 +230,7 @@
 	
 					<div id="preclosed4">
 						<br>
-						<p data-lang_id= 043-block-4-paragraph-1>Our ancestors built earthen structures that lasted decades, centuries and in some cases mellenia!  Do some research near you to find walls or structures built using earthen techniques.  Rather than reinventing methods, you can see how their methods stood up against the unique conditions of your locale– and adapt accordingly for your ecobricking earth constructions.</p>
+						<p data-lang_id= 043-block-4-paragraph-1>Our ancestors built earthen structures that lasted decades, centuries and in some cases millenia!  Do some research near you to find walls or structures built using earthen techniques.  Rather than reinventing methods, you can see how their methods stood up against the unique conditions of your locale– and adapt accordingly for your ecobricking earth constructions.</p>
 						<div id="three-column-gal-anc1" class="three-column-gal">
 							<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/IMG-4927-400x284.jpg', 'A wall built with cob mortar and stone bricks')">
@@ -573,7 +577,9 @@
 						</div>
 						<button onclick="preclosed11()" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
 					</div>
+
 					<div id="preclosed11">
+                        <br>
 						<div id="three-column-gal62-1" class="three-column-gal">
 						<!--photo1-->
 							<div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations1.jpg', 'Mix cement 1:8')">
