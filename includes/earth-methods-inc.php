@@ -18,18 +18,18 @@
 /*New accordion stylesheet*/
 
 /* Style for the content blocks */
-.reg-content-block > div {
-    overflow: hidden;
-    transition: max-height 0.3s ease-out, background-color 0.3s ease;
-    max-height: 0; /* Start with content collapsed */
-    background-color: var(--accordion-background);
-}
+/* .reg-content-block > div { */
+/*     overflow: hidden; */
+/*     transition: max-height 0.3s ease-out, background-color 0.3s ease; */
+/*     max-height: 0;  *//* Start with content collapsed */
+/*     background-color: var(--accordion-background); */
+/* } */
 
 /* When content is open */
-.reg-content-block.open > div {
-    max-height: 1000px; /* A large enough value to cover the expanded height */
-    background-color: var(--main-background);
-}
+/* .reg-content-block.open > div { */
+/*     max-height: 1000px;  *//* A large enough value to cover the expanded height */
+/*     background-color: var(--main-background); */
+/* } */
 
 
 
