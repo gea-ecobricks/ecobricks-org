@@ -1002,33 +1002,29 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 <!-- This script is for pages that use the accordion content system-->
 <script src="../accordion-scripts.js?v=<?php echo ($version); ;?>" defer></script>
 <script>
-    function toggleAccordion(blockNumber) {
-    // Toggle the display of the content block
+   function toggleAccordion(blockNumber) {
+    // Get the elements
     var contentBlock = document.getElementById("preclosed" + blockNumber);
-    if (contentBlock.style.display === "block") {
-        contentBlock.style.display = "none";
-    } else {
-        contentBlock.style.display = "block";
-    }
-
-    // Toggle the styling of the main block
     var mainBlock = document.getElementById("block" + blockNumber);
-    if (mainBlock.style.display === "grid") {
-        mainBlock.style.background = "#f6f6f6";
-        mainBlock.style.display = "block";
+    var toggleButton = document.getElementById("block-toggle-show" + blockNumber);
+
+    // Toggle the display of the content block with animation
+    if (contentBlock.style.maxHeight) {
+        contentBlock.style.maxHeight = null; // Collapse
+        mainBlock.style.background = "var(--accordion-background)";
     } else {
-        mainBlock.style.background = "#fff";
-        mainBlock.style.display = "grid";
+        contentBlock.style.maxHeight = contentBlock.scrollHeight + "px"; // Expand
+        mainBlock.style.background = "var(--main-background)";
     }
 
     // Toggle the button text
-    var toggleButton = document.getElementById("block-toggle-show" + blockNumber);
     if (toggleButton.innerHTML === "+") {
         toggleButton.innerHTML = "-";
     } else {
         toggleButton.innerHTML = "+";
     }
 }
+
 </script>
 </div>
 </body>
