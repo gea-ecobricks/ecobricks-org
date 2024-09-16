@@ -42,7 +42,7 @@ $lang = isset($path_segments[0]) ? $path_segments[0] : 'en'; // Default to Engli
                     </div>
                 
                     <div class="page-paragraph">
-                         <p data-lang-id="005-first-page-paragraph">Look carefully at the URL to see if there is a mispelling.  We've just launched a new version of our site, and alas, there could be some bugs!</p> 
+                         <p data-lang-id="005-first-page-paragraph">Look carefully at the URL to see if there is a mis-spelling.  We've just launched a new version of our site, and alas, there could be some bugs!</p>
                     </div>
 
 
