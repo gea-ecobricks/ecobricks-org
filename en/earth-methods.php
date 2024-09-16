@@ -1018,10 +1018,10 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
     // Toggle the styling of the main block
     var mainBlock = document.getElementById("block" + blockNumber);
     if (mainBlock.style.display === "grid") {
-        mainBlock.style.background = "#f6f6f6";
+        mainBlock.style.background = "var(--accordion-background)";
         mainBlock.style.display = "block";
     } else {
-        mainBlock.style.background = "#fff";
+        mainBlock.style.background = "var(--main-background)";
         mainBlock.style.display = "grid";
     }
 
