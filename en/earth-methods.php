@@ -973,22 +973,22 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
         </div>
     </div>
 </div>
+
+    <div class="side">
+        <?php require_once ("side-modules/good-use.php");?>
+
+        <?php require_once ("side-modules/spiral-design.php");?>
+
+        <?php require_once ("side-modules/sequest-module.php");?>
+
+        <?php require_once ("side-modules/earthen-ethics.php");?>
+
+        <?php require_once ("side-modules/transcaste-principle.php");?>
+
+        <?php require_once ("side-modules/plastic-carbon.php");?>
+    </div>
+
 </div> <!--closes page's main section-->
-
-<div class="side">
-    <?php require_once ("side-modules/good-use.php");?>
-
-    <?php require_once ("side-modules/spiral-design.php");?>
-
-    <?php require_once ("side-modules/sequest-module.php");?>
-
-    <?php require_once ("side-modules/earthen-ethics.php");?>
-
-    <?php require_once ("side-modules/transcaste-principle.php");?>
-
-    <?php require_once ("side-modules/plastic-carbon.php");?>
-</div>
-
 
 	<!--FOOTER STARTS HERE-->
 
