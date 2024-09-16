@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.18';?>
+<?php $version='2.19';?>
 <?php $page='earth-methods';?>
  
 <title>Earth & Ecobrick Building Methods</title>
@@ -999,8 +999,12 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 
 </script>
 
-<!-- This script is for pages that use the accordion content system-->
+<!-- This script is for pages that use the accordion content system
+
 <script src="../accordion-scripts.js?v=<?php echo ($version); ;?>" defer></script>
+
+
+-->
 <script>
    function toggleAccordion(blockNumber) {
     // Get the elements
