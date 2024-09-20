@@ -388,11 +388,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 								<img src="../photos/Choose-organic-binder6.jpg" alt="Ideal dried straw" loading="lazy">
 								<p data-lang-id="074-photo-caption">Ideal dried straw</p>
 							</div>
-                        <br>
-	
-
-	
-
+                            <br>
 						</div><!--closes gallery-->
 						<p data-lang-id="075-block-6-paragraph-3"><b>Caution:</b>Although plastic fibers meets all three criteria above– using it in cob goes against our principles of <a href="circular.php">circular design</a>.  Once a construction comes to its end, it is impossible to remove the plastic from the cob and use it again.  This means that the plastic will certainly escape, degrade and <a href="poison.php">contaminate the local ecosystem</a>.</p>
 					</div>
@@ -454,15 +450,15 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                             <div id="three-column-gal-building" class="three-column-gal">
                                 <!--photo1-->
                                 <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-builing-site1.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Prepare-builing-site1.jpg" loading="lazy">
+                                    <img src="../photos/earth-methods/Prepare-building-site1.jpg" loading="lazy">
                                 </div>
                                             <!--photo2-->
                                 <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-builing-site2.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Prepare-builing-site2.jpg" loading="lazy">
+                                    <img src="../photos/earth-methods/Prepare-buidling-site2.jpg" loading="lazy">
                                             </div>
 
                                             <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-builing-site3.jpg', ' ')">
+                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site3.jpg', ' ')">
                                                 <img src="../photos/earth-methods/Prepare-builing-site3.jpg" loading="lazy">
                                             </div>
                             </div><!--closes gallery-->
@@ -924,7 +920,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                             <h4 data-lang-id="150-block-18-opener-header">13. Cement bench top with broken tiles</h4>
                             <h5 data-lang-id="151-block-18-opener-subheader">Complete your ecobrick and earth bench with colorful pattern of inlaid broken tiles.</h5>
                         </div>
-                        <button onclick="preclosed18()" class="block-toggle" id="block-toggle-show18" aria-expanded="false" aria-label="Toggle Section Eighteen">+</button>
+                        <button onclick="toggleAccordion(18)" class="block-toggle" id="block-toggle-show18" aria-expanded="false" aria-label="Toggle Section Eighteen">+</button>
                     </div>
 
                     <div id="preclosed18">
