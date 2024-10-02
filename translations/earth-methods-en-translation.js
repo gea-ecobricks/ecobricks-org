@@ -15,7 +15,7 @@ const en_Page_Translations = {
 
   "001-splash-title": "Methods & Techniques",
     "002-splash-subtitle": "Earth & Ecobrick Building Guidelines",
-    "003-splash-alt": "Ecobrick & Earth Building methods and guidelines",
+    "003-splash-alt": "<img src=\"../svgs/building-methods.svg\" style=\"width: 85%\" alt=\"Ecobrick & Earth Building methods and guidelines\" loading=\"eager\">",
     "004-lead-page-paragraph": "The Global Ecobrick Alliance has developed best-practices for building with earth and ecobricks. Our methods are designed to ensure the long-term sequestration of plastic in practical and safe constructions that can be built by anyone anywhere.",
     "005-first-page-paragraph": "By using simple, low-tech methods to build we can build small-scale inspiring constructions that fully embody regenerative principles. As more and more ecobrickers lead and assist in earth building, more and more plastic is sequestered. And as more and more people get their hands dirty building with earth, more and more we reconnect to the earth and... Earth!",
     "007-third-page-paragraph": "Our recommended GEA earth building methods are designed to be both adaptable and scalable. Ecobrick and earth building is fundamentally about working with what resources are locally available– so we encourage you to adapt accordingly to your local context.",

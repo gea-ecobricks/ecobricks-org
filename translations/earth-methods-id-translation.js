@@ -16,7 +16,7 @@ const id_Page_Translations = {
 
     "001-splash-title": "Metode & Teknik",
     "002-splash-subtitle": "Pedoman Pembangunan dengan Tanah & Ecobrick",
-    "003-splash-alt": "Metode dan pedoman pembangunan dengan Ecobrick & Tanah",
+    "003-splash-alt": "<img src=\"../svgs/building-methods.svg\" style=\"width: 85%\" alt=\"Metode dan pedoman pembangunan dengan Ecobrick & Tanah\" loading=\"eager\">",
     "004-lead-page-paragraph": "Global Ecobrick Alliance telah mengembangkan praktik terbaik untuk membangun dengan tanah dan ecobrick. Metode kami dirancang untuk memastikan penyekapan plastik jangka panjang dalam konstruksi yang praktis dan aman yang dapat dibangun oleh siapa saja di mana saja.",
     "005-first-page-paragraph": "Dengan menggunakan metode sederhana dan berteknologi rendah, kita bisa membangun konstruksi kecil yang menginspirasi yang sepenuhnya mewujudkan prinsip-prinsip regeneratif. Semakin banyak ecobrickers yang memimpin dan membantu dalam pembangunan dengan tanah, semakin banyak plastik yang disekap. Dan semakin banyak orang yang bekerja dengan tangan membangun dengan tanah, semakin kita terhubung kembali dengan bumi dan... Bumi!",
     "007-third-page-paragraph": "Metode pembangunan tanah GEA yang kami rekomendasikan dirancang untuk dapat diadaptasi dan ditingkatkan. Pembangunan dengan ecobrick dan tanah pada dasarnya adalah tentang memanfaatkan sumber daya yang tersedia secara lokal—jadi kami mendorong Anda untuk beradaptasi sesuai dengan konteks lokal Anda.",
