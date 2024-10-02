@@ -240,6 +240,6 @@ const id_Page_Translations = {
 
 
     
-}
+};
         
       
