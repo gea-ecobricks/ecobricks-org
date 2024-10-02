@@ -897,7 +897,6 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                         </div>
                         <button onclick="toggleAccordion(17)" class="block-toggle" id="block-toggle-show17" aria-expanded="false" aria-label="Toggle Section Seventeen">+</button>
                     </div>
-
                     <div id="preclosed17">
                         <br>
                         <p data-lang-id="147-block-17-paragraph-1">The final layer of earthern constructions is ancient art form that is highly specific to your local materials and climate.  The best place to start is to research the ancestral earth building traditions in your region.  Time is the true test!  Look for building built before the 1900’s and research how their walls were finished.  There are several main methods…</p>
