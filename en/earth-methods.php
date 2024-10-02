@@ -449,17 +449,17 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                             <br>
                             <div id="three-column-gal-building" class="three-column-gal">
                                 <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-builing-site1.jpg', ' ')">
+                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site1.jpg', ' ')">
                                     <img src="../photos/earth-methods/Prepare-building-site1.jpg" loading="lazy">
                                 </div>
                                             <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-builing-site2.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Prepare-buidling-site2.jpg" loading="lazy">
+                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site2.jpg', ' ')">
+                                    <img src="../photos/earth-methods/Prepare-building-site2.jpg" loading="lazy">
                                             </div>
 
                                             <!--photo3-->
                                             <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site3.jpg', ' ')">
-                                                <img src="../photos/earth-methods/Prepare-builing-site3.jpg" loading="lazy">
+                                                <img src="../photos/earth-methods/Prepare-building-site3.jpg" loading="lazy">
                                             </div>
                             </div><!--closes gallery-->
                             <p data-lang-id="084-block-8-paragraph-1">Clear the space where you will be working of all hazards.  Make sure that there is plenty of free space to work and move.  Allocate a space for mixing the cob, for piling materials, and for tools.  Make sure there are no hazards on the ground for when you get started.</p>
