@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<HTML lang="en">
+<HTML lang="id">
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang='in';?>
 <?php $version='2.21';?>
 <?php $page='earth-methods';?>
  
