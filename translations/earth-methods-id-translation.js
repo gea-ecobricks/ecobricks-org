@@ -150,7 +150,9 @@ const id_Page_Translations = {
 "107f-block-11-list-paragraph-6": "Letakkan tingkat pertama ecobrick di atasnya, letakkan di semen. Jarakkan ecobrick sekitar 4 cm.",
 "107g-block-11-list-paragraph-7": "Pastikan ecobrick setidaknya terbenam 20% dalam semen. Jangan terbenam lebih dari 40% atau ecobrick mungkin tidak bisa dilepas di kemudian hari.",
 "107h-block-11-list-paragraph-8": "Biarkan kering semalaman.",
-"108-block-11-paragraph-2": "<b>Peringatan:</b> Penggunaan semen dalam proyek memiliki dampak lingkungan abu-abu yang signifikan. Produksi, pengiriman, dan penjualan semen adalah salah satu sumber emisi CO2 terbesar dari aktivitas manusia. Diperkirakan untuk setiap 1kg semen yang diproduksi, dilepaskan sekitar 0,5-0,9kg CO2e. Jika Anda memilih menggunakan semen, pastikan bahwa dampak hijau dari proyek Anda (kebun yang akan Anda tanam, pohon-pohon di ruang hijau Anda, dll.) lebih besar daripada dampak abu-abu Anda.",
+
+"108-block-11-paragraph-2": "<b>Peringatan:</b> Penggunaan semen dalam proyek memiliki dampak lingkungan abu-abu yang signifikan. Produksi, pengiriman, dan penjualan semen adalah salah satu sumber terbesar emisi CO2 manusia. Diperkirakan bahwa untuk setiap 1kg <a href=\"https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf\">semen, 0.5-0.9kg CO2e dilepaskan</a>. Jika Anda memilih untuk menggunakan semen, pastikan bahwa dampak hijau dari proyek Anda (kebun yang akan Anda tanam, pohon-pohon di ruang hijau Anda, penyimpanan plastik Anda, dll.) lebih besar daripada dampak abu-abu Anda. Hanya dengan cara ini Anda dapat memastikan bahwa proyek Anda <a href=\"principles.php\">net-green dan regeneratif.</a>",
+
 
 // Block 12
 "110-block-12-opener-header": "7. Hancurkan adonan cob Anda",

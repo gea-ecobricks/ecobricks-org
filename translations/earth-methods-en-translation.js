@@ -153,7 +153,7 @@ const en_Page_Translations = {
     "107f-block-11-list-paragraph-6": "Lay your first level of ecobricks down, resting in the cement. Space ecobricks approximately 4 cm apart.",
     "107g-block-11-list-paragraph-7": "Make sure that the ecobricks are a minimum of 20% submerged in the cement. Do not submerge more than 40% or they may be un-removable in the future.",
     "107h-block-11-list-paragraph-8": "Let dry overnight.",
-    "108-block-11-paragraph-2": "<b>Caution:</b> The use of cement in a project has a significant grey environmental impact. The production, shipping, and sale of cement is one of the largest sources of human CO2 emissions. It is estimated that for every 1kg of <a href=\"https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf\">cement 0.5-0.9kg of CO2e is released</a>. If you choose to use cement, be sure that the green impact of your project (the garden you will grow, the trees in your green space,
+    "108-block-11-paragraph-2": "<b>Caution:</b>The use of cement in a project has a significant grey environmental impact.  The production, shipping and sale of cement is one of the largest sources of human CO2 emissions.  It is estimated that for every 1kg of <a href=\"https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf\">cement  0.5-0.9kg of CO2e is released</a>.   If you choose to use cement, be sure that the green impact of your projects (the garden your will grow, the trees in your green space, your sequestration of plastic, etc.) are greater than your grey impacts.   Only in this way can you assure that your project is <a href\"principles.php\">net-green and regenerative.</a>",
 
     // Block 12
     "110-block-12-opener-header": "7. Mash your cob mixture",
