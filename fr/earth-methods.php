@@ -3,18 +3,17 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='fr';?>
-<?php $version='2.28';?>
+<?php $version='2.29';?>
 <?php $page='earth-methods';?>
  
-<title>Earth & Ecobrick Building Methods</title>
 
 <?php require_once ("../includes/earth-methods-inc.php");?>
 
 <article id="Earth Building Methods">
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Metode & Teknik</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Pedoman Pembangunan dengan Tanah & Ecobrick</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Méthodes & Techniques</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Directives pour la construction en terre et avec des écobriques</div>
 	</div> 
 	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Ecobrick & Earth Building methods and guidelines" loading="eager">
     </div>	

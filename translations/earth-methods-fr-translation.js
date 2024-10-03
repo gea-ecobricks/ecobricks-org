@@ -13,8 +13,6 @@ TEXT TRANSLATION SNIPPETS FOR ECOBRICKS.ORG
 
 const fr_Page_Translations  = {
 
-
-
   "001-splash-title": "Méthodes & Techniques",
   "002-splash-subtitle": "Directives pour la construction en terre et avec des écobriques",
   "003-splash-alt": "<img src=\"../svgs/building-methods.svg\" style=\"width: 85%\" alt=\"Méthodes et directives de construction en terre et avec des écobriques\" loading=\"eager\">",
@@ -114,7 +112,7 @@ const fr_Page_Translations  = {
   
   "074-photo-caption": "Paille séchée idéale", 
   
-  "075-block-6-paragraph-3": "<b>Attention :</b> Bien que les fibres plastiques répondent aux trois critères ci-dessus, leur utilisation dans le cob va à l'encontre de nos principes de <a href="circular.php">conception circulaire</a>. Une fois qu'une construction est terminée, il est impossible d'extraire le plastique du cob et de le réutiliser. Cela signifie que le plastique s'échappera inévitablement, se dégradera et <a href=\"poison.php\">contaminera l'écosystème local</a>.",
+  "075-block-6-paragraph-3": "<b>Attention :</b> Bien que les fibres plastiques répondent aux trois critères ci-dessus, leur utilisation dans le cob va à l'encontre de nos principes de <a href=\"circular.php\">conception circulaire</a>. Une fois qu'une construction est terminée, il est impossible d'extraire le plastique du cob et de le réutiliser. Cela signifie que le plastique s'échappera inévitablement, se dégradera et <a href=\"poison.php\">contaminera l'écosystème local</a>.",
 
 // Block 7
 "076-block-7-opener-header": "4. Préparez vos matériaux", 
