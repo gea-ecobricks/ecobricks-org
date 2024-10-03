@@ -72,7 +72,7 @@ const fr_Page_Translations  = {
 
   // Block 5
   "050-block-5-opener-header": "2. Apprenez à connaître votre terre",
-  "050b-block-4-opener-subheader": "Le sol est différent partout. Il est crucial de connaître les caractéristiques du vôtre." 
+  "050b-block-4-opener-subheader": "Le sol est différent partout. Il est crucial de connaître les caractéristiques du vôtre.",
   "051-photo-caption": "Faites des pancakes de terre avec du sol local et du sable ajouté.",
   "052-photo-caption": "Laissez sécher au soleil. Évitez la pluie. Observez comment ils sèchent.", 
 
