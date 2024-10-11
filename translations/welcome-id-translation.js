@@ -23,6 +23,11 @@ const id_Page_Translations = {
     "301-featured-content-4-subtitle": "Panduan Pembangunan Mendalam & Praktik Terbaik.",
     "302-featured-content-4-button": "⚒️ Belajar",
 
+    "500-training-feed": "<span class=\"blink\">⬤  </span> Umpan pelatihan langsung...",
+    "500-featured-training-heading": "Pelatihan GEA",
+    "too-featured-live-training-subheading": "Tim kami yang terdiri dari lebih dari 600 pelatih memberikan pelatihan di seluruh dunia.",
+    "500-training-join-button": "➕ Bergabung dengan lokakarya",
+
     "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Feed proyek langsung. Klik untuk pratinjau.",
     "404-featured-live-heading": "Ecobrick yang Diterapkan",
     "405-featured-live-subheading": "Proyek ecobrick yang dicatat oleh penggiat ecobrick dari seluruh dunia.",

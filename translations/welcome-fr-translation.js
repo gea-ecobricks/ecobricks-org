@@ -14,6 +14,10 @@ const fr_Page_Translations = {
     "301-featured-content-4-subtitle": "Directives de Construction Approfondies & Meilleures Pratiques.",
     "302-featured-content-4-button": "⚒️ Apprendre",
 
+    "500-training-feed": "<span class=\"blink\">⬤  </span> Flux de formations en direct...",
+    "500-featured-training-heading": "Formations de l'Alliance Globale d'Écobriques",
+    "too-featured-live-training-subheading": "Notre équipe de plus de 600 formateurs dispense des formations partout dans le monde.",
+    "500-training-join-button": "➕ Rejoindre un atelier",
 
     "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Flux de projets en direct. Cliquez pour prévisualiser.",
     "404-featured-live-heading": "Écobriques Appliquées",

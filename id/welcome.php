@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='4.0';?>
+<?php $version='4.01';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -77,7 +77,6 @@ https://github/globalecobrickalliance/ecobricks.org
     </div>
 
 
-Hello
 <!-- TRAININGS GALLERY -->
 
 <div class="featured-content-gallery" style="overflow-x:clip;">

@@ -23,6 +23,11 @@ const en_Page_Translations = {
     "301-featured-content-4-subtitle": "In-depth Building Guidelines & Best Practices.",
     "302-featured-content-4-button": "⚒️ Learn",
 
+        "500-training-feed": "<span class=\"blink\">⬤  </span> Live trainings feed...",
+    "500-featured-training-heading": "GEA Trainings",
+    "too-featured-live-training-subheading": "Our team of over 600 trainers deliver training all over the world.",
+    "500-training-join-button": "➕ Join a workshop",
+
 
   "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Live projects feed.  Click to preview.",
   "404-featured-live-heading": "Ecobricks Applied",

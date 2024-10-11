@@ -41,6 +41,11 @@ const es_Page_Translations = {
     "301-featured-content-4-subtitle": "Guías de Construcción Detalladas & Mejores Prácticas.",
     "302-featured-content-4-button": "⚒️ Aprender",
 
+    "500-training-feed": "<span class=\"blink\">⬤  </span> Transmisión en vivo de entrenamientos...",
+    "500-featured-training-heading": "Capacitaciones de la Alianza Global de Ecoladrillos",
+    "too-featured-live-training-subheading": "Nuestro equipo de más de 600 entrenadores ofrece capacitación en todo el mundo.",
+    "500-training-join-button": "➕ Unirse a un taller",
+
        '312-top10s-title': 'Top Diez Mensual',
        '313-top10s-subtitle': 'Cada mes, miles de ecobricks son registrados por ecobrickers de todo el mundo, ¡y también revisados por sus pares!',
        '313-top10s-button': '🏆 Clasificaciones Mensuales',
