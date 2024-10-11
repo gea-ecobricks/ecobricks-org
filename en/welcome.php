@@ -16,7 +16,7 @@ https://github/globalecobrickalliance/ecobricks.org
 -->
 
 
-<?php require_once ("../includes/welcome-inc2.php");?>
+<?php require_once ("../includes/welcome-inc.php");?>
 
 
 <!-- FEATURED HEADLINE CONTENT -->
