@@ -98,7 +98,7 @@ https://github/globalecobrickalliance/ecobricks.org
         </div>
     </div>
 
-<!-- FULL ECOBRICK FLOW GALLERY -->
+<!-- FULL ECOBRICK FLOW GALLERY
 
 <div class="featured-content-gallery" style="overflow-x:clip;">
         <div class="feed-live">
@@ -123,12 +123,12 @@ https://github/globalecobrickalliance/ecobricks.org
                 }
              ?>
             <div class="photo-box-end" href="brikchain.php"></div>
-        </div>
+        </div>-->
 
         <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
         50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
         
-        <div class="feature-content-box">
+       <!-- <div class="feature-content-box">
             <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
             <div class="feature-sub-text" data-lang-id="305-featured-live-subheading">Ecobricks are being made, logged and validated around the world right this moment.</div>
 
@@ -136,14 +136,14 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="feature-reference-links"data-lang-id="307-featured-live-links">A feed & archive of authenticated ecobricks</div>
             
         </div>
-    </div>
+    </div>-->
 
 
 
 
 
 
-<!-- TOP TEN GALLERY-->
+<!-- TOP TEN GALLERY
 
 <div class="featured-content-top10s" style="overflow-x:clip;">
     <div class="gallery10-content-block">             
@@ -175,7 +175,6 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
     <div class="feature-content-box">
-    <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
         <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
         <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
 
@@ -197,7 +196,7 @@ https://github/globalecobrickalliance/ecobricks.org
             
             <div class="feature-reference-links" data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a></div>
         </div>
-    </div>
+    </div>-->
 
 
  <!--FOURTH CONTENT SECTION-->
