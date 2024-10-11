@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='es';?>
-<?php $version='2.21';?>
+<?php $version='2.22';?>
 <?php $page='earth-methods';?>
  
 <title>Earth & Ecobrick Building Methods</title>
@@ -13,8 +13,8 @@
 <article id="Earth Building Methods">
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Methods & Techniques</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Earth & Ecobrick Building Guidelines</div>
+		<div class="splash-heading" data-lang-id="001-splash-title"></div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle"></div>
 	</div> 
 	<div class="splash-image" data-lang-id="003-splash-alt"><img src="../svgs/building-methods.svg" style="width: 85%" alt="Ecobrick & Earth Building methods and guidelines" loading="eager">
     </div>	
