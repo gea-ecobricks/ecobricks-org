@@ -18,6 +18,12 @@ const en_Page_Translations = {
   "300-featured-content-1-title": "The Planetary Story of Plastic",
   "301-featured-content-1-subtitle": "Where does plastic really come from?",
   "302-featured-content-1-button": "🌎 Go deep!",
+
+    "300-featured-content-4-title": "Earth & Ecobrick Methods",
+    "301-featured-content-4-subtitle": "In-depth Building Guidelines & Best Practices.",
+    "302-featured-content-4-button": "⚒️ Learn",
+
+
   "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Live projects feed.  Click to preview.",
   "404-featured-live-heading": "Ecobricks Applied",
   "405-featured-live-subheading": "Ecobricks projects logged by ecobrickers from around the world.",

@@ -9,6 +9,12 @@ const fr_Page_Translations = {
   "300-featured-content-1-title": "L'histoire planétaire du plastique",
   "301-featured-content-1-subtitle": "D'où vient vraiment le plastique?",
   "302-featured-content-1-button": "🌍 Allez en profondeur!",
+
+      "300-featured-content-4-title": "Méthodes Terrestres & Écobriques",
+    "301-featured-content-4-subtitle": "Directives de Construction Approfondies & Meilleures Pratiques.",
+    "302-featured-content-4-button": "⚒️ Apprendre",
+
+
     "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Flux de projets en direct. Cliquez pour prévisualiser.",
     "404-featured-live-heading": "Écobriques Appliquées",
     "405-featured-live-subheading": "Projets d'écobriques enregistrés par des écobriqueurs du monde entier.",
@@ -32,6 +38,7 @@ const fr_Page_Translations = {
     "320-featured-4-subheading": "Notre écobriquage est inspiré par le peuple Igorot du Nord de Luzon, où l'Alliance Globale d'Écobriques a été fondée. Guidé par leur éthos Ayyew, l'écobriquage se distingue fondamentalement des concepts occidentaux de durabilité et de zéro déchet.",
     "321-featured-4-button": "🌏 Nos Principes Terrestres",
     "322-featured-4-references": "<a href=\"spiral.php\">Conception en Spirale</a> | <a href=\"/ayyew/\">Ayyew </a> | <a href=\"about.php\">À propos de Nous</a>",
+
 
     "310-featured-2-button": "Intro rapide",
     "311-featured-2-references": "Cinq diapositives. 45 secondes."

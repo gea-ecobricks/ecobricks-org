@@ -18,6 +18,11 @@ const id_Page_Translations = {
   "300-featured-content-1-title": "Kisah Plastik dan Planet",
   "301-featured-content-1-subtitle": "Dari mana sebenarnya plastik berasal?",
   "302-featured-content-1-button": "🌏 Jelajahi lebih dalam!",
+
+  "300-featured-content-4-title": "Metode Tanah & Ecobrick",
+    "301-featured-content-4-subtitle": "Panduan Pembangunan Mendalam & Praktik Terbaik.",
+    "302-featured-content-4-button": "⚒️ Belajar",
+
     "403-featured-live-brikchain": "<span class=\"blink\">⬤  </span>Feed proyek langsung. Klik untuk pratinjau.",
     "404-featured-live-heading": "Ecobrick yang Diterapkan",
     "405-featured-live-subheading": "Proyek ecobrick yang dicatat oleh penggiat ecobrick dari seluruh dunia.",

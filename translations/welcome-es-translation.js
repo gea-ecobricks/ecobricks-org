@@ -36,7 +36,11 @@ const es_Page_Translations = {
        '309-featured-2-subheading': 'Cuando el plástico se suelta en la biosfera, contamina y envenena. Cuando el plástico es procesado por la industria, fomenta la producción de más plástico. Ecobricking es una metodología simple y sin capital para mantener tu plástico seguro y protegido para que pueda ser utilizado de manera buena y verde.',
        '310-featured-2-button': 'Introducción al Ecobricking',
        '311-featured-2-references': '<h6><a href="what.php">Conceptos básicos</a> | <a href="transition.php">Transición del Plástico</a> | <a href="how.php">Cómo hacerlo</a></h6>',
-       
+
+       "300-featured-content-4-title": "Métodos de Tierra y Ecoladrillos",
+    "301-featured-content-4-subtitle": "Guías de Construcción Detalladas & Mejores Prácticas.",
+    "302-featured-content-4-button": "⚒️ Aprender",
+
        '312-top10s-title': 'Top Diez Mensual',
        '313-top10s-subtitle': 'Cada mes, miles de ecobricks son registrados por ecobrickers de todo el mundo, ¡y también revisados por sus pares!',
        '313-top10s-button': '🏆 Clasificaciones Mensuales',
