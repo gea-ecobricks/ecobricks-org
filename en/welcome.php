@@ -76,6 +76,48 @@ https://github/globalecobrickalliance/ecobricks.org
     </div>
 
 
+
+<!-- TRAININGS GALLERY -->
+
+<div class="featured-content-gallery" style="overflow-x:clip;">
+    <div class="feed-live">
+        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Flux de formation en direct. Clique pour voir.</p>
+    </div>
+    <div class="gallery-flex-container">
+        <?php
+        // Updated SQL query to include a WHERE clause and a LIMIT
+        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 ORDER BY training_id DESC LIMIT 40;";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // Output data of each row
+            while ($row = $result->fetch_assoc()) {
+                echo '<div class="gal-project-photo">
+                        <div class="photo-box">
+                            <img src="' . htmlspecialchars($row["training_photo0_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants" onclick="trainingPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\', \'' . htmlspecialchars($row["training_country"]) . '\', \'' . htmlspecialchars($row["no_participants"]) . '\', \'' . htmlspecialchars($row["lead_trainer"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants">
+                        </div>
+                    </div>';
+            }
+        } else {
+            echo "No trainings available to display.";
+        }
+        ?>
+    <div class="project-photo-box-end" href="add-project.php"></div>
+</div>
+<div class="feature-content-box">
+    <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
+</div>
+
+
+
+            <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Notre équipe de plus de 600 formateurs dispense des formations partout dans le monde.</div>
+        <!-- <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="View workshops">➕ Join a workshop</a>
+        <div class="feature-reference-links">View our current courses</div> -->
+    </div>
+
+
+
+
     <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 
     <div class="featured-content-2">
