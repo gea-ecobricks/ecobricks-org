@@ -28,7 +28,7 @@ https://github/globalecobrickalliance/ecobricks.org
                      <div class="featured-content-title" data-lang-id="300-featured-content-4-title"></div>
                      <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle"></div>
 
-                     <a class="content1-button" href="plastic.php" data-lang-id="302-featured-content-4-button"></a>
+                     <a class="content1-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button"></a>
                  </div>
              </div>
          </div>
