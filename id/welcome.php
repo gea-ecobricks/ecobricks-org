@@ -77,12 +77,12 @@ https://github/globalecobrickalliance/ecobricks.org
     </div>
 
 
-
+Hello
 <!-- TRAININGS GALLERY -->
 
 <div class="featured-content-gallery" style="overflow-x:clip;">
     <div class="feed-live">
-        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Flux de formation en direct. Clique pour voir.</p>
+        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed...</p>
     </div>
     <div class="gallery-flex-container">
         <?php
@@ -115,9 +115,6 @@ https://github/globalecobrickalliance/ecobricks.org
         <!-- <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="View workshops">➕ Join a workshop</a>
         <div class="feature-reference-links">View our current courses</div> -->
     </div>
-
-
-
 
     <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 

@@ -82,7 +82,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <div class="featured-content-gallery" style="overflow-x:clip;">
     <div class="feed-live">
-        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Flux de formation en direct. Clique pour voir.</p>
+        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live fee of GEA Trainings...</p>
     </div>
     <div class="gallery-flex-container">
         <?php
