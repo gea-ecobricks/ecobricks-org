@@ -32,7 +32,7 @@
 
 
 
-/*  To be fixed:  IMAGE URL NEEDS TO BE INPUTED DIRECTLY*/
+/*  To be fixed:  IMAGE URL NEEDS TO BE INPUTED DIRECTLY AS A VARIABLE and needs to be based on GoBrik url*/
 function ecobrickPreview(brik_serial, weight, owner, location) {
     // Construct the image source URL FIX:
     var imageUrl = 'https://beta.gobrik.com/briks/ecobrick-' + brik_serial + '-file.webp';
