@@ -25,10 +25,10 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Building</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Methods & Guidelines</div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices.</div>
 
-                     <a class="content1-button" href="plastic.php" data-lang-id="302-featured-content-4-button">Learn</a>
+                     <a class="content1-button" href="plastic.php" data-lang-id="302-featured-content-4-button">⚒️ Learn</a>
                  </div>
              </div>
          </div>
