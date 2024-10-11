@@ -25,10 +25,10 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">The Long Story of Plastic</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Where does plastic really come from?</div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Earth & Ecobrick Building</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">In-depth Methods & Guidelines</div>
 
-                     <a class="content1-button" href="plastic.php" data-lang-id="302-featured-content-1-button">Go deep!</a>
+                     <a class="content1-button" href="plastic.php" data-lang-id="302-featured-content-1-button">Learn</a>
                  </div>
              </div>
          </div>
@@ -110,7 +110,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-            <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Notre équipe de plus de 600 formateurs dispense des formations partout dans le monde.</div>
+            <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of over 600 trainers deliver training all over the world.</div>
         <!-- <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="View workshops">➕ Join a workshop</a>
         <div class="feature-reference-links">View our current courses</div> -->
     </div>
