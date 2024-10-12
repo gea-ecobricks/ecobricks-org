@@ -14,7 +14,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">GoBrik</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A Social Action Platform Serving the People, Serving the Planet.</div>
 	</div>
-	<div class="splash-image" data-lang-id="003x-splash-image-alt"><img src="../svgs/gobrik-3-emblem-day.svg?v=2" style="width: 65%" alt="The basics of ecobricking">
+	<div class="splash-image" data-lang-id="003x-splash-image-alt"><img src="../svgs/gobrik-3-emblem-day.svg?v=2.1" style="width: 65%" alt="The basics of ecobricking">
     </div>
 </div>
 <div id="splash-bar"></div>
