@@ -45,7 +45,7 @@ https://github/globalecobrickalliance/ecobricks.org
         <div class="gallery-flex-container">
         <?php
     // Updated SQL query to include a WHERE clause and a LIMIT
-    $sql = "SELECT * FROM tb_projects WHERE ready_to_show = 1 ORDER BY project_id DESC LIMIT 45;";
+    $sql = "SELECT * FROM tb_projects WHERE ready_to_show = 1 ORDER BY project_id DESC LIMIT 20;";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -87,7 +87,7 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="gallery-flex-container">
         <?php
         // Updated SQL query to include a WHERE clause and a LIMIT
-        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 ORDER BY training_id DESC LIMIT 40;";
+        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 ORDER BY training_id DESC LIMIT 20;";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
