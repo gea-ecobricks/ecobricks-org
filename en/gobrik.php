@@ -31,7 +31,7 @@
 
 			<div class="lead-page-paragraph">
 
-			<p data-lang-id="004-lead-page-paragraph">The challenge of transitioning from plastic connects us across cultures and continents. By valuing the securing of plastic by individuals and communities, the GoBrik platform enables currency and connection to empower projects and people.</p>
+				<p data-lang-id="004-lead-page-paragraph">The challenge of transitioning from plastic connects us across cultures and continents. By valuing the securing of plastic by individuals and communities, the GoBrik platform enables currency and connection to empower projects and people.</p>
 			</div>
 
 			<div class="page-paragraph">
@@ -39,52 +39,25 @@
 			</div>
 
 			<div class="reg-content-block" id="block1">
-    <div class="opener-header">
-        <div class="opener-header-text">
-            <h4 data-lang-id="007-block-1-header">Ecobricking Standards</h4>
-            <h5 data-lang-id="008-block-1-subheader">The GEA maintains standards for ecobricking that are divided into six categories.</h5>
-        </div>
-        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
-    </div>
-
-    <div id="preclosed1">
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="009-block-1-main-p1">The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
-                <p data-lang-id="010-block-1-main-p2">
-				The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics.  This way, we can be sure we are following <a href="plastic.php">Earth’s example of green, carbon care.</a>.</p>
-            </div>
-            <div class="side2" data-lang-id="011-block-1-img1-alt">
-                <img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
-            </div>
-        </div>
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="012-block-1-main-p3">An ecobrick must fulfil the following crieria:</p>
-            </div>
-            <div class="side3" data-lang-id="013-block-1-img2-alt">
-                <img src="../svgs/authenticated-brik.svg" width="125" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
-            </div>
-        </div>
-
-        <ul>
-            <li data-lang-id="014-block-1-li-1">Be created by a not-for-profit, for-Earth motivation.</li>
-            <li data-lang-id="015-block-1-li-2">Manually compact and secure used plastic into a transparent, building block that can be indefinitely reused in the short and long term.</li>
-            <li data-lang-id="016-block-1-li-3">Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
-            <li data-lang-id="017-block-1-li-4">Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
-            <li data-lang-id="018-block-1-li-5">Raise the individual and collective ecological consciousness of those involved in the process.</li>
-        </ul>
-
-        <p data-lang-id="019-block-1-p1">
-		Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and the <a href="/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
-
-        <p data-lang-id="020-block-1-p2">Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.</p>
-        <p data-lang-id="021-block-1-p3">Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
-        <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</h5>
-        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="plastic.php">Earth's example.</a></h5>
-    </div>
-</div>
-
+				<div class="opener-header">
+		        		<div class="opener-header-text">
+						<h4 data-lang-id="007-block-1-header">Our Vision</h4>
+						<h5 data-lang-id="008-block-1-subheader">We're firm believers that <i>'the problem is always the solution'</i>. And that includes plastic. Plastic is not just an ugly consequence of the petro-capital economy - it is our spring board to transcending it.</h5>
+					</div>
+					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
+		    		</div>
+		
+		    		<div id="preclosed1">
+				        <div class="row">
+				            <div class="main2">
+				                <p data-lang-id="009-block-1-main-p1">The <a href="about.php">To solve plastic pollution and to transcend the petro-capital economy at the root of it, we must dive deep into... <i>plastic.</i> Rather than sending our personal plastic on polluting journeys, through ecobricking we can generate the building blocks and currency. By connecting ecobrickers- uniquely committed planet-passionate global citizens- GoBrik has a tremendously unique base of users who, like the GEA, are not motivated by capital or profit- but ecological and community concern.</p>
+				                <p data-lang-id="010-block-1-main-p2">United by this shared passion, ecobricking lays the foundation for much more than just ecobricking! With a shared currency, a shared metric and vision of plastic transition, our vision is of a decentralized app that can be deployted by regenerative communities around the world to coalesce their local efforts and unite them to the global movement.</p>
+				                <p data-lang-id="011-block-2-main-p3">In the recycling industry plastic is only valued as a raw material. GoBri enables us to value plastic for precisely the opposite: its removal from the global industrial system to be secured and put to good local use. Our vision os of the GoBrik platform doing just this- accelerating the sequestration of plastic and our transition from it. By generating ciurrency and connection on the valuation of their service, we envision not just making a dent in the millions of tons of plastic that will be produced in the next decade, but using that plastic as the building blocks for a whole new regenerative world.</p>
+				            </div>
+				        </div>
+				</div>
+			</div>
+	
 
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
