@@ -1,3 +1,8 @@
+This log page is now offline.  Please use GoBrik.com
+
+
+
+/*
 <?php
 
 ini_set('display_errors', 1);
@@ -612,3 +617,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </body>
 </html>
+ *//*
+
+ */
