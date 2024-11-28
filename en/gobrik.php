@@ -62,8 +62,7 @@
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="022-block-2-header">Regular Ecobricks</h4>
-            <h5 data-lang-id="023-block-2-subheader">A PET bottle packed with plastic</h5>
+            <h4 data-lang-id="022-block-2-header">Serving the People Serving the Planet</h4>
         </div>
         <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">+</button>
     </div>
@@ -71,43 +70,11 @@
     <div id="preclosed2">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="024-block-2-main-p1">Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
-            </div>
-            <div class="side2" data-lang-id="025-block-2-img1-alt">
-                <img src="../webp/brik-cascade.webp" width="150" alt="A cascade of ecobricks packed with used plastic" style="width:100%;" loading="lazy" >
+                <p data-lang-id="024-block-2-main-p1">The GoBrik platform serves ecobrickers around the world, enabling them to manage their plastic transition.  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.</p>
             </div>
         </div>
 
-        <p data-lang-id="026-block-2-p2">Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="/fire">flammability</a> while maximizing its durability and re-usability.</p>
-
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="027-block-2-main-p3">To be an ecobrick, the following standards must be met:</p>
-            </div>
-            <div class="side3" data-lang-id="028-block-2-img2-alt">
-                <img src="https://ecobricks.org/svgs/eb-blue.svg" width="120" style="width:100%;" alt="An ecobrick being made" loading="lazy" >
-            </div>
-        </div>
-
-        <ul>
-            <li data-lang-id="029-block-2-li-1">The ecobrick is made using a transparent plastic (PET) bottle</li>
-            <li data-lang-id="030-block-2-li-2">The ecobrick is only packed with used plastics that are clean and dry.</li>
-            <li data-lang-id="031-block-2-li-3">The ecobrick’s density is higher than 0.33g/ml.</li>
-            <li data-lang-id="032-block-2-li-4">The ecobrick must have a density of 0.70g/ml or less</li>
-            <li data-lang-id="033-block-2-li-5">The ecobrick is sealed tight with a screw down lid.</li>
-            <li data-lang-id="034-block-2-li-6">Care has been taken taken to prepare the ecobrick as a reusable building block:
-                <ul>
-                    <li data-lang-id="035-block-2-li-6-1">The label has been removed and ecobricked.</li>
-                    <li data-lang-id="036-block-2-li-6-2">A uniform colored plastic has been given to the ecobrick's bottom.</li>
-                    <li data-lang-id="037-block-2-li-6-3">The weight has been permanently recorded on the outside.</li>
-                </ul>
-            </li>
-        </ul>
-
-        <p data-lang-id="038-block-2-p3">Only when these ecobrick standards are  met can the plastic inside be considered to be sequestered.</p>
-		<br><br>
-        <a class="action-btn" href="how.php" data-lang-id="039-block-2-btn">ℹ️ How to Make</a>
-        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="040-block-2-p4">View our 10 Step Guide on Making an Ecobrick.</p>
+	<p data-lang-id="025-block-2-sub-p2">Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.  Those who helped out with the validation, are rewarded with Brikcoins.</p>
     </div>
 </div>
 
@@ -124,40 +91,12 @@
     <div id="preclosed3">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="043-block-3-main-p1">Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters-- one of the most prevalent and damaging of all plastic pollutants. Cigbricks are made exclusively from the packed acetate filters of cigarette butts once the paper and ash has been fully removed.</p>
-            </div>
-            <div class="side2" data-lang-id="044-block-3-img1-alt">
-                <img src="../svgs/Cigbrick.svg" width="300" style="width:100%;" alt="Cigbricks are for cigarettes" loading="lazy" >
+                <p data-lang-id="043-block-3-main-p1">Ecobrick Authentications & Brikcoins</p>
             </div>
         </div>
 
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="045-block-3-main-p2">To be a Cigbrick the following standards must be met:</p>
-            </div>
-            <div class="side3" data-lang-id="046-block-3-img2-alt">
-                <img src="../svgs/Cigbrick.svg" width="120" style="width:100%;" alt="Cigbricks are for cigarettes" loading="lazy" >
-            </div>
-        </div>
-
-        <ul>
-            <li data-lang-id="047-block-3-li-1">A density higher than 0.29 g/ml</li>
-            <li data-lang-id="048-block-3-li-2">A maximum density of 0.70g/ml</li>
-            <li data-lang-id="049-block-3-li-3">Only packed with acetate cigarette butts – the paper and ash have been removed.</li>
-            <li data-lang-id="050-block-3-li-4">The cigbrick is sealed tight with a screw down lid.</li>
-            <li data-lang-id="051-block-3-li-5">Care has been taken to prepare the cigbrick as a reusable building block:
-                <ul>
-                    <li data-lang-id="052-block-3-li-5-1">The label has been removed and ecobricked.</li>
-                    <li data-lang-id="053-block-3-li-5-2">A bottom color has been added</li>
-                    <li data-lang-id="054-block-3-li-5-3">The weight has been recorded on the outside.</li>
-                </ul>
-            </li>
-        </ul>
-
-        <p data-lang-id="055-block-3-p1">Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
-
-        <a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn">ℹ️ Make a Cigbrick</a>
-        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Learn more about Cibricks.</p>
+	<p data-lang-id="044-block-3-sub-p2">Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
+	<p> <a href="/brikcoin">Learn more about Brikcoins</a></p>
     </div>
 </div>
 
