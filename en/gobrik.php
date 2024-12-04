@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">GoBrik is a social action platform providing ecobrickers and their communities around the world with the tools to log, track, exchange and manage their ecobricking.  GoBrik is a project of the Global Ecobrick Alliance (GEA) Earth Enterprise.  Launched in 2017, GoBrik now connects 50,000 users and 5,000 communities from 120 countries through their ecobricking.  The core of the platform is our community of planet passionate ecobrickers.  Through their hard word, our ecobrick authentication system is generating our brikcoin manual blockchain.</p>
+				<p data-lang-id="005-first-page-paragraph">GoBrik is a social action platform providing ecobrickers and their communities around the world with the tools to log, track, exchange and manage their ecobricking.  GoBrik is a project of the <a href="about.php">Global Ecobrick Alliance (GEA) Earth Enterprise</a>.  Launched in 2017, GoBrik now connects 50,000 users and 5,000 communities from 120 countries through their <a href="https://www.ecobricks.org/what">ecobricking</a>.  The core of the platform is our community of planet passionate ecobrickers.  Through their hard word, our ecobrick authentication system is generating our <a href="https://www.ecobricks.org/brikcoins">brikcoin manual blockchain</a>.</p>
 			</div>
 
 			<div class="reg-content-block" id="block1">
@@ -50,10 +50,10 @@
 		    		<div id="preclosed1">
 				        <div class="row">
 				            <div class="main2">
-				                <p data-lang-id="009-block-1-main-p1">The <a href="about.php">To solve plastic pollution and to transcend the petro-capital economy at the root of it, we must dive deep into... <i>plastic.</i> Rather than sending our personal plastic on polluting journeys, through ecobricking we can generate the building blocks and currency. By connecting ecobrickers- uniquely committed planet-passionate global citizens- GoBrik has a tremendously unique base of users who, like the GEA, are not motivated by capital or profit- but ecological and community concern.</p>
+				                <p data-lang-id="009-block-1-main-p1">To solve plastic pollution and to transcend the petro-capital economy at the root of it, we must dive deep into... <i>plastic.</i> Rather than sending our personal plastic on polluting journeys, through ecobricking we can generate the building blocks and currency. By connecting ecobrickers- uniquely committed planet-passionate global citizens- GoBrik has a tremendously unique base of users who, like the GEA, are not motivated by capital or profit- but ecological and community concern.</p>
 				                <p data-lang-id="010-block-1-main-p2">United by this shared passion, ecobricking lays the foundation for much more than just ecobricking! With a shared currency, a shared metric and vision of plastic transition, our vision is of a decentralized app that can be deployted by regenerative communities around the world to coalesce their local efforts and unite them to the global movement.</p>
 				                <p data-lang-id="011-block-2-main-p3">In the recycling industry plastic is only valued as a raw material. GoBri enables us to value plastic for precisely the opposite: its removal from the global industrial system to be secured and put to good local use. Our vision os of the GoBrik platform doing just this- accelerating the sequestration of plastic and our transition from it. By generating ciurrency and connection on the valuation of their service, we envision not just making a dent in the millions of tons of plastic that will be produced in the next decade, but using that plastic as the building blocks for a whole new regenerative world.</p>
-				            </div>
+						</div>
 				        </div>
 				</div>
 			</div>
