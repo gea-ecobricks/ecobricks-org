@@ -24,7 +24,7 @@
 
 <!-- PAGE CONTENT-->
 
-<?php include '../ecobricks_env.php';?> 
+<?php include '../gobrikconn_env.php';?>
 
 <div id="main-content">
 	<div class="row">
@@ -60,7 +60,7 @@
 
 	<div class="live-data" style="margin-top:30px">
 		<?php
-			$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2023;"; $result = $conn->query($sql);
+			$sql = "SELECT * FROM vw_detail_sums_by_year  WHERE year = 2023;"; $result = $gobrik_conn->query($sql);
 			if ($result->num_rows > 0) {
 			
 				while($row = $result->fetch_assoc()) {
@@ -187,7 +187,7 @@
 
 			$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
 
-			$result = $conn->query($sql);
+			$result = $gobrik_conn->query($sql);
 
 			if ($result->num_rows > 0) {
 			
@@ -244,7 +244,7 @@
 
 				$sql = "SELECT * FROM vw_sum_brk_total ;";
 
-				$result = $conn->query($sql);
+				$result = $gobrik_conn->query($sql);
 
 				if ($result->num_rows > 0) {
 
@@ -266,7 +266,7 @@
 	</div>
 
 
-	<?php 	$conn->close();?>
+	<?php 	$gobrik_conn->close();?>
 
 
 
