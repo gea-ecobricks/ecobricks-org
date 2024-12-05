@@ -3,7 +3,7 @@
 
 $sql = "SELECT * FROM vw_sum_brk_total ;";
 
-$result = $conn->query($sql);
+$result = $gobrik_conn->query($sql);
 
         if ($result->num_rows > 0) {
 
