@@ -17,10 +17,10 @@
 
 
 // Please Remove below 4 lines as this is use in Datatatables test environment for your local or live environment please remove it or else it will not work
-$file = $_SERVER['DOCUMENT_ROOT'].'/datatables/pdo.php';
-if ( is_file( $file ) ) {
-	include( $file );
-}
+// $file = $_SERVER['DOCUMENT_ROOT'].'/datatables/pdo.php';
+// if ( is_file( $file ) ) {
+// 	include( $file );
+// }
 
 
 class SSP {
@@ -72,18 +72,16 @@ class SSP {
 	 *
 	 * Obtain an PHP PDO connection from a connection details array
 	 *
-	 *  @param  array $conn SQL connection details. The array should have
-	 *    the following properties
-	 *     * host - host name
-	 *     * db   - database name
-	 *     * user - user name
-	 *     * pass - user password
+	 *  @param  array $gobrik_conn SQL connection details. The array should have
+
+include '../gobrikconn_env.php';
+
 	 *  @return resource PDO connection
 	 */
-	static function db ( $conn )
+	static function db ( $gobrik_conn )
 	{
-		if ( is_array( $conn ) ) {
-			return self::sql_connect( $conn );
+		if ( is_array( $gobrik_conn ) ) {
+			return self::sql_connect( $gobrik_conn );
 		}
 
 		return $conn;
@@ -240,7 +238,7 @@ class SSP {
 	 * sending back to the client.
 	 *
 	 *  @param  array $request Data sent to server by DataTables
-	 *  @param  array|PDO $conn PDO connection resource or connection parameters array
+	 *  @param  array|PDO $gobrik_conn PDO connection resource or connection parameters array
 	 *  @param  string $table SQL table to query
 	 *  @param  string $primaryKey Primary key of the table
 	 *  @param  array $columns Column information array
@@ -249,7 +247,7 @@ class SSP {
 	static function simple ( $request, $conn, $table, $primaryKey, $columns )
 	{
 		$bindings = array();
-		$db = self::db( $conn );
+		$db = self::db( $gobrik_conn );
 
 		// Build the SQL query string from the request
 		$limit = self::limit( $request, $columns );
@@ -309,7 +307,7 @@ class SSP {
 	 *   particular records (for example, restricting by a login id).
 	 *
 	 *  @param  array $request Data sent to server by DataTables
-	 *  @param  array|PDO $conn PDO connection resource or connection parameters array
+	 *  @param  array|PDO $gobrik_conn PDO connection resource or connection parameters array
 	 *  @param  string $table SQL table to query
 	 *  @param  string $primaryKey Primary key of the table
 	 *  @param  array $columns Column information array
@@ -320,7 +318,7 @@ class SSP {
 	static function complex ( $request, $conn, $table, $primaryKey, $columns, $whereResult=null, $whereAll=null )
 	{
 		$bindings = array();
-		$db = self::db( $conn );
+		$db = self::db( $gobrik_conn );
 		$localWhereResult = array();
 		$localWhereAll = array();
 		$whereAllSql = '';
