@@ -66,18 +66,9 @@ class SSP {
 		return $out;
 	}
 
+require( '../gobrikconn_env.php' );
 
-	/**
-	 * Database connection
-	 *
-	 * Obtain an PHP PDO connection from a connection details array
-	 *
-	 *  @param  array $gobrik_conn SQL connection details. The array should have
 
-include '../gobrikconn_env.php';
-
-	 *  @return resource PDO connection
-	 */
 	static function db ( $gobrik_conn )
 	{
 		if ( is_array( $gobrik_conn ) ) {
