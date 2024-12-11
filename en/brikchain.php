@@ -198,7 +198,7 @@ try {
             <table id="brikchain-transactions" class="display" style="width:100%">
                 <thead>
                     <tr>
-                        <th data-lang-id="021-transaction-header">🔎 Transaction</th>
+                        <th data-lang-id="021-transaction-header">Transaction</th>
                         <th data-lang-id="022-issued-header">Issued</th>
                         <th data-lang-id="023-sender-header">Sender</th>
                         <th data-lang-id="024-recipient-header">Recipient</th>
@@ -363,7 +363,7 @@ try {
             serverSide: true, // Enable server-side processing
             processing: true, // Show a processing indicator
             ajax: {
-                url: 'https://gobrik.com/api/fetch_brik_transactions.php', // Server endpoint to fetch data
+                url: '../api/fetch_brik_transactions.php', // Server endpoint to fetch data
                 type: 'POST' // HTTP method
             },
             columns: [
@@ -472,7 +472,7 @@ function openTransactionModal(tran_id) {
     };
 
     // Fetch transaction details
-    fetch(`https://gobrik.com/api/fetch_brik_transactions.php?tran_id=${tran_id}`)
+    fetch(`../api/fetch_brik_transactions.php?tran_id=${tran_id}`)
         .then(response => response.json())
         .then(data => {
             // Build the DataTable HTML
