@@ -141,7 +141,7 @@ try {
 
 
 
-
+<!--
 	<div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
@@ -150,9 +150,6 @@ try {
             <div class="ecobrick-data"><p data-lang-id="009-data-live"><span class="blink">⬤  </span> Data live</p></div>
             <div class="ecobrick-data"><p data-lang-id="010-historical-data">🟠 Historical Data pending transfer</p></div>
         </div>
-  
-
-
 			<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
 
 		</div>
@@ -174,21 +171,12 @@ try {
 							<th data-lang-id="017-serial-header">🔎 Serial</th>
             </tr>
 					</thead>
-					<!--<tfoot>
-						<tr>
-							<<th style="max-width: 150px !important;">Brik</th>
-							<th>Logged</th>
-							<th>AES Plastic</th>
-							<th>Value</th>
-							<th>CO2e</th>
-							<th>Serial</th>
-						</tr>
-					</tfoot>-->
+
 				</table>
 			</div>
 		</div>
 	</div>
-
+-->
 
 	<div class="reg-content-block" id="block1">
     <div class="opener-header">
