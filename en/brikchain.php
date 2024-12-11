@@ -6,7 +6,7 @@
 <?php $version='1.62';?>
 <?php $page='brikchain';?>
 
-<?php require_once ("../includes/brikchain2-inc.php");?>
+<?php require_once ("../includes/brikchain-inc.php");?>
 
 
 <!--TOP PAGE BANNER-->
@@ -216,48 +216,6 @@ try {
 
 
 
-
-	<div class="reg-content-block" id="block1">
-    <div class="opener-header">
-        <div class="opener-header-text">
-            <h4 data-lang-id="018-blocks-transactions-header">Blocks & Transactions</h4>
-            <h6 data-lang-id="019-full-chain-transactions-subheader">The full chain transactions chronicling the generation, exchange, and destruction of brikcoins.</h6>
-            <div class="ecobrick-data"><p data-lang-id="020-data-live-current"><span class="blink">⬤  </span> Data live & current</p></div>
-        </div>
-    
-        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
-    </div>
-
-    <div id="preclosed1">
-        <div class="overflow">
-            <table id="brikchain" class="display" style="width:100%">
-                <thead>
-                    <tr>
-                        <th data-lang-id="021-transaction-header">🔎 Transaction</th>
-                        <th data-lang-id="022-issued-header">Issued</th>
-                        <th data-lang-id="023-sender-header">Sender</th>    
-                        <th data-lang-id="024-recipient-header">Recipient</th>    
-                        <th data-lang-id="025-type-header">Type</th>
-                        <th data-lang-id="026-block-header">Block</th>
-                        <th data-lang-id="027-shard-header">Shard</th>
-                        <th data-lang-id="028-ecobrick-header">Ecobrick</th>
-                    </tr>
-                </thead>
-					<!--<tfoot>
-						<tr>
-						<th>Transaction</th>
-						<th>Issued</th>
-							<th>Sender</th>	
-							<th>Type</th>
-							<th>Block</th>
-							<th>Shard</th>
-							<th>Ecobrick</th>
-						</tr>
-					</tfoot>-->
-				</table>
-			</div>
-		</div>
-	</div>
 
 	<div class="reg-content-block" id="block3">        
 		<div class="opener-header">            
