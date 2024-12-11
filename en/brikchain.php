@@ -53,8 +53,7 @@
 		<div class="side-module-desktop-mobile">
 	<img src="../svgs/aes-brk-vertical.svg?v=2" width="300" style="width:90%" alt="The Global Eco Brick Alliance" loading="lazy">
 
-    <h4>AES Plastic</h4>
-	<h5>The GEA hosts the Brikcoin manual blockchain as a platform for ecobrick authentication.  Accessed through our Gobrik app, it enables the peer-to-peer review of every ecobrick logged.  Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic). </h5><br>
+	<p>Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic). The transactions that record of its authentication and the generation of brikcoins are then saved to the Brikchain</p><br>
 
     <a class="module-btn" href="../aes.php">Learn More</a>
 
@@ -177,6 +176,46 @@ try {
 		</div>
 	</div>
 -->
+
+
+
+<!--BLOCKS-->
+
+
+	<div class="reg-content-block" id="block1">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="018-blocks-transactions-header">Blocks & Transactions</h4>
+            <h6 data-lang-id="019-full-chain-transactions-subheader">The full chain transactions chronicling the generation, exchange, and destruction of brikcoins.</h6>
+            <div class="ecobrick-data"><p data-lang-id="020-data-live-current"><span class="blink">⬤  </span> Data live & current</p></div>
+        </div>
+
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+    </div>
+
+    <div id="preclosed1-not">
+        <div class="overflow">
+            <table id="brikchain-transactions" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th data-lang-id="021-transaction-header">🔎 Transaction</th>
+                        <th data-lang-id="022-issued-header">Issued</th>
+                        <th data-lang-id="023-sender-header">Sender</th>
+                        <th data-lang-id="024-recipient-header">Recipient</th>
+                        <th data-lang-id="025-type-header">Type</th>
+                        <th data-lang-id="026-block-header">Block</th>
+                        <th data-lang-id="027-shard-header">Shard</th>
+                        <th data-lang-id="028-ecobrick-header">Ecobrick</th>
+                    </tr>
+                </thead>
+
+				</table>
+			</div>
+		</div>
+	</div>
+
+
+
 
 	<div class="reg-content-block" id="block1">
     <div class="opener-header">
@@ -357,6 +396,219 @@ try {
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
+
+
+<!-- BRK TRANS DATATABLE -->
+<script>
+    $(document).ready(function () {
+        $('#brikchain-transactions').DataTable({
+            serverSide: true, // Enable server-side processing
+            processing: true, // Show a processing indicator
+            ajax: {
+                url: 'https://gobrik.com/api/fetch_brik_transactions.php', // Server endpoint to fetch data
+                type: 'POST' // HTTP method
+            },
+            columns: [
+                {
+                    data: 'tran_id',
+                    title: '🔎 Transaction',
+                    render: function(data, type, row) {
+                        // Make tran_id clickable
+                        return `<a href="#" onclick="openTransactionModal(${data})">${data}</a>`;
+                    }
+                },
+                { data: 'send_ts', title: 'Issued' },
+                { data: 'sender', title: 'Sender' },
+                { data: 'receiver_or_receivers', title: 'Recipient' },
+                { data: 'block_tran_type', title: 'Type' },
+                {
+                    data: 'block_amt',
+                    title: 'Block',
+                    render: function(data, type, row) {
+                        return `${parseFloat(data).toFixed(2)}&#8202;ß`;
+                    }
+                },
+                {
+                    data: 'individual_amt',
+                    title: 'Shard',
+                    render: function(data, type, row) {
+                        return `${parseFloat(data).toFixed(2)}&#8202;ß`;
+                    }
+                },
+                {
+                    data: 'ecobrick_serial_no',
+                    title: 'Brik',
+                    render: function(data, type, row) {
+                        if (data) {
+                            return `<a href="#" onclick="openEcobrickPreviewModal('${data}')">${data}</a>`;
+                        }
+                        return '';
+                    }
+                }
+
+
+
+
+            ],
+            order: [[0, 'desc']], // Sort by the first column (`tran_id`) in descending order
+            pageLength: 12, // Number of rows per page
+            lengthMenu: [12, 25, 50, 100] // Options for rows per page
+        });
+    });
+function openTransactionModal(tran_id) {
+    const modal = document.getElementById('form-modal-message');
+    const modalBox = document.getElementById('modal-content-box');
+
+    // Show the modal
+    modal.style.display = 'flex';
+    modalBox.style.flexFlow = 'column';
+
+    // Lock scrolling for the body and blur background
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open'); // Locks scrolling
+
+    // Set up the modal-content-box styles
+    const modalContentBox = document.getElementById('modal-content-box');
+    modalContentBox.style.maxHeight = '80vh'; // Ensure it doesn’t exceed 80% of the viewport height
+    modalContentBox.style.overflowY = 'auto'; // Make the modal scrollable if content overflows
+
+    // Clear previous modal content and set up structure
+    modalContentBox.innerHTML = `<h4>Brikcoin Transaction ${tran_id}</h4><div id="transaction-table-container"></div>`;
+
+    // Define a mapping of database field names to human-readable field names
+    const fieldNameMap = {
+        //chain_ledger_id: "Chain Ledger ID",
+        tran_id: "Transaction ID",
+        tran_name: "Transaction Name",
+        individual_amt: "Individual Amount",
+        status: "Status",
+        send_ts: "Timestamp Sent",
+        sender_ecobricker: "Sender Ecobricker",
+        block_tran_type: "Block Transaction Type",
+        block_amt: "Block Amount",
+        sender: "Sender",
+        receiver_or_receivers: "Recipient(s)",
+        receiver_1: "Recipient 1",
+        receiver_2: "Recipient 2",
+        receiver_3: "Recipient 3",
+        receiver_central_reserve: "Receiver (Central Reserve)",
+        sender_central_reserve: "Sender (Central Reserve)",
+        ecobrick_serial_no: "Ecobrick Serial Number",
+        tran_sender_note: "Transaction Note",
+        product: "Product",
+        send_dt: "Send Date",
+        accomp_payment: "Accompanying Payment",
+        authenticator_version: "Authenticator Version",
+        expense_type: "Expense Type",
+        gea_accounting_category: "GEA Accounting Category",
+        shipping_cost_brk: "Shipping Cost (BRK)",
+        product_cost_brk: "Product Cost (BRK)",
+        total_cost_incl_shipping: "Total Cost (Incl. Shipping)",
+        shipping_with_currency: "Shipping Cost (With Currency)",
+        aes_officially_purchased: "AES Officially Purchased",
+        country_of_buyer: "Buyer's Country",
+        currency_for_shipping: "Currency for Shipping",
+        credit_other_ecobricker_yn: "Credit Other Ecobricker (Yes/No)",
+        catalyst_name: "Catalyst Name",
+    };
+
+    // Fetch transaction details
+    fetch(`../api/fetch_brik_transactions.php?tran_id=${tran_id}`)
+        .then(response => response.json())
+        .then(data => {
+            // Build the DataTable HTML
+            let tableHTML = '<table id="transaction-details-table" class="display" style="width:100%">';
+            tableHTML += '<thead><tr><th>Field</th><th>Value</th></tr></thead><tbody>';
+
+            for (const [field, value] of Object.entries(data)) {
+                // Use the fieldNameMap for human-readable field names, fallback to original field name if not mapped
+                const displayName = fieldNameMap[field] || field;
+                tableHTML += `<tr><td>${displayName}</td><td>${value}</td></tr>`;
+            }
+
+            tableHTML += '</tbody></table>';
+
+            // Insert the table into the transaction-table-container
+            document.getElementById('transaction-table-container').innerHTML = tableHTML;
+
+            // Initialize the DataTable
+            $('#transaction-details-table').DataTable({
+                paging: false, // Disable pagination
+                searching: false, // Disable search
+                info: false, // Disable table info
+                scrollX: true // Enable horizontal scrolling
+            });
+        })
+        .catch(error => {
+            modalContentBox.innerHTML = `<p>Error loading transaction details: ${error.message}</p>`;
+        });
+
+    // Display the modal
+    modal.classList.remove('modal-hidden');
+}
+
+
+
+
+function openEcobrickPreviewModal(ecobrickUniqueId) {
+    const modal = document.getElementById('form-modal-message');
+    const modalBox = document.getElementById('modal-content-box');
+
+    // Show the modal
+    modal.style.display = 'flex';
+    modalBox.style.flexFlow = 'column';
+
+    // Lock scrolling for the body and blur background
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open'); // Locks scrolling
+
+    // Set up the modal-content-box styles
+    const modalContentBox = document.getElementById('modal-content-box');
+    modalContentBox.style.maxHeight = '80vh'; // Ensure it doesn’t exceed 80% of the viewport height
+    modalContentBox.style.overflowY = 'auto'; // Make the modal scrollable if content overflows
+
+    // Clear previous modal content and set up structure
+    modalContentBox.innerHTML = '<p>Loading ecobrick details...</p>';
+
+    // Fetch ecobrick details by unique ID
+    fetch(`../api/fetch_ecobrick_details.php?ecobrick_unique_id=${ecobrickUniqueId}`)
+        .then(response => response.json())
+        .then(data => {
+            // Destructure relevant data from the response
+            const { ecobrick_unique_id, full_photo_url, weight_g, volume_ml, ecobrick_maker } = data;
+
+            // Build the modal content
+            const modalContent = `
+                <div style="text-align: center;">
+                    <img src="${full_photo_url}" alt="Ecobrick Photo" style="max-width: 100%; border-radius: 8px; margin-bottom: 15px;">
+                    <p>Ecobrick <strong>${ecobrick_unique_id}</strong> made by <strong>${ecobrick_maker}</strong> |
+                    Volume: <strong>${volume_ml} ml</strong> | Weight: <strong>${weight_g} g</strong></p>
+                    <a class="preview-btn"
+                        data-lang-id="000-view"
+                        style="margin-bottom: 50px; height: 25px; padding: 5px; border: none; padding: 5px 12px; text-decoration: none; color: white; background-color: #007BFF; border-radius: 4px;"
+                        aria-label="View ecobrick"
+                        href="brik.php?serial_no=${ecobrick_unique_id}">
+                        ℹ️ View Full Details
+                    </a>
+                </div>
+            `;
+
+            // Insert the content into the modal
+            modalContentBox.innerHTML = modalContent;
+        })
+        .catch(error => {
+            modalContentBox.innerHTML = `<p>Error loading ecobrick details: ${error.message}</p>`;
+        });
+
+    // Display the modal
+    modal.classList.remove('modal-hidden');
+}
+
+
+
+</script>
 
 
 <!-- This script is for pages that use the accordion content system-->
