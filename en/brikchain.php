@@ -193,7 +193,7 @@ try {
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
     </div>
 
-    <div id="preclosed1-not">
+    <div id="preclosed1">
         <div class="overflow">
             <table id="brikchain-transactions" class="display" style="width:100%">
                 <thead>
