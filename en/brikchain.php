@@ -53,7 +53,7 @@
 		<div class="side-module-desktop-mobile">
 	<img src="../svgs/aes-brk-vertical.svg?v=2" width="300" style="width:90%" alt="The Global Eco Brick Alliance" loading="lazy">
 
-	<p>Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic). The transactions that record of its authentication and the generation of brikcoins are then saved to the Brikchain</p><br>
+	<p>Once an ecobrick is authenticated to have met GEA standards, the Brikcoin transactions that record its authentication are saved to the Brikchain</p><br>
 
     <a class="module-btn" href="../aes.php">Learn More</a>
 
@@ -514,7 +514,7 @@ function openTransactionModal(tran_id) {
     };
 
     // Fetch transaction details
-    fetch(`../api/fetch_brik_transactions.php?tran_id=${tran_id}`)
+    fetch(`https://gobrik.com/api/fetch_brik_transactions.php?tran_id=${tran_id}`)
         .then(response => response.json())
         .then(data => {
             // Build the DataTable HTML
