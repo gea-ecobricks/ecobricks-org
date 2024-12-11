@@ -6,7 +6,7 @@
 <?php $version='1.791';?>
 <?php $page='openbooks';?>
 
-<?php require_once ("../includes/openbooks2-inc.php");?>
+<?php require_once ("../includes/openbooks-inc.php");?>
 
 
 <!--TOP PAGE BANNER-->
