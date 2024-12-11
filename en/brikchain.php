@@ -531,7 +531,7 @@ function openEcobrickPreviewModal(ecobrickUniqueId) {
     modalContentBox.innerHTML = '<p>Loading ecobrick details...</p>';
 
     // Fetch ecobrick details by unique ID
-    fetch(`../api/fetch_ecobrick_details.php?ecobrick_unique_id=${ecobrickUniqueId}`)
+    fetch(`./api/fetch_ecobrick_details.php?ecobrick_unique_id=${ecobrickUniqueId}`)
         .then(response => response.json())
         .then(data => {
             // Destructure relevant data from the response
