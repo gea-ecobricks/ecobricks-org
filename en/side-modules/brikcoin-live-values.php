@@ -33,5 +33,5 @@ $result = $gobrik_conn->query($sql);
             echo "Failed to connect to Brikchain</div>";
         }
         ?>
-
+The GEA hosts the Brikcoin manual blockchain as a platform for ecobrick authentication.  Accessed through our Gobrik app, it enables the peer-to-peer review of every ecobrick logged.  Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic).
         <!--<p style="color: grey; font-size: 0.8em; margin-top:10px;">Links open to the GoBrik platform.</p>-->

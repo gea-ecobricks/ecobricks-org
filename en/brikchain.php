@@ -50,10 +50,15 @@
 
 		<div class="side">
 
-		
-		<?php require_once ("side-modules/brikcoin-live-values.php");?>
+		<div class="side-module-desktop-mobile">
+	<img src="../svgs/aes-brk-vertical.svg?v=2" width="300" style="width:90%" alt="The Global Eco Brick Alliance" loading="lazy">
 
-         
+    <h4>AES Plastic</h4>
+	<h5>The GEA hosts the Brikcoin manual blockchain as a platform for ecobrick authentication.  Accessed through our Gobrik app, it enables the peer-to-peer review of every ecobrick logged.  Once an ecobrick is authenticated to have met GEA standards, it’s net weight is referred to as Authenticated Ecobrick Sequestered Plastic (AES Plastic). </h5><br>
+
+    <a class="module-btn" href="../aes.php">Learn More</a>
+
+</div>
 		</div>
 
 	</div>
