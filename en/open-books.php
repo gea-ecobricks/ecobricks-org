@@ -589,6 +589,34 @@ $(document).ready(function() {
 });
 
 
+function openDetailsPopup(cashTranId) {
+    const url = `details-cash-trans.php?cash_tran_id=${cashTranId}`;
+    window.open(url, '_blank', 'width=600,height=800,menubar=no,toolbar=no,status=no,scrollbars=yes,resizable=yes');
+}
+
+$(document).ready(function() {
+    $('#expenses').DataTable({
+        ajax: 'fetch_expenses_trans.php', // URL of the PHP file
+        columns: [
+            { data: 'ID', orderable: false }, // Rendered link
+            { data: 'Date' },
+            { data: 'Category' },
+            { data: 'Receiver' },
+            { data: 'Tran Name' },
+            { data: 'Amount USD' },
+            { data: 'Final Amt' },
+            { data: 'Type' }
+        ],
+        columnDefs: [
+            { targets: 0, className: 'dt-center' } // Center-align the ID column
+        ],
+        language: {
+            url: "path_to_language_file.json" // Optional: Localized language file
+        },
+        responsive: true,
+        order: [[1, 'desc']] // Sort by Date descending
+    });
+});
 
     </script>
 
