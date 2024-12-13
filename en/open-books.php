@@ -546,7 +546,7 @@ try {
     /*REVENUES  */
     $(document).ready(function() {
     $('#revenues').DataTable({
-        ajax: 'fetch_revenue_trans.php', // URL of the PHP file
+        ajax: '../api/fetch_revenue_trans.php', // URL of the PHP file
         columns: [
             { data: 'ID' },
             { data: 'Date' },
@@ -557,9 +557,7 @@ try {
             { data: 'Final Amt' },
             { data: 'Type' }
         ],
-        language: {
-            url: "path_to_language_file.json" // Optional: Localized language file
-        },
+
         responsive: true,
         order: [[1, 'desc']] // Sort by Date descending
     });
@@ -573,7 +571,7 @@ try {
 
 $(document).ready(function() {
     $('#expenses').DataTable({
-        ajax: 'fetch_expenses_trans.php', // URL of the PHP file
+        ajax: '../api/fetch_expenses_trans.php', // URL of the PHP file
         columns: [
             { data: 'ID' },
             { data: 'Date' },
@@ -584,9 +582,7 @@ $(document).ready(function() {
             { data: 'Final Amt' },
             { data: 'Type' }
         ],
-        language: {
-            url: "path_to_language_file.json" // Optional: Localized language file
-        },
+
         responsive: true,
         order: [[1, 'desc']] // Sort by Date descending
     });
