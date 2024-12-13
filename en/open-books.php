@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.0';?>
+<?php $version='2.1';?>
 <?php $page='openbooks';?>
 
 <?php require_once ("../includes/openbooks-inc.php");?>
@@ -13,7 +13,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Our Open Books</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Our Open Books 2</div>
 		<div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance's Financial Accounting</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/openbooks.png" style="width: 80%;" alt="Our Open Books financial accounting disclosure system">
@@ -115,7 +115,7 @@ try {
         <div id="brikchain-totals">
             <p><span class="blink">◉  </span> ' . number_format($aes_rolling, 2) . ' &#8202;$ USD per 1 Kg of AES Plastic</p>
             <ul>
-                <li>Total Ecobricks Authenticated: ' . number_format($sum_ecobricks) . '</li>
+                <li>Total ecobricks authenticated: ' . number_format($sum_ecobricks) . '</li>
                 <li>Total Brikcoins Generated: ' . number_format($sum_brikcoins) . '&#8202;ß</li>
                 <li>Total Authenticatd Sequestered Plastic: ' . number_format($sum_weight, 2) . '&#8202;kg</li>
                 <li>Total System Expenses: $' . number_format($sum_expenses, 2) . '&#8202;USD</li>
