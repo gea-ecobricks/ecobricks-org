@@ -30,8 +30,13 @@
 
 
 
+table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
+  background-color: var(--table-background-hover);
+  }
 
-
+  table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+  background-color: var(--table-background-hover);
+}
 
 /*This sets up the the first splash content block that is unique to the top of each page*/
 

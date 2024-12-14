@@ -206,31 +206,30 @@ try {
 					</div>
 					<div class="overflow">
 						<table id="expenses" class="display" style="width:100%">
-							<thead>
-								<tr>
-									<th data-lang-id="012-id-column">ID</th>
-									<th data-lang-id="013-id-column">Date</th>
-									<th data-lang-id="015-category-column">Category</th>
-									<th data-lang-id="016b-reciver-column">Receiver</th>
-									<th data-lang-id="016-tran-name-column">Tran Name</th>
-									<th data-lang-id="017-amount-usd-column">Amount USD</th>
-									<th data-lang-id="018-final-amt-column">Final Amt</th>
-									<th data-lang-id="019-type-column">Type</th>
-								</tr>
-							</thead>
-							<tfoot>
-								<tr> 
-								<th data-lang-id="012-id-column">ID</th>
-									<th data-lang-id="013-id-column">Date</th>
-									<th data-lang-id="015-category-column">Category</th>
-									<th data-lang-id="014b-receiver-column">Receiver</th>
-									<th data-lang-id="016-tran-name-column">Tran Name</th>
-									<th data-lang-id="017-amount-usd-column">Amount USD</th>
-									<th data-lang-id="018-final-amt-column">Final Amt</th>
-									<th data-lang-id="019-type-column">Type</th>
-								</tr>
-							</tfoot>
-						</table>
+                            <thead>
+                                <tr>
+                                    <th data-lang-id="012-id-column">ID</th>
+                                    <th data-lang-id="013-id-column">Date</th>
+                                    <th data-lang-id="015-category-column">Category</th>
+                                    <th data-lang-id="016b-reciver-column">Receiver</th>
+                                    <th data-lang-id="016-tran-name-column">Transaction</th>
+                                    <th data-lang-id="017-amount-usd-column">Amount</th>
+                                    <th data-lang-id="019-type-column">Type</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th data-lang-id="012-id-column">ID</th>
+                                    <th data-lang-id="013-id-column">Date</th>
+                                    <th data-lang-id="015-category-column">Category</th>
+                                    <th data-lang-id="016b-reciver-column">Receiver</th>
+                                    <th data-lang-id="016-tran-name-column">Transaction</th>
+                                    <th data-lang-id="017-amount-usd-column">Amount</th>
+                                    <th data-lang-id="019-type-column">Type</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+
 						<br><br>
 					</div>
 				</div>
@@ -568,55 +567,58 @@ try {
 
 
 /*EXPENSES*/
-
-$(document).ready(function() {
-    $('#expenses').DataTable({
-        ajax: '../api/fetch_expenses_trans.php', // URL of the PHP file
-        columns: [
-            { data: 'ID' },
-            { data: 'Date' },
-            { data: 'Category' },
-            { data: 'Receiver' },
-            { data: 'Tran Name' },
-            { data: 'Amount USD' },
-            { data: 'Final Amt' },
-            { data: 'Type' }
-        ],
-
-        responsive: true,
-        order: [[1, 'desc']] // Sort by Date descending
-    });
-});
-
-
 function openDetailsPopup(cashTranId) {
     const url = `details-cash-trans.php?cash_tran_id=${cashTranId}`;
     window.open(url, '_blank', 'width=600,height=800,menubar=no,toolbar=no,status=no,scrollbars=yes,resizable=yes');
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
     $('#expenses').DataTable({
         ajax: 'fetch_expenses_trans.php', // URL of the PHP file
         columns: [
-            { data: 'ID', orderable: false }, // Rendered link
+            { data: 'ID', orderable: false },
             { data: 'Date' },
             { data: 'Category' },
             { data: 'Receiver' },
-            { data: 'Tran Name' },
-            { data: 'Amount USD' },
-            { data: 'Final Amt' },
+            { data: 'Transaction' },
+            {
+                data: 'Amount',
+                render: function (data) {
+                    return `$${data}`; // Add dollar sign to the Amount
+                }
+            },
             { data: 'Type' }
         ],
         columnDefs: [
-            { targets: 0, className: 'dt-center' } // Center-align the ID column
+            { targets: 0, className: 'dt-center' }, // Center-align the ID column
+            {
+                targets: [2, 3], // Hide these columns by default for smaller screens
+                visible: true,
+                responsivePriority: 3
+            },
+            {
+                targets: [4], // "Transaction" visible only on tablet and desktop
+                responsivePriority: 2
+            }
         ],
+        responsive: {
+            details: {
+                display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                type: ''
+            },
+            breakpoints: [
+                { name: 'desktop', width: Infinity },
+                { name: 'tablet', width: 1024 },
+                { name: 'mobile', width: 600 }
+            ]
+        },
         language: {
             url: "path_to_language_file.json" // Optional: Localized language file
         },
-        responsive: true,
         order: [[1, 'desc']] // Sort by Date descending
     });
 });
+
 
     </script>
 
