@@ -2,16 +2,16 @@
 // Include the GoBrik server connection credentials
 require_once '../gobrikconn_env.php';
 
-// Fetch data
+// Fetch data for revenues
 $sql = "SELECT cash_tran_id,
                transaction_date_dt,
                sender_for_display,
                type_of_transaction,
                tran_name_desc,
                usd_amount,
-               total_product_cost_incl_shipping,
-               expense_accounting_type
-        FROM tb_cash_transaction";
+               revenue_accounting_type
+        FROM tb_cash_transaction
+        WHERE revenue_accounting_type IS NOT NULL";
 
 $result = $gobrik_conn->query($sql);
 
@@ -31,10 +31,9 @@ if ($result->num_rows > 0) {
             "Date" => $row["transaction_date_dt"],
             "Sender" => $row["sender_for_display"],
             "Category" => $row["type_of_transaction"],
-            "Tran Name" => $row["tran_name_desc"],
-            "Amount USD" => number_format((float)$row["usd_amount"], 2, '.', ','),
-            "Final Amt" => number_format((float)$row["total_product_cost_incl_shipping"], 2, '.', ','),
-            "Type" => $row["expense_accounting_type"],
+            "Transaction" => $row["tran_name_desc"], // Renamed column
+            "Amount" => number_format((float)$row["usd_amount"], 2, '.', ','),
+            "Type" => $row["revenue_accounting_type"],
         ];
     }
 }

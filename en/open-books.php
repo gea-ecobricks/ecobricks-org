@@ -158,25 +158,24 @@ try {
                         <th data-lang-id="013-date-column">Date</th>
                         <th data-lang-id="014-sender-column">Sender</th>
                         <th data-lang-id="015-category-column">Category</th>
-                        <th data-lang-id="016-tran-name-column">Tran Name</th>
-                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
-                        <th data-lang-id="018-final-amt-column">Final Amt</th>
+                        <th data-lang-id="016-tran-name-column">Transaction</th>
+                        <th data-lang-id="017-amount-usd-column">Amount</th>
                         <th data-lang-id="019-type-column">Type</th>
                     </tr>
                 </thead>
                 <tfoot>
-                    <tr> 
-						<th data-lang-id="012-id-column">ID</th>
+                    <tr>
+                        <th data-lang-id="012-id-column">ID</th>
                         <th data-lang-id="013-date-column">Date</th>
                         <th data-lang-id="014-sender-column">Sender</th>
                         <th data-lang-id="015-category-column">Category</th>
-                        <th data-lang-id="016-tran-name-column">Tran Name</th>
-                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
-                        <th data-lang-id="018-final-amt-column">Final Amt</th>
+                        <th data-lang-id="016-tran-name-column">Transaction</th>
+                        <th data-lang-id="017-amount-usd-column">Amount</th>
                         <th data-lang-id="019-type-column">Type</th>
                     </tr>
                 </tfoot>
             </table>
+
             <br><br>
         </div>
     </div>
@@ -544,25 +543,50 @@ try {
 <script>
 
     /*REVENUES  */
-    $(document).ready(function() {
+   $(document).ready(function () {
     $('#revenues').DataTable({
-        ajax: '../api/fetch_revenue_trans.php', // URL of the PHP file
+        ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
         columns: [
-            { data: 'ID' },
+            { data: 'ID', orderable: false },
             { data: 'Date' },
             { data: 'Sender' },
             { data: 'Category' },
-            { data: 'Tran Name' },
-            { data: 'Amount USD' },
-            { data: 'Final Amt' },
+            { data: 'Transaction' },
+            {
+                data: 'Amount',
+                render: function (data) {
+                    return `$${data}`; // Add dollar sign to the Amount
+                }
+            },
             { data: 'Type' }
         ],
+        columnDefs: [
+            { targets: 0, className: 'dt-center' }, // Center-align the ID column
+            {
+                targets: [2, 3], // Hide these columns by default for smaller screens
+                visible: true,
+                responsivePriority: 3
+            },
+            {
+                targets: [4], // "Transaction" visible only on tablet and desktop
+                responsivePriority: 2
+            }
+        ],
+        responsive: {
+            details: {
+                display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                type: ''
+            },
+            breakpoints: [
+                { name: 'desktop', width: Infinity },
+                { name: 'tablet', width: 1024 },
+                { name: 'mobile', width: 700 }
+            ]
+        },
 
-        responsive: true,
         order: [[1, 'desc']] // Sort by Date descending
     });
 });
-
 
 
 
