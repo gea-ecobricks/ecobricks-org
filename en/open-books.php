@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.1';?>
+<?php $version='2.2';?>
 <?php $page='openbooks';?>
 
 <?php require_once ("../includes/openbooks-inc.php");?>
@@ -206,29 +206,30 @@ try {
 					</div>
 					<div class="overflow">
 						<table id="expenses" class="display" style="width:100%">
-                            <thead>
-                                <tr>
-                                    <th data-lang-id="012-id-column">ID</th>
-                                    <th data-lang-id="013-id-column">Date</th>
-                                    <th data-lang-id="015-category-column">Category</th>
-                                    <th data-lang-id="016b-reciver-column">Receiver</th>
-                                    <th data-lang-id="016-tran-name-column">Transaction</th>
-                                    <th data-lang-id="017-amount-usd-column">Amount</th>
-                                    <th data-lang-id="019-type-column">Type</th>
-                                </tr>
-                            </thead>
-                            <tfoot>
-                                <tr>
-                                    <th data-lang-id="012-id-column">ID</th>
-                                    <th data-lang-id="013-id-column">Date</th>
-                                    <th data-lang-id="015-category-column">Category</th>
-                                    <th data-lang-id="016b-reciver-column">Receiver</th>
-                                    <th data-lang-id="016-tran-name-column">Transaction</th>
-                                    <th data-lang-id="017-amount-usd-column">Amount</th>
-                                    <th data-lang-id="019-type-column">Type</th>
-                                </tr>
-                            </tfoot>
-                        </table>
+    <thead>
+        <tr>
+            <th data-lang-id="012-id-column">ID</th>
+            <th data-lang-id="013-id-column">Date</th>
+            <th data-lang-id="015-category-column">Category</th>
+            <th data-lang-id="016b-reciver-column">Receiver</th>
+            <th data-lang-id="016-tran-name-column">Transaction</th>
+            <th data-lang-id="017-amount-usd-column">Amount</th>
+            <th data-lang-id="019-type-column">Type</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th data-lang-id="012-id-column">ID</th>
+            <th data-lang-id="013-id-column">Date</th>
+            <th data-lang-id="015-category-column">Category</th>
+            <th data-lang-id="016b-reciver-column">Receiver</th>
+            <th data-lang-id="016-tran-name-column">Transaction</th>
+            <th data-lang-id="017-amount-usd-column">Amount</th>
+            <th data-lang-id="019-type-column">Type</th>
+        </tr>
+    </tfoot>
+</table>
+
 
 						<br><br>
 					</div>
@@ -567,6 +568,9 @@ try {
 
 
 /*EXPENSES*/
+
+
+
 function openDetailsPopup(cashTranId) {
     const url = `details-cash-trans.php?cash_tran_id=${cashTranId}`;
     window.open(url, '_blank', 'width=600,height=800,menubar=no,toolbar=no,status=no,scrollbars=yes,resizable=yes');
@@ -618,6 +622,7 @@ $(document).ready(function () {
         order: [[1, 'desc']] // Sort by Date descending
     });
 });
+
 
 
     </script>
