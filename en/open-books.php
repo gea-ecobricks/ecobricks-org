@@ -616,9 +616,7 @@ $(document).ready(function () {
                 { name: 'mobile', width: 600 }
             ]
         },
-        language: {
-            url: "path_to_language_file.json" // Optional: Localized language file
-        },
+
         order: [[1, 'desc']] // Sort by Date descending
     });
 });
