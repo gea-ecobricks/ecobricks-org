@@ -578,7 +578,7 @@ function openDetailsPopup(cashTranId) {
 
 $(document).ready(function () {
     $('#expenses').DataTable({
-        ajax: 'fetch_expenses_trans.php', // URL of the PHP file
+        ajax: '../api/fetch_expenses_trans.php', // URL of the PHP file
         columns: [
             { data: 'ID', orderable: false },
             { data: 'Date' },
@@ -613,7 +613,7 @@ $(document).ready(function () {
             breakpoints: [
                 { name: 'desktop', width: Infinity },
                 { name: 'tablet', width: 1024 },
-                { name: 'mobile', width: 600 }
+                { name: 'mobile', width: 700 }
             ]
         },
 
