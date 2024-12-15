@@ -272,11 +272,7 @@
 
 		<div class="side">
 
-        <?php include '../ecobricks_env.php';?> 
 
-        <div id="brk-values">
-		<?php require_once ("side-modules/brikcoin-live-values.php");?>
-        </div>
 
         <?php require_once ("side-modules/plastic-carbon.php");?>
 
@@ -284,6 +280,9 @@
         
     
 <?php require_once ("side-modules/offset-presentation.php");?>
+
+			<?php include 'side-modules/about-gea.php';?>
+
 
 
 
