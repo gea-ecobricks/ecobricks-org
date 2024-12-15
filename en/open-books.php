@@ -543,6 +543,8 @@ try {
 <script>
 
     /*REVENUES  */
+
+
    $(document).ready(function () {
     $('#revenues').DataTable({
         ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
