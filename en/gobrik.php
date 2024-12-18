@@ -62,7 +62,7 @@
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="022-block-2-header">Serving the People Serving the Planet</h4>
+            <h4 data-lang-id="012-block-2-header">Serving the People Serving the Planet</h4>
         </div>
         <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">+</button>
     </div>
@@ -70,11 +70,11 @@
     <div id="preclosed2">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="024-block-2-main-p1">The GoBrik platform serves ecobrickers around the world, enabling them to manage their plastic transition.  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.</p>
+                <p data-lang-id="013-block-2-main-p1">The GoBrik platform serves ecobrickers around the world, enabling them to manage their plastic transition.  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.</p>
             </div>
         </div>
 
-	<p data-lang-id="025-block-2-sub-p2">Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.  Those who helped out with the validation, are rewarded with Brikcoins.</p>
+	<p data-lang-id="014-block-2-sub-p2">Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.  Those who helped out with the validation, are rewarded with Brikcoins.</p>
     </div>
 </div>
 
@@ -82,8 +82,7 @@
 <div class="reg-content-block" id="block3">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="041-block-3-header">Cigbricks</h4>
-            <h5 data-lang-id="042-block-3-subheader">Plastic sequestration for cigarette filers.</h5>
+            <h4 data-lang-id="015-block-3-header">Ecobrick Authentications & Brikcoins</h4>
         </div>
         <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
     </div>
@@ -91,11 +90,11 @@
     <div id="preclosed3">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="043-block-3-main-p1">Ecobrick Authentications & Brikcoins</p>
+                <p data-lang-id="016-block-3-main-p1">On GoBrik, the value of the ecological service of securing plastic from contaminating the biosphere is quantified.   The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.</p>
             </div>
         </div>
 
-	<p data-lang-id="044-block-3-sub-p2">Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
+	<p data-lang-id="017-block-3-sub-p2">Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
 	<p> <a href="/brikcoin">Learn more about Brikcoins</a></p>
     </div>
 </div>
@@ -104,8 +103,7 @@
 <div class="reg-content-block" id="block4">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="058-block-4-header">Ocean Ecobricks</h4>
-            <h5 data-lang-id="059-block-4-subheader">Sequestration for plastic collected from beaches, ocean and rivers.</h5>
+            <h4 data-lang-id="018-block-4-header">Regen Store</h4>
         </div>
         <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-label="Plus">+</button>
     </div>
@@ -113,42 +111,52 @@
     <div id="preclosed4">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="060-block-4-main-p1">Ocean Ecobricks are a class of ecobrick designed for plastics found on beaches, rivers and in the ocean. These plastics tend to be large, chunky, dirty, and wet and are not suited to make a regular ecobrick. The Ocean Ecobrick technique enables these plastics to be easily transformed into a practical, useful, and reusable building block.</p>
-            </div>
-            <div class="side2" data-lang-id="061-block-4-img1-alt">
-                <img src="../webp/oeb-400px.webp" width="300" style="width:100%;" alt="Ocean Ecobricks are for dirty plastic" loading="lazy" >
-            </div>
+                <p data-lang-id="019-block-4-main-p1">A Repository for Regenerative Products</p>
+            </div>		
         </div>
-
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="062-block-4-main-p2">To be an Ocean Ecobrick the following standards must be met:</p>
-            </div>
-            <div class="side3" data-lang-id="063-block-4-img2-alt">
-                <img src="../webp/oeb-400px.webp" width="120" style="width:100%;" alt="Ocean Ecobricks are for dirty plastic" loading="lazy" >
-            </div>
-        </div>
-
-        <ul>
-            <li data-lang-id="064-block-4-li-1">A density higher than 0.25 g/ml</li>
-            <li data-lang-id="065-block-4-li-2">A maximum density of 0.70 g/ml</li>
-            <li data-lang-id="066-block-4-li-3">Are packed with as much plastic as possible</li>
-            <li data-lang-id="067-block-4-li-4">Sealed tight (but not air tight).</li>
-            <li data-lang-id="068-block-4-li-5">Care has been taken to prepare the ocean ecobrick as a reusable building block:
-                <ul>
-                    <li data-lang-id="069-block-4-li-5-1">The bottle's label has been removed and ecobricked.</li>
-                    <li data-lang-id="070-block-4-li-5-2">A bottom color has been added</li>
-                    <li data-lang-id="071-block-4-li-5-3">The weight has been recorded on the outside.</li>
-                </ul>
-            </li>
-        </ul>
-
-        <p data-lang-id="072-block-4-p1">Only ocean ecobricks that meet these standards can be authenticated and count as <a href="sequest.php">sequestered plastic</a>.</p>
-
-        <a class="action-btn" href="/ocean" data-lang-id="073-block-4-btn">ℹ️ Make an Ocean Ecobrick</a>
-        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="074-block-4-p2">Check our page all about Ocean Ecobricks.</p>
+        <p data-lang-id="021-block-4-p1">The GoBrik Regenerative Store is a new feature on GoBrik featuring GEA and Trainer products.  The store enables sellers to calculate the plastic and CO2 impact of their products before listing them on the store.  In this way, buyers can see a full accounting of the net impact of the product before they purchase it.  Products can be purchased in regular currency and in brikcoins.  Sellers who accept Brikcoin purchases can use their coins to purchase plastic offset credits.</p>
+	<p> <a href="/#shop">Browse the Regen Store</a></p>
     </div>
 </div>
+
+<div class="reg-content-block" id="block5">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="022-block-5-header">Live Community Courses</h4>
+        </div>
+        <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed5">
+        <div class="row">
+            <div class="main2">
+                <p data-lang-id="023-block-5-main-p1">GoBrik is the repository for GEA Courses</p>
+            </div>		
+        </div>
+        <p data-lang-id="024-block-5-p1">The Global Ecobrick Alliance uses GoBrik to list and promote its full range of courses.  Our <a href="/#map">interactive trainer map</a> can be used to find a GEA Trainer near you and book a live starter workshop in your community.  Our full listing of online courses can also be found– from ecobrick starter workshops, to trainer of trainers.   Users can register for courses using Brikcoins or normal currency. </p>
+        <p data-lang-id="025-block-5-p2">Shortly, our full network of trainers will be able to use the platform to list and manage their own courses.</p>
+	<p> <a href="/#courses">Register for a course</a></p>
+    </div>
+</div>
+
+<div class="reg-content-block" id="block6">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="026-block-6-header">History</h4>
+        </div>
+        <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed6">
+        <p data-lang-id="027-block-6-p1">From the very beginning, we observed that schools that kept track of their ecobricking were most likely to have the highest quality ecobricks, to build the coolest stuff, and to see the deepest plastic transition.  These schools were then able to speak of their success with solid numbers.  Inspired, we’re working to build the GoBrik app to help ecobrickers everywhere track and connect their ecobricking and we’re developing Brikcoins as a means to value the hard and valuable work of ecobrickers securing plastic from contaminating the biosphere.</p>
+        <p data-lang-id="028-block-6-p2">In March 2016, <a href="/new-ecobricks-web-app-launched">we launched the first version of our app</a> to a team of twenty trainers in the city of Jogjakarta, Indonesia.  Basically an upgraded google form embedded in a WordPress site, they were able to log the Ecobricking of hundreds of Jogjans over the course of three months.  In June 2016, we were able to host a ecobrick media event to unveil the Ecobricks that had been made in three months, as well as detailed statistics of the amount of plastic packed, participation and C02 sequestered.  This was followed by the launch of an improved app for NU, a large muslim organization in Jakarta.  Empowered with their own <a href="http://www.nu.ecobricks.org/">NU App</a>, they began logging and tracking their ecobricks.</p>
+        <p data-lang-id="029-block-6-p3">Despite the success of our first Jogja and NU apps, the logging functionality was significantly limited.  One could not see or track one’s personal ecobricking.  The logging thus became the responsibility of one or two trainers– the rest recording on paper for these people to process.</p>
+        <p data-lang-id="030-block-6-p4">With the insights that we have gleaned from our sociological observations of the spread of Ecobricks in Indonesia and the Philippines, coupled with our prototype app field testing, we went back to the drawing board.</p>
+        <p data-lang-id="031-block-6-p5">In early 2017, with the guidance of veteran programmers, crypto-currency experts, and data base designer, we had a massive breakthrough in our app development.  Having designed a relational database, we found the Knack.com platform to create it. Within two months the pieces were in place.  The second version of our Ecobricks app was launched in the second half of 2017.</p>
+        <p data-lang-id="032-block-6-p6">In mid 2018 our <a href="/brikcoins">Ecobrick & Brikcoin White Paper</a> was released and shortly thereafter our Brikcoin manual block chain.</p>
+    </div>
+</div>
+
 <br><br>
 <div class="page-paragraph-reg">
     <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
