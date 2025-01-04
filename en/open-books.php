@@ -610,7 +610,6 @@ $(document).ready(function () {
 /*EXPENSES*/
 
 
-
 function openDetailsPopup(cashTranId) {
     const url = `details-cash-trans.php?cash_tran_id=${cashTranId}`;
     window.open(url, '_blank', 'width=600,height=800,menubar=no,toolbar=no,status=no,scrollbars=yes,resizable=yes');
