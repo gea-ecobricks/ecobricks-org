@@ -25,7 +25,7 @@
 <!-- PAGE CONTENT-->
 
 
-<?php include '../ecobricks_env.php';?>
+<?php include '../gobrikconn_env.php';?>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -266,7 +266,7 @@ try {
 
 				$sql = "SELECT * FROM vw_exp_by_year_category  WHERE year = 2024 ORDER BY expense_category;";
 
-				$result = $conn->query($sql);
+				$result = $gobrik_conn->query($sql);
 
 				if ($result->num_rows > 0) {
 				
@@ -289,7 +289,7 @@ try {
 
 				$sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2024;";
 
-				$result = $conn->query($sql);
+				$result = $gobrik_conn->query($sql);
 
 				if ($result->num_rows > 0) {
 
@@ -335,7 +335,7 @@ try {
 
 						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2024 ORDER BY revenue_category ;";
 
-						$result = $conn->query($sql);
+						$result = $gobrik_conn->query($sql);
 
 						if ($result->num_rows > 0) {
 						
@@ -358,7 +358,7 @@ try {
 
 						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2024;";
 
-						$result = $conn->query($sql);
+						$result = $gobrik_conn->query($sql);
 
 						if ($result->num_rows > 0) {
 
@@ -410,7 +410,7 @@ try {
 
 					$sql = "SELECT * FROM vw_tot_exp_by_year Order by `year` DESC ;";
 
-					$result = $conn->query($sql);
+					$result = $gobrik_conn->query($sql);
 
 					if ($result->num_rows > 0) {
 					
@@ -433,7 +433,7 @@ try {
 
 					$sql = "SELECT * FROM vw_tot_rev_by_year Order by `year` DESC;";
 
-					$result = $conn->query($sql);
+					$result = $gobrik_conn->query($sql);
 
 					if ($result->num_rows > 0) {
 
@@ -480,7 +480,7 @@ try {
 
 	$sql = "SELECT * FROM vw_detail_sums_by_year WHERE year > 2018 Order by `year` DESC ;";
 
-	$result = $conn->query($sql);
+	$result = $gobrik_conn->query($sql);
 
 	if ($result->num_rows > 0) {
 	
@@ -502,7 +502,7 @@ try {
 
 
 
-<?php $conn->close(); ?>
+<?php $gobrik_conn->close(); ?>
 
 	<br><br> 
 
