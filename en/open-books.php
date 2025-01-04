@@ -548,7 +548,6 @@ try {
 <script>
 
     /*REVENUES  */
-
 $(document).ready(function () {
     $('#revenues').DataTable({
         ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
@@ -567,7 +566,7 @@ $(document).ready(function () {
             {
                 data: 'AmountIDR',
                 render: function (data) {
-                    return `Rp ${data}`; // Add "Rp" to the Amount IDR
+                    return `${data} IDR`; // Add "IDR" after the Amount IDR
                 }
             },
             { data: 'Type' }

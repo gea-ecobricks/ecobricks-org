@@ -2,14 +2,22 @@
 // Include the GoBrik server connection credentials
 require_once '../gobrikconn_env.php';
 
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Verify connection
+if ($gobrik_conn->connect_error) {
+    die("Connection failed: " . $gobrik_conn->connect_error);
+}
+
 // Fetch data for revenues
 $sql = "SELECT cash_tran_id,
                transaction_date_dt,
                sender_for_display,
                type_of_transaction,
                tran_name_desc,
-               usd_amount,
-               idr_amount, -- Include amount_idr in the query
+               amount_usd, -- Updated column name
+               amount_idr, -- Updated column name
                revenue_accounting_type
         FROM tb_cash_transaction
         WHERE revenue_accounting_type IS NOT NULL";
@@ -33,8 +41,8 @@ if ($result->num_rows > 0) {
             "Sender" => $row["sender_for_display"],
             "Category" => $row["type_of_transaction"],
             "Transaction" => $row["tran_name_desc"],
-            "AmountUSD" => number_format((float)$row["usd_amount"], 2, '.', ','), // Format Amount USD
-            "AmountIDR" => number_format((int)$row["idr_amount"], 0, '.', ','),  // Format Amount IDR
+            "AmountUSD" => number_format((float)$row["amount_usd"], 2, '.', ','), // Format Amount USD
+            "AmountIDR" => number_format((int)$row["amount_idr"], 0, '.', ','),  // Format Amount IDR
             "Type" => $row["revenue_accounting_type"],
         ];
     }
