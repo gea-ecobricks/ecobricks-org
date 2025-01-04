@@ -25,7 +25,7 @@
 <!-- PAGE CONTENT-->
 
 
-<?php include '../gobrikconn_env.php';?>
+<?php include '../ecobricks_env.php';?>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
