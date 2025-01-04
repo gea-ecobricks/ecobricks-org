@@ -46,5 +46,3 @@ echo json_encode(["data" => $data]);
 
 $gobrik_conn->close();
 ?>
-
-
