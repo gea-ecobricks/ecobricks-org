@@ -13,7 +13,7 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Our Open Books 2</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Our Open Books</div>
 		<div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance's Financial Accounting</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/openbooks.png" style="width: 80%;" alt="Our Open Books financial accounting disclosure system">
@@ -33,6 +33,7 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph" >
+                <p>🚧 IMPORTANT NOTICE:  This page and its data are thus underconstruction. As of September 2024, our accounting was paused as we relaunched GoBrik and our Open Books on a new proprietary database.  Also as of January 2025 we are shifting from USD to Indonesian Rupiahs for our accounting.
 				<p data-lang-id="004-lead-page-paragraph">As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
 			</div>
 
@@ -151,6 +152,7 @@ try {
             <h6 data-lang-id="011-gea-revenue-transactions-header">All the GEA Revenue transactions</h6>
         </div>
         <div class="overflow">
+
             <table id="revenues" class="display" style="width:100%">
                 <thead>
                     <tr>
@@ -159,7 +161,8 @@ try {
                         <th data-lang-id="014-sender-column">Sender</th>
                         <th data-lang-id="015-category-column">Category</th>
                         <th data-lang-id="016-tran-name-column">Transaction</th>
-                        <th data-lang-id="017-amount-usd-column">Amount</th>
+                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
+                        <th data-lang-id="018-amount-idr-column">Amount IDR</th>
                         <th data-lang-id="019-type-column">Type</th>
                     </tr>
                 </thead>
@@ -170,7 +173,8 @@ try {
                         <th data-lang-id="014-sender-column">Sender</th>
                         <th data-lang-id="015-category-column">Category</th>
                         <th data-lang-id="016-tran-name-column">Transaction</th>
-                        <th data-lang-id="017-amount-usd-column">Amount</th>
+                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
+                        <th data-lang-id="018-amount-idr-column">Amount IDR</th>
                         <th data-lang-id="019-type-column">Type</th>
                     </tr>
                 </tfoot>
@@ -545,7 +549,9 @@ try {
     /*REVENUES  */
 
 
-   $(document).ready(function () {
+
+<script>
+$(document).ready(function () {
     $('#revenues').DataTable({
         ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
         columns: [
@@ -555,9 +561,15 @@ try {
             { data: 'Category' },
             { data: 'Transaction' },
             {
-                data: 'Amount',
+                data: 'AmountUSD',
                 render: function (data) {
-                    return `$${data}`; // Add dollar sign to the Amount
+                    return `$${data}`; // Add dollar sign to the Amount USD
+                }
+            },
+            {
+                data: 'AmountIDR',
+                render: function (data) {
+                    return `Rp ${data}`; // Add "Rp" to the Amount IDR
                 }
             },
             { data: 'Type' }
@@ -589,7 +601,7 @@ try {
         order: [[1, 'desc']] // Sort by Date descending
     });
 });
-
+</script>
 
 
 

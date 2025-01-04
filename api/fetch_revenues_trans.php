@@ -9,6 +9,7 @@ $sql = "SELECT cash_tran_id,
                type_of_transaction,
                tran_name_desc,
                usd_amount,
+               idr_amount, -- Include amount_idr in the query
                revenue_accounting_type
         FROM tb_cash_transaction
         WHERE revenue_accounting_type IS NOT NULL";
@@ -31,8 +32,9 @@ if ($result->num_rows > 0) {
             "Date" => $row["transaction_date_dt"],
             "Sender" => $row["sender_for_display"],
             "Category" => $row["type_of_transaction"],
-            "Transaction" => $row["tran_name_desc"], // Renamed column
-            "Amount" => number_format((float)$row["usd_amount"], 2, '.', ','),
+            "Transaction" => $row["tran_name_desc"],
+            "AmountUSD" => number_format((float)$row["usd_amount"], 2, '.', ','), // Format Amount USD
+            "AmountIDR" => number_format((int)$row["idr_amount"], 0, '.', ','),  // Format Amount IDR
             "Type" => $row["revenue_accounting_type"],
         ];
     }
