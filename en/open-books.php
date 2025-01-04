@@ -25,7 +25,6 @@
 <!-- PAGE CONTENT-->
 
 
-<?php include '../ecobricks_env.php';?> 
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -34,10 +33,14 @@
 
 			<div class="lead-page-paragraph" >
                 <p>🚧 IMPORTANT NOTICE:  This page and its data are thus underconstruction. As of September 2024, our accounting was paused as we relaunched GoBrik and our Open Books on a new proprietary database.  Also as of January 2025 we are shifting from USD to Indonesian Rupiahs for our accounting.
-				<p data-lang-id="004-lead-page-paragraph">As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
+
 			</div>
 
+
+
 			<div class="page-paragraph">
+
+                <p data-lang-id="004-lead-page-paragraph">As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
 				  
 				<p data-lang-id="005-first-page-paragraph">The <a href="about.php">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="principles.php">Earthen ethics</a> in the management of our finances and our ecological impacts to ensure that both are of net benefit.  It also means that for everyone's awareness, our financial and ecological accounting are both disclosed publicly.</p>
 
