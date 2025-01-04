@@ -25,6 +25,7 @@
 <!-- PAGE CONTENT-->
 
 
+<?php include '../ecobricks_env.php';?>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -32,11 +33,9 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph" >
-                <p>🚧 IMPORTANT NOTICE:  This page and its data are thus underconstruction. As of September 2024, our accounting was paused as we relaunched GoBrik and our Open Books on a new proprietary database.  Also as of January 2025 we are shifting from USD to Indonesian Rupiahs for our accounting.
+                <p>🚧 IMPORTANT NOTICE 🚧  This page and its data are thus underconstruction. As of September 2024, our accounting was paused as we relaunched GoBrik and our Open Books on a new proprietary database.  Also as of January 2025 we are shifting from USD to Indonesian Rupiahs for our accounting.</p>
 
 			</div>
-
-
 
 			<div class="page-paragraph">
 
@@ -155,7 +154,6 @@ try {
             <h6 data-lang-id="011-gea-revenue-transactions-header">All the GEA Revenue transactions</h6>
         </div>
         <div class="overflow">
-
             <table id="revenues" class="display" style="width:100%">
                 <thead>
                     <tr>
@@ -164,8 +162,7 @@ try {
                         <th data-lang-id="014-sender-column">Sender</th>
                         <th data-lang-id="015-category-column">Category</th>
                         <th data-lang-id="016-tran-name-column">Transaction</th>
-                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
-                        <th data-lang-id="018-amount-idr-column">Amount IDR</th>
+                        <th data-lang-id="017-amount-usd-column">Amount</th>
                         <th data-lang-id="019-type-column">Type</th>
                     </tr>
                 </thead>
@@ -176,8 +173,7 @@ try {
                         <th data-lang-id="014-sender-column">Sender</th>
                         <th data-lang-id="015-category-column">Category</th>
                         <th data-lang-id="016-tran-name-column">Transaction</th>
-                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
-                        <th data-lang-id="018-amount-idr-column">Amount IDR</th>
+                        <th data-lang-id="017-amount-usd-column">Amount</th>
                         <th data-lang-id="019-type-column">Type</th>
                     </tr>
                 </tfoot>
@@ -552,8 +548,7 @@ try {
     /*REVENUES  */
 
 
-
-$(document).ready(function () {
+   $(document).ready(function () {
     $('#revenues').DataTable({
         ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
         columns: [
@@ -563,15 +558,9 @@ $(document).ready(function () {
             { data: 'Category' },
             { data: 'Transaction' },
             {
-                data: 'AmountUSD',
+                data: 'Amount',
                 render: function (data) {
-                    return `$${data}`; // Add dollar sign to the Amount USD
-                }
-            },
-            {
-                data: 'AmountIDR',
-                render: function (data) {
-                    return `Rp ${data}`; // Add "Rp" to the Amount IDR
+                    return `$${data}`; // Add dollar sign to the Amount
                 }
             },
             { data: 'Type' }
@@ -608,6 +597,7 @@ $(document).ready(function () {
 
 
 /*EXPENSES*/
+
 
 
 function openDetailsPopup(cashTranId) {
