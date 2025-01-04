@@ -553,7 +553,6 @@ try {
 
 
 
-<script>
 $(document).ready(function () {
     $('#revenues').DataTable({
         ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
@@ -604,7 +603,7 @@ $(document).ready(function () {
         order: [[1, 'desc']] // Sort by Date descending
     });
 });
-</script>
+
 
 
 
