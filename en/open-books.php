@@ -25,6 +25,8 @@
 <!-- PAGE CONTENT-->
 
 
+<?php include '../gobrikconn_env.php';?>
+
 <div id="main-content">
 <!-- The flexible grid (content) -->
 	<div class="row">
