@@ -162,7 +162,8 @@ try {
                         <th data-lang-id="014-sender-column">Sender</th>
                         <th data-lang-id="015-category-column">Category</th>
                         <th data-lang-id="016-tran-name-column">Transaction</th>
-                        <th data-lang-id="017-amount-usd-column">Amount</th>
+                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
+                        <th data-lang-id="018-amount-idr-column">Amount IDR</th>
                         <th data-lang-id="019-type-column">Type</th>
                     </tr>
                 </thead>
@@ -173,7 +174,8 @@ try {
                         <th data-lang-id="014-sender-column">Sender</th>
                         <th data-lang-id="015-category-column">Category</th>
                         <th data-lang-id="016-tran-name-column">Transaction</th>
-                        <th data-lang-id="017-amount-usd-column">Amount</th>
+                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
+                        <th data-lang-id="018-amount-idr-column">Amount IDR</th>
                         <th data-lang-id="019-type-column">Type</th>
                     </tr>
                 </tfoot>
@@ -547,8 +549,7 @@ try {
 
     /*REVENUES  */
 
-
-   $(document).ready(function () {
+$(document).ready(function () {
     $('#revenues').DataTable({
         ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
         columns: [
@@ -558,9 +559,15 @@ try {
             { data: 'Category' },
             { data: 'Transaction' },
             {
-                data: 'Amount',
+                data: 'AmountUSD',
                 render: function (data) {
-                    return `$${data}`; // Add dollar sign to the Amount
+                    return `$${data}`; // Add dollar sign to the Amount USD
+                }
+            },
+            {
+                data: 'AmountIDR',
+                render: function (data) {
+                    return `Rp ${data}`; // Add "Rp" to the Amount IDR
                 }
             },
             { data: 'Type' }
@@ -592,7 +599,6 @@ try {
         order: [[1, 'desc']] // Sort by Date descending
     });
 });
-
 
 
 
