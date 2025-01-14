@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.32';?>
+<?php $version='2.33';?>
 <?php $page='openbooks';?>
 
 <?php require_once ("../includes/openbooks-inc.php");?>
