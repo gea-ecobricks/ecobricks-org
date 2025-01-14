@@ -97,7 +97,6 @@ window.onload = function() {
     checkRegistrationStatus();
     window.subSource = 'ecobricks-org'; // Make subSource globally accessible
 }
-<script src="../subscription-system.js?v=<?php echo ($version); ;?>" defer></script>
 
 </script>
 <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
