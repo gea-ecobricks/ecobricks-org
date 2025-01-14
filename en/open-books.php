@@ -330,75 +330,85 @@ try {
 
 
 
+<div class="reg-content-block" id="block2">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="036-current-year-revenue-title">Current Year Revenue</h4>
+            <h5 data-lang-id="037-current-year-revenue-summary">A summary of the GEA's current year revenue.</h5>
+            <div class="ecobrick-data">
+                <p data-lang-id="010b-live-data"><span class="blink">⬤  </span> Data live & current</p>
+            </div>
+        </div>
+        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+    </div>
 
+    <div id="preclosed2">
+        <div class="overflow">
+            <?php
+            // Fetch revenues by year and category
+            $sql = "SELECT * FROM vw_rev_by_year_category WHERE year = 2024 ORDER BY revenue_category;";
+            $result = $gobrik_conn->query($sql);
 
-	<div class="reg-content-block" id="block2">
-				
-				<div class="opener-header">
-					
-				<div class="opener-header-text">
-					<h4 data-lang-id="036-current-year-revenue-title">Current Year Revenue</h4>
-					<h5 data-lang-id="037-current-year-revenue-summary">A summary of the GEA's current year revenue.</h5>
-					<div class="ecobrick-data"><p data-lang-id="010b-live-data"><span class="blink">⬤  </span> Data live & current</p></div>
-				</div>
+            if ($result->num_rows > 0) {
+                echo '<table id="brikchain" class="display">
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Transactions</th>
+                                <th>Year Total (USD)</th>
+                                <th>Year Total (IDR)</th>
+                            </tr>
+                        </thead>
+                        <tbody>';
+                while ($row = $result->fetch_assoc()) {
+                    echo "<tr>
+                            <td>{$row["revenue_category"]}</td>
+                            <td>{$row["no_of_transactions"]}</td>
+                            <td>{$row["total_usd"]}&#8202;$ USD</td>
+                            <td>{$row["total_idr"]} IDR</td>
+                          </tr>";
+                }
+                echo '</tbody></table>';
+            } else {
+                echo "0 results";
+            }
+            ?>
+            <br>
 
-					<button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
-		
-				</div>
-		
-				<div id="preclosed2">
-		
-		
-					<div class="overflow">
+            <?php
+            // Fetch total revenues for the year
+            $sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2024;";
+            $result = $gobrik_conn->query($sql);
 
-						<?php
+            if ($result->num_rows > 0) {
+                echo '<table id="brikchain" class="display">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Total Transactions</th>
+                                <th>Total Revenue (USD)</th>
+                                <th>Total Revenue (IDR)</th>
+                            </tr>
+                        </thead>
+                        <tbody>';
+                while ($row = $result->fetch_assoc()) {
+                    echo "<tr>
+                            <td>{$row["year"]}</td>
+                            <td>{$row["total_no_of_rev_transactions"]}</td>
+                            <td>{$row["total_rev_usd_amount"]}&#8202;$ USD</td>
+                            <td>{$row["total_rev_idr_amount"]} IDR</td>
+                          </tr>";
+                }
+                echo '</tbody></table>';
+            } else {
+                echo "0 results";
+            }
+            ?>
+            <br><br>
+        </div>
+    </div>
+</div>
 
-						$sql = "SELECT * FROM vw_rev_by_year_category  WHERE year = 2024 ORDER BY revenue_category ;";
-
-						$result = $gobrik_conn->query($sql);
-
-						if ($result->num_rows > 0) {
-						
-							echo'<table id="brikchain" class="display"><tr><th>Category</th><th>Transactions</th><th>Year Total</th></tr>';
-						
-						// output data of each row
-						while($row = $result->fetch_assoc()) {
-							
-							echo "<tr><td>".$row["revenue_category"]."</td><td>".$row["no_of_transactions"]."</td><td>".$row["total_usd"]."&#8202;$ USD</td></tr>";
-							}
-							echo "</table>";
-						} else {
-							echo "0 results";
-						}
-						
-						?>
-						<br>
-
-						<?php
-
-						$sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2024;";
-
-						$result = $gobrik_conn->query($sql);
-
-						if ($result->num_rows > 0) {
-
-							echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Total Transactions</th><th>total Revenue</th></tr>';
-
-						// output data of each row
-						while($row = $result->fetch_assoc()) {
-							
-							echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_rev_usd_amount"]."&#8202;$ USD</td></tr>";
-							}
-							echo "</table>";
-						} else {
-							echo "0 results";
-						}
-
-					?>	
-					<br><br>
-			</div>
-		</div>
-	</div>
 
 
 
