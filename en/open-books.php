@@ -519,7 +519,28 @@ try {
 							
 					<div class="overflow">
 
-				<?php
+					<?php
+
+	$sql = "SELECT * FROM vw_detail_sums_by_year WHERE year > 2018 Order by `year` DESC ;";
+
+	$result = $gobrik_conn->query($sql);
+
+	if ($result->num_rows > 0) {
+
+		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Total AES plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
+
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>";
+		}
+		echo "</table>";
+	} else {
+		echo "0 results";
+	}
+	?>
+
+	<?php
 
 $sql = "SELECT * FROM vw_detail_sums_by_year_idr WHERE year > 2018 ORDER BY `year` DESC;";
 $result = $gobrik_conn->query($sql);
