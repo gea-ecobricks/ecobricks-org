@@ -5,13 +5,14 @@ require_once '../gobrikconn_env.php';
 // Fetch data for expenses
 $sql = "SELECT cash_tran_id,
                transaction_date_dt,
+               sender_for_display,
                type_of_transaction,
-               receiver_for_display,
                tran_name_desc,
                usd_amount,
-               expense_accounting_type
+               idr_amount, -- Include amount_idr in the query
+               expense_accounting_type -- Adjust for expenses
         FROM tb_cash_transaction
-        WHERE expense_accounting_type IS NOT NULL";
+        WHERE expense_accounting_type IS NOT NULL"; // Filter for expenses
 
 $result = $gobrik_conn->query($sql);
 
@@ -29,11 +30,12 @@ if ($result->num_rows > 0) {
         $data[] = [
             "ID" => '<a href="#" onclick="openDetailsPopup(\'' . $cash_tran_id . '\')">' . $cash_tran_id . '</a>',
             "Date" => $row["transaction_date_dt"],
+            "Sender" => $row["sender_for_display"],
             "Category" => $row["type_of_transaction"],
-            "Receiver" => $row["receiver_for_display"],
-            "Transaction" => $row["tran_name_desc"], // Renamed column
-            "Amount" => number_format((float)$row["usd_amount"], 2, '.', ','),
-            "Type" => $row["expense_accounting_type"],
+            "Transaction" => $row["tran_name_desc"],
+            "AmountUSD" => number_format((float)$row["usd_amount"], 2, '.', ','), // Format Amount USD
+            "AmountIDR" => number_format((int)$row["idr_amount"], 0, '.', ','),  // Format Amount IDR
+            "Type" => $row["expense_accounting_type"], // Adjust for expense type
         ];
     }
 }

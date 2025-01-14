@@ -213,26 +213,29 @@ try {
     <thead>
         <tr>
             <th data-lang-id="012-id-column">ID</th>
-            <th data-lang-id="013-id-column">Date</th>
+            <th data-lang-id="013-date-column">Date</th>
+            <th data-lang-id="014-sender-column">Sender</th>
             <th data-lang-id="015-category-column">Category</th>
-            <th data-lang-id="016b-reciver-column">Receiver</th>
             <th data-lang-id="016-tran-name-column">Transaction</th>
-            <th data-lang-id="017-amount-usd-column">Amount</th>
+            <th data-lang-id="017-amount-usd-column">Amount USD</th>
+            <th data-lang-id="018-amount-idr-column">Amount IDR</th>
             <th data-lang-id="019-type-column">Type</th>
         </tr>
     </thead>
     <tfoot>
         <tr>
             <th data-lang-id="012-id-column">ID</th>
-            <th data-lang-id="013-id-column">Date</th>
+            <th data-lang-id="013-date-column">Date</th>
+            <th data-lang-id="014-sender-column">Sender</th>
             <th data-lang-id="015-category-column">Category</th>
-            <th data-lang-id="016b-reciver-column">Receiver</th>
             <th data-lang-id="016-tran-name-column">Transaction</th>
-            <th data-lang-id="017-amount-usd-column">Amount</th>
+            <th data-lang-id="017-amount-usd-column">Amount USD</th>
+            <th data-lang-id="018-amount-idr-column">Amount IDR</th>
             <th data-lang-id="019-type-column">Type</th>
         </tr>
     </tfoot>
 </table>
+
 
 
 						<br><br>
@@ -603,26 +606,26 @@ $(document).ready(function () {
 
 /*EXPENSES*/
 
-
-
-function openDetailsPopup(cashTranId) {
-    const url = `details-cash-trans.php?cash_tran_id=${cashTranId}`;
-    window.open(url, '_blank', 'width=600,height=800,menubar=no,toolbar=no,status=no,scrollbars=yes,resizable=yes');
-}
-
+/* EXPENSES */
 $(document).ready(function () {
     $('#expenses').DataTable({
-        ajax: '../api/fetch_expenses_trans.php', // URL of the PHP file
+        ajax: '../api/fetch_expenses_trans.php', // URL of the PHP file for expenses
         columns: [
             { data: 'ID', orderable: false },
             { data: 'Date' },
+            { data: 'Sender' },
             { data: 'Category' },
-            { data: 'Receiver' },
             { data: 'Transaction' },
             {
-                data: 'Amount',
+                data: 'AmountUSD',
                 render: function (data) {
-                    return `$${data}`; // Add dollar sign to the Amount
+                    return `$${data}`; // Add dollar sign to the Amount USD
+                }
+            },
+            {
+                data: 'AmountIDR',
+                render: function (data) {
+                    return `${data} IDR`; // Add "IDR" after the Amount IDR
                 }
             },
             { data: 'Type' }
@@ -654,6 +657,16 @@ $(document).ready(function () {
         order: [[1, 'desc']] // Sort by Date descending
     });
 });
+
+
+
+
+function openDetailsPopup(cashTranId) {
+    const url = `details-cash-trans.php?cash_tran_id=${cashTranId}`;
+    window.open(url, '_blank', 'width=600,height=800,menubar=no,toolbar=no,status=no,scrollbars=yes,resizable=yes');
+}
+
+
 
 
 
