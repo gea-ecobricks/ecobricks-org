@@ -521,7 +521,7 @@ try {
 
 					<?php
 
-	$sql = "SELECT * FROM vw_detail_sums_by_year WHERE year > 2018 Order by `year` DESC ;";
+	$sql = "SELECT * FROM vw_detail_sums_by_year_idr WHERE year > 2018 Order by `year` DESC ;";
 
 	$result = $gobrik_conn->query($sql);
 
@@ -538,7 +538,9 @@ try {
 	} else {
 		echo "0 results";
 	}
-	?><br><br>
+	?>
+
+	<br><br>
 					</div>
 	</div>
 	</div>
