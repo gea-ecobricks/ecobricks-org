@@ -88,7 +88,7 @@ window.onload = function() {
 
 </script>
 
-
+<script src="../subscription-system.js?v=<?php echo ($version); ;?>" defer></script>
 <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 <script src="../language-switcher.js?v=<?php echo ($version); ;?>"></script>
 
@@ -96,7 +96,7 @@ window.onload = function() {
 <!--This enables the Light and Dark mode switching-->
 <script type="module" src="https://ecobricks.org/mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>
 
-<!-- <script src="../subscription-system.js?v=<?php echo ($version); ;?>" defer></script>
+
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>  -->
 
 
