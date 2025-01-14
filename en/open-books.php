@@ -496,8 +496,7 @@ try {
     </div>
 </div>
 
-		</div>
-	</div>
+
 
 
 	<div class="reg-content-block" id="block6">
