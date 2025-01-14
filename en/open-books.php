@@ -248,6 +248,83 @@ try {
 
 
 
+	<div class="reg-content-block" id="block1">
+
+		<div class="opener-header">
+		    <div class="opener-header-text">
+                <h4 data-lang-id="033-current-year-expenses-title">Current Year Expenses</h4>
+                <h5 data-lang-id="034-current-year-expenses-summary">A summary of the GEA's current year revenue.</h5>
+                <div class="ecobrick-data"><p data-lang-id="010b-live-data"><span class="blink">◉  </span> Data live & current</p></div>
+            </div>
+
+			<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1">+</button>
+
+		</div>
+
+		<div id="preclosed1">
+            <div class="overflow">
+                <?php
+                // Fetch expenses by year and category
+                $sql = "SELECT * FROM vw_exp_by_year_category WHERE year = 2024 ORDER BY expense_category;";
+                $result = $gobrik_conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    echo '<table id="expenses-by-category" class="display">
+                            <thead>
+                                <tr>
+                                    <th>Expense</th>
+                                    <th>Transaction Count</th>
+                                    <th>Year Total (USD)</th>
+                                    <th>Year Total (IDR)</th>
+                                </tr>
+                            </thead>
+                            <tbody>';
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<tr>
+                                <td>{$row["expense_category"]}</td>
+                                <td>{$row["no_of_transactions"]}</td>
+                                <td>{$row["total_usd"]}&#8202;$ USD</td>
+                                <td>{$row["total_idr"]} IDR</td>
+                              </tr>";
+                    }
+                    echo '</tbody></table>';
+                } else {
+                    echo "0 results";
+                }
+
+                // Fetch total expenses for the year
+                $sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2024;";
+                $result = $gobrik_conn->query($sql);
+
+                if ($result->num_rows > 0) {
+                    echo '<table id="total-expenses" class="display">
+                            <thead>
+                                <tr>
+                                    <th>Year</th>
+                                    <th>Total Transactions</th>
+                                    <th>Total Expenses (USD)</th>
+                                    <th>Total Expenses (IDR)</th>
+                                </tr>
+                            </thead>
+                            <tbody>';
+                    while ($row = $result->fetch_assoc()) {
+                        echo "<tr>
+                                <td>{$row["year"]}</td>
+                                <td>{$row["total_no_of_exp_transactions"]}</td>
+                                <td>{$row["total_exp_usd_amount"]}&#8202;$ USD</td>
+                                <td>{$row["total_exp_idr_amount"]} IDR</td>
+                              </tr>";
+                    }
+                    echo '</tbody></table>';
+                } else {
+                    echo "0 results";
+                }
+                ?>
+                <br><br>
+            </div>
+        </div>
+	</div>
+
 
 	<div class="reg-content-block" id="block2">
 				
