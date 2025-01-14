@@ -72,18 +72,6 @@
 
 /*ROLL CALL*/
 
-// window.onload = function() {
-//     var siteName = 'Ecobricks.org';
-//     // setPageLanguageFromCache();
-//     // alert(currentLanguage);
-//     var currentLanguage = '<?php echo ($lang); ?>'; // Default language code
-//     switchLanguage(currentLanguage);
-//     // updateLogoColor(); 
-
-//     window.subSource = 'ecobricks-org'; // Make subSource globally accessible
-
-// }
-
 window.onload = function() {
     var siteName = 'Ecobricks.org';
     // setPageLanguageFromCache();
@@ -94,11 +82,13 @@ window.onload = function() {
     window.currentLanguage = '<?php echo ($lang); ?>'; // Default language code
     switchLanguage(window.currentLanguage);
     // updateLogoColor();
-    checkRegistrationStatus();
+    //checkRegistrationStatus();
     window.subSource = 'ecobricks-org'; // Make subSource globally accessible
 }
 
 </script>
+
+
 <script src="../core-scripts-2024.js?v=<?php echo ($version); ;?>"></script>
 <script src="../language-switcher.js?v=<?php echo ($version); ;?>"></script>
 
