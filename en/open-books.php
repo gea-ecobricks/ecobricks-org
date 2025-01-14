@@ -430,58 +430,72 @@ try {
 				</div>
 		
 				<div id="preclosed5">
-					<br><br>
-						
-							
-					<div class="overflow">
+    <br><br>
+    <div class="overflow">
+        <?php
+        // Fetch total expenses by year
+        $sql = "SELECT * FROM vw_tot_exp_by_year ORDER BY `year` DESC;";
+        $result = $gobrik_conn->query($sql);
 
-						
-					<?php
+        if ($result->num_rows > 0) {
+            echo '<table id="brikchain" class="display">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Transactions</th>
+                            <th>Expenses (USD)</th>
+                            <th>Expenses (IDR)</th>
+                        </tr>
+                    </thead>
+                    <tbody>';
+            while ($row = $result->fetch_assoc()) {
+                echo "<tr>
+                        <td>{$row["year"]}</td>
+                        <td>{$row["total_no_of_exp_transactions"]}</td>
+                        <td>{$row["total_exp_usd_amount"]}&#8202;$ USD</td>
+                        <td>{$row["total_exp_idr_amount"]} IDR</td>
+                      </tr>";
+            }
+            echo '</tbody></table>';
+        } else {
+            echo "No expense data available.";
+        }
+        ?>
+        <br><br>
 
-					$sql = "SELECT * FROM vw_tot_exp_by_year Order by `year` DESC ;";
+        <?php
+        // Fetch total revenues by year
+        $sql = "SELECT * FROM vw_tot_rev_by_year ORDER BY `year` DESC;";
+        $result = $gobrik_conn->query($sql);
 
-					$result = $gobrik_conn->query($sql);
+        if ($result->num_rows > 0) {
+            echo '<table id="brikchain" class="display">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Transactions</th>
+                            <th>Revenues (USD)</th>
+                            <th>Revenues (IDR)</th>
+                        </tr>
+                    </thead>
+                    <tbody>';
+            while ($row = $result->fetch_assoc()) {
+                echo "<tr>
+                        <td>{$row["year"]}</td>
+                        <td>{$row["total_no_of_rev_transactions"]}</td>
+                        <td>{$row["total_rev_usd_amount"]}&#8202;$ USD</td>
+                        <td>{$row["total_rev_idr_amount"]} IDR</td>
+                      </tr>";
+            }
+            echo '</tbody></table>';
+        } else {
+            echo "No revenue data available.";
+        }
+        ?>
+        <br><br>
+    </div>
+</div>
 
-					if ($result->num_rows > 0) {
-					
-						echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Expenses</th></tr>';
-					
-					// output data of each row
-					while($row = $result->fetch_assoc()) {
-						
-						echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_exp_transactions"]."</td><td>".$row["total_exp_usd_amount"]."&#8202;$ USD</td></tr>";
-						}
-						echo "</table>";
-					} else {
-						echo "0 results";
-					}
-
-					?>
-					<br><br>
-
-					<?php
-
-					$sql = "SELECT * FROM vw_tot_rev_by_year Order by `year` DESC;";
-
-					$result = $gobrik_conn->query($sql);
-
-					if ($result->num_rows > 0) {
-
-						echo'<table id="brikchain" class="display"><tr><th>Year</th><th>Transactions</th><th>Revenues</th></tr>';
-
-					// output data of each row
-					while($row = $result->fetch_assoc()) {
-						
-						echo "<tr><td>".$row["year"]."</td><td>".$row["total_no_of_rev_transactions"]."</td><td>".$row["total_rev_usd_amount"]."&#8202;$ USD</td></tr>";
-						}
-						echo "</table>";
-					} else {
-						echo "0 results";
-					}
-
-					?>
-					<br><br>
-				</div>
 		</div>
 	</div>
 
