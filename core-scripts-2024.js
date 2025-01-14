@@ -47,7 +47,7 @@ document.addEventListener("scroll", function() {
         document.getElementById("main-header-buttons").style.marginTop = "0px";  
         document.getElementById("language-menu-slider").style.top = "-15px";  
         document.getElementById("login-menu-slider").style.top = "-15px";  
-        document.getElementById("registration-footer").style.opacity = "0";  
+        //document.getElementById("registration-footer").style.opacity = "0";
 
 
 
@@ -68,7 +68,7 @@ function scrollMoreThan40() {
         document.getElementById("main-header-buttons").style.marginTop = "-5px";  
         document.getElementById("language-menu-slider").style.top = "-35px";  
         document.getElementById("login-menu-slider").style.top = "-35px";  
-        document.getElementById("registration-footer").style.opacity = "1";  
+        //document.getElementById("registration-footer").style.opacity = "1";
 
 
 
