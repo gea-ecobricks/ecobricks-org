@@ -722,9 +722,6 @@ if ($result->num_rows > 0) {
 }
 
 
-
-
-
 /* REVENUES */
 $(document).ready(function () {
     $('#revenues').DataTable({
@@ -734,8 +731,11 @@ $(document).ready(function () {
                 data: 'ID',
                 orderable: false,
                 render: function (data, type, row) {
+                    // Properly escape and handle special characters for the transaction ID
+                    const escapedData = String(data).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+
                     // Add onclick call to openTransactionModal with the transaction ID
-                    return `<a href="#" onclick="openTransactionModal('${data}')">${data}</a>`;
+                    return `<a href="#" onclick="openTransactionModal('${escapedData}')">${data}</a>`;
                 },
                 className: 'dt-center' // Center-align the ID column
             },
