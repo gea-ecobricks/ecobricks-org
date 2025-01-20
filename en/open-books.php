@@ -74,7 +74,7 @@ try {
                    tot_usd_exp_amt,
                    tot_usd_rev_amt,
                    final_aes_plastic_cost
-            FROM vw_detail_sums_by_year";
+            FROM vw_detail_sums_by_year_idr";
 
     $result = $gobrik_conn->query($sql);
 
@@ -97,8 +97,8 @@ try {
         $sum_ecobricks += (float)str_replace(',', '', $row['brick_count']);
         $sum_brikcoins += (float)str_replace(',', '', $row['total_brk']);
         $sum_weight += (float)str_replace(',', '', $row['weight']);
-        $sum_expenses += (float)str_replace(',', '', $row['tot_usd_exp_amt']);
-        $sum_revenue += (float)str_replace(',', '', $row['tot_usd_rev_amt']);
+        $sum_expenses += (float)str_replace(',', '', $row['tot_idr_exp_amt']);
+        $sum_revenue += (float)str_replace(',', '', $row['tot_idr_rev_amt']);
         $sum_costs += (float)str_replace(',', '', $row['final_aes_plastic_cost']);
         $row_count++;
     }
@@ -121,11 +121,11 @@ try {
                 <li>Total ecobricks authenticated: ' . number_format($sum_ecobricks) . '</li>
                 <li>Total Brikcoins Generated: ' . number_format($sum_brikcoins) . '&#8202;ß</li>
                 <li>Total Authenticatd Sequestered Plastic: ' . number_format($sum_weight, 2) . '&#8202;kg</li>
-                <li>Total System Expenses: $' . number_format($sum_expenses, 2) . '&#8202;USD</li>
+                <li>Total System Expenses: $' . number_format($sum_expenses, 2) . '&#8202;IDR</li>
 
                 <!--
-                <li>Total AES Sales: $' . number_format($sum_revenue, 2) . '</li>
-                <li>Avg AES Price: $' . number_format($avg_cost, 2) . '</li>-->
+                <li>Total AES Sales: ' . number_format($sum_revenue, 2) . ' IDR</li>
+                <li>Avg AES Price: ' . number_format($avg_cost, 2) . ' IDR</li>-->
             </ul>
             <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="006-current-pricing">
                 The price per kg of <a href="offset.php">of AES plastic offsets</a> is a function of system authenticataed plastic and GEA system expenses.
