@@ -116,12 +116,12 @@ try {
                 <img src="../svgs/aes-brk-vertical.svg?v=2" style="width:95%; margin-top:20px;"><p style="font-size: 1.0em; margin-top:5px;">
             </div>
         <div id="brikchain-totals">
-            <p><span class="blink">◉  </span> ' . number_format($aes_rolling, 2) . ' &#8202;$ IDR per 1 Kg of AES Plastic</p>
+            <p><span class="blink">◉  </span> ' . number_format($aes_rolling, 2) . ' &#8202; IDR per 1 Kg of AES Plastic</p>
             <ul>
                 <li>Total ecobricks authenticated: ' . number_format($sum_ecobricks) . '</li>
                 <li>Total Brikcoins Generated: ' . number_format($sum_brikcoins) . '&#8202;ß</li>
                 <li>Total Authenticatd Sequestered Plastic: ' . number_format($sum_weight, 2) . '&#8202;kg</li>
-                <li>Total System Expenses: $' . number_format($sum_expenses, 2) . '&#8202;IDR</li>
+                <li>Total System Expenses: ' . number_format($sum_expenses, 2) . '&#8202;IDR</li>
 
                 <!--
                 <li>Total AES Sales: ' . number_format($sum_revenue, 2) . ' IDR</li>
