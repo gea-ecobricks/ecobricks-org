@@ -413,6 +413,8 @@ try {
             lengthMenu: [12, 25, 50, 100] // Options for rows per page
         });
     });
+
+
 function openTransactionModal(tran_id) {
     const modal = document.getElementById('form-modal-message');
     const modalBox = document.getElementById('modal-content-box');

@@ -624,13 +624,20 @@ if ($result->num_rows > 0) {
 
 <!-- CUSTOM PAGE SCRIPTS-->
 <script>
-
-    /*REVENUES  */
+/* REVENUES */
 $(document).ready(function () {
     $('#revenues').DataTable({
         ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
         columns: [
-            { data: 'ID', orderable: false },
+            {
+                data: 'ID',
+                orderable: false,
+                render: function (data, type, row) {
+                    // Add onclick call to openTransactionModal with the transaction ID
+                    return `<a href="#" onclick="openTransactionModal('${data}')">${data}</a>`;
+                },
+                className: 'dt-center' // Center-align the ID column
+            },
             { data: 'Date' },
             { data: 'Sender' },
             { data: 'Category' },
@@ -650,20 +657,20 @@ $(document).ready(function () {
             { data: 'Type' }
         ],
         columnDefs: [
-            { targets: 0, className: 'dt-center' }, // Center-align the ID column
+            // Columns to hide by default for responsive design
             {
-                targets: [2, 3], // Hide these columns by default for smaller screens
-                visible: true,
-                responsivePriority: 3
+                targets: [3, 5, 7], // Move 'Category', 'Amount USD', and 'Type' to the overflow
+                visible: false, // Hide these columns by default
+                responsivePriority: 4 // Lower priority for responsive view
             },
             {
-                targets: [4], // "Transaction" visible only on tablet and desktop
+                targets: [4], // Ensure "Transaction" is visible on tablet and desktop
                 responsivePriority: 2
             }
         ],
         responsive: {
             details: {
-                display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                display: $.fn.dataTable.Responsive.display.childRowImmediate, // Use child row for overflow
                 type: ''
             },
             breakpoints: [
