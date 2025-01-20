@@ -33,14 +33,16 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph" >
+<p>Starting January 1st, 2025, the Global Ecobrick Alliance has dropped our USD holdings and accounting in protest to the genocide and ecocide in Palestine.  From January 1st, 2025 onwards we will be using Indonesian Rupiahs (IDR) for our accounting.  This represents a year of work upgrading our systems.  Bear with us as we upgrade our accounting backend.</p>
 
-<p data-lang-id="004-lead-page-paragraph">As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
 			</div>
 
 			<div class="page-paragraph">
 
+                <p data-lang-id="004-lead-page-paragraph">As a for-Earth enterprise we account and disclose all of our finances to meet our not-for-profit and net-green mandates.</p>
 
-                <p>Starting January 1st, 2025, the Global Ecobrick Alliance has dropped our USD holdings and accounting in protest to the genocide and ecocide in Palestine.  From January 1st, 2025 onwards we will be using Indonesian Rupiahs (IDR) for our accounting.  This represents a year of work upgrading our systems.  Bear with us as we upgrade our accounting backend.</p>
+
+
 				  
 				<p data-lang-id="005-first-page-paragraph">The <a href="about.php">Global Ecobrick Alliance</a>  is an Earth Enterprise.  This means that we that follows the principles of <a href="principles.php">Earthen ethics</a> in the management of our finances and our ecological impacts to ensure that both are of net benefit.  It also means that for everyone's awareness, our financial and ecological accounting are both disclosed publicly.</p>
 
