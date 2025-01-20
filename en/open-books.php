@@ -73,7 +73,7 @@ try {
                    weight,
                    tot_idr_exp_amt,
                    tot_idr_rev_amt,
-                   final_aes_plastic_cost
+                   final_aes_plastic_cost_idr
             FROM vw_detail_sums_by_year_idr";
 
     $result = $gobrik_conn->query($sql);
@@ -99,7 +99,7 @@ try {
         $sum_weight += (float)str_replace(',', '', $row['weight']);
         $sum_expenses += (float)str_replace(',', '', $row['tot_idr_exp_amt']);
         $sum_revenue += (float)str_replace(',', '', $row['tot_idr_rev_amt']);
-        $sum_costs += (float)str_replace(',', '', $row['final_aes_plastic_cost']);
+        $sum_costs += (float)str_replace(',', '', $row['final_aes_plastic_cost_idr']);
         $row_count++;
     }
 
@@ -532,7 +532,7 @@ try {
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["tot_idr_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>";
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["tot_idr_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost_idr"]." &#8202;$ USD</td></tr>";
 		}
 		echo "</table>";
 	} else {
