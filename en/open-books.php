@@ -787,14 +787,20 @@ $(document).ready(function () {
 
 
 
-/*EXPENSES*/
-
 /* EXPENSES */
 $(document).ready(function () {
     $('#expenses').DataTable({
         ajax: '../api/fetch_expenses_trans.php', // URL of the PHP file for expenses
         columns: [
-            { data: 'ID', orderable: false },
+            {
+                data: 'ID',
+                orderable: false,
+                render: function (data, type, row) {
+                    // Add onclick call to openTransactionModal with the transaction ID
+                    return `<a href="#" onclick="openTransactionModal('${data}')">${data}</a>`;
+                },
+                className: 'dt-center' // Center-align the ID column
+            },
             { data: 'Date' },
             { data: 'Sender' },
             { data: 'Category' },
@@ -816,18 +822,18 @@ $(document).ready(function () {
         columnDefs: [
             { targets: 0, className: 'dt-center' }, // Center-align the ID column
             {
-                targets: [2, 3], // Hide these columns by default for smaller screens
-                visible: true,
-                responsivePriority: 3
+                targets: [3, 5, 7], // Move 'Category', 'Amount USD', and 'Type' to the overflow
+                visible: false, // Hide these columns by default
+                responsivePriority: 4 // Lower priority for responsive view
             },
             {
-                targets: [4], // "Transaction" visible only on tablet and desktop
+                targets: [4], // Ensure "Transaction" is visible on tablet and desktop
                 responsivePriority: 2
             }
         ],
         responsive: {
             details: {
-                display: $.fn.dataTable.Responsive.display.childRowImmediate,
+                display: $.fn.dataTable.Responsive.display.childRowImmediate, // Use child row for overflow
                 type: ''
             },
             breakpoints: [
@@ -841,13 +847,6 @@ $(document).ready(function () {
     });
 });
 
-
-//
-//
-// function openDetailsPopup(cashTranId) {
-//     const url = `details-cash-trans.php?cash_tran_id=${cashTranId}`;
-//     window.open(url, '_blank', 'width=600,height=800,menubar=no,toolbar=no,status=no,scrollbars=yes,resizable=yes');
-// }
 
 
 

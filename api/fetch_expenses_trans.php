@@ -1,4 +1,9 @@
 <?php
+// Enable error reporting for debugging
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 // Include the GoBrik server connection credentials
 require_once '../gobrikconn_env.php';
 
@@ -18,7 +23,7 @@ $result = $gobrik_conn->query($sql);
 
 // Check for query execution errors
 if (!$result) {
-    http_response_code(500);
+    http_response_code(500); // Internal Server Error
     echo json_encode(["error" => "Database query failed: " . $gobrik_conn->error]);
     exit;
 }
@@ -26,9 +31,8 @@ if (!$result) {
 $data = [];
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        $cash_tran_id = $row["cash_tran_id"];
         $data[] = [
-            "ID" => '<a href="#" onclick="openDetailsPopup(\'' . $cash_tran_id . '\')">' . $cash_tran_id . '</a>',
+            "ID" => $row["cash_tran_id"], // Return raw ID (no HTML or JS)
             "Date" => $row["transaction_date_dt"],
             "Sender" => $row["sender_for_display"],
             "Category" => $row["type_of_transaction"],
