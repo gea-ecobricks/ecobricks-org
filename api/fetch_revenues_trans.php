@@ -26,9 +26,8 @@ if (!$result) {
 $data = [];
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        $cash_tran_id = $row["cash_tran_id"];
         $data[] = [
-            "ID" => '<a href="#" onclick="openDetailsPopup(\'' . $cash_tran_id . '\')">' . $cash_tran_id . '</a>',
+            "ID" => $row["cash_tran_id"], // Return raw ID (no HTML or JS)
             "Date" => $row["transaction_date_dt"],
             "Sender" => $row["sender_for_display"],
             "Category" => $row["type_of_transaction"],
