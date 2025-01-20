@@ -71,8 +71,8 @@ try {
                    brick_count,
                    total_brk,
                    weight,
-                   tot_usd_exp_amt,
-                   tot_usd_rev_amt,
+                   tot_idr_exp_amt,
+                   tot_idr_rev_amt,
                    final_aes_plastic_cost
             FROM vw_detail_sums_by_year_idr";
 
@@ -116,7 +116,7 @@ try {
                 <img src="../svgs/aes-brk-vertical.svg?v=2" style="width:95%; margin-top:20px;"><p style="font-size: 1.0em; margin-top:5px;">
             </div>
         <div id="brikchain-totals">
-            <p><span class="blink">◉  </span> ' . number_format($aes_rolling, 2) . ' &#8202;$ USD per 1 Kg of AES Plastic</p>
+            <p><span class="blink">◉  </span> ' . number_format($aes_rolling, 2) . ' &#8202;$ IDR per 1 Kg of AES Plastic</p>
             <ul>
                 <li>Total ecobricks authenticated: ' . number_format($sum_ecobricks) . '</li>
                 <li>Total Brikcoins Generated: ' . number_format($sum_brikcoins) . '&#8202;ß</li>
@@ -532,7 +532,7 @@ try {
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
 
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>";
+		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["tot_idr_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost"]." &#8202;$ USD</td></tr>";
 		}
 		echo "</table>";
 	} else {
