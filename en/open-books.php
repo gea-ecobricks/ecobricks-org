@@ -624,6 +624,107 @@ if ($result->num_rows > 0) {
 
 <!-- CUSTOM PAGE SCRIPTS-->
 <script>
+
+    /*show trans*/
+
+    function openTransactionModal(transactionId) {
+    // Select modal elements
+    const modal = document.getElementById('form-modal-message');
+    const modalBox = document.getElementById('modal-content-box');
+
+    // Show the modal
+    modal.style.display = 'flex';
+    modalBox.style.flexFlow = 'column';
+
+    // Lock scrolling for the body and blur the background
+    document.getElementById('page-content')?.classList.add('blurred');
+    document.getElementById('footer-full')?.classList.add('blurred');
+    document.body.classList.add('modal-open'); // Locks scrolling
+
+    // Set up the modal-content-box styles
+    const modalContentBox = document.getElementById('modal-content-box');
+    modalContentBox.style.maxHeight = '80vh'; // Ensure it doesn’t exceed 80% of the viewport height
+    modalContentBox.style.overflowY = 'auto'; // Make the modal scrollable if content overflows
+
+    // Clear previous modal content and set up the structure
+    modalContentBox.innerHTML = `<h4>Transaction Details - ID: ${transactionId}</h4>
+                                  <div id="transaction-table-container"><p>Loading transaction details...</p></div>`;
+
+    // Show the modal
+    modal.classList.remove('modal-hidden');
+
+    // AJAX request to fetch transaction details
+    $.ajax({
+        url: '../api/fetch_cash_trans.php', // Backend PHP file
+        type: 'GET',
+        data: { cash_tran_id: transactionId }, // Pass the transaction ID
+        success: function (response) {
+            // Parse the JSON response from the server
+            const data = JSON.parse(response);
+
+            if (data.error) {
+                // If there's an error, display it
+                document.getElementById('transaction-table-container').innerHTML = `<p>${data.error}</p>`;
+                return;
+            }
+
+            // Construct the HTML for the transaction details
+            let transactionDetailsHTML = `
+                <div id="main-details">
+                    <div class="date"><b>Transaction ID:</b> ${data.cash_tran_id}</div>
+                    ${data.paymt_record_url && data.paymt_record_url !== 'N/A' ? `
+                        <div id="photo">
+                            <img src="${data.paymt_record_url}" width="90%" />
+                        </div>
+                    ` : ''}
+                    <div class="serial"><b>Amount:</b> <var>${data.native_ccy_amt} ${data.currency_code}</var></div>
+                    <div class="general-field"><b>Transaction Name:</b> ${data.tran_name_desc}</div>
+                    <div class="main"><b>Sender:</b> <var>${data.sender_for_display}</var></div>
+                    <div class="main"><b>Sent:</b> <var>${data.datetime_sent_ts}</var></div>
+                    <div class="main"><b>Type:</b> <var>${data.type_of_transaction}</var></div>
+                    ${data.expense_accounting_type ? `
+                        <div class="main"><b>Category:</b> ${data.expense_accounting_type}</div>
+                    ` : ''}
+                    ${data.revenue_accounting_type ? `
+                        <div class="main"><b>Category:</b> ${data.revenue_accounting_type}</div>
+                    ` : ''}
+                    <div class="ecobrick-data">
+                        <p><b>>> Raw Cash Transaction Record</b></p>
+                        <p><b>Record ID:</b> ${data.knack_record_id}</p>
+                        <p><b>Cash Transaction ID:</b> ${data.cash_tran_id}</p>
+                        <p><b>Sender (for display):</b> ${data.sender_for_display}</p>
+                        <p><b>Date Time Sent:</b> ${data.datetime_sent_ts}</p>
+                        <p><b>Transaction Name:</b> ${data.tran_name_desc}</p>
+                        <p><b>Amount USD:</b> ${data.usd_amount}</p>
+                        ${data.native_ccy_amt_display !== "0.00" ? `
+                            <p><b>Native Currency Amount:</b> ${data.native_ccy_amt_display}</p>
+                        ` : ''}
+                        <p><b>Exchange Rate:</b> ${data.exchange_ratio}</p>
+                        ${data.connected_brk_trans ? `
+                            <p><b>Connected BRK Transaction:</b>
+                                <a href="details-brk-trans.php?tran_id=${data.connected_brk_trans}" target="_blank">
+                                    ${data.connected_brk_trans}
+                                </a>
+                            </p>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+
+            // Populate the modal with the transaction details
+            document.getElementById('transaction-table-container').innerHTML = transactionDetailsHTML;
+        },
+        error: function (xhr, status, error) {
+            // Display error message if AJAX fails
+            document.getElementById('transaction-table-container').innerHTML = '<p>Error loading transaction details. Please try again later.</p>';
+        }
+    });
+}
+
+
+
+
+
 /* REVENUES */
 $(document).ready(function () {
     $('#revenues').DataTable({
