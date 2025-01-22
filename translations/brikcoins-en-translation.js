@@ -84,7 +84,7 @@ const en_Page_Translations = {
         "061-paragraph-brikchain-impact": "As a non-capital, manual process, Brikcoins favor anyone anywhere willing to work with their hands to make a meaningful ecological contribution.",
         "062-action-browse-brikchain": "🔎 Browse the Brikchain",
         "063-caption-live-chain": "The live chain of transactions and ecobricks.",
-        "063b-image-alt": "<img src=\"../webp/brk-cascade.webp\" width=\"300\" style=\"width:90%\" alt=\"brikcoins alternative currency in action\" loading=\"lazy\">"
+        "063b-image-alt": "<img src=\"../webp/brk-cascade.webp\" width=\"300\" style=\"width:90%\" alt=\"brikcoins alternative currency in action\" loading=\"lazy\">",
       
       
 
