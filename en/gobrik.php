@@ -148,15 +148,35 @@
     </div>
 
     <div id="preclosed6">
-        <p data-lang-id="027-block-6-p1">From the very beginning, we observed that schools that kept track of their ecobricking were most likely to have the highest quality ecobricks, to build the coolest stuff, and to see the deepest plastic transition.  These schools were then able to speak of their success with solid numbers.  Inspired, we’re working to build the GoBrik app to help ecobrickers everywhere track and connect their ecobricking and we’re developing Brikcoins as a means to value the hard and valuable work of ecobrickers securing plastic from contaminating the biosphere.</p>
-        <p data-lang-id="028-block-6-p2">In March 2016, <a href="/new-ecobricks-web-app-launched">we launched the first version of our app</a> to a team of twenty trainers in the city of Jogjakarta, Indonesia.  Basically an upgraded google form embedded in a WordPress site, they were able to log the Ecobricking of hundreds of Jogjans over the course of three months.  In June 2016, we were able to host a ecobrick media event to unveil the Ecobricks that had been made in three months, as well as detailed statistics of the amount of plastic packed, participation and C02 sequestered.  This was followed by the launch of an improved app for NU, a large muslim organization in Jakarta.  Empowered with their own <a href="http://www.nu.ecobricks.org/">NU App</a>, they began logging and tracking their ecobricks.</p>
-        <p data-lang-id="029-block-6-p3">Despite the success of our first Jogja and NU apps, the logging functionality was significantly limited.  One could not see or track one’s personal ecobricking.  The logging thus became the responsibility of one or two trainers– the rest recording on paper for these people to process.</p>
-        <p data-lang-id="030-block-6-p4">With the insights that we have gleaned from our sociological observations of the spread of Ecobricks in Indonesia and the Philippines, coupled with our prototype app field testing, we went back to the drawing board.</p>
-        <p data-lang-id="031-block-6-p5">In early 2017, with the guidance of veteran programmers, crypto-currency experts, and data base designer, we had a massive breakthrough in our app development.  Having designed a relational database, we found the Knack.com platform to create it. Within two months the pieces were in place.  The second version of our Ecobricks app was launched in the second half of 2017.</p>
-        <p data-lang-id="032-block-6-p6">In mid 2018 our <a href="/brikcoins">Ecobrick & Brikcoin White Paper</a> was released and shortly thereafter our Brikcoin manual block chain.</p>
+	<p data-lang-id="027-block-6-p1">Over 2388 Ecobricks were logged in our first three month run of the first Ecobrick App in Jogja.</p>
+	<p data-lang-id="028-block-6-p2">From the very beginning, we observed that schools that kept track of their ecobricking were most likely to have the highest quality ecobricks, to build the coolest stuff, and to see the deepest plastic transition.  These schools were then able to speak of their success with solid numbers.  Inspired, we’re working to build the GoBrik app to help ecobrickers everywhere track and connect their ecobricking and we’re developing Brikcoins as a means to value the hard and valuable work of ecobrickers securing plastic from contaminating the biosphere.</p>
+        <p data-lang-id="029-block-6-p3">In March 2016, <a href="/new-ecobricks-web-app-launched">we launched the first version of our app</a> to a team of twenty trainers in the city of Jogjakarta, Indonesia.  Basically an upgraded google form embedded in a WordPress site, they were able to log the Ecobricking of hundreds of Jogjans over the course of three months.  In June 2016, we were able to host a ecobrick media event to unveil the Ecobricks that had been made in three months, as well as detailed statistics of the amount of plastic packed, participation and C02 sequestered.  This was followed by the launch of an improved app for NU, a large muslim organization in Jakarta.  Empowered with their own <a href="http://www.nu.ecobricks.org/">NU App</a>, they began logging and tracking their ecobricks.</p>
+        <p data-lang-id="030-block-6-p4">Despite the success of our first Jogja and NU apps, the logging functionality was significantly limited.  One could not see or track one’s personal ecobricking.  The logging thus became the responsibility of one or two trainers– the rest recording on paper for these people to process.</p>
+        <p data-lang-id="031-block-6-p5">With the insights that we have gleaned from our sociological observations of the spread of Ecobricks in Indonesia and the Philippines, coupled with our prototype app field testing, we went back to the drawing board.</p>
+        <p data-lang-id="032-block-6-p6">In early 2017, with the guidance of veteran programmers, crypto-currency experts, and data base designer, we had a massive breakthrough in our app development.  Having designed a relational database, we found the Knack.com platform to create it. Within two months the pieces were in place.  The second version of our Ecobricks app was launched in the second half of 2017.</p>
+        <p data-lang-id="033-block-6-p7">In mid 2018 our <a href="/brikcoins">Ecobrick & Brikcoin White Paper</a> was released and shortly thereafter our Brikcoin manual block chain.</p>
     </div>
 </div>
 
+<div class="reg-content-block" id="block7">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="034-block-7-header">Plastic Offset Credits</h4>
+        </div>
+        <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed7">
+	<p data-lang-id="035-block 7-p1">Ecobricks are one of the few ways to ensure that plastic is indefinitely kept out of the waste industry and out of the biosphere.</p>
+	<p data-lang-id="036-block-7-p2">On GoBrik, each gram of plastic has been reviewed by independent ecobrickers to make sure that has been packed to GEA standards. Each gram of plastic is accounted for in our manual block chain system. Every ecobrick authentication is stored on our human searchable <a href ="https://www.gobrik.com/#brikchaing">brickchain</a> and every cash transaction is stored in our <a href ="https://www.gobrik.com/#openbooks">open books</a> accounting system.</p>
+        <p data-lang-id="037-block-7-p3">Authenticated Ecobricked Plastic is…</p>
+        <p data-lang-id="030-block-6-p4">Despite the success of our first Jogja and NU apps, the logging functionality was significantly limited.  One could not see or track one’s personal ecobricking.  The logging thus became the responsibility of one or two trainers– the rest recording on paper for these people to process.</p>
+        <p data-lang-id="031-block-6-p5">With the insights that we have gleaned from our sociological observations of the spread of Ecobricks in Indonesia and the Philippines, coupled with our prototype app field testing, we went back to the drawing board.</p>
+        <p data-lang-id="032-block-6-p6">In early 2017, with the guidance of veteran programmers, crypto-currency experts, and data base designer, we had a massive breakthrough in our app development.  Having designed a relational database, we found the Knack.com platform to create it. Within two months the pieces were in place.  The second version of our Ecobricks app was launched in the second half of 2017.</p>
+        <p data-lang-id="033-block-6-p7">In mid 2018 our <a href="/brikcoins">Ecobrick & Brikcoin White Paper</a> was released and shortly thereafter our Brikcoin manual block chain.</p>
+    </div>
+</div>
+			
 <br><br>
 <div class="page-paragraph-reg">
     <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
