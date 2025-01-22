@@ -55,7 +55,7 @@ try {
         <p style="font-size: 1.0em; margin-top:5px;">Live Brikcoin value:</p>
         <div id="brikchain-totals">
             <p><span class="blink">◉  </span> ' . number_format($aes_rolling, 2) . ' &#8202; IDR per 1 Kg of AES Plastic</p>
-            <ul>
+            <ul style="text-align:left">
                 <li>Total ecobricks authenticated: ' . number_format($sum_ecobricks) . '</li>
                 <li>Total Brikcoins Generated: ' . number_format($sum_brikcoins) . '&#8202;ß</li>
                 <li>Total Authenticatd Sequestered Plastic: ' . number_format($sum_weight, 2) . '&#8202;kg</li>

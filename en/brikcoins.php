@@ -213,7 +213,7 @@
             </div>
             <div class="side3" data-lang-id="057b-image-alt"><img src="../pngs/White-Paper-Icon2-400px.png" width="150" alt="Ecobricks & Brikcoin Whitepaper, on The Commodification of Manually Sequestered Plastic" loading="lazy"></div>
         </div>
-        <p data-lang-id="058-paragraph-white-paper-update">The white paper is updated as of March 2022 to reflect three years of beta-usage by our 50,000 gobrik users, over 150,000 ecobricks and a pool of over 250,000 ß (as of March, 2022).</p><br>
+        <p data-lang-id="058-paragraph-white-paper-update">The white paper was last updated as of March 2022. As of 2025 over 125,000 ecobricks and 100 tons of AES plastic have been authenticated and their ecological value captured on our brikchain.</p><br>
     </div>
 </div>
 

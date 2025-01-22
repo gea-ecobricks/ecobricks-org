@@ -504,8 +504,6 @@ function openTransactionModal(tran_id) {
             modalContentBox.innerHTML = `<p>Error loading transaction details: ${error.message}</p>`;
         });
 
-    // Display the modal
-    modal.classList.remove('modal-hidden');
 }
 
 
