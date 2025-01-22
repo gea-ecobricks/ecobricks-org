@@ -168,12 +168,18 @@
 
     <div id="preclosed7">
 	<p data-lang-id="035-block 7-p1">Ecobricks are one of the few ways to ensure that plastic is indefinitely kept out of the waste industry and out of the biosphere.</p>
-	<p data-lang-id="036-block-7-p2">On GoBrik, each gram of plastic has been reviewed by independent ecobrickers to make sure that has been packed to GEA standards. Each gram of plastic is accounted for in our manual block chain system. Every ecobrick authentication is stored on our human searchable <a href ="https://www.gobrik.com/#brikchaing">brickchain</a> and every cash transaction is stored in our <a href ="https://www.gobrik.com/#openbooks">open books</a> accounting system.</p>
+	<p data-lang-id="036-block-7-p2">On GoBrik, each gram of plastic has been reviewed by independent ecobrickers to make sure that has been packed to GEA standards. Each gram of plastic is accounted for in our manual block chain system. Every ecobrick authentication is stored on our human searchable <a href ="https://www.gobrik.com/#brikchaing">brickchain</a> and every cash transaction is stored in our <a href =".../open-books.php">open books</a> accounting system.</p>
         <p data-lang-id="037-block-7-p3">Authenticated Ecobricked Plastic is…</p>
-        <p data-lang-id="030-block-6-p4">Despite the success of our first Jogja and NU apps, the logging functionality was significantly limited.  One could not see or track one’s personal ecobricking.  The logging thus became the responsibility of one or two trainers– the rest recording on paper for these people to process.</p>
-        <p data-lang-id="031-block-6-p5">With the insights that we have gleaned from our sociological observations of the spread of Ecobricks in Indonesia and the Philippines, coupled with our prototype app field testing, we went back to the drawing board.</p>
-        <p data-lang-id="032-block-6-p6">In early 2017, with the guidance of veteran programmers, crypto-currency experts, and data base designer, we had a massive breakthrough in our app development.  Having designed a relational database, we found the Knack.com platform to create it. Within two months the pieces were in place.  The second version of our Ecobricks app was launched in the second half of 2017.</p>
-        <p data-lang-id="033-block-6-p7">In mid 2018 our <a href="/brikcoins">Ecobrick & Brikcoin White Paper</a> was released and shortly thereafter our Brikcoin manual block chain.</p>
+	<ul>
+	        <li data-lang-id="038a-block-list-7-p4">Plastic that can no longer be contaminated with the Covid-19 virus</li>
+	        <li data-lang-id="038b-block-list-7-p4">Plastic that won’t degrade into microplastics, CO2 or green house gases</li>
+		<li data-lang-id="038c-block-list-7-p4">Plastic that can now be put to local use for shorterm household projects</li>
+		<li data-lang-id="038d-block-list-7-p4">Plastic that can be put to use to build earth and ecobrick green spaces</li>
+		<li data-lang-id="038e-block-list-7-p4">The result of a process that raises ecological awareness and lowers plastic consumption</li>
+	</ul>
+        <p data-lang-id="039-block-7-p5">The cost incurred in the ongoing sequestration of plastic through the maintenance and development of GoBrik are tracked in our <a href=".../open-books.php">Open Books</a>.  By comparing the past year’s net cost of running the platform vs. the amount amount of plastic authenticated in that year, enables us to determine the next year’s price per Kg.   This value also corresponds to the total Brikcoins generated in the year.  The purchase price of each Kg of plastic offset is thus at a set price and a set Brikcoin correlation– with the buyer’s personal or company account being credited with both plastic offsets and brikcoins.  The transaction is recorded in both our <a href="http://www.gobrik.com/#brikchain>blockchain"</a> and our <a href=".../open-books.php">open books.</p>
+        <p data-lang-id="040-block-7-p6">Offset purchases enables the GEA to continue our work.  Purchases also help float the fiat value of brikcoins– which distributes value and incentive for the entire ecobricker network.</p>
+        <p data-lang-id="041-block-7-p7"><a href="https://www.gobrik.com/#genesis">Buy Plastic Offset Credits</a></p>
     </div>
 </div>
 			
