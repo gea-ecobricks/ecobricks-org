@@ -182,7 +182,24 @@
         <p data-lang-id="041-block-7-p7"><a href="https://www.gobrik.com/#genesis">Buy Plastic Offset Credits</a></p>
     </div>
 </div>
-			
+
+<div class="reg-content-block" id="block8">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="042-block-8-header">A Global Ecobrick Alliance Project</h4>
+        </div>
+        <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed8">
+	<p data-lang-id="043-block 8-p1">The GoBrik platform and its development are managed by the Global Ecobrick Alliance.  The GEA is a not-for-profit Earth Enterprise, that operates under <a href=".../principles">regenerative principles</a> and a mission to support the global plastic transition movement.</p>
+	<p data-lang-id="044-block 8-p2">The GoBrik platform is our way of supporting the technological and philosophical infrastructure of the plastic transition movement. GoBrik helps maintain the clarity of the mandalic core pattern and intention of the ecobrick movement.  The platform promotes the terminologies, best practices and principles that continental ecobrick leaders have agreed upon and which are established in the <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia official ecobrick page</a>.</p>
+	<p data-lang-id="045-block 8-p3">As an independent Earth Enterprise that by principle does not accept government or corporation funding.  We strive to make our work open source and strive to use only platforms and services that are likewise open source.  GoBrik enables us to support and amplify the work and example of our 327 Trainers around the world, whose in-turn regular contributions helps us cover our maintenance and development costs. Teams of trainers work on the various aspects of development, translation, content and concept of the platform.</p>
+	<p data-lang-id="046-block 8-p4"><a href=".../about">More About the Global Ecobrick Alliance Earth Enterprise</a></p>
+    </div>
+</div>
+
+		
 <br><br>
 <div class="page-paragraph-reg">
     <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
