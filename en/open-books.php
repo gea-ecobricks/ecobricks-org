@@ -33,7 +33,7 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph" >
-<p>As of January 1st, 2025, the Global Ecobrick Alliance has fully divested of our USD holdings, accounting and US based financial platforms as we observe a connection between these and the ecocide and genocide in Palestine.  Moving forwards will be using Indonesian Rupiahs (IDR) for our accounting.</p>
+<p>As of January 1st, 2025, the Global Ecobrick Alliance's accounting will be fully in Indonesian Rupiahs.  The ongoing genocide in Gaza has made it clear to us the connection between our finances and the destructive dynamics of petro capital economy.  Consequently, we are closing all our USD accounts and ceasing our use of USD for accounting purposes.</p>
 
 			</div>
 
