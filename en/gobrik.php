@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='0.1';?>
+<?php $version='0.11';?>
 <?php $page='gobrik';?>
 <?php require_once ("../includes/gobrik-inc.php");?>
 <!--TOP PAGE BANNER-->
@@ -35,7 +35,7 @@
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">GoBrik is a social action platform providing ecobrickers and their communities around the world with the tools to log, track, exchange and manage their ecobricking.  GoBrik is a project of the <a href="about.php">Global Ecobrick Alliance (GEA) Earth Enterprise</a>.  Launched in 2017, GoBrik now connects 50,000 users and 5,000 communities from 120 countries through their <a href="https://www.ecobricks.org/what">ecobricking</a>.  The core of the platform is our community of planet passionate ecobrickers.  Through their hard word, our ecobrick authentication system is generating our <a href="https://www.ecobricks.org/brikcoins">brikcoin manual blockchain</a>.</p>
+				<p data-lang-id="005-first-page-paragraph">GoBrik is a social action platform providing ecobrickers and their communities around the world with the tools to log, track, exchange and manage their ecobricking.  GoBrik is a project of the <a href="about.php">Global Ecobrick Alliance (GEA) Earth Enterprise</a>.  Launched in 2017, GoBrik now connects 50,000 users and 5,000 communities from 120 countries through their <a href="what.php">ecobricking</a>.  The core of the platform is our community of planet passionate ecobrickers.  Through their hard word, our ecobrick authentication system is generating our <a href="brikcoins.php">brikcoin manual blockchain</a>.</p>
 			</div>
 
 			<div class="reg-content-block" id="block1">
@@ -63,6 +63,7 @@
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="012-block-2-header">Serving the People Serving the Planet</h4>
+            <h5 data-lang-id="012b-subheader">The GoBrik platform serves ecobrickers around the world, enabling them to manage their plastic transition.</h5>
         </div>
         <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">+</button>
     </div>
@@ -70,11 +71,11 @@
     <div id="preclosed2">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="013-block-2-main-p1">The GoBrik platform serves ecobrickers around the world, enabling them to manage their plastic transition.  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.</p>
+                <p data-lang-id="013-block-2-main-p1">  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.  Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. </p>
             </div>
         </div>
 
-	<p data-lang-id="014-block-2-sub-p2">Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.  Those who helped out with the validation, are rewarded with Brikcoins.</p>
+	<p data-lang-id="014-block-2-sub-p2">Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.  Those who helped out with the validation, are rewarded with Brikcoins.</p>
     </div>
 </div>
 
@@ -83,6 +84,7 @@
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="015-block-3-header">Ecobrick Authentications & Brikcoins</h4>
+            <h5>On GoBrik, the value of the ecological service of securing plastic from contaminating the biosphere is quantified.</h5>
         </div>
         <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
     </div>
@@ -90,16 +92,18 @@
     <div id="preclosed3">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="016-block-3-main-p1">On GoBrik, the value of the ecological service of securing plastic from contaminating the biosphere is quantified.   The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.</p>
+                <p data-lang-id="016-block-3-main-p1">   The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.  Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. </p>
             </div>
         </div>
 
-	<p data-lang-id="017-block-3-sub-p2">Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
+	<p data-lang-id="017-block-3-sub-p2">Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
 	<p> <a href="/brikcoin">Learn more about Brikcoins</a></p>
     </div>
 </div>
 
 
+
+<!--
 <div class="reg-content-block" id="block4">
     <div class="opener-header">
         <div class="opener-header-text">
@@ -117,8 +121,10 @@
         <p data-lang-id="021-block-4-p1">The GoBrik Regenerative Store is a new feature on GoBrik featuring GEA and Trainer products.  The store enables sellers to calculate the plastic and CO2 impact of their products before listing them on the store.  In this way, buyers can see a full accounting of the net impact of the product before they purchase it.  Products can be purchased in regular currency and in brikcoins.  Sellers who accept Brikcoin purchases can use their coins to purchase plastic offset credits.</p>
 	<p> <a href="/#shop">Browse the Regen Store</a></p>
     </div>
-</div>
+</div>-->
 
+
+<!--
 <div class="reg-content-block" id="block5">
     <div class="opener-header">
         <div class="opener-header-text">
@@ -138,6 +144,8 @@
 	<p> <a href="/#courses">Register for a course</a></p>
     </div>
 </div>
+-->
+
 
 <div class="reg-content-block" id="block6">
     <div class="opener-header">
@@ -162,6 +170,7 @@
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="034-block-7-header">Plastic Offset Credits</h4>
+            <h5>Purchase plastic and C02 credits from the GEA</h5>
         </div>
         <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7" aria-label="Plus">+</button>
     </div>
@@ -187,12 +196,13 @@
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="042-block-8-header">A Global Ecobrick Alliance Project</h4>
+            <h5>The GoBrik platform and its development are managed by the Global Ecobrick Alliance. </h5>
         </div>
         <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed8">
-	<p data-lang-id="043-block 8-p1">The GoBrik platform and its development are managed by the Global Ecobrick Alliance.  The GEA is a not-for-profit Earth Enterprise, that operates under <a href=".../principles">regenerative principles</a> and a mission to support the global plastic transition movement.</p>
+	<p data-lang-id="043-block 8-p1"> The GEA is a not-for-profit Earth Enterprise, that operates under <a href=".../principles">regenerative principles</a> and a mission to support the global plastic transition movement.</p>
 	<p data-lang-id="044-block 8-p2">The GoBrik platform is our way of supporting the technological and philosophical infrastructure of the plastic transition movement. GoBrik helps maintain the clarity of the mandalic core pattern and intention of the ecobrick movement.  The platform promotes the terminologies, best practices and principles that continental ecobrick leaders have agreed upon and which are established in the <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia official ecobrick page</a>.</p>
 	<p data-lang-id="045-block 8-p3">As an independent Earth Enterprise that by principle does not accept government or corporation funding.  We strive to make our work open source and strive to use only platforms and services that are likewise open source.  GoBrik enables us to support and amplify the work and example of our 327 Trainers around the world, whose in-turn regular contributions helps us cover our maintenance and development costs. Teams of trainers work on the various aspects of development, translation, content and concept of the platform.</p>
 	<p data-lang-id="046-block 8-p4"><a href=".../about">More About the Global Ecobrick Alliance Earth Enterprise</a></p>
@@ -203,20 +213,18 @@
 <br><br>
 <div class="page-paragraph-reg">
     <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
+    <h5>The challenge of plastic unites us across continents and cultures</h5>
     <p data-lang-id="076-final-paragraph-content1">Ecobricking is both an individual and collaborative endeavour. It unites across class, continents, and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raises awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individuals and communities hands-on experience of <a href="principles.php">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="earth.php">earth building</a> and permaculture.</p>
 	<br>
-    <h4 data-lang-id="077-learn-more-header">Learn More</h4>
-    <p data-lang-id="078-learn-more-content">The Global Ecobrick Alliance has developed extensive, free, and open-source resources (like this page!) to get you started ecobricking right. Our goal is to empower you and your community with the know-how to make ecobricks and build with them. The pages on this site are the result of years of research, experimentation, and trial and error by plastic transition leaders around the world.</p>
 
-    <ul>
-        <li data-lang-id="079-list-item1"><a href="/why">Why Make Ecobricks?</a></li>
-        <li data-lang-id="080-list-item2"><a href="how.php">How to Ecobrick?</a></li>
-        <li data-lang-id="081-list-item3"><a href="spiral.php">Spiral Design</a></li>
-        <li data-lang-id="082-list-item4"><a href="build.php">Building with Ecobricks</a></li>
-        <li data-lang-id="083-list-item5"><a href="movement.php">The Movement</a></li>
-        <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
-        <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
-    </ul>
+    <p data-lang-id="078-learn-more-content">Get started on GoBrik today with a free Buwana powered account.</p>
+
+    <div style="margin-top:35px">
+						<a class="action-btn" href="build.php" data-lang-id="096">🚀 GoBrik App</a>
+						<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="097">Open GoBrik.com in a new window</p>
+					</div>
+
+
 </div>
 
 </div>
@@ -226,15 +234,15 @@
 		<div class="side">
 
 
-<?php require_once ("side-modules/good-use.php");?>
+<?php require_once ("side-modules/brikcoin-live-values.php");?>
 
-<?php require_once ("side-modules/sequest-module.php");?>
+<?php require_once ("side-modules/eco-accounting.php");?>
 
-<?php require_once ("side-modules/signup-now.php");?>
+<?php require_once ("side-modules/ecobrick-of-the-month.php");?>
 
-<?php require_once ("side-modules/transition-module.php");?>
+<?php require_once ("side-modules/for-earth.php");?>
 
-<?php require_once ("side-modules/earthen-ethics.php");?>
+<?php require_once ("side-modules/offset-presentation.php");?>
 
 		</div>
 
