@@ -211,12 +211,30 @@
     </div>
 </div>
 
+<div class="reg-content-block" id="block9">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="026-block-9-header">Development Team</h4>
+            <h5>Our fully volunteer team of developers</h5>
+        </div>
+        <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed9">
+
+	<h4>Alan</h4>
+	<h4>Jo</h4>
+	<h4>Mike</h4>
+	<h4>Russell</h4>
+
+    </div>
+</div>
+
 		
 <br><br>
 <div class="page-paragraph-reg">
     <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
-    <h5>The challenge of plastic unites us across continents and cultures</h5>
-    <p data-lang-id="076-final-paragraph-content1">Ecobricking is both an individual and collaborative endeavour. It unites across class, continents, and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raises awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individuals and communities hands-on experience of <a href="principles.php">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="earth.php">earth building</a> and permaculture.</p>
+        <p data-lang-id="076-final-paragraph-content1">Ecobricking is both an individual and collaborative endeavour. It unites across class, continents, and cultures around the shared intention of caring for the local and global biosphere. The personal ecobricking process raises awareness of the consequences of consumption and the dangers of plastic to accelerate <a href="transition.php">plastic transition</a>. The collaborative process gives individuals and communities hands-on experience of <a href="principles.php">regenerative living</a> and points in the direction of other regenerative technologies, such as <a href="earth.php">earth building</a> and permaculture.</p>
 	<br>
 
     <p data-lang-id="078-learn-more-content">Get started on GoBrik today with a free Buwana powered account.</p>
