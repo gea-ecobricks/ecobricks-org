@@ -6,7 +6,7 @@
 <?php $lang='en';?>
 <?php $version='0.11';?>
 <?php $page='gobrik';?>
-<?php require_once ("../includes/gobrik-inc.php");?>
+<?php require_once ("../includes/$page-inc.php");?>
 <!--TOP PAGE BANNER-->
 
 <div class="splash-content-block">
