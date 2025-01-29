@@ -222,10 +222,13 @@
 
     <div id="preclosed9">
 
-	<h4>Alan</h4>
-	<h4>Jo</h4>
-	<h4>Mike</h4>
-	<h4>Russell</h4>
+	<h4>Alan Thompson - </h4>
+	<h4>Joseph O'Flanagan - Web Developer</h4>
+	<p>Joseph O'Flanagan is a programmer with knowledge of multiple different languages who is working on the very website you are reading right now. He has been working with the team to bring information about Global Ecobricks Alliance and Ecobriks up to date. Joe has previously been at Arval BNP Paribas and has been involved in charity organsations through working with Prospect Hospice. He joined the GEA team in 2023 and has worked with the team to help modernise the website.</p>
+	<h4>Mike O'Flanagan - </h4>
+	<p></p>
+	<h4>Russell Maier - Lead developer - GEA Co-Founder</h4>
+	<p>Russell Maier is one of the co-founders of the Global Ecobrick Alliance and has spearheaded the the spread of ecobricks in South East Asia and the UK. Russell’s regenerative inventions, ideas and projects have been covered by the BBC, the Guardian, the Jarkata post, hundreds of local media outlets and recently an hour long special on CNN Indonesia. With almost two decades of web development experience, an academic background in philosophy and a decade of leading large collaborative projects, Russell is the catalyst behind the Gobrik and Brikcoin projects. With a perspective gleaned from integrating in some of the most politically and economically challenged cultures on the planet — from refugee camps in Gaza, rainforests in Costa Rica, to four years living with the Igorots in the mountains of the Northern Philippines, Russell brings to the Brikcoin team, his passion for solving ecological and social challenges with a low tech, regenerative approach.</p>
 
     </div>
 </div>
