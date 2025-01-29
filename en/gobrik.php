@@ -42,7 +42,7 @@
 				<div class="opener-header">
 		        		<div class="opener-header-text">
 						<h4 data-lang-id="007-block-1-header">Our Vision</h4>
-						<h5 data-lang-id="008-block-1-subheader">We're firm believers that <i>'the problem is always the solution'</i>. And that includes plastic. Plastic is not just an ugly consequence of the petro-capital economy - it is our spring board to transcending it.</h5>
+						<h5 data-lang-id="008-block-1-subheader">We're firm believers that <i>'the problem is always the solution'</i>.  Including plastic.</h5>
 					</div>
 					<button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
 		    		</div>
@@ -50,6 +50,7 @@
 		    		<div id="preclosed1">
 				        <div class="row">
 				            <div class="main2">
+                                <p> And that includes plastic. Plastic is not just an ugly consequence of the petro-capital economy - it is our spring board to transcending it.</p>
 				                <p data-lang-id="009-block-1-main-p1">To solve plastic pollution and to transcend the petro-capital economy at the root of it, we must dive deep into... <i>plastic.</i> Rather than sending our personal plastic on polluting journeys, through ecobricking we can generate the building blocks and currency. By connecting ecobrickers- uniquely committed planet-passionate global citizens- GoBrik has a tremendously unique base of users who, like the GEA, are not motivated by capital or profit- but ecological and community concern.</p>
 				                <p data-lang-id="010-block-1-main-p2">United by this shared passion, ecobricking lays the foundation for much more than just ecobricking! With a shared currency, a shared metric and vision of plastic transition, our vision is of a decentralized app that can be deployted by regenerative communities around the world to coalesce their local efforts and unite them to the global movement.</p>
 				                <p data-lang-id="011-block-2-main-p3">In the recycling industry plastic is only valued as a raw material. GoBri enables us to value plastic for precisely the opposite: its removal from the global industrial system to be secured and put to good local use. Our vision os of the GoBrik platform doing just this- accelerating the sequestration of plastic and our transition from it. By generating ciurrency and connection on the valuation of their service, we envision not just making a dent in the millions of tons of plastic that will be produced in the next decade, but using that plastic as the building blocks for a whole new regenerative world.</p>
@@ -151,6 +152,7 @@
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="026-block-6-header">History</h4>
+            <h5>From 2017 onwards, GoBrik has been steadily unfolding!</h5>
         </div>
         <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6" aria-label="Plus">+</button>
     </div>
@@ -236,13 +238,11 @@
 
 <?php require_once ("side-modules/brikcoin-live-values.php");?>
 
-<?php require_once ("side-modules/eco-accounting.php");?>
-
-<?php require_once ("side-modules/ecobrick-of-the-month.php");?>
-
 <?php require_once ("side-modules/for-earth.php");?>
 
 <?php require_once ("side-modules/offset-presentation.php");?>
+
+<?php require_once ("side-modules/ecobrick-of-the-month.php");?>
 
 		</div>
 

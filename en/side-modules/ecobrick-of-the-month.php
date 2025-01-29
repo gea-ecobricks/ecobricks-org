@@ -4,9 +4,11 @@
 
 <?php
 
+require_once '../gobrikconn_env.php';
+
 $sql = "SELECT * FROM vw_top_10_last_month ;";
 
-    $result = $conn->query($sql);
+    $result = $gobrik_conn->query($sql);
 
     if ($result->num_rows > 0) {
 
