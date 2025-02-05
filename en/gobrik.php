@@ -102,138 +102,104 @@
     </div>
 </div>
 
-
-
-<!--
 <div class="reg-content-block" id="block4">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="018-block-4-header">Regen Store</h4>
+            <h4 data-lang-id="018-block-4-header">History</h4>
+            <h5>From 2017 onwards, GoBrik has been steadily unfolding!</h5>
         </div>
         <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed4">
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="019-block-4-main-p1">A Repository for Regenerative Products</p>
-            </div>		
-        </div>
-        <p data-lang-id="021-block-4-p1">The GoBrik Regenerative Store is a new feature on GoBrik featuring GEA and Trainer products.  The store enables sellers to calculate the plastic and CO2 impact of their products before listing them on the store.  In this way, buyers can see a full accounting of the net impact of the product before they purchase it.  Products can be purchased in regular currency and in brikcoins.  Sellers who accept Brikcoin purchases can use their coins to purchase plastic offset credits.</p>
-	<p> <a href="/#shop">Browse the Regen Store</a></p>
+	<p data-lang-id="019-block-4-p1">Over 2388 Ecobricks were logged in our first three month run of the first Ecobrick App in Jogja.</p>
+	<p data-lang-id="020-block-4-p2">From the very beginning, we observed that schools that kept track of their ecobricking were most likely to have the highest quality ecobricks, to build the coolest stuff, and to see the deepest plastic transition.  These schools were then able to speak of their success with solid numbers.  Inspired, we’re working to build the GoBrik app to help ecobrickers everywhere track and connect their ecobricking and we’re developing Brikcoins as a means to value the hard and valuable work of ecobrickers securing plastic from contaminating the biosphere.</p>
+        <p data-lang-id="021-block-4-p3">In March 2016, <a href="/new-ecobricks-web-app-launched">we launched the first version of our app</a> to a team of twenty trainers in the city of Jogjakarta, Indonesia.  Basically an upgraded google form embedded in a WordPress site, they were able to log the Ecobricking of hundreds of Jogjans over the course of three months.  In June 2016, we were able to host a ecobrick media event to unveil the Ecobricks that had been made in three months, as well as detailed statistics of the amount of plastic packed, participation and C02 sequestered.  This was followed by the launch of an improved app for NU, a large muslim organization in Jakarta.  Empowered with their own <a href="http://www.nu.ecobricks.org/">NU App</a>, they began logging and tracking their ecobricks.</p>
+        <p data-lang-id="022-block-4-p4">Despite the success of our first Jogja and NU apps, the logging functionality was significantly limited.  One could not see or track one’s personal ecobricking.  The logging thus became the responsibility of one or two trainers– the rest recording on paper for these people to process.</p>
+        <p data-lang-id="023-block-4-p5">With the insights that we have gleaned from our sociological observations of the spread of Ecobricks in Indonesia and the Philippines, coupled with our prototype app field testing, we went back to the drawing board.</p>
+        <p data-lang-id="024-block-4-p6">In early 2017, with the guidance of veteran programmers, crypto-currency experts, and data base designer, we had a massive breakthrough in our app development.  Having designed a relational database, we found the Knack.com platform to create it. Within two months the pieces were in place.  The second version of our Ecobricks app was launched in the second half of 2017.</p>
+        <p data-lang-id="025-block-4-p7">In mid 2018 our <a href="/brikcoins">Ecobrick & Brikcoin White Paper</a> was released and shortly thereafter our Brikcoin manual block chain.</p>
     </div>
-</div>-->
+</div>
 
-
-<!--
 <div class="reg-content-block" id="block5">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="022-block-5-header">Live Community Courses</h4>
+            <h4 data-lang-id="026-block-5-header">Plastic Offset Credits</h4>
+            <h5>Purchase plastic and C02 credits from the GEA</h5>
         </div>
         <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed5">
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="023-block-5-main-p1">GoBrik is the repository for GEA Courses</p>
-            </div>		
-        </div>
-        <p data-lang-id="024-block-5-p1">The Global Ecobrick Alliance uses GoBrik to list and promote its full range of courses.  Our <a href="/#map">interactive trainer map</a> can be used to find a GEA Trainer near you and book a live starter workshop in your community.  Our full listing of online courses can also be found– from ecobrick starter workshops, to trainer of trainers.   Users can register for courses using Brikcoins or normal currency. </p>
-        <p data-lang-id="025-block-5-p2">Shortly, our full network of trainers will be able to use the platform to list and manage their own courses.</p>
-	<p> <a href="/#courses">Register for a course</a></p>
+	<p data-lang-id="027-block 5-p1">Ecobricks are one of the few ways to ensure that plastic is indefinitely kept out of the waste industry and out of the biosphere.</p>
+	<p data-lang-id="028-block-5-p2">On GoBrik, each gram of plastic has been reviewed by independent ecobrickers to make sure that has been packed to GEA standards. Each gram of plastic is accounted for in our manual block chain system. Every ecobrick authentication is stored on our human searchable <a href ="https://www.gobrik.com/#brikchaing">brickchain</a> and every cash transaction is stored in our <a href =".../open-books.php">open books</a> accounting system.</p>
+        <p data-lang-id="029-block-5-p3">Authenticated Ecobricked Plastic is…</p>
+	<ul>
+	        <li data-lang-id="030a-block-list-5-p4">Plastic that can no longer be contaminated with the Covid-19 virus</li>
+	        <li data-lang-id="030b-block-list-5-p4">Plastic that won’t degrade into microplastics, CO2 or green house gases</li>
+		<li data-lang-id="030c-block-list-5-p4">Plastic that can now be put to local use for shorterm household projects</li>
+		<li data-lang-id="030d-block-list-5-p4">Plastic that can be put to use to build earth and ecobrick green spaces</li>
+		<li data-lang-id="030e-block-list-5-p4">The result of a process that raises ecological awareness and lowers plastic consumption</li>
+	</ul>
+        <p data-lang-id="031-block-5-p5">The cost incurred in the ongoing sequestration of plastic through the maintenance and development of GoBrik are tracked in our <a href=".../open-books.php">Open Books</a>.  By comparing the past year’s net cost of running the platform vs. the amount amount of plastic authenticated in that year, enables us to determine the next year’s price per Kg.   This value also corresponds to the total Brikcoins generated in the year.  The purchase price of each Kg of plastic offset is thus at a set price and a set Brikcoin correlation– with the buyer’s personal or company account being credited with both plastic offsets and brikcoins.  The transaction is recorded in both our <a href="http://www.gobrik.com/#brikchain>blockchain"</a> and our <a href=".../open-books.php">open books.</p>
+        <p data-lang-id="032-block-5-p6">Offset purchases enables the GEA to continue our work.  Purchases also help float the fiat value of brikcoins– which distributes value and incentive for the entire ecobricker network.</p>
+        <p data-lang-id="033-block-5-p7"><a href="https://www.gobrik.com/#genesis">Buy Plastic Offset Credits</a></p>
     </div>
 </div>
--->
-
 
 <div class="reg-content-block" id="block6">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="026-block-6-header">History</h4>
-            <h5>From 2017 onwards, GoBrik has been steadily unfolding!</h5>
+            <h4 data-lang-id="034-block-6-header">A Global Ecobrick Alliance Project</h4>
+            <h5>The GoBrik platform and its development are managed by the Global Ecobrick Alliance. </h5>
         </div>
-        <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6" aria-label="Plus">+</button>
+        <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show8" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed6">
-	<p data-lang-id="027-block-6-p1">Over 2388 Ecobricks were logged in our first three month run of the first Ecobrick App in Jogja.</p>
-	<p data-lang-id="028-block-6-p2">From the very beginning, we observed that schools that kept track of their ecobricking were most likely to have the highest quality ecobricks, to build the coolest stuff, and to see the deepest plastic transition.  These schools were then able to speak of their success with solid numbers.  Inspired, we’re working to build the GoBrik app to help ecobrickers everywhere track and connect their ecobricking and we’re developing Brikcoins as a means to value the hard and valuable work of ecobrickers securing plastic from contaminating the biosphere.</p>
-        <p data-lang-id="029-block-6-p3">In March 2016, <a href="/new-ecobricks-web-app-launched">we launched the first version of our app</a> to a team of twenty trainers in the city of Jogjakarta, Indonesia.  Basically an upgraded google form embedded in a WordPress site, they were able to log the Ecobricking of hundreds of Jogjans over the course of three months.  In June 2016, we were able to host a ecobrick media event to unveil the Ecobricks that had been made in three months, as well as detailed statistics of the amount of plastic packed, participation and C02 sequestered.  This was followed by the launch of an improved app for NU, a large muslim organization in Jakarta.  Empowered with their own <a href="http://www.nu.ecobricks.org/">NU App</a>, they began logging and tracking their ecobricks.</p>
-        <p data-lang-id="030-block-6-p4">Despite the success of our first Jogja and NU apps, the logging functionality was significantly limited.  One could not see or track one’s personal ecobricking.  The logging thus became the responsibility of one or two trainers– the rest recording on paper for these people to process.</p>
-        <p data-lang-id="031-block-6-p5">With the insights that we have gleaned from our sociological observations of the spread of Ecobricks in Indonesia and the Philippines, coupled with our prototype app field testing, we went back to the drawing board.</p>
-        <p data-lang-id="032-block-6-p6">In early 2017, with the guidance of veteran programmers, crypto-currency experts, and data base designer, we had a massive breakthrough in our app development.  Having designed a relational database, we found the Knack.com platform to create it. Within two months the pieces were in place.  The second version of our Ecobricks app was launched in the second half of 2017.</p>
-        <p data-lang-id="033-block-6-p7">In mid 2018 our <a href="/brikcoins">Ecobrick & Brikcoin White Paper</a> was released and shortly thereafter our Brikcoin manual block chain.</p>
+	<p data-lang-id="035-block 6-p1"> The GEA is a not-for-profit Earth Enterprise, that operates under <a href=".../principles">regenerative principles</a> and a mission to support the global plastic transition movement.</p>
+	<p data-lang-id="036-block 6-p2">The GoBrik platform is our way of supporting the technological and philosophical infrastructure of the plastic transition movement. GoBrik helps maintain the clarity of the mandalic core pattern and intention of the ecobrick movement.  The platform promotes the terminologies, best practices and principles that continental ecobrick leaders have agreed upon and which are established in the <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia official ecobrick page</a>.</p>
+	<p data-lang-id="037-block 6-p3">As an independent Earth Enterprise that by principle does not accept government or corporation funding.  We strive to make our work open source and strive to use only platforms and services that are likewise open source.  GoBrik enables us to support and amplify the work and example of our 327 Trainers around the world, whose in-turn regular contributions helps us cover our maintenance and development costs. Teams of trainers work on the various aspects of development, translation, content and concept of the platform.</p>
+	<p data-lang-id="038-block 6-p4"><a href=".../about">More About the Global Ecobrick Alliance Earth Enterprise</a></p>
     </div>
 </div>
 
 <div class="reg-content-block" id="block7">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="034-block-7-header">Plastic Offset Credits</h4>
-            <h5>Purchase plastic and C02 credits from the GEA</h5>
+            <h4 data-lang-id="039-block-7-header">Development Team</h4>
+            <h5>Our fully volunteer team of developers</h5>
         </div>
         <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed7">
-	<p data-lang-id="035-block 7-p1">Ecobricks are one of the few ways to ensure that plastic is indefinitely kept out of the waste industry and out of the biosphere.</p>
-	<p data-lang-id="036-block-7-p2">On GoBrik, each gram of plastic has been reviewed by independent ecobrickers to make sure that has been packed to GEA standards. Each gram of plastic is accounted for in our manual block chain system. Every ecobrick authentication is stored on our human searchable <a href ="https://www.gobrik.com/#brikchaing">brickchain</a> and every cash transaction is stored in our <a href =".../open-books.php">open books</a> accounting system.</p>
-        <p data-lang-id="037-block-7-p3">Authenticated Ecobricked Plastic is…</p>
-	<ul>
-	        <li data-lang-id="038a-block-list-7-p4">Plastic that can no longer be contaminated with the Covid-19 virus</li>
-	        <li data-lang-id="038b-block-list-7-p4">Plastic that won’t degrade into microplastics, CO2 or green house gases</li>
-		<li data-lang-id="038c-block-list-7-p4">Plastic that can now be put to local use for shorterm household projects</li>
-		<li data-lang-id="038d-block-list-7-p4">Plastic that can be put to use to build earth and ecobrick green spaces</li>
-		<li data-lang-id="038e-block-list-7-p4">The result of a process that raises ecological awareness and lowers plastic consumption</li>
-	</ul>
-        <p data-lang-id="039-block-7-p5">The cost incurred in the ongoing sequestration of plastic through the maintenance and development of GoBrik are tracked in our <a href=".../open-books.php">Open Books</a>.  By comparing the past year’s net cost of running the platform vs. the amount amount of plastic authenticated in that year, enables us to determine the next year’s price per Kg.   This value also corresponds to the total Brikcoins generated in the year.  The purchase price of each Kg of plastic offset is thus at a set price and a set Brikcoin correlation– with the buyer’s personal or company account being credited with both plastic offsets and brikcoins.  The transaction is recorded in both our <a href="http://www.gobrik.com/#brikchain>blockchain"</a> and our <a href=".../open-books.php">open books.</p>
-        <p data-lang-id="040-block-7-p6">Offset purchases enables the GEA to continue our work.  Purchases also help float the fiat value of brikcoins– which distributes value and incentive for the entire ecobricker network.</p>
-        <p data-lang-id="041-block-7-p7"><a href="https://www.gobrik.com/#genesis">Buy Plastic Offset Credits</a></p>
+
+	<h4 data-lang-id="040-block 7-ph1">Alan Thompson - </h4>
+	<p data-lang-id="041-block 7-p1"></p>
+	<h4 data-lang-id="042-block 7-ph2">Joseph O'Flanagan - Web Developer</h4>
+	<p data-lang-id="043-block 7-p2">Joseph O'Flanagan is a programmer with knowledge of multiple different languages who is working on this very website. He has been working with the team to bring information about Global Ecobricks Alliance and Ecobriks up to date. Joe has previously been at Arval BNP Paribas and has been involved in charity organsations through working with Prospect Hospice. He joined the GEA team in 2023 and has worked with the team to help modernise the website.</p>
+	<h4 data-lang-id="044-block 7-ph3">Mike O'Flanagan - </h4>
+	<p data-lang-id="045-block 7-p3"></p>
+	<h4 data-lang-id="046-block 7-ph4">Russell Maier - Lead developer - GEA Co-Founder</h4>
+	<p data-lang-id="047-block 7-p4">Russell Maier is one of the co-founders of the Global Ecobrick Alliance and has spearheaded the the spread of ecobricks in South East Asia and the UK. Russell’s regenerative inventions, ideas and projects have been covered by the BBC, the Guardian, the Jarkata post, hundreds of local media outlets and recently an hour long special on CNN Indonesia. With almost two decades of web development experience, an academic background in philosophy and a decade of leading large collaborative projects, Russell is the catalyst behind the Gobrik and Brikcoin projects. With a perspective gleaned from integrating in some of the most politically and economically challenged cultures on the planet — from refugee camps in Gaza, rainforests in Costa Rica, to four years living with the Igorots in the mountains of the Northern Philippines, Russell brings to the Brikcoin team, his passion for solving ecological and social challenges with a low tech, regenerative approach.</p>
+
     </div>
 </div>
 
 <div class="reg-content-block" id="block8">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="042-block-8-header">A Global Ecobrick Alliance Project</h4>
-            <h5>The GoBrik platform and its development are managed by the Global Ecobrick Alliance. </h5>
+            <h4 data-lang-id="048-block-8-header">Corporate sponsors</h4>
         </div>
         <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8" aria-label="Plus">+</button>
     </div>
 
     <div id="preclosed8">
-	<p data-lang-id="043-block 8-p1"> The GEA is a not-for-profit Earth Enterprise, that operates under <a href=".../principles">regenerative principles</a> and a mission to support the global plastic transition movement.</p>
-	<p data-lang-id="044-block 8-p2">The GoBrik platform is our way of supporting the technological and philosophical infrastructure of the plastic transition movement. GoBrik helps maintain the clarity of the mandalic core pattern and intention of the ecobrick movement.  The platform promotes the terminologies, best practices and principles that continental ecobrick leaders have agreed upon and which are established in the <a href="https://en.wikipedia.org/wiki/Ecobricks">wikipedia official ecobrick page</a>.</p>
-	<p data-lang-id="045-block 8-p3">As an independent Earth Enterprise that by principle does not accept government or corporation funding.  We strive to make our work open source and strive to use only platforms and services that are likewise open source.  GoBrik enables us to support and amplify the work and example of our 327 Trainers around the world, whose in-turn regular contributions helps us cover our maintenance and development costs. Teams of trainers work on the various aspects of development, translation, content and concept of the platform.</p>
-	<p data-lang-id="046-block 8-p4"><a href=".../about">More About the Global Ecobrick Alliance Earth Enterprise</a></p>
-    </div>
-</div>
-
-<div class="reg-content-block" id="block9">
-    <div class="opener-header">
-        <div class="opener-header-text">
-            <h4 data-lang-id="026-block-9-header">Development Team</h4>
-            <h5>Our fully volunteer team of developers</h5>
-        </div>
-        <button onclick="preclosed9()" class="block-toggle" id="block-toggle-show9" aria-label="Plus">+</button>
+	<p data-lang-id="049-block 8-p1">None.</p>
     </div>
 
-    <div id="preclosed9">
-
-	<h4>Alan Thompson - </h4>
-	<h4>Joseph O'Flanagan - Web Developer</h4>
-	<p>Joseph O'Flanagan is a programmer with knowledge of multiple different languages who is working on the very website you are reading right now. He has been working with the team to bring information about Global Ecobricks Alliance and Ecobriks up to date. Joe has previously been at Arval BNP Paribas and has been involved in charity organsations through working with Prospect Hospice. He joined the GEA team in 2023 and has worked with the team to help modernise the website.</p>
-	<h4>Mike O'Flanagan - </h4>
-	<p></p>
-	<h4>Russell Maier - Lead developer - GEA Co-Founder</h4>
-	<p>Russell Maier is one of the co-founders of the Global Ecobrick Alliance and has spearheaded the the spread of ecobricks in South East Asia and the UK. Russell’s regenerative inventions, ideas and projects have been covered by the BBC, the Guardian, the Jarkata post, hundreds of local media outlets and recently an hour long special on CNN Indonesia. With almost two decades of web development experience, an academic background in philosophy and a decade of leading large collaborative projects, Russell is the catalyst behind the Gobrik and Brikcoin projects. With a perspective gleaned from integrating in some of the most politically and economically challenged cultures on the planet — from refugee camps in Gaza, rainforests in Costa Rica, to four years living with the Igorots in the mountains of the Northern Philippines, Russell brings to the Brikcoin team, his passion for solving ecological and social challenges with a low tech, regenerative approach.</p>
-
-    </div>
-</div>
-
-		
 <br><br>
 <div class="page-paragraph-reg">
     <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
