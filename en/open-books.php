@@ -139,7 +139,7 @@ try {
                 <li>Avg AES Price: ' . number_format($avg_cost, 2) . ' IDR</li>-->
             </ul>
             <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="006-current-pricing">
-                The price per kg of <a href="offset.php">of AES plastic offsets</a> is a function of system authenticataed plastic and GEA system expenses.
+                The price per kg of <a href="offsets.php">of AES plastic offsets</a> is a function of system authenticataed plastic and GEA system expenses.
             </p>
         </div>
     </div>';
@@ -417,86 +417,78 @@ try {
 
 
 	
+<div class="reg-content-block" id="block5">
 
-			<div class="reg-content-block" id="block5">
-				
-				<div class="opener-header">
-					
-				<div class="opener-header-text">
-					<h4 data-lang-id="039-year-summaries-title">Year Summaries</h4>
-					<h5 data-lang-id="040-year-summaries-description">OpenBooks totals from 2019 to current year.</h5>
-				</div>
-
-					<button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
-		
-				</div>
-		
-				<div id="preclosed5">
-    <br><br>
-    <div class="overflow">
-        <?php
-        // Fetch total expenses by year
-        $sql = "SELECT * FROM vw_tot_exp_by_year ORDER BY `year` DESC;";
-        $result = $gobrik_conn->query($sql);
-
-        if ($result->num_rows > 0) {
-            echo '<table id="brikchain" class="display">
-                    <thead>
-                        <tr>
-                            <th>Year</th>
-                            <th>Transactions</th>
-                            <th>Expenses (USD)</th>
-                            <th>Expenses (IDR)</th>
-                        </tr>
-                    </thead>
-                    <tbody>';
-            while ($row = $result->fetch_assoc()) {
-                echo "<tr>
-                        <td>{$row["year"]}</td>
-                        <td>{$row["total_no_of_exp_transactions"]}</td>
-                        <td>{$row["total_exp_usd_amount"]}&#8202;$ USD</td>
-                        <td>{$row["total_exp_idr_amount"]} IDR</td>
-                      </tr>";
-            }
-            echo '</tbody></table>';
-        } else {
-            echo "No expense data available.";
-        }
-        ?>
-        <br><br>
-
-        <?php
-        // Fetch total revenues by year
-        $sql = "SELECT * FROM vw_tot_rev_by_year ORDER BY `year` DESC;";
-        $result = $gobrik_conn->query($sql);
-
-        if ($result->num_rows > 0) {
-            echo '<table id="brikchain" class="display">
-                    <thead>
-                        <tr>
-                            <th>Year</th>
-                            <th>Transactions</th>
-                            <th>Revenues (USD)</th>
-                            <th>Revenues (IDR)</th>
-                        </tr>
-                    </thead>
-                    <tbody>';
-            while ($row = $result->fetch_assoc()) {
-                echo "<tr>
-                        <td>{$row["year"]}</td>
-                        <td>{$row["total_no_of_rev_transactions"]}</td>
-                        <td>{$row["total_rev_usd_amount"]}&#8202;$ USD</td>
-                        <td>{$row["total_rev_idr_amount"]} IDR</td>
-                      </tr>";
-            }
-            echo '</tbody></table>';
-        } else {
-            echo "No revenue data available.";
-        }
-        ?>
-        <br><br>
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="039-year-summaries-title">Year Summaries</h4>
+            <h5 data-lang-id="040-year-summaries-description">OpenBooks totals from 2019 to current year.</h5>
+        </div>
+        <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
     </div>
-</div>
+
+    <div id="preclosed5">
+        <br><br>
+        <div class="overflow">
+            <?php
+            // Fetch total expenses by year
+            $sql = "SELECT year, total_no_of_exp_transactions, total_exp_idr_amount FROM vw_tot_exp_by_year ORDER BY `year` DESC;";
+            $result = $gobrik_conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                echo '<table id="brikchain" class="display">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Transactions</th>
+                                <th>Expenses (IDR)</th>
+                            </tr>
+                        </thead>
+                        <tbody>';
+                while ($row = $result->fetch_assoc()) {
+                    echo "<tr>
+                            <td>{$row["year"]}</td>
+                            <td>{$row["total_no_of_exp_transactions"]}</td>
+                            <td>{$row["total_exp_idr_amount"]} IDR</td>
+                          </tr>";
+                }
+                echo '</tbody></table>';
+            } else {
+                echo "No expense data available.";
+            }
+            ?>
+            <br><br>
+
+            <?php
+            // Fetch total revenues by year
+            $sql = "SELECT year, total_no_of_rev_transactions, total_rev_idr_amount FROM vw_tot_rev_by_year ORDER BY `year` DESC;";
+            $result = $gobrik_conn->query($sql);
+
+            if ($result->num_rows > 0) {
+                echo '<table id="brikchain" class="display">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Transactions</th>
+                                <th>Revenues (IDR)</th>
+                            </tr>
+                        </thead>
+                        <tbody>';
+                while ($row = $result->fetch_assoc()) {
+                    echo "<tr>
+                            <td>{$row["year"]}</td>
+                            <td>{$row["total_no_of_rev_transactions"]}</td>
+                            <td>{$row["total_rev_idr_amount"]} IDR</td>
+                          </tr>";
+                }
+                echo '</tbody></table>';
+            } else {
+                echo "No revenue data available.";
+            }
+            ?>
+            <br><br>
+        </div>
+    </div>
 </div>
 
 
@@ -524,26 +516,7 @@ try {
 							
 					<div class="overflow">
 
-					<?php
 
-	$sql = "SELECT * FROM vw_detail_sums_by_year WHERE year > 2018 Order by `year` DESC ;";
-
-	$result = $gobrik_conn->query($sql);
-
-	if ($result->num_rows > 0) {
-
-		echo'<table id="brikchain" class="display"><tr><th>Year</th><th>BRK Generated</th><th>Total AES plastic</th><th>GEA Year Expenses</th><th>1kg AES Value</th></tr>';
-
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-
-		echo "<tr><td>".$row["year"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["calculated_weight"]."&#8202;Kg</td><td>".$row["tot_idr_exp_amt"]."&#8202;$ USD</td><td>".$row["final_aes_plastic_cost_idr"]." &#8202;$ USD</td></tr>";
-		}
-		echo "</table>";
-	} else {
-		echo "0 results";
-	}
-	?>
 
 	<?php
 
