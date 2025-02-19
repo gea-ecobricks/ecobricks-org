@@ -262,8 +262,8 @@ try {
 
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="033-current-year-expenses-title">Current Year Expenses</h4>
-            <h5 data-lang-id="034-current-year-expenses-summary">A summary of the GEA's current year expenses.</h5>
+            <h4 data-lang-id="033-current-year-expenses-title">2024 Year Expenses</h4>
+            <h5 data-lang-id="034-current-year-expenses-summary">(2025 Pending) A summary of the GEA's current year expenses.</h5>
             <div class="ecobrick-data">
                 <p data-lang-id="010b-live-data"><span class="blink">◉  </span> Data live & current</p>
             </div>
@@ -339,8 +339,8 @@ try {
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="036-current-year-revenue-title">Current Year Revenue</h4>
-            <h5 data-lang-id="037-current-year-revenue-summary">A summary of the GEA's current year revenue.</h5>
+            <h4 data-lang-id="036-current-year-revenue-title">2024 Year Revenue</h4>
+            <h5 data-lang-id="037-current-year-revenue-summary">(2025 Pending) A summary of the GEA's current year revenue.</h5>
             <div class="ecobrick-data">
                 <p data-lang-id="010b-live-data"><span class="blink">⬤  </span> Data live & current</p>
             </div>
@@ -498,6 +498,9 @@ try {
     </div>
 </div>
 </div>
+
+
+
 
 
 
