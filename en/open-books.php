@@ -258,8 +258,7 @@ try {
 	
 
 
-
-	<div class="reg-content-block" id="block1">
+<div class="reg-content-block" id="block1">
 
     <div class="opener-header">
         <div class="opener-header-text">
@@ -276,7 +275,7 @@ try {
         <div class="overflow">
             <?php
             // Fetch expenses by year and category
-            $sql = "SELECT * FROM vw_exp_by_year_category WHERE year = 2024 ORDER BY expense_category;";
+            $sql = "SELECT expense_category, no_of_transactions, total_idr FROM vw_exp_by_year_category WHERE year = 2024 ORDER BY expense_category;";
             $result = $gobrik_conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -285,7 +284,6 @@ try {
                             <tr>
                                 <th>Expense</th>
                                 <th>Transaction Count</th>
-                                <th>Year Total (USD)</th>
                                 <th>Year Total (IDR)</th>
                             </tr>
                         </thead>
@@ -294,7 +292,6 @@ try {
                     echo "<tr>
                             <td>{$row["expense_category"]}</td>
                             <td>{$row["no_of_transactions"]}</td>
-                            <td>{$row["total_usd"]}&#8202;$ USD</td>
                             <td>{$row["total_idr"]} IDR</td>
                           </tr>";
                 }
@@ -307,7 +304,7 @@ try {
 
             <?php
             // Fetch total expenses for the year
-            $sql = "SELECT * FROM vw_tot_exp_by_year WHERE year = 2024;";
+            $sql = "SELECT year, total_no_of_exp_transactions, total_exp_idr_amount FROM vw_tot_exp_by_year WHERE year = 2024;";
             $result = $gobrik_conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -316,7 +313,6 @@ try {
                             <tr>
                                 <th>Year</th>
                                 <th>Total Transactions</th>
-                                <th>Total Expenses (USD)</th>
                                 <th>Total Expenses (IDR)</th>
                             </tr>
                         </thead>
@@ -325,7 +321,6 @@ try {
                     echo "<tr>
                             <td>{$row["year"]}</td>
                             <td>{$row["total_no_of_exp_transactions"]}</td>
-                            <td>{$row["total_exp_usd_amount"]}&#8202;$ USD</td>
                             <td>{$row["total_exp_idr_amount"]} IDR</td>
                           </tr>";
                 }
@@ -357,7 +352,7 @@ try {
         <div class="overflow">
             <?php
             // Fetch revenues by year and category
-            $sql = "SELECT * FROM vw_rev_by_year_category WHERE year = 2024 ORDER BY revenue_category;";
+            $sql = "SELECT revenue_category, no_of_transactions, total_idr FROM vw_rev_by_year_category WHERE year = 2024 ORDER BY revenue_category;";
             $result = $gobrik_conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -366,7 +361,6 @@ try {
                             <tr>
                                 <th>Category</th>
                                 <th>Transactions</th>
-                                <th>Year Total (USD)</th>
                                 <th>Year Total (IDR)</th>
                             </tr>
                         </thead>
@@ -375,7 +369,6 @@ try {
                     echo "<tr>
                             <td>{$row["revenue_category"]}</td>
                             <td>{$row["no_of_transactions"]}</td>
-                            <td>{$row["total_usd"]}&#8202;$ USD</td>
                             <td>{$row["total_idr"]} IDR</td>
                           </tr>";
                 }
@@ -388,7 +381,7 @@ try {
 
             <?php
             // Fetch total revenues for the year
-            $sql = "SELECT * FROM vw_tot_rev_by_year WHERE year = 2024;";
+            $sql = "SELECT year, total_no_of_rev_transactions, total_rev_idr_amount FROM vw_tot_rev_by_year WHERE year = 2024;";
             $result = $gobrik_conn->query($sql);
 
             if ($result->num_rows > 0) {
@@ -397,7 +390,6 @@ try {
                             <tr>
                                 <th>Year</th>
                                 <th>Total Transactions</th>
-                                <th>Total Revenue (USD)</th>
                                 <th>Total Revenue (IDR)</th>
                             </tr>
                         </thead>
@@ -406,7 +398,6 @@ try {
                     echo "<tr>
                             <td>{$row["year"]}</td>
                             <td>{$row["total_no_of_rev_transactions"]}</td>
-                            <td>{$row["total_rev_usd_amount"]}&#8202;$ USD</td>
                             <td>{$row["total_rev_idr_amount"]} IDR</td>
                           </tr>";
                 }
