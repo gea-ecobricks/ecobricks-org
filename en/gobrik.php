@@ -36,7 +36,7 @@
 
 			<div class="page-paragraph">
 				<p data-lang-id="005-first-page-paragraph">GoBrik is a social action platform providing ecobrickers and their communities around the world with the tools to log, track, exchange and manage their ecobricking.  GoBrik is a project of the <a href="about.php">Global Ecobrick Alliance (GEA) Earth Enterprise</a>.  Launched in 2017, GoBrik now connects 50,000 users and 5,000 communities from 120 countries through their <a href="what.php">ecobricking</a>.  The core of the platform is our community of planet passionate ecobrickers.  Through their hard word, our ecobrick authentication system is generating our <a href="brikcoins.php">brikcoin manual blockchain</a>.
-				<img src = ".../svgs/Ecobrick-and-Blue-Sky.svg"</p>
+				<img src=".../svgs/Ecobrick-and-Blue-Sky.svg" loading="lazy"></p>
 			</div>
 
 			<div class="reg-content-block" id="block1">
