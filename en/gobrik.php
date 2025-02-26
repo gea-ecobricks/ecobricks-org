@@ -72,6 +72,7 @@
     <div id="preclosed2">
         <div class="row">
             <div class="main2">
+		    <img src=".../svgs/serving-the-people.svg" loading ="lazy">
                 <p data-lang-id="013-block-2-main-p1">  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.  Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. </p>
             </div>
         </div>
@@ -132,8 +133,10 @@
     </div>
 
     <div id="preclosed5">
+	<img src =".../svgs/plastic-offset-credits1.svg" loading ="lazy>
 	<p data-lang-id="027-block 5-p1">Ecobricks are one of the few ways to ensure that plastic is indefinitely kept out of the waste industry and out of the biosphere.</p>
 	<p data-lang-id="028-block-5-p2">On GoBrik, each gram of plastic has been reviewed by independent ecobrickers to make sure that has been packed to GEA standards. Each gram of plastic is accounted for in our manual block chain system. Every ecobrick authentication is stored on our human searchable <a href ="https://www.gobrik.com/#brikchaing">brickchain</a> and every cash transaction is stored in our <a href =".../open-books.php">open books</a> accounting system.</p>
+	<img src =".../svgs/plastic-offset-credits2.svg" loading ="lazy>
         <p data-lang-id="029-block-5-p3">Authenticated Ecobricked Plastic is…</p>
 	<ul>
 	        <li data-lang-id="030a-block-list-5-p4">Plastic that can no longer be contaminated with the Covid-19 virus</li>
@@ -177,11 +180,11 @@
     <div id="preclosed7">
 
 	<h4 data-lang-id="040-block 7-ph1">Alan Thompson - </h4>
-	<p data-lang-id="041-block 7-p1"></p>
+	<p data-lang-id="041-block 7-p1">Alan Thompson is a former member of the Royal Air Force, working as a Telecommunications Technician and a Computer Programmer. He has worked as a Certified Internet Webmaster with experience in MS VB.Net, MS SQL Apllication, PHP, Postgress, MOODLE Virtual Learning Enviroment, Joomla and as a DotnetNuke CMS Developer using Open Source applications. He is currently learning about Python Frameworks for Web Development and also working with Open University.</p>
 	<h4 data-lang-id="042-block 7-ph2">Joseph O'Flanagan - Web Developer</h4>
-	<p data-lang-id="043-block 7-p2">Joseph O'Flanagan is a programmer with knowledge of multiple different languages who is working on this very website. He has been working with the team to bring information about Global Ecobricks Alliance and Ecobriks up to date. Joe has previously been at Arval BNP Paribas and has been involved in charity organsations through working with Prospect Hospice. He joined the GEA team in 2023 and has worked with the team to help modernise the website.</p>
+	<p data-lang-id="043-block 7-p2">Joseph O'Flanagan is a programmer with knowledge of multiple different languages who is working on this website. He has been working with the team to bring information about Global Ecobricks Alliance and Ecobriks up to date. Joe has previously been at Arval BNP Paribas and has been involved in charity organsations through working with Prospect Hospice. He joined the GEA team in 2023 and has worked with the team to help modernise the website.</p>
 	<h4 data-lang-id="044-block 7-ph3">Mike O'Flanagan - </h4>
-	<p data-lang-id="045-block 7-p3"></p>
+	<p data-lang-id="045-block 7-p3">Mike O'Flanagan is a retired data analyst whose background with mainframe programming, mainframe, Windows & Linux database systems has enabled him to make a unique and potent contribution to the development of the ecobricks.org backend database and maintaining the GoBrik.com relational database.</p>
 	<h4 data-lang-id="046-block 7-ph4">Russell Maier - Lead developer - GEA Co-Founder</h4>
 	<p data-lang-id="047-block 7-p4">Russell Maier is one of the co-founders of the Global Ecobrick Alliance and has spearheaded the the spread of ecobricks in South East Asia and the UK. Russell’s regenerative inventions, ideas and projects have been covered by the BBC, the Guardian, the Jarkata post, hundreds of local media outlets and recently an hour long special on CNN Indonesia. With almost two decades of web development experience, an academic background in philosophy and a decade of leading large collaborative projects, Russell is the catalyst behind the Gobrik and Brikcoin projects. With a perspective gleaned from integrating in some of the most politically and economically challenged cultures on the planet — from refugee camps in Gaza, rainforests in Costa Rica, to four years living with the Igorots in the mountains of the Northern Philippines, Russell brings to the Brikcoin team, his passion for solving ecological and social challenges with a low tech, regenerative approach.</p>
 
@@ -199,7 +202,7 @@
     <div id="preclosed8">
 	<p data-lang-id="049-block 8-p1">None.</p>
     </div>
-
+</div>
 <br><br>
 <div class="page-paragraph-reg">
     <h4 data-lang-id="075-final-paragraph-header">Personal & Community Empowerment</h4>
