@@ -36,7 +36,7 @@
 
 			<div class="page-paragraph">
 				<p data-lang-id="005-first-page-paragraph">GoBrik is a social action platform providing ecobrickers and their communities around the world with the tools to log, track, exchange and manage their ecobricking.  GoBrik is a project of the <a href="about.php">Global Ecobrick Alliance (GEA) Earth Enterprise</a>.  Launched in 2017, GoBrik now connects 50,000 users and 5,000 communities from 120 countries through their <a href="what.php">ecobricking</a>.  The core of the platform is our community of planet passionate ecobrickers.  Through their hard word, our ecobrick authentication system is generating our <a href="brikcoins.php">brikcoin manual blockchain</a>.
-				<img src=".../svgs/Ecobrick-and-Blue-Sky.svg" loading="lazy"></p>
+				<img src="../svgs/Ecobrick-and-Blue-Sky.svg" alt="" loading="lazy"></p>
 			</div>
 
 			<div class="reg-content-block" id="block1">
@@ -73,7 +73,7 @@
     <div id="preclosed2">
         <div class="row">
             <div class="main2">
-		    <img src=".../svgs/serving-the-people.svg" loading ="lazy">
+		    <img src="../svgs/serving-the-people.svg" loading ="lazy">
                 <p data-lang-id="013-block-2-main-p1">  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.  Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. </p>
             </div>
         </div>
@@ -134,10 +134,10 @@
     </div>
 
     <div id="preclosed5">
-	<img src =".../svgs/plastic-offset-credits1.svg" loading ="lazy>
+	<img src ="../svgs/plastic-offset-credits1.svg" loading ="lazy>
 	<p data-lang-id="027-block 5-p1">Ecobricks are one of the few ways to ensure that plastic is indefinitely kept out of the waste industry and out of the biosphere.</p>
 	<p data-lang-id="028-block-5-p2">On GoBrik, each gram of plastic has been reviewed by independent ecobrickers to make sure that has been packed to GEA standards. Each gram of plastic is accounted for in our manual block chain system. Every ecobrick authentication is stored on our human searchable <a href ="https://www.gobrik.com/#brikchaing">brickchain</a> and every cash transaction is stored in our <a href =".../open-books.php">open books</a> accounting system.</p>
-	<img src =".../svgs/plastic-offset-credits2.svg" loading ="lazy>
+	<img src ="../svgs/plastic-offset-credits2.svg" loading ="lazy>
         <p data-lang-id="029-block-5-p3">Authenticated Ecobricked Plastic is…</p>
 	<ul>
 	        <li data-lang-id="030a-block-list-5-p4">Plastic that can no longer be contaminated with the Covid-19 virus</li>
