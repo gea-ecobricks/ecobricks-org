@@ -237,63 +237,6 @@ try {
 
 			<div class="overflow">
 
-			<?php
-
-			$sql = "SELECT * FROM vw_detail_sums_by_year Order by `year` DESC;";
-
-			$result = $gobrik_conn->query($sql);
-
-			if ($result->num_rows > 0) {
-			
-				echo'<table id="brikchain" class="display">
-				<tr>
-					<th data-lang-id="035-year-header">Year</th>
-					<th data-lang-id="036-brk-generated-header">BRK Generated</th>
-					<!-- <th>Authenticated</th> -->
-					<th data-lang-id="037-calculated-aes-plastic-header">Calculated AES plastic</th>
-					<!-- <th>Tallied AES Plastic</th> -->
-					<th data-lang-id="038-gea-year-expenses-header">GEA Year Expenses</th>
-					<th data-lang-id="039-1kg-aes-value-header">1kg AES Value</th>
-				</tr>
-			';
-			
-			// output data of each row
-			while($row = $result->fetch_assoc()) {
-				
-				echo "<tr>
-				<td>".$row["year"]."</td>
-				<td>".$row["total_brk"]."&#8202;ß</td>
-				<!--<td>".$row["brick_count"]." ecobricks</td>-->
-				<td>".$row["calculated_weight"]."&#8202;Kg</td>
-				<!--<td>".$row["weight"]."&#8202;Kg</td>-->
-				<td>".$row["tot_usd_exp_amt"]."&#8202;$ USD</td>
-				<td>".$row["final_aes_plastic_cost"]."&#8202;$ USD</td>
-				</tr>"; 
-				}
-				echo "</table>";
-			} else {
-				echo "0 results";
-			}
-			?>
-			</div>
-		</div>
-	</div>
-
-	<div class="reg-content-block" id="block4">                
-    <div class="opener-header">
-        <div class="opener-header-text">
-            <h4 data-lang-id="040-total-brikcoin-pool-header">Total Brikcoin Pool</h4>
-            <h6 data-lang-id="041-running-yearly-totals-description">Running and yearly totals of brikcoins generated, destroyed and in circulation. </h6>
-            <div class="ecobrick-data"><p data-lang-id="042-data-live-current"><span class="blink">⬤  </span> Data live & current</p></div>
-        </div>        
-        <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
-    </div>
-
-		<div id="preclosed4">
-
-			<div class="overflow">
-	
-
 
 	<?php
 
@@ -326,7 +269,46 @@ if ($result->num_rows > 0) {
     echo "No results found.";
 }
 ?>
+			</div>
+		</div>
+	</div>
 
+	<div class="reg-content-block" id="block4">                
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="040-total-brikcoin-pool-header">Total Brikcoin Pool</h4>
+            <h6 data-lang-id="041-running-yearly-totals-description">Running and yearly totals of brikcoins generated, destroyed and in circulation. </h6>
+            <div class="ecobrick-data"><p data-lang-id="042-data-live-current"><span class="blink">⬤  </span> Data live & current</p></div>
+        </div>        
+        <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+    </div>
+
+		<div id="preclosed4">
+
+			<div class="overflow">
+	
+
+				<?php
+
+				$sql = "SELECT * FROM vw_sum_brk_total ;";
+
+				$result = $gobrik_conn->query($sql);
+
+				if ($result->num_rows > 0) {
+
+					echo'<table id="brikchain" class="display" ><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
+
+				// data-lang-id="042b-brik-total-table"  output data of each row
+				//until($row = $result->fetch_assoc()) {
+					$row = $result->fetch_assoc();
+					echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
+				//	}
+					echo "</table>";
+				} else {
+					echo "Failed to connect to database";
+				}
+
+			?>
 			</div>
 		</div>
 	</div>
