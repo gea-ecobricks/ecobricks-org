@@ -294,27 +294,39 @@ try {
 			<div class="overflow">
 	
 
-				<?php
 
-				$sql = "SELECT * FROM vw_sum_brk_total ;";
+	<?php
 
-				$result = $gobrik_conn->query($sql);
+$sql = "SELECT * FROM vw_detail_sums_by_year_idr WHERE year > 2018 ORDER BY `year` DESC;";
+$result = $gobrik_conn->query($sql);
 
-				if ($result->num_rows > 0) {
+if ($result->num_rows > 0) {
+    echo '<table id="brikchain" class="display">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>BRK Generated</th>
+                    <th>Total AES Plastic</th>
+                    <th>GEA Year Expenses (IDR)</th>
+                    <th>1kg AES Value (IDR)</th>
+                </tr>
+            </thead>
+            <tbody>';
+    while ($row = $result->fetch_assoc()) {
+        echo "<tr>
+                <td>{$row["year"]}</td>
+                <td>{$row["total_brk"]}&#8202;ß</td>
+                <td>{$row["calculated_weight"]}&#8202;Kg</td>
+                <td>{$row["tot_idr_exp_amt"]} IDR</td>
+                <td>{$row["final_aes_plastic_cost_idr"]} IDR</td>
+              </tr>";
+    }
+    echo '</tbody></table>';
+} else {
+    echo "No results found.";
+}
+?>
 
-					echo'<table id="brikchain" class="display" ><tr><th>From</th><th>To</th><th>Total BRK Generated</th><th>Total BRK Destroyed</th><th>Total Brikcoins</th></tr>';
-
-				// data-lang-id="042b-brik-total-table"  output data of each row
-				//until($row = $result->fetch_assoc()) {
-					$row = $result->fetch_assoc();
-					echo "<tr><td>".$row["from_date"]."</td><td>".$row["to_date"]."</td><td>".$row["total_brk"]."&#8202;ß</td><td>".$row["aes_purchased"]."&#8202;kg</td><td>".$row["net_brk_in_circulation"]."&#8202;ß</td></tr>";
-				//	}
-					echo "</table>";
-				} else {
-					echo "Failed to connect to database";
-				}
-
-			?>
 			</div>
 		</div>
 	</div>
