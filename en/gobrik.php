@@ -35,8 +35,8 @@
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">GoBrik is a social action platform providing ecobrickers and their communities around the world with the tools to log, track, exchange and manage their ecobricking.  GoBrik is a project of the <a href="about.php">Global Ecobrick Alliance (GEA) Earth Enterprise</a>.  Launched in 2017, GoBrik now connects 50,000 users and 5,000 communities from 120 countries through their <a href="what.php">ecobricking</a>.  The core of the platform is our community of planet passionate ecobrickers.  Through their hard word, our ecobrick authentication system is generating our <a href="brikcoins.php">brikcoin manual blockchain</a>.
-				<img src="../svgs/Ecobrick-and-Blue-Sky.svg" alt="" loading="lazy"></p>
+				<p <img class="alignright" src="../svgs/Ecobrick-and-Blue-Sky.svg" style="width:65%" alt="" loading="lazy">data-lang-id="005-first-page-paragraph">GoBrik is a social action platform providing ecobrickers and their communities around the world with the tools to log, track, exchange and manage their ecobricking.  GoBrik is a project of the <a href="about.php">Global Ecobrick Alliance (GEA) Earth Enterprise</a>.  Launched in 2017, GoBrik now connects 50,000 users and 5,000 communities from 120 countries through their <a href="what.php">ecobricking</a>.  The core of the platform is our community of planet passionate ecobrickers.  Through their hard word, our ecobrick authentication system is generating our <a href="brikcoins.php">brikcoin manual blockchain</a>.
+				</p>
 			</div>
 
 			<div class="reg-content-block" id="block1">
@@ -98,11 +98,11 @@
             <div class="main2">
     		<div class="splashimg3-1"><img src="../webp/ecobrick-authentications-brikcoin.webp" style="width:85%" loading ="lazy"></div>
                 <p data-lang-id="016b-block-3-main-p1"> The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.  Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. </p>
-		<div class="splash-sub">
-		    <p data-lang-id="017-block-3-sub-p2">Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
+		<div class="alignright"><img class="alignright" src="../webp/White-Paper-Icon.webp" style="width:65%" alt="Download our Brikcoin White Paper for a full description of the Brikcoin Manual Blockchain." loading ="lazy"></div>
+		<div class="main1">
+		<p data-lang-id="017-block-3-sub-p2">Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
 			<p> <a href="/brikcoin">Learn more about Brikcoins</a></p>
 		</div>
-		<div class="splashimg3-2><img src="../webp/White-Paper-Icon.webp" style="width:65%" loading ="lazy"></div>
             </div>
         </div>
     </div>
