@@ -51,10 +51,11 @@
 		    		<div id="preclosed1">
 				        <div class="row">
 				            <div class="main2">
-                                <p> And that includes plastic. Plastic is not just an ugly consequence of the petro-capital economy - it is our spring board to transcending it.</p>
-				                <p data-lang-id="009-block-1-main-p1">To solve plastic pollution and to transcend the petro-capital economy at the root of it, we must dive deep into... <i>plastic.</i> Rather than sending our personal plastic on polluting journeys, through ecobricking we can generate the building blocks and currency. By connecting ecobrickers- uniquely committed planet-passionate global citizens- GoBrik has a tremendously unique base of users who, like the GEA, are not motivated by capital or profit- but ecological and community concern.</p>
-				                <p data-lang-id="010-block-1-main-p2">United by this shared passion, ecobricking lays the foundation for much more than just ecobricking! With a shared currency, a shared metric and vision of plastic transition, our vision is of a decentralized app that can be deployted by regenerative communities around the world to coalesce their local efforts and unite them to the global movement.</p>
-				                <p data-lang-id="011-block-2-main-p3">In the recycling industry plastic is only valued as a raw material. GoBri enables us to value plastic for precisely the opposite: its removal from the global industrial system to be secured and put to good local use. Our vision os of the GoBrik platform doing just this- accelerating the sequestration of plastic and our transition from it. By generating ciurrency and connection on the valuation of their service, we envision not just making a dent in the millions of tons of plastic that will be produced in the next decade, but using that plastic as the building blocks for a whole new regenerative world.</p>
+				    		<div class="splashimg1-1"><img src="../webp/our-vision.webp" loading ="lazy"></div>
+                                		<p data-lang-id="009-block-1-main-p1"> And that includes plastic. Plastic is not just an ugly consequence of the petro-capital economy - it is our spring board to transcending it.</p>
+				                <p data-lang-id="010-block-2-main-p2">To solve plastic pollution and to transcend the petro-capital economy at the root of it, we must dive deep into... <i>plastic.</i> Rather than sending our personal plastic on polluting journeys, through ecobricking we can generate the building blocks and currency. By connecting ecobrickers- uniquely committed planet-passionate global citizens- GoBrik has a tremendously unique base of users who, like the GEA, are not motivated by capital or profit- but ecological and community concern.</p>
+				                <p data-lang-id="011-block-3-main-p3">United by this shared passion, ecobricking lays the foundation for much more than just ecobricking! With a shared currency, a shared metric and vision of plastic transition, our vision is of a decentralized app that can be deployted by regenerative communities around the world to coalesce their local efforts and unite them to the global movement.</p>
+				                <p data-lang-id="012-block-4-main-p4">In the recycling industry plastic is only valued as a raw material. GoBri enables us to value plastic for precisely the opposite: its removal from the global industrial system to be secured and put to good local use. Our vision os of the GoBrik platform doing just this- accelerating the sequestration of plastic and our transition from it. By generating ciurrency and connection on the valuation of their service, we envision not just making a dent in the millions of tons of plastic that will be produced in the next decade, but using that plastic as the building blocks for a whole new regenerative world.</p>
 						</div>
 				        </div>
 				</div>
@@ -64,8 +65,8 @@
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="012-block-2-header">Serving the People Serving the Planet</h4>
-            <h5 data-lang-id="012b-subheader">The GoBrik platform serves ecobrickers around the world, enabling them to manage their plastic transition.</h5>
+            <h4 data-lang-id="013-block-2-header">Serving the People Serving the Planet</h4>
+            <h5 data-lang-id="014-subheader">The GoBrik platform serves ecobrickers around the world, enabling them to manage their plastic transition.</h5>
         </div>
         <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">+</button>
     </div>
@@ -74,11 +75,11 @@
         <div class="row">
             <div class="main2">
 		<div class="splashimg2-1"><img src="../svgs/serving-the-people.svg" loading ="lazy"></div>
-                <p data-lang-id="013-block-2-main-p1">  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.  Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. </p>
+                <p data-lang-id="015-block-2-main-p1">  GoBrik offers the tools to log, manage, validate, authenticate and exchange their ecobricks.  Ecobricks that are logged on GoBrik are given a serial number and their unique data (weight, color, volume, density, maker etc.) is saved and managed in the database. </p>
             </div>
         </div>
 
-	<p data-lang-id="014-block-2-sub-p2">Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.  Those who helped out with the validation, are rewarded with Brikcoins.</p>
+	<p data-lang-id="016-block-2-sub-p2">Once logged, ecobricks are automatically submitted to the validation queue where they are reviewed by the community of ecobrickers. Ecobricks that are successfully authenticated (the reviewers concur on the visible data) are then eligible to be exchanged and traded on the platform.  Those who helped out with the validation, are rewarded with Brikcoins.</p>
     </div>
 </div>
 
@@ -86,7 +87,7 @@
 <div class="reg-content-block" id="block3">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="015-block-3-header">Ecobrick Authentications & Brikcoins</h4>
+            <h4 data-lang-id="016a-block-3-header">Ecobrick Authentications & Brikcoins</h4>
             <h5>On GoBrik, the value of the ecological service of securing plastic from contaminating the biosphere is quantified.</h5>
         </div>
         <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
@@ -95,12 +96,15 @@
     <div id="preclosed3">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="016-block-3-main-p1">   The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.  Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. </p>
+    		<div class="splashimg3-1"><img src="../webp/ecobrik-authentications-brikcoin.webp" loading ="lazy"></div>
+                <p data-lang-id="016b-block-3-main-p1"> The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.  Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. </p>
+		<div class="splash-box3-1>
+		    <p data-lang-id="017-block-3-sub-p2">Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
+			<p> <a href="/brikcoin">Learn more about Brikcoins</a></p>
+		</div>
+		<div class="splashimg3-2><img src="../webp/White-Paper-Icon.webp" loading ="lazy"></div>
             </div>
         </div>
-
-	<p data-lang-id="017-block-3-sub-p2">Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
-	<p> <a href="/brikcoin">Learn more about Brikcoins</a></p>
     </div>
 </div>
 
@@ -114,6 +118,7 @@
     </div>
 
     <div id="preclosed4">
+  	<div class="splashimg4-1"><img src="../webp/history.webp" loading ="lazy"></div>
 	<p data-lang-id="019-block-4-p1">Over 2388 Ecobricks were logged in our first three month run of the first Ecobrick App in Jogja.</p>
 	<p data-lang-id="020-block-4-p2">From the very beginning, we observed that schools that kept track of their ecobricking were most likely to have the highest quality ecobricks, to build the coolest stuff, and to see the deepest plastic transition.  These schools were then able to speak of their success with solid numbers.  Inspired, we’re working to build the GoBrik app to help ecobrickers everywhere track and connect their ecobricking and we’re developing Brikcoins as a means to value the hard and valuable work of ecobrickers securing plastic from contaminating the biosphere.</p>
         <p data-lang-id="021-block-4-p3">In March 2016, <a href="/new-ecobricks-web-app-launched">we launched the first version of our app</a> to a team of twenty trainers in the city of Jogjakarta, Indonesia.  Basically an upgraded google form embedded in a WordPress site, they were able to log the Ecobricking of hundreds of Jogjans over the course of three months.  In June 2016, we were able to host a ecobrick media event to unveil the Ecobricks that had been made in three months, as well as detailed statistics of the amount of plastic packed, participation and C02 sequestered.  This was followed by the launch of an improved app for NU, a large muslim organization in Jakarta.  Empowered with their own <a href="http://www.nu.ecobricks.org/">NU App</a>, they began logging and tracking their ecobricks.</p>
@@ -180,11 +185,11 @@
 
     <div id="preclosed7">
 
-	<h4 data-lang-id="040-block 7-ph1">Alan Thompson - </h4>
+	<h4 data-lang-id="040-block 7-ph1">Alan Thompson - Senior Analyst/Programmer</h4>
 	<p data-lang-id="041-block 7-p1">Alan Thompson is a former member of the Royal Air Force, working as a Telecommunications Technician and a Computer Programmer. He has worked as a Certified Internet Webmaster with experience in MS VB.Net, MS SQL Apllication, PHP, Postgress, MOODLE Virtual Learning Enviroment, Joomla and as a DotnetNuke CMS Developer using Open Source applications. He is currently learning about Python Frameworks for Web Development and also working with the Open University.</p>
-	<h4 data-lang-id="042-block 7-ph2">Joseph O'Flanagan - Web Developer</h4>
+	<h4 data-lang-id="042-block 7-ph2">Joseph O'Flanagan - Web Developer (PHP, Javascript, HTML, CSS)</h4>
 	<p data-lang-id="043-block 7-p2">Joseph O'Flanagan is a programmer with knowledge of multiple different languages who is working on this website. He has been working with the team to bring information about Global Ecobricks Alliance and Ecobriks up to date. Joe has previously been at Arval BNP Paribas and has been involved in charity organsations through working with Prospect Hospice. He joined the GEA team in 2023 and has worked with the team to help modernise the website.</p>
-	<h4 data-lang-id="044-block 7-ph3">Mike O'Flanagan - </h4>
+	<h4 data-lang-id="044-block 7-ph3">Mike O'Flanagan - Senior Database Administrator</h4>
 	<p data-lang-id="045-block 7-p3">Mike O'Flanagan is a retired data analyst whose background with mainframe programming, mainframe, Windows & Linux database systems has enabled him to make a unique and potent contribution to the development of the ecobricks.org backend database and maintaining the GoBrik.com relational database.</p>
 	<h4 data-lang-id="046-block 7-ph4">Russell Maier - Lead developer - GEA Co-Founder</h4>
 	<p data-lang-id="047-block 7-p4">Russell Maier is one of the co-founders of the Global Ecobrick Alliance and has spearheaded the the spread of ecobricks in South East Asia and the UK. Russell’s regenerative inventions, ideas and projects have been covered by the BBC, the Guardian, the Jarkata post, hundreds of local media outlets and recently an hour long special on CNN Indonesia. With almost two decades of web development experience, an academic background in philosophy and a decade of leading large collaborative projects, Russell is the catalyst behind the Gobrik and Brikcoin projects. With a perspective gleaned from integrating in some of the most politically and economically challenged cultures on the planet — from refugee camps in Gaza, rainforests in Costa Rica, to four years living with the Igorots in the mountains of the Northern Philippines, Russell brings to the Brikcoin team, his passion for solving ecological and social challenges with a low tech, regenerative approach.</p>
