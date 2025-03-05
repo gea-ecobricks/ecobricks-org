@@ -51,7 +51,7 @@
 		    		<div id="preclosed1">
 				        <div class="row">
 				            <div class="main2">
-				    		<div class="splashimg1-1"><img src="../webp/our-vision.webp" loading ="lazy"></div>
+				    		<div class="splashimg1-1"><img src="../webp/our-vision.webp" style="width:85%" loading ="lazy"></div>
                                 		<p data-lang-id="009-block-1-main-p1"> And that includes plastic. Plastic is not just an ugly consequence of the petro-capital economy - it is our spring board to transcending it.</p>
 				                <p data-lang-id="010-block-2-main-p2">To solve plastic pollution and to transcend the petro-capital economy at the root of it, we must dive deep into... <i>plastic.</i> Rather than sending our personal plastic on polluting journeys, through ecobricking we can generate the building blocks and currency. By connecting ecobrickers- uniquely committed planet-passionate global citizens- GoBrik has a tremendously unique base of users who, like the GEA, are not motivated by capital or profit- but ecological and community concern.</p>
 				                <p data-lang-id="011-block-3-main-p3">United by this shared passion, ecobricking lays the foundation for much more than just ecobricking! With a shared currency, a shared metric and vision of plastic transition, our vision is of a decentralized app that can be deployted by regenerative communities around the world to coalesce their local efforts and unite them to the global movement.</p>
@@ -96,13 +96,13 @@
     <div id="preclosed3">
         <div class="row">
             <div class="main2">
-    		<div class="splashimg3-1"><img src="../webp/ecobrik-authentications-brikcoin.webp" loading ="lazy"></div>
+    		<div class="splashimg3-1"><img src="../webp/ecobrik-authentications-brikcoin.webp" style="width:85%" loading ="lazy"></div>
                 <p data-lang-id="016b-block-3-main-p1"> The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.  Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. </p>
 		<div class="splash-box3-1>
 		    <p data-lang-id="017-block-3-sub-p2">Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
 			<p> <a href="/brikcoin">Learn more about Brikcoins</a></p>
 		</div>
-		<div class="splashimg3-2><img src="../webp/White-Paper-Icon.webp" loading ="lazy"></div>
+		<div class="splashimg3-2><img src="../webp/White-Paper-Icon.webp" style="width:65%" loading ="lazy"></div>
             </div>
         </div>
     </div>
