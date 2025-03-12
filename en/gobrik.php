@@ -94,9 +94,9 @@
     </div>
 
     <div id="preclosed3">
+	<div class="splashimg3-1"><img src="../webp/ecobrick-authentications-brikcoin.webp" style="width:85%" loading ="lazy"></div>
         <div class="row">
             <div class="main2">
-    		<div class="splashimg3-1"><img src="../webp/ecobrick-authentications-brikcoin.webp" style="width:85%" loading ="lazy"></div>
                 <p data-lang-id="016b-block-3-main-p1"> The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.  Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. </p>
 	    </div>
 	    <div class="side2"><img src="../webp/White-Paper-Icon.webp" style="width:65%" alt="Download our Brikcoin White Paper for a full description of the Brikcoin Manual Blockchain." loading ="lazy"></div>
