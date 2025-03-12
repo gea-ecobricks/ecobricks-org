@@ -98,9 +98,7 @@
             <div class="main2">
     		<div class="splashimg3-1"><img src="../webp/ecobrick-authentications-brikcoin.webp" style="width:85%" loading ="lazy"></div>
                 <p data-lang-id="016b-block-3-main-p1"> The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.  Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. </p>
-	    </div>
-	    <div class="side2"><img class="alignright" src="../webp/White-Paper-Icon.webp" style="width:65%" alt="Download our Brikcoin White Paper for a full description of the Brikcoin Manual Blockchain." loading ="lazy"></div>
-		<div class="main1">
+		<div class="side2"><img class="alignright" src="../webp/White-Paper-Icon.webp" style="width:65%" alt="Download our Brikcoin White Paper for a full description of the Brikcoin Manual Blockchain." loading ="lazy"></div>
 		<p data-lang-id="017-block-3-sub-p2">Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
 		<p> <a href="/brikcoin">Learn more about Brikcoins</a></p>
 	    </div>
@@ -118,7 +116,7 @@
     </div>
 
     <div id="preclosed4">
-  	<div class="splashimg4-1"><img src="../webp/histroy.webp" style="width: 130%" loading ="lazy"></div>
+  	<div class="splashimg4-1"><img src="../webp/histroy.webp" style="width: 100%" loading ="lazy"></div>
 	<p data-lang-id="019-block-4-p1">Over 2388 Ecobricks were logged in our first three month run of the first Ecobrick App in Jogja.</p>
 	<p data-lang-id="020-block-4-p2">From the very beginning, we observed that schools that kept track of their ecobricking were most likely to have the highest quality ecobricks, to build the coolest stuff, and to see the deepest plastic transition.  These schools were then able to speak of their success with solid numbers.  Inspired, we’re working to build the GoBrik app to help ecobrickers everywhere track and connect their ecobricking and we’re developing Brikcoins as a means to value the hard and valuable work of ecobrickers securing plastic from contaminating the biosphere.</p>
         <p data-lang-id="021-block-4-p3">In March 2016, <a href="/new-ecobricks-web-app-launched">we launched the first version of our app</a> to a team of twenty trainers in the city of Jogjakarta, Indonesia.  Basically an upgraded google form embedded in a WordPress site, they were able to log the Ecobricking of hundreds of Jogjans over the course of three months.  In June 2016, we were able to host a ecobrick media event to unveil the Ecobricks that had been made in three months, as well as detailed statistics of the amount of plastic packed, participation and C02 sequestered.  This was followed by the launch of an improved app for NU, a large muslim organization in Jakarta.  Empowered with their own <a href="http://www.nu.ecobricks.org/">NU App</a>, they began logging and tracking their ecobricks.</p>
