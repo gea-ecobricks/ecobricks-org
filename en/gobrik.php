@@ -100,7 +100,7 @@
                 <p data-lang-id="016b-block-3-main-p1"> The peer authentication of ecobricks generates what we call brikcoins which reward the validators and makers of the ecobrick.  Brikcoins (BRK / ß) are a digital token based on real world plastic that has been sequestered and authenticated by ecobrickers around the world on a <a href="https://www.gobrik.com/#brikchain">manual blockchain</a>. </p>
 	    </div>
 	    <div class="side2"><img src="../webp/White-Paper-Icon.webp" style="width:65%" alt="Download our Brikcoin White Paper for a full description of the Brikcoin Manual Blockchain." loading ="lazy"></div>
-		<p data-lang-id="016c-block-3-main-p1> Download our Brikcoin White Paper for a full description of the Brikcoin Manual Blockchain.</p>
+		<p data-lang-id="016c-block-3-main-p1"> Download our Brikcoin White Paper for a full description of the Brikcoin Manual Blockchain.</p>
         </div>
 	<div class="row2">
 		<p data-lang-id="017-block-3-sub-p2">Brikcoins are generated each time an ecobrick is authenticated by the ecobricker community on GoBrik. For each Kg of authenticated plastic, 10 ß are generated. These coins are distributed equally among the validators and the GoBrik system. Brikcoins can be used to <a href="https://www.gobrik.com/#exchange">exchange</a> for ecobricks, to register for GEA courses, to purchase regenerative products on the Regen Shop, and to purchase plastic offset credits. Anyone with an GoBrik account can invest their time and effort to earn brikcoins by assisting the ecobrick authentication process.</p>
