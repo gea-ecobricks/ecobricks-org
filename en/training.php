@@ -136,9 +136,9 @@ for ($i = 0; $i <= 6; $i++) {
 				<p style="font-size: 0.85em; margin-top:20px;" data-lang-id="155">Current courses</a></p>
 
 
-				</div>
+				</div>-->
 			</div>
-        </div>-->
+        </div>
         ';
 			
 
