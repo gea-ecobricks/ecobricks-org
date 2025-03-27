@@ -121,7 +121,7 @@ if ($result->num_rows > 0) {
 			
 			
 			
-            
+            <!--
             <div class="page-paragraph">
 
             <br><hr><br> 
@@ -137,7 +137,8 @@ if ($result->num_rows > 0) {
 
 				</div>
 			</div>
-        </div>';	
+        </div>-->
+        ';
 			
 
 	}
@@ -172,7 +173,7 @@ echo '
 				
 				<div class="page-paragraph">
                 <p style="font-size:smaller">Training Location:</p>
-                <p style="font-size:normal">' . $array["location_full"] . '</p><br>
+                <p style="font-size:normal">' . $array["training_location"] . '</p><br>
                 <br><hr><br> 
                 <div class="page-paragraph">
                     <h3><p data-lang-id="151">Global Ecobrick Alliance Workshops & Trainings</p></h3>
