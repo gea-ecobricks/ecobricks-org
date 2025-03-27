@@ -79,7 +79,7 @@ if ($result->num_rows > 0) {
                                     <img src="../' . htmlspecialchars($photo_tmb, ENT_QUOTES, 'UTF-8') . '">
                                 </div>';
                             }
-                        }
+
 
                         }
                         echo '</div>
