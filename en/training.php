@@ -59,7 +59,9 @@ if ($result->num_rows > 0) {
                         </div>
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
- 
+
+
+
                        // Loop through the available photos (up to 5)
                         for ($i = 0; $i <= 6; $i++) {
                             $photo_main_field = "training_photo" . $i . "_main";
