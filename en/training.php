@@ -48,40 +48,41 @@ if ($result->num_rows > 0) {
 	
 		<div id="splash-bar"></div>';
 
-        echo '
-		<div id="main-content">
-            <div class="row">
-                <div class="main">
-                    <div class="row-details">
+       echo '
+<div id="main-content">
+    <div class="row">
+        <div class="main">
+            <div class="row-details">
 
-			            <div class="lead-page-paragraph">
-                            <p>'. $array["training_title"] .'<span data-lang-id="110"> was a </span>'. $array["training_type"] .' <span data-lang-id="111">workshop run in </span>'. $array["training_country"] .'<span data-lang-id="112">.  The workshop involved </span>'. $array["no_participants"] .'<span data-lang-id="113"> and was run by GEA trainer(s) </span>'. $array["lead_trainer"] .'</p>
-                        </div>
-                   
-                        <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
+                <div class="lead-page-paragraph">
+                    <p>' . $array["training_title"] . '<span data-lang-id="110"> was a </span>' .
+                    $array["training_type"] . ' <span data-lang-id="111">workshop run in </span>' .
+                    $array["training_country"] . '<span data-lang-id="112">. The workshop involved </span>' .
+                    $array["no_participants"] . '<span data-lang-id="113"> and was run by GEA trainer(s) </span>' .
+                    $array["lead_trainer"] . '</p>
+                </div>
 
+                <div id="three-column-gal" class="three-column-gal" style="margin-top:40px;">';
 
+// Loop through the available photos (up to 6)
+for ($i = 0; $i <= 6; $i++) {
+    $photo_main_field = "training_photo" . $i . "_main";
+    $photo_tmb_field = "training_photo" . $i . "_tmb";
 
-                       // Loop through the available photos (up to 5)
-                        for ($i = 0; $i <= 6; $i++) {
-                            $photo_main_field = "training_photo" . $i . "_main";
-                            $photo_tmb_field = "training_photo" . $i . "_tmb";
+    // Check if the values exist before appending the URL
+    if (!empty($array[$photo_main_field]) && !empty($array[$photo_tmb_field])) {
+        $photo_main = "https://gobrik.com/" . $array[$photo_main_field];
+        $photo_tmb = "https://gobrik.com/" . $array[$photo_tmb_field];
 
-                            // Retrieve the photo paths from the array
-                            $photo_main = "https://gobrik.com/" . $array[$photo_main_field];
-                            $photo_tmb = "https://gobrik.com/" . $array[$photo_tmb_field];
+        echo '<div class="gal-photo" onclick="viewGalleryImage(\'' .
+            htmlspecialchars($photo_main, ENT_QUOTES, 'UTF-8') .
+            '\', \'Training photo ' . $i . ' | ' .
+            htmlspecialchars($array["training_title"], ENT_QUOTES, 'UTF-8') . ' \')">
+            <img src="' . htmlspecialchars($photo_tmb, ENT_QUOTES, 'UTF-8') . '">
+        </div>';
+    }
+}
 
-                            // Check if the photo exists
-                            if (!empty($photo_main) && !empty($photo_tmb)) {
-                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' .
-                                    htmlspecialchars($photo_main, ENT_QUOTES, 'UTF-8') . '\', \'Training photo ' .
-                                    $i . ' | ' . htmlspecialchars($array["training_title"], ENT_QUOTES, 'UTF-8') . ' \')">
-                                    <img src="../' . htmlspecialchars($photo_tmb, ENT_QUOTES, 'UTF-8') . '">
-                                </div>';
-                            }
-
-
-                        }
                         echo '</div>
                         <div class="page-paragraph">';
                     
