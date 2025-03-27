@@ -41,7 +41,7 @@ if ($result->num_rows > 0) {
 			</div>
 			
 			<div class="splash-image">
-				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["training_photo0_main"], ENT_QUOTES, 'UTF-8') . '\', \'Ecobrick training ' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was completed in ' . htmlspecialchars($array["training_country"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["training_date"], ENT_QUOTES, 'UTF-8') . '\')"><img src="../' . htmlspecialchars($array["training_photo0_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was completed in ' . htmlspecialchars($array["training_location"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["training_date"], ENT_QUOTES, 'UTF-8') . '"
+				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["training_photo0_main"], ENT_QUOTES, 'UTF-8') . '\', \'Ecobrick training ' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was completed in ' . htmlspecialchars($array["training_country"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["training_date"], ENT_QUOTES, 'UTF-8') . '\')"><img src="https://gobrik.com/' . htmlspecialchars($array["training_photo0_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was completed in ' . htmlspecialchars($array["training_location"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["training_date"], ENT_QUOTES, 'UTF-8') . '"
 			title="Project' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["training_country"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["training_date"], ENT_QUOTES, 'UTF-8') . '"></a>
 			</div>    
 		</div>
@@ -60,21 +60,25 @@ if ($result->num_rows > 0) {
                    
                         <div id="three-column-gal" class="three-column-gal" style="margin-top:40px">';
  
-                         // Loop through the available photos (up to 5)
-						 for ($i = 0; $i <= 6; $i++) {
+                       // Loop through the available photos (up to 5)
+                        for ($i = 0; $i <= 6; $i++) {
                             $photo_main_field = "training_photo" . $i . "_main";
                             $photo_tmb_field = "training_photo" . $i . "_tmb";
-                            
+
                             // Retrieve the photo paths from the array
-                            $photo_main = $array[$photo_main_field];
-                            $photo_tmb = $array[$photo_tmb_field];
-                            
+                            $photo_main = "https://gobrik.com/" . $array[$photo_main_field];
+                            $photo_tmb = "https://gobrik.com/" . $array[$photo_tmb_field];
+
                             // Check if the photo exists
                             if (!empty($photo_main) && !empty($photo_tmb)) {
-                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' . htmlspecialchars($photo_main, ENT_QUOTES, 'UTF-8') . '\', \'Training photo ' . $i . ' | ' . htmlspecialchars($array["training_title"], ENT_QUOTES, 'UTF-8') . ' \')">
-                                        <img src="../' . htmlspecialchars($photo_tmb, ENT_QUOTES, 'UTF-8') . '">
-                                      </div>';
+                                echo '<div class="gal-photo" onclick="viewGalleryImage(\'../' .
+                                    htmlspecialchars($photo_main, ENT_QUOTES, 'UTF-8') . '\', \'Training photo ' .
+                                    $i . ' | ' . htmlspecialchars($array["training_title"], ENT_QUOTES, 'UTF-8') . ' \')">
+                                    <img src="../' . htmlspecialchars($photo_tmb, ENT_QUOTES, 'UTF-8') . '">
+                                </div>';
                             }
+                        }
+
                         }
                         echo '</div>
                         <div class="page-paragraph">';
