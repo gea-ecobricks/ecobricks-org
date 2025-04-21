@@ -16,15 +16,65 @@ try {
         }
 
         $stmt->bind_param("i", $tran_id);
-        $stmt->execute();
-        $result = $stmt->get_result();
 
-        if ($result->num_rows === 0) {
-            throw new Exception("Transaction not found.");
-        }
+$result = $stmt->get_result();
 
-        // Return transaction details as JSON
-        echo json_encode($result->fetch_assoc());
+if ($result->num_rows === 0) {
+    throw new Exception("Transaction not found.");
+}
+
+// Return transaction details as JSON
+echo json_encode($result->fetch_assoc());
+
+With:
+
+$stmt->execute();
+$stmt->store_result();
+
+if ($stmt->num_rows === 0) {
+    throw new Exception("Transaction not found.");
+}
+
+$stmt->bind_result($tran_id, $tran_name, $individual_amt, $status, $send_ts, $sender_ecobricker, $block_tran_type, $block_amt, $sender, $receiver_or_receivers, $receiver_1, $receiver_2, $receiver_3, $receiver_central_reserve, $sender_central_reserve, $ecobrick_serial_no, $tran_sender_note, $product, $send_dt, $accomp_payment, $authenticator_version, $expense_type, $gea_accounting_category, $shipping_cost_brk, $product_cost_brk, $total_cost_incl_shipping, $shipping_with_currency, $aes_officially_purchased, $country_of_buyer, $currency_for_shipping, $credit_other_ecobricker_yn, $catalyst_name);
+
+$stmt->fetch();
+
+$data = [
+    "tran_id" => $tran_id,
+    "tran_name" => $tran_name,
+    "individual_amt" => $individual_amt,
+    "status" => $status,
+    "send_ts" => $send_ts,
+    "sender_ecobricker" => $sender_ecobricker,
+    "block_tran_type" => $block_tran_type,
+    "block_amt" => $block_amt,
+    "sender" => $sender,
+    "receiver_or_receivers" => $receiver_or_receivers,
+    "receiver_1" => $receiver_1,
+    "receiver_2" => $receiver_2,
+    "receiver_3" => $receiver_3,
+    "receiver_central_reserve" => $receiver_central_reserve,
+    "sender_central_reserve" => $sender_central_reserve,
+    "ecobrick_serial_no" => $ecobrick_serial_no,
+    "tran_sender_note" => $tran_sender_note,
+    "product" => $product,
+    "send_dt" => $send_dt,
+    "accomp_payment" => $accomp_payment,
+    "authenticator_version" => $authenticator_version,
+    "expense_type" => $expense_type,
+    "gea_accounting_category" => $gea_accounting_category,
+    "shipping_cost_brk" => $shipping_cost_brk,
+    "product_cost_brk" => $product_cost_brk,
+    "total_cost_incl_shipping" => $total_cost_incl_shipping,
+    "shipping_with_currency" => $shipping_with_currency,
+    "aes_officially_purchased" => $aes_officially_purchased,
+    "country_of_buyer" => $country_of_buyer,
+    "currency_for_shipping" => $currency_for_shipping,
+    "credit_other_ecobricker_yn" => $credit_other_ecobricker_yn,
+    "catalyst_name" => $catalyst_name,
+];
+
+echo json_encode($data);
     } else {
         // Existing DataTables logic for paginated results
         $start = intval($_POST['start'] ?? 0);
