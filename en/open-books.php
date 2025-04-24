@@ -633,7 +633,7 @@ if ($result->num_rows > 0) {
 
     // AJAX request to fetch transaction details
     $.ajax({
-        url: '../api/fetch_cash_trans.php', // Backend PHP file
+        url: 'https://ecobricks.org/api/fetch_cash_trans.php', // Backend PHP file
         type: 'GET',
         data: { cash_tran_id: transactionId }, // Pass the transaction ID
         success: function (response) {
@@ -703,7 +703,7 @@ if ($result->num_rows > 0) {
 /* REVENUES */
 $(document).ready(function () {
     $('#revenues').DataTable({
-        ajax: '../api/fetch_revenues_trans.php', // URL of the PHP file
+        ajax: 'https://ecobricks.org/api/fetch_revenues_trans.php', // URL of the PHP file
         columns: [
             {
                 data: 'ID',
@@ -768,7 +768,7 @@ $(document).ready(function () {
 /* EXPENSES */
 $(document).ready(function () {
     $('#expenses').DataTable({
-        ajax: '../api/fetch_expenses_trans.php', // URL of the PHP file for expenses
+        ajax: 'https://ecobricks.org/api/fetch_expenses_trans.php', // URL of the PHP file for expenses
         columns: [
             {
                 data: 'ID',
