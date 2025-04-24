@@ -633,7 +633,7 @@ if ($result->num_rows > 0) {
 
     // AJAX request to fetch transaction details
     $.ajax({
-        url: 'cnn.com', // Backend PHP file
+        url: 'https://ecobricks.org/api/fetch_cash_trans.php', // Backend PHP file
         type: 'GET',
         data: { cash_tran_id: transactionId }, // Pass the transaction ID
         success: function (response) {
