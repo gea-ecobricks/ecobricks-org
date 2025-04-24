@@ -151,6 +151,110 @@ try {
 
 
 
+	<div class="reg-content-block" id="block3">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="009-live-revenues-title">Live Revenues</h4>
+            <h5 data-lang-id="010-live-revenues-subtitle">A full listing of the GEA's ongoing revenue transactions.</h5>
+            <div class="ecobrick-data"><p data-lang-id="010b-live-data"><span class="blink">⬤  </span> Data live & current</p></div>
+        </div>
+        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+    </div>
+    <div id="preclosed3">
+        <div class="page-paragraph">
+            <h6 data-lang-id="011-gea-revenue-transactions-header">All the GEA Revenue transactions</h6>
+        </div>
+        <div class="overflow">
+            <table id="revenues" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th data-lang-id="012-id-column">ID</th>
+                        <th data-lang-id="013-date-column">Date</th>
+                        <th data-lang-id="014-sender-column">Sender</th>
+                        <th data-lang-id="015-category-column">Category</th>
+                        <th data-lang-id="016-tran-name-column">Transaction</th>
+                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
+                        <th data-lang-id="018-amount-idr-column">Amount IDR</th>
+                        <th data-lang-id="019-type-column">Type</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th data-lang-id="012-id-column">ID</th>
+                        <th data-lang-id="013-date-column">Date</th>
+                        <th data-lang-id="014-sender-column">Sender</th>
+                        <th data-lang-id="015-category-column">Category</th>
+                        <th data-lang-id="016-tran-name-column">Transaction</th>
+                        <th data-lang-id="017-amount-usd-column">Amount USD</th>
+                        <th data-lang-id="018-amount-idr-column">Amount IDR</th>
+                        <th data-lang-id="019-type-column">Type</th>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <br><br>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="reg-content-block" id="block4">
+
+				<div class="opener-header">
+
+					<div class="opener-header-text">
+						<h4 data-lang-id="021-live-expenses-title">Live Expenses</h4>
+						<h5 data-lang-id="022-live-expenses-subtitle">A full listing of the GEA's ongoing expense transactions.</h5>
+						<div class="ecobrick-data"><p data-lang-id="010b-live-data"><span class="blink">◉  </span> Data live & current</p></div>
+					</div>
+					<button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+
+				</div>
+
+				<div id="preclosed4">
+
+					<div class="page-paragraph">
+						<h6 data-lang-id="023-gea-expense-transactions-header">All the GEA Expense transactions</h6>
+
+					</div>
+					<div class="overflow">
+						<table id="expenses" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th data-lang-id="012-id-column">ID</th>
+            <th data-lang-id="013-date-column">Date</th>
+            <th data-lang-id="014-sender-column">Sender</th>
+            <th data-lang-id="015-category-column">Category</th>
+            <th data-lang-id="016-tran-name-column">Transaction</th>
+            <th data-lang-id="017-amount-usd-column">Amount USD</th>
+            <th data-lang-id="018-amount-idr-column">Amount IDR</th>
+            <th data-lang-id="019-type-column">Type</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th data-lang-id="012-id-column">ID</th>
+            <th data-lang-id="013-date-column">Date</th>
+            <th data-lang-id="014-sender-column">Sender</th>
+            <th data-lang-id="015-category-column">Category</th>
+            <th data-lang-id="016-tran-name-column">Transaction</th>
+            <th data-lang-id="017-amount-usd-column">Amount USD</th>
+            <th data-lang-id="018-amount-idr-column">Amount IDR</th>
+            <th data-lang-id="019-type-column">Type</th>
+        </tr>
+    </tfoot>
+</table>
+
+
+
+						<br><br>
+					</div>
+				</div>
+			</div>
+
+
 	
 
 
@@ -529,7 +633,7 @@ if ($result->num_rows > 0) {
 
     // AJAX request to fetch transaction details
     $.ajax({
-        url: 'https://ecobricks.org/api/fetch_cash_trans.php', // Backend PHP file
+        url: 'cnn.com', // Backend PHP file
         type: 'GET',
         data: { cash_tran_id: transactionId }, // Pass the transaction ID
         success: function (response) {
