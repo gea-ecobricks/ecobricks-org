@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.33';?>
+<?php $version='2.4';?>
 <?php $page='openbooks';?>
 
 <?php require_once ("../includes/openbooks-inc.php");?>
@@ -14,7 +14,7 @@
 <div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading" data-lang-id="001-splash-title">Our Open Books</div>
-		<div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance's Financial Accounting</div>
+		<div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance's Financial Accounting.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../pngs/openbooks.png" style="width: 80%;" alt="Our Open Books financial accounting disclosure system">
 	</div>	
@@ -33,7 +33,7 @@
 		<div class="main">
 
 			<div class="lead-page-paragraph" >
-<p>As of January 1st, 2025, the Global Ecobrick Alliance's accounting will be fully in Indonesian Rupiahs.  The ongoing genocide in Gaza has made it clear to us the connection between our finances and the destructive dynamics of petro capital economy.  Consequently, we are closing all our USD accounts and ceasing our use of USD for accounting purposes.</p>
+<p>As of January 1st 2025, the Global Ecobrick Alliance's accounting will be fully in Indonesian Rupiahs.  The ongoing genocide in Gaza has made it clear to us the connection between our finances and the destructive dynamics of petro capital economy.  Consequently, we are closing all our USD accounts and ceasing our use of USD for accounting purposes.</p>
 
 			</div>
 
