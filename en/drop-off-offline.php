@@ -31,11 +31,11 @@ Content Page template: v.1.0.1-->
 	<div class="row">
 		<div class="main">
 			<div class="lead-page-paragraph">
-				<p>Thank you for visiting us. We are sorry to inorm you that the Brik MArket is offline for the foreseeable future.</p>
+				<p>Thank you for visiting us. We are sorry to inform you that the Brik Market is offline for the foreseeable future.</p>
 			</div>
 			<div class="page-paragraph">
   				<p>Please be aware that there are currently no drop off points as such. Now and again projects may ask for specific bricks to speed up their construction. These requests will usually be advertised locally on social media channels.</p>
-  				<p>If uou have Ecobricks, then why not make a small module for your home or garden? You could combine with your neighbours to make something for your community. To see completed projects from around the world scroll down to our homepage where you will find a gallery</p>
+  				<p>If you have Ecobricks, then why not make a small module for your home or garden? You could combine with your neighbours to make something for your community. To see completed projects from around the world scroll down to our homepage where you will find a gallery</p>
 				<br>
 				<p><a href="https://ecobricks.org.en">Ecobricks Home Page</a></p>
 			</div>
