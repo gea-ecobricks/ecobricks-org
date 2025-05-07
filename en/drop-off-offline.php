@@ -31,6 +31,8 @@ Content Page template: v.1.0.1-->
 	<div class="row">
 		<div class="main">
 			<div class="lead-page-paragraph">
+				<p></p>
+				<p></p>
 				<p>Thank you for visiting us. We are sorry to inform you that the Brik Market is offline for the foreseeable future.</p>
 			</div>
 			<div class="page-paragraph">
