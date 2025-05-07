@@ -103,7 +103,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
                 echo '<div class="gal-project-photo">
                         <div class="photo-box">
-                            <img src="' . $photo . '?v=1"
+                            <img src="https://gobrik.com/' . $photo . '?v=2"
                                  alt="' . $title . ' in ' . $country . ' had ' . $participants . ' participants"
                                  onclick="trainingPreview(\'' . $id . '\', \'' . $title . '\', \'' . $country . '\', \'' . $participants . '\', \'' . $trainer . '\')"
                                  title="' . $title . ' in ' . $country . ' had ' . $participants . ' participants">
@@ -114,7 +114,7 @@ https://github/globalecobrickalliance/ecobricks.org
             echo "No trainings available to display.";
         }
         ?>
-        <div class="project-photo-box-end" href="add-project.php"></div>
+        <div class="project-photo-box-end"></div>
     </div>
 
 
