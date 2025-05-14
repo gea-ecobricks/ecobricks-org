@@ -10,7 +10,7 @@ Content Page template: v.1.0.1-->
 
 <!--TOP PAGE BANNER-->
 
-<!--div class="splash-content-block">
+<div class="splash-content-block">
 	<div class="splash-box">
 		<div class="splash-heading">The Brik Market</div>
 	    <div class="splash-sub">The place to arrange ecobrick exchanges, hubs, barters and drop-offs.</div>
