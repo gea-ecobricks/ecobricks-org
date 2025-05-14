@@ -41,6 +41,7 @@ Content Page template: v.1.0.1-->
 				<br>
 				<p><a href="https://ecobricks.org.en">Ecobricks Home Page</a></p>
 			</div>
+		</div>
 	</div>
 </div>
 
