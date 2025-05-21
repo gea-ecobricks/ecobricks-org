@@ -33,7 +33,7 @@ Content Page template: v.1.0.1-->
 			<div class="lead-page-paragraph">
 				<p></p>
 				<p></p>
-				<p>Thank you for visiting us. We are sorry to inform you that the Brik Market is offline for the foreseeable future.</p>
+				<p>Thank you for visiting us. We are sorry to inform you that the Brik Market is offline for the foreseeable future. Sorry.</p>
 			</div>
 			<div class="page-paragraph">
   				<p>Please be aware that there are currently no drop off points as such. Now and again projects may ask for specific bricks to speed up their construction. These requests will usually be advertised locally on social media channels.</p>
