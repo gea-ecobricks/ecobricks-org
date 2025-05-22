@@ -20,21 +20,19 @@ Content Page template: v.1.0.1-->
 	
 <!--TOP PAGE BANNER-->
 
+<article id="Drop Off">
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading">The Brick Market</div>
+		<div class="splash-heading">The Brik Market</div>
 	    <div class="splash-sub">The place to arrange ecobrick exchanges, hubs, barters and drop-offs.</div>
 	</div>
 	<div class="splash-image"><img src="https://ecobricks.org/webp/brikmarket-400px.webp?v1.3" style="width: 70%">
     </div>	
 </div>
 <div id="splash-bar"></div>
-<!--<div id="header-bar2"></div>-->
 
 
 <!-- PAGE CONTENT-->
-
-<a name="top"></a>
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
@@ -43,7 +41,7 @@ Content Page template: v.1.0.1-->
 			<div class="lead-page-paragraph">
 				<p></p>
 				<p></p>
-				<p>Thank you for visiting us. We are sorry to inform you that the Brik Market is offline for the foreseeable future. Sorry.</p>
+				<p>Thank you for visiting us. We are sorry to inform you that the Brik Market is offline for the foreseeable future.</p>
 			</div>
 			<div class="page-paragraph">
   				<p>Please be aware that there are currently no drop off points as such. Now and again projects may ask for specific bricks to speed up their construction. These requests will usually be advertised locally on social media channels.</p>
@@ -57,7 +55,7 @@ Content Page template: v.1.0.1-->
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footers/footer-$lang.php");?>
+	<?php require_once ("../footer-2024.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
@@ -103,7 +101,6 @@ Content Page template: v.1.0.1-->
 
 
 </script>
-
 </div>
 </body>
 </html>
