@@ -84,7 +84,7 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
 
   function trainingPreview(id, title, country, participants, trainer) {
       // Construct the training image URL (assumes filename pattern similar to ecobricks)
-      var imageUrl = 'https://gobrik.com/trainings/training-' + id + '-file.webp';
+      var imageUrl = 'https://gobrik.com/trainings/photos/training-' + id + '-file.webp';
 
       const modal = document.getElementById('form-modal-message');
       const contentBox = modal.querySelector('.modal-content-box');
@@ -116,7 +116,7 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
           'Country: ' + country + '<br>' +
           'Participants: ' + participants + '<br>' +
           'Lead Trainer: ' + trainer + '</p>' +
-          '<a href="https://gobrik.com/trainings.php?id=' + id + '" class="preview-btn" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
+          '<a href="https://ecobricks.org/en/training.php?id=' + id + '" class="preview-btn" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
       photoContainer.appendChild(details);
 
       // Final modal setup
