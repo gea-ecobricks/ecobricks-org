@@ -104,12 +104,12 @@ https://github/globalecobrickalliance/ecobricks.org
             // Output data of each row
             while ($row = $result->fetch_assoc()) {
                 // Fallback-safe values
-                $photo     = htmlspecialchars($row["training_photo0_tmb"] ?? '');
-                $title     = htmlspecialchars($row["training_title"] ?? '');
-                $country   = htmlspecialchars($row["training_country"] ?? '');
-                $participants = htmlspecialchars($row["no_participants"] ?? '');
-                $trainer   = htmlspecialchars($row["lead_trainer"] ?? '');
-                $id        = htmlspecialchars($row["training_id"] ?? '');
+                $photo     = htmlspecialchars($row["training_photo0_tmb"] ?? '', ENT_QUOTES);
+                $title     = htmlspecialchars($row["training_title"] ?? '', ENT_QUOTES);
+                $country   = htmlspecialchars($row["training_country"] ?? '', ENT_QUOTES);
+                $participants = htmlspecialchars($row["no_participants"] ?? '', ENT_QUOTES);
+                $trainer   = htmlspecialchars($row["lead_trainer"] ?? '', ENT_QUOTES);
+                $id        = htmlspecialchars($row["training_id"] ?? '', ENT_QUOTES);
 
                 echo '<div class="gal-project-photo">
                         <div class="photo-box">
@@ -293,7 +293,6 @@ https://github/globalecobrickalliance/ecobricks.org
 <script>
 
   function trainingPreview(id, title, country, participants, trainer) {
-    alert('hello!');
       // Construct the training image URL (assumes filename pattern similar to ecobricks)
       var imageUrl = 'https://gobrik.com/trainings/photos/training-' + id + '-file.webp';
 
