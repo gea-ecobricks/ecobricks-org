@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='4.13';?>
+<?php $version='4.14';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -81,8 +81,16 @@ https://github/globalecobrickalliance/ecobricks.org
 <!-- TRAININGS GALLERY -->
 
 <div class="featured-content-gallery" style="overflow-x:clip;">
+
+    <div class="feature-content-box">
+        <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
+    </div>
+
+
+
+                <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of over 600 trainers deliver training all over the world.</div>
     <div class="feed-live">
-        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live fee of GEA Trainings...</p>
+        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>A live fee of GEA Trainings...</p>
     </div>
     <div class="gallery-flex-container">
         <?php
@@ -118,13 +126,7 @@ https://github/globalecobrickalliance/ecobricks.org
     </div>
 
 
-<div class="feature-content-box">
-    <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
-</div>
 
-
-
-            <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of over 600 trainers deliver training all over the world.</div>
         <!-- <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="View workshops">➕ Join a workshop</a>
         <div class="feature-reference-links">View our current courses</div> -->
     </div>
