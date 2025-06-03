@@ -83,6 +83,7 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
 
 
   function trainingPreview(id, title, country, participants, trainer) {
+    alert('hello!');
       // Construct the training image URL (assumes filename pattern similar to ecobricks)
       var imageUrl = 'https://gobrik.com/trainings/photos/training-' + id + '-file.webp';
 
