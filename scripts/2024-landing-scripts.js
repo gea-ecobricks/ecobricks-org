@@ -82,51 +82,6 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
 }
 
 
-  function trainingPreview(id, title, country, participants, trainer) {
-    alert('hello!');
-      // Construct the training image URL (assumes filename pattern similar to ecobricks)
-      var imageUrl = 'https://gobrik.com/trainings/photos/training-' + id + '-file.webp';
-
-      const modal = document.getElementById('form-modal-message');
-      const contentBox = modal.querySelector('.modal-content-box');
-      const photoBox = modal.querySelector('.modal-photo-box');
-      const photoContainer = modal.querySelector('.modal-photo');
-
-      // Hide the content box and show the photo box
-      contentBox.style.display = 'none';
-      photoBox.style.display = 'block';
-
-      // Clear previous content
-      photoContainer.innerHTML = '';
-
-      // Create and append training image
-      var img = document.createElement('img');
-      img.src = imageUrl;
-      img.alt = "GEA Training: " + title;
-      img.style.maxWidth = '90%';
-      img.style.maxHeight = '75vh';
-      img.style.minHeight = '400px';
-      img.style.minWidth = '400px';
-      img.style.margin = 'auto';
-      photoContainer.appendChild(img);
-
-      // Create and append training details
-      var details = document.createElement('div');
-      details.className = 'training-details';
-      details.innerHTML = '<p>GEA Training: <strong>' + title + '</strong><br>' +
-          'Country: ' + country + '<br>' +
-          'Participants: ' + participants + '<br>' +
-          'Lead Trainer: ' + trainer + '</p>' +
-          '<a href="https://ecobricks.org/en/training.php?training_id=' + id + '" class="preview-btn" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
-      photoContainer.appendChild(details);
-
-      // Final modal setup
-      modal.style.display = 'flex';
-      document.getElementById('page-content')?.classList.add('blurred');
-      document.getElementById('footer-full')?.classList.add('blurred');
-      document.body.classList.add('modal-open');
-  }
-
 
 function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
     // Construct the image source URL
