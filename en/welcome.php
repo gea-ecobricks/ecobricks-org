@@ -39,6 +39,12 @@ https://github/globalecobrickalliance/ecobricks.org
 <!-- PROJECT GALLERY -->
 
     <div class="featured-project-gallery" style="overflow-x:clip;">
+
+                <div class="feature-content-box">
+                <div class="feature-big-header"><h4 data-lang-id="404-featured-live-heading">Ecobricks Applied</h4></div>
+
+                    <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
+                </div>
         <div class="feed-live">
             <p data-lang-id="403-featured-live-brikchain"><span class="blink">⬤  </span>Live projects feed.  Click to preview.</p>
         </div>
@@ -66,11 +72,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="project-photo-box-end" href="add-project.php"></div>
 
         </div>
-        <div class="feature-content-box">
-        <div class="feature-big-header"><h4 data-lang-id="404-featured-live-heading">Ecobricks Applied</h4></div>
 
-            <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
-        </div>
        <!--
         <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
         <div class="feature-reference-links">Share your ecobrick application</div>-->
@@ -289,7 +291,6 @@ https://github/globalecobrickalliance/ecobricks.org
  <!-- </div>  ends page content-->
 
 <script>
-
 
   function trainingPreview(id, title, country, participants, trainer) {
     alert('hello!');
