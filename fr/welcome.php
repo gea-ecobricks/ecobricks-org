@@ -275,7 +275,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
- <script src="../scripts/2024-landing-scripts.js.js"></script>
+ <script src="../scripts/2024-landing-scripts.js"></script>
 
 
 </body>
