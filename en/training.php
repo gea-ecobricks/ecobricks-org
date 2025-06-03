@@ -20,7 +20,7 @@ include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
 
-$trainingId = $_GET['training_id'];
+$trainingId = isset($_GET["training_id"])?$_GET["training_id"]:(isset($_GET["id"])?$_GET["id"]:0);
 
 $sql = "SELECT * FROM tb_trainings WHERE training_id = ?";
 $stmt = $conn->prepare($sql);
