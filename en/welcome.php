@@ -297,6 +297,7 @@ https://github/globalecobrickalliance/ecobricks.org
       // Construct the training image URL based on the provided photo path
       var imageUrl = 'https://gobrik.com/' + photo;
 
+
       const modal = document.getElementById('form-modal-message');
       const contentBox = modal.querySelector('.modal-content-box');
       const photoBox = modal.querySelector('.modal-photo-box');
