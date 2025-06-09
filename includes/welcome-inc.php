@@ -82,7 +82,7 @@ margin: auto 10px auto 18px;
   position: absolute;
   width: 100%;
   background-color: #00000077;
-  filter: blur(5px);
+
   display: flex;
 }
 
