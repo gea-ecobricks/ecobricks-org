@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<HTML lang="id">
+<HTML lang="id"> 
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
@@ -8,7 +8,7 @@
 <?php include '../ecobricks_env.php';?>
 
 
-<!--
+<!-- 
 Ecobricks.org site version 3.0
 Developed and made open source by the Global Ecobrick Alliance
 See our git hub repository for the full code and to help out:
@@ -21,31 +21,64 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- FEATURED HEADLINE CONTENT -->
     <div class="feature-content-1-anchor-box">
-
+    
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-4-title"></div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle"></div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Free June Course</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
 
-                     <a class="content1-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button"></a>
+                     <a class="content1-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-1-button">↗️ View Course on GoBrik</a>
                  </div>
              </div>
          </div>
     </div>
+
+<!--
+
+
+         <div class="featured-content-3" >
+                    <div class="featured-content-shaded-box">
+                        <div class="featured-content-text">
+                            <div class="featured-content-title" data-lang-id="300-featured-content-3-title">The Planetary Story of Plastic/div>
+                            <div class="featured-content-subtitle" data-lang-id="301-featured-content-3-subtitle">Where does plastic really come from?</div>
+                            <a class="content1-button" href="earth-methods.php" data-lang-id="302-featured-content-3-button">🌎 Go deep!</a>
+                        </div>
+                    </div>
+                </div>
+           </div>
+
+       <div class="featured-content-4" >
+                <div class="featured-content-shaded-box">
+                    <div class="featured-content-text">
+                        <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
+                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices.</div>
+
+                        <a class="content1-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button">⚒️ Learn</a>
+                    </div>
+                </div>
+            </div>
+       </div>
+            -->
 
 
 
 <!-- PROJECT GALLERY -->
 
     <div class="featured-project-gallery" style="overflow-x:clip;">
+
+                <div class="feature-content-box">
+                <div class="feature-big-header"><h4 data-lang-id="404-featured-live-heading">Ecobricks Applied</h4></div>
+
+                    <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
+                </div>
         <div class="feed-live">
             <p data-lang-id="403-featured-live-brikchain"><span class="blink">⬤  </span>Live projects feed.  Click to preview.</p>
         </div>
         <div class="gallery-flex-container">
         <?php
     // Updated SQL query to include a WHERE clause and a LIMIT
-    $sql = "SELECT * FROM tb_projects WHERE ready_to_show = 1 ORDER BY project_id DESC LIMIT 45;";
+    $sql = "SELECT * FROM tb_projects WHERE ready_to_show = 1 ORDER BY project_id DESC LIMIT 20;";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -66,35 +99,52 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="project-photo-box-end" href="add-project.php"></div>
 
         </div>
-        <div class="feature-content-box">
-        <div class="feature-big-header"><h4 data-lang-id="404-featured-live-heading">Ecobricks Applied</h4></div>
 
-            <div class="feature-sub-text" data-lang-id="405-featured-live-subheading">Ecobricks projects logged by ecobrickers from around the world.</div>
-        </div>
        <!--
         <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
         <div class="feature-reference-links">Share your ecobrick application</div>-->
     </div>
 
 
+
 <!-- TRAININGS GALLERY -->
 
 <div class="featured-content-gallery" style="overflow-x:clip;">
+
+    <div class="feature-content-box">
+        <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
+    </div>
+
+
+
+                <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of over 600 trainers deliver training all over the world.</div>
     <div class="feed-live">
-        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>Live trainings feed...</p>
+        <p data-lang-id="500-training-feed"><span class="blink">⬤  </span>A live fee of GEA Trainings...</p>
     </div>
     <div class="gallery-flex-container">
         <?php
         // Updated SQL query to include a WHERE clause and a LIMIT
-        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 AND show_report = 1 ORDER BY training_id DESC LIMIT 40;";
+        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 AND show_report = 1 ORDER BY training_id DESC LIMIT 20;";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
             // Output data of each row
             while ($row = $result->fetch_assoc()) {
+                // Fallback-safe values
+                $photo       = htmlspecialchars($row["training_photo0_tmb"] ?? '', ENT_QUOTES);
+                $photo_main  = htmlspecialchars($row["training_photo0_main"] ?? '', ENT_QUOTES);
+                $title       = htmlspecialchars($row["training_title"] ?? '', ENT_QUOTES);
+                $country     = htmlspecialchars($row["training_country"] ?? '', ENT_QUOTES);
+                $participants = htmlspecialchars($row["no_participants"] ?? '', ENT_QUOTES);
+                $trainer     = htmlspecialchars($row["lead_trainer"] ?? '', ENT_QUOTES);
+                $id          = htmlspecialchars($row["training_id"] ?? '', ENT_QUOTES);
+
                 echo '<div class="gal-project-photo">
                         <div class="photo-box">
-                            <img src="' . htmlspecialchars($row["training_photo0_tmb"]) . '?v=1" alt="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants" onclick="trainingPreview(\'' . htmlspecialchars($row["training_id"]) . '\', \'' . htmlspecialchars($row["training_title"]) . '\', \'' . htmlspecialchars($row["training_country"]) . '\', \'' . htmlspecialchars($row["no_participants"]) . '\', \'' . htmlspecialchars($row["lead_trainer"]) . '\')" title="' . htmlspecialchars($row["training_title"]) . ' in ' . htmlspecialchars($row["training_country"]) . ' had ' . htmlspecialchars($row["no_participants"]) . ' participants">
+                            <img src="https://gobrik.com/' . $photo . '?v=2"
+                                 alt="' . $title . ' in ' . $country . ' had ' . $participants . ' participants"
+                                 onclick="trainingPreview(\'' . $id . '\', \'' . $title . '\', \'' . $country . '\', \'' . $participants . '\', \'' . $trainer . '\', \'' . $photo_main . '\')"
+                                 title="' . $title . ' in ' . $country . ' had ' . $participants . ' participants">
                         </div>
                     </div>';
             }
@@ -102,29 +152,28 @@ https://github/globalecobrickalliance/ecobricks.org
             echo "No trainings available to display.";
         }
         ?>
-    <div class="project-photo-box-end" href="add-project.php"></div>
-</div>
-<div class="feature-content-box">
-    <div class="feature-big-header"><h4 data-lang-id="500-featured-training-heading">GEA Trainings</h4></div>
-</div>
+        <div class="project-photo-box-end"></div>
+    </div>
 
 
 
-            <div class="feature-sub-text" data-lang-id="too-featured-live-training-subheading">Our team of over 600 trainers deliver training all over the world.</div>
         <!-- <a href="https://gobrik.com/courses.php" target="_blank" class="feature-button" data-lang-id="500-training-join-button" aria-label="View workshops">➕ Join a workshop</a>
         <div class="feature-reference-links">View our current courses</div> -->
     </div>
 
+
+
+
     <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 
     <div class="featured-content-2">
-
+    
         <div class="feature-content-box">
 
             <div class="featured-content-img dolphin-pic"></div>
-
+            
             <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Plastic Safe</h4></div>
-
+            
             <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
            Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
             <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
@@ -153,7 +202,7 @@ https://github/globalecobrickalliance/ecobricks.org
                     while ($row = $result->fetch_assoc()) {
                         echo '<div class="gal-photo">
                                 <div class="photo-box">
-                                    <img src="https://beta.gobrik.com/' . $row["thumb_url"] . '?v=1" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_in_g"] . '\', \'' . $row["ecobrick_owner"] . '\', \'' . $row["location"] . '\')"/>
+                                    <img src="https://gobrik.com/' . $row["thumb_url"] . '?v=4" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_owner"] . ' in ' . $row["location"] . '" loading="lazy" onclick="ecobrickPreview(\'' . $row["ecobrick_unique_id"] . '\', \'' . $row["weight_in_g"] . '\', \'' . $row["ecobrick_owner"] . '\', \'' . $row["location"] . '\')"/>
                                 </div>
                             </div>';
                     }
@@ -197,7 +246,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
             echo '
             <div class="gal-photo10">
-            <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="'.$row["ecobrick_full_photo_url"].'?v=1" loading="lazy" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>';
+            <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="https://gobrik.com/'.$row["ecobrick_full_photo_url"].'?v=1" loading="lazy" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>';
             echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
 
             }
@@ -260,8 +309,8 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-
-
+    
+  
 <!--FOOTER STARTS-->
 
 <?php require_once ("../footer-2024.php");?>
@@ -269,7 +318,53 @@ https://github/globalecobrickalliance/ecobricks.org
 
  <!-- </div>  ends page content-->
 
+<script>
 
+  function trainingPreview(id, title, country, participants, trainer, photo) {
+      // Construct the training image URL based on the provided photo path
+      var imageUrl = 'https://gobrik.com/' + photo;
+
+
+      const modal = document.getElementById('form-modal-message');
+      const contentBox = modal.querySelector('.modal-content-box');
+      const photoBox = modal.querySelector('.modal-photo-box');
+      const photoContainer = modal.querySelector('.modal-photo');
+
+      // Hide the content box and show the photo box
+      contentBox.style.display = 'none';
+      photoBox.style.display = 'block';
+
+      // Clear previous content
+      photoContainer.innerHTML = '';
+
+      // Create and append training image
+      var img = document.createElement('img');
+      img.src = imageUrl;
+      img.alt = "GEA Training: " + title;
+      img.style.maxWidth = '90%';
+      img.style.maxHeight = '75vh';
+      img.style.minHeight = '400px';
+      img.style.minWidth = '400px';
+      img.style.margin = 'auto';
+      photoContainer.appendChild(img);
+
+      // Create and append training details
+      var details = document.createElement('div');
+      details.className = 'training-details';
+      details.innerHTML = '<p>GEA Training: <strong>' + title + '</strong><br>' +
+          'Country: ' + country + '<br>' +
+          'Participants: ' + participants + '<br>' +
+          'Lead Trainer: ' + trainer + '</p>' +
+          '<a href="https://ecobricks.org/en/training.php?id=' + id + '" class="preview-btn" style="margin-bottom: 50px;height: 25px;padding: 5px;border: none;padding: 5px 12px;">ℹ️ View Full Details</a>';
+      photoContainer.appendChild(details);
+
+      // Final modal setup
+      modal.style.display = 'flex';
+      document.getElementById('page-content')?.classList.add('blurred');
+      document.getElementById('footer-full')?.classList.add('blurred');
+      document.body.classList.add('modal-open');
+  }
+</script>
 
  <script src="../scripts/2024-landing-scripts.js"></script>
 
