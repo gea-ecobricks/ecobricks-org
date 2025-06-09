@@ -753,14 +753,16 @@ margin-left: 0px;
   .headline-slider {
     position: relative;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
   }
   .slider-wrapper {
     display: flex;
+    width: 300%;
     transition: transform 0.5s ease-in-out;
   }
   .headline-slider .slide {
-    flex-shrink: 0;
-    width: 100%;
+    flex: 0 0 100%;
   }
   .slider-dots {
     text-align: center;
