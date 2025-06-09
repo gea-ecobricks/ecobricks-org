@@ -22,53 +22,46 @@ https://github/globalecobrickalliance/ecobricks.org
 <!-- FEATURED HEADLINE CONTENT -->
     <div class="feature-content-1-anchor-box">
 
-    <div class="featured-content-1" >
-             <div class="featured-content-shaded-box">
-                 <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-4-title-x">Free June Course</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle-x">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
+        <div class="headline-slider">
+            <div class="slider-wrapper">
+                <div class="featured-content-1 slide">
+                    <div class="featured-content-shaded-box">
+                        <div class="featured-content-text">
+                            <div class="featured-content-title" data-lang-id="300-featured-content-4-title-x">Free June Course</div>
+                            <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle-x">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
+                            <a class="content1-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-4-button-x">↗️ View Course on GoBrik</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-content-3 slide">
+                    <div class="feature-content-box">
+                        <div class="featured-content-img ecovillage-pic"></div>
+                        <div class="feature-big-header" data-lang-id="315-featured-3-heading">Put Plastic to Good Use</div>
+                        <div class="feature-sub-text" data-lang-id="316-featured-3-subheading">
+                        Ecobricks turn problematic plastic into reusable blocks.  Plastic is a problem— but its also the way to build deep green solutions.</div>
+                        <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button" aria-label="Build with Ecobricks">🔨Ecobrick Building</a>
+                        <div class="feature-reference-links" data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a></div>
+                    </div>
+                </div>
+                <div class="featured-content-4 slide">
+                    <div class="feature-content-box">
+                        <div class="featured-content-img earthservice-pic"></div>
+                        <div class="feature-big-header" data-lang-id="319-featured-4-heading">Following Earth's Example</div>
+                        <div class="feature-sub-text" data-lang-id="320-featured-4-subheading">
+                        Our ecobricking is inspired by the Igorot people of Northen Luzon, where the Global Ecobrick Alliance was founded.  Guided by their Ayyew ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.</div>
+                        <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button" aria-label="Our Principles">🌏 Our Earthen Principles</a>
+                        <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
 
-                     <a class="content1-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-4-button-x">↗️ View Course on GoBrik</a>
-                 </div>
-             </div>
-         </div>
-    </div>
-
-
-
-+<!-- FEATURED HEADLINE CONTENT 3
-+    <div class="feature-content-anchor-box">
-+
-+    <div class="featured-content-3" >
-+             <div class="featured-content-shaded-box">
-+                 <div class="featured-content-text">
-+                     <div class="featured-content-title" data-lang-id="300-featured-content-3-title">The Long Story of Plastic</div>
-+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-3-subtitle">Plastic has a primordial stellar story that we must understand in order to solve the problems it is causing today.</div>
-+
-+                     <a class="content1-button" href="platics.php" data-lang-id="302-featured-content-3-button">🌟️ Learn</a>
-+                 </div>
-+             </div>
-+         </div>
-+    </div>
-+-->
-+
-+
-+<!-- FEATURED HEADLINE CONTENT 4
-+    <div class="feature-content-anchor-box">
-+
-+    <div class="featured-content-3" >
-+             <div class="featured-content-shaded-box">
-+                 <div class="featured-content-text">
-+                     <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
-+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices.</div>
-
--                     <a class="content1-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-4-button-x">↗️ View Course on GoBrik</a>
-+                     <a class="content1-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button">⚒️ Learn</a>
-                  </div>
-              </div>
-          </div>
-     </div>
-+-->
 
 <!-- PROJECT GALLERY -->
 
@@ -281,34 +274,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 </div>
 
-    <div class="featured-content-3"  >
-        <div class="feature-content-box">
-            <div class="featured-content-img ecovillage-pic"></div>
-            <div class="feature-big-header" data-lang-id="315-featured-3-heading">Put Plastic to Good Use</div>
-            <div class="feature-sub-text" data-lang-id="316-featured-3-subheading">
-            Ecobricks turn problematic plastic into reusable blocks.  Plastic is a problem— but its also the way to build deep green solutions.</div>
 
-            <a href="build.php" class="feature-button" data-lang-id="317-featured-3-button" aria-label="Build with Ecobricks">🔨Ecobrick Building</a>
-
-            <div class="feature-reference-links" data-lang-id="318-featured-3-references"><a href="earth.php">Earth Building</a> | <a href="modules.php">Furniture Modules</a></div>
-        </div>
-    </div>
-
-
- <!--FOURTH CONTENT SECTION-->
-
-
-    <div class="featured-content-4"  >
-        <div class="feature-content-box">
-            <div class="featured-content-img earthservice-pic"></div>
-            <div class="feature-big-header" data-lang-id="319-featured-4-heading">Following Earth's Example</div>
-            <div class="feature-sub-text" data-lang-id="320-featured-4-subheading">
-            Our ecobricking is inspired by the Igorot people of Northen Luzon, where the Global Ecobrick Alliance was founded.  Guided by their Ayyew ethos, ecobricking is fundamentally distinct from western concepts of sustainability and zero-waste.</div>
-            <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button" aria-label="Our Principles">🌏 Our Earthen Principles</a>
-            <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a>
-            </div>
-        </div>
-    </div>
 
 
         </div><!--closes main-->
