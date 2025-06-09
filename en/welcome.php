@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='4.14';?>
+<?php $version='4.15';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -25,10 +25,10 @@ https://github/globalecobrickalliance/ecobricks.org
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices.</div>
+                     <div class="featured-content-title" data-lang-id="300-featured-content-4-title-x">Free June Course</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle-x">Join us for a live Intro to Ecobricks course.  Learn the science, philosophy and essential ecobrick techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apolonia.  Free.</div>
 
-                     <a class="content1-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button">⚒️ Learn</a>
+                     <a class="content1-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-4-button-x">↗️ View Course on GoBrik</a>
                  </div>
              </div>
          </div>
