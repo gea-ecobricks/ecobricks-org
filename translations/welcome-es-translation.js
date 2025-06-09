@@ -21,28 +21,19 @@ const es_Page_Translations = {
    
        /*Feature Content Slides*/
 
-       "300-featured-content-1-title": "Curso gratuito en junio",
-       "301-featured-content-1-subtitle": "Únete a nuestro curso introductorio gratuito y en vivo. Aprende la ciencia, la filosofía y las técnicas esenciales con el cofundador de la GEA Russell Maier y la formadora de la GEA Paula Apollonia en nuestro curso principal Plástico, la Biosfera & Ecobricks. Gratis."
-       "302-featured-content-1-button": "↗️ Ver curso en GoBrik",
-      
-       "300-featured-content-3-title": "La historia planetaria del plástico",
-       "301-featured-content-3-subtitle": "¿De dónde viene realmente el plástico?",
-       "302-featured-content-3-button": "🌎 ¡Profundiza!",
-       '302-featured-2-heading': 'Mantén Tu Plástico Seguro',
-       '303-featured-live-brikchain': 'Alimentación en vivo de brikchain de ecobricks autenticados. Haz clic para previsualizar.',
-       '304-featured-live-heading': 'Ecobricking. En vivo.',
-       '305-featured-live-subheading': 'Los ecobricks se están haciendo, registrando y validando en todo el mundo en este momento. Cada ecobrick autenticado se publica en nuestra Brikcoin manual blockchain.',
-       '306-featured-live-button': '⛓️ La Brikchain',
-       '307-featured-live-links': '<a href="brikchain.php">Acerca de AES Plastic</a> | <a href="/brikcoins">Acerca de Brikcoins</a>',
-       
-       '308-featured-2-heading': 'Mantén tu Plástico Seguro',
-       '309-featured-2-subheading': 'Cuando el plástico se suelta en la biosfera, contamina y envenena. Cuando el plástico es procesado por la industria, fomenta la producción de más plástico. Ecobricking es una metodología simple y sin capital para mantener tu plástico seguro y protegido para que pueda ser utilizado de manera buena y verde.',
-       '310-featured-2-button': 'Introducción al Ecobricking',
-       '311-featured-2-references': '<h6><a href="what.php">Conceptos básicos</a> | <a href="transition.php">Transición del Plástico</a> | <a href="how.php">Cómo hacerlo</a></h6>',
+    "300-featured-content-1-title": "Curso gratuito de junio",
+    "301-featured-content-1-subtitle": "Únase a nosotros en un curso introductorio en vivo y gratuito. Aprenda la ciencia, filosofía y técnicas esenciales con Russell Maier, cofundador de GEA, y la entrenadora de GEA Paula Apollonia en nuestro curso emblemático 'Plástico, la biosfera y los ecobricks'. Gratis.",
+    "302-featured-content-1-button": "↗️ Ver curso en GoBrik",
 
-       "300-featured-content-4-title": "Métodos de Tierra y Ecoladrillos",
-    "301-featured-content-4-subtitle": "Guías de Construcción Detalladas & Mejores Prácticas.",
+    "300-featured-content-3-title": "La historia planetaria del plástico",
+    "301-featured-content-3-subtitle": "¿De dónde viene realmente el plástico?",
+    "302-featured-content-3-button": "🌎 ¡Explora a fondo!",
+
+    "300-featured-content-4-title": "Métodos de Tierra y Ecobrick",
+    "301-featured-content-4-subtitle": "Guías detalladas de construcción y mejores prácticas.",
     "302-featured-content-4-button": "⚒️ Aprender",
+
+
 
     "500-training-feed": "<span class=\"blink\">⬤  </span> Transmisión en vivo de entrenamientos...",
     "500-featured-training-heading": "Capacitaciones de la Alianza Global de Ecoladrillos",

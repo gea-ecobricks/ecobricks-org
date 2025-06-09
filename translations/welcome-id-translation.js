@@ -15,16 +15,17 @@ INDONESIAN SNIPPETS FOR ECOBRICKS.ORG
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
 
 const id_Page_Translations = {
-  "300-featured-content-1-title": "Kursus Gratis Juni",
-  "301-featured-content-1-subtitle": "Ikuti kursus pengantar langsung dan gratis. Pelajari sains, filosofi, dan teknik penting dari salah satu pendiri GEA Russell Maier dan Pelatih GEA Paula Apollonia dalam kursus andalan kami "Plastik, Biosfer & Ecobrick". Gratis.",
+  "300-featured-content-1-title": "Kursus Gratis Bulan Juni",
+  "301-featured-content-1-subtitle": "Ikuti kursus pengantar langsung dan gratis. Pelajari ilmu, filosofi, dan teknik penting dari salah satu pendiri GEA Russell Maier dan Pelatih GEA Paula Apollonia dalam kursus unggulan kami 'Plastik, Biosfer & Ecobricks'. Gratis.",
   "302-featured-content-1-button": "↗️ Lihat Kursus di GoBrik",
 
   "300-featured-content-3-title": "Kisah Planet Plastik",
   "301-featured-content-3-subtitle": "Dari mana sebenarnya plastik berasal?",
   "302-featured-content-3-button": "🌎 Pelajari lebih dalam!",
-  "300-featured-content-4-title": "Metode Tanah & Ecobrick",
-    "301-featured-content-4-subtitle": "Panduan Pembangunan Mendalam & Praktik Terbaik.",
-    "302-featured-content-4-button": "⚒️ Belajar",
+
+  "300-featured-content-4-title": "Metode Bumi & Ecobrick",
+  "301-featured-content-4-subtitle": "Panduan dan praktik terbaik secara mendalam.",
+  "302-featured-content-4-button": "⚒️ Pelajari",
 
     "500-training-feed": "<span class=\"blink\">⬤  </span> Umpan pelatihan langsung...",
     "500-featured-training-heading": "Pelatihan GEA",

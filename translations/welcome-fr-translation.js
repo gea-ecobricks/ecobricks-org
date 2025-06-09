@@ -6,16 +6,17 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 -----------------------------------*/
 
 const fr_Page_Translations = {
-  "300-featured-content-1-title": "Cours gratuit en juin",
-  "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours introductif en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles avec le cofondateur du GEA Russell Maier et la formatrice GEA Paula Apollonia dans notre cours phare 'Le Plastique, la Biosphère & les Ecobricks'. Gratuit.",
+  "300-featured-content-1-title": "Cours gratuit de juin",
+  "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours d'introduction en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles avec Russell Maier, cofondateur de GEA, et la formatrice GEA Paula Apollonia, dans notre cours phare 'Le plastique, la biosphère et les écobricks'. Gratuit.",
   "302-featured-content-1-button": "↗️ Voir le cours sur GoBrik",
 
-  "300-featured-content-3-title": "L'histoire plan\u00e9taire du plastique",
-  "301-featured-content-3-subtitle": "D'o\u00f9 vient vraiment le plastique ?",
-  "302-featured-content-3-button": "\xF0\x9F\x8C\x8D Approfondir !",
-      "300-featured-content-4-title": "Méthodes Terrestres & Écobriques",
-    "301-featured-content-4-subtitle": "Directives de Construction Approfondies & Meilleures Pratiques.",
-    "302-featured-content-4-button": "⚒️ Apprendre",
+  "300-featured-content-3-title": "L’histoire planétaire du plastique",
+  "301-featured-content-3-subtitle": "D'où vient réellement le plastique ?",
+  "302-featured-content-3-button": "🌎 Approfondir !",
+
+  "300-featured-content-4-title": "Méthodes Terre & Écobrique",
+  "301-featured-content-4-subtitle": "Lignes directrices et bonnes pratiques détaillées.",
+  "302-featured-content-4-button": "⚒️ Apprendre",
 
     "500-training-feed": "<span class=\"blink\">⬤  </span> Flux de formations en direct...",
     "500-featured-training-heading": "Formations de l'Alliance Globale d'Écobriques",
