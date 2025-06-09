@@ -21,10 +21,13 @@ const es_Page_Translations = {
    
        /*Feature Content Slides*/
 
-       "300-featured-content-1-title": "La historia planetaria del plástico",
-       "301-featured-content-1-subtitle": "¿De dónde viene realmente el plástico?",
-       "302-featured-content-1-button": "🌎 ¡Ir a fondo!",
+       "300-featured-content-1-title": "Curso gratuito en junio",
+       "301-featured-content-1-subtitle": "Únete a nuestro curso introductorio gratuito y en vivo. Aprende la ciencia, la filosofía y las técnicas esenciales con el cofundador de la GEA Russell Maier y la formadora de la GEA Paula Apollonia en nuestro curso principal Plástico, la Biosfera & Ecobricks. Gratis."
+       "302-featured-content-1-button": "↗️ Ver curso en GoBrik",
       
+       "300-featured-content-3-title": "La historia planetaria del plástico",
+       "301-featured-content-3-subtitle": "¿De dónde viene realmente el plástico?",
+       "302-featured-content-3-button": "🌎 ¡Profundiza!",
        '302-featured-2-heading': 'Mantén Tu Plástico Seguro',
        '303-featured-live-brikchain': 'Alimentación en vivo de brikchain de ecobricks autenticados. Haz clic para previsualizar.',
        '304-featured-live-heading': 'Ecobricking. En vivo.',
