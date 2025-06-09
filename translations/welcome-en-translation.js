@@ -15,9 +15,13 @@ ENGLISH SNIPPETS FOR ECOBRICKS.ORG
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
 
 const en_Page_Translations = {
-  "300-featured-content-1-title": "The Planetary Story of Plastic",
-  "301-featured-content-1-subtitle": "Where does plastic really come from?",
-  "302-featured-content-1-button": "🌎 Go deep!",
+  "300-featured-content-1-title": "Free June Course",
+  "301-featured-content-1-subtitle": "Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.",
+  "302-featured-content-1-button": "↗️ View Course on GoBrik",
+
+  "300-featured-content-3-title": "The Planetary Story of Plastic",
+  "301-featured-content-3-subtitle": "Where does plastic really come from?",
+  "302-featured-content-3-button": "🌎 Go deep!",
 
     "300-featured-content-4-title": "Earth & Ecobrick Methods",
     "301-featured-content-4-subtitle": "In-depth Building Guidelines & Best Practices.",
