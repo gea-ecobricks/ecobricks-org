@@ -3,9 +3,9 @@
 <!--  Set any page specific graphics to preload-->
 
 <!--  Set any page specific graphics to preload-->
-<link rel="preload" as="image" href="../photos/photo1-mobile.webp" media="(max-width: 699px)">
-<link rel="preload" as="image" href="../photos/photo1-tablet.webp" media="(min-width: 700px) and (max-width: 1199px)">
-<link rel="preload" as="image" href="../photos/photo1-desktop.webp" media="(min-width: 1200px)">
+<link rel="preload" as="image" href="../photos/photo3-mobile.webp" media="(max-width: 699px)">
+<link rel="preload" as="image" href="../photos/photo3-tablet.webp" media="(min-width: 700px) and (max-width: 1199px)">
+<link rel="preload" as="image" href="../photos/photo3-desktop.webp" media="(min-width: 1200px)">
 
 
 <?php require_once ("../meta/welcome-$lang.php");?>
@@ -141,7 +141,7 @@ margin: auto 10px auto 18px;
 /* Background images for different devices */
 @media (max-width: 700px) {
 
-  .feature-content-anchor-box{
+  .feature-content-1-anchor-box{
     height:92vh;
     max-height: 92vh;
   }
@@ -186,19 +186,6 @@ margin: auto 10px auto 18px;
   height:100vh;
   max-height: 100vh;
 }
-}
-
-@media (max-width: 700px) {
-  .featured-content-3 { background-image: url('../photos/photo3-mobile.webp'); }
-  .featured-content-4 { background-image: url('../photos/photo4-mobile.webp'); }
-}
-@media (min-width: 701px) and (max-width: 1200px) {
-  .featured-content-3 { background-image: url('../photos/photo3-tablet.webp'); }
-  .featured-content-4 { background-image: url('../photos/photo4-tablet.webp'); }
-}
-@media (min-width: 1201px) {
-  .featured-content-3 { background-image: url('../photos/photo3-desktop.webp'); }
-  .featured-content-4 { background-image: url('../photos/photo4-desktop.webp'); }
 }
 
 
@@ -747,37 +734,6 @@ margin-left: 0px;
     margin-right: 20px;
     margin-left: 20px;
     border-radius: 15px;
-  }
-
-  /* Slider styling */
-  .headline-slider {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-  }
-  .slider-wrapper {
-    display: flex;
-    width: 300%;
-    transition: transform 0.5s ease-in-out;
-  }
-  .headline-slider .slide {
-    flex: 0 0 100%;
-  }
-  .slider-dots {
-    text-align: center;
-    margin-top: 10px;
-  }
-  .slider-dots .dot {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 0 4px;
-    border-radius: 50%;
-    background-color: #bbb;
-  }
-  .slider-dots .dot.active {
-    background-color: #555;
   }
 
 .feature-content-box {
