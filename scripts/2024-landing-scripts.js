@@ -129,13 +129,43 @@ function projectPreview(project_id, name, description, location_full, ecobricks_
 
 
 
-    function closeEcobrickModal() {
+function closeEcobrickModal() {
         // Close the modal by removing it from the DOM
         var modal = document.querySelector('.ecobrick-modal');
         if (modal) {
             modal.parentNode.removeChild(modal);
         }
+}
+
+// Simple slider for headline content
+document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.querySelector('.headline-slider .slider-wrapper');
+    const dots = document.querySelectorAll('.headline-slider .dot');
+    if (!slider || dots.length === 0) return;
+
+    let index = 0;
+    const total = dots.length;
+
+    function showSlide(i) {
+        slider.style.transform = 'translateX(' + (-i * 100) + '%)';
+        dots.forEach((d, idx) => d.classList.toggle('active', idx === i));
     }
+
+    function nextSlide() {
+        index = (index + 1) % total;
+        showSlide(index);
+    }
+
+    dots.forEach((dot, idx) => {
+        dot.addEventListener('click', () => {
+            index = idx;
+            showSlide(index);
+        });
+    });
+
+    showSlide(index);
+    setInterval(nextSlide, 5000);
+});
 
 
  
