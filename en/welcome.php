@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='4.15';?>
+<?php $version='4.35';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
 
@@ -21,6 +21,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- FEATURED HEADLINE CONTENT -->
     <div class="feature-content-1-anchor-box">
+
         <div class="headline-slider">
             <div class="slider-wrapper">
                 <div class="featured-content-1 slide">
@@ -60,8 +61,6 @@ https://github/globalecobrickalliance/ecobricks.org
                 <span class="dot"></span>
             </div>
         </div>
-    </div>
-
 
 
 <!-- PROJECT GALLERY -->
