@@ -195,7 +195,7 @@ margin: auto 10px auto 18px;
     }
 
   #slider-content-4 {
-      background-image: url('../photos/photo3-desktop.webp?v=3');
+      background-image: url('../photos/photo4-desktop.webp?v=3');
     }
 
   .featured-content-shaded-box {

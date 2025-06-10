@@ -81,7 +81,7 @@ https://github.com/gea-ecobricks/ecobricks-org
                 <h6>
                 <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
             </div>
-            <div class="feature-reference-links">Five slides. 45 seconds.</div>
+
         </div>
     </div>
 
