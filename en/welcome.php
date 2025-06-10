@@ -34,7 +34,7 @@ https://github.com/gea-ecobricks/ecobricks-org
                  </div>
              </div>
          </div>
-    </div> -->
+    </div>
 
 
 
@@ -48,19 +48,18 @@ https://github.com/gea-ecobricks/ecobricks-org
                         </div>
                     </div>
                 </div>
-<!--
-    <div id="slider-content-4" class="slider-slide" >
+-->
+            <div id="slider-content-4" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
-                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices.</div>
-
+                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices</div>
                         <a class="content-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button">⚒️ Learn</a>
                     </div>
                 </div>
             </div>
 
-            -->
+
 
   </div>
 
