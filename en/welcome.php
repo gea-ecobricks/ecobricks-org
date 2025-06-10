@@ -101,10 +101,12 @@ https://github.com/gea-ecobricks/ecobricks-org
             // output data of each row
             while($row = $result->fetch_assoc()) {
 
-            echo '
-            <div class="gal-photo10">
-            <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="https://gobrik.com/'.$row["ecobrick_full_photo_url"].'?v=1" loading="lazy" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>';
-            echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
+            echo '<div class="gal-photo10">
+                    <a href="details-ecobrick-page.php?serial_no=' . $row["ecobrick_unique_id"] . '">
+                        <img src="https://gobrik.com/' . $row["ecobrick_full_photo_url"] . '?v=1" loading="lazy" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_maker"] . ' in ' . $row["location_full"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_maker"] . ' in ' . $row["location_full"] . '">
+                    </a>
+                    <div class="gal10-photo-text"><b>Ecobrick ' . $row["ecobrick_unique_id"] . '</b><br>By ' . $row["ecobrick_maker"] . '<br>' . $row["location_full"] . '</div>
+                </div>';
 
             }
 
