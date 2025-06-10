@@ -60,10 +60,10 @@ https://github.com/gea-ecobricks/ecobricks-org
                     </div>
                 </div>
             </div>
-       </div>
+
             -->
 
-
+  </div>
 
 <!-- PROJECT GALLERY -->
 
