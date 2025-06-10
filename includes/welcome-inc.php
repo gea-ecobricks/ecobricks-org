@@ -663,11 +663,12 @@ margin-left: 0px;
     background-position: center;
     position: relative;
     overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border-radius: 15px;
+   margin-top: -120px;
+     margin-bottom: -120px;
+     margin-right: 20px;
+     margin-left: 20px;
+     border-radius: 15px;
+     padding: 100px 10px 100px 10px;
   }
 
 
