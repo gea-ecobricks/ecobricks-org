@@ -103,9 +103,9 @@ https://github.com/gea-ecobricks/ecobricks-org
 
             echo '<div class="gal-photo10">
                     <a href="details-ecobrick-page.php?serial_no=' . $row["ecobrick_unique_id"] . '">
-                        <img src="https://gobrik.com/' . $row["ecobrick_full_photo_url"] . '?v=1" loading="lazy" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_maker"] . ' in ' . $row["location_full"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobrick_maker"] . ' in ' . $row["location_full"] . '">
+                        <img src="https://gobrik.com/' . $row["ecobrick_full_photo_url"] . '?v=1" loading="lazy" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobricker_maker"] . ' in ' . $row["location_full"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobricker_maker"] . ' in ' . $row["location_full"] . '">
                     </a>
-                    <div class="gal10-photo-text"><b>Ecobrick ' . $row["ecobrick_unique_id"] . '</b><br>By ' . $row["ecobrick_maker"] . '<br>' . $row["location_full"] . '</div>
+                    <div class="gal10-photo-text"><b>Ecobrick ' . $row["ecobrick_unique_id"] . '</b><br>By ' . $row["ecobricker_maker"] . '<br>' . $row["location_full"] . '</div>
                 </div>';
 
             }
