@@ -69,9 +69,8 @@ https://github.com/gea-ecobricks/ecobricks-org
 <!-- TOP TEN GALLERY-->
 
 <div class="featured-content-top10s" style="overflow-x:clip;">
-
     <div class="feature-content-box">
-        <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
+        <div class="feature-big-header"><h4 data-lang-id="312-top10s-title">Monthly Top Tens</h4></div>
         <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
     </div>
     <div class="gallery10-content-block">
