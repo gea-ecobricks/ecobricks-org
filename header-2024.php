@@ -102,9 +102,9 @@ window.onload = function() {
 
 
 
-<script src="../guided-tour.js?v=1.3" defer></script>
+<script src="../guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
 
-<script src="../site-search.js?v=6.1" defer></script>
+<script src="../site-search.js?v=<?php echo ($version); ;?>" defer></script>
 
 
 
