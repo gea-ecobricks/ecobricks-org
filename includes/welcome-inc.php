@@ -114,8 +114,6 @@ margin: auto 10px auto 18px;
   text-align: center;
   display: flex;
   opacity:0.88;
-
-
   display: inline-block;
   margin: 10px auto 25px auto;
   text-decoration: none;
@@ -785,17 +783,17 @@ margin-left: 0px;
 
 @media screen and (max-width: 769px) {
   .feature-big-header {
-      font-size: 1.9em;
+      font-size: 1.7em;
   }
 }
 @media screen and (min-width: 770px) and (max-width: 1200px) {
   .feature-big-header {
-      font-size: 2.6em;
+      font-size: 2.1em;
   }
 }
 @media screen and (min-width: 1201px) {
   .feature-big-header {
-      font-size: 2.5em;
+      font-size: 2em;
   }
 }
 
