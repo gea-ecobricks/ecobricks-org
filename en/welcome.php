@@ -19,8 +19,10 @@ https://github.com/gea-ecobricks/ecobricks-org
 <?php require_once ("../includes/welcome-inc.php");?>
 
 
-<!-- FEATURED HEADLINE CONTENT
+
     <div class="feature-content-anchor-box">
+
+        <!-- FEATURED HEADLINE CONTENT
     
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
