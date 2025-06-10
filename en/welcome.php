@@ -22,7 +22,7 @@ https://github.com/gea-ecobricks/ecobricks-org
 
     <div class="feature-content-anchor-box">
 
-        <!-- FEATURED HEADLINE CONTENT
+        <!-- FEATURED HEADLINE CONTENT-->
     
     <div id="slider-content-1" class="slider-slide" >
              <div class="featured-content-shaded-box">
@@ -36,7 +36,7 @@ https://github.com/gea-ecobricks/ecobricks-org
          </div>
     </div>
 
-
+<!--
 
 
                 <div id="slider-content-3" class="slider-slide" >
@@ -48,7 +48,7 @@ https://github.com/gea-ecobricks/ecobricks-org
                         </div>
                     </div>
                 </div>
--->
+
             <div id="slider-content-4" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
@@ -59,7 +59,7 @@ https://github.com/gea-ecobricks/ecobricks-org
                 </div>
             </div>
 
-
+-->
 
   </div>
 
