@@ -12,15 +12,15 @@
 Ecobricks.org site version 3.0
 Developed and made open source by the Global Ecobrick Alliance
 See our git hub repository for the full code and to help out:
-https://github/globalecobrickalliance/ecobricks.org
+https://github.com/gea-ecobricks/ecobricks-org
 -->
 
 
 <?php require_once ("../includes/welcome-inc.php");?>
 
 
-<!-- FEATURED HEADLINE CONTENT -->
-    <div class="feature-content-1-anchor-box">
+<!-- FEATURED HEADLINE CONTENT
+    <div class="feature-content-anchor-box">
     
     <div class="featured-content-1" >
              <div class="featured-content-shaded-box">
@@ -28,13 +28,13 @@ https://github/globalecobrickalliance/ecobricks.org
                      <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Free June Course</div>
                      <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
 
-                     <a class="content1-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-1-button">↗️ View Course on GoBrik</a>
+                     <a class="content-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-1-button">↗️ View Course on GoBrik</a>
                  </div>
              </div>
          </div>
-    </div>
+    </div> -->
 
-<!--
+
 
 
          <div class="featured-content-3" >
@@ -48,7 +48,7 @@ https://github/globalecobrickalliance/ecobricks.org
                 </div>
            </div>
 
-       <div class="featured-content-4" >
+    <!--   <div class="featured-content-4" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
@@ -188,7 +188,7 @@ https://github/globalecobrickalliance/ecobricks.org
 
 <!-- FULL ECOBRICK FLOW GALLERY -->
 
-<div class="featured-content-gallery" style="overflow-x:clip;">
+<!--<div class="featured-content-gallery" style="overflow-x:clip;">
         <div class="feed-live">
             <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
         </div>
@@ -213,8 +213,6 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="photo-box-end" href="brikchain.php"></div>
         </div>
 
-        <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-        50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
 
         <div class="feature-content-box">
             <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
@@ -226,7 +224,7 @@ https://github/globalecobrickalliance/ecobricks.org
         </div>
     </div>
 
-
+-->
 
 
 

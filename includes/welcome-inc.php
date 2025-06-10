@@ -20,7 +20,7 @@
 
 /*  FEATURED CONTENT BLOCKS  */ 
 
-.feature-content-1-anchor-box{
+.feature-content-anchor-box{
 width: 100%;
   margin-top: 0px;
   padding-top: 90px;
@@ -101,7 +101,7 @@ margin: auto 10px auto 18px;
 
 }
 
-.content1-button {
+.content-button {
   border: none;
   color: var(--main-background);
   background-color: var(--emblem-orange);
@@ -124,7 +124,7 @@ margin: auto 10px auto 18px;
   font-family: 'Mulish', sans-serif;
   }
 
-  .content1-button:hover {
+  .content-button:hover {
   opacity: 1;}
 
 
@@ -141,7 +141,7 @@ margin: auto 10px auto 18px;
 /* Background images for different devices */
 @media (max-width: 700px) {
 
-  .feature-content-1-anchor-box{
+  .feature-content-anchor-box{
     height:92vh;
     max-height: 92vh;
   }
@@ -150,6 +150,13 @@ margin: auto 10px auto 18px;
     background-image: url('../photos/photo1-mobile.webp?v=3');
   }
 
+  .featured-content-3 {
+    background-image: url('../photos/photo3-mobile.webp?v=1');
+  }
+
+    .featured-content-4 {
+      background-image: url('../photos/photo4-mobile.webp?v=1');
+    }
   .featured-content-shaded-box {
     top: 62%;
     height: 40vh;
@@ -161,12 +168,19 @@ margin: auto 10px auto 18px;
     background-image: url('../photos/photo1-tablet.webp?v=3');
   }
 
+  .featured-content-3 {
+    background-image: url('../photos/photo3-tablet.webp?v=3');
+  }
+
+    .featured-content-4 {
+      background-image: url('../photos/photo4-tablet.webp?v=3');
+    }
   .featured-content-shaded-box {
     top: 65%;
     height: 35vh;
 }
 
-.feature-content-1-anchor-box{
+.feature-content-anchor-box{
   height:98vh;
   max-height: 98vh;
 }
@@ -178,11 +192,19 @@ margin: auto 10px auto 18px;
     background-image: url('../photos/photo1-desktop.webp?v=3');
   }
 
+    .featured-content-3 {
+      background-image: url('../photos/photo3-desktop.webp?v=3');
+    }
+
+  .featured-content-4 {
+      background-image: url('../photos/photo3-desktop.webp?v=3');
+    }
+
   .featured-content-shaded-box {
     top: 70%;
     height: 30vh;
 }
-.feature-content-1-anchor-box{
+.feature-content-anchor-box{
   height:100vh;
   max-height: 100vh;
 }
@@ -195,17 +217,6 @@ margin: auto 10px auto 18px;
 /* ECOBRICK AND PROJECT GALLERY */
 
 
-/* FEATURED ECOBRICKS GALLERY FORMATING */
-/* 
-.brik-co2 {
-  font-size: 0.7em;
-  color: white;
-  font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
-  margin-top: -60px;
-  text-align: left;
-  padding: 0px 0px 10px 20px;
-  background-color: black !important;
-} */
 
 .gallery-flex-container {
 display: flex;
@@ -233,15 +244,6 @@ max-width:160px;
 /* width:160px; */
 overflow: hidden;
 }
-/* 
-.gallery-flex-container::before {
-  content: '';
-  flex: auto;
-}
-
-.gal-photo:nth-child(2n + 1):last-child {
-  margin-left: auto;
-} */
 
 
 
@@ -351,7 +353,6 @@ background-color: var(--emblem-green);
 height: 100px;
 width: 100px;
 margin: 3px;
-
 animation: blinker 1.5s cubic-bezier(0,.43,1,.64) infinite;
 background: url(../icons/gobrik-icon-darker.svg) no-repeat center;
 background-size: contain;
@@ -455,19 +456,9 @@ font-size: 0.8em;
 
       padding-top: 10px;
 
-  /*box-shadow: 0 8px 7px rgba(85, 84, 84, 0.4);
-  margin-bottom: 40px;
-  padding-bottom: 15px;*/
 
 }
-} 
-
-
-/* .full-width-image {
-  width: 100%;
-  height: auto;
-} */
-
+}
 
 
 
@@ -593,17 +584,6 @@ margin-left: 0px;
 }
 }
 
-/*
-.gal-photo-text {
-    background-color: #DFDFDF;
-    margin: 2px;
-    text-align: center;
-    padding: 8px;
-    width: 205px;
-    max-width:205px;
-    overflow: hidden;
-        margin-bottom: 0px;
-}*/
 
 .gal-photo10 p {
     font-size: 0.9em;
