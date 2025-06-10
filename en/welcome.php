@@ -39,7 +39,7 @@ https://github.com/gea-ecobricks/ecobricks-org
 
 
 
-         <div id="slider-content-3" class="slider-slide" >
+                <div id="slider-content-3" class="slider-slide" >
                     <div class="featured-content-shaded-box">
                         <div class="featured-content-text">
                             <div class="featured-content-title" data-lang-id="300-featured-content-3-title">The Planetary Story of Plastic</div>
@@ -48,7 +48,6 @@ https://github.com/gea-ecobricks/ecobricks-org
                         </div>
                     </div>
                 </div>
-           </div>
 <!--
     <div id="slider-content-4" class="slider-slide" >
                 <div class="featured-content-shaded-box">
@@ -70,6 +69,11 @@ https://github.com/gea-ecobricks/ecobricks-org
 <!-- TOP TEN GALLERY-->
 
 <div class="featured-content-top10s" style="overflow-x:clip;">
+
+    <div class="feature-content-box">
+        <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
+        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
+    </div>
     <div class="gallery10-content-block">
         <div class="flex-container10">
 
@@ -95,6 +99,15 @@ https://github.com/gea-ecobricks/ecobricks-org
 
         </div>
     </div>
+
+
+
+         <!--<a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-label="monthly rankings">🏆 Monthly Rankings</a>
+
+                         <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>-->
+
+
+</div>
 
 <!-- PROJECT GALLERY -->
 
@@ -265,17 +278,7 @@ https://github.com/gea-ecobricks/ecobricks-org
 
 
 
-    <div class="feature-content-box">
-    <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
-        <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
-        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
 
-         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-label="monthly rankings">🏆 Monthly Rankings</a>
-
-            <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>
-    </div>
-
-</div>
 
     <div class="featured-content-3"  >
         <div class="feature-content-box">
