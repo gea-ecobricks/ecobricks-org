@@ -95,7 +95,7 @@ https://github.com/gea-ecobricks/ecobricks-org
         <div class="flex-container10">
 
             <?php
-            $sql = "SELECT * FROM vw_top_10_last_month ;";
+            $sql = "SELECT * FROM tb_ecobricks WHERE feature = 1 ORDER BY date_logged_ts DESC LIMIT 10;";
             $result = $conn->query($sql);
             if ($result->num_rows > 0) {
             // output data of each row
@@ -116,16 +116,14 @@ https://github.com/gea-ecobricks/ecobricks-org
 
         </div>
     </div>
-</div>
-</div>
 
 
          <!--<a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-label="monthly rankings">🏆 Monthly Rankings</a>
 
-                         <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>-->
+                        <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>-->
 
+    </div>
 
-</div>
 
 <!-- PROJECT GALLERY -->
 
