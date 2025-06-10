@@ -24,7 +24,7 @@ https://github.com/gea-ecobricks/ecobricks-org
 
         <!-- FEATURED HEADLINE CONTENT
     
-    <div class="featured-content-1" >
+    <div id="slider-content-1" class="slider-slide" >
              <div class="featured-content-shaded-box">
                  <div class="featured-content-text">
                      <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Free June Course</div>
@@ -39,7 +39,7 @@ https://github.com/gea-ecobricks/ecobricks-org
 
 
 
-         <div class="featured-content-3" >
+         <div id="slider-content-3" class="slider-slide" >
                     <div class="featured-content-shaded-box">
                         <div class="featured-content-text">
                             <div class="featured-content-title" data-lang-id="300-featured-content-3-title">The Planetary Story of Plastic/div>
@@ -49,8 +49,8 @@ https://github.com/gea-ecobricks/ecobricks-org
                     </div>
                 </div>
            </div>
-
-    <!--   <div class="featured-content-4" >
+<!--
+    <div id="slider-content-4" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
@@ -300,6 +300,7 @@ https://github.com/gea-ecobricks/ecobricks-org
             <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button" aria-label="Our Principles">🌏 Our Earthen Principles</a>
             <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a>
             </div>
+
         </div>
     </div>
 
