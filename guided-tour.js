@@ -12,14 +12,7 @@ function closeTour() {
   var modal = document.getElementById("guided-tour");
   modal.style.display = "none";
   document.getElementById("page-content").classList.remove("blur");
-  // Reset the tour to the first window (index 0)
-  var regFooter = document.getElementById("registration-footer");
-  if (regFooter) {
-    regFooter.style.display = "block";
-  }
-  // Allow scrolling on the body again
-  document.body.style.overflow = '';
-  document.body.style.maxHeight = '';
+
   tourTaken();
 }
 
@@ -28,10 +21,7 @@ function closeTour() {
     // Prevent scrolling on the body
     document.body.style.overflow = 'hidden';
     document.body.style.maxHeight = '100vh';
-    var regFooter = document.getElementById("registration-footer");
-    if (regFooter) {
-      regFooter.style.display = "none";
-    }
+
 
     var modal = document.getElementById("guided-tour");
     modal.style.display = "flex";
