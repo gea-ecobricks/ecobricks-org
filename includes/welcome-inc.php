@@ -504,7 +504,7 @@ font-size: 0.8em;
   		margin-right: -5%;
   		margin-left: -5%;
 		margin-top: 0px;
-        margin-top: 70px;
+        margin-top: 10px;
         padding-top: 20px;
         padding-bottom: 35px;
         overflow: hidden;

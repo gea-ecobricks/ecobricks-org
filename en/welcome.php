@@ -63,7 +63,27 @@ https://github.com/gea-ecobricks/ecobricks-org
 
   </div>
 
+ <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 
+    <div class="featured-content-2">
+
+        <div class="feature-content-box">
+
+            <div class="featured-content-img dolphin-pic"></div>
+
+            <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Plastic Safe</h4></div>
+
+            <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
+           Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
+            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
+
+          <div class="feature-reference-links" data-lang-id="311-featured-2-references">
+                <h6>
+                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
+            </div>
+            <div class="feature-reference-links">Five slides. 45 seconds.</div>
+        </div>
+    </div>
 
 <!-- TOP TEN GALLERY-->
 
@@ -98,7 +118,7 @@ https://github.com/gea-ecobricks/ecobricks-org
         </div>
     </div>
 </div>
-
+</div>
 
 
          <!--<a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-label="monthly rankings">🏆 Monthly Rankings</a>
@@ -209,27 +229,7 @@ https://github.com/gea-ecobricks/ecobricks-org
 
 
 
-    <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 
-    <div class="featured-content-2">
-    
-        <div class="feature-content-box">
-
-            <div class="featured-content-img dolphin-pic"></div>
-            
-            <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Plastic Safe</h4></div>
-            
-            <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
-           Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
-            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
-
-            <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
-                <h6>
-                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
-            </div> -->
-            <div class="feature-reference-links">Five slides. 45 seconds.</div>
-        </div>
-    </div>
 
 <!-- FULL ECOBRICK FLOW GALLERY -->
 
