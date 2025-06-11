@@ -1,75 +1,87 @@
-        .htaccess
-        .htaccess-jogja
-        .htaccess-off
-        .htaccess-off2
-        .htaccess-off3
-        .htaccess-off4
-        .htaccess-off5
-        .htaccess-wash
-        .htaccess4
-        .user.ini
-        400.shtml
-        404.shtml
+############################################################
+#  Core server / hosting clutter
+############################################################
+# Apache / cPanel
+.htaccess*
+.user.ini
+php.ini
+
+# Generic error / log files
+error_log
+*/error_log
+*.log
+
+# HTTP error documents
+400.shtml
+404.shtml
+
+############################################################
+#  Secrets & environment
+############################################################
+*_env.php          # ecobricks_env.php, gobrikconn_env.php, etc.
+*.ini              # other config snippets
+
+############################################################
+#  One-off verification / cache files
+############################################################
+google*.html
+sitemap*.xml
+arc-sw.js
+
+############################################################
+#  WordPress (optional – ignore the whole CMS)
+############################################################
+wp-*.php
+wp-admin/
+wp-includes/
+wp-content/
+
+############################################################
+#  Large data / backup / throw-away folders
+############################################################
+briks/
+cash/
+projects/
+repositories/
+old/
+testing/
+testing.zip
+in/
+pt/
+trainings/
+
+############################################################
+#  Miscellaneous binaries / media that don’t belong in Git
+############################################################
+*.zip
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+favicon.ico
+
+############################################################
+#  IDE / editor junk
+############################################################
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+
+#################
+# SPECIF FILES
+#################
+
         ajax.php
-        api/error_log
-        briks/
-        cash/
         ecobricks_env.php
         en/ecobricks_env.php
-        en/error_log
-        en/favicon.ico
-        en/menus-xxx/error_log
-        en/old/error_log
-        en/side-modules/error_log
         en/test.php
-        error_log
-        es/error_log
-        es/menus/error_log
-        es/side-modules/error_log
-        footers/error_log
-        fr/error_log
-        fr/menus/error_log
-        fr/side-modules/error_log
         gobrikconn_env.php
-        google08157a9d4cdccc38.html
-        id/error_log
-        id/menus/error_log
-        id/side-modules/error_log
-        in/
-        includes/error_log
         index.php
         license.txt
-        menus/error_log
-        meta/error_log
-        newsletters/error_log
-        old/
-        page-modules/error_log
-        php.ini
-        projects/
-        pt/error_log
-        repositories/
-        scripts/error_log
         stylesheet.css
-        testing.zip
-        testing/
-        trainings/
-        vi/error_log
-        webp/s2023.webp
         wordfence-waf.php
-        wp-activate.php
-        wp-admin/
-        wp-blog-header.php
-        wp-comments-post.php
-        wp-config-sample.php
-        wp-config.php
-        wp-content/
-        wp-cron.php
-        wp-includes/
-        wp-links-opml.php
-        wp-load.php
-        wp-login.php
-        wp-mail.php
-        wp-settings.php
-        wp-signup.php
-        wp-trackback.php
         xmlrpc.php
