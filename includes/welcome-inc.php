@@ -1,5 +1,4 @@
 
-<!--PAGE LANGUAGE:  ENGLISH--> <?php require_once ("lang.php");?>
 <!--  Set any page specific graphics to preload-->
 
 <!--  Set any page specific graphics to preload-->

@@ -2,7 +2,7 @@
 <HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
+$lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 <?php $version='4.7';?>
 <?php $page='welcome';?>
 <?php include '../ecobricks_env.php';?>
