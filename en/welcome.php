@@ -2,21 +2,21 @@
 <HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
+
+    <!--
+    Ecobricks.org site version 3.0
+    Developed and made open source by the Global Ecobrick Alliance
+    See our git hub repository for the full code and to help out:
+    https://github.com/gea-ecobricks/ecobricks-org
+    -->
+
+<?php
+$version='4.7';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
-<?php $version='4.7';?>
-<?php $page='welcome';?>
-<?php include '../ecobricks_env.php';?>
-
-
-<!-- 
-Ecobricks.org site version 3.0
-Developed and made open source by the Global Ecobrick Alliance
-See our git hub repository for the full code and to help out:
-https://github.com/gea-ecobricks/ecobricks-org
--->
-
-
-<?php require_once ("../includes/welcome-inc.php");?>
+$page='welcome';
+include '../ecobricks_env.php';
+require_once ("../includes/welcome-inc.php");
+?>
 
 
 
