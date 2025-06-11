@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<HTML lang="en"> 
-<HEAD>
-<META charset="UTF-8">
-
-    <!--
-    Ecobricks.org site version 3.0
-    Developed and made open source by the Global Ecobrick Alliance
-    See our git hub repository for the full code and to help out:
-    https://github.com/gea-ecobricks/ecobricks-org
-    -->
-
 <?php
 $version='4.7';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
@@ -18,7 +6,17 @@ include '../ecobricks_env.php';
 require_once ("../includes/welcome-inc.php");
 ?>
 
+<!DOCTYPE html>
+<html lang="<?= htmlspecialchars($lang, ENT_QUOTES, 'UTF-8') ?>">
+<HEAD>
+<META charset="UTF-8">
 
+<!--
+Ecobricks.org site version 3.0
+Developed and made open source by the Global Ecobrick Alliance
+See our git hub repository for the full code and to help out:
+https://github.com/gea-ecobricks/ecobricks-org
+-->
 
     <div class="feature-content-anchor-box">
 
