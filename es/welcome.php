@@ -1,35 +1,34 @@
+<?php
+$version='4.7';
+$lang = basename(dirname($_SERVER['SCRIPT_NAME']));
+$page='welcome';
+include '../ecobricks_env.php';
+require_once ("../includes/welcome-inc.php");
+?>
+
 <!DOCTYPE html>
-<HTML lang="es"> 
+<html lang="<?= htmlspecialchars($lang, ENT_QUOTES, 'UTF-8') ?>">
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='es';?>
-<?php $version='4.5';?>
-<?php $page='welcome';?>
-<?php include '../ecobricks_env.php';?>
 
-
-<!-- 
+<!--
 Ecobricks.org site version 3.0
 Developed and made open source by the Global Ecobrick Alliance
 See our git hub repository for the full code and to help out:
-https://github/globalecobrickalliance/ecobricks.org
+https://github.com/gea-ecobricks/ecobricks-org
 -->
 
+    <div class="feature-content-anchor-box">
 
-<?php require_once ("../includes/welcome-inc.php");?>
+        <!-- FEATURED HEADLINE CONTENT-->
 
+    <div id="slider-content-1" class="slider-slide" >
+         <div class="featured-content-shaded-box">
+             <div class="featured-content-text">
+                 <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Free June Course</div>
+                 <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
 
-<!-- FEATURED HEADLINE CONTENT -->
-    <div class="feature-content-1-anchor-box">
-    
-    <div class="featured-content-1" >
-             <div class="featured-content-shaded-box">
-                 <div class="featured-content-text">
-                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Free June Course</div>
-                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
-
-                     <a class="content1-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-1-button">↗️ View Course on GoBrik</a>
-                 </div>
+                 <a class="content-button" href="https://gobrik.com/en/register.php?id=917" data-lang-id="302-featured-content-1-button">↗️ View Course on GoBrik</a>
              </div>
          </div>
     </div>
@@ -37,30 +36,93 @@ https://github/globalecobrickalliance/ecobricks.org
 <!--
 
 
-         <div class="featured-content-3" >
+                <div id="slider-content-3" class="slider-slide" >
                     <div class="featured-content-shaded-box">
                         <div class="featured-content-text">
-                            <div class="featured-content-title" data-lang-id="300-featured-content-3-title">The Planetary Story of Plastic/div>
+                            <div class="featured-content-title" data-lang-id="300-featured-content-3-title">The Planetary Story of Plastic</div>
                             <div class="featured-content-subtitle" data-lang-id="301-featured-content-3-subtitle">Where does plastic really come from?</div>
-                            <a class="content1-button" href="earth-methods.php" data-lang-id="302-featured-content-3-button">🌎 Go deep!</a>
+                            <a class="content-button" href="earth-methods.php" data-lang-id="302-featured-content-3-button">🌎 Go deep!</a>
                         </div>
                     </div>
                 </div>
-           </div>
 
-       <div class="featured-content-4" >
+            <div id="slider-content-4" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
-                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices.</div>
-
-                        <a class="content1-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button">⚒️ Learn</a>
+                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices</div>
+                        <a class="content-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button">⚒️ Learn</a>
                     </div>
                 </div>
             </div>
-       </div>
-            -->
 
+-->
+
+  </div>
+
+ <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
+
+    <div class="featured-content-2">
+
+        <div class="feature-content-box">
+
+            <div class="featured-content-img dolphin-pic"></div>
+
+            <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Plastic Safe</h4></div>
+
+            <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
+           Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
+            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
+
+          <div class="feature-reference-links" data-lang-id="311-featured-2-references">
+                <h6>
+                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
+            </div>
+
+        </div>
+    </div>
+
+<!-- TOP TEN GALLERY-->
+
+<div class="featured-content-top10s" style="overflow-x:clip;">
+    <div class="feature-content-box">
+        <div class="feature-big-header"><h4 data-lang-id="312-top10s-title">Monthly Top Tens</h4></div>
+        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
+    </div>
+    <div class="gallery10-content-block">
+        <div class="flex-container10">
+
+            <?php
+            $sql = "SELECT * FROM tb_ecobricks WHERE feature = 1 ORDER BY date_logged_ts DESC LIMIT 10;";
+            $result = $conn->query($sql);
+            if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+
+            echo '<div class="gal-photo10">
+                    <a href="details-ecobrick-page.php?serial_no=' . $row["ecobrick_unique_id"] . '">
+                        <img src="https://gobrik.com/' . $row["ecobrick_full_photo_url"] . '?v=1" loading="lazy" alt="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobricker_maker"] . ' in ' . $row["location_full"] . '" title="Ecobrick ' . $row["ecobrick_unique_id"] . ' by ' . $row["ecobricker_maker"] . ' in ' . $row["location_full"] . '">
+                    </a>
+                    <div class="gal10-photo-text"><b>Ecobrick ' . $row["ecobrick_unique_id"] . '</b><br>By ' . $row["ecobricker_maker"] . '<br>' . $row["location_full"] . '</div>
+                </div>';
+
+            }
+
+            } else {
+            echo "Failed to connect to the Brikchain database";
+            }
+
+            ?>
+
+        </div>
+    </div>
+
+
+         <!--<a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-label="monthly rankings">🏆 Monthly Rankings</a>
+
+                        <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>-->
+
+    </div>
 
 
 <!-- PROJECT GALLERY -->
@@ -164,31 +226,11 @@ https://github/globalecobrickalliance/ecobricks.org
 
 
 
-    <!--FEATURE BOX ONE: HAPPY DOLPHIN-->
 
-    <div class="featured-content-2">
-    
-        <div class="feature-content-box">
-
-            <div class="featured-content-img dolphin-pic"></div>
-            
-            <div class="feature-big-header" data-lang-id="308-featured-2-heading"><h4 data-lang-id="308-featured-2-heading">Keep Plastic Safe</h4></div>
-            
-            <div class="feature-sub-text" data-lang-id="309-featured-2-subheading">
-           Ecobricking is a simple, non-capital methodology to keep your plastic safe and secure so that it can be put to good, green use.</div>
-            <button type="button" class="feature-button" data-lang-id="310-featured-2-button" aria-label="A quick intro" onclick="guidedTour()">Quick Intro</button>
-
-            <!-- <div class="feature-reference-links" data-lang-id="311-featured-2-references">
-                <h6>
-                <a href="what.php">Basics</a> | <a href="transition.php">Plastic Transition</a> | <a href="how.php">How to Make</a></h6>
-            </div> -->
-            <div class="feature-reference-links">Five slides. 45 seconds.</div>
-        </div>
-    </div>
 
 <!-- FULL ECOBRICK FLOW GALLERY -->
 
-<div class="featured-content-gallery" style="overflow-x:clip;">
+<!--<div class="featured-content-gallery" style="overflow-x:clip;">
         <div class="feed-live">
             <p data-lang-id="303-featured-live-brikchain"><span class="blink">⬤  </span>Live brikchain feed of authenticated ecobricks.  Click to preview.</p>
         </div>
@@ -213,8 +255,6 @@ https://github/globalecobrickalliance/ecobricks.org
             <div class="photo-box-end" href="brikchain.php"></div>
         </div>
 
-        <!-- <div class="gal-photo" style="width: 200px; padding-bottom: 20px; text-align: left; margin-bottom: auto;"><div class="feed-live"><p><span class="blink">⬤ Live Feed:</span>
-        50 latest selfie briks = 34kg plastic sequestered / 150kg CO2e / 340 BRK generated</p></div></div> -->
 
         <div class="feature-content-box">
             <div class="feature-big-header" data-lang-id="304-featured-live-heading">Ecobricking.  Live.</div>
@@ -226,53 +266,15 @@ https://github/globalecobrickalliance/ecobricks.org
         </div>
     </div>
 
+-->
 
 
 
 
 
-<!-- TOP TEN GALLERY-->
-
-<div class="featured-content-top10s" style="overflow-x:clip;">
-    <div class="gallery10-content-block">
-        <div class="flex-container10">
-
-            <?php
-            $sql = "SELECT * FROM vw_top_10_last_month ;";
-            $result = $conn->query($sql);
-            if ($result->num_rows > 0) {
-            // output data of each row
-            while($row = $result->fetch_assoc()) {
-
-            echo '
-            <div class="gal-photo10">
-            <a href="details-ecobrick-page.php?serial_no='.$row["ecobrick_unique_id"].'"><img src="https://gobrik.com/'.$row["ecobrick_full_photo_url"].'?v=1" loading="lazy" alt="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'" title="Ecobrick '.$row["ecobrick_unique_id"].' by '.$row["ecobrick_owner"].' in '.$row["location"].'"></a>';
-            echo '<div class="gal10-photo-text"><b>Ecobrick '.$row["ecobrick_unique_id"].'</b><br>By '.$row["ecobrick_owner"].'<br>'.$row["location"].'</div></div>';
-
-            }
-
-            } else {
-            echo "Failed to connect to the Brikchain database";
-            }
-
-            ?>
-
-        </div>
-    </div>
 
 
 
-    <div class="feature-content-box">
-    <!-- <a href="sequest.php" class="feature-button" data-lang-id="308-featured-3-button">Brikchain</a> -->
-        <div class="feature-big-header" data-lang-id="312-top10s-title">Monthly Top Tens</div>
-        <div class="feature-sub-text" data-lang-id="313-top10s-subtitle">Every month thousands of ecobricks are logged by ecobrickers around the world— and peer review by them too!</div>
-
-         <a href="top-tens.php" class="feature-button"  data-lang-id="313-top10s-button" aria-label="monthly rankings">🏆 Monthly Rankings</a>
-
-            <div class="feature-reference-links" data-lang-id="314-top10s-references">The best ecobricks this month</div>
-    </div>
-
-</div>
 
     <div class="featured-content-3"  >
         <div class="feature-content-box">
@@ -300,6 +302,7 @@ https://github/globalecobrickalliance/ecobricks.org
             <a href="principles.php" class="feature-button" data-lang-id="321-featured-4-button" aria-label="Our Principles">🌏 Our Earthen Principles</a>
             <div class="feature-reference-links" data-lang-id="322-featured-4-references"><a href="spiral.php">Spiral Design</a> | <a href="/ayyew/">Ayyew </a> | <a href="about.php">About Us</a>
             </div>
+
         </div>
     </div>
 
