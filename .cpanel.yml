@@ -12,4 +12,3 @@ deployment:
     #    -m 644 keeps sensible permissions (read-only for world)
     #    The install command creates the file if it doesn’t exist.
     - /usr/bin/install -m 644 en/welcome.php $WEBROOT/zh/welcome.php
-    - /usr/bin/install -m 644 en/welcome.php $WEBROOT/zh/about.php
