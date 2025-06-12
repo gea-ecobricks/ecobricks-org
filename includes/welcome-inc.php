@@ -1,9 +1,14 @@
 
 
 <!--  Set any page specific graphics to preload-->
-<link rel="preload" as="image" href="../photos/photo1-mobile.webp" media="(max-width: 699px)">
-<link rel="preload" as="image" href="../photos/photo1-tablet.webp" media="(min-width: 700px) and (max-width: 1199px)">
-<link rel="preload" as="image" href="../photos/photo1-desktop.webp" media="(min-width: 1200px)">
+<!-- Preload mobile image as it's the most likely first view -->
+<link rel="preload" as="image" href="/photos/photo1-mobile.webp" type="image/webp">
+<picture>
+  <source srcset="/photos/photo1-desktop.webp" media="(min-width: 1200px)" type="image/webp">
+  <source srcset="/photos/photo1-tablet.webp" media="(min-width: 700px)" type="image/webp">
+  <img src="/photos/photo1-mobile.webp" alt="Photo 1" width="..." height="..." loading="eager">
+</picture>
+
 
 <?php require_once ("../meta/$page-$lang.php");?>
 
