@@ -113,24 +113,6 @@
 </script>
 
 
-<!--
-<meta http-equiv="Content-Security-Policy" content="
-    default-src 'self';
-    script-src 'self' https://api.websitecarbon.com 'unsafe-inline' https://www.youtube.com https://s.ytimg.com https://unpkg.com https://api.earthen.io;
-    frame-src https://www.youtube.com;
-    connect-src 'self';
-    img-src 'self' https://www.youtube.com;
-    style-src 'self' 'unsafe-inline' https://api.earthen.io;
-    font-src 'self' https://www.ecobricks.org/fonts/Arvo-regular.ttf;
-    object-src 'none';
-    worker-src 'self';
-"> -->
-
-
-
-
-
-
 
 
 
