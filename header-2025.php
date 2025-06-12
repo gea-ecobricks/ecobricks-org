@@ -72,7 +72,7 @@
 <script src="../language-switcher.js?v=<?php echo ($version); ;?>3"></script>
 
 <!--This enables the Light and Dark mode switching-->
-<script type="module" src="https://ecobricks.org/mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>
+<script type="module" src="../mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>
 
 
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
@@ -479,7 +479,6 @@ display: none;
 
 
 
-<!--  -->
 <!-- TOUR SLIDER -->
 
 
