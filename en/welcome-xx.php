@@ -1,5 +1,5 @@
 <?php
-$version='5.13';
+$version='5.2';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='welcome';
 include '../ecobricks_env.php';
@@ -16,7 +16,7 @@ include '../ecobricks_env.php';
     <div class="feature-content-anchor-box">
 
         <!-- FEATURED HEADLINE CONTENT-->
-    
+
     <div id="slider-content-1" class="slider-slide" >
          <div class="featured-content-shaded-box">
              <div class="featured-content-text">
@@ -307,11 +307,11 @@ include '../ecobricks_env.php';
 
 
 
-    
-  
+
+
 <!--FOOTER STARTS-->
 
-<?php require_once ("../footer-2024.php");?>
+<?php require_once ("../footer-2025.php");?>
 
 
  <!-- </div>  ends page content-->
@@ -364,7 +364,7 @@ include '../ecobricks_env.php';
   }
 </script>
 
- <script src="../scripts/2024-landing-scripts.js"></script>
+ <script src="../scripts/2025-landing-scripts.js"></script>
 
 
 </body>
