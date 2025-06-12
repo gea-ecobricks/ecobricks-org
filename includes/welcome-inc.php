@@ -5,7 +5,6 @@
 <link rel="preload" as="image" href="../photos/photo1-tablet.webp" media="(min-width: 700px) and (max-width: 1199px)">
 <link rel="preload" as="image" href="../photos/photo1-desktop.webp" media="(min-width: 1200px)">
 
-
 <?php require_once ("../meta/$page-$lang.php");?>
 
 
