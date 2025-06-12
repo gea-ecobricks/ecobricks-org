@@ -1102,7 +1102,7 @@ display: none;
         <div id="function-icons" style="display: flex;flex-flow:row;margin:auto 10px auto auto;">
 
             <div id="main-header-buttons">
-                  <div class="what-are-ecobricks" data-lang-id="1001-what-are-ecobricks" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">What are ecobricks?</div>
+                  <div class="what-are-ecobricks" data-lang-id="1001-what-are-ecobricks" onclick="closeSettings(); setTimeout(guidedTour, 500);">What are ecobricks?</div>
                   <div class="header-divider">|</div>
                   <div class="faqs-button" data-lang-id="1002-faqs-button" onclick="location.href='faqs.php';">FAQs</div>
 
