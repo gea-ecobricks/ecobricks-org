@@ -107,7 +107,7 @@
         
             <div id="wcb" class="carbonbadge wcb-d"></div>
             
-            <div class="footer-conclusion" data-lang-id="419-conclusion-disclosure">We track and disclose our net-green ecological impact.  See our <a href="https://ecobricks.org/en/regenreports.php" target="_blank">Regen Reporting</a> and our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">dynamic impact accounting for 2024.</a>
+            <div class="footer-conclusion" data-lang-id="419-conclusion-disclosure">We track and disclose our net-green ecological impact.  See our <a href="https://ecobricks.org/en/regenreports.php" target="_blank">Regen Reporting</a> and our <a href="https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/">dynamic impact accounting for 2025.</a>
             </div>
                     
         
@@ -128,7 +128,7 @@
             </div>
 
             <div class="footer-conclusion" data-lang-id="422-conclusion-copyright">
-                The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2024 by the Global Ecobrick Alliance.
+                The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2025 by the Global Ecobrick Alliance.
             </div>
         
         </div>

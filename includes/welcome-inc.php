@@ -24,7 +24,6 @@ width: 100%;
   overflow: clip;
   display: flex;
   flex-flow: column;
-  position: relative;
 }
 
 
@@ -42,6 +41,7 @@ width: 100%;
   border-radius: 20px;
   max-width: 100%;
   margin-top: -6px;
+  z-index: 11;
 }
 
 .featured-content-text {
