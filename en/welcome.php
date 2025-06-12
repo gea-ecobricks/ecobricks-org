@@ -311,7 +311,7 @@ include '../ecobricks_env.php';
   
 <!--FOOTER STARTS-->
 
-<?php require_once ("../footer-2025.php");?>
+<?php require_once ("../footer-2024.php");?>
 
 
  <!-- </div>  ends page content-->
