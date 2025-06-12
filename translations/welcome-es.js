@@ -2,10 +2,7 @@
 
 
 const es_Page_Translations = {
-  
-   
-   
-       /*Feature Content Slides*/
+
 
     "300-featured-content-1-title": "Curso gratuito de junio",
     "301-featured-content-1-subtitle": "Únase a nosotros en un curso introductorio en vivo y gratuito. Aprenda la ciencia, filosofía y técnicas esenciales con Russell Maier, cofundador de GEA, y la entrenadora de GEA Paula Apollonia en nuestro curso emblemático 'Plástico, la biosfera y los ecobricks'. Gratis.",
