@@ -81,8 +81,6 @@
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>  -->
 
 
-
-
 <script src="../guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
 
 <script src="../site-search.js?v=<?php echo ($version); ;?>" defer></script>
