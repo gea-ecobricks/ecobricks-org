@@ -28,21 +28,21 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 
-<link rel="apple-touch-icon" sizes="57x57" href="../icons/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="../icons/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="../icons/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="../icons/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="../icons/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="../icons/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="../icons/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="../icons/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="../icons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="../icons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="../icons/ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 	
 
@@ -51,19 +51,19 @@
 <!--MAIN STYLE SHEETS -->
 
 <link rel="stylesheet" type="text/css" href="https://ecobricks.org/mode-slider.css?v=3">
-<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=<?php echo ($version); ;?>3">
+<link rel="stylesheet" type="text/css" href="stylesheet-content-2024.css?v=<?php echo ($version); ;?>3">
 
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=<?php echo ($version); ;?>">
+<link rel="stylesheet" type="text/css" href="stylesheet-2024.css?v=<?php echo ($version); ;?>">
 
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../mode-light.css?v=<?php echo ($version); ;?>" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="mode-light.css?v=<?php echo ($version); ;?>" as="style" onload="this.rel='stylesheet'">
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../mode-light.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../mode-dark.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="mode-light.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="mode-dark.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: dark)">
 
 
 
-<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
+<link rel="stylesheet" type="text/css" href="footer-stylesheet.css?v=<?php echo ($version); ;?>">
 <!--<link rel="stylesheet" type="text/css" href="../subscription-stylesheet.css?v=<?php echo ($version); ;?>">-->
 
 
@@ -88,9 +88,9 @@ window.onload = function() {
 
 </script>
 
-<script src="../subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>
-<script src="../core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
-<script src="../language-switcher.js?v=<?php echo ($version); ;?>"></script>
+<script src="subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>
+<script src="core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
+<script src="language-switcher.js?v=<?php echo ($version); ;?>"></script>
 
 
 <!--This enables the Light and Dark mode switching-->
@@ -102,30 +102,30 @@ window.onload = function() {
 
 
 
-<script src="../guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
+<script src="guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
 
-<script src="../site-search.js?v=<?php echo ($version); ;?>" defer></script>
+<script src="site-search.js?v=<?php echo ($version); ;?>" defer></script>
 
 
 
 <!-- for light mode -->
 
-<link rel="preload" as="image" href="../icons/search-day.svg" media="(prefers-color-scheme: light)">
-<link rel="preload" as="image" href="../icons/search-day-over.svg" media="(prefers-color-scheme: light)">
-<link rel="preload" as="image" href="../icons/main-menu-over.svg" media="(prefers-color-scheme: light)">
-<link rel="preload" as="image" href="../icons/main-menu.svg" media="(prefers-color-scheme: light)">
-<link rel="preload" as="image" href="../icons/settings-icon.svg" media="(prefers-color-scheme: light)">
-<link rel="preload" as="image" href="../icons/settings-icon-over.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="icons/search-day.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="icons/search-day-over.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="icons/main-menu-over.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="icons/main-menu.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="icons/settings-icon.svg" media="(prefers-color-scheme: light)">
+<link rel="preload" as="image" href="icons/settings-icon-over.svg" media="(prefers-color-scheme: light)">
  
 
 
 <!-- for dark  mode -->
-<link rel="preload" as="image" href="../icons/search-night.svg" media="(prefers-color-scheme: dark)">
-<link rel="preload" as="image" href="../icons/search-night-over.svg" media="(prefers-color-scheme: dark)">
-<link rel="preload" as="image" href="../icons/main-menu-dark.svg" media="(prefers-color-scheme: dark)">
-<link rel="preload" as="image" href="../icons/main-menu-dark-over.svg" media="(prefers-color-scheme: dark)">
-<link rel="preload" as="image" href="../icons/settings-icon-dark.svg" media="(prefers-color-scheme: dark)">
-<link rel="preload" as="image" href="../icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="icons/search-night.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="icons/search-night-over.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="icons/main-menu-dark.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="icons/main-menu-dark-over.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="icons/settings-icon-dark.svg" media="(prefers-color-scheme: dark)">
+<link rel="preload" as="image" href="icons/settings-icon-over-dark2.svg" media="(prefers-color-scheme: dark)">
 
 
 
@@ -137,7 +137,7 @@ window.onload = function() {
     connect-src 'self';
     img-src 'self' https://www.youtube.com;
     style-src 'self' 'unsafe-inline' https://api.earthen.io;
-    font-src 'self' https://www.ecobricks.org/fonts/Arvo-regular.ttf;
+    font-src 'self' https://www.ecobricks.ofonts/Arvo-regular.ttf;
     object-src 'none';
     worker-src 'self';
 "> -->
@@ -156,21 +156,21 @@ window.onload = function() {
 
 @font-face {
   font-family: "Mulish";
-  src: url("../fonts/Mulish-Light.ttf");
+  src: url("fonts/Mulish-Light.ttf");
   font-display: swap;
   font-weight: 300;
  }
 
  @font-face {
   font-family: "Mulish";
-  src: url("../fonts/Mulish-Regular.ttf");
+  src: url("fonts/Mulish-Regular.ttf");
   font-display: swap;
   font-weight: 500;
  } 
 
  @font-face {
   font-family: "Arvo";
-  src: url("../fonts/Arvo-Regular.ttf");
+  src: url("fonts/Arvo-Regular.ttf");
   font-display: swap;
  }
 
@@ -513,7 +513,7 @@ display: none;
       
 
       <div id="information-three" style="display:none;" class="information">
-      <div class="tour-image"><img src="../webp/ancient-future.webp"   style="margin:auto"  title="Our Neighbourhood" alt="Our Neighbourhood" loading="lazy"></div>  
+      <div class="tour-image"><img src="webp/ancient-future.webp"   style="margin:auto"  title="Our Neighbourhood" alt="Our Neighbourhood" loading="lazy"></div>  
     
         <div class="modal-header" data-lang-id="208-tour-3-header">Plastic Sequestration?</div>
         <div class="modal-description" data-lang-id="209-tour-3-description">Ecobricks follow Earth's example.  Over the last few billion years, Earth has steadily captured loose carbon to concentrate and sequester it under the earth so that life could thrive.  We're doing the same with our loose plastic (which in fact is made from that ancient carbon!) by packing and sequestering it into an ecobrick.</div>
@@ -1008,13 +1008,13 @@ display: none;
       <div class="registration-footer-holder">
           <div id="progress-bar"></div>
           <button id="reg-down-button" onclick="sendDownRegistration()" aria-label="Hide Newsletter Registration" data-lang-id="106-hide-subscription-registration">
-              <img src="../svgs/down-arrow.svg" alt="Hide Earthen Newsletter registration" data-lang-id="107-hide-subscription-image-alt">
+              <img src="svgs/down-arrow.svg" alt="Hide Earthen Newsletter registration" data-lang-id="107-hide-subscription-image-alt">
           </button>
 
             <div id="email-registration">
                 <div class="registration-box">
                     <div class="reg-img">
-                        <img src="../svgs/subscription-side-image.svg" data-lang-id="108-subscription-image-alt-desktop" class="desktop" height="200" width="200" alt="Earthen Ecobrick Newsletter subscription"
+                        <img src="svgs/subscription-side-image.svg" data-lang-id="108-subscription-image-alt-desktop" class="desktop" height="200" width="200" alt="Earthen Ecobrick Newsletter subscription"
                         loading="lazy">
                     </div>
 
@@ -1199,9 +1199,9 @@ function navigateTo(url) {
 <div id="login-menu-slider">
   <div class="login-selector-box">
     <a class="login-selector" target="_blank" href='https://gobrik.com/en/go.php#home'>
-      <i style="background: url(../icons/gobrik-icon-white.svg) no-repeat; width:15px; height:15px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</a>
+      <i style="background: url(icons/gobrik-icon-white.svg) no-repeat; width:15px; height:15px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</a>
     <a class="login-selector" target="_blank" href='https://ecobricks.org/email'>✉️ Trainer Email</a>
-    <a class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org'><i style="background: url(../icons/next-cloud-white.svg) no-repeat; width:22px; height:11px;display: inline-block;background-size:contain;margin-right:4px;"></i>Trainer NextCloud</a>
+    <a class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org'><i style="background: url(icons/next-cloud-white.svg) no-repeat; width:22px; height:11px;display: inline-block;background-size:contain;margin-right:4px;"></i>Trainer NextCloud</a>
     <button type="button" class="login-selector" onclick="clearSiteCache()" data-lang-id="1003-reset-preferences">❌ Reset Preferences</button>
   </div>
 </div>
