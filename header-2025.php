@@ -81,23 +81,7 @@
 
 <script>
 
-/*ROLL CALL*/
 
-window.onload = function() {
-    var siteName = 'Ecobricks.org';
-    // setPageLanguageFromCache();
-    // Initially declare currentLanguage globally without setting its value
-    window.currentPage = '<?php echo ($page); ?>';
-    window.currentLanguage = ''; // This makes currentLanguage globally accessible
-    // Now set the value of currentLanguage
-    window.currentLanguage = '<?php echo ($lang); ?>'; // Default language code
-    // Translation scripts will trigger switchLanguage once loaded
-    // updateLogoColor();
-    //checkRegistrationStatus();
-    window.subSource = 'ecobricks-org'; // Make subSource globally accessible
-}
-
-</script>
 
 
 <!-- for light mode -->
