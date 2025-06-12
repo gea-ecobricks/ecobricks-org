@@ -1,12 +1,4 @@
-/*-----------------------------------
 
-ENGLISH SNIPPETS FOR ECOBRICKS.ORG
-
-
------------------------------------*/
-
-
-// ENGLISH - WELCOME LANDING TRANSLATIONS
 
 const en_Page_Translations = {
   "300-featured-content-1-title": "Free June Course",
