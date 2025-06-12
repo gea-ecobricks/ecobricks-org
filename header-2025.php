@@ -66,8 +66,8 @@
 <script src="../subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>-->
 
 
-<script src="../js/core-scripts-2025.js?v=2<?php echo ($version); ;?>"></script>
-<script src="../js/language-switcher.js?v=<?php echo ($version); ;?>3"></script>
+<script src="../js/core-scripts-2025.js?v=3<?php echo ($version); ;?>"></script>
+<script src="../js/language-switcher.js?v=3<?php echo ($version); ;?>3"></script>
 
 <!--This enables the Light and Dark mode switching
 <script type="module" src="../mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>-->
