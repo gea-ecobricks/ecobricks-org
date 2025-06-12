@@ -79,8 +79,6 @@
 
 <script src="../site-search.js?v=<?php echo ($version); ;?>" defer></script>
 
-<script>
-
 
 
 
