@@ -126,20 +126,7 @@ const id_Translations = {
            '1003-reset-preferences': '❌ Reiniciar preferencias',
            '1004-gea-vision': 'Kami membayangkan Transisi dari Plastik di Rumah Tangga, Komunitas, dan Perusahaan kami menuju Harmoni yang Lebih Hijau dengan Siklus Bumi',
 
-   
-   
-      //      '001-introduction': 'Pendahuluan',
-      //      '002-what-are-ecobricks': 'Apa itu Ecobrick?',
-      //      '003-how-to': 'Bagaimana Cara Membuatnya?',
-      //      '004-transition': 'Transisi Plastik',
-      //      '005-earth-example': 'Contoh Bumi',
-      //      '006-our-principles': 'Prinsip Bumi Kami',
-      //      '007-construction': 'Konstruksi Ecobrick',
-      //      '008-about-us': 'Tentang Kami',
-      //      '009-plastic-sequestration': 'Penyimpanan Plastik',
-      //      '010-brikcoins': 'Brikcoins',
-      //   '011-brikchain': 'Brikchain',
-      //   '012-earthwands': 'Earthwands',
+
 
         
             /* Subscribtion Curtain */

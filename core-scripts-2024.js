@@ -1,6 +1,6 @@
 
 function redirectToWelcome() {
-    window.location.href = "welcome.php";
+    window.location.href = "welcome-xx.php";
 }
 
 function redirectToFAQs() {
