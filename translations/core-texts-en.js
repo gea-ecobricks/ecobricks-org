@@ -1,19 +1,8 @@
 /*-----------------------------------
 
-ENGLISH SNIPPETS FOR ECOBRICKS.ORG
+ENGLISH SNIPPETS FOR CORE TEXTS ON ECOBRICKS.ORG
 
-
------------------------------------*/
-
-
-// Ampersand (&): Should be escaped as &amp; because it starts HTML character references.
-// Less-than (<): Should be escaped as &lt; because it starts an HTML tag.
-// Greater-than (>): Should be escaped as &gt; because it ends an HTML tag.
-// Double quote ("): Should be escaped as &quot; when inside attribute values.
-// Single quote/apostrophe ('): Should be escaped as &#39; or &apos; when inside attribute values.
-// Backslash (\): Should be escaped as \\ in JavaScript strings to prevent ending the string prematurely.
-// Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
-
+ ----------------------------------*/
 
 const en_Translations = {
 
@@ -25,7 +14,7 @@ const en_Translations = {
       "000a-menu-0-main-item": 'FAQs<span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
       "000a-menu-1-trans-text-1": '🏴 faqs.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-en-translation.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/faqs.php" class="translate-link">code ⇗</a>',
       "000b-menu-0-main-item": 'Intro to Ecobricks<span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
-      "00b-menu-1-trans-text-1": '🏴 guidedTour.js has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-en-translation.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a>',
+      "00b-menu-1-trans-text-1": '🏴 guidedTour.js has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-texts-en.js" class="translate-link">translation ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a>',
           
 
       "001-menu-1-main-item": "<b>Ecobrick Basics</b><span class=\"toggle-icon\">+</span>",
@@ -110,17 +99,6 @@ const en_Translations = {
       "069-menu-5-trans-text-7": "🏴 offsetting.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/offsetting-fr-translation.js\" class=\"translate-link\">help edit ⇗</a>",
   
 
-      
-
-
-  
-
-      
-
-      
-  
-
-
         /*General Texts*/
         '1000-learn-more': 'Learn More',
         '1001-what-are-ecobricks': 'What are ecobricks?',
@@ -129,8 +107,6 @@ const en_Translations = {
         '1004-gea-vision': ' We envision a Transition in our Households, Communities and Enterprises from Plastic to an ever Greener Harmony with Earth\'s Cycles.',
         
 
-
-    
   
         /*  INTERFACE CURTAINS  */
 

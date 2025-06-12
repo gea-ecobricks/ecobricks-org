@@ -577,7 +577,7 @@ display: none;
     <button class="accordion-title-single" data-lang-id="000b-menu-0-main-item" onclick="sendDownRegistration(); closeSettings(); setTimeout(guidedTour, 500);">Intro to Ecobricks
                 <span class="circle" title="This page is 100% translated to English" style="color:green !important;  font-size:12px;padding-right:5px;  ">●</span></button>
 
-                <div class="translation-info" data-lang-id="00b-menu-1-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿 guidedTour.js has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-en-translation.js" class="translate-link">translation ⇗ </a>  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a></div>
+                <div class="translation-info" data-lang-id="00b-menu-1-trans-text-1">🏴󠁧󠁢󠁥󠁮󠁧󠁿 guidedTour.js has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-texts-en.js" class="translate-link">translation ⇗ </a>  | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">code ⇗</a></div>
   </div>
 
 

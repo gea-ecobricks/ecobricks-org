@@ -25,7 +25,7 @@ const es_Translations = {
     "000a-menu-0-main-item": 'Preguntas frecuentes sobre los Ecobricks<span class="circle" title="Esta página está traducida al 100% en español" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
     "000a-menu-1-trans-text-1": '🏴 faqs.php ha sido traducido al 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/faqs-es-translation.js" class="translate-link">traducción ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/es/faqs.php" class="translate-link">código ⇗</a>',
     "000b-menu-0-main-item": 'Introducción a los Ecobricks<span class="circle" title="Esta página está traducida al 100% en español" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
-    "00b-menu-1-trans-text-1": '🏴 guidedTour.js ha sido traducido al 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-es-translation.js" class="translate-link">traducción ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">código ⇗</a>',
+    "00b-menu-1-trans-text-1": '🏴 guidedTour.js ha sido traducido al 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/core-texts-es.js" class="translate-link">traducción ⇗</a> | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/guidedTour.js" class="translate-link">código ⇗</a>',
 
 
     
