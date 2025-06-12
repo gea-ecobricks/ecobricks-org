@@ -128,53 +128,53 @@
 
 .top-emblem-button {
     /*background: url(../svgs/settings-icon-dark.svg) no-repeat;*/
-    background: url(icons/main-menu.svg) no-repeat;
+    background: url(../icons/main-menu.svg) no-repeat;
     background-size: contain;
 }
 
 .top-emblem-button:hover {
-    background: url(icons/main-menu-over.svg) no-repeat;
+    background: url(../icons/main-menu-over.svg) no-repeat;
     background-size: contain;
 }
 
 .top-search-button {
-    background: url(icons/search-day.svg) no-repeat center;
+    background: url(../icons/search-day.svg) no-repeat center;
     background-size: contain;
 }
 
 .top-search-button:hover {
-    background: url(icons/search-day-over.svg) no-repeat;
+    background: url(../icons/search-day-over.svg) no-repeat;
     background-size: contain;
 }
 
 #top-settings-button {
-    background: url(icons/settings-icon.svg) no-repeat;
+    background: url(../icons/settings-icon.svg) no-repeat;
 
     background-size: contain;
 }
 
 #top-settings-button:hover {
-    background: url(icons/settings-icon-over.svg) no-repeat;
+    background: url(../icons/settings-icon-over.svg) no-repeat;
     background-size: contain;
 }
 
 .top-lang-button {
-    background: url(icons/language-button.svg) no-repeat;
+    background: url(../icons/language-button.svg) no-repeat;
     background-size: contain;
 }
 
 .top-lang-button:hover {
-    background: url(icons/language-button-over-invert.svg) no-repeat;
+    background: url(../icons/language-button-over-invert.svg) no-repeat;
     background-size: contain;
 }
 
 .top-login-button {
-    background: url(icons/login-icon.svg) no-repeat;
+    background: url(../icons/login-icon.svg) no-repeat;
     background-size: contain;
 }
 
 .top-login-button:hover {
-    background: url(icons/login-icon-over.svg) no-repeat;
+    background: url(../icons/login-icon-over.svg) no-repeat;
     background-size: contain;
 }
 
