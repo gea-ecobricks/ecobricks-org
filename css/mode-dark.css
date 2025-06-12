@@ -72,7 +72,7 @@
     --drop-cap: rgb(200, 200, 200);
 
     #booknotes-curtain {
-        background: url(svgs/tractatus-mandala-full-grey.svg) center no-repeat;
+        background: url(../svgs/tractatus-mandala-full-grey.svg) center no-repeat;
         background-size: 30%;
         background-color: var(--slider);
         color: var(--drop-cap);
@@ -85,7 +85,7 @@
 
 
     #book-box a  {
-        background: url(svgs/content-arrow-night.svg) left center no-repeat  var(--header-footer);
+        background: url(../svgs/content-arrow-night.svg) left center no-repeat  var(--header-footer);
         background-size: 30px !important;
         background-position-x: 18px !important;
         border:  var(--thin-border-color);
@@ -93,7 +93,7 @@
     }
 
     #book-box a:hover {
-        background: url(svgs/content-arrow-45-night.svg) left center no-repeat var(--deeper-accent-color);
+        background: url(../svgs/content-arrow-45-night.svg) left center no-repeat var(--deeper-accent-color);
         background-size: 30px !important;
         background-position-x: 18px !important;
 
@@ -188,47 +188,47 @@
 }
 
 #reg-up-button   {
-    background: url(svgs/up-reg-arrow-dark.svg?v=2) no-repeat;
+    background: url(../svgs/up-reg-arrow-dark.svg?v=2) no-repeat;
     background-size: contain;
 }
 
 .tour-slide1 {
-    background: url(svgs/richard-and-team-night.svg) no-repeat bottom;
+    background: url(../svgs/richard-and-team-night.svg) no-repeat bottom;
     background-size: contain;
 }
 
 .tour-slide2 {
-    background: url(svgs/ecobricking-materials-night.svg) no-repeat bottom;
+    background: url(../svgs/ecobricking-materials-night.svg) no-repeat bottom;
     background-size: contain;
 }
 
 .tour-slide4 {
-    background: url(svgs/dolphin-top-optimized-dark.svg) no-repeat bottom;
+    background: url(../svgs/dolphin-top-optimized-dark.svg) no-repeat bottom;
     background-size: contain;
 }
 
 .tour-slide5 {
-    background: url(svgs/earth-home-animated-day.svg) no-repeat bottom;
+    background: url(../svgs/earth-home-animated-day.svg) no-repeat bottom;
     background-size: contain;
 }
 
 .tour-slide6 {
-    background: url(svgs/dolphin-top-optimized-dark.svg) no-repeat bottom;
+    background: url(../svgs/dolphin-top-optimized-dark.svg) no-repeat bottom;
     background-size: contain;
 }
 
 .featured-content-2 {
-    background: url(svgs/blue-circles-banner-dark.svg) no-repeat bottom;
+    background: url(../svgs/blue-circles-banner-dark.svg) no-repeat bottom;
     background-size: cover;
 }
 
 .dolphin-pic {
-    background: url(svgs/dolphin-top-optimized-dark.svg) no-repeat center;
+    background: url(../svgs/dolphin-top-optimized-dark.svg) no-repeat center;
     background-size: cover;
 }
 
 .featured-content-3 {
-    background: url(svgs/ecobrick-village-vision-2024-night.svg) no-repeat bottom;
+    background: url(../svgs/ecobrick-village-vision-2024-night.svg) no-repeat bottom;
     background-size: cover;
 }
 
@@ -239,7 +239,7 @@
 
 
 .earthservice-pic {
-    background: url(svgs/earth-service-animation.svg) no-repeat center;
+    background: url(../svgs/earth-service-animation.svg) no-repeat center;
     background-size: contain;
     margin-top:15px;
     margin-bottom:-10px;
@@ -247,7 +247,7 @@
 
 #main {
     /* background-image:linear-gradient(var(--main-background),var(--main-background),black); */
-    background: url(svgs/starry-night.svg) repeat-x bottom;
+    background: url(../svgs/starry-night.svg) repeat-x bottom;
     background-size: contain;
 
 }
@@ -368,14 +368,14 @@
 
 
 .x-button {
-    background: url('svgs/x-button-night.svg?v=5.1') no-repeat center;
+    background: url('../svgs/x-button-night.svg?v=5.1') no-repeat center;
     background-size: contain;
 
 }
 
 
 .x-button:hover {
-    background: url('svgs/x-button-night-over.svg?v=5.1') no-repeat center;
+    background: url('../svgs/x-button-night-over.svg?v=5.1') no-repeat center;
     background-size: contain;
 }
 
@@ -383,7 +383,7 @@
 
 
 #booknotes-curtain {
-    background: url(svgs/tractatus-mandala-full-grey.svg) center no-repeat;
+    background: url(../svgs/tractatus-mandala-full-grey.svg) center no-repeat;
     background-size: 30%;
     background-color: var(--slider);
     color: var(--drop-cap);
