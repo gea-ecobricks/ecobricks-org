@@ -1,5 +1,4 @@
 
-<!--  Set any page specific graphics to preload-->
 
 <!--  Set any page specific graphics to preload-->
 <link rel="preload" as="image" href="../photos/photo1-mobile.webp" media="(max-width: 699px)">

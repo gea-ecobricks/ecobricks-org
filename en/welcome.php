@@ -3,7 +3,7 @@ $version='4.81';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='welcome';
 include '../ecobricks_env.php';
-require_once ("../includes/welcome-inc.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +11,7 @@ require_once ("../includes/welcome-inc.php");
 <HEAD>
 <META charset="UTF-8">
 
+<?php require_once ("../includes/welcome-inc.php");?>
 
     <div class="feature-content-anchor-box">
 
