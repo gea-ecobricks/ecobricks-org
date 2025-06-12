@@ -94,7 +94,7 @@ window.onload = function() {
     window.currentLanguage = ''; // This makes currentLanguage globally accessible
     // Now set the value of currentLanguage
     window.currentLanguage = '<?php echo ($lang); ?>'; // Default language code
-    switchLanguage(window.currentLanguage);
+    // Translation scripts will trigger switchLanguage once loaded
     // updateLogoColor();
     //checkRegistrationStatus();
     window.subSource = 'ecobricks-org'; // Make subSource globally accessible
