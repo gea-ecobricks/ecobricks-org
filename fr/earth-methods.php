@@ -996,7 +996,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footer-2025.php");?>
 
 <!-- This script is for pages that use the accordion content system
 

@@ -117,6 +117,6 @@ if (isset($_GET['id'])) {
     <br><br>
 </div>
 <!--FOOTER STARTS HERE-->
-<?php require_once ("../footer-2024.php");?>
+<?php require_once ("../footer-2025.php");?>
 </body>
 </html>

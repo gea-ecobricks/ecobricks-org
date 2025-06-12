@@ -329,7 +329,7 @@ function deleteEcobrick($ecobrick_unique_id, $conn) {
        
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footer-2025.php");?>
 
 </div>
 

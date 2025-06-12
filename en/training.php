@@ -215,7 +215,7 @@ echo '
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footer-2025.php");?>
 
 
 

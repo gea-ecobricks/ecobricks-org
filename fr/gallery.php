@@ -136,7 +136,7 @@ Content Page template: v.1.0.0-->
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footer-2025.php");?>
 
 
 

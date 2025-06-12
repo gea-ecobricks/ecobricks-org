@@ -131,7 +131,7 @@ $sql = "SELECT * FROM vw_top_10_last_month ;";
 
 	<!--FOOTER STARTS HERE-->
 
-	<?php require_once ("../footer-2024.php");?>
+	<?php require_once ("../footer-2025.php");?>
 
 
 <!-- CUSTOM PAGE SCRIPTS-->
