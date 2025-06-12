@@ -71,8 +71,8 @@
 <script src="../core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
 <script src="../language-switcher.js?v=<?php echo ($version); ;?>3"></script>
 
-<!--This enables the Light and Dark mode switching-->
-<script type="module" src="../mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>
+<!--This enables the Light and Dark mode switching
+<script type="module" src="../mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>-->
 
 
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
