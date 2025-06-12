@@ -233,7 +233,7 @@
 }
 
 .ecovillage-pic {
-    background: url(webp/spiral-building.webp) no-repeat center;
+    background: url(../webp/spiral-building.webp) no-repeat center;
     background-size: cover;
 }
 
@@ -253,14 +253,14 @@
 }
 
 .vision-landscape {
-    background: url(webp/ocean-footer-night3.webp?v=3) no-repeat center;
+    background: url(../webp/ocean-footer-night3.webp?v=3) no-repeat center;
     background-size: contain;
     background-color: var(--main-background);
 
 }
 
 .registration-footer-holder {
-    background: url(webp/earthen-subscription-background-dark.webp) top center, var(--side-overlays);
+    background: url(../webp/earthen-subscription-background-dark.webp) top center, var(--side-overlays);
     background-repeat: no-repeat;
     background-size: cover;
 }
