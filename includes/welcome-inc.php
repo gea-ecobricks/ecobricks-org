@@ -664,12 +664,12 @@ margin-left: 0px;
     background-position: center;
     position: relative;
     overflow: hidden;
-   margin-top: -170px;
+   margin-top: -200px;
 
      margin-bottom: -120px;
 
      border-radius: 15px;
-     padding: 150px 10px 120px 10px;
+     padding: 150px 10px 170px 10px;
   }
 
 
