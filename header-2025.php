@@ -81,6 +81,39 @@
 
 
 
+<script>
+(function() {
+  const preloadImages = (urls) => {
+    urls.forEach((url) => {
+      const img = new Image();
+      img.src = url;
+      img.loading = 'eager';
+      img.decoding = 'async';
+    });
+  };
+
+  const lightIcons = [
+    '/icons/search-day.svg',
+    '/icons/search-day-over.svg',
+    '/icons/main-menu-over.svg',
+    '/icons/main-menu.svg',
+    '/icons/settings-icon.svg',
+    '/icons/settings-icon-over.svg'
+  ];
+
+  const darkIcons = [
+    '/icons/search-night.svg',
+    '/icons/search-night-over.svg',
+    '/icons/main-menu-dark.svg',
+    '/icons/main-menu-dark-over.svg',
+    '/icons/settings-icon-dark.svg',
+    '/icons/settings-icon-over-dark2.svg'
+  ];
+
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  preloadImages(prefersDark ? darkIcons : lightIcons);
+})();
+</script>
 
 
 <!--
