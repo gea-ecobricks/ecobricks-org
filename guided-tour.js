@@ -12,6 +12,8 @@ function closeTour() {
   var modal = document.getElementById("guided-tour");
   modal.style.display = "none";
   document.getElementById("page-content").classList.remove("blur");
+  document.body.style.overflow = 'unset';
+  document.body.style.maxHeight = 'unset';
 
   tourTaken();
 }
