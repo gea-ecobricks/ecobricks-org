@@ -26,7 +26,9 @@ width: 100%;
   flex-flow: column;
 }
 
-
+.slider-slide {
+  z-index: 11;
+  }
 
 @media (min-width: 701px) {
 .slider-slide {
@@ -41,7 +43,7 @@ width: 100%;
   border-radius: 20px;
   max-width: 100%;
   margin-top: -6px;
-  z-index: 11;
+
 }
 
 .featured-content-text {
