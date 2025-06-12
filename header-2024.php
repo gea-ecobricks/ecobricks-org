@@ -71,7 +71,7 @@
 
 <script src="../subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>
 <script src="../core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
-<script src="../language-switcher.js?v=2<?php echo ($version); ;?>"></script>
+<script src="../language-switcher.js?v=<?php echo ($version); ;?>2"></script>
 
 
 <!--This enables the Light and Dark mode switching-->
@@ -86,8 +86,6 @@
 <script src="../guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
 
 <script src="../site-search.js?v=<?php echo ($version); ;?>" defer></script>
-
-
 
 <script>
 
