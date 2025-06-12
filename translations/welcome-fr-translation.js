@@ -1,9 +1,3 @@
-/*-----------------------------------
-
-FRENCH SNIPPETS FOR ECOBRICKS.ORG
-
-
------------------------------------*/
 
 const fr_Page_Translations = {
   "300-featured-content-1-title": "Cours gratuit de juin",
