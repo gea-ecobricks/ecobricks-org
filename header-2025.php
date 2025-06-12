@@ -13,6 +13,7 @@
 	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id">
 	<link rel="alternate" href="https://ecobricks.org/es/<?php echo ($name); ;?>" hreflang="es">
 	<link rel="alternate" href="https://ecobricks.org/fr/<?php echo ($name); ;?>" hreflang="fr">
+	<link rel="alternate" href="https://ecobricks.org/zh/<?php echo ($name); ;?>" hreflang="zh">
 	<link rel="alternate" href="http://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="x-default">
 
 
@@ -50,26 +51,23 @@
 
 <!--MAIN STYLE SHEETS -->
 
-<link rel="stylesheet" type="text/css" href="https://ecobricks.org/mode-slider.css?v=3">
-<link rel="stylesheet" type="text/css" href="../stylesheet-content-2024.css?v=<?php echo ($version); ;?>3">
-
-<link rel="stylesheet" type="text/css" href="../stylesheet-2024.css?v=<?php echo ($version); ;?>">
+<link rel="stylesheet" type="text/css" href="../css/mode-slider.css?v=3">
+<link rel="stylesheet" type="text/css" href="../css/content-styles-2025.css?v=<?php echo ($version); ;?>3">
+<link rel="stylesheet" type="text/css" href="../css/stylesheet-2025.css?v=<?php echo ($version); ;?>">
 
 <!--Default Light Styles to load first-->
-<link rel="preload" href="../mode-light.css?v=<?php echo ($version); ;?>" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="../css/mode-light.css?v=<?php echo ($version); ;?>" as="style" onload="this.rel='stylesheet'">
  <!--Stylesheets for light and dark mode.  They need to be called here-->
-<link rel="stylesheet" href="../mode-light.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
-<link rel="stylesheet" href="../mode-dark.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="../css/mode-light.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+<link rel="stylesheet" href="../css/mode-dark.css?v=<?php echo ($version); ;?>" media="(prefers-color-scheme: dark)">
 
-
-
-<link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
+<link rel="stylesheet" type="text/css" href="../css/footer-2025.css?v=<?php echo ($version); ;?>">
 <!--<link rel="stylesheet" type="text/css" href="../subscription-stylesheet.css?v=<?php echo ($version); ;?>">
 <script src="../subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>-->
 
 
 <script src="../js/core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
-<script src="../language-switcher.js?v=<?php echo ($version); ;?>3"></script>
+<script src="../js/language-switcher.js?v=<?php echo ($version); ;?>3"></script>
 
 <!--This enables the Light and Dark mode switching
 <script type="module" src="../mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>-->

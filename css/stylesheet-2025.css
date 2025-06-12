@@ -1,0 +1,1477 @@
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	1. Typography
+
+/* -------------------------------------------------------------------------- */
+
+
+
+p {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color);
+}
+
+p a {
+    color: var(--subdued-text);
+    text-decoration: underline;
+    font-weight: 300;
+}
+p a:hover {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+@media screen and (max-width: 769px) {
+    p {
+        font-size: 1.13em;
+        line-height: 1.3;
+        margin: 10px 0 10px 0;
+    }
+}
+@media screen and (min-width: 769px) {
+    p {
+        font-size: 1.3em;
+        line-height: 1.4;
+        margin: 12px 0 12px;
+    }
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+b {
+    font-weight: 500;
+}
+
+strong {
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    color: var(--h1);
+    font-weight: 300;
+    /* text-shadow: 0 0 10px var(--h1); */
+}
+@media screen and (max-width: 769px) {
+    h1 {
+        font-size: 3.1em;
+        line-height: 1.2;
+        margin: 10px 0;
+    }
+}
+@media screen and (min-width: 769px) {
+    h1 {
+        font-size: 4em;
+        line-height: 1.3;
+        margin: 20px 0 10px;
+    }
+}
+
+h2 {
+    font-family: 'Arvo', Georgia, serif;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+@media screen and (max-width: 769px) {
+    h2 {
+        font-size: 1.3em;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+}
+@media screen and (min-width: 770px) {
+    h2 {
+        font-size: 2.5em;
+        line-height: 1.3;
+        font-weight: 400;
+    }
+}
+
+h3 {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+
+}
+@media screen and (max-width: 769px) {
+    h3 {
+        font-size: 2em;
+        line-height: 1.4;
+        font-weight: 500;
+        margin: 10px 0 5px;
+    }
+}
+@media screen and (min-width: 770px) {
+    h3 {
+        font-size: 2em;
+        line-height: 1.3;
+        font-weight: 500;
+        margin: 10px 0 5px;
+    }
+}
+
+h4 {
+    font-family: 'Arvo', Georgia, serif;
+    color: var(--h1);
+}
+@media screen and (min-width: 770px) {
+    h4 {
+        font-size: 1.4em;
+        line-height: 1.3;
+        margin: 15px 0 0;
+    }
+}
+@media screen and (max-width: 769px) {
+    h4 {
+        font-size: 1.1em;
+        line-height: 1.3;
+        margin: 16px 0 1px;
+    }
+}
+
+h4 a {
+    color:var(--subdued-text);
+    text-decoration: underline;
+}
+h4 a:hover {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+h5 {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    color:  var(--text-color);
+    font-weight: 300;
+}
+
+h5 a {
+    color: var(--subdued-text);
+    text-decoration: underline;
+    font-weight: 300;
+}
+h5 a:hover {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+@media screen and (max-width: 769px) {
+    h5 {
+        font-size: 1.1em;
+        line-height: 1.4;
+        margin: 12px 0 5px;
+    }
+}
+@media screen and (min-width: 769px) {
+    h5 {
+        font-size: 1.1em;
+        line-height: 1.5;
+        margin: 14px 0 5px;
+    }
+}
+
+h6 {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color:  var(--text-color);
+}
+
+h6 a {
+    color:  var(--h1);;
+    text-decoration: underline;
+    font-weight: 300;
+}
+h6 a:hover {
+    color:  var(--subdued-text);
+    text-decoration: none;
+    font-weight: 300;
+}
+@media screen and (max-width: 769px) {
+    h6 {
+        font-size: 1.15em;
+        line-height: 1.3;
+        margin: 15px 0 5px;
+    }
+}
+@media screen and (min-width: 769px) {
+    h6 {
+        font-size: 1.25em;
+        line-height: 1.5;
+        margin: 18px 0 5px;
+    }
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-background);
+}
+
+
+#header {
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s, height 0.3s, transform 0.3s;
+    transition: 0.4s;
+    z-index: 30;
+    background: var(--top-header);
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+    #gea-logo {
+        padding:0px;
+        margin: auto auto auto 25px;
+        width: 220px;
+        height: 50px;
+        transition: 0.6s;
+        min-width: 150px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+    .what-are-ecobricks, .faqs-button, .header-divider {
+        display:none;
+    }
+
+    #gea-logo {
+        padding:2px;
+        margin: auto auto auto 5px;
+        width: 190px;
+        height:40px;
+        transition: 0.6s;
+    }
+}
+
+
+
+#main-header-buttons {
+    display: flex;
+    flex-flow: row;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.4s;
+    margin-right: 30px;
+    margin-top: 0px;
+    padding: 20px 20px 20px 0px;
+}
+
+.what-are-ecobricks {
+    font-size: 1.1em;
+    color: var(--text-color);
+    font-family: 'Mulish', sans-serif;
+    text-align: right;
+    padding: 7px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.what-are-ecobricks:hover {
+    color: var(--emblem-pink);
+    text-decoration: underline;
+}
+
+.faqs-button {
+    font-size: 1.1em;
+    color: var(--text-color);
+    font-family: 'Mulish', sans-serif;
+    padding: 7px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.faqs-button:hover {
+    color: var(--emblem-green);
+    text-decoration: underline;
+}
+
+
+.header-divider {
+    font-size: 1.1em;
+    color: var(--text-color);
+    font-family: Mulish;
+    padding: 7px;
+    margin-right: 10px;
+
+}
+
+#settings-buttons {
+    display: flex;
+    flex-flow: row;
+    width: fit-content;
+    background-color: var(--settings-background);
+    padding: 16px 43px 16px 12px;
+    /* border: 1px solid var(--settings-border); */
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    position: fixed;
+    right: -230px;
+    width: fit-content;
+    margin-top: 7px;
+    margin-right: 0px;
+}
+
+#settings-buttons:hover {
+    right: -40px;
+}
+
+#top-settings-button  {
+    border: none;
+    margin-right:14px;
+    cursor:pointer;
+    height:30px;
+    width:30px;
+}
+
+#settings-buttons:hover > #top-settings-button {
+    opacity: 0;
+}
+
+#settings-buttons:hover > .top-lang-button {
+    margin-left: -20px;
+}
+
+
+.settings-buttons-expanded {
+    right: -75px !important;
+}
+
+.settings-buttons-expanded > #top-settings-button {
+    opacity: 0;
+}
+
+.settings-buttons-expanded > .top-lang-button {
+    margin-left: -26px;
+}
+
+
+.top-search-button  {
+    border: none;
+    margin-right:6px;
+    cursor:pointer;
+    padding: 16px;
+}
+
+.top-emblem-button  {
+    border: none;
+    margin-right:0px;
+    cursor:pointer;
+    height:30px;
+    width:30px;
+    padding: 20px;
+}
+
+
+
+
+.top-lang-button  {
+    border: none;
+    margin-right:10px;
+    cursor:pointer;
+    height:30px;
+    width:50px;
+}
+
+
+
+.top-login-button  {
+    border: none;
+    margin-right:10px;
+    cursor:pointer;
+    height:30px;
+    width:30px;
+}
+
+.top-toggle  {
+    border: none;
+    margin-right:10px;
+    cursor:pointer;
+    height:30px;
+    width:fit-content;
+}
+
+
+
+
+.main-menu-button {
+    position:absolute;
+    left:0;
+    margin-top: 22px;
+    margin-left:25px;
+    border: none;
+    margin-right:0px;
+    cursor:pointer;
+    height:30px;
+    width:30px;
+}
+
+
+.main-menu-button:hover  {
+    border: none;
+    margin-right:10px;
+    cursor:pointer;
+    height:30px;
+    width:30px;
+}
+
+#page-content {
+    width: 100%;
+    overflow-x: clip;
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s; /* Smooth transition for height */
+    /* margin-top: 40px; */
+    margin-bottom: -1px;
+
+}
+
+
+
+
+#logo-ecobricks-org, #logo-global-ecobrick-alliance {
+    transition: 0.2s;
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	6. User Settings Overlay Curtain
+
+    Comes in from the right after clicking +- button.
+
+/* -------------------------------------------------------------------------- */
+
+#right-settings-overlay {
+    background-color: var(--side-overlays) /*var(--overlays-and-headers:)*/;
+    color:  var(--text-color); /*var(--text-color)*/ ;
+    z-index: 56;
+}
+
+
+/* Table of Contents Menu (background) */
+.overlay-settings {
+    height: 100%;
+    width: 0%;
+    position: fixed; /* Stay in place */
+    z-index: 21; /* Sit on top */
+    right: 0;
+    top: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+
+/* Position the content inside the overlay */
+.overlay-content-settings {
+    position: initial;
+    text-align: center;
+    /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
+    font-family: "Mulish";
+    /*font-size: smaller;*/
+    display: flex;
+    /* justify-content: center; */
+    flex-flow: column;
+    height:100%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 700px) {
+    .overlay-content-settings {
+        width: 87%;
+        /*margin-top: 6%;*/
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1324px) {
+    .overlay-content-settings {
+        width: 85%;
+        /*margin-top: 2%;*/
+    }
+}
+
+@media screen and (min-width: 1325px) {
+    .overlay-content-settings {
+        width: 80%;
+    }
+}
+
+.settings-label {
+    font-family: 'Mulish';
+    font-size: 1.2em;
+    margin: 18px 0px 8px 0px;
+}
+
+.language-box {
+    display: flex;
+    margin: 10px auto 10px auto;
+    justify-content: center;
+    padding: 5px 30px 5px 30px;
+    background: var(--slide-highlight);
+    border-radius: 55px;
+    width: fit-content;
+}
+
+.language-selector {
+    font-family: 'Mulish';
+    padding: 10px 20px 10px 20px;
+    background: var(--side-overlays);
+    border-radius: 10px;
+    margin: 10px;
+    /* filter: invert(100);*/
+    font-size: 1.1em;
+    cursor: pointer;
+    color: var(--text-color);
+    /*border-color:var(--header-accent);*/
+    border-width:0.5px;
+
+}
+
+.language-selector:hover {
+    background: var(--header-accent);
+    border-width:1px;
+    color:var(--top-header);
+}
+
+.language-selector a {
+    color: var(--side-overlays);
+}
+
+
+
+/*Carbon Badge */
+
+#wcb.wcb-d #wcb_a {
+    color: #2e2e2e !important;
+    background: #27ad37 !important;
+    border-color: #00a112 !important;
+}
+
+#wcb #wcb_a,
+#wcb #wcb_g {
+    border: 0.2em solid #2cb03c !important;
+}
+
+#wcb.wcb-d #wcb_2 {
+    color: grey !important;
+}
+
+
+/*Right Close Button*/
+
+.right-close-button {
+    position: absolute;
+    transition: .3s;
+
+    left: 0;
+    top: 0;
+    margin-left: 10%;
+    margin-top: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    justify-content: center;
+    display: flex;
+
+}
+
+/* .right-close-button:hover {
+  background: var(--x-button-over);
+} */
+
+.x-button {
+
+    position: absolute;
+    transition: .5s;
+    right: 0;
+    top: 0;
+    margin-right: 30px;
+    margin-top: 30px;
+    border:none;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    background: url('svgs/x-button-night.svg?v=2') no-repeat center;
+    background-size: contain;
+}
+
+.x-button:hover {
+    transform: rotate(90deg);
+}
+
+.modal-photo {
+    text-align:center;
+
+    background: url('https://gobrik.com/svgs/bottle-loader-day-7.svg') center no-repeat;
+    box-sizing: border-box;
+    background-size: 100px;
+
+
+}
+
+.modal-photo img {
+    min-height: 400px;
+    min-width: 400px;
+    transition: 0.5s;
+}
+
+.featured-gallery-button {
+    font-family: 'Mulish', sans-serif;
+    color: var(--text-color);
+    width: 80%;
+    margin: auto;
+    text-decoration: none;
+}
+
+
+
+.menu-page-item {
+    padding:10px;
+    font-family:'Mulish';
+    font-size:1.4em;
+    color:var(--text-color);
+    border-bottom:1px solid var(--divider-line);
+    cursor: pointer;
+    flex-grow: 1;
+    max-height: 45px;
+    display: flex;
+
+}
+
+
+
+.gal-photo {
+    padding: 10px;
+}
+
+.gal-photo p {font-size: 0.9em;
+    margin-bottom: 0px;
+
+}
+
+
+
+.menu-page-item a {  text-decoration: none;
+    color: var(--subdued-text);
+    margin: auto;
+}
+
+.menu-page-item a:hover {  text-decoration: none;
+    color: var(--h1);
+}
+
+.menu-page-item:hover {
+
+    border-bottom:1px solid rgba(128, 128, 128, 0.753);
+    color: var(--header-accent);
+
+}
+
+
+/*working?!*/
+[part="darkLabel"], [part="lightLabel"], [part="toggleLabel"] {
+
+    font-size: 22px !important;
+}
+
+legend {
+    margin: 0px auto 10px auto !important;
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	9. Search Overlay
+
+  Comes in from Right.
+
+/* -------------------------------------------------------------------------- */
+
+
+
+#right-search-overlay {
+    background-color: var(--side-overlays);
+    color: inherit;
+    z-index: 56;
+}
+
+
+/* Table of Contents Menu (background) */
+.search-overlay {
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 21; /* Sit on top */
+    right: 0;
+    top: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+
+/* Position the content inside the overlay */
+.search-overlay-content {
+    position: initial;
+    text-align: center; /* Centered text/links */
+    /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
+    font-family: "CooperLT";
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    height:fit-content;
+    margin: auto;
+    transition: margin-top 0.5s ease-in-out;
+}
+
+
+@media screen and (max-width: 700px) {
+    .search-overlay-content {
+        width: 92%;
+        font-size: 0.9em;
+        /*margin-top: 6%;*/
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1324px) {
+    .search-overlay-content {
+        width: 75%;
+        font-size: 0.9em;
+        /*margin-top: 2%;*/
+        margin-top:30%;
+    }
+}
+
+@media screen and (min-width: 1325px) {
+    .search-overlay-content {
+        width: 72%;
+        margin: auto;
+        margin-top:14%;
+    }
+}
+
+/*Not darkified!*/
+
+.search-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px) {
+
+
+    .btn {
+        font-size: 0.9em;
+        height: 100%;
+        /* width: 20%; */
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1324px) {
+
+    .search-box {
+        font-size: 12px;
+        line-height: 1.2;
+        margin: auto;
+        border-radius: 4px;
+        /* margin-right: -6%;
+        padding-right: 6%; */
+        width: 100%;
+        padding: 10px;
+    }
+    .btn {
+        font-size: 12px;
+        height: 100%;
+        font-size: 1.1em;
+    }
+
+}
+
+
+@media screen and (min-width: 1325px) {
+    .search-box {
+        font-size: 15px;
+        line-height: 1.6;
+        width: 100%;
+        padding: 1em 1.5em;
+        border-radius: 5px 0px 0px 5px;
+
+    }
+
+    .btn {
+        font-size: 12px;
+        height: 100%;
+        font-size: 1.2em;
+    }
+}
+
+
+.main-search-button {
+    height: 70px;
+    width: 80px;
+    background: url(../icons/search-white.svg) no-repeat center;
+    background-size: 28px;
+}
+
+
+.main-search-button:hover {
+    background-color: rgb(196, 128, 1) !important;
+    background: url(../icons/search-white.svg) no-repeat center;
+    background-size: 32px;
+}
+
+
+/* Position the close button (top right corner) */
+.search-overlay .closebtn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 700px) {
+    .search-overlay a {
+        font-size: 20px;
+    }
+
+    .search-overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 15px;
+    }
+}
+
+
+
+
+/*SEARCH input box*/
+
+#search_input {
+
+    background: #f4f4f4;
+    border: 2px solid #ddd;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left: 3px solid;
+    border-left-color: currentcolor;
+    border-left-color: currentcolor;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    width: 100%;
+    overflow: auto;
+    word-wrap: break-word;
+    display: block;
+    text-align: left;
+    justify-content: center;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: -5px;
+    font-size: 15px;
+    line-height: 1.6;
+    width: 100%;
+    padding: 1em 1.5em;
+    padding-right: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 5px 0px 0px 5px;
+    margin-right: -5px;
+    padding-right: 0%;
+    border-left-color: green;
+
+}
+
+.btn {
+    border: 1px solid #ddd;
+    color: white;
+    background-color: var(--emblem-orange);
+    font-weight: bolder;
+    align-self: center;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    opacity:0.88;
+}
+
+.btn:hover {
+    opacity: 1;}
+
+
+.search-options {
+    font-family: 'Mulish-Light', sans-serif;
+    color:var(--text-color);
+    padding: 10px;
+    background-color:var(--slide-highlight);
+    border-radius: 0px 0px 10px 10px; width: 90%;
+    margin: auto;
+}
+
+.search-row {
+    padding:10px;
+    border-radius: 4px;
+    background-color: var(--search-row);
+    margin-bottom: 5px;
+
+}
+
+.search_chapter_pic
+{width: fit-content;
+    margin-right:10px;
+    display:block;}
+
+@media screen and (max-width: 700px) {
+    .search_chapter_pic img{
+        width:100px;
+    }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+    .search_chapter_pic img{
+        width:130px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .search_chapter_pic img {
+        width:140px;
+    }
+}
+
+
+#search_results {
+    margin-top: 20px;
+}
+
+/* .search_chapter_pic {
+
+  width:100px;
+  margin-right:10px;
+  display:block;
+
+} */
+
+.chapter-name-search a {
+    display:block;
+    color: var(--text-color);
+    text-decoration: none;
+
+}
+
+.chapter-title-search {
+    font-size:x-large;
+    font-family:'Arvo', serif;
+    margin-top:5px;
+    display:block;
+    color: var(--text-color);
+    text-decoration: none;
+
+}
+
+.description_search
+{
+    font-size:medium;
+    font-family:'Mulish', sans-serif;
+    margin-top:10px;
+    display:block;
+}
+
+.chapter-info-search {
+    font-family:'Mulish', sans-serif;
+    font-size: small;
+    margin-top:8px;
+    display:block;
+}
+
+
+/*SLIDER */
+
+
+
+
+/*--------------------------------------
+GUIDED TOUR---*
+--------------------------------------*/
+
+
+/* CSS for blurred effect */
+.blurred {
+    filter: blur(7px);
+}
+
+/* CSS for overflow and max-height when modal is open */
+body.modal-open {
+    overflow: hidden;
+    /*max-height: 100vh;*/
+}
+
+
+
+/* The modal background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 50; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*overflow: clip; !* Enable scrolling if needed *!*/
+    background-color: var(--modal-background);
+    /*max-height: 100%;*/
+    justify-content: center;
+
+}
+
+.tour-content {
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .tour-content {
+        margin: auto;
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 701px) {
+    .tour-content {
+        margin: auto;
+        width: 80%;
+        padding-bottom: 30px;
+
+    }
+
+}
+
+
+
+.close-tour {
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    color: #aaa;
+    transition: color 0.3s ease;
+    position: fixed;
+    top: 20px;
+    right: 10%;
+}
+
+.close-tour:hover,
+.close-tour:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.close {
+    color: var(--subdued-text);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: -15px 40px auto auto;
+    position: absolute;
+    right: 0;
+}
+.close:hover,
+.close:focus {
+    color:var(--h1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blur {
+    filter: blur(10px);
+    filter:brightness(0.2);
+    pointer-events: none;
+}
+
+
+.next-slide {
+    background-color: green;
+    border: none;
+    color: #fff;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+.next-slide:hover {
+    background-color: #0f6a02;
+}
+
+@media screen and (max-width: 700px) {
+    .next-slide {
+        padding: 10px;
+        font-size: 16px;
+        margin: 5px 5px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .next-slide {
+        padding: 18px 24px 18px 24px;
+        font-size: 18px;
+        margin: 8px 4px;
+        border-radius: 10px;
+    }
+}
+
+.back {
+    background-color: rgb(80, 80, 80);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.modal-description {
+    font-family:'Mulish', sans-serif;
+    text-align:center;
+    color:var(--h1);
+    padding:15px;
+}
+
+.modal-header {
+    font-family: 'Arvo', serif;
+    color:var(--h1);
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+#underlayer {transition: 0.5s;}
+
+
+
+.tour-image {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex: 50%;
+    opacity: 1;
+    margin: auto auto 20px auto;
+
+}
+
+.tour-image img {
+    height: inherit;
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .tour-image {
+        /* padding: 8px; */
+        height: 200px;
+        max-width: 400px;
+    }
+
+
+
+    .modal-header {
+        font-size:2.3em;
+    }
+    .modal-description {
+        font-size:1.2em;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1324px) {
+
+    .tour-image {
+        /* padding: 8px; */
+        height: 350px;
+        min-width: 634px
+    }
+
+    .modal-header {
+        font-size:2.9em;
+    }
+    .modal-description {
+        font-size:1.5em;
+    }
+
+}
+
+
+@media screen and (min-width: 1325px) {
+
+
+    .tour-image {
+        /* padding: 28px; */
+        height: 400px;
+        max-width: 550px;
+    }
+
+    .modal-header {
+        font-size:3.2em;
+    }
+    .modal-description {
+        font-size:1.7em;
+    }
+
+}
+
+.reference {
+    font-size:0.9em;
+    color: var(--subdued-text);
+    font-family: 'Mulish', sans-serif;
+    margin-top: 20px;
+}
+
+.reference a {
+    color: var(--subdued-text);
+}
+
+.java-link {
+    cursor:pointer;
+    border-bottom: grey 1px dashed;
+
+}
+
+.java-link:hover {
+    cursor:pointer;
+    border-bottom: grey 1px solid;}
+
+
+
+/* ------------
+
+Language Selector Menu
+
+------------------------*/
+
+
+#language-menu-slider {
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    top: -10px;
+    background-color: var(--selector);
+    display: flex;
+    flex-flow: row;
+    z-index: 26;
+    color: var(--text-color) !important;
+    transition: 0.3s;
+    margin-top: 0px;
+    display: none;
+
+}
+
+.lang-selector-box {
+    display: flex;
+    flex-flow: row;
+    margin: auto 10px 0px 10px;
+    width: 100%;
+}
+
+.lang-selector {
+    flex: 1;
+    padding: 10px;
+    background-color: var(--selector-highlight);
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: auto;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.lang-selector:hover {
+    background-color:var(--selector-highlight-over);
+    color: var(--text-color);
+
+}
+
+
+/* ------------
+
+Login Selector Menu
+
+------------------------*/
+
+
+#login-menu-slider {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: -10px;
+    background-color: var(--sub-menu);
+    display: flex;
+    flex-flow: row;
+    z-index: 26;
+    color: var(--text-color) !important;
+    transition: 0.3s;
+    margin-top: 0px;
+    display: none;
+
+}
+
+
+.login-selector-box {
+    display: flex;
+    flex-flow: row;
+    margin: auto 10px 0px 10px;
+    width: 100%;
+}
+
+.login-selector {
+    flex: 1;
+    padding: 10px;
+    background-color: var(--selector-highlight);
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: auto;
+    color: var(--text-color);
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-selector:hover {
+    background-color:var(--selector-highlight-over);
+    color: var(--text-color);
+    text-decoration: underline;
+
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/*	7. WIDGET FORMATTING
+
+/* -------------------------------------------------------------------------- */
+
+#wcb.wcb-d #wcb_a {
+    color: #252b4d !important;
+    background: #8cbdda !important;
+    border-color: #529bc2 !important;
+}
+
+#wcb #wcb_a,
+#wcb #wcb_g {
+    border: 0.2em solid #8cbdda !important;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+
+/* 8.  GALLERY PHOTOS */
+
+/* -------------------------------------------------------------------------- */
+
+.three-column-gal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /* Adjust the gap between the photos as needed */
+    width: 100%; /* Ensure the gallery takes the full width */
+}
+
+.gal-photo img {
+    width: 100%; /* Make images responsive within their containers */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .three-column-gal {
+        grid-template-columns: repeat(2, 1fr); /* Adjust for mobile to show two columns */
+    }
+}
+
+
+
+.browser-back-text-button {
+    display: inline-block; /* Allows for text alignment and width/height properties */
+    text-align: center;
+    text-decoration: underline; /* Removes underline */
+    cursor: pointer; /* Changes cursor to indicate clickable */
+    color: inherit; /* Inherits text color from parent, or specify your own */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.browser-back-text-button:hover {
+    text-decoration: none; /* Adds underline on hover */
+}
+
+
+.back-link  {
+    width:100%;
+    text-align: center;
+    margin: 50px auto 20px auto;
+    font-size: small;
+    cursor: pointer;
+    color: var(--subdued-text);
+    text-decoration: underline;
+    font-family: 'Mulish', sans-serif;
+}
+
+.back-link:hover {
+    text-decoration: none;}
