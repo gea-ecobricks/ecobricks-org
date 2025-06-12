@@ -137,7 +137,7 @@
 
 </div> 
 
-	<!--FOOTER ENDS-->
+	<!--FOOTER ENDS
 
 <script src="../translations/core-en-translation.js?v=<?php echo ($version); ;?>"></script>
 <script src="../translations/core-fr-translation.js?v=<?php echo ($version); ;?>"></script>
@@ -148,6 +148,18 @@
 <script src="../translations/<?php echo ($page); ;?>-fr-translation.js?v=<?php echo ($version); ;?>"></script>
 <script src="../translations/<?php echo ($page); ;?>-id-translation.js?v=<?php echo ($version); ;?>"></script>
 <script src="../translations/<?php echo ($page); ;?>-es-translation.js?v=<?php echo ($version); ;?>"></script>
+-->
+
+<script>
+  const lang = '<?php echo $lang; ?>';
+  const page = '<?php echo $page; ?>';
+  const version = '<?php echo $version; ?>';
+
+  loadTranslationScripts(lang, page, () => {
+    switchLanguage(lang); // Or your language rendering logic
+  });
+</script>
+
 
 <script>
 

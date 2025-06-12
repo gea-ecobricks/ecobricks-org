@@ -68,6 +68,27 @@
 
 
 
+
+<script src="../subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>
+<script src="../core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
+<script src="../language-switcher.js?v=2<?php echo ($version); ;?>"></script>
+
+
+<!--This enables the Light and Dark mode switching-->
+<script type="module" src="https://ecobricks.org/mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>
+
+
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>  -->
+
+
+
+
+<script src="../guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
+
+<script src="../site-search.js?v=<?php echo ($version); ;?>" defer></script>
+
+
+
 <script>
 
 /*ROLL CALL*/
@@ -87,25 +108,6 @@ window.onload = function() {
 }
 
 </script>
-
-<script src="../subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>
-<script src="../core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
-<script src="../language-switcher.js?v=<?php echo ($version); ;?>"></script>
-
-
-<!--This enables the Light and Dark mode switching-->
-<script type="module" src="https://ecobricks.org/mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>
-
-
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>  -->
-
-
-
-
-<script src="../guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
-
-<script src="../site-search.js?v=<?php echo ($version); ;?>" defer></script>
-
 
 
 <!-- for light mode -->
