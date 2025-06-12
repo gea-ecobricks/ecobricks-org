@@ -525,6 +525,9 @@ display: none;
 
 <div id="page-content"> <!--modal blur added here-->
 
+
+
+
  <!-- RIGHT PAGE MENU -->
 
 <div id="right-settings-overlay" class="overlay-settings" style="display:none;">
@@ -588,7 +591,7 @@ display: none;
 
         <div class="submenu-item-container">
             <div class="submenu-item" data-lang-id="006-menu-1-sub-item-4">
-                <a href="plastic.php >Plastic’s Long Story</a>
+                <a href="plastic.php">Plastic’s Long Story</a>
                 <span class="circle" title="This page is 100% translated to English but in our non-git format.  Migration in progress" style="color:yellow;  ">●</span>
             </div>
             <div class="translation-info" data-lang-id="005-menu-1-trans-text-4">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /plastic has been translated 100% | migration to new git site in progress!</div>
@@ -833,22 +836,7 @@ display: none;
   </div>
   <div class="translation-info" data-lang-id="060-menu-5-trans-text-9">🏴󠁧󠁢󠁥󠁮󠁧󠁿  /movement is 100% in English however is in our non-git system | queued for transition</div>
 </div>
-<!-- Arc -->
-<!-- <div class="submenu-item-container">
-  <div class="submenu-item" data-lang-id="061-menu-5-sub-item-10">
-      <a href="arc.php">Arc</a>
-      <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>
-  </div>
-  <div class="translation-info" data-lang-id="062-menu-5-trans-text-10">arc.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/arc-fr-translation.js" class="translate-link">help edit ⇗</a></div>
-</div> -->
-<!-- Catalyst -->
-<!-- <div class="submenu-item-container">
-  <div class="submenu-item" data-lang-id="063-menu-5-sub-item-11">
-      <a href="catalyst.php">Catalyst</a>
-      <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>
-  </div>
-  <div class="translation-info" data-lang-id="064-menu-5-trans-text-11">catalyst.php has been translated 25% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/catalyst-fr-translation.js" class="translate-link">help edit ⇗</a></div>
-</div> -->
+
 </div>
 </div>
 
