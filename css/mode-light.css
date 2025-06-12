@@ -207,7 +207,7 @@
 
 
 .featured-content-2 {
-    background: url(../svgs/blue-circles-banner-light.svg) no-repeat bottom;
+    background: url(../svgs/blue-circles-banner-light.svg?v=2) no-repeat center;
     background-size: cover;
 }
 
