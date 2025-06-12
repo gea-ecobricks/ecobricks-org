@@ -1,13 +1,9 @@
 
 
 <!--  Set any page specific graphics to preload-->
-<!-- Preload mobile image as it's the most likely first view -->
-<link rel="preload" as="image" href="/photos/photo1-mobile.webp" type="image/webp">
-<picture>
-  <source srcset="/photos/photo1-desktop.webp" media="(min-width: 1200px)" type="image/webp">
-  <source srcset="/photos/photo1-tablet.webp" media="(min-width: 700px)" type="image/webp">
-  <img src="/photos/photo1-mobile.webp" alt="Photo 1" width="..." height="..." loading="eager">
-</picture>
+<!-- Preload mobile image as it's the most likely first view
+<link rel="preload" as="image" href="/photos/photo1-mobile.webp" type="image/webp"> -->
+
 
 
 <?php require_once ("../meta/$page-$lang.php");?>
@@ -995,6 +991,24 @@ margin-left: 0px;
 
 </style>
 
+<script>
+(function() {
+  var img = new Image();
+  var width = window.innerWidth;
+
+  if (width < 700) {
+    img.src = '/photos/photo1-mobile.webp';
+  } else if (width < 1200) {
+    img.src = '/photos/photo1-tablet.webp';
+  } else {
+    img.src = '/photos/photo1-desktop.webp';
+  }
+
+  // Optionally, you can set decoding and loading hints
+  img.loading = 'eager';
+  img.decoding = 'async';
+})();
+</script>
 
 
 
