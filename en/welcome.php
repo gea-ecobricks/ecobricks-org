@@ -1,5 +1,5 @@
 <?php
-$version='4.8';
+$version='4.81';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='welcome';
 include '../ecobricks_env.php';
@@ -11,12 +11,6 @@ require_once ("../includes/welcome-inc.php");
 <HEAD>
 <META charset="UTF-8">
 
-<!--
-Ecobricks.org site version 3.0
-Developed and made open source by the Global Ecobrick Alliance
-See our git hub repository for the full code and to help out:
-https://github.com/gea-ecobricks/ecobricks-org
--->
 
     <div class="feature-content-anchor-box">
 
