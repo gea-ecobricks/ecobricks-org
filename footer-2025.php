@@ -137,6 +137,8 @@
 
 </div> 
 
+
+<script src="../js/website-carbon-badges.js" defer></script>
 	<!--FOOTER ENDS-->
 
 <script>
