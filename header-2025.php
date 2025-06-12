@@ -72,7 +72,7 @@
 <!--This enables the Light and Dark mode switching
 <script type="module" src="../mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>-->
 
-<script src="../js/guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
+<script src="../js/guided-tour.js?v=2<?php echo ($version); ;?>" defer></script>
 
 <script src="../js/site-search.js?v=<?php echo ($version); ;?>" defer></script>
 

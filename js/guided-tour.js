@@ -8,13 +8,26 @@ GUIDED TOUR
 ----------------------------*/
 
 function closeTour() {
-    // Get the modal and set its display to "block" to show it
-    var modal = document.getElementById("guided-tour");
-    modal.style.display = "none";
-    document.getElementById("page-content").classList.remove("blur");
+    const modal        = document.getElementById("guided-tour");
+    const pageContent  = document.getElementById("page-content");
 
+    /* 1. Hide the overlay & un-blur the page */
+    modal.style.display = "none";
+    pageContent.classList.remove("blur");
+
+    /* 2. Restore scrolling exactly the way it was                      *
+     *    – clear the inline styles we set in guidedTour()              *
+     *    – also reset on the <html> element (some browsers use it)     */
+    ["html", "body"].forEach(sel => {
+        const el = document.querySelector(sel);
+        el.style.overflow  = "";
+        el.style.maxHeight = "";
+    });
+
+    /* 3. Any other cleanup, then mark the tour as seen */
     tourTaken();
 }
+
 
 
 function guidedTour() {
