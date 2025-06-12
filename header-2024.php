@@ -75,8 +75,7 @@
 <script type="module" src="https://ecobricks.org/mode-toggle.mjs.js?v=<?php echo ($version); ;?>"></script>
 
 
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>  -->
-
+<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 
 <script src="../guided-tour.js?v=<?php echo ($version); ;?>" defer></script>
 
