@@ -4,7 +4,6 @@ $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='welcome';
 include '../ecobricks_env.php';
 require_once ("../includes/welcome-inc.php");
-$lang = 'es';
 ?>
 
 <!DOCTYPE html>
