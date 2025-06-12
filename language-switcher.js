@@ -82,13 +82,13 @@ function loadTranslationScripts(lang, page, callback) {
 
     // Core UI translations
     const coreScript = document.createElement('script');
-    coreScript.src = `../translations/core-texts-${lang}.js?v=${version}`;
+    coreScript.src = `../translations/core-${lang}-translation.js?v=${version}`;
     coreScript.onload = scriptLoaded;
     document.head.appendChild(coreScript);
 
     // Page-specific translations
     const pageScript = document.createElement('script');
-    pageScript.src = `../translations/${page}-${lang}.js?v=${version}`;
+    pageScript.src = `../translations/${page}-${lang}-translation.js?v=${version}`;
     pageScript.onload = scriptLoaded;
     document.head.appendChild(pageScript);
 
