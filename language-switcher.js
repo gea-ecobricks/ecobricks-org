@@ -3,57 +3,32 @@
 
 /* ---------- ------------------------------
 
-EARTHEN LANGUAGE SELECTOR v2.0
+LANGUAGE SELECTOR  
 
 -------------------------------------------*/
 
+
+
+
 function switchLanguage(langCode) {
-    window.currentLanguage = langCode;
+    currentLanguage = langCode; // Update the global language variable
+   
 
-    let currentTranslations = {};
-    switch (langCode) {
-        case 'en':
-            currentTranslations = { ...en_Translations, ...en_Page_Translations, ...en_buwana_terms };
-            break;
-        case 'fr':
-            currentTranslations = { ...fr_Translations, ...fr_Page_Translations, ...fr_buwana_terms };
-            break;
-        case 'es':
-            currentTranslations = { ...es_Translations, ...es_Page_Translations, ...es_buwana_terms };
-            break;
-        case 'id':
-            currentTranslations = { ...id_Translations, ...id_Page_Translations, ...id_buwana_terms };
-            break;
-        // case 'ar':
-        //     currentTranslations = { ...ar_Translations, ...ar_Page_Translations, ...ar_buwana_terms };
-        //     break;
-        case 'zh':
-            currentTranslations = { ...zh_Translations, ...zh_Page_Translations, ...zh_buwana_terms };
-            break;
-        // case 'de':
-        //     currentTranslations = { ...de_Translations, ...de_Page_Translations, ...de_buwana_terms };
-        //     break;
-        // default:
-            console.warn(`No translations found for language: ${langCode}`);
-            return;
-    }
+    // Dynamic selection of the correct translations object
+    const languageMappings = {
+        'en': {...en_Translations, ...en_Page_Translations},
+        'fr': {...fr_Translations, ...fr_Page_Translations},
+        'es': {...es_Translations, ...es_Page_Translations},
+        'id': {...id_Translations, ...id_Page_Translations}
+    };
 
-    window.translations = currentTranslations; // ✅ Make globally accessible
-
-
-
-    // RTL Support
-    const rtlLanguages = ['ar', 'he', 'fa', 'ur'];
-    const formContainer = document.getElementById('form-submission-box');
-    if (formContainer) {
-        formContainer.setAttribute('dir', rtlLanguages.includes(langCode) ? 'rtl' : 'ltr');
-    }
+    const currentTranslations = languageMappings[currentLanguage];
 
 
     const elements = document.querySelectorAll('[data-lang-id]');
     elements.forEach(element => {
         const langId = element.getAttribute('data-lang-id');
-        const translation = currentTranslations[langId];
+        const translation = currentTranslations[langId]; // Access the correct translations
         if (translation) {
             if (element.tagName.toLowerCase() === 'input' && element.type !== 'submit') {
                 element.placeholder = translation;
@@ -62,44 +37,11 @@ function switchLanguage(langCode) {
             } else if (element.tagName.toLowerCase() === 'img') {
                 element.alt = translation;
             } else {
-                element.innerHTML = translation;
+                element.innerHTML = translation; // Directly set innerHTML for other elements
             }
         }
     });
 }
-
-
-function loadTranslationScripts(lang, page, callback) {
-    const totalScripts = 3;
-    let loadedScripts = 0;
-
-    function scriptLoaded() {
-        loadedScripts++;
-        if (loadedScripts === totalScripts) {
-            callback(); // All scripts loaded
-        }
-    }
-
-    // Core UI translations
-    const coreScript = document.createElement('script');
-    coreScript.src = `../translations/core-${lang}-translation.js?v=${version}`;
-    coreScript.onload = scriptLoaded;
-    document.head.appendChild(coreScript);
-
-    // Page-specific translations
-    const pageScript = document.createElement('script');
-    pageScript.src = `../translations/${page}-${lang}-translation.js?v=${version}`;
-    pageScript.onload = scriptLoaded;
-    document.head.appendChild(pageScript);
-
-    // Buwana-specific terms and policies
-    const buwanaScript = document.createElement('script');
-    buwanaScript.src = `../translations/buwana-terms-${lang}.js?v=${version}`;
-    buwanaScript.onload = scriptLoaded;
-    document.head.appendChild(buwanaScript);
-}
-
-
 
 
 
@@ -138,21 +80,4 @@ function clearSiteCache() {
         // Show alert dialog
         alert(alertMessage);
     }
-}
-
-
-function applyTranslations() {
-    const elements = document.querySelectorAll('[data-lang-id]');
-    elements.forEach(el => {
-        const key = el.getAttribute('data-lang-id');
-        if (translations[key]) {
-            if (el.placeholder !== undefined) {
-                el.placeholder = translations[key];
-            } else if (el.tagName.toLowerCase() === 'option') {
-                el.textContent = translations[key];
-            } else {
-                el.innerHTML = translations[key];
-            }
-        }
-    });
 }

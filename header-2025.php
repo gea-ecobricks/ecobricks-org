@@ -64,11 +64,11 @@
 
 
 <link rel="stylesheet" type="text/css" href="../footer-stylesheet.css?v=<?php echo ($version); ;?>">
-<!--<link rel="stylesheet" type="text/css" href="../subscription-stylesheet.css?v=<?php echo ($version); ;?>">-->
+<!--<link rel="stylesheet" type="text/css" href="../subscription-stylesheet.css?v=<?php echo ($version); ;?>">
+<script src="../subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>-->
 
 
-<script src="../subscription-system.js?v=2<?php echo ($version); ;?>" defer></script>
-<script src="../core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
+<script src="../js/core-scripts-2024.js?v=2<?php echo ($version); ;?>"></script>
 <script src="../language-switcher.js?v=<?php echo ($version); ;?>3"></script>
 
 <!--This enables the Light and Dark mode switching
