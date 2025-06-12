@@ -364,7 +364,7 @@ include '../ecobricks_env.php';
   }
 </script>
 
- <script src="../scripts/2025-landing-scripts.js"></script>
+ <script src="../js/2025-landing-scripts.js"></script>
 
 
 </body>
