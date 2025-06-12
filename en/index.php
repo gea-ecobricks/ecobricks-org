@@ -1,7 +1,7 @@
 <?php
 $version='5.41';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
-$page='welcome';
+$page='index';
 include '../ecobricks_env.php';
 
 ?>
@@ -11,7 +11,7 @@ include '../ecobricks_env.php';
 <HEAD>
 <META charset="UTF-8">
 
-<?php require_once ("../includes/welcome-inc.php");?>
+<?php require_once ("../includes/index-inc.php");?>
 
     <div class="feature-content-anchor-box">
 

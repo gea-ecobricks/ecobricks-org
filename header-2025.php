@@ -3,7 +3,7 @@
 	$parts = explode ("/", $_SERVER['SCRIPT_NAME']);
 	$name = $parts [count($parts)-1];
 	if (strcmp($name, "index.php") == 0)
-  $name = "index.php";
+  $name = "";
 	;?>
 
 	<link rel="canonical" href="https://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>">
