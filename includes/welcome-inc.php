@@ -23,7 +23,8 @@ width: 100%;
   padding-top: 90px;
   overflow: clip;
   display: flex;
-  flex-flow: column; 
+  flex-flow: column;
+  position: relative;
 }
 
 
