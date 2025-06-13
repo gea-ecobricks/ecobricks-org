@@ -1,7 +1,7 @@
 
 const fr_Page_Translations = {
   "300-featured-content-1-title": "Cours gratuit de juin",
-  "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours d'introduction en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles avec Russell Maier, cofondateur de GEA, et la formatrice GEA Paula Apollonia, dans notre cours phare 'Le plastique, la biosphère et les écobricks'. Gratuit.",
+  "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours d'introduction en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles dans notre cours phare 'Le plastique, la biosphère et les écobricks'",
   "302-featured-content-1-button": "↗️ Voir le cours sur GoBrik",
 
   "300-featured-content-3-title": "L’histoire planétaire du plastique",

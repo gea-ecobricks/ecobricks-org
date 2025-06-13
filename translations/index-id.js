@@ -2,7 +2,7 @@
 
 const id_Page_Translations = {
   "300-featured-content-1-title": "Kursus Gratis Bulan Juni",
-  "301-featured-content-1-subtitle": "Ikuti kursus pengantar langsung dan gratis. Pelajari ilmu, filosofi, dan teknik penting dari salah satu pendiri GEA Russell Maier dan Pelatih GEA Paula Apollonia dalam kursus unggulan kami 'Plastik, Biosfer & Ecobricks'. Gratis.",
+  "301-featured-content-1-subtitle": "Ikuti kursus pengantar langsung dan gratis. Pelajari ilmu, filosofi, dan teknik penting dalam kursus unggulan kami 'Plastik, Biosfer & Ecobricks'.",
   "302-featured-content-1-button": "↗️ Lihat Kursus di GoBrik",
 
   "300-featured-content-3-title": "Kisah Planet Plastik",

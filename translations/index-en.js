@@ -2,7 +2,7 @@
 
 const en_Page_Translations = {
   "300-featured-content-1-title": "Free June Course",
-  "301-featured-content-1-subtitle": "Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.",
+  "301-featured-content-1-subtitle": "Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our June course 'Plastic, the Biosphere & Ecobricks'",
   "302-featured-content-1-button": "↗️ View Course on GoBrik",
 
   "300-featured-content-3-title": "The Planetary Story of Plastic",
