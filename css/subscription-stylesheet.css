@@ -35,7 +35,7 @@ version 1.0
 
   @media (prefers-color-scheme: dark) {
     .registration-footer-holder {
-      background: url(webp/earthen-subscription-background-dark.webp) top center, var(--side-overlays);
+      background: url(../webp/earthen-subscription-background-dark.webp) top center, var(--side-overlays);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -44,7 +44,7 @@ version 1.0
   
   @media (prefers-color-scheme: light) {
     .registration-footer-holder {
-      background: url(webp/earthen-subscription-background-light.webp) top center, var(--top-header);
+      background: url(../webp/earthen-subscription-background-light.webp) top center, var(--top-header);
       background-repeat: no-repeat;
       background-size: cover;
       }
@@ -116,7 +116,7 @@ version 1.0
 .register-button:hover {
 
   background-color: none;
-  background-image: url(svgs/cloud-button-back.svg);
+  background-image: url(../svgs/cloud-button-back.svg);
   color: black;
 }
 
@@ -378,7 +378,7 @@ text-decoration: underline;
   .earthen-icon {
     height:30px;
     width:30px;
-    background: url(webp/earthen-logo-icon.webp) no-repeat;
+    background: url(../webp/earthen-logo-icon.webp) no-repeat;
     background-size: contain;
     padding: 10px;
   margin-right: 10px;
