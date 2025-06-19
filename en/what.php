@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.81';?>
+<?php $version='1.82';?>
 <?php $page='what';?>
 <title>Ecobrick Essentials</title>
 <?php require_once ("../includes/what2-inc.php");?>
@@ -295,7 +295,7 @@
 <!-- CUSTOM PAGE SCRIPTS-->
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
+<script src="../js/accordion-scripts.js?v=2" defer></script>
 
 
 </div>

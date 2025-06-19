@@ -1001,7 +1001,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 
 <!-- This script is for pages that use the accordion content system
 
-<script src="../accordion-scripts.js?v=<?php echo ($version); ;?>" defer></script>
+<script src="../js/accordion-scripts.js?v=<?php echo ($version); ;?>" defer></script>
 
 
 -->

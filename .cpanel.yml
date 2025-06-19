@@ -7,6 +7,7 @@ deployment:
 
     # 2) Make sure the zh, es, fr, and id directories exist
     - /bin/mkdir -p $WEBROOT/zh
+    - /bin/mkdir -p $WEBROOT/zh/modules
     - /bin/mkdir -p $WEBROOT/es
     - /bin/mkdir -p $WEBROOT/fr
     - /bin/mkdir -p $WEBROOT/id
@@ -19,3 +20,4 @@ deployment:
     - /usr/bin/install -m 644 en/index.php $WEBROOT/es/index.php
     - /usr/bin/install -m 644 en/index.php $WEBROOT/fr/index.php
     - /usr/bin/install -m 644 en/index.php $WEBROOT/id/index.php
+    - /usr/bin/install -m 644 en/modules/good-use.php $WEBROOT/zh/modules/good-use.php

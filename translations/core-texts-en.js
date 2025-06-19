@@ -6,6 +6,15 @@ ENGLISH SNIPPETS FOR CORE TEXTS ON ECOBRICKS.ORG
 
 const en_Translations = {
 
+   /*MODULES*/
+
+    "0-good-use-module": "    <img src=\"../webp/earth-tree-400px.webp\" width=\"250\" style=\"full-width-image\" loading=\"lazy\" alt=\"eco brik and earth building can make circular benches with trees planted in the middle\">\n" +
+        "    <br>\n" +
+        "    <h4>Good Use</h4>\n" +
+        "    <h5>Building with ecobricks puts plastic to good use in the short-term, while securing it out of both the biosphere and industry for the long-term.</h5>\n" +
+        "    <br>\n" +
+        "    <a class=\"module-btn\" href=\"about.php\">Learn More</a>\n" +
+        "    <br>",
 
 
       /*Menu of pages curtain*/
@@ -191,6 +200,8 @@ const en_Translations = {
   "420-conclusion-contribute": "The Ecobricks.org site is hand coded in open source HTML, PHP MYSQL, CSS and Javascript. Contribute to making this page better by leaving a bug report or push request on Github:",
   "421-conclusion-data": "All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to \"The Global Ecobrick Alliance, ecobricks.org\" using the same license.",
   "422-conclusion-copyright": "The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2024 by the Global Ecobrick Alliance.",
+
+/*MODULES*/
 
 
 

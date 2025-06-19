@@ -835,7 +835,7 @@ $(document).ready(function () {
 
 
 <!-- This script is for pages that use the accordion content system-->
-<script src="../accordion-scripts.js?v=2" defer></script>
+<script src="../js/accordion-scripts.js?v=2" defer></script>
 
 </div>
 </article>
