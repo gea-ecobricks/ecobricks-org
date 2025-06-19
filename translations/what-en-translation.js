@@ -13,7 +13,6 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 // Single quote/apostrophe ('): Should be escaped as &#39; or &apos; when inside attribute values.
 // Backslash (\): Should be escaped as \\ in JavaScript strings to prevent ending the string prematurely.
 // Forward slash (/): Should be escaped as \/ in </script> tags to prevent prematurely closing a script.
-const en_Page_Translations = {
     // "300-featured-content-1-title": "Updated Guidelines",
     // "301-featured-content-1-subtitle": "Our ecobricking guide is updated for 2025.",
     // "302-featured-content-1-button": "New 10-step Guide",
