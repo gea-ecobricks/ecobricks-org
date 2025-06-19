@@ -4,7 +4,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.0';?>
+<?php $version='2.1';?>
 <?php $page='what';?>
 
 <?php require_once ("../includes/what-inc.php");?>
