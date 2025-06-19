@@ -3,7 +3,7 @@
 <HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
+<?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
 <?php $version='2.0';?>
 <?php $page='what';?>
 

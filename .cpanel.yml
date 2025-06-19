@@ -26,4 +26,4 @@ deployment:
     - /usr/bin/install -m 644 en/index.php $WEBROOT/id/index.php
     -
     - /usr/bin/install -m 644 en/side-modules/good-use.php $WEBROOT/zh/side-modules/good-use.php
-    - /usr/bin/install -m 644 en/side-modules/sequest.php $WEBROOT/zh/side-modules/sequest.php
+    - /usr/bin/install -m 644 en/side-modules/sequest-module.php $WEBROOT/zh/side-modules/sequest-module.php
