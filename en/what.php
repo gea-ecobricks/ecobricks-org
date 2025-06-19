@@ -23,7 +23,7 @@
 
 
 
-<!-- PAGE CONTENT-->f
+<!-- PAGE CONTENT-->
 
 
 <div id="main-content">
