@@ -16,8 +16,17 @@ const en_Translations = {
         "    <a class=\"module-btn\" href=\"about.php\">Learn More</a>\n" +
         "    <br>",
 
+    "0-sequest-module": "    <img src=\"../webp/tens-thousands.webp\" width=\"250\" loading=\"lazy\" alt=\"eco brik and earth building can make tree benches\">\n" +
+        "    <h4>Plastic Sequestration</h4>\n" +
+        "    <h5>The GEA advocates ecobrick building to sequester plastic.  Only builds that follow best-practices, embody earth principles and use authenticated eco<span class=\"eco-brick\"> </span>bricks sequester plastic.</h5>\n" +
+        "    <br>\n" +
+        "    <a class=\"module-btn\" href=\"sequest.php\">Learn More</a>",
 
-      /*Menu of pages curtain*/
+
+
+
+
+    /*Menu of pages curtain*/
 
 
       "000a-menu-0-main-item": 'FAQs<span class="circle" title="This page is 100% translated to English" style="color:green !important; font-size:12px;padding-right:5px; ">●</span>',
