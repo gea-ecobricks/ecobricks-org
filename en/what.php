@@ -4,10 +4,10 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.82';?>
+<?php $version='2.0';?>
 <?php $page='what';?>
-<title>Ecobrick Essentials</title>
-<?php require_once ("../includes/what2-inc.php");?>
+
+<?php require_once ("../includes/what-inc.php");?>
 <!--TOP PAGE BANNER-->
 
 
@@ -33,11 +33,11 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p data-lang-id="004-lead-page-paragraph">Ecobricking is a simple way to take personal responsibility for our plastic by keeping it out of industry and out of the biosphere.</p>
+			<p data-lang-id="004-lead-page-paragraph">Ecobricking is a way to capture abundantly available used plastic in order to realize great and green projects that keep plastic out of industry and out of the biosphere.</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">An ecobrick is a plastic bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to <a href="sequest.php">sequester plastic</a> and create reusable building blocks.  In this way ecobricks keep plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  But most of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition.php">plastic transition</a>.</p>
+				<p data-lang-id="005-first-page-paragraph">An ecobrick is a plastic bottle packed solid with clean and dry used plastic.  Ecobricks are made manually to a set density to <a href="sequest.php">sequester plastic</a> and create reusable building blocks that can make furniture, gardens and structures.  This keeps plastic from <a href="/why">degrading into toxins and microplastics</a> and out of high-energy, high-emission industrial processes.  Best of all, the hands-on process of ecobricking deepens our awareness of these issues and their regenerative alternatives– what we call <a href="transition.php">plastic transition</a>.</p>
 				<p data-lang-id="006-second-page-paragraph">
 				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="/dms">lego-furniture </a>and <a href="/openspace">open spaces.</a> Later, our ecobrick can also be put to long-term use in <a href="earth.php">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="principles.php">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="plastic.php">Earth's example</a> of securing loose carbon to green the biosphere.</p>
 			</div>	
@@ -80,7 +80,7 @@
         </ul>
 
         <p data-lang-id="019-block-1-p1">
-		Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and the <a href="/gobrik">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
+		Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and the <a href="gobrik.php">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
 
         <p data-lang-id="020-block-1-p2">Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.</p>
         <p data-lang-id="021-block-1-p3">Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
@@ -187,7 +187,7 @@
 
         <p data-lang-id="055-block-3-p1">Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
 
-        <a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn">ℹ️ Make a Cigbrick</a>
+        <a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn" style="margin-top:20px">ℹ️ About Cigbricks</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Learn more about Cibricks.</p>
     </div>
 </div>
@@ -237,7 +237,7 @@
 
         <p data-lang-id="072-block-4-p1">Only ocean ecobricks that meet these standards can be authenticated and count as <a href="sequest.php">sequestered plastic</a>.</p>
 
-        <a class="action-btn" href="/ocean" data-lang-id="073-block-4-btn">ℹ️ Make an Ocean Ecobrick</a>
+        <a class="action-btn" href="/ocean" data-lang-id="073-block-4-btn" style="margin-top:20px">ℹ️ Make an Ocean Ecobrick</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="074-block-4-p2">Check our page all about Ocean Ecobricks.</p>
     </div>
 </div>
