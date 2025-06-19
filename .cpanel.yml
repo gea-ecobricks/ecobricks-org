@@ -15,14 +15,15 @@ deployment:
     # 3) Copy—or overwrite—the master English file into each translated folder
     #    -m 644 keeps sensible permissions (read-only for world)
     #    The install command creates the file if it doesn’t exist.
-    - /usr/bin/install -m 644 en/what.php $WEBROOT/zh/what.php
-    - /usr/bin/install -m 644 en/what.php $WEBROOT/es/what.php
-    - /usr/bin/install -m 644 en/what.php $WEBROOT/fr/what.php
-    - /usr/bin/install -m 644 en/what.php $WEBROOT/id/what.php
-    -
+
+
     - /usr/bin/install -m 644 en/index.php $WEBROOT/zh/index.php
     - /usr/bin/install -m 644 en/index.php $WEBROOT/es/index.php
     - /usr/bin/install -m 644 en/index.php $WEBROOT/fr/index.php
     - /usr/bin/install -m 644 en/index.php $WEBROOT/id/index.php
-    -
+
     - /usr/bin/install -m 644 en/side-modules/ $WEBROOT/zh/side-modules/
+    - /usr/bin/install -m 644 en/side-modules/sequest-module.php $WEBROOT/zh/side-modules/sequest-module.php
+    - /usr/bin/install -m 644 en/side-modules/signup-module.php $WEBROOT/zh/side-modules/signup-module.php
+    - /usr/bin/install -m 644 en/side-modules/transition-module.php $WEBROOT/zh/side-modules/transition-module.php
+    - /usr/bin/install -m 644 en/side-modules/earthen-ethics.php $WEBROOT/zh/side-modules/earthen-ethics.php
