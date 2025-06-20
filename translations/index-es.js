@@ -4,7 +4,7 @@
 const es_Page_Translations = {
 
 
-    "300-featured-content-1-title": "Curso gratuito de junio",
+    "300-featured-content-1-title": "Curso gratuito de julio",
     "301-featured-content-1-subtitle": "Únase a nosotros en un curso introductorio en vivo y gratuito. Aprenda la ciencia, filosofía y técnicas esenciales en nuestro curso este mes 'Plástico, la biosfera y los ecobricks'",
     "302-featured-content-1-button": "↗️ Ver curso en GoBrik",
 

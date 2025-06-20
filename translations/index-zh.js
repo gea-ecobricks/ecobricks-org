@@ -5,9 +5,9 @@ CHINESE TRANSLATION FOR ECOBRICKS.ORG
 -----------------------------------*/
 
 const zh_Page_Translations = {
-    "300-featured-content-1-title": "六月免费课程",
-    "301-featured-content-1-subtitle": "加入我们的免费直播入门课程。通过GEA联合创始人Russell Maier和GEA培训师Paula Apollonia的授课，学习塑料、生态圈与生态砖的科学、",
-    "302-featured-content-1-button": "↗️ 在GoBrik上查看课程",
+    "300-featured-content-1-title": "七月免费课程",
+    "301-featured-content-1-subtitle": "加入我们的免费直播入门课程。在Zoom活动'塑料、生物圈与生态砖'中，学习相关科学原理、哲学理念和关键技术",
+    "302-featured-content-1-button": "↗️ 在GoBrik上查看课程"
 
     "300-featured-content-3-title": "塑料的星球故事",
     "301-featured-content-3-subtitle": "塑料到底从哪里来？",
