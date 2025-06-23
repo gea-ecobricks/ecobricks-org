@@ -20,6 +20,6 @@ deployment:
 
     # 4) Copy side-modules (individual files)
     - /usr/bin/install -m 644 en/side-modules/sequest-module.php $WEBROOT/zh/side-modules/sequest-module.php
-    - /usr/bin/install -m 644 en/side-modules/signup-module.php $WEBROOT/zh/side-modules/signup-module.php
+    - /usr/bin/install -m 644 en/side-modules/signup-now.php $WEBROOT/zh/side-modules/signup-now.php
     - /usr/bin/install -m 644 en/side-modules/transition-module.php $WEBROOT/zh/side-modules/transition-module.php
     - /usr/bin/install -m 644 en/side-modules/earthen-ethics.php $WEBROOT/zh/side-modules/earthen-ethics.php
