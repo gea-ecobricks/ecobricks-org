@@ -5,25 +5,3 @@ deployment:
     # 1) Define where the live site lives
     - export WEBROOT=/home/ecobricks/public_html
 
-    # 2) Make sure the zh, es, fr, and id directories exist
-    - /bin/mkdir -p $WEBROOT/zh/side-modules
-    - /bin/mkdir -p $WEBROOT/es
-    - /bin/mkdir -p $WEBROOT/fr
-    - /bin/mkdir -p $WEBROOT/id
-
-    # 3) Copy master English files into each translated folder
-    - /usr/bin/install -m 644 en/what.php $WEBROOT/zh/what.php
-    - /usr/bin/install -m 644 en/what.php $WEBROOT/es/what.php
-    - /usr/bin/install -m 644 en/what.php $WEBROOT/fr/what.php
-    - /usr/bin/install -m 644 en/what.php $WEBROOT/id/what.php
-
-    - /usr/bin/install -m 644 en/index.php $WEBROOT/zh/index.php
-    - /usr/bin/install -m 644 en/index.php $WEBROOT/es/index.php
-    - /usr/bin/install -m 644 en/index.php $WEBROOT/fr/index.php
-    - /usr/bin/install -m 644 en/index.php $WEBROOT/id/index.php
-
-    # 4) Copy side-modules (individual files)
-    - /usr/bin/install -m 644 en/side-modules/sequest-module.php $WEBROOT/zh/side-modules/sequest-module.php
-    - /usr/bin/install -m 644 en/side-modules/signup-module.php $WEBROOT/zh/side-modules/signup-module.php
-    - /usr/bin/install -m 644 en/side-modules/transition-module.php $WEBROOT/zh/side-modules/transition-module.php
-    - /usr/bin/install -m 644 en/side-modules/earthen-ethics.php $WEBROOT/zh/side-modules/earthen-ethics.php
