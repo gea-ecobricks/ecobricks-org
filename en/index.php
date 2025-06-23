@@ -17,18 +17,29 @@ include '../ecobricks_env.php';
 
         <!-- FEATURED HEADLINE CONTENT-->
 
-    <div id="slider-content-1" class="slider-slide" >
+    <div id="slider-content-2" class="slider-slide" >
          <div class="featured-content-shaded-box">
              <div class="featured-content-text">
-                 <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Free July Course</div>
-                 <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
+                 <div class="featured-content-title" data-lang-id="300-featured-content-2-title">Free July Course</div>
+                 <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the indigenous concept of Ayyew.  Learn about it on <a href="ayyew.php">our site</a> or join the free course June 29th.</div>
 
-                 <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ View Course on GoBrik</a>
+                 <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ View Course on GoBrik</a>
              </div>
          </div>
     </div>
 
 <!--
+
+     <div id="slider-content-1" class="slider-slide" >
+             <div class="featured-content-shaded-box">
+                 <div class="featured-content-text">
+                     <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Free July Course</div>
+                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
+
+                     <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ View Course on GoBrik</a>
+                 </div>
+             </div>
+        </div>
 
 
                 <div id="slider-content-3" class="slider-slide" >

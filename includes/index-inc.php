@@ -148,6 +148,10 @@ margin: auto 10px auto 18px;
     background-image: url('../photos/photo1-mobile.webp?v=3');
   }
 
+    #featured-content-2 {
+      background-image: url('../photos/photo2-mobile.webp?v=1');
+    }
+
   #featured-content-3 {
     background-image: url('../photos/photo3-mobile.webp?v=1');
   }
@@ -165,6 +169,11 @@ margin: auto 10px auto 18px;
   #slider-content-1 {
     background-image: url('../photos/photo1-tablet.webp?v=3');
   }
+
+  #slider-content-2 {
+    background-image: url('../photos/photo2-tablet.webp?v=3');
+  }
+
 
   #slider-content-3 {
     background-image: url('../photos/photo3-tablet.webp?v=3');
@@ -189,6 +198,10 @@ margin: auto 10px auto 18px;
   #slider-content-1 {
     background-image: url('../photos/photo1-desktop.webp?v=3');
   }
+
+    #slider-content-2 {
+      background-image: url('../photos/photo2-desktop.webp?v=3');
+    }
 
     #slider-content-3 {
       background-image: url('../photos/photo3-desktop.webp?v=3');
