@@ -322,7 +322,7 @@
 
 <p data-lang-id="059-page-paragraph" style="font-size: 1.2">Earth’s example of short-term carbon cycling and long-term carbon storage can be applied to our plastic.  The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.</p>
 
-<p data-lang-id="060-page-paragraph">Learn more…</p>
+<p data-lang-id="060-learn-more">Learn more…</p>
 <br>
 
         <a class="action-btn" href="sequest.php" data-lang-id="061-button">🍃 Plastic Sequestration</a>

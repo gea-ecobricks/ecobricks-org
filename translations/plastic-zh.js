@@ -93,5 +93,16 @@ const zh_Page_Translations = {
 
     "039d-photo-caption": "为生态砖分拣、清洁与干燥好的塑料。",
     "041b-photo-caption": "地球升起——从月球拍摄的第一张地球照片。从行星视角看自己与塑料至关重要。",
-    "052b-photo-caption": "菲律宾吕宋岛北部的伊戈洛特人班内梯田。"
+    "052b-photo-caption": "菲律宾吕宋岛北部的伊戈洛特人班内梯田。",
+
+
+    "057-header-paragraph": "塑料封存",
+    "058-page-paragraph": "借鉴地球与原住民的榜样，将塑料作为生态贡献来管理的前进方向已经清晰可见。",
+    "059-page-paragraph": "地球短期碳循环与长期碳储存的示范可以应用于我们的塑料。GEA 已经开发出塑料封存的概念与标准，作为再生性的生态服务方式。",
+    "060-learn-more": "了解更多…",
+    "061-button": "🍃 塑料封存",
+    "062-modules-info": "塑料封存标准",
+    "063-page-paragraph": "我们的《塑料的漫长故事》基于《<a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">塑料的星际故事</a>》——摘自《Ayyew论纲：Terrestre伦理学理论》第四章，作者 Banayan Angway 和 Russell Maier。请参阅此原始版本以深入了解塑料的故事！原版中包含丰富的科学与社会注释。"
+
+
 }

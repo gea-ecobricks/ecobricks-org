@@ -119,25 +119,10 @@ const en_Page_Translations = {
         "057-header-paragraph": "Plastic Sequestration",
         "058-page-paragraph": "Learning from the example of Earth and indigenous peoples, the way forward to manage our plastic as an ecological contribution is clear.",
         "059-page-paragraph": "Earth’s example of short-term carbon cycling and long-term carbon storage can be applied to our plastic. The GEA has developed the concept and criteria of plastic sequestration as means of regenerative ecological service.",
-        "060-page-paragraph": "Learn more…",
+        "060-learn-more": "Learn more…",
         "061-button": "🍃 Plastic Sequestration",
         "062-modules-info": "The criteria of plastic sequestration",
         "063-page-paragraph": "Our account of Plastic's Long Story is based on <a href=\"https://book.earthen.io/en/stellar.html\" target=\"_blank\">Plastic's Interstellar Story</a> from the <i>Tractatus Ayyew: A theory of Earthen Ethics</i>, Chapter 4, by Banayan Angway and Russell Maier. See this original account to go much deeper into plastic's story! The original version's scientific and social references are extensively footnoted."
-    
-    
-
-    
-    
-
-
-    
-
-
-
-
-
-
-
     
 
 
