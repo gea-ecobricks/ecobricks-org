@@ -2,8 +2,8 @@
 <HTML lang="en"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='2.02';?>
+<?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
+<?php $version='3.00';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
