@@ -148,11 +148,11 @@ margin: auto 10px auto 18px;
     background-image: url('../photos/photo1-mobile.webp?v=3');
   }
 
-    #featured-content-2 {
+    #slider-content-2 {
       background-image: url('../photos/photo2-mobile.webp?v=2');
     }
 
-  #featured-content-3 {
+  #slider-content-3 {
     background-image: url('../photos/photo3-mobile.webp?v=1');
   }
 
