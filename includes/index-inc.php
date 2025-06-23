@@ -149,7 +149,7 @@ margin: auto 10px auto 18px;
   }
 
     #featured-content-2 {
-      background-image: url('../photos/photo2-mobile.webp?v=1');
+      background-image: url('../photos/photo2-mobile.webp?v=2');
     }
 
   #featured-content-3 {
