@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='3.00';?>
+<?php $version='3.01';?>
 <?php $page='plastic';?>
 
 <title>The Long Story of Plastic</title>
