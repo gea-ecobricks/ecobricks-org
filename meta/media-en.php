@@ -18,4 +18,14 @@
   	<meta property="og:image:alt"     content="An earth and ecobrick community center construction"/>
 	  <meta property="og:locale" content="en_GB" />
 
-	
+		  <meta name="author" content="Ecobricks.org">
+
+      <meta property="og:type" content="article">
+     <meta property="og:site_name" content="Ecobricks.org">
+     <meta property="article:publisher" content="https://web.facebook.com/ecobricks.org">
+    <meta property="article:modified_time" content="2025-06-19T09:14:13+00:00">
+     <meta property="og:image:type" content="image/png">
+     <meta name="author" content="Global Ecobrick Alliance">
+     <meta name="twitter:card" content="summary">
+     <meta name="twitter:label1" content="Est. reading time">
+     <meta name="twitter:data1" content="6 minutes">

@@ -12,6 +12,9 @@ deployment:
     - /usr/bin/install -m 644 en/what.php $WEBROOT/id/what.php
 
     - /usr/bin/install -m 644 en/plastic.php $WEBROOT/zh/plastic.php
+    - /usr/bin/install -m 644 en/plastic.php $WEBROOT/es/plastic.php
+    - /usr/bin/install -m 644 en/plastic.php $WEBROOT/fr/plastic.php
+    - /usr/bin/install -m 644 en/plastic.php $WEBROOT/id/plastic.php
 
     - /usr/bin/install -m 644 en/media.php $WEBROOT/zh/media.php
 
