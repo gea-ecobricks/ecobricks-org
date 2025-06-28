@@ -210,7 +210,7 @@ const en_Translations = {
   "421-conclusion-data": "All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to \"The Global Ecobrick Alliance, ecobricks.org\" using the same license.",
   "422-conclusion-copyright": "The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2024 by the Global Ecobrick Alliance.",
 
-/*MODULES*/
+/*SIDE MODULES*/
 
 
 
