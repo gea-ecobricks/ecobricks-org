@@ -163,7 +163,7 @@
         <br>
         <p data-lang-id="051_Recycling"><b>Recycling</b></p>
         <p data-lang-id="052_Recycling_Carbon_Emissions">Recycling plastic has various carbon emissions (transportation, reprocessing, etc.)</p>
-        <span title="GEA Certified"><h5 data-lang-id="053_1kg_Recycled_Plastic">1kg recycled plastic = 0.689 Kg of CO2</h5></span>
+        <p title="GEA Certified" data-lang-id="053_1kg_Recycled_Plastic" style="font-size: 1.3; font-weight:650;font-family:'Mulish',sans-serif;">1kg recycled plastic = 0.689 Kg of CO2</p>
         <p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
         <p data-lang-id="054_Incineration"><b>Incineration</b></p>
         <p data-lang-id="055_Incineration_Carbon_Dioxide">When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.</p>
