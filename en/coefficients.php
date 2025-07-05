@@ -182,7 +182,7 @@
         <span title="GEA 2020 value"><h5 data-lang-id="064_1Kg_Plastic_Data_Pending">1 Kg plastic = Data pending</h5></span><br>
         <p data-lang-id="065_Plastic_Sequestration-x"><b>Ecobricked Plastic</b></p>
         <p data-lang-id="066_Plastic_Sequestration_Impact-x">Plastic that is sequestered into an ecobrick is kept out of industrial processing (i.e recycling, incineration and landfilling) has a substractive CO2e impact of:</p>
-        <span title="GEA 2020 value"><h5 data-lang-id="067_1_AES_Plastic_CO2e-x">1kg of Ecobricked Plastic = 6.05 CO2e</h5></span><br>
+        <p data-lang-id="067_1_AES_Plastic_CO2e-x">1kg of Ecobricked Plastic = 6.05 CO2e</p><br>
         <!--<img src="https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png" width="90%">-->
     </div>
 </div>
