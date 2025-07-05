@@ -1,12 +1,10 @@
+<?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
+<?php $version='2.0';?>
+<?php $page='coefficients';?>
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="<?php $lang ;?>">
 <HEAD>
 <META charset="UTF-8">
-<?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.1';?>
-<?php $page='media';?>
-
-<title>Ecobrick Media Kit</title>
 
 <?php require_once ("../includes/media-inc.php");?>
 	

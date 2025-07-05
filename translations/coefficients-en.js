@@ -15,7 +15,7 @@ const en_Page_Translations = {
     "003-splash-image": "<img src=\"../webp/gea-perspective-400px.webp\" style=\"width: 75%;\">",
     "006-lead-paragraph": "The Global Ecobrick Alliance maintains and publish coefficients for plastic consumption, production and CO2 equivalency for enterprises who are tracking and disclosing their plastic impacts.",
     "007-page-paragraph-1": "In 2021 the GEA began a compendium of plastic generation coefficients based on the extensive experience of our 400 trainers working with plastic around the world.",
-    "008-page-paragraph-2": "As of early 2024, this page and our listing here are still in development with the aim of formalizing our coefficients for the end of the year.",
+    "008-page-paragraph-2": 'This page and our listing here are still in development as our research and that of others unfolds.  Special thanks to <a href=\"https://www.no-burn.org/\">GAIA</a> for their input on our incineration coeffients calculations.',
 
         "009-additive-coefficients-title": "Additive Plastic Coefficients",
         "010-additive-coefficients-subtitle": "Impacts that add plastic to the biosphere.",
