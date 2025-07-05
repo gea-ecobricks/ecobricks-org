@@ -178,11 +178,11 @@
         <p data-lang-id="060_One-time_CO2_Impact"><b>One-time CO2 impact of plastic</b></p>
         <p data-lang-id="061_One-time_Impact_Calculation">The GEA has calculated the one time impact of consuming 1 kg of consumed plastic.</p>
         <p title="GEA 2020 value" data-lang-id="062_1Kg_Plastic_CO2_Impact" style="font-size: 1.3; font-weight:650;font-family:'Mulish',sans-serif;">1 Kg plastic = 6.06kg CO2</p><br>
-        <p data-lang-id="063_Net_Impact_Calculation">The GEA has calculated the net impact of 1 kg of consumed plastic over time.</p>
-        <span title="GEA 2020 value"><h5 data-lang-id="064_1Kg_Plastic_Data_Pending">1 Kg plastic = Data pending</h5></span><br>
+        <!--<p data-lang-id="063_Net_Impact_Calculation">The GEA has calculated the net impact of 1 kg of consumed plastic over time.</p>
+                    <span title="GEA 2020 value"><h5 data-lang-id="064_1Kg_Plastic_Data_Pending">1 Kg plastic = Data pending</h5></span><br>-->
         <p data-lang-id="065_Plastic_Sequestration-x"><b>Ecobricked Plastic</b></p>
         <p data-lang-id="066_Plastic_Sequestration_Impact-x">Plastic that is sequestered into an ecobrick is kept out of industrial processing (i.e recycling, incineration and landfilling) has a substractive CO2e impact of:</p>
-        <p data-lang-id="067_1_AES_Plastic_CO2e-x">1kg of Ecobricked Plastic = 6.05 CO2e</p><br>
+        <p data-lang-id="067_1_AES_Plastic_CO2e-x" style="font-size: 1.3; font-weight:650;font-family:'Mulish',sans-serif;">1kg of Ecobricked Plastic = 6.05 CO2e</p><br>
         <!--<img src="https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png" width="90%">-->
     </div>
 </div>
