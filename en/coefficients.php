@@ -183,7 +183,7 @@
         <p data-lang-id="065_Plastic_Sequestration-x"><b>Ecobricked Plastic</b></p>
         <p data-lang-id="066_Plastic_Sequestration_Impact-x">Plastic that is sequestered into an ecobrick is kept out of industrial processing (i.e recycling, incineration and landfilling) has a substractive CO2e impact of:</p>
         <span title="GEA 2020 value"><h5 data-lang-id="067_1_AES_Plastic_CO2e-x">1kg of Ecobricked Plastic = 6.05 CO2e</h5></span><br>
-        <img src="https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png" width="90%">
+        <!--<img src="https://miro.medium.com/max/500/1*p4H-oNd9oUZvmJD4VjcERg.png" width="90%">-->
     </div>
 </div>
 
@@ -193,7 +193,7 @@
 <br><br>
 <div class="page-paragraph">
     <h4 data-lang-id="068_see-how-we-do-t">See how we do it</h4>
-    <p data-lang-id="069_new">The Global Ecobrick Alliance tracks and publishes its CO2e and plastic impacts.  See how we do it...</p><br>
+    <p data-lang-id="069_new">For more details on the calculations and scientific research behind our coefficients, see the footnotes of our own reports.  Each year, the Global Ecobrick Alliance tracks and publishes its CO2e and plastic impacts.  See how we do it...</p><br>
     <a class="action-btn" href="regenreports.php" data-lang-id="071_new">🍃 GEA Regen Reports</a>
 <!--    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="072_Learn_More">Learn more about our free program & platform.</p>-->
 </div>
