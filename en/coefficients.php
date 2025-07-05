@@ -167,17 +167,17 @@
         <p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
         <p data-lang-id="054_Incineration"><b>Incineration</b></p>
         <p data-lang-id="055_Incineration_Carbon_Dioxide">When plastic is burned it's carbon molecules join with oxygen molecules to generate carbon dioxide.</p>
-        <span title="GEA 2020 value"><h5 data-lang-id="056_1kg_Plastic_Incineration">1 kg plastic = 2.97 Kg CO2</h5></span>
+        <p title="GEA 2020 value" data-lang-id="056_1kg_Plastic_Incineration" style="font-size: 1.3; font-weight:650;font-family:'Mulish',sans-serif;">1 kg plastic = 2.97 Kg CO2</h5></span>
         <p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
-        <p data-lang-id="057_Landfilling"><b>Landfilling</b></p>
+        <p data-lang-id="057_Landfilling-x"><b>Land-filling</b></p>
         <p data-lang-id="058_Landfilling_Impact">Plastic that is not recycled, incinerated or sequestered ends up in the earth, air and land.</p>
-        <span title="GEA 2020 value"><h5 data-lang-id="059_1Kg_Plastic_Landfilling">1 Kg plastic = 0.065kg</h5></span>
+        <p title="GEA 2020 value" data-lang-id="059_1Kg_Plastic_Landfilling" style="font-size: 1.3; font-weight:650;font-family:'Mulish',sans-serif;">1 Kg plastic = 0.065kg</p>
         <p style="font-size: 0.85em; margin-top:20px;"><a href="https://www.ciel.org/wp-content/uploads/2019/05/Plastic-and-Climate-FINAL-2019.pdf" target="_blank">Reference:</a> Plastic & Climate: The Hidden Costs of a Plastic Planet, Center for International Environmental Law p.59 (offsets not counted)</p><br>
         <hr>
         <br>
         <p data-lang-id="060_One-time_CO2_Impact"><b>One-time CO2 impact of plastic</b></p>
         <p data-lang-id="061_One-time_Impact_Calculation">The GEA has calculated the one time impact of consuming 1 kg of consumed plastic.</p>
-        <span title="GEA 2020 value"><h5 data-lang-id="062_1Kg_Plastic_CO2_Impact">1 Kg plastic = 6.06kg CO2</h5></span><br>
+        <p title="GEA 2020 value" data-lang-id="062_1Kg_Plastic_CO2_Impact" style="font-size: 1.3; font-weight:650;font-family:'Mulish',sans-serif;">1 Kg plastic = 6.06kg CO2</p><br>
         <p data-lang-id="063_Net_Impact_Calculation">The GEA has calculated the net impact of 1 kg of consumed plastic over time.</p>
         <span title="GEA 2020 value"><h5 data-lang-id="064_1Kg_Plastic_Data_Pending">1 Kg plastic = Data pending</h5></span><br>
         <p data-lang-id="065_Plastic_Sequestration-x"><b>Ecobricked Plastic</b></p>
