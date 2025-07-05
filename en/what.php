@@ -1,11 +1,13 @@
 
-<!DOCTYPE html>
-<HTML lang="en"> 
-<HEAD>
-<META charset="UTF-8">
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
 <?php $version='2.1';?>
 <?php $page='what';?>
+
+<!DOCTYPE html>
+<HTML lang="<?php $lang ;?>">
+<HEAD>
+<META charset="UTF-8">
+
 
 <?php require_once ("../includes/what-inc.php");?>
 <!--TOP PAGE BANNER-->
