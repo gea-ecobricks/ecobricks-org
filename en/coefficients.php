@@ -192,9 +192,9 @@
 
 <br><br>
 <div class="page-paragraph">
-    <h4 data-lang-id="068_Regen_Reporting">See how we do it</h4>
-    <p data-lang-id="069_new">The Global Ecobrick Alliance tracks and publishes its CO2e and plastic impacts.  See how we do it</p><br>
-    <a class="action-btn" href="regenreports.php" data-lang-id="071_new">🚀 GEA Acccounting</a>
+    <h4 data-lang-id="068_see-how-we-do-t">See how we do it</h4>
+    <p data-lang-id="069_new">The Global Ecobrick Alliance tracks and publishes its CO2e and plastic impacts.  See how we do it...</p><br>
+    <a class="action-btn" href="regenreports.php" data-lang-id="071_new">🍃 GEA Regen Reports</a>
 <!--    <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="072_Learn_More">Learn more about our free program & platform.</p>-->
 </div>
 
@@ -207,7 +207,7 @@
 
 		
 	
-        <?php require_once ("side-modules/eco-accounting.php");?>
+        <!--<?php require_once ("side-modules/eco-accounting.php");?>-->
 
 		<?php require_once ("side-modules/eco-accounting-principle.php");?>
 
