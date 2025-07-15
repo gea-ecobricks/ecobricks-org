@@ -58,6 +58,9 @@
 						<p data-lang-id="009-block-1-paragraph1">Like normal ecobricks, OEBs are a collaboration powered technology, grounded in <a href="/principles">regenerative principles.</a></p>
 						<p data-lang-id="010-block-1-paragraph2">The primary purpose of ocean ecobricks is <a href ="/sequest">plastic sequestration</a>— securing potentially toxic plastic out of the biosphere.   Once made, ocean ecobricks can be used as reusable building blocks.  Earth building methods further secure the contained plastic into long term constructions.</p>
 						<p data-lang-id="011-block-1-paragraph3"><a href="/sequest">Learn more about plastic sequestration</a></p>
+                        <div class="side2">
+                            <a href"../photos/plastic-sequestration-ocean-ecobrick.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
+                        </div>
 	                </div>
 				</div>
 		    </section>
@@ -115,7 +118,7 @@
                         <button onclick="toggleAccordion(4)" class="block-toggle" id="block-toggle-show4" aria-label="Toggle Section Four">+</button>
                     </div>
                     <div id="preclosed4">
-                        <img src="../wp-content/uploads/2021/06/ocean-ecobrick-295x300.jpg" style="width:65%" loading ="lazy">
+                        <img src="../photos/ocean-ecobrick.jpg" style="width:65%" loading ="lazy">
                         <div class="side2">
                             <p data-lang-id="024-block-4-paragraph-1">Over 10% of the plastic in the oceans is ‘ghost gear’– that’s over <a href="https://static1.squarespace.com/static/5b987b8689c172e29293593f/t/5bd6e9e00d9297316b69bc38/1540811271735/GGGI+who+we+are.NOBLEED.PDF">640,000 tons of fishing nets and equipement.</a> This plastic not only degrades into micro-plastics and toxins but causes a persistent dangers to marine life.   Ocean ecobricks are a great place to put fishing nets and gear found on the beach!</p>
                             <p data-lang-id="025-block-4-paragraph-2">By packing them into an ocean ecobrick we keep them from causing all sorts of problems for ecologies and marine life.</p>
@@ -176,7 +179,7 @@
                     <div id="preclosed7">
                         <p data-lang-id="038-block-7-paragraph-1">Normal ecobricks are the best way to deal with our daily plastic. Compared to <a href="/what">regular ecobricks</a>, Ocean Ecobricks are more wasteful, fragile, and much less elegant than regular Ecobricks.  They are not ideal for making <a href ="/modules">milstein modules</a> or lego– mainly for <a href="/earth">earth and ecobrick constructions.</a> Nonetheless, Ocean Ecobricks remain <a href="/cradle-to-cradle/">cradle to cradle.</a></p>
                         <div class="side2">
-                            <img src="../wp-content/uploads/2020/01/Circle-earth-Bench-300px-wide-212x300.png" style="width:65%" loading ="lazy">
+                            <img src="../pngs/Just-the-ocean-ecobrick.png" style="width:65%" loading ="lazy">
                         </div>
                         <p data-lang-id="039-block-7-paragraph-2">In other words, making an ecobrick by packing your own clean and dry plastic into an uncut bottle is ideal! </p>
                         <p data-lang-id="040-block-7-paragraph-3">Ocean ecobricks miss out on the most value aspect of ecobricking:  that of taking personal responsibility for our plastic.</p>
@@ -213,70 +216,70 @@
 			</div>
             <div id="three-column-gal-srs1" class="three-column-gal">
                 <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small1.png', 'Soil test')">
-                    <img src="../photos/start_real_small1.png" alt="Soil test" loading="lazy">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples1.jpg', 'Soil test')">
+                    <img src="../photos/ocean-examples1.jpg" alt="Soil test" loading="lazy">
                 </div>
 
                 <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small2.png', 'Find a smooth, flat surface (i.e large tile)')">
-                    <img src="../photos/start_real_small2.png" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples2.jpeg', 'Find a smooth, flat surface (i.e large tile)')">
+                    <img src="../photos/ocean-examples2.jpeg" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
                 </div>
 
                 <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small3.png', 'Put on some oil')">
-                    <img src="../photos/start_real_small3.png" alt="Put on some oil">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples3.jpeg', 'Put on some oil')">
+                    <img src="../photos/ocean-examples3.jpeg" alt="Put on some oil">
                 </div>
             </div>
             <br>
             <div id="three-column-gal-srs2" class="three-column-gal">
 
                 <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small4.png', 'Mix a small batch of 1:6 cement')">
-                    <img src="../photos/start_real_small4.png" alt="Mix a small batch of 1:6 cement">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples4.png', 'Mix a small batch of 1:6 cement')">
+                    <img src="../photos/ocean-examples4.png" alt="Mix a small batch of 1:6 cement">
                 </div>
 
                 <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small5.png', 'Lay out your cement foundation/top')">
-                    <img src="../photos/start_real_small5.png" alt="Lay out your cement foundation/top">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples5.jpg', 'Lay out your cement foundation/top')">
+                    <img src="../photos/ocean-examples5.jpg" alt="Lay out your cement foundation/top">
                 </div>
 
                 <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small6.png', 'Create a hole for the ecobrick')">
-                    <img src="../photos/start_real_small6.png" alt="Create a hole for the ecobrick">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples6.jpg', 'Create a hole for the ecobrick')">
+                    <img src="../photos/ocean-examples6.jpg" alt="Create a hole for the ecobrick">
                 </div>
             </div>
             <br>
             <div id="three-column-gal-srs3" class="three-column-gal">
                 <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small7.png', 'Add first ecobrick')">
-                    <img src="../photos/start_real_small7.png" alt="Add first ecobrick">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples7.jpg', 'Add first ecobrick')">
+                    <img src="../photos/ocean-examples7.jpg" alt="Add first ecobrick">
                 </div>
 
                 <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small8.png', 'Continue adding ecobricks')">
-                    <img src="../photos/start_real_small8.png" alt="Continue adding ecobricks">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples8.jpg', 'Continue adding ecobricks')">
+                    <img src="../photos/ocean-examples8.jpg" alt="Continue adding ecobricks">
                 </div>
 
                 <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small9.png', 'Add all bottles, let dry.')">
-                    <img src="../photos/start_real_small9.png" alt="Add all bottles, let dry.">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples9.jpg', 'Add all bottles, let dry.')">
+                    <img src="../photos/ocean-examples9.jpg" alt="Add all bottles, let dry.">
                 </div>
             </div>
             <br>
             <div id="three-column-gal-srs4" class="three-column-gal">
                 <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small10.jpg', 'Mix your cob mixture to your ratio.')">
-                    <img src="../photos/start_real_small10.jpg" alt="Mix your cob mixture to your ratio.">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples10.jpg', 'Mix your cob mixture to your ratio.')">
+                    <img src="../photos/ocean-examples10.jpg" alt="Mix your cob mixture to your ratio.">
                 </div>
                     
                 <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small11.png', 'Layer cob on top of dry cement')">
-                    <img src="../photos/start_real_small11.png" alt="Layer cob on top of dry cement">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples11.jpg', 'Layer cob on top of dry cement')">
+                    <img src="../photos/ocean-examples11.jpg" alt="Layer cob on top of dry cement">
                 </div>
                     
                 <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small12.png', 'Finish with a thin layer of cob/cement')">
-                    <img src="../photos/start_real_small12.png" alt="Finish with a thin layer of cob/cement">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples12.png', 'Finish with a thin layer of cob/cement')">
+                    <img src="../photos/ocean-examples12.jpg" alt="Finish with a thin layer of cob/cement">
                 </div>
             </div>
             <br>
@@ -337,4 +340,3 @@
 </div>
 </body>
 </html>
-
