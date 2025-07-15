@@ -179,7 +179,7 @@
                     <div id="preclosed7">
                         <p data-lang-id="038-block-7-paragraph-1">Normal ecobricks are the best way to deal with our daily plastic. Compared to <a href="/what">regular ecobricks</a>, Ocean Ecobricks are more wasteful, fragile, and much less elegant than regular Ecobricks.  They are not ideal for making <a href ="/modules">milstein modules</a> or lego– mainly for <a href="/earth">earth and ecobrick constructions.</a> Nonetheless, Ocean Ecobricks remain <a href="/cradle-to-cradle/">cradle to cradle.</a></p>
                         <div class="side2">
-                            <img src="../pngs/Just-the-ocean-ecobrick.png" style="width:65%" loading ="lazy">
+                            <img src="../pngs/justandecobrick.png" style="width:65%" loading ="lazy">
                         </div>
                         <p data-lang-id="039-block-7-paragraph-2">In other words, making an ecobrick by packing your own clean and dry plastic into an uncut bottle is ideal! </p>
                         <p data-lang-id="040-block-7-paragraph-3">Ocean ecobricks miss out on the most value aspect of ecobricking:  that of taking personal responsibility for our plastic.</p>
