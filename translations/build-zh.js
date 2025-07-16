@@ -87,4 +87,3 @@ const zh_Page_Translations = {
     "082-ecojoiner-title-text": "6. Ecojoiner 连接件",
     "083-ecojoiner-subtitle-text": "一种革命性的新方式，用于连接瓶子和建造。预计将在 1024 年中旬推出。",
 };
-};
