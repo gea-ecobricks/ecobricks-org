@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='1.644';?>
+<?php $version='2.0';?>
 <?php $page='build';?>
 
-
-<?php require_once ("../includes/build2-inc.php");?>
+<?php require_once ("../includes/build-inc.php");?>
  
  
 <!--TOP PAGE BANNER-->
@@ -23,8 +21,6 @@
     </div>	    
 </div>
 <div id="splash-bar"></div>
-<!--<div id="header-bar2"></div>-->
-
 
 <!-- PAGE CONTENT-->
 
