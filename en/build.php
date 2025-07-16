@@ -2,7 +2,7 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
 <HEAD>
 <META charset="UTF-8">
-<?php $version='2.01';?>
+<?php $version='2.02';?>
 <?php $page='build';?>
 
 <?php require_once ("../includes/build-inc.php");?>
