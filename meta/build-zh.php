@@ -8,7 +8,7 @@
 
 <!-- 用于社交分享的 Facebook Open Graph 标签 -->
 
-<meta property="og:url"           content="https://ecobricks.org/en/build.php">
+<meta property="og:url"           content="https://ecobricks.org/zh/build.php">
 <meta property="og:type"          content="website">
 <meta property="og:title"         content="用生态砖建造 | Ecobricks.org">
 <meta property="og:description"   content="你可以用生态砖建造什么？这是推荐建筑应用的一览。">

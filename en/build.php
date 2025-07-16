@@ -2,7 +2,7 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
 <HEAD>
 <META charset="UTF-8">
-<?php $version='2.0';?>
+<?php $version='2.01';?>
 <?php $page='build';?>
 
 <?php require_once ("../includes/build-inc.php");?>
@@ -283,7 +283,7 @@
 </div>
 
 
-<!-- ECOJOINERS -->
+<!-- ECOJOINERS
 
 
 <div class="reg-content-block" id="block9">
@@ -302,7 +302,7 @@
         <p>Coming in mid-2024.</p>
         <br><br>
     </div>
-</div>
+</div>-->
 
 
 <!-- MAINTENANCE -->
