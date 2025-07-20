@@ -1,110 +1,47 @@
-
-
-
-
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="en">
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.991';?>
+<?php $version='1.81';?>
 <?php $page='ecojoiners';?>
-
-
+<title>Introducing Ecojoiners</title>
 <?php require_once ("../includes/ecojoiners-inc.php");?>
+<!--TOP PAGE BANNER-->
 
-
-<div class="splash-content-block"></div>
+<div class="splash-content-block">
+    <div class="splash-box">
+        <div class="splash-heading" data-lang-id="001-splash-title">Introducing Ecojoiners</div>
+        <div class="splash-sub" data-lang-id="002-splash-subtitle">Use bamboo to build furniture, structures and more with your ecobricks</div>
+    </div>
+    <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/eb-blue-no-clouds.svg" style="width: 95%" alt="Ecojoiners connect ecobricks"></div>
+</div>
 <div id="splash-bar"></div>
 
- <!-- PAGE CONTENT-->
-
- <div id="form-submission-box">
-    <div class="form-container">
-
-
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.2.1/build/spline-viewer.js"></script>
-
-<div id="viewer" style="padding: 20px;
-  background: #2d2e32;
-  border-radius: 20px;
-  margin-bottom: 15px;
-  height: 500px;
-  display:flex; flex-flow:column;"><div style="height:100%">
-<spline-viewer url="https://prod.spline.design/IHSMbi56bMqgyJxV/scene.splinecode"></spline-viewer>
-
-
-</div>
-<!-- 
-<iframe src='https://my.spline.design/joinersjoining-652f02d873b295b9fdfe5388c4756aba/' frameborder='0' width='100%' height='100%' style="height:100%"></iframe>
- -->
-<div id="spline-instructions" style="font-size:smaller; color:grey;font-family:'Mulish',sans-serif;width: 100%; text-align:left;margin-top: auto;
-  margin-bottom: 5px;">Double touch or drag to interact<br></div>
-</div>
-
-        <div class="splash-form-content-block">  
-            <div class="splash-box">
-        
-                <h1 class="splash-heading" data-lang-id="001-splash-title" style="text-align: center;">Introducing Ecojoiners</h1>
+<!-- PAGE CONTENT-->
+<div id="main-content">
+    <div class="row">
+        <div class="main">
+            <div class="lead-page-paragraph">
+                <p data-lang-id="004-lead-page-paragraph">Ecojoiners are bamboo connectors that lock ecobricks together into sturdy cubic matrices, letting you create durable furniture and structures.</p>
             </div>
-            <!-- <div class="splash-image" data-lang-id="003-splash-image-alt">
-                <img src="../svgs/building-methods.svg" style="width:65%" alt="There are many ways to build with ecobricks">
-            </div> -->
+            <div class="page-paragraph">
+                <p data-lang-id="005-first-page-paragraph">Like lego, ecojoiners open unlimited regenerative building possibilities. This page is under construction—plans and guides coming soon.</p>
+            </div>
         </div>
 
-  
-        <h3 data-lang-id="002-form-description" style="text-align: center;">A revolutionary new way to connect ecobricks and construct versatile, practical and stunning geometric matrixes using bottles and reclaimed plastic.</h3>
-
-            <div class="step-graphic" style="margin:auto;display: flex;
-  justify-content: center;">
-            <img src="../webp/ecojoiners-examples.webp" style="width:90%;">
+        <div class="side">
+<?php require_once ("side-modules/good-use.php");?>
+<?php require_once ("side-modules/sequest-module.php");?>
+<?php require_once ("side-modules/signup-now.php");?>
+<?php require_once ("side-modules/transition-module.php");?>
+<?php require_once ("side-modules/earthen-ethics.php");?>
         </div>
-
-        
-
-        <p class="lead-page-paragraph" style="text-align: center;">Remolded from locally-sourced, reclaimed-plastic, ecoJoiners enable ecobricks to be interconnected in a wide variety of ways.  Simple ecoJoiners (green) enable  vertices of any length and are held fast with sliders (orange) that take advantage of an ecobrick's slight compressibility to lock constructions rigidly in place— all the while ensuring any construction can be easily taken apart and each piece can be used again and again.</p>
-        
-        <div class="step-graphic" style="width:fit-content;margin:auto;margin-top:30px">
-            <img src="../webp/ecojoiner-sphere.webp" style="height:300px;width:300px">
-        </div>
-        
-        <h4 style="text-align: center; color:#2667DC">A world of possibilities await.</h4>
-        <p style="text-align: center;">  Coming soon to ecobricks.org!</p>
-
-        <div class="step-graphic" style="width:fit-content;margin:auto;margin-top:30px">
-            <img src="../logos/ecojoiner-logo.svg" style="height:70px;">
-        </div>
-
-      
-
     </div>
 </div>
 
-
-
-
-
-
-
-
-<br><br>
-</div> <!--closes main-->
-       
-	<!--FOOTER STARTS HERE-->
-
-	<?php require_once ("../footer-2024.php");?>
+<?php require_once ("../footer-2024.php");?>
 
 </div>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var div = document.getElementById("spline-instructions");
-        div.style.display = "none";
-        setTimeout(function() {
-            div.style.display = "block";
-        }, 10000); // 10 seconds
-    });
-</script>
-
-
 </body>
 </html>
