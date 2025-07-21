@@ -17,22 +17,22 @@ include '../ecobricks_env.php';
 
         <!-- FEATURED HEADLINE CONTENT-->
 
-   <!--
+
 
     <div id="slider-content-2" class="slider-slide" >
             <div class="featured-content-shaded-box">
                 <div class="featured-content-text">
-                    <div class="featured-content-title" data-lang-id="300-featured-content-2-title">Free July Course</div>
-                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the indigenous concept of Ayyew.  Learn about it on <a href="ayyew.php" style="color:white">our site</a> or join the free course June 29th.</div>
+                    <div class="featured-content-title" data-lang-id="300-featured-content-2-title">What should green really mean?</div>
+                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the indigenous concept of Ayyew.  This ecological ethos inspires the Earthen ethics that in turns guides our ecobricking-- and provides the parameters for green! Learn more in our open course on August 10th.</div>
 
-                    <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ View Course on GoBrik</a>
+                    <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ August Course</a>
                 </div>
             </div>
        </div>
 
 
--->
 
+<!--
 
      <div id="slider-content-1" class="slider-slide" >
              <div class="featured-content-shaded-box">
@@ -45,7 +45,7 @@ include '../ecobricks_env.php';
              </div>
         </div>
 
-<!--
+
                 <div id="slider-content-3" class="slider-slide" >
                     <div class="featured-content-shaded-box">
                         <div class="featured-content-text">
