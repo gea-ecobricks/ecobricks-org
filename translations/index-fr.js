@@ -3,9 +3,9 @@ const fr_Page_Translations = {
   "300-featured-content-1-title": "Cours gratuit de Julie",
   "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours d'introduction en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles dans notre presentation 'Le plastique, la biosphère et les écobriques'",
   "302-featured-content-1-button": "↗️ Voir le cours sur GoBrik",
-  "300-featured-content-2-title": "'What Should Green Really mean?'",
-  "301-featured-content-2-subtitle": "Ecobricking is guided by the Igorot concept of Ayyew—  the core ecological principle of the indigenous people out of whose land the Asian regenerative ecobrick movement emerged!  Their ecological ethos inspires the theory of Earthen ethics to provide a rock solid foundation of what green should really mean! Free webinar on August 10th.",
-  "302-featured-content-2-button": "↗️ August Ayyew Event",
+  "300-featured-content-2-title": "Que devrait vraiment signifier \u00ab vert \u00bb ?",
+  "301-featured-content-2-subtitle": "L\u2019\u00e9cobriquage est guid\u00e9 par le concept igorot Ayyew, principe \u00e9cologique fondamental des peuples autochtones sur les terres desquels est n\u00e9 le mouvement asiatique d\u00e9cobriques r\u00e9g\u00e9n\u00e9ratives. Leur \u00e9thique \u00e9cologique inspire la th\u00e9orie de l\'\u00c9thique Terrestre afin de donner une base solide \u00e0 ce que devrait r\u00e9ellement signifier \u00ab vert \u00bb. Webinaire gratuit le 10 ao\u00fbt.",
+  "302-featured-content-2-button": "↗️ \u00c9v\u00e9nement Ayyew d\'ao\u00fbt",
 
   "300-featured-content-3-title": "L’histoire planétaire du plastique",
   "301-featured-content-3-subtitle": "D'où vient réellement le plastique ?",
