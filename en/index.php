@@ -22,10 +22,10 @@ include '../ecobricks_env.php';
     <div id="slider-content-2" class="slider-slide" >
             <div class="featured-content-shaded-box">
                 <div class="featured-content-text">
-                    <div class="featured-content-title" data-lang-id="300-featured-content-2-title">What should green really mean?</div>
-                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the indigenous concept of Ayyew.  This ecological ethos inspires the Earthen ethics that in turns guides our ecobricking-- and provides the parameters for green! Learn more in our open course on August 10th.</div>
+                    <div class="featured-content-title" data-lang-id="300-featured-content-2-title">'What Should Green Really mean?'</div>
+                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the Igorot concept of Ayyew—  the core ecological principle of the indigenous people out of whose land the Asian regenerative ecobrick movement emerged!  Their ecological ethos inspires the theory of Earthen ethics to provide a rock solid foundation of what green should really mean! Free webinar on August 10th.</div>
 
-                    <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ August Course</a>
+                    <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ August Ayyew Event</a>
                 </div>
             </div>
        </div>

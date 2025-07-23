@@ -132,7 +132,7 @@ const id_Translations = {
            "419-conclusion-disclosure": "Kami melacak dan mengungkapkan dampak ekologis net-hijau kami. Lihat <a href=\"https://ecobricks.org/en/regenreports.php\" target=\"_blank\">Laporan Regenerasi</a> kami dan <a href=\"https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/\" target=\"_blank\">akuntansi dampak dinamis kami untuk 2024.</a>",
            "420-conclusion-contribute": "Situs Ecobricks.org dikodekan secara manual dalam HTML, PHP MYSQL, CSS dan Javascript sumber terbuka. Berkontribusi untuk membuat halaman ini lebih baik dengan meninggalkan laporan bug atau permintaan push di Github: ↳ <a href=\"https://github.com/gea-ecobricks/ecobricks.org/blob/master/<?php echo ($lang); ;?>/<?php echo ($name); ;?>\" target=\"_blank\">github.com/gea-ecobricks/ecobricks-org/blob/main/<?php echo ($lang); ;?>/<?php echo ($name); ;?></a>",
            "421-conclusion-data": "Semua konten pendidikan di situs kami (foto, video, dan teks) tersedia untuk dibagikan oleh Aliansi Ecobrick di bawah <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">Lisensi Internasional Creative Commons Atribusi-BerbagiSerupa 4.0</a>.<br>Harap atribusikan semua penggunaan ke \"The Global Ecobrick Alliance, ecobricks.org\" menggunakan lisensi yang sama.",
-           "422-conclusion-copyright": "Logo dan emblem Ecobricks.org, GEA, Earthen, AES dan Gobrik dilindungi hak cipta 2010-2024 oleh Global Ecobrick Alliance.",
+           "422-conclusion-copyright": "Logo dan emblem Ecobricks.org, GEA, Earthen, AES dan Gobrik dilindungi hak cipta 2010-2025 oleh Global Ecobrick Alliance.",
          
     
    
