@@ -8,9 +8,9 @@ const zh_Page_Translations = {
     "300-featured-content-1-title": "七月免费课程",
     "301-featured-content-1-subtitle": "加入我们的免费直播入门课程。在Zoom活动'塑料、生物圈与生态砖'中，学习相关科学原理、哲学理念和关键技术",
     "302-featured-content-1-button": "↗️ 在GoBrik上查看课程",
-  "300-featured-content-2-title": "'What Should Green Really mean?'",
-  "301-featured-content-2-subtitle": "Ecobricking is guided by the Igorot concept of Ayyew—  the core ecological principle of the indigenous people out of whose land the Asian regenerative ecobrick movement emerged!  Their ecological ethos inspires the theory of Earthen ethics to provide a rock solid foundation of what green should really mean! Free webinar on August 10th.",
-  "302-featured-content-2-button": "↗️ August Ayyew Event",
+  "300-featured-content-2-title": "“绿色”究竟应该意味着什么？",
+  "301-featured-content-2-subtitle": "生态砖实践受到伊戈洛特人“Ayyew”理念的指引——这一生态原则孕育了亚洲再生生态砖运动。他们的生态精神启发了“土伦理”理论，为“绿色”真正应有的含义奠定坚实基础。8月10日免费网络研讨会。",
+  "302-featured-content-2-button": "↗️ 八月 Ayyew 活动",
 
     "300-featured-content-3-title": "塑料的星球故事",
     "301-featured-content-3-subtitle": "塑料到底从哪里来？",
