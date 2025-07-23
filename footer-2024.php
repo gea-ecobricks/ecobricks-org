@@ -128,7 +128,7 @@
             </div>
 
             <div class="footer-conclusion" data-lang-id="422-conclusion-copyright">
-                The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2024 by the Global Ecobrick Alliance.
+                The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2025 by the Global Ecobrick Alliance.
             </div>
         
         </div>

@@ -9,6 +9,10 @@ const zh_Page_Translations = {
     "301-featured-content-1-subtitle": "加入我们的免费直播入门课程。通过GEA联合创始人Russell Maier和GEA培训师Paula Apollonia的授课，学习塑料、生态圈与生态砖的科学、哲学和核心技术。",
     "302-featured-content-1-button": "↗️ 在GoBrik上查看课程",
 
+    "300-featured-content-2-title": "'What Should Green Really mean?'",
+    "301-featured-content-2-subtitle": "Ecobricking is guided by the Igorot concept of Ayyew—  the core ecological principle of the indigenous people out of whose land the Asian regenerative ecobrick movement emerged!  Their ecological ethos inspires the theory of Earthen ethics to provide a rock solid foundation of what green should really mean! Free webinar on August 10th.",
+    "302-featured-content-2-button": "↗️ August Ayyew Event",
+
     "300-featured-content-3-title": "塑料的星球故事",
     "301-featured-content-3-subtitle": "塑料到底从哪里来？",
     "302-featured-content-3-button": "🌎 深入了解！",

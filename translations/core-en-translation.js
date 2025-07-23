@@ -214,7 +214,7 @@ const en_Translations = {
     "419-conclusion-disclosure": "We track and disclose our net-green ecological impact. See our <a href=\"https://ecobricks.org/en/regenreports.php\" target=\"_blank\">Regen Reporting</a> and our <a href=\"https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/\" target=\"_blank\">dynamic impact accounting for 2024.</a>",
   "420-conclusion-contribute": "The Ecobricks.org site is hand coded in open source HTML, PHP MYSQL, CSS and Javascript. Contribute to making this page better by leaving a bug report or push request on Github:",
   "421-conclusion-data": "All of the educational content on our site (photos, videos and text) are made available for sharing by the Ecobrick Alliance under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br>Please attribute all usage to \"The Global Ecobrick Alliance, ecobricks.org\" using the same license.",
-  "422-conclusion-copyright": "The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2024 by the Global Ecobrick Alliance.",
+  "422-conclusion-copyright": "The Ecobricks.org, GEA, Earthen, AES and Gobrik logos and emblems are copyright 2010-2025 by the Global Ecobrick Alliance.",
 
 
 

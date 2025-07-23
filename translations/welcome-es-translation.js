@@ -25,6 +25,10 @@ const es_Page_Translations = {
     "301-featured-content-1-subtitle": "Únase a nosotros en un curso introductorio en vivo y gratuito. Aprenda la ciencia, filosofía y técnicas esenciales con Russell Maier, cofundador de GEA, y la entrenadora de GEA Paula Apollonia en nuestro curso emblemático 'Plástico, la biosfera y los ecobricks'. Gratis.",
     "302-featured-content-1-button": "↗️ Ver curso en GoBrik",
 
+    "300-featured-content-2-title": "'What Should Green Really mean?'",
+    "301-featured-content-2-subtitle": "Ecobricking is guided by the Igorot concept of Ayyew—  the core ecological principle of the indigenous people out of whose land the Asian regenerative ecobrick movement emerged!  Their ecological ethos inspires the theory of Earthen ethics to provide a rock solid foundation of what green should really mean! Free webinar on August 10th.",
+    "302-featured-content-2-button": "↗️ August Ayyew Event",
+
     "300-featured-content-3-title": "La historia planetaria del plástico",
     "301-featured-content-3-subtitle": "¿De dónde viene realmente el plástico?",
     "302-featured-content-3-button": "🌎 ¡Explora a fondo!",
