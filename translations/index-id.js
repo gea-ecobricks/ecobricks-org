@@ -4,6 +4,9 @@ const id_Page_Translations = {
   "300-featured-content-1-title": "Kursus Gratis Bulan Juli",
   "301-featured-content-1-subtitle": "Ikuti kursus pengantar langsung dan gratis. Pelajari ilmu, filosofi, dan teknik penting dalam kursus unggulan kami 'Plastik, Biosfer & Ecobricks'.",
   "302-featured-content-1-button": "↗️ Lihat Kursus di GoBrik",
+  "300-featured-content-2-title": "'What Should Green Really mean?'",
+  "301-featured-content-2-subtitle": "Ecobricking is guided by the Igorot concept of Ayyew—  the core ecological principle of the indigenous people out of whose land the Asian regenerative ecobrick movement emerged!  Their ecological ethos inspires the theory of Earthen ethics to provide a rock solid foundation of what green should really mean! Free webinar on August 10th.",
+  "302-featured-content-2-button": "↗️ August Ayyew Event",
 
   "300-featured-content-3-title": "Kisah Planet Plastik",
   "301-featured-content-3-subtitle": "Dari mana sebenarnya plastik berasal?",
