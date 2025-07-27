@@ -1,6 +1,6 @@
 
 const fr_Page_Translations = {
-  "300-featured-content-1-title": "Cours gratuit de Julie",
+  "300-featured-content-1-title": "Cours gratuit d'août",
   "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours d'introduction en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles dans notre presentation 'Le plastique, la biosphère et les écobriques'",
   "302-featured-content-1-button": "↗️ Voir le cours sur GoBrik",
   "300-featured-content-2-title": "Que devrait vraiment signifier \u00ab vert \u00bb ?",
