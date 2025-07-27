@@ -30,20 +30,20 @@ $result = $stmt->get_result();
 if ($result->num_rows > 0) {
     $array = $result->fetch_assoc();
 
-    // Look up the community name using the community_id
+    // Look up the community name using the community_id via the Buwana API
     $communityName = '';
     if (!empty($array['community_id'])) {
-        $commStmt = $conn->prepare("SELECT community_name FROM communities_tb WHERE community_id = ?");
-        if ($commStmt) {
-            $commStmt->bind_param("i", $array['community_id']);
-            if ($commStmt->execute()) {
-                $commResult = $commStmt->get_result();
-                if ($commResult && $commResult->num_rows > 0) {
-                    $commRow = $commResult->fetch_assoc();
-                    $communityName = $commRow['community_name'];
-                }
+        $apiUrl = 'https://buwana.ecobricks.org/api/search_communities_by_id.php?community_id=' . intval($array['community_id']);
+        $ch = curl_init($apiUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+        $apiResponse = curl_exec($ch);
+        curl_close($ch);
+        if ($apiResponse !== false) {
+            $apiData = json_decode($apiResponse, true);
+            if (isset($apiData['success']) && $apiData['success'] && isset($apiData['com_name'])) {
+                $communityName = $apiData['com_name'];
             }
-            $commStmt->close();
         }
     }
 
