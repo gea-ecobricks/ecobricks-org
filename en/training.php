@@ -30,6 +30,23 @@ $result = $stmt->get_result();
 if ($result->num_rows > 0) {
     $array = $result->fetch_assoc();
 
+    // Look up the community name using the community_id via the Buwana API
+    $communityName = '';
+    if (!empty($array['community_id'])) {
+        $apiUrl = 'https://buwana.ecobricks.org/api/search_communities_by_id.php?community_id=' . intval($array['community_id']);
+        $ch = curl_init($apiUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+        $apiResponse = curl_exec($ch);
+        curl_close($ch);
+        if ($apiResponse !== false) {
+            $apiData = json_decode($apiResponse, true);
+            if (isset($apiData['success']) && $apiData['success'] && isset($apiData['com_name'])) {
+                $communityName = $apiData['com_name'];
+            }
+        }
+    }
+
 		echo 
 		'<div class="splash-content-block">
 			<div class="splash-box">
@@ -58,13 +75,13 @@ if ($result->num_rows > 0) {
                     $array["training_type"] . ' <span data-lang-id="111">workshop run in/on </span>' .
                     $array["training_location"] . '<span data-lang-id="112">. The workshop involved </span>' .
                     $array["no_participants"] . '<span data-lang-id="113"> and was run by GEA trainer(s) </span>' .
-                    $array["lead_trainer"] . ' on $array["training_date"] . ' </p>
+                    $array["lead_trainer"] . ' on ' . $array["training_date"] . '</p>
                 </div>
 
-            <p>Topic: $array["training_subtitle"] . ' </p>
-            <p>Date: $array["training_date"] . ' </p>
-            <p>Logged: $array["training_logged"] . ' </p>
-            <p>For: $array["community_id"] . ' </p>
+            <p>Topic: ' . $array["training_subtitle"] . ' </p>
+            <p>Date: ' . $array["training_date"] . ' </p>
+            <p>Logged: ' . $array["training_logged"] . ' </p>
+            <p>For: ' . htmlspecialchars($communityName, ENT_QUOTES, 'UTF-8') . ' </p>
 
 
 
