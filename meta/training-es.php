@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
         echo '<meta property="og:url" content="https://ecobricks.org/'. $lang .'/training.php?training_id='. $array["training_id"] .'">' ;
         echo '<meta property="og:title" content="'. $array["training_title"] .' |  '. $array["no_participants"] .' participantes">';
         echo '<meta property="og:description"   content="'. $array["no_participants"] .' han sido capacitados en '. $array["location_full"] .' en una capacitación '. $array["training_type"] .' de la Alianza Global de Ecoladrillos.">';
-        echo '<meta property="og:image" content="https://ecobricks.org/trainings/photos/training-'. $array["training_id"] .'-1.webp?v=2">';
+        echo '<meta property="og:image" content="'. $array["feature_photo1_main"] .'">';
         echo '<meta property="og:image:alt"     content="Una foto de nuestro taller de capacitación de ecoladrillos">';
         echo '<meta property="og:locale" content="es_ES" >';
         echo '<meta property="og:type"          content="sitio web">';
