@@ -29,6 +29,7 @@ $result = $stmt->get_result();
 
 if ($result->num_rows > 0) {
     $array = $result->fetch_assoc();
+    $trainingDateFormatted = date("F j, Y", strtotime($array["training_date"]));
 
     // Look up the community name using the community_id via the Buwana API
     $communityName = '';
@@ -57,8 +58,8 @@ if ($result->num_rows > 0) {
 			</div>
 			
 			<div class="splash-image">
-				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["training_photo0_main"], ENT_QUOTES, 'UTF-8') . '\', \'Ecobrick training ' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was completed in ' . htmlspecialchars($array["training_country"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["training_date"], ENT_QUOTES, 'UTF-8') . '\')"><img src="https://gobrik.com/' . htmlspecialchars($array["training_photo0_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was completed in ' . htmlspecialchars($array["training_location"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["training_date"], ENT_QUOTES, 'UTF-8') . '"
-			title="Project' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["training_country"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($array["training_date"], ENT_QUOTES, 'UTF-8') . '"></a>
+				<a href="javascript:void(0);" onclick="viewGalleryImage(\'' . htmlspecialchars($array["training_photo0_main"], ENT_QUOTES, 'UTF-8') . '\', \'Ecobrick training ' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was completed in ' . htmlspecialchars($array["training_country"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($trainingDateFormatted, ENT_QUOTES, 'UTF-8') . '\')"><img src="https://gobrik.com/' . htmlspecialchars($array["training_photo0_main"], ENT_QUOTES, 'UTF-8') . '" alt="Project ' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was completed in ' . htmlspecialchars($array["training_location"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($trainingDateFormatted, ENT_QUOTES, 'UTF-8') . '"
+			title="Project' . htmlspecialchars($array["training_id"], ENT_QUOTES, 'UTF-8') . ' was made in ' . htmlspecialchars($array["training_country"], ENT_QUOTES, 'UTF-8') . ' and started on ' . htmlspecialchars($trainingDateFormatted, ENT_QUOTES, 'UTF-8') . '"></a>
 			</div>    
 		</div>
 	
@@ -75,17 +76,12 @@ if ($result->num_rows > 0) {
                     $array["training_type"] . ' <span data-lang-id="111">workshop run in/on </span>' .
                     $array["training_location"] . '<span data-lang-id="112">. The workshop involved </span>' .
                     $array["no_participants"] . '<span data-lang-id="113"> and was run by GEA trainer(s) </span>' .
-                        $array["lead_trainer"] . ' on <?= $array["training_date"]->format('F j, Y') ?></p>
-                </div>
-
-            <p><b>Topic:</b> ' . $array["training_subtitle"] . ' </p>
-            <p><b>Date:</b> ' . $array["training_date"] . ' </p>
-            <p><b>Community:</b> ' . htmlspecialchars($communityName, ENT_QUOTES, 'UTF-8') . ' </p>
-
-
-
-                <div id="three-column-gal" class="three-column-gal" style="margin-top:40px;">';
-
+                        $array["lead_trainer"] . ' on ' . $trainingDateFormatted . '</p>' .
+                        '</div>' .
+            '<p><b>Topic:</b> ' . $array["training_subtitle"] . ' </p>' .
+            '<p><b>Date:</b> ' . $trainingDateFormatted . ' </p>' .
+            '<p><b>Community:</b> ' . htmlspecialchars($communityName, ENT_QUOTES, 'UTF-8') . ' </p>' .
+            '<div id="three-column-gal" class="three-column-gal" style="margin-top:40px;">';
 // Loop through the available photos (up to 6)
 for ($i = 0; $i <= 6; $i++) {
     $photo_main_field = "training_photo" . $i . "_main";
