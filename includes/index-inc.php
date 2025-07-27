@@ -996,6 +996,26 @@ margin-left: 0px;
     margin: 15px 0;
 }
 
+/* Featured slider styles */
+#featured-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+#featured-slider .slider-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.6s ease;
+  transform: translateX(100%);
+}
+
+#featured-slider .slider-slide.active {
+  transform: translateX(0);
+  z-index: 2;
+}
+
 
 
 </style>
