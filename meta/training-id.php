@@ -5,7 +5,7 @@
 include '../ecobricks_env.php';
 
 
-$trainingId = $_GET['training_id'];
+$trainingId = isset($_GET['training_id']) ? $_GET['training_id'] : (isset($_GET['id']) ? $_GET['id'] : 0);
 
 $sql = "SELECT * FROM tb_trainings WHERE training_id = '" . $trainingId . "'";
 

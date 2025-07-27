@@ -92,27 +92,22 @@ for ($i = 0; $i <= 6; $i++) {
                               <br>';
                     }
                     
-                    if (!empty($array["training_agenda"])) {
-                        echo '<h3><p>Training Agenda</p></h3>
-                              <p>'. $array["training_agenda"] .'</p>
-                              <br>';
-                    }
                     
                     if (!empty($array["training_success"])) {
                         echo '<h3><p>Success Story</p></h3>
-                              <p>'. $array["training_success"] .'</p>
+                              <p>'. nl2br($array["training_success"]) .'</p>
                               <br>';
                     }
                     
                     if (!empty($array["training_challenges"])) {
                         echo '<h3><p>Challenges</p></h3>
-                              <p>'. $array["training_challenges"] .'</p>
+                              <p>'. nl2br($array["training_challenges"]) .'</p>
                               <br>';
                     }
                     
                     if (!empty($array["training_lessons_learned"])) {
                         echo '<h3><p>Lessons Learned</p></h3>
-                              <p>'. $array["training_lessons_learned"] .'</p>
+                              <p>'. nl2br($array["training_lessons_learned"]) .'</p>
                               <br>';
                     }
                     
