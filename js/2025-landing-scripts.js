@@ -141,4 +141,34 @@ function closeEcobrickModal() {
     }
 }
 
+// ---------------- Featured Slider -----------------
+document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.getElementById('featured-slider');
+    if (!slider) return;
+    const slides = slider.querySelectorAll('.slider-slide');
+    let current = 0;
+    slides[current].classList.add('active');
+    let paused = false;
+
+    function nextSlide() {
+        if (paused) return;
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+    }
+
+    let interval = setInterval(nextSlide, 5000);
+
+    slider.addEventListener('mouseenter', () => { paused = true; });
+    slider.addEventListener('mouseleave', () => { paused = false; });
+
+    slider.addEventListener('click', (e) => {
+        if (!e.target.closest('.content-button')) {
+            nextSlide();
+            clearInterval(interval);
+            interval = setInterval(nextSlide, 5000);
+        }
+    });
+});
+
 
