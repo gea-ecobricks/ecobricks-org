@@ -1000,6 +1000,7 @@ margin-left: 0px;
 #featured-slider {
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 #featured-slider .slider-slide {
