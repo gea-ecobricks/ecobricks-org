@@ -1,16 +1,15 @@
+
+<?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
+<?php $version='3.0';?>
+<?php $page='training-details';?>
 <!DOCTYPE html>
-<HTML lang="en"> 
+<HTML lang="<?php $lang ;?>">
 <HEAD>
 <META charset="UTF-8">
+
 <?php $lang='en';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);?>
-<?php $version='2.13';?>
-<?php $page='training-details';?>
-
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
-
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 
 
 <?php 
@@ -56,11 +55,18 @@ if ($result->num_rows > 0) {
 
                 <div class="lead-page-paragraph">
                     <p>' . $array["training_title"] . '<span data-lang-id="110"> was a </span>' .
-                    $array["training_type"] . ' <span data-lang-id="111">workshop run in </span>' .
-                    $array["training_country"] . '<span data-lang-id="112">. The workshop involved </span>' .
+                    $array["training_type"] . ' <span data-lang-id="111">workshop run in/on </span>' .
+                    $array["training_location"] . '<span data-lang-id="112">. The workshop involved </span>' .
                     $array["no_participants"] . '<span data-lang-id="113"> and was run by GEA trainer(s) </span>' .
-                    $array["lead_trainer"] . '</p>
+                    $array["lead_trainer"] . ' on $array["training_date"] . ' </p>
                 </div>
+
+            <p>Topic: $array["training_subtitle"] . ' </p>
+            <p>Date: $array["training_date"] . ' </p>
+            <p>Logged: $array["training_logged"] . ' </p>
+            <p>For: $array["community_id"] . ' </p>
+
+
 
                 <div id="three-column-gal" class="three-column-gal" style="margin-top:40px;">';
 
