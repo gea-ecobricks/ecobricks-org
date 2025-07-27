@@ -75,7 +75,7 @@ if ($result->num_rows > 0) {
                     $array["training_type"] . ' <span data-lang-id="111">workshop run in/on </span>' .
                     $array["training_location"] . '<span data-lang-id="112">. The workshop involved </span>' .
                     $array["no_participants"] . '<span data-lang-id="113"> and was run by GEA trainer(s) </span>' .
-                        $array["lead_trainer"] . ' on <?= date('F j, Y', strtotime($array["training_date"])) ?></p>
+                        $array["lead_trainer"] . ' on <?= $array["training_date"]->format('F j, Y') ?></p>
                 </div>
 
             <p><b>Topic:</b> ' . $array["training_subtitle"] . ' </p>
