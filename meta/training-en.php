@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
         echo '<meta property="og:url" content="https://ecobricks.org/'. $lang .'/training.php?training_id='. $array["training_id"] .'">' ;
         echo '<meta property="og:title" content="'. $array["training_title"] .' |  '. $array["no_participants"] .' participants">';
         echo '<meta property="og:description"   content="'. $array["no_participants"] .' have been training in '. $array["training_location"] .' in a '. $array["training_type"] .' GEA training.">';
-        echo '<meta property="og:image" content="https://ecobricks.org/trainings/photos/training-'. $array["training_id"] .'-1.webp?v=2">';
+        echo '<meta property="og:image" content="'. $array["feature_photo1_main"] .'">';
         echo '<meta property="og:image:alt"     content="A photo of our ecobrick training workshop">';
         echo '<meta property="og:locale" content="en_GB" >';
         echo '<meta property="og:type"          content="website">';
