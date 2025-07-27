@@ -42,7 +42,6 @@ width: 100%;
   margin-left: 22px;
   border-radius: 20px;
   max-width: 100%;
-  margin-top: -6px;
 
 }
 
@@ -182,8 +181,8 @@ width: 100%;
   }
 
 .feature-content-anchor-box{
-  height:98vh;
-  max-height: 98vh;
+  height:83vh;
+  max-height: 83vh;
 }
 
 }

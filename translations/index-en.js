@@ -1,8 +1,8 @@
 
 
 const en_Page_Translations = {
-  "300-featured-content-1-title": "Free July Course",
-  "301-featured-content-1-subtitle": "Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our July course 'Plastic, the Biosphere & Ecobricks'",
+  "300-featured-content-1-title": "Free August Course",
+  "301-featured-content-1-subtitle": "Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our August course 'Plastic, the Biosphere & Ecobricks'",
   "302-featured-content-1-button": "\u2197\ufe0f View Course on GoBrik",
   "300-featured-content-2-title": "'What Should Green Really mean?'",
   "301-featured-content-2-subtitle": "Ecobricking is guided by the Igorot concept of Ayyew\u2014  the core ecological principle of the indigenous people out of whose land the Asian regenerative ecobrick movement emerged!  Their ecological ethos inspires the theory of Earthen ethics to provide a rock solid foundation of what green should really mean! Free webinar on August 10th.",
