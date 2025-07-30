@@ -35,18 +35,24 @@
                                  <p>This page is under construction.</p>
                         </div>
 
+                    <div class="side-module-desktop-mobile" style="dislay:flex;flex-flow: row; width: 100%; padding: 10px; gap: 10px;">
+                                <div >
+                                    <img src="../webp/carbon-cube-chair-400px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
+                                <div>
+
+                    				<div>
+                                        <h4>Carbon Cube Chair</h4>
+                    				<p>Coming soon!  A simple, awesome and carbon sequestering cube chair that you can assemble with your ecobricks.</P>
+                    				</p>
+
+                                    <br>
+                    			</div>
+
                 </div>
 <!-- PAGE SIDE BAR STARTS HERE-->
                 <div class="side">
 
-<div class="side-module-desktop-mobile" data-lang-id="0-modules-good-use">
-            <img src="../webp/carbon-cube-chair-400px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
-				<br><h4>Good Use</h4>
-				<h5>Building with ecobricks puts plastic to good use in the short-term, while securing it out of both the biosphere and industry for the long-term.</h5><br>
-                <a class="module-btn" href="about.php">Learn More</a>
 
-                <br>
-			</div>
 
 <?php require_once ("side-modules/transition-module.php");?>
 
