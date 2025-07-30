@@ -16,7 +16,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Ocean Ecobricks</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A Sequestration Solution for Dirty Plastics</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/oebs.svg" style="width: 95%" alt="The basics of ecobricking">
+	<div class="splash-image" data-lang-id="003-splash-image-alt-X"><img src="../svgs/oebs.svg" style="width: 95%" alt="The basics of ecobricking">
     </div>	
 </div>
 <div id="splash-bar"></div>
