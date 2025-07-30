@@ -21,10 +21,7 @@
 </div>
 <div id="splash-bar"></div>
 
-
-
 <!-- PAGE CONTENT-->
-
 
 <div id="main-content">
 <!-- The flexible grid (content) -->
