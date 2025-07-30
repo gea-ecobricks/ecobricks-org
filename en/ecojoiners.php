@@ -14,7 +14,7 @@
                 <div class="splash-heading" data-lang-id="001-splash-title">Introducing Ecojoiners</div>
             <div class="splash-sub" data-lang-id="002-splash-subtitle">Use bamboo to build furniture, structures and more with your ecobricks</div>
         </div>
-        <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/ecojoiner-1000px-banner.webp" style="width: 95%" alt="Ecobrick joiners" loading="lazy"></div>
+        <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/ecojoiner-6FC.webp" style="width: 95%" alt="Ecobrick joiners" loading="lazy"></div>
 </div>
 <div id="splash-bar"></div>
 
@@ -30,18 +30,23 @@
                         </div>
 
                         <div class="page-paragraph">
-                                <p data-lang-id="005-first-page-paragraph">Much like Lego, Ecojoiners open limitless possibilities for regenerative design. The technology is open source and plans will soon be available here. <b>This page is under construction.</b></p>
+                                <p data-lang-id="005-first-page-paragraph">Much like Lego, Ecojoiners open limitless possibilities for regenerative design. The technology is open source and plans will soon be available here.</p>
+
+                                 <p>This page is under construction.</p>
                         </div>
 
                 </div>
 <!-- PAGE SIDE BAR STARTS HERE-->
                 <div class="side">
 
-<?php require_once ("side-modules/good-use.php");?>
+<div class="side-module-desktop-mobile" data-lang-id="0-modules-good-use">
+            <img src="../webp/carbon-cube-chair-500px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
+				<br><h4>Good Use</h4>
+				<h5>Building with ecobricks puts plastic to good use in the short-term, while securing it out of both the biosphere and industry for the long-term.</h5><br>
+                <a class="module-btn" href="about.php">Learn More</a>
 
-<?php require_once ("side-modules/sequest-module.php");?>
-
-<?php require_once ("side-modules/signup-now.php");?>
+                <br>
+			</div>
 
 <?php require_once ("side-modules/transition-module.php");?>
 
