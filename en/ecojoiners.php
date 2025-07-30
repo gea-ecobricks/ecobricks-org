@@ -14,7 +14,7 @@
                 <div class="splash-heading" data-lang-id="001-splash-title">Introducing Ecojoiners</div>
             <div class="splash-sub" data-lang-id="002-splash-subtitle">Use bamboo to build furniture, structures and more with your ecobricks</div>
         </div>
-        <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/ecojoiner-6FC.webp" style="width: 95%" alt="Ecobrick joiners" loading="lazy"></div>
+        <div class="splash-image" data-lang-id="003-splash-image-alt-x"><img src="../webp/ecojoiner-6fc.webp" style="width: 95%" alt="Ecobrick joiners" loading="lazy"></div>
 </div>
 <div id="splash-bar"></div>
 
@@ -40,7 +40,7 @@
                 <div class="side">
 
 <div class="side-module-desktop-mobile" data-lang-id="0-modules-good-use">
-            <img src="../webp/carbon-cube-chair-500px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
+            <img src="../webp/carbon-cube-chair-400px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
 				<br><h4>Good Use</h4>
 				<h5>Building with ecobricks puts plastic to good use in the short-term, while securing it out of both the biosphere and industry for the long-term.</h5><br>
                 <a class="module-btn" href="about.php">Learn More</a>
