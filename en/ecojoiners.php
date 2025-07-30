@@ -35,18 +35,17 @@
                                  <p>This page is under construction.</p>
                         </div>
 
-                    <div class="side-module-desktop-mobile" style="display:flex;flex-flow: row; width: 100%; padding: 10px; gap: 10px;">
-                                <div >
+                        <div class="side-module-desktop-mobile" style="display:flex;flex-flow: row; width: 100%; padding: 10px; gap: 10px;">
+                                <div>
                                     <img src="../webp/carbon-cube-chair-400px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
                                 </div>
 
-                    				<div>
-                                        <h4>Carbon Cube Chair</h4>
-                    				<p>Coming soon!  A simple, awesome and carbon sequestering cube chair that you can assemble with your ecobricks.</P>
-                    				</p>
-
-                    			</div>
-
+                                <div>
+                                    <h4>Carbon Cube Chair</h4>
+                                    <p>Coming soon!  A simple, awesome and carbon sequestering cube chair that you can assemble with your ecobricks.</P>
+                                    </p>
+                                </div>
+                        </div>
                 </div>
 <!-- PAGE SIDE BAR STARTS HERE-->
                 <div class="side">
