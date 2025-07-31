@@ -1,6 +1,6 @@
 
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='3.0';?>
+<?php $version='3.1';?>
 <?php $page='training-details';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -72,16 +72,19 @@ if ($result->num_rows > 0) {
             <div class="row-details">
 
                 <div class="lead-page-paragraph">
-                    <p>' . $array["training_title"] . '<span data-lang-id="110"> was a </span>' .
-                    $array["training_type"] . ' <span data-lang-id="111">workshop run in/on </span>' .
+                    <p>' . $array["training_title"] . ' <span data-lang-id="110"> was a </span>' .
+                    $array["training_type"] . ' <span data-lang-id="111"> run in/on </span>' .
                     $array["training_location"] . '<span data-lang-id="112">. The workshop involved </span>' .
-                    $array["no_participants"] . '<span data-lang-id="113"> and was run by GEA trainer(s) </span>' .
+                    $array["no_participants"] . '<span data-lang-id="113">participants and was run by GEA trainer(s) </span>' .
                         $array["lead_trainer"] . ' on ' . $trainingDateFormatted . '</p>' .
                         '</div>' .
-            '<p><b>Topic:</b> ' . $array["training_subtitle"] . ' </p>' .
-            '<p><b>Date:</b> ' . $trainingDateFormatted . ' </p>' .
-            '<p><b>Community:</b> ' . htmlspecialchars($communityName, ENT_QUOTES, 'UTF-8') . ' </p>' .
+                '<div class="page-paragraph">' .
+            '<p><b>Topic:</b> ' . $array["training_subtitle"] . ' </p><br>' .
+            '<p><b>Date:</b> ' . $trainingDateFormatted . ' </p><br>' .
+            '<p><b>Community:</b> ' . htmlspecialchars($communityName, ENT_QUOTES, 'UTF-8') . ' </p><br>' .
+              '</div>' .
             '<div id="three-column-gal" class="three-column-gal" style="margin-top:40px;">';
+
 // Loop through the available photos (up to 6)
 for ($i = 0; $i <= 6; $i++) {
     $photo_main_field = "training_photo" . $i . "_main";
