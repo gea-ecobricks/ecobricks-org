@@ -80,8 +80,8 @@ if ($result->num_rows > 0) {
                         '</div>' .
                 '<div class="page-paragraph">' .
             '<p><b>Topic:</b> ' . $array["training_subtitle"] . ' </p><br>' .
-            '<p><b>Date:</b> ' . $trainingDateFormatted . ' </p><br>' .
-            '<p><b>Community:</b> ' . htmlspecialchars($communityName, ENT_QUOTES, 'UTF-8') . ' </p><br>' .
+            '<p><b>Date:</b> ' . $trainingDateFormatted . ' </p>' .
+            '<p><b>Community:</b> ' . htmlspecialchars($communityName, ENT_QUOTES, 'UTF-8') . ' </p>' .
               '</div>' .
             '<div id="three-column-gal" class="three-column-gal" style="margin-top:40px;">';
 
@@ -92,8 +92,8 @@ for ($i = 0; $i <= 6; $i++) {
 
     // Check if the values exist before appending the URL
     if (!empty($array[$photo_main_field]) && !empty($array[$photo_tmb_field])) {
-        $photo_main = "https://gobrik.com/" . $array[$photo_main_field];
-        $photo_tmb = "https://gobrik.com/" . $array[$photo_tmb_field];
+        $photo_main = "https://gobrik.com/" . $array[$photo_main_field] . "?v=2";
+        $photo_tmb = "https://gobrik.com/" . $array[$photo_tmb_field] . "?v=2";
 
         echo '<div class="gal-photo" onclick="viewGalleryImage(\'' .
             htmlspecialchars($photo_main, ENT_QUOTES, 'UTF-8') .
