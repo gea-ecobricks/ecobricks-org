@@ -4,7 +4,6 @@ deployment:
 
     # 1) Define where the live site lives
     - export WEBROOT=/home/ecobricks/public_html
-
     # 3) Copy master English files into each translated folder
 
     - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/zh/earthwand.php
