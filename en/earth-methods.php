@@ -47,179 +47,179 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 		                    		<div class="opener-header-text">
 		                        		<h4 data-lang-id="009-block-1-opener-header">HEADS UP!</h4>
 		                        		<h5 data-lang-id="010-block-1-opener-subheader"><b>⚠️ Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b></h5>
-							<br>
-						</div>
-		                    		<button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
-					</div>
+							            <br>
+						            </div>
+		                            <button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
+					        </div>
 					
-					<div id="preclosed1">
-						<p data-lang-id="011-block-1-opener-subheader">Today’s conventional construction relies on industrial materials and methods that can only be bought.  These materials and methods (and the industries and capital behind them) are ecological depleting.  In contrast, Earthen construction is all about ecological benefit (sequestering carbon, supporting biodiversity, etc.).  Instead we use local materials and locally appropriate methods guided by regenerative principles to ensure that our constructions are ecological contributions.</p>
-						<p data-lang-id="012-block-1-link">ℹ️ Learn more about:<a href="earth.php"> Ecobrick & Earth Building Principles</a></p>
-			                </div>
-				</div>
-		        </section>
+					        <div id="preclosed1">
+						        <p data-lang-id="011-block-1-opener-subheader">Today’s conventional construction relies on industrial materials and methods that can only be bought.  These materials and methods (and the industries and capital behind them) are ecological depleting.  In contrast, Earthen construction is all about ecological benefit (sequestering carbon, supporting biodiversity, etc.).  Instead we use local materials and locally appropriate methods guided by regenerative principles to ensure that our constructions are ecological contributions.</p>
+						        <p data-lang-id="012-block-1-link">ℹ️ Learn more about:<a href="earth.php"> Ecobrick & Earth Building Principles</a></p>
+	                        </div>
+    				</div>
+	        </section>
 	
-                <section id="GREEN">
-                    <div class="reg-content-block" id="block2">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="013-block-2-opener-header">Green Spaces</h4>
-                                <h5 data-lang-id="014-block-2-opener-subheader">Ecobrick & Earth construction is ideal for simple, non-structural green spaces that serve your local community and ecosystem.</h5>
-                                <br>
-                            </div>
-                            <button onclick="toggleAccordion(2)" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
+            <section id="GREEN">
+                <div class="reg-content-block" id="block2">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="013-block-2-opener-header">Green Spaces</h4>
+                            <h5 data-lang-id="014-block-2-opener-subheader">Ecobrick & Earth construction is ideal for simple, non-structural green spaces that serve your local community and ecosystem.</h5>
+                            <br>
                         </div>
-                                <div id="preclosed2">
-                            <div id="three-column-gal" class="three-column-gal">
-                                <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
-                                    <img src="../photos/earth-methods/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
-                                    <p data-lang-id="015-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
-                                </div>
-                                            <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
-                                    <img src="../photos/earth-methods/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
-                                    <p data-lang-id="016-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
-                                            </div>
-
-                                            <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space3.png', 'A circular ecobrick garden planter')">
-                                                <img src="../photos/earth-methods/green-space3.png" alt="A circular ecobrick garden planter">
-                                                <p data-lang-id="017-photo-caption">A circular ecobrick garden planter</p>
-                                            </div>
-                            </div><!--closes gallery-->
-
-                            <p data-lang-id="018-block-2-paragraph-1">The Global Ecobrick Alliance recommends building small scale green spaces that serve your local community.  This means that you can enlist the help of your neighbours to not only get the ecobricks you need, but to help you build.  Small builds of two to three layers embody can easily embody all the principles of earth and ecobrick building and plastic sequestration and make full use of the unique properties of ecobricks for building.</p>
-                            <p data-lang-id="019-block-2-paragraph-2">Horizontally laid ecobricks are ideal for creating curving garden benches/raised-beds where we can sit, play and eat.   In particular we recommend design spaces that can be gardened with edible plants (fruit trees, berries, herbs, etc.).   Given that most of the plastic we stuff into our ecobricks comes from food packaging, building gardens that grow real food, is pretty apt!  </p>
-                            <p data-lang-id="020-block-2-paragraph-3">Because Ecobrick and earth building methods are non-capital and replicable, students and youth groups can take full charge of a project– from making the ecobricks, to designing the space, to building and gardening.  This creates a sense of pride and ownership that is greatly empowering.   Best of all, the earth and ecobrick technique you will learn is indefinitely scalable– these are the same fundamentals used to construct houses and buildings.</p>
-                            <p data-lang-id="021-block-2-paragraph-4">Done properly, benches can be stood on and used to play tag.  Done poorly, well…  a bench does not have the same risks considerations as a wall or structure.  Ecobrick green spaces are a great educactional launch into earth building.</p>
-                        </div>
+                        <button onclick="toggleAccordion(2)" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
                     </div>
-                </section>
+                    <div id="preclosed2">
+                        <div id="three-column-gal" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space1.jpg', 'An ecobrick food forest play part in Balili, Philippines')">
+                                <img src="../photos/earth-methods/green-space1.jpg" alt="An ecobrick food forest play part in Balili, Philippines" loading="lazy">
+                                <p data-lang-id="015-photo-caption">An ecobrick food forest play part in Balili, Philippines</p>
+                            </div>
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space2.jpg', 'Building a raised garden bench in Bali, Indonesia')">
+                                <img src="../photos/earth-methods/green-space2.jpg" alt="Building a raised garden bench in Bali, Indonesia" loading="lazy">
+                                <p data-lang-id="016-photo-caption">Building a raised garden bench in Bali, Indonesia</p>
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/green-space3.png', 'A circular ecobrick garden planter')">
+                                <img src="../photos/earth-methods/green-space3.png" alt="A circular ecobrick garden planter">
+                                <p data-lang-id="017-photo-caption">A circular ecobrick garden planter</p>
+                            </div>
+                        </div><!--closes gallery-->
+
+                        <p data-lang-id="018-block-2-paragraph-1">The Global Ecobrick Alliance recommends building small scale green spaces that serve your local community.  This means that you can enlist the help of your neighbours to not only get the ecobricks you need, but to help you build.  Small builds of two to three layers embody can easily embody all the principles of earth and ecobrick building and plastic sequestration and make full use of the unique properties of ecobricks for building.</p>
+                        <p data-lang-id="019-block-2-paragraph-2">Horizontally laid ecobricks are ideal for creating curving garden benches/raised-beds where we can sit, play and eat.   In particular we recommend design spaces that can be gardened with edible plants (fruit trees, berries, herbs, etc.).   Given that most of the plastic we stuff into our ecobricks comes from food packaging, building gardens that grow real food, is pretty apt!  </p>
+                        <p data-lang-id="020-block-2-paragraph-3">Because Ecobrick and earth building methods are non-capital and replicable, students and youth groups can take full charge of a project– from making the ecobricks, to designing the space, to building and gardening.  This creates a sense of pride and ownership that is greatly empowering.   Best of all, the earth and ecobrick technique you will learn is indefinitely scalable– these are the same fundamentals used to construct houses and buildings.</p>
+                        <p data-lang-id="021-block-2-paragraph-4">Done properly, benches can be stood on and used to play tag.  Done poorly, well…  a bench does not have the same risks considerations as a wall or structure.  Ecobrick green spaces are a great educactional launch into earth building.</p>
+                    </div>
+                </div>
+            </section>
 	
-                <section id="SMALL">
-                    <div class="reg-content-block" id="block3">
-                                <div class="opener-header">
-                            <div class="opener-header-text">
+            <section id="SMALL">
+                <div class="reg-content-block" id="block3">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
                             <h4 data-lang-id="022-block-3-opener-header">Start Real Small</h4>
                             <h5 data-lang-id="023-block-3-opener-subheader">New to earth building?  Before building something permanent, its a great idea to experience the full circle of earth and ecobrick building first. </h5>
                             <br>
-                            </div>
-                            <button onclick="toggleAccordion(3)" class="block-toggle" id="block-toggle-show3" aria-expanded="false">+</button>
                         </div>
-
-                                <div id="preclosed3">
-                            <br>
-                            <img width="480" loading="lazy" class="full-width-image" src="../photos/Ashims-Module-1.png">
-                            <p data-lang-id="024-block-3-paragraph-1">Making an Earth Module is a super simple way to become acquainted with all the steps of earth and ecobrick building.</p>
-                            <p data-lang-id="025-block-3-paragraph-2">A great way to learn the basics of earth and ecobrick building is to put together your own earth module.  Earth modules, only use a few ecobricks, yet apply all the steps of the GEA recommended methods.  Each of the steps below references one of the more detailed building steps found on this page.</p>
-                            <div id="three-column-gal-srs1" class="three-column-gal">
-                                            <!--photo1-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small1.png', 'Soil test')">
-                                                <img src="../photos/start_real_small1.png" alt="Soil test" loading="lazy">
-                                                <p data-lang-id="026-photo-caption">Pancake soil test:  See section 2 below.</p>
-                                            </div>
-
-                                            <!--photo2-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small2.png', 'Find a smooth, flat surface (i.e large tile)')">
-                                                <img src="../photos/start_real_small2.png" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
-                                                <p data-lang-id="027-photo-caption">Find a smooth, flat surface.  A large ceramic tile works great.</p>
-                                            </div>
-
-                                            <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small3.png', 'Put on some oil')">
-                                                <img src="../photos/start_real_small3.png" alt="Put on some oil">
-                                                <p data-lang-id="028-photo-caption">Coat the surface with some vegetable oil.</p>
-                                </div>
-                            </div>
-                            <br>
-                            <div id="three-column-gal-srs2" class="three-column-gal">
-
-                                            <!--photo1-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small4.png', 'Mix a small batch of 1:6 cement')">
-                                                <img src="../photos/start_real_small4.png" alt="Mix a small batch of 1:6 cement">
-                                                <p data-lang-id="029-photo-caption">Mix a small batch of 1:6 cement</p>
-                                            </div>
-
-                                            <!--photo2-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small5.png', 'Lay out your cement foundation/top')">
-                                                <img src="../photos/start_real_small5.png" alt="Lay out your cement foundation/top">
-                                                <p data-lang-id="030-photo-caption">Lay out your cement foundation/top</p>
-                                            </div>
-
-                                <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small6.png', 'Create a hole for the ecobrick')">
-                                                <img src="../photos/start_real_small6.png" alt="Create a hole for the ecobrick">
-                                                <p data-lang-id="031-photo-caption">Create a hole for the ecobrick</p>
-                                            </div>
-                            </div>
-                            <br>
-                            <div id="three-column-gal-srs3" class="three-column-gal">
-                                <!--photo1-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small7.png', 'Add first ecobrick')">
-                                                <img src="../photos/start_real_small7.png" alt="Add first ecobrick">
-                                                <p data-lang-id="032-photo-caption">Add first ecobrick</p>
-                                            </div>
-
-                                <!--photo2-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small8.png', 'Continue adding ecobricks')">
-                                                <img src="../photos/start_real_small8.png" alt="Continue adding ecobricks">
-                                                <p data-lang-id="033-photo-caption">Continue adding ecobricks</p>
-                                            </div>
-
-                                <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small9.png', 'Add all bottles, let dry.')">
-                                                <img src="../photos/start_real_small9.png" alt="Add all bottles, let dry.">
-                                                <p data-lang-id="034-photo-caption">Add all bottles, let dry.</p>
-                                            </div>
-                            </div>
-                            <br>
-                            <div id="three-column-gal-srs4" class="three-column-gal">
-                                <!--photo1-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small10.jpg', 'Mix your cob mixture to your ratio.')">
-                                                <img src="../photos/start_real_small10.jpg" alt="Mix your cob mixture to your ratio.">
-                                                <p data-lang-id="035-photo-caption">Mix your cob mixture to your ratio.</p>
-                                            </div>
-
-                                <!--photo2-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small11.png', 'Layer cob on top of dry cement')">
-                                                <img src="../photos/start_real_small11.png" alt="Layer cob on top of dry cement">
-                                                <p data-lang-id="036-photo-caption">Layer cob on top of dry cement</p>
-                                            </div>
-
-                                <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small12.png', 'Finish with a thin layer of cob/cement')">
-                                                <img src="../photos/start_real_small12.png" alt="Finish with a thin layer of cob/cement">
-                                                <p data-lang-id="037-photo-caption">Finish with a thin layer of cob/cement</p>
-                                            </div>
-                            </div>
-                            <br>
-                            <div id="three-column-gal-srs5" class="three-column-gal">
-                                <!--photo1-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small13.png', 'Let dry!')">
-                                                <img src="../photos/start_real_small13.png" alt="Let dry!">
-                                                <p data-lang-id="038-photo-caption">Let dry!</p>
-                                            </div>
-
-                                <!--photo2-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small14.png', 'Sand off rough edges')">
-                                                <img src="../photos/start_real_small14.png" alt="Sand off rough edges">
-                                                <p data-lang-id="039-photo-caption">Sand off rough edges</p>
-                                            </div>
-
-                                <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small15.jpg', 'Enjoy!')">
-                                                <img src="../photos/start_real_small15.jpg" alt="Enjoy!">
-                                                <p data-lang-id="040-photo-caption">Enjoy!</p>
-                                            </div>
-                            </div><!--closes gallery-->
-                        </div>
+                        <button onclick="toggleAccordion(3)" class="block-toggle" id="block-toggle-show3" aria-expanded="false">+</button>
                     </div>
-		        </section>
+
+                    <div id="preclosed3">
+                        <br>
+                        <img width="480" loading="lazy" class="full-width-image" src="../photos/Ashims-Module-1.png">
+                        <p data-lang-id="024-block-3-paragraph-1">Making an Earth Module is a super simple way to become acquainted with all the steps of earth and ecobrick building.</p>
+                        <p data-lang-id="025-block-3-paragraph-2">A great way to learn the basics of earth and ecobrick building is to put together your own earth module.  Earth modules, only use a few ecobricks, yet apply all the steps of the GEA recommended methods.  Each of the steps below references one of the more detailed building steps found on this page.</p>
+                        <div id="three-column-gal-srs1" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small1.png', 'Soil test')">
+                                <img src="../photos/start_real_small1.png" alt="Soil test" loading="lazy">
+                                <p data-lang-id="026-photo-caption">Pancake soil test:  See section 2 below.</p>
+                            </div>
+
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small2.png', 'Find a smooth, flat surface (i.e large tile)')">
+                                <img src="../photos/start_real_small2.png" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
+                                <p data-lang-id="027-photo-caption">Find a smooth, flat surface.  A large ceramic tile works great.</p>
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small3.png', 'Put on some oil')">
+                                <img src="../photos/start_real_small3.png" alt="Put on some oil">
+                                <p data-lang-id="028-photo-caption">Coat the surface with some vegetable oil.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="three-column-gal-srs2" class="three-column-gal">
+
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small4.png', 'Mix a small batch of 1:6 cement')">
+                                <img src="../photos/start_real_small4.png" alt="Mix a small batch of 1:6 cement">
+                                <p data-lang-id="029-photo-caption">Mix a small batch of 1:6 cement</p>
+                            </div>
+
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small5.png', 'Lay out your cement foundation/top')">
+                                <img src="../photos/start_real_small5.png" alt="Lay out your cement foundation/top">
+                                <p data-lang-id="030-photo-caption">Lay out your cement foundation/top</p>
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small6.png', 'Create a hole for the ecobrick')">
+                                <img src="../photos/start_real_small6.png" alt="Create a hole for the ecobrick">
+                                <p data-lang-id="031-photo-caption">Create a hole for the ecobrick</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="three-column-gal-srs3" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small7.png', 'Add first ecobrick')">
+                                <img src="../photos/start_real_small7.png" alt="Add first ecobrick">
+                                <p data-lang-id="032-photo-caption">Add first ecobrick</p>
+                            </div>
+
+                            <!--photo2-->
+                                <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small8.png', 'Continue adding ecobricks')">
+                                    <img src="../photos/start_real_small8.png" alt="Continue adding ecobricks">
+                                    <p data-lang-id="033-photo-caption">Continue adding ecobricks</p>
+                                </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small9.png', 'Add all bottles, let dry.')">
+                                <img src="../photos/start_real_small9.png" alt="Add all bottles, let dry.">
+                                <p data-lang-id="034-photo-caption">Add all bottles, let dry.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="three-column-gal-srs4" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small10.jpg', 'Mix your cob mixture to your ratio.')">
+                                <img src="../photos/start_real_small10.jpg" alt="Mix your cob mixture to your ratio.">
+                                <p data-lang-id="035-photo-caption">Mix your cob mixture to your ratio.</p>
+                            </div>
+
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small11.png', 'Layer cob on top of dry cement')">
+                                <img src="../photos/start_real_small11.png" alt="Layer cob on top of dry cement">
+                                <p data-lang-id="036-photo-caption">Layer cob on top of dry cement</p>
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small12.png', 'Finish with a thin layer of cob/cement')">
+                                <img src="../photos/start_real_small12.png" alt="Finish with a thin layer of cob/cement">
+                                <p data-lang-id="037-photo-caption">Finish with a thin layer of cob/cement</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="three-column-gal-srs5" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small13.png', 'Let dry!')">
+                                <img src="../photos/start_real_small13.png" alt="Let dry!">
+                                <p data-lang-id="038-photo-caption">Let dry!</p>
+                            </div>
+
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small14.png', 'Sand off rough edges')">
+                                <img src="../photos/start_real_small14.png" alt="Sand off rough edges">
+                                <p data-lang-id="039-photo-caption">Sand off rough edges</p>
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/start_real_small15.jpg', 'Enjoy!')">
+                                <img src="../photos/start_real_small15.jpg" alt="Enjoy!">
+                                <p data-lang-id="040-photo-caption">Enjoy!</p>
+                            </div>
+                        </div><!--closes gallery-->
+                    </div>
+                </div>
+		    </section>
 	
-		        <section id="ANCESTORS">
-		        	<div class="reg-content-block" id="block4">
-		        		<div class="opener-header">
+		    <section id="ANCESTORS">
+		     	<div class="reg-content-block" id="block4">
+		       		<div class="opener-header">
 						<div class="opener-header-text">
 							<h4 data-lang-id="041-block-4-opener-header">1. Learn from your Ancestors</h4>
 							<h5 data-lang-id="042-block-4-opener-subheader">Earth building traditions were used by our ancestors before industrial construction methods took over.  In most places, with a little looking and you can find earth building traditions in your part of the world .</h5>
@@ -433,357 +433,355 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 						</ul>
 					</div>
 				</div>
-		        </section>
+		    </section>
 	
-                <section id="BUILDING SITE">
-                    <div class="reg-content-block" id="block8">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="082-block-8-opener-header">5. Prepare your building site</h4>
-                                <h5 data-lang-id="083-block-8-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
-                            </div>
-                            <button onclick="toggleAccordion(8)" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Eight">+</button>
+            <section id="BUILDING SITE">
+                <div class="reg-content-block" id="block8">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="082-block-8-opener-header">5. Prepare your building site</h4>
+                            <h5 data-lang-id="083-block-8-opener-subheader">Cob is made strong by incorporating strong and thin organic fibers</h5>
                         </div>
-
-                        <div id="preclosed8">
-                            <br>
-                            <div id="three-column-gal-building" class="three-column-gal">
-                                <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site1.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Prepare-building-site1.jpg" loading="lazy">
-                                </div>
-                                            <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site2.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Prepare-building-site2.jpg" loading="lazy">
-                                            </div>
-
-                                            <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site3.jpg', ' ')">
-                                                <img src="../photos/earth-methods/Prepare-building-site3.jpg" loading="lazy">
-                                            </div>
-                            </div><!--closes gallery-->
-                            <p data-lang-id="084-block-8-paragraph-1">Clear the space where you will be working of all hazards.  Make sure that there is plenty of free space to work and move.  Allocate a space for mixing the cob, for piling materials, and for tools.  Make sure there are no hazards on the ground for when you get started.</p>
-                            <p data-lang-id="085-block-8-paragraph-2">Use chalk, or stakes to set out the footprint of your build.  Once this is done, you’ll want to give some thought to the pathways and flow of the collaboration.  This is particularly important if you’re evolving dozens or hundreds of participants for a large build.  Think about where to place your tools and materials for the different teams that will be working on different aspects of the construction.</p>
-                            <p data-lang-id="086-block-8-paragraph-3">Plan out the pathways that your teams will move on between work sites, materials, and the build.  Try to make sure that the paths do not overlap, and that teams have ample space to work.</p>
-                        </div>
+                        <button onclick="toggleAccordion(8)" class="block-toggle" id="block-toggle-show8" aria-expanded="false" aria-label="Toggle Section Eight">+</button>
                     </div>
-                </section>
 
-                <section id="DIG">
-                    <div class="reg-content-block" id="block9">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="087-block-9-opener-header">6. Dig your foundation</h4>
-                            </div>
-                            <button onclick="toggleAccordion(9)" class="block-toggle" id="block-toggle-show9" aria-expanded="false" aria-label="Toggle Section Nine">+</button>
-                        </div>
-
-                        <div id="preclosed9">
-                            <br>
-                            <div id="three-column-gal-dig1" class="three-column-gal">
-                                <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation1.jpg', 'Lay medium stones in your trench')">
-                                    <img src="../photos/earth-methods/Dig-your-foundation1.jpg" alt="Lay medium stones in your trench" loading="lazy">
-                                    <p data-lang-id="088-photo-caption">Lay medium stones in your trench</p>
-                                </div>
-
-                                <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation2.jpg, ' ')">
-                                    <img src="../photos/earth-methods/Dig-your-foundation2.jpg" loading="lazy">
-                                </div>
-
-                                <!--photo3-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation3.jpg', 'Dig a 10cm deep trench in which to lay your cement foundation.')">
-                                    <img src="../photos/earth-methods/Dig-your-foundation3.jpg" alt="Dig a 10cm deep trench in which to lay your cement foundation." loading="lazy">
-                                    <p data-lang-id="089-photo-caption">Dig a 10cm deep trench in which to lay your cement foundation./p>
-                                </div>
-                            </div>
-                            <br>
-                            <div id="three-column-gal-dig2" class="three-column-gal">
-                                <!--photo4-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation4.jpg', '')">
-                                    <img src="../photos/earth-methods/Dig-your-foundation4.jpg" loading="lazy">
-                                </div>
-
-                                <!--photo5-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation5.png', 'Lay out ecobricks')">
-                                    <img src="../photos/earth-methods/Dig-your-foundation5.png" alt="Lay out ecobricks" loading="lazy">
-                                    <p data-lang-id="090-photo-caption">Lay out ecobricks</p>
-                                </div>
-
-                                <!--photo6-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation6.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Dig-your-foundation6.jpg" loading="lazy">
-                                </div>
-                            </div><!--closes gallery-->
-                            <p data-lang-id="091-block-9-paragraph-1">Once you’ve got your bench line figured out and marked with chalk and sticks, lay your ecobricks into the space.  Use the loose ecobricks to finalize the footprint of your construction. This will help you put the final touches on the curves of the footprint and determine precisely how many ecobricks you will need.  Adjust as you see fit. When all is ready, remove the ecobricks.</p>
-                            <p data-lang-id="092-block-9-paragraph-2">Now you’re ready to break ground!</p>
-                            <ul>
-                                <li data-lang-id="093a-block-9-list-paragraph-1">Dig down 10 cm for the entire footprint of your foundation.</li>
-                                <li data-lang-id="093b-block-9-list-paragraph-2">Place loose ecobricks in the trench to make sure its the right size.  Space the ecobricks 4cm apart to estimate how many ecobricks you will need per level.</li>
-                                <li data-lang-id="093c-block-9-list-paragraph-3">Remove all ecobricks, and dirt.  Fill the trench with a base layer of medium sized stones.</li>
-                                <li data-lang-id="093d-block-9-list-paragraph-4">Lay the stones so that their tops are level with the ground.</li>
-                            </ul>
-                            <p data-lang-id="094-block-9-paragraph-3">There are two main ways of completing your foundation: with cement or without…</p>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="ADVANCED1">
-                    <div class="reg-content-block" id="block10">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="095-block-10-opener-header">6.1 Non-Cement Foundation</h4>
-                            </div>
-                            <button onclick="toggleAccordion(10)" class="block-toggle" id="block-toggle-show10" aria-expanded="false" aria-label="Toggle Section Ten">+</button>
-                        </div>
-                        <div id="preclosed10">
-                            <br>
-                            <div id="three-column-gal-61-1" class="three-column-gal">
-                                <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation1.png', ' ')">
-                                    <img src="../photos/earth-methods/Non-cement-foundation1.png" loading="lazy">
-                                </div>
-                                <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation2.png, ' ')">
-                                    <img src="../photos/earth-methods/Non-cement-foundation2.png" loading="lazy">
-                                </div>
-
-                                <!--photo3-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation3.png', ' ')">
-                                    <img src="../photos/earth-methods/Non-cement-foundation3.png" loading="lazy">
-                                </div>
-                            </div>
-                            <br>
-                            <div id="three-column-gal-61-2" class="three-column-gal">
-                                <!--photo4-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation4.png', ' ')">
-                                    <img src="../photos/earth-methods/Non-cement-foundation4.png" loading="lazy">
-                                </div>
-                                <!--photo5-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation5.png', ' ')">
-                                    <img src="../photos/earth-methods/Non-cement-foundation5.png" loading="lazy">
-                                </div>
-                            </div><!--closes gallery-->
-                            <p data-lang-id="096-block-10-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
-                            <p data-lang-id="097-block-10-paragraph-2">Lay medium sized stones in your trench making a free draining foundation. (A land drain could be added on wetter sites). Tamp down. It can be infilled with some smaller stones to make it level with the ground, or a little higher.</p>
-                            <p data-lang-id="098-block-10-paragraph-3">It is now possible to build with ecobricks on this foundation/rubble trench. If you are building a large structure or if ground conditions are sometimes wet consider raising the walls further from the ground. The Porthmadog site in Wales is on a flood plain and gets very wet in winter, so the chosen method combined aspects of the following examples. It is advised that you examine vernacular buildings for local, cement free and climate appropriate solutions. Sustainable architects and engineers can also help with this.</p>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="ADVANCED2">
-                    <div class="reg-content-block" id="block11">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="099-block-11-opener-header">6.2 Cement Foundations</h4>
-                            </div>
-                            <button onclick="toggleAccordion(11)" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
-                        </div>
-
-                        <div id="preclosed11">
-                            <br>
-                            <div id="three-column-gal62-1" class="three-column-gal">
+                    <div id="preclosed8">
+                        <br>
+                        <div id="three-column-gal-building" class="three-column-gal">
                             <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations1.jpg', 'Mix cement 1:8')">
-                                    <img src="../photos/earth-methods/Cement-foundations1.jpg" alt="Mix cement 1:8" loading="lazy">
-                                    <p data-lang-id="100-photo-caption">Mix cement 1:8</p>
-                                </div>
-
-                                <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations2.jpg', 'Pour over wet cement')">
-                                    <img src="../photos/earth-methods/Cement-foundations2.jpg" alt="Pour over wet cement" loading="lazy">
-                                    <p data-lang-id="101-photo-caption">Pour over wet cement</p>
-                                </div>
-
-                                <!--photo3-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations3.jpg', 'Mix dry batch')">
-                                    <img src="../photos/earth-methods/Cement-foundations3.jpg" alt="Mix dry batch" loading="lazy">
-                                    <p data-lang-id="102-photo-caption">Mix dry batch</p>
-                                </div>
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site1.jpg', ' ')">
+                                <img src="../photos/earth-methods/Prepare-building-site1.jpg" loading="lazy">
                             </div>
-                            <br>
-                            <div id="three-column-gal62-2" class="three-column-gal">
-                                <!--photo4-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations4.png', 'Lay Second layer + ecobricks')">
-                                    <img src="../photos/earth-methods/Cement-foundations4.jpg" alt="Lay Second layer + ecobricks" loading="lazy">
-                                    <p data-lang-id="103-photo-caption">Lay Second layer + ecobricks</p>
-                                </div>
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site2.jpg', ' ')">
+                                <img src="../photos/earth-methods/Prepare-building-site2.jpg" loading="lazy">
+                            </div>
 
-                                <!--photo5-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations5.jpg', 'Fill spaces with rocks')">
-                                    <img src="../photos/earth-methods/Cement-foundations5.jpg" alt="Fill spaces with rocks" loading="lazy">
-                                    <p data-lang-id="104-photo-caption">Fill spaces with rocks</p>
-                                </div>
-
-                                <!--photo6-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations6.jpg', '20%-30% submerged')">
-                                    <img src="../photos/earth-methods/Cement-foundations6.jpg" alt="20%-30% submerged" loading="lazy">
-                                    <p data-lang-id="105-photo-caption">20%-30% submerged</p>
-                                </div>
-                            </div><!--closes gallery-->
-                                <p data-lang-id="106-block-11-paragraph-1">There are various ways to lay your foundation.  One option is using a base-layer of cement.  The cement is an effective means of preventing your cob bench from seaping up water from the ground, which would undermine its structural integrity.  By raising the cement foundation 10cm above the ground, we also prevent seepage in through the benches outer layer in case of pooling rain or flooding.</p>
-                            <ul>
-                                <li data-lang-id="107a-block-11-list-paragraph-1">Mix cement to a 1:7 ratio of cement to sand/gravel.  You’ll be making two batches.  The first will be somewhat wet (the constiently of thick soup) and the second will be dryer (the consistency of yogurt)</li>
-                                <li data-lang-id="107b-block-11-list-paragraph-2">Ensure that the stones you’ve laid into the trench are not touching.</li>
-                                <li data-lang-id="107c-block-11-list-paragraph-3">Use a bucket of water to wet your trench and laid stones.</li>
-                                <li data-lang-id="107d-block-11-list-paragraph-4">Pour your first wet mix of cement over all the stones, filling the trench entirely to the ground level.  Make sure the cement seeps all the way down between the stones.</li>
-                                <li data-lang-id="107e-block-11-list-paragraph-5">Lay the second mix of yogurt cement over the first. If your first layer has already dried, be sure to score it with stick, then wet it again.</li>
-                                <li data-lang-id="107f-block-11-list-paragraph-6">Lay your first level of ecobricks down, resting in the cement.  Space ecobricks approxamitely 4 cm apart.</li>
-                                <li data-lang-id="107g-block-11-list-paragraph-7">Make sure that the ecobricks are a minimum of 20% submerged in the cement.  Do not submerge more than 40% or they may be un-removeable in the future.</li>
-                                <li data-lang-id="107h-block-11-list-paragraph-8">Let dry over night.</li>
-                            </ul>
-                            <p data-lang-id="108-block-11-paragraph-2"><b>Caution:</b>The use of cement in a project has a significant grey environmental impact.  The production, shipping and sale of cement is one of the largest sources of human CO2 emissions.  It is estimated that for every 1kg of <a href="https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf">cement  0.5-0.9kg of CO2e is released</a>.   If you choose to use cement, be sure that the green impact of your projects (the garden your will grow, the trees in your green space, your sequestration of plastic, etc.) are greater than your grey impacts.   Only in this way can you assure that your project is <a href"principles.php">net-green and regenerative.</a></p>
-                            <p data-lang-id="109-block-11-paragraph-3"><b>Caution:</b>CAUTION:  Be sure that your use of cement does not completely encase your ecobricks– which will prevent them from being removed undamaged in the future.</p>
-                        </div>
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Prepare-building-site3.jpg', ' ')">
+                                <img src="../photos/earth-methods/Prepare-building-site3.jpg" loading="lazy">
+                            </div>
+                        </div><!--closes gallery-->
+                        <p data-lang-id="084-block-8-paragraph-1">Clear the space where you will be working of all hazards.  Make sure that there is plenty of free space to work and move.  Allocate a space for mixing the cob, for piling materials, and for tools.  Make sure there are no hazards on the ground for when you get started.</p>
+                        <p data-lang-id="085-block-8-paragraph-2">Use chalk, or stakes to set out the footprint of your build.  Once this is done, you’ll want to give some thought to the pathways and flow of the collaboration.  This is particularly important if you’re evolving dozens or hundreds of participants for a large build.  Think about where to place your tools and materials for the different teams that will be working on different aspects of the construction.</p>
+                        <p data-lang-id="086-block-8-paragraph-3">Plan out the pathways that your teams will move on between work sites, materials, and the build.  Try to make sure that the paths do not overlap, and that teams have ample space to work.</p>
                     </div>
-                </section>
+                </div>
+            </section>
 
-                <section id="MASH">
-                    <div class="reg-content-block" id="block12">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="110-block-12-opener-header">7. Mash your cob mixture</h4>
-                                <h5 data-lang-id="111-block-12-opener-subheader">Now for the fun part.  This is where we get everyone involved…</h5>
-                            </div>
-                            <button onclick="toggleAccordion(12)" class="block-toggle" id="block-toggle-show12" aria-expanded="false" aria-label="Toggle Section Twelve">+</button>
+            <section id="DIG">
+                <div class="reg-content-block" id="block9">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="087-block-9-opener-header">6. Dig your foundation</h4>
                         </div>
-
-                        <div id="preclosed12">
-                            <br>
-                            <div id="three-column-gal-mash1" class="three-column-gal">
-                                <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture1.jpg', 'Mix your cob mixture to your ratio.')">
-                                    <img src="../photos/earth-methods/Mash-your-cob-mixture1.jpg" alt="Mix your cob mixture to your ratio." loading="lazy">
-                                    <p data-lang-id="112-photo-caption">Mix your cob mixture to your ratio.</p>
-                                </div>
-
-                                <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture2.jpg, ' ')">
-                                    <img src="../photos/earth-methods/Mash-your-cob-mixture2.jpg" loading="lazy">
-                                </div>
-
-                                <!--photo3-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture3.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Mash-your-cob-mixture3.jpg" loading="lazy">
-                                </div>
-                            </div>
-                            <br>
-                            <div id="three-column-gal-mash1" class="three-column-gal">
-                                <!--photo4-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture4.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Mash-your-cob-mixture4.jpg" loading="lazy">
-                                </div>
-
-                                <!--photo5-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture5.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Mash-your-cob-mixture5.jpg" loading="lazy">
-                                </div>
-
-                                <!--photo6-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture6.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Mash-your-cob-mixture6.jpg" loading="lazy">
-                                </div>
-                            </div><!--closes gallery-->
-                            <p data-lang-id="113-block-12-paragraph-1">Mix your cob to the ratio that you discovered was best in Step 1. Use buckets to measure each part.  Dump the buckets of sand and clay onto a large tarp.  Add your organic binder (straw, hay, coconut fibre, etc…).  </p>
-                            <p data-lang-id="114-block-12-paragraph-2">Use your feet to mash and mix the cob.  Add small quantities of water as you go to help the mixing (but not too much or your mix will be too soupy).  You want your cob to have the consistency of playdough. </p>
-                            <p data-lang-id="115-block-12-paragraph-3">Your mix is ready once there is absolutely no trace of sand grains.   Remember, one of the factors in the stength of your cob (and final construction) is how well it is mixed.</p>
-                                </div>
+                        <button onclick="toggleAccordion(9)" class="block-toggle" id="block-toggle-show9" aria-expanded="false" aria-label="Toggle Section Nine">+</button>
                     </div>
-                </section>
 
-                <section id="BALLS">
-                    <div class="reg-content-block" id="block13">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="116-block-13-opener-header">8. Make Cob Balls</h4>
-                                <h5 data-lang-id="117-block-13-opener-subheader">Cob Balling is a fun and valuable step that helps include just about everybody in the collaboration.</h5>
+                    <div id="preclosed9">
+                        <br>
+                        <div id="three-column-gal-dig1" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation1.jpg', 'Lay medium stones in your trench')">
+                                <img src="../photos/earth-methods/Dig-your-foundation1.jpg" alt="Lay medium stones in your trench" loading="lazy">
+                                <p data-lang-id="088-photo-caption">Lay medium stones in your trench</p>
                             </div>
-                            <button onclick="toggleAccordion(13)" class="block-toggle" id="block-toggle-show13" aria-expanded="false" aria-label="Toggle Section Thirteen">+</button>
-                        </div>
 
-                        <div id="preclosed13">
-                            <br>
-                            <div id="three-column-gal-balls" class="three-column-gal">
-                                <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Make-cob-balls1.jpg', 'Anyone can help')">
-                                    <img src="../photos/earth-methods/Make-cob-balls1.jpg" alt="Anyone can help" loading="lazy">
-                                    <p data-lang-id="118-photo-caption">Anyone can help</p>
-                                </div>
-                                            <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Make-cob-balls2.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Make-cob-balls2.jpg" loading="lazy">
-                                            </div>
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation2.jpg, ' ')">
+                                <img src="../photos/earth-methods/Dig-your-foundation2.jpg" loading="lazy">
+                            </div>
 
-                                            <!--photo3-->
-                                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Make-cob-balls3.jpg', '')">
-                                                <img src="../photos/earth-methods/Make-cob-balls3.jpg" loading="lazy">
-                                            </div>
-                            </div><!--closes gallery-->
-                            <p data-lang-id="119-block-13-paragraph-1">You will know that the mixture is complete when you can no longer see any sand and the entire batch is of the same homogenous consistency.  But even then, you can add one more level of mixing to enhance the strength of your dried cob. </p>
-                            <p data-lang-id="120-block-13-paragraph-2">When you’re ready, have your team use their hands to make balls out of the mix.  Cob balls help refine the mix one last time, and make the cob easier to transport and handy to lay in between ecobricks. </p>
-                            <p data-lang-id="121-block-13-paragraph-3">No need for gloves!  Cob is 100% safe to handle with your hands, and many builders are even convinced that its therapeutic!</p>
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation3.jpg', 'Dig a 10cm deep trench in which to lay your cement foundation.')">
+                                <img src="../photos/earth-methods/Dig-your-foundation3.jpg" alt="Dig a 10cm deep trench in which to lay your cement foundation." loading="lazy">
+                                <p data-lang-id="089-photo-caption">Dig a 10cm deep trench in which to lay your cement foundation./p>
+                            </div>
                         </div>
+                        <br>
+                        <div id="three-column-gal-dig2" class="three-column-gal">
+                            <!--photo4-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation4.jpg', '')">
+                                <img src="../photos/earth-methods/Dig-your-foundation4.jpg" loading="lazy">
+                            </div>
+
+                            <!--photo5-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation5.png', 'Lay out ecobricks')">
+                                <img src="../photos/earth-methods/Dig-your-foundation5.png" alt="Lay out ecobricks" loading="lazy">
+                                <p data-lang-id="090-photo-caption">Lay out ecobricks</p>
+                            </div>
+                            
+                            <!--photo6-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Dig-your-foundation6.jpg', ' ')">
+                                <img src="../photos/earth-methods/Dig-your-foundation6.jpg" loading="lazy">
+                            </div>
+                        </div><!--closes gallery-->
+                        <p data-lang-id="091-block-9-paragraph-1">Once you’ve got your bench line figured out and marked with chalk and sticks, lay your ecobricks into the space.  Use the loose ecobricks to finalize the footprint of your construction. This will help you put the final touches on the curves of the footprint and determine precisely how many ecobricks you will need.  Adjust as you see fit. When all is ready, remove the ecobricks.</p>
+                        <p data-lang-id="092-block-9-paragraph-2">Now you’re ready to break ground!</p>
+                        <ul>
+                            <li data-lang-id="093a-block-9-list-paragraph-1">Dig down 10 cm for the entire footprint of your foundation.</li>
+                            <li data-lang-id="093b-block-9-list-paragraph-2">Place loose ecobricks in the trench to make sure its the right size.  Space the ecobricks 4cm apart to estimate how many ecobricks you will need per level.</li>
+                            <li data-lang-id="093c-block-9-list-paragraph-3">Remove all ecobricks, and dirt.  Fill the trench with a base layer of medium sized stones.</li>
+                            <li data-lang-id="093d-block-9-list-paragraph-4">Lay the stones so that their tops are level with the ground.</li>
+                        </ul>
+                        <p data-lang-id="094-block-9-paragraph-3">There are two main ways of completing your foundation: with cement or without…</p>
                     </div>
-                </section>
+                </div>
+            </section>
 
-
-                <section id="SECONDLAYER">
-                    <div class="reg-content-block" id="block14">
-                        <div class="opener-header">
-                            <div class="opener-header-text">
-                                <h4 data-lang-id="122-block-14-opener-header">9. Lay the second layer of Ecobricks</h4>
-                                <h5 data-lang-id="123-block-14-opener-subheader">Now, its time to produce and lay cob and ecobricks.  The brunt of the work is now ahead, but with everyone working together it goes fun and fast!</h5>
-                            </div>
-                            <button onclick="toggleAccordion(14)" class="block-toggle" id="block-toggle-show14" aria-expanded="false" aria-label="Toggle Section Fourteen">+</button>
+            <section id="ADVANCED1">
+                <div class="reg-content-block" id="block10">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="095-block-10-opener-header">6.1 Non-Cement Foundation</h4>
                         </div>
-
-                        <div id="preclosed14">
-                            <br>
-                            <div id="three-column-gal-secondlayer1" class="three-column-gal">
-                                <!--photo1-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer1.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Lay-second-layer1.jpg" loading="lazy">
-                                </div>
-
-                                <!--photo2-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer2.jpg", 'Add a two finger high layer of cob on top')">
-                                    <img src="../photos/earth-methods/Lay-second-layer2.jpg" alt="Add a two finger high layer of cob on top" loading="lazy">
-                                    <p data-lang-id="124-photo-caption">Add a two finger high layer of cob on top</p>
-                                </div>
-
-                                <!--photo3-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer3.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Lay-second-layer3.jpg" loading="lazy">
-                                </div>
-                            </div>
-                            <br>
-                            <div id="three-column-gal-secondlayer2" class="three-column-gal">
-                                <!--photo4-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer4.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Lay-second-layer4.jpg" loading="lazy">
-                                </div>
-
-                                <!--photo5-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer5.jpg', ' ')">
-                                    <img src="../photos/earth-methods/Lay-second-layer5.jpg" loading="lazy">
-                                </div>
-
-                                <!--photo6-->
-                                <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture6.jpg', 'Pack another layer of cob over top')">
-                                    <img src="../photos/earth-methods/Mash-your-cob-mixture6.jpg" alt="Pack another layer of cob over top" loading="lazy">
-                                    <p data-lang-id="125-photo-caption">Pack another layer of cob over top</p>
-                                </div>
-                            </div><!--closes gallery-->
-                            <p data-lang-id="126-block-14-paragraph-1">This is where the earlier layout of your work site pathways is key (Step 3).  Have your cob mashing team move to mash on another tarp, while you ball-making team takes over.  Once the balls are ready, they are brought to the team compacting them onto the build.</p>
-                            <p data-lang-id="127-block-14-paragraph-2">Bang the cob balls around the ecobricks that are set in the cement.  Pack the cob all the way down between bottles.  It can be helpful to lay small stones between the bottles to take up space and minimize the use of cob.</p>
-                            <p data-lang-id="128-block-14-paragraph-3">Make sure that 2cm of the bottom and top of the ecobricks are exposed on the inside and outside of your bench.  Later, this space will be filled with your finishing skin-layer of cob.</p>
-                            <p data-lang-id="129-block-14-paragraph-4">Cover the ecobricks with a layer of compacted cob approximately 5cm high.  Bang your new ecobricks down as you lay this level.  Aim for 4cm of distance between the ecobricks below. Keep your horizontal spacing consistent at 4 cm between bottles.  Position each new ecobrick in between the two below it.</p>
-                        </div>
+                        <button onclick="toggleAccordion(10)" class="block-toggle" id="block-toggle-show10" aria-expanded="false" aria-label="Toggle Section Ten">+</button>
                     </div>
-                </section>
+                    <div id="preclosed10">
+                        <br>
+                        <div id="three-column-gal-61-1" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation1.png', ' ')">
+                                <img src="../photos/earth-methods/Non-cement-foundation1.png" loading="lazy">
+                            </div>
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation2.png', ' ')">
+                                <img src="../photos/earth-methods/Non-cement-foundation2.png" loading="lazy">
+                            </div>
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation3.png', ' ')">
+                                <img src="../photos/earth-methods/Non-cement-foundation3.png" loading="lazy">
+                            </div>
+                        </div>
+                        <br>
+                        <div id="three-column-gal-61-2" class="three-column-gal">
+                            <!--photo4-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation4.png', ' ')">
+                                <img src="../photos/earth-methods/Non-cement-foundation4.png" loading="lazy">
+                            </div>
+                            <!--photo5-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Non-cement-foundation5.png', ' ')">
+                                <img src="../photos/earth-methods/Non-cement-foundation5.png" loading="lazy">
+                            </div>
+                        </div><!--closes gallery-->
+                        <p data-lang-id="096-block-10-paragraph-1">Dig a trench slightly wider than your wall, removing all the top soil (the rooty stuff) usually 20-50cm deep, until you have a very firm subsoil base.</p>
+                        <p data-lang-id="097-block-10-paragraph-2">Lay medium sized stones in your trench making a free draining foundation. (A land drain could be added on wetter sites). Tamp down. It can be infilled with some smaller stones to make it level with the ground, or a little higher.</p>
+                        <p data-lang-id="098-block-10-paragraph-3">It is now possible to build with ecobricks on this foundation/rubble trench. If you are building a large structure or if ground conditions are sometimes wet consider raising the walls further from the ground. The Porthmadog site in Wales is on a flood plain and gets very wet in winter, so the chosen method combined aspects of the following examples. It is advised that you examine vernacular buildings for local, cement free and climate appropriate solutions. Sustainable architects and engineers can also help with this.</p>
+                    </div>
+                </div>
+            </section>
 
-                <section id="BUILDINGUP">
+            <section id="ADVANCED2">
+                <div class="reg-content-block" id="block11">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="099-block-11-opener-header">6.2 Cement Foundations</h4>
+                        </div>
+                        <button onclick="toggleAccordion(11)" class="block-toggle" id="block-toggle-show11" aria-expanded="false" aria-label="Toggle Section Eleven">+</button>
+                    </div>
+
+                    <div id="preclosed11">
+                        <br>
+                        <div id="three-column-gal62-1" class="three-column-gal">
+                        <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations1.jpg', 'Mix cement 1:8')">
+                                <img src="../photos/earth-methods/Cement-foundations1.jpg" alt="Mix cement 1:8" loading="lazy">
+                                <p data-lang-id="100-photo-caption">Mix cement 1:8</p>
+                            </div>
+
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations2.jpg', 'Pour over wet cement')">
+                                <img src="../photos/earth-methods/Cement-foundations2.jpg" alt="Pour over wet cement" loading="lazy">
+                                <p data-lang-id="101-photo-caption">Pour over wet cement</p>
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations3.jpg', 'Mix dry batch')">
+                                <img src="../photos/earth-methods/Cement-foundations3.jpg" alt="Mix dry batch" loading="lazy">
+                                <p data-lang-id="102-photo-caption">Mix dry batch</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="three-column-gal62-2" class="three-column-gal">
+                            <!--photo4-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations4.png', 'Lay Second layer + ecobricks')">
+                                <img src="../photos/earth-methods/Cement-foundations4.jpg" alt="Lay Second layer + ecobricks" loading="lazy">
+                                <p data-lang-id="103-photo-caption">Lay Second layer + ecobricks</p>
+                            </div>
+
+                            <!--photo5-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations5.jpg', 'Fill spaces with rocks')">
+                                <img src="../photos/earth-methods/Cement-foundations5.jpg" alt="Fill spaces with rocks" loading="lazy">
+                                <p data-lang-id="104-photo-caption">Fill spaces with rocks</p>
+                            </div>
+                            
+                            <!--photo6-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-foundations6.jpg', '20%-30% submerged')">
+                                <img src="../photos/earth-methods/Cement-foundations6.jpg" alt="20%-30% submerged" loading="lazy">
+                                <p data-lang-id="105-photo-caption">20%-30% submerged</p>
+                            </div>
+                        </div><!--closes gallery-->
+                        <p data-lang-id="106-block-11-paragraph-1">There are various ways to lay your foundation.  One option is using a base-layer of cement.  The cement is an effective means of preventing your cob bench from seaping up water from the ground, which would undermine its structural integrity.  By raising the cement foundation 10cm above the ground, we also prevent seepage in through the benches outer layer in case of pooling rain or flooding.</p>
+                        <ul>
+                            <li data-lang-id="107a-block-11-list-paragraph-1">Mix cement to a 1:7 ratio of cement to sand/gravel.  You’ll be making two batches.  The first will be somewhat wet (the constiently of thick soup) and the second will be dryer (the consistency of yogurt)</li>
+                            <li data-lang-id="107b-block-11-list-paragraph-2">Ensure that the stones you’ve laid into the trench are not touching.</li>
+                            <li data-lang-id="107c-block-11-list-paragraph-3">Use a bucket of water to wet your trench and laid stones.</li>
+                            <li data-lang-id="107d-block-11-list-paragraph-4">Pour your first wet mix of cement over all the stones, filling the trench entirely to the ground level.  Make sure the cement seeps all the way down between the stones.</li>
+                            <li data-lang-id="107e-block-11-list-paragraph-5">Lay the second mix of yogurt cement over the first. If your first layer has already dried, be sure to score it with stick, then wet it again.</li>
+                            <li data-lang-id="107f-block-11-list-paragraph-6">Lay your first level of ecobricks down, resting in the cement.  Space ecobricks approxamitely 4 cm apart.</li>
+                            <li data-lang-id="107g-block-11-list-paragraph-7">Make sure that the ecobricks are a minimum of 20% submerged in the cement.  Do not submerge more than 40% or they may be un-removeable in the future.</li>
+                            <li data-lang-id="107h-block-11-list-paragraph-8">Let dry over night.</li>
+                        </ul>
+                        <p data-lang-id="108-block-11-paragraph-2"><b>Caution:</b>The use of cement in a project has a significant grey environmental impact.  The production, shipping and sale of cement is one of the largest sources of human CO2 emissions.  It is estimated that for every 1kg of <a href="https://iopscience.iop.org/article/10.1088/1755-1315/331/1/012035/pdf">cement  0.5-0.9kg of CO2e is released</a>.   If you choose to use cement, be sure that the green impact of your projects (the garden your will grow, the trees in your green space, your sequestration of plastic, etc.) are greater than your grey impacts.   Only in this way can you assure that your project is <a href"principles.php">net-green and regenerative.</a></p>
+                        <p data-lang-id="109-block-11-paragraph-3"><b>Caution:</b>CAUTION:  Be sure that your use of cement does not completely encase your ecobricks– which will prevent them from being removed undamaged in the future.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="MASH">
+                <div class="reg-content-block" id="block12">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="110-block-12-opener-header">7. Mash your cob mixture</h4>
+                            <h5 data-lang-id="111-block-12-opener-subheader">Now for the fun part.  This is where we get everyone involved…</h5>
+                        </div>
+                        <button onclick="toggleAccordion(12)" class="block-toggle" id="block-toggle-show12" aria-expanded="false" aria-label="Toggle Section Twelve">+</button>
+                    </div>
+
+                    <div id="preclosed12">
+                        <br>
+                        <div id="three-column-gal-mash1" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture1.jpg', 'Mix your cob mixture to your ratio.')">
+                                <img src="../photos/earth-methods/Mash-your-cob-mixture1.jpg" alt="Mix your cob mixture to your ratio." loading="lazy">
+                                <p data-lang-id="112-photo-caption">Mix your cob mixture to your ratio.</p>
+                            </div>
+
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture2.jpg, ' ')">
+                                <img src="../photos/earth-methods/Mash-your-cob-mixture2.jpg" loading="lazy">
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture3.jpg', ' ')">
+                                <img src="../photos/earth-methods/Mash-your-cob-mixture3.jpg" loading="lazy">
+                            </div>
+                        </div>
+                        <br>
+                        <div id="three-column-gal-mash1" class="three-column-gal">
+                            <!--photo4-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture4.jpg', ' ')">
+                                <img src="../photos/earth-methods/Mash-your-cob-mixture4.jpg" loading="lazy">
+                            </div>
+                            
+                            <!--photo5-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture5.jpg', ' ')">
+                                <img src="../photos/earth-methods/Mash-your-cob-mixture5.jpg" loading="lazy">
+                            </div>
+
+                            <!--photo6-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture6.jpg', ' ')">
+                                <img src="../photos/earth-methods/Mash-your-cob-mixture6.jpg" loading="lazy">
+                            </div>
+                        </div><!--closes gallery-->
+                        <p data-lang-id="113-block-12-paragraph-1">Mix your cob to the ratio that you discovered was best in Step 1. Use buckets to measure each part.  Dump the buckets of sand and clay onto a large tarp.  Add your organic binder (straw, hay, coconut fibre, etc…).  </p>
+                        <p data-lang-id="114-block-12-paragraph-2">Use your feet to mash and mix the cob.  Add small quantities of water as you go to help the mixing (but not too much or your mix will be too soupy).  You want your cob to have the consistency of playdough. </p>
+                        <p data-lang-id="115-block-12-paragraph-3">Your mix is ready once there is absolutely no trace of sand grains.   Remember, one of the factors in the stength of your cob (and final construction) is how well it is mixed.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="BALLS">
+                <div class="reg-content-block" id="block13">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="116-block-13-opener-header">8. Make Cob Balls</h4>
+                            <h5 data-lang-id="117-block-13-opener-subheader">Cob Balling is a fun and valuable step that helps include just about everybody in the collaboration.</h5>
+                        </div>
+                        <button onclick="toggleAccordion(13)" class="block-toggle" id="block-toggle-show13" aria-expanded="false" aria-label="Toggle Section Thirteen">+</button>
+                    </div>
+
+                    <div id="preclosed13">
+                        <br>
+                        <div id="three-column-gal-balls" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Make-cob-balls1.jpg', 'Anyone can help')">
+                                <img src="../photos/earth-methods/Make-cob-balls1.jpg" alt="Anyone can help" loading="lazy">
+                                <p data-lang-id="118-photo-caption">Anyone can help</p>
+                            </div>
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Make-cob-balls2.jpg', ' ')">
+                                <img src="../photos/earth-methods/Make-cob-balls2.jpg" loading="lazy">
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Make-cob-balls3.jpg', '')">
+                                <img src="../photos/earth-methods/Make-cob-balls3.jpg" loading="lazy">
+                            </div>
+                        </div><!--closes gallery-->
+                        <p data-lang-id="119-block-13-paragraph-1">You will know that the mixture is complete when you can no longer see any sand and the entire batch is of the same homogenous consistency.  But even then, you can add one more level of mixing to enhance the strength of your dried cob. </p>
+                        <p data-lang-id="120-block-13-paragraph-2">When you’re ready, have your team use their hands to make balls out of the mix.  Cob balls help refine the mix one last time, and make the cob easier to transport and handy to lay in between ecobricks. </p>
+                        <p data-lang-id="121-block-13-paragraph-3">No need for gloves!  Cob is 100% safe to handle with your hands, and many builders are even convinced that its therapeutic!</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="SECONDLAYER">
+                <div class="reg-content-block" id="block14">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="122-block-14-opener-header">9. Lay the second layer of Ecobricks</h4>
+                            <h5 data-lang-id="123-block-14-opener-subheader">Now, its time to produce and lay cob and ecobricks.  The brunt of the work is now ahead, but with everyone working together it goes fun and fast!</h5>
+                        </div>
+                        <button onclick="toggleAccordion(14)" class="block-toggle" id="block-toggle-show14" aria-expanded="false" aria-label="Toggle Section Fourteen">+</button>
+                    </div>
+
+                    <div id="preclosed14">
+                        <br>
+                        <div id="three-column-gal-secondlayer1" class="three-column-gal">
+                            <!--photo1-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer1.jpg', ' ')">
+                                <img src="../photos/earth-methods/Lay-second-layer1.jpg" loading="lazy">
+                            </div>
+
+                            <!--photo2-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer2.jpg', 'Add a two finger high layer of cob on top')">
+                                <img src="../photos/earth-methods/Lay-second-layer2.jpg" alt="Add a two finger high layer of cob on top" loading="lazy">
+                                <p data-lang-id="124-photo-caption">Add a two finger high layer of cob on top</p>
+                            </div>
+
+                            <!--photo3-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer3.jpg', ' ')">
+                                <img src="../photos/earth-methods/Lay-second-layer3.jpg" loading="lazy">
+                            </div>
+                        </div>
+                        <br>
+                        <div id="three-column-gal-secondlayer2" class="three-column-gal">
+                            <!--photo4-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer4.jpg', ' ')">
+                                <img src="../photos/earth-methods/Lay-second-layer4.jpg" loading="lazy">
+                            </div>
+
+                            <!--photo5-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Lay-second-layer5.jpg', ' ')">
+                                <img src="../photos/earth-methods/Lay-second-layer5.jpg" loading="lazy">
+                            </div>
+
+                            <!--photo6-->
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Mash-your-cob-mixture6.jpg', 'Pack another layer of cob over top')">
+                                <img src="../photos/earth-methods/Mash-your-cob-mixture6.jpg" alt="Pack another layer of cob over top" loading="lazy">
+                                <p data-lang-id="125-photo-caption">Pack another layer of cob over top</p>
+                            </div>
+                        </div><!--closes gallery-->
+                        <p data-lang-id="126-block-14-paragraph-1">This is where the earlier layout of your work site pathways is key (Step 3).  Have your cob mashing team move to mash on another tarp, while you ball-making team takes over.  Once the balls are ready, they are brought to the team compacting them onto the build.</p>
+                        <p data-lang-id="127-block-14-paragraph-2">Bang the cob balls around the ecobricks that are set in the cement.  Pack the cob all the way down between bottles.  It can be helpful to lay small stones between the bottles to take up space and minimize the use of cob.</p>
+                        <p data-lang-id="128-block-14-paragraph-3">Make sure that 2cm of the bottom and top of the ecobricks are exposed on the inside and outside of your bench.  Later, this space will be filled with your finishing skin-layer of cob.</p>
+                        <p data-lang-id="129-block-14-paragraph-4">Cover the ecobricks with a layer of compacted cob approximately 5cm high.  Bang your new ecobricks down as you lay this level.  Aim for 4cm of distance between the ecobricks below. Keep your horizontal spacing consistent at 4 cm between bottles.  Position each new ecobrick in between the two below it.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="BUILDINGUP">
                 <div class="reg-content-block" id="block15">
                     <div class="opener-header">
                         <div class="opener-header-text">
@@ -802,7 +800,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                             </div>
 
                             <!--photo2-->
-                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up2.jpg", ' ')">
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/keep-building-up2.jpg', ' ')">
                                 <img src="../photos/earth-methods/keep-building-up2.jpg" loading="lazy">
                             </div>
 
@@ -832,9 +830,9 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                         <p data-lang-id="132-block-15-paragraph-2">Keep adding layers of bottles and cob!  We find that benches are good with two or three layers of bottles.  For walls, add a row of iron re-bar at every 5th layer of bottles.</p>
                     </div>
                 </div>
-                </section>
+            </section>
 
-                <section id="OUTERSKIN">
+            <section id="OUTERSKIN">
                 <div class="reg-content-block" id="block16">
                     <div class="opener-header">
                         <div class="opener-header-text">
@@ -853,7 +851,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                             </div>
 
                             <!--photo2-->
-                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Apply-outer-skin2.jpg", ' ')">
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Apply-outer-skin2.jpg', ' ')">
                                 <img src="../photos/earth-methods/Apply-outer-skin2.jpg" loading="lazy">
                             </div>
                         </div> <!--Closes gallery-->
@@ -868,14 +866,14 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                         <p data-lang-id="140-block-16-paragraph-6"><h4>Process</h4></p>
                         <br>
                         <ul>
-                                    <li data-lang-id="141a-block-16-advanced-list-paragraph-1">Mix your outer skin as you have with your other batch of cob.</li>
-                                    <li data-lang-id="141b-block-16-advanced-list-paragraph-2">Optional: Mix in 1 part cement to 7 parts cob</li>
-                                    <li data-lang-id="141c-block-16-advanced-list-paragraph-3">Be sure not to add binder and to use sand without stones.</li>
-                                    <li data-lang-id="141d-block-16-advanced-list-paragraph-4">Acheive a playdough consistency</li>
-                                    <li data-lang-id="141e-block-16-advanced-list-paragraph-5">Be sure to make into cob balls to ensure a full mixing.</li>
-                                    <li data-lang-id="141f-block-16-advanced-list-paragraph-6">Wet the outside of your bench</li>
-                                    <li data-lang-id="141g-block-16-advanced-list-paragraph-7">Smack cob balls onto the outside of your bench.  Use your palm to pack the cob down and acheive a smooth surface.</li>
-                                    <li data-lang-id="141h-block-16-advanced-list-paragraph-8">Be sure to use gloves if you’ve mixed in cement.</li>
+                            <li data-lang-id="141a-block-16-advanced-list-paragraph-1">Mix your outer skin as you have with your other batch of cob.</li>
+                            <li data-lang-id="141b-block-16-advanced-list-paragraph-2">Optional: Mix in 1 part cement to 7 parts cob</li>
+                            <li data-lang-id="141c-block-16-advanced-list-paragraph-3">Be sure not to add binder and to use sand without stones.</li>
+                            <li data-lang-id="141d-block-16-advanced-list-paragraph-4">Acheive a playdough consistency</li>
+                            <li data-lang-id="141e-block-16-advanced-list-paragraph-5">Be sure to make into cob balls to ensure a full mixing.</li>
+                            <li data-lang-id="141f-block-16-advanced-list-paragraph-6">Wet the outside of your bench</li>
+                            <li data-lang-id="141g-block-16-advanced-list-paragraph-7">Smack cob balls onto the outside of your bench.  Use your palm to pack the cob down and acheive a smooth surface.</li>
+                            <li data-lang-id="141h-block-16-advanced-list-paragraph-8">Be sure to use gloves if you’ve mixed in cement.</li>
                         </ul>
                         <br>
                         <p data-lang-id="142-block-16-paragraph-7"><h4>To show or not to Show</h4></p>
@@ -883,14 +881,14 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                         <p data-lang-id="143-block-16-paragraph-8">When finishing your bench you need to choose whether to leave exposed the bottom of your ecobricks, or else to cover them up.    Each has its advantages…</p>
                         <ul>
                             <li data-lang-id="144a-block-16-advanced-list-paragraph-9"><b>To Show:</b>  Leaving the bottom of your ecobricks exposed is a safe way to show that your wall is made from ecobricks.  By choosing ecobricks with set bottom colors you can make patterns and even write words.  However, the exposed bottoms are succepible to degradation and damage over time.  Not recommend on walls exposed to the full sun.</li>
-                                    <li data-lang-id="144b-block-16-advanced-list-paragraph-10"><b>To Hide:</b>  This is the safest way to use your ecobricks… but no one will know your wall is made with ecobricks.  There are ways around this by leaving one or two ecobricks exposed, or using glasses to cover the ecobrick.</li>
-                                    <li data-lang-id="144c-block-16-advanced-list-paragraph-11"><b>Caps:</b> We do not recommend leaving ecobrick caps exposed on walls facing the outdoors as the HDPE plastic degrades quickly with even small amounts of sun exposure.</li>
+                            <li data-lang-id="144b-block-16-advanced-list-paragraph-10"><b>To Hide:</b>  This is the safest way to use your ecobricks… but no one will know your wall is made with ecobricks.  There are ways around this by leaving one or two ecobricks exposed, or using glasses to cover the ecobrick.</li>
+                            <li data-lang-id="144c-block-16-advanced-list-paragraph-11"><b>Caps:</b> We do not recommend leaving ecobrick caps exposed on walls facing the outdoors as the HDPE plastic degrades quickly with even small amounts of sun exposure.</li>
                         </ul>
                     </div>
                 </div>
-                </section>
+            </section>
 
-                <section id="RENDER">
+            <section id="RENDER">
                 <div class="reg-content-block" id="block17">
                     <div class="opener-header">
                         <div class="opener-header-text">
@@ -904,17 +902,17 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                         <p data-lang-id="147-block-17-paragraph-1">The final layer of earthern constructions is ancient art form that is highly specific to your local materials and climate.  The best place to start is to research the ancestral earth building traditions in your region.  Time is the true test!  Look for building built before the 1900’s and research how their walls were finished.  There are several main methods…</p>
                         <br>
                         <ol>
-                                    <li data-lang-id="148a-block-17-advanced-list-paragraph-1">Using a comibination of fine sand and cow dung</li>
-                                    <li data-lang-id="148b-block-17-advanced-list-paragraph-2">Using a mix of lime and sand. </li>
-                                    <li data-lang-id="148c-block-17-advanced-list-paragraph-3">Using egg whites, lime and sand.</li>
+                            <li data-lang-id="148a-block-17-advanced-list-paragraph-1">Using a comibination of fine sand and cow dung</li>
+                            <li data-lang-id="148b-block-17-advanced-list-paragraph-2">Using a mix of lime and sand. </li>
+                            <li data-lang-id="148c-block-17-advanced-list-paragraph-3">Using egg whites, lime and sand.</li>
                         </ol>
                         <br>
                         <p data-lang-id="149-block-17-paragraph-2">A modern alternative is to coat with transparent acrylic (non-oil based, non-plastic) paint. </p>
                     </div>
                 </div>
-                </section>
+            </section>
 
-                <section id="BROKENTILES">
+            <section id="BROKENTILES">
                 <div class="reg-content-block" id="block18">
                     <div class="opener-header">
                         <div class="opener-header-text">
@@ -934,7 +932,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                             </div>
 
                             <!--photo2-->
-                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-bench-top2.jpg", ' ')">
+                            <div class="gal-photo" onclick="viewGalleryImage('../photos/earth-methods/Cement-bench-top2.jpg', ' ')">
                                 <img src="../photos/earth-methods/Cement-bench-top2.jpg" loading="lazy">
                             </div>
 
@@ -974,7 +972,7 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
                 </div>
                 <div class="side2">
                     <br>
-                        <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
+                    <img src="../webp/road-500px.webp" width="100%" alt="eco brick road into the distance" loading="lazy" alt="eco brik are a form of sequestering plastic safely through time.">
                 </div>
             </div>
         </div>
