@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<HTML lang="en"> 
+<?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='2.01';?>
-<?php $page='earth-wands';?>
+<?php $version='3.03';?>
+<?php $page='earthwand';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
 
