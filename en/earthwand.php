@@ -15,8 +15,8 @@
 
  <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Earthwands</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Make your plastic disapear</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">The Earthwand</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Make your plastic disapear.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="EarthWand adalah produk regeneratif yang dirancang dari awal untuk menjadi alat pembungkus plastik dan pembuat ecobrick yang sempurna.">
     </div>	
@@ -105,31 +105,34 @@
 
                         </ul>
                         </p>
-
+<!--
                         <p data-lang-id="013-page-paragraph">Purchasing an Earthway is a way for ecobrickers to support their local ecobrick trainer, the Global Ecobrick Alliance, regenerative makers and in so doing, energize the plastic transition movement itself.</p>
-                        
-                        
-                        
-                           
-                        <button type="button" class="module-btn" style="margin-top:20px;" onclick="window.open('https://gobrik.com/en/gobrik.com/#shop')" aria-label="Gobrik store" title="Go to GoBrik store" data-lang-id="013-earthwand-buy-button">🛒 GoBrik Store</button>
 
+
+
+
+                        <button type="button" class="module-btn" style="margin-top:20px;" onclick="window.open('https://gobrik.com/en/gobrik.com/#shop')" aria-label="Gobrik store" title="Go to GoBrik store" data-lang-id="013-earthwand-buy-button">🛒 GoBrik Store</button>
+-->
                         </div>
                 </div>
 
                 <div class="side">
             
 
+
+                  <?php require_once ("side-modules/spiral-design-principle.php");?>
+
+                    <?php require_once ("side-modules/eco-accounting-principle.php");?>
+
+                <?php require_once ("side-modules/for-earth-principle.php");?>
                 
 
-                <?php require_once ("side-modules/earthen-ethics.php");?>
-                
-                <?php require_once ("side-modules/spiral-design-principle.php");?>
                 
                 <?php require_once ("side-modules/about-gea.php");?>
 
-                <?php require_once ("side-modules/eco-accounting-principle.php");?>
 
-                <?php require_once ("side-modules/gobrik-store.php");?>
+
+
 
                 
 
