@@ -206,11 +206,11 @@
                     </div>
                 </div>
             </section>
-			<div class="page-paragraph">
-				<h4 data-lang-id="048-page-end-header">Examples of Ocean Ecobricks</p>
-				<p data-lang-id="049-end-page-paragraph">
-				Ocean Ecobricks come in all sizes and shapes– it all depends on what you plan to build!</p>
-			</div>
+        	<div class="page-paragraph">
+    			<h4 data-lang-id="048-page-end-header">Examples of Ocean Ecobricks</p>
+    			<p data-lang-id="049-end-page-paragraph">
+    			Ocean Ecobricks come in all sizes and shapes– it all depends on what you plan to build!</p>
+    		</div>
             <div id="three-column-gal-srs1" class="three-column-gal">
                 <!--photo1-->
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples1.jpg', 'Soil test')">
@@ -221,7 +221,6 @@
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples2.jpeg', 'Find a smooth, flat surface (i.e large tile)')">
                     <img src="../photos/ocean-examples2.jpeg" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
                 </div>
-
                 <!--photo3-->
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples3.jpeg', 'Put on some oil')">
                     <img src="../photos/ocean-examples3.jpeg" alt="Put on some oil">
@@ -234,7 +233,7 @@
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples4.png', 'Mix a small batch of 1:6 cement')">
                     <img src="../photos/ocean-examples4.png" alt="Mix a small batch of 1:6 cement">
                 </div>
-
+                
                 <!--photo2-->
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples5.jpg', 'Lay out your cement foundation/top')">
                     <img src="../photos/ocean-examples5.jpg" alt="Lay out your cement foundation/top">
@@ -280,44 +279,36 @@
                 </div>
             </div>
             <br>
+            <br><br>
+            <div class="page-paragraph-reg">
+                <ul>
+                    <li data-lang-id="079-list-item1"><a href="/why">Why Make Ecobricks?</a></li>
+                    <li data-lang-id="080-list-item2"><a href="how.php">How to Ecobrick?</a></li>
+                    <li data-lang-id="081-list-item3"><a href="spiral.php">Spiral Design</a></li>
+                    <li data-lang-id="082-list-item4"><a href="build.php">Building with Ecobricks</a></li>
+                    <li data-lang-id="083-list-item5"><a href="movement.php">The Movement</a></li>
+                    <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
+                    <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
+                </ul>
+            </div>
+        </div>
+	
+        <!-- PAGE SIDE BAR STARTS HERE-->
+
+        <div class="side">
+
+            <?php require_once ("side-modules/good-use.php");?>
+
+            <?php require_once ("side-modules/sequest-module.php");?>
+
+            <?php require_once ("side-modules/signup-now.php");?>
+    
+            <?php require_once ("side-modules/transition-module.php");?>
+
+            <?php require_once ("side-modules/earthen-ethics.php");?>
         </div>
     </div>
 </div>
-<br><br>
-<div class="page-paragraph-reg">
-    <ul>
-        <li data-lang-id="079-list-item1"><a href="/why">Why Make Ecobricks?</a></li>
-        <li data-lang-id="080-list-item2"><a href="how.php">How to Ecobrick?</a></li>
-        <li data-lang-id="081-list-item3"><a href="spiral.php">Spiral Design</a></li>
-        <li data-lang-id="082-list-item4"><a href="build.php">Building with Ecobricks</a></li>
-        <li data-lang-id="083-list-item5"><a href="movement.php">The Movement</a></li>
-        <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
-        <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
-    </ul>
-</div>
-
-</div>
-	
-<!-- PAGE SIDE BAR STARTS HERE-->
-
-		<div class="side">
-
-
-<?php require_once ("side-modules/good-use.php");?>
-
-<?php require_once ("side-modules/sequest-module.php");?>
-
-<?php require_once ("side-modules/signup-now.php");?>
-    
-<?php require_once ("side-modules/transition-module.php");?>
-
-<?php require_once ("side-modules/earthen-ethics.php");?>
-
-		</div>
-
-	</div>
-</div>
-
 
 
 
