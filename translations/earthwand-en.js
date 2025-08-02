@@ -13,7 +13,7 @@ const en_Page_Translations =
 
   
     '001-splash-title': 'The Earthwand',
-    '002-splash-subtitle': 'Make your plastic disapear',
+    '002-splash-subtitle': 'Make your plastic disappear.',
     '003-splash-image-alt': '<img src="../icons/earthwand-shadow.svg" style="width: 85%" alt="The EarthWand is a regenerative product designed from the ground up to be the perfect plastic packing, ecobrick making tool.">',
     
     '004-lead-page-paragraph': 'Why not you pack your ecobrick with the best possible tool available? ',

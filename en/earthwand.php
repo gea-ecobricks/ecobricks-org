@@ -2,7 +2,7 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
 <HEAD>
 <META charset="UTF-8">
-<?php $version='3.03';?>
+<?php $version='3.04';?>
 <?php $page='earthwand';?>
 
 <?php require_once ("../includes/earthwand-inc.php");?>
