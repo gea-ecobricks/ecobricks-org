@@ -324,7 +324,38 @@
 <!-- This script is for pages that use the accordion content system-->
 <script src="../js/accordion-scripts.js?v=2" defer></script>
 
+<script>
 
+  function toggleAccordion(blockNumber) {
+    // Toggle the display of the content block
+    var contentBlock = document.getElementById("preclosed" + blockNumber);
+    if (contentBlock.style.display === "block") {
+        contentBlock.style.display = "none";
+    } else {
+        contentBlock.style.display = "block";
+    }
+
+    // Toggle the styling of the main block
+    var mainBlock = document.getElementById("block" + blockNumber);
+    if (mainBlock.style.display === "grid") {
+        mainBlock.style.background = "var(--accordion-background)";
+        mainBlock.style.display = "block";
+    } else {
+        mainBlock.style.background = "var(--main-background)";
+        mainBlock.style.display = "grid";
+    }
+
+    // Toggle the button text
+    var toggleButton = document.getElementById("block-toggle-show" + blockNumber);
+    if (toggleButton.innerHTML === "+") {
+        toggleButton.innerHTML = "-";
+    } else {
+        toggleButton.innerHTML = "+";
+    }
+}
+
+
+</script>
 </div>
 </body>
 </html>

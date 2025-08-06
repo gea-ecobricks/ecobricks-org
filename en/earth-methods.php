@@ -42,21 +42,21 @@ The Global Ecobrick Alliance recommends the use of earth and ecobricks to build 
 				<p data-lang-id="008-second-page-paragraph">We encourage you to start by learning from ancestral earth building methods in your region and starting small.  By starting small, you and your community can master methods and principles that apply equally to large projects as they do small. Once we have mastered small non-structural applications, we fully envisions homes and structures built with earth and ecobricks.</p>
 			</div>
 			<section id="CAUTION">
-		        	<div class="reg-content-block" id="block1" style="filter:saturate(2);">
-		                	<div class="opener-header">
-		                    		<div class="opener-header-text">
-		                        		<h4 data-lang-id="009-block-1-opener-header">HEADS UP!</h4>
-		                        		<h5 data-lang-id="010-block-1-opener-subheader"><b>⚠️ Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b></h5>
-							            <br>
-						            </div>
-		                            <button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
-					        </div>
+		        <div class="reg-content-block" id="block1" style="filter:saturate(2);">
+		            <div class="opener-header">
+		                <div class="opener-header-text">
+		                    <h4 data-lang-id="009-block-1-opener-header">HEADS UP!</h4>
+		                    <h5 data-lang-id="010-block-1-opener-subheader"><b>⚠️ Earth & Ecobrick building is fundamentally distinct from conventional commercial building.</b></h5>
+							<br>
+						</div>
+		                <button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
+					</div>
 					
-					        <div id="preclosed1">
-						        <p data-lang-id="011-block-1-opener-subheader">Today’s conventional construction relies on industrial materials and methods that can only be bought.  These materials and methods (and the industries and capital behind them) are ecological depleting.  In contrast, Earthen construction is all about ecological benefit (sequestering carbon, supporting biodiversity, etc.).  Instead we use local materials and locally appropriate methods guided by regenerative principles to ensure that our constructions are ecological contributions.</p>
-						        <p data-lang-id="012-block-1-link">ℹ️ Learn more about:<a href="earth.php"> Ecobrick & Earth Building Principles</a></p>
-	                        </div>
-    				</div>
+					<div id="preclosed1">
+					    <p data-lang-id="011-block-1-opener-subheader">Today’s conventional construction relies on industrial materials and methods that can only be bought.  These materials and methods (and the industries and capital behind them) are ecological depleting.  In contrast, Earthen construction is all about ecological benefit (sequestering carbon, supporting biodiversity, etc.).  Instead we use local materials and locally appropriate methods guided by regenerative principles to ensure that our constructions are ecological contributions.</p>
+						<p data-lang-id="012-block-1-link">ℹ️ Learn more about:<a href="earth.php"> Ecobrick & Earth Building Principles</a></p>
+	                </div>
+    		    </div>
 	        </section>
 	
             <section id="GREEN">
