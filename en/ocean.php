@@ -278,19 +278,6 @@
                     <img src="../photos/ocean-examples12.jpg" alt="Finish with a thin layer of cob/cement">
                 </div>
             </div>
-            <br>
-            <br><br>
-            <div class="page-paragraph-reg">
-                <ul>
-                    <li data-lang-id="079-list-item1"><a href="/why">Why Make Ecobricks?</a></li>
-                    <li data-lang-id="080-list-item2"><a href="how.php">How to Ecobrick?</a></li>
-                    <li data-lang-id="081-list-item3"><a href="spiral.php">Spiral Design</a></li>
-                    <li data-lang-id="082-list-item4"><a href="build.php">Building with Ecobricks</a></li>
-                    <li data-lang-id="083-list-item5"><a href="movement.php">The Movement</a></li>
-                    <li data-lang-id="084-list-item6"><a href="/dropoff">Dropping off ecobricks?</a></li>
-                    <li data-lang-id="085-list-item7"><a href="/trainings">Ecobrick Trainings</a></li>
-                </ul>
-            </div>
         </div>
 	
         <!-- PAGE SIDE BAR STARTS HERE-->
