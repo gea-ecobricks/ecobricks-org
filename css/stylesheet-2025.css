@@ -732,21 +732,21 @@ legend {
     top: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 /* Position the content inside the overlay */
 .search-overlay-content {
-    position: initial;
     text-align: center; /* Centered text/links */
-    /*margin-top: 30px; 30px top margin to avoid conflict with the close button on smaller screens */
     font-family: "CooperLT";
     display: flex;
-    justify-content: center;
-    flex-flow: column;
-    height:fit-content;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
     margin: auto;
-    transition: margin-top 0.5s ease-in-out;
 }
 
 
@@ -754,8 +754,6 @@ legend {
     .search-overlay-content {
         width: 92%;
         font-size: 0.9em;
-        /*margin-top: 6%;*/
-        margin-top: 30%;
     }
 }
 
@@ -763,8 +761,6 @@ legend {
     .search-overlay-content {
         width: 75%;
         font-size: 0.9em;
-        /*margin-top: 2%;*/
-        margin-top:30%;
     }
 }
 
@@ -772,7 +768,6 @@ legend {
     .search-overlay-content {
         width: 72%;
         margin: auto;
-        margin-top:14%;
     }
 }
 
