@@ -1,19 +1,19 @@
 
 const fr_Page_Translations = {
-  "300-featured-content-1-title": "Cours gratuit d'août",
-  "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours d'introduction en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles dans notre presentation 'Le plastique, la biosphère et les écobriques'",
-  "302-featured-content-1-button": "↗️ Voir le cours sur GoBrik",
-  "300-featured-content-2-title": "Que devrait vraiment signifier \u00ab vert \u00bb ?",
-  "301-featured-content-2-subtitle": "L\u2019\u00e9cobriquage est guid\u00e9 par le concept igorot Ayyew, principe \u00e9cologique fondamental des peuples autochtones sur les terres desquels est n\u00e9 le mouvement asiatique d\u00e9cobriques r\u00e9g\u00e9n\u00e9ratives. Leur \u00e9thique \u00e9cologique inspire la th\u00e9orie de l\'\u00c9thique Terrestre afin de donner une base solide \u00e0 ce que devrait r\u00e9ellement signifier \u00ab vert \u00bb. Webinaire gratuit le 10 ao\u00fbt.",
-  "302-featured-content-2-button": "↗️ \u00c9v\u00e9nement Ayyew d\'ao\u00fbt",
+  "300-featured-content-1-title": "Événement d'introduction aux écobriques",
+  "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours introductif en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles lors de notre événement communautaire en direct 'Plastique, la biosphère et les écobriques'. Zoom. Gratuit.",
+  "302-featured-content-1-button": "↗️ Événement du 21 sept.",
+  "300-featured-content-2-title": "Que devrait vraiment signifier le vert ?",
+  "301-featured-content-2-subtitle": "L'écobriquage est guidé par le concept indigène d'Ayyew. Cet ethos écologique inspire notre éthique terrestre, notre écobriquage et notre compréhension du Vert.",
+  "302-featured-content-2-button": "↗️ Événement du 30 août",
 
-  "300-featured-content-3-title": "L’histoire planétaire du plastique",
-  "301-featured-content-3-subtitle": "D'où vient réellement le plastique ?",
+  "300-featured-content-3-title": "L'histoire stellaire du plastique",
+  "301-featured-content-3-subtitle": "D'où vient vraiment le plastique ? L'histoire planétaire du plastique a commencé il y a des milliards d'années...",
   "302-featured-content-3-button": "🌎 Approfondir !",
 
   "300-featured-content-4-title": "Méthodes Terre & Écobrique",
-  "301-featured-content-4-subtitle": "Lignes directrices et bonnes pratiques détaillées.",
-  "302-featured-content-4-button": "⚒️ Apprendre",
+  "301-featured-content-4-subtitle": "Guides de construction approfondis & meilleures pratiques",
+  "302-featured-content-4-button": "⚒️ Apprendre & Construire",
 
     "500-training-feed": "<span class=\"blink\">⬤  </span> Flux de formations en direct...",
     "500-featured-training-heading": "Formations de l'Alliance Globale d'Écobriques",
