@@ -22,9 +22,9 @@ include '../ecobricks_env.php';
             <div id="slider-content-1" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
-                        <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Free August Course</div>
-                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques from GEA co-founder Russell Maier and GEA Trainer Paula Apollonia in our flagship course 'Plastic, the Biosphere & Ecobricks'.  Free.</div>
-                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ View Course on GoBrik</a>
+                        <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Intro to Ecobricks Event</div>
+                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our live community event 'Plastic, the Biosphere & Ecobricks'.  Zoom. Free.</div>
+                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ Sept. 21 Event</a>
                     </div>
                 </div>
            </div>
@@ -33,9 +33,9 @@ include '../ecobricks_env.php';
             <div class="featured-content-shaded-box">
                 <div class="featured-content-text">
                     <div class="featured-content-title" data-lang-id="300-featured-content-2-title">What should green really mean?</div>
-                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the indigenous concept of Ayyew.  This ecological ethos inspires the Earthen ethics that in turns guides our ecobricking-- and provides the parameters for green! Learn more in our open course on August 10th.</div>
+                    <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the indigenous concept of Ayyew.  This ecological ethos inspires our Earthen ethics, our ecobricking and our understanding of Green.</div>
 
-                    <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ August Course</a>
+                    <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ August 30th Event</a>
                 </div>
             </div>
        </div>
@@ -43,9 +43,9 @@ include '../ecobricks_env.php';
             <div id="slider-content-3" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
-                        <div class="featured-content-title" data-lang-id="300-featured-content-3-title">The Planetary Story of Plastic</div>
-                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-3-subtitle">Where does plastic really come from?</div>
-                        <a class="content-button" href="earth-methods.php" data-lang-id="302-featured-content-3-button">🌎 Go deep!</a>
+                        <div class="featured-content-title" data-lang-id="300-featured-content-3-title">The Stellar Story of Plastic</div>
+                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-3-subtitle">Where does plastic really come from?  Plastic's planetary story started billions of years ago...</div>
+                        <a class="content-button" href="plastic.php" data-lang-id="302-featured-content-3-button">🌎 Go deep!</a>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ include '../ecobricks_env.php';
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-4-title">Earth & Ecobrick Methods</div>
                         <div class="featured-content-subtitle" data-lang-id="301-featured-content-4-subtitle">In-depth Building Guidelines & Best Practices</div>
-                        <a class="content-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button">⚒️ Learn</a>
+                        <a class="content-button" href="earth-methods.php" data-lang-id="302-featured-content-4-button">⚒️ Learn & Build</a>
                     </div>
                 </div>
             </div>
