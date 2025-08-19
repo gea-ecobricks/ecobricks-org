@@ -6,10 +6,10 @@ deployment:
     - export WEBROOT=/home/ecobricks/public_html
     # 3) Copy master English files into each translated folder
 
-    - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/zh/earthwands.php
-    - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/es/earthwands.php
-    - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/fr/earthwands.php
-    - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/id/earthwands.php
+    - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/zh/earthwand.php
+    - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/es/earthwand.php
+    - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/fr/earthwand.php
+    - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/id/earthwand.php
     -
     - /usr/bin/install -m 644 en/training.php $WEBROOT/zh/training.php
     - /usr/bin/install -m 644 en/training.php $WEBROOT/es/training.php
