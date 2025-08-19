@@ -119,7 +119,6 @@ function siteSearch() {
 
     var overlayContent = document.querySelector('.search-overlay-content');
     overlayContent.style.height = 'fit-content';
-    overlayContent.style.marginTop = '8%';
 
     var posts = [];
     var numFilesLoaded = 0;
