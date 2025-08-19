@@ -5,20 +5,20 @@ CHINESE TRANSLATION FOR ECOBRICKS.ORG
 -----------------------------------*/
 
 const zh_Page_Translations = {
-    "300-featured-content-1-title": "八月免费课程",
-    "301-featured-content-1-subtitle": "加入我们的免费直播入门课程。在Zoom活动'塑料、生物圈与生态砖'中，学习相关科学原理、哲学理念和关键技术",
-    "302-featured-content-1-button": "↗️ 在GoBrik上查看课程",
+    "300-featured-content-1-title": "生态砖介绍活动",
+    "301-featured-content-1-subtitle": "加入我们的免费直播入门课程。在我们的社区活动‘塑料、生物圈与生态砖’中学习科学、哲学和关键技巧。Zoom。免费。",
+    "302-featured-content-1-button": "↗️ 9月21日活动",
   "300-featured-content-2-title": "“绿色”究竟应该意味着什么？",
-  "301-featured-content-2-subtitle": "生态砖实践受到伊戈洛特人“Ayyew”理念的指引——这一生态原则孕育了亚洲再生生态砖运动。他们的生态精神启发了“土伦理”理论，为“绿色”真正应有的含义奠定坚实基础。8月10日免费网络研讨会。",
-  "302-featured-content-2-button": "↗️ 八月 Ayyew 活动",
+  "301-featured-content-2-subtitle": "生态砖实践受到本土理念 Ayyew 的指引。这种生态精神启发了我们的土伦理、生态砖制作以及我们对绿色的理解。",
+  "302-featured-content-2-button": "↗️ 8月30日活动",
 
-    "300-featured-content-3-title": "塑料的星球故事",
-    "301-featured-content-3-subtitle": "塑料到底从哪里来？",
+    "300-featured-content-3-title": "塑料的星际故事",
+    "301-featured-content-3-subtitle": "塑料究竟来自何处？塑料的行星故事始于数十亿年前……",
     "302-featured-content-3-button": "🌎 深入了解！",
 
     "300-featured-content-4-title": "地球与生态砖方法",
-    "301-featured-content-4-subtitle": "深入的建筑指南与最佳实践。",
-    "302-featured-content-4-button": "⚒️ 学习",
+    "301-featured-content-4-subtitle": "深入的建筑指南与最佳实践",
+    "302-featured-content-4-button": "⚒️ 学习与建造",
 
     "500-training-feed": "<span class=\"blink\">⬤  </span> 实时培训信息流...",
     "500-featured-training-heading": "GEA 培训",

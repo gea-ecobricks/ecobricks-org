@@ -1,20 +1,20 @@
 
 
 const id_Page_Translations = {
-  "300-featured-content-1-title": "Kursus Gratis Bulan Agustus",
-  "301-featured-content-1-subtitle": "Ikuti kursus pengantar langsung dan gratis. Pelajari ilmu, filosofi, dan teknik penting dalam kursus unggulan kami 'Plastik, Biosfer & Ecobricks'.",
-  "302-featured-content-1-button": "↗️ Lihat Kursus di GoBrik",
-  "300-featured-content-2-title": "Apa arti hijau yang sesungguhnya?",
-  "301-featured-content-2-subtitle": "Ecobricking dipandu oleh konsep Igorot Ayyew\u2014prinsip ekologis inti dari masyarakat adat yang dari tanahnya gerakan ecobrick regeneratif Asia muncul. Etos ekologis mereka mengilhami teori Etika Bumi untuk memberikan landasan kokoh bagi makna sejati hijau. Webinar gratis pada 10 Agustus.",
-  "302-featured-content-2-button": "↗️ Acara Ayyew Agustus",
+  "300-featured-content-1-title": "Acara Pengantar Ecobrick",
+  "301-featured-content-1-subtitle": "Bergabunglah dengan kami dalam kursus pengantar langsung dan gratis. Pelajari ilmu, filosofi, dan teknik penting dalam acara komunitas kami 'Plastik, Biosfer & Ecobrick'. Zoom. Gratis.",
+  "302-featured-content-1-button": "↗️ Acara 21 Sept.",
+  "300-featured-content-2-title": "Apa arti hijau yang sebenarnya?",
+  "301-featured-content-2-subtitle": "Ecobricking dipandu oleh konsep adat Ayyew. Etos ekologis ini menginspirasi etika Earthen kami, ecobricking kami, dan pemahaman kami tentang Hijau.",
+  "302-featured-content-2-button": "↗️ Acara 30 Agustus",
 
-  "300-featured-content-3-title": "Kisah Planet Plastik",
-  "301-featured-content-3-subtitle": "Dari mana sebenarnya plastik berasal?",
-  "302-featured-content-3-button": "🌎 Pelajari lebih dalam!",
+  "300-featured-content-3-title": "Kisah Bintang Plastik",
+  "301-featured-content-3-subtitle": "Dari mana sebenarnya plastik berasal? Kisah planet plastik dimulai miliaran tahun yang lalu...",
+  "302-featured-content-3-button": "🌎 Selami lebih dalam!",
 
   "300-featured-content-4-title": "Metode Bumi & Ecobrick",
-  "301-featured-content-4-subtitle": "Panduan dan praktik terbaik secara mendalam.",
-  "302-featured-content-4-button": "⚒️ Pelajari",
+  "301-featured-content-4-subtitle": "Panduan Pembangunan Mendalam & Praktik Terbaik",
+  "302-featured-content-4-button": "⚒️ Belajar & Bangun",
 
     "500-training-feed": "<span class=\"blink\">⬤  </span> Umpan pelatihan langsung...",
     "500-featured-training-heading": "Pelatihan GEA",
