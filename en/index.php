@@ -89,7 +89,6 @@ include '../ecobricks_env.php';
     </div>
 
 <!-- TOP TEN GALLERY-->
-
 <div class="featured-content-top10s" style="overflow-x:clip;">
     <div class="feature-content-box">
         <div class="feature-big-header"><h4 data-lang-id="312-top10s-title">Monthly Top Tens</h4></div>
