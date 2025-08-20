@@ -41,23 +41,34 @@
 				Cigbricking enable us to take personal responsibility for our cigarette butts, to secure the plastic fibres from degrading and contaminating, and turn the routine of smoking into a conscious, inspiring and transformational ritual.</p>
 			</div>	
 
-			<section id="SEQUESTRATION">
+			<section id="SMALLBUTBIG">
                 <div class="reg-content-block" id="block1">
 		            <div class="opener-header">
 		            	<div class="opener-header-text">
-		            	    <h4 data-lang-id="008-block-1-opener-header">Plastic Sequestration</h4>
+		            	    <h4 data-lang-id="008-block-1-opener-header">A Small But Big Problem</h4>
 							<br>
 						</div>
 		           		<button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
 					</div>
 					
 					<div id="preclosed1">
-						<p data-lang-id="009-block-1-paragraph1">Like normal ecobricks, OEBs are a collaboration powered technology, grounded in <a href="/principles">regenerative principles.</a></p>
-						<p data-lang-id="010-block-1-paragraph2">The primary purpose of ocean ecobricks is <a href ="/sequest">plastic sequestration</a>— securing potentially toxic plastic out of the biosphere.   Once made, ocean ecobricks can be used as reusable building blocks.  Earth building methods further secure the contained plastic into long term constructions.</p>
-						<p data-lang-id="011-block-1-paragraph3"><a href="/sequest">Learn more about plastic sequestration</a></p>
+						<p data-lang-id="009-block-1-paragraph1">Despite their small size, of all plastic wastes, cigarette filters are the most abundant and massive of all. It is a big problem: over 4.5 trillion cigarette butts are discarded every year (1). In beach clean ups around the world, they are the most picked up item (2). Many people aren’t aware that 95% of cigarette filters are made of cellulose acetate (a type of plastic).</p>
+						<p data-lang-id="010-block-1-paragraph2">Many smokers assume that you can throw a cigarette butt on to the ground and it will biodegrade. Alas, this is <b><i>not the case</i></b>. Acetate does not biodegrade like a banana peel or paper.   A recent scientific examining the effect of filters concludes “Cellulose acetate is photodegradable but not bio-degradable.  Although ultraviolet rays from the sun will eventually break the filter into smaller pieces under ideal environmental conditions, the source material never disappears; it essentially becomes diluted in water or soil. (3) These micro-plastics cause all sorts of problems. Microplastics can have possible <b>direct ecotoxicological impacts, accumulate in food chains and cause economic damage because of food safety concerns.</b> (4)</p>
+						<p data-lang-id="011-block-1-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life (5).</p>
                         <div class="side2">
                             <a href"../photos/plastic-sequestration-ocean-ecobrick.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
                         </div>
+						<p data-lang-id="012-block-1-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year (6).</p>
+                        <br></br>
+                        <ul>
+                            <li data-lang-id="013a-block-1-list-paragraph1">__________________________________________________________________________________________________________________________________________________________________</li>
+                            <li data-lang-id="013b-block-1-list-paragraph2">1. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes</li>
+                            <li data-lang-id="013c-block-1-list-paragraph3">2. Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007.</li>
+                            <li data-lang-id="013d-block-1-list-paragraph4">3. <a href"https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3</li>
+                            <li data-lang-id="013e-block-1-list-paragraph5">4. Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a>,</i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99</li>
+                            <li data-lang-id="013f-block-1-list-paragraph6">5. Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25</li>
+                            <li data-lang-id="013g-block-1-list-paragraph7">6. Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008.</li>
+                        </ul>
 	                </div>
 				</div>
 		    </section>
