@@ -47,6 +47,7 @@
                                 </div>
                         </div>
                 </div>
+            </div>
 
 
 
@@ -54,8 +55,8 @@
 <div class="reg-content-block" id="block1">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="007-block-1-header">Ecobricking Standards</h4>
-            <h5 data-lang-id="008-block-1-subheader">The GEA maintains standards for ecobricking that are divided into six categories.</h5>
+            <h4 data-lang-id="007-block-1-header">Why Ecojoiners?</h4>
+            <h5 data-lang-id="008-block-1-subheader">The story and Inspiration behind their development</h5>
         </div>
         <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
     </div>
@@ -102,8 +103,8 @@
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="022-block-2-header">Regular Ecobricks</h4>
-            <h5 data-lang-id="023-block-2-subheader">A PET bottle packed with plastic</h5>
+            <h4 data-lang-id="022-block-2-header">What can Ecojoiners Build?</h4>
+            <h5 data-lang-id="023-block-2-subheader">From furniture to structures to matrices</h5>
         </div>
         <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">+</button>
     </div>
@@ -155,8 +156,8 @@
 <div class="reg-content-block" id="block3">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="041-block-3-header">Cigbricks</h4>
-            <h5 data-lang-id="042-block-3-subheader">Plastic sequestration for cigarette filers.</h5>
+            <h4 data-lang-id="041-block-3-header">Principles behind the Design</h4>
+            <h5 data-lang-id="042-block-3-subheader">Imagine structures that sequester more carbon and plastic than their making creates.</h5>
         </div>
         <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
     </div>
