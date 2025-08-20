@@ -32,22 +32,9 @@
                         <div class="page-paragraph">
                                 <p data-lang-id="005-first-page-paragraph">Much like Lego, Ecojoiners open limitless possibilities for regenerative design. The technology is open source and plans will soon be available here.</p>
 
-                                 <p>This page is under construction.</p>
                         </div>
 
-                        <div class="side-module-desktop-mobile" style="display:flex;flex-flow: row; width: 100%; padding: 10px; gap: 10px;">
-                                <div>
-                                    <img src="../webp/carbon-cube-chair-400px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
-                                </div>
 
-                                <div>
-                                    <h4>Carbon Cube Chair</h4>
-                                    <p>Coming soon!  A simple, awesome and carbon sequestering cube chair that you can assemble with your ecobricks.</P>
-                                    </p>
-                                </div>
-                        </div>
-                </div>
-            </div>
 
 
 
@@ -200,6 +187,22 @@
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Learn more about Cibricks.</p>
     </div>
 </div>
+
+
+
+                        <div class="side-module-desktop-mobile" style="display:flex;flex-flow: row; width: 100%; padding: 10px; gap: 10px;">
+                                <div>
+                                    <img src="../webp/carbon-cube-chair-400px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
+                                </div>
+
+                                <div>
+                                    <h4>Carbon Cube Chair</h4>
+                                    <p>Coming soon!  A simple, awesome and carbon sequestering cube chair that you can assemble with your ecobricks.</P>
+                                    </p>
+                                </div>
+                        </div>
+
+                    </div>
 
 
 <!-- PAGE SIDE BAR STARTS HERE-->
