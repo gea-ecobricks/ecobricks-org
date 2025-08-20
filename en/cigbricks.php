@@ -13,8 +13,8 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Ocean Ecobricks</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A Sequestration Solution for Dirty Plastics</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Introducing a simple solution for cigarette pollution</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">The Cigbrick</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt-X"><img src="../svgs/oebs.svg" style="width: 95%" alt="The basics of ecobricking">
     </div>	
@@ -30,15 +30,15 @@
 
 			<div class="lead-page-paragraph">
 				
-			<p data-lang-id="004-lead-page-paragraph">Plastics collected on the beach or from a river tend to be large, dirty, and wet and are not suitable for normal ecobricking.  Nor are they attractive for recyclers.  However, as they degrade into microplastics and toxins they create significant ecological problems.</p>
+			<p data-lang-id="004-lead-page-paragraph">Enter the Ecobrick & Cigbrick</p>
 			</div>
 
 			<div class="page-paragraph">
-				<p data-lang-id="005-first-page-paragraph">Ocean ecobricks (OEBs) are a low-tech <a href ="/sequest">plastic sequestration technology.</a>   OEBs allow the packing of dirty and wet plastics (unlike normal ecobricks) in order to secure them from <a href="/why">degrading into toxins and microplastics.</a> In so doing a zero-carbon reusable building block is made. </p>
+				<p data-lang-id="005-first-page-paragraph">Many people don’t realize that cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it can cause all sorts of problems. Ecobricks are designed to keep plastic (like filters!) out of the environment in order to make a reusable building block.</p>
 				<p data-lang-id="006-second-page-paragraph">
-				OEBs were developed in partnership with <a href ="www.trashhero.org" >TrashHero.org</a>, a global beach clean up movement, as a local and <a href ="/principles">regenerative</a> solution to the ocean plastic that they recovered.  Rather than returning the collected plastic to be dumped, recycled or incinerated, trash heroes often use OEBs to secure the plastic that they pick up.</p>
+				Ecobricks make use of plastic to secure plastic!  Ecobricks keep plastic from degrading into micro-plastics, gases and toxins! It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  If you’re really ambitious you can do a full ecobrick from filters!  We call this a <b><i>Cigbrick</i></b>.  One 600ml Cigbrick can contain over 1000 filters!</p>
 				<p data-lang-id="007-third-page-paragraph">
-				An ocean ecobrick is made by packing solid two cut bottles halves with plastic. By definition the making of an ocean ecobrick is manual and does not require machines, special skills or equipment.  OEBs can be used to make make <a href="/modules">modular</a> furniture.  However they are especially suited for building green spaces using <a href ="/earth-methods">earth building techniques</a> and <a href ="/earth">principles.</a></p>
+				Cigbricking enable us to take personal responsibility for our cigarette butts, to secure the plastic fibres from degrading and contaminating, and turn the routine of smoking into a conscious, inspiring and transformational ritual.</p>
 			</div>	
 
 			<section id="SEQUESTRATION">
