@@ -42,7 +42,9 @@
 				Once many ecobricks are available, they can be put to short-term use in <a href="/modules">modular units</a>, <a href="/dms">lego-furniture </a>and <a href="/openspace">open spaces.</a> Later, our ecobrick can also be put to long-term use in <a href="earth.php">earthen gardens and structures</a>.  In their making and application, ecobricks embody <a href="principles.php">regenerative principles</a> and an <a href="/ayyew">ayyew vision</a> that is based on follow the <a href="plastic.php">Earth's example</a> of securing loose carbon to green the biosphere.</p>
 			</div>	
 
-			<div class="reg-content-block" id="block1">
+
+<!--ACCORDION CONTENT-->
+<div class="reg-content-block" id="block1">
     <div class="opener-header">
         <div class="opener-header-text">
             <h4 data-lang-id="007-block-1-header">Ecobricking Standards</h4>

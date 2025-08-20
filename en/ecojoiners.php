@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.2';?>
+<?php $version='2.3';?>
 <?php $page='ecojoiners';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -47,6 +47,161 @@
                                 </div>
                         </div>
                 </div>
+
+
+
+<!--ACCORDION CONTENT-->
+<div class="reg-content-block" id="block1">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="007-block-1-header">Ecobricking Standards</h4>
+            <h5 data-lang-id="008-block-1-subheader">The GEA maintains standards for ecobricking that are divided into six categories.</h5>
+        </div>
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed1">
+        <div class="row">
+            <div class="main2">
+                <p data-lang-id="009-block-1-main-p1">The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
+                <p data-lang-id="010-block-1-main-p2">
+				The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics.  This way, we can be sure we are following <a href="plastic.php">Earth’s example of green, carbon care.</a>.</p>
+            </div>
+            <div class="side2" data-lang-id="011-block-1-img1-alt">
+                <img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
+            </div>
+        </div>
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="012-block-1-main-p3">An ecobrick must fulfil the following crieria:</p>
+            </div>
+            <div class="side3" data-lang-id="013-block-1-img2-alt">
+                <img src="../svgs/authenticated-brik.svg" width="125" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
+            </div>
+        </div>
+
+        <ul>
+            <li data-lang-id="014-block-1-li-1">Be created by a not-for-profit, for-Earth motivation.</li>
+            <li data-lang-id="015-block-1-li-2">Manually compact and secure used plastic into a transparent, building block that can be indefinitely reused in the short and long term.</li>
+            <li data-lang-id="016-block-1-li-3">Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
+            <li data-lang-id="017-block-1-li-4">Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
+            <li data-lang-id="018-block-1-li-5">Raise the individual and collective ecological consciousness of those involved in the process.</li>
+        </ul>
+
+        <p data-lang-id="019-block-1-p1">
+		Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and the <a href="gobrik.php">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
+
+        <p data-lang-id="020-block-1-p2">Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.</p>
+        <p data-lang-id="021-block-1-p3">Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
+        <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</h5>
+        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="plastic.php">Earth's example.</a></h5>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block2">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="022-block-2-header">Regular Ecobricks</h4>
+            <h5 data-lang-id="023-block-2-subheader">A PET bottle packed with plastic</h5>
+        </div>
+        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed2">
+        <div class="row">
+            <div class="main2">
+                <p data-lang-id="024-block-2-main-p1">Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
+            </div>
+            <div class="side2" data-lang-id="025-block-2-img1-alt">
+                <img src="../webp/brik-cascade.webp" width="150" alt="A cascade of ecobricks packed with used plastic" style="width:100%;" loading="lazy" >
+            </div>
+        </div>
+
+        <p data-lang-id="026-block-2-p2">Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="/fire">flammability</a> while maximizing its durability and re-usability.</p>
+
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="027-block-2-main-p3">To be an ecobrick, the following standards must be met:</p>
+            </div>
+            <div class="side3" data-lang-id="028-block-2-img2-alt">
+                <img src="https://ecobricks.org/svgs/eb-blue.svg" width="120" style="width:100%;" alt="An ecobrick being made" loading="lazy" >
+            </div>
+        </div>
+
+        <ul>
+            <li data-lang-id="029-block-2-li-1">The ecobrick is made using a transparent plastic (PET) bottle</li>
+            <li data-lang-id="030-block-2-li-2">The ecobrick is only packed with used plastics that are clean and dry.</li>
+            <li data-lang-id="031-block-2-li-3">The ecobrick’s density is higher than 0.33g/ml.</li>
+            <li data-lang-id="032-block-2-li-4">The ecobrick must have a density of 0.70g/ml or less</li>
+            <li data-lang-id="033-block-2-li-5">The ecobrick is sealed tight with a screw down lid.</li>
+            <li data-lang-id="034-block-2-li-6">Care has been taken taken to prepare the ecobrick as a reusable building block:
+                <ul>
+                    <li data-lang-id="035-block-2-li-6-1">The label has been removed and ecobricked.</li>
+                    <li data-lang-id="036-block-2-li-6-2">A uniform colored plastic has been given to the ecobrick's bottom.</li>
+                    <li data-lang-id="037-block-2-li-6-3">The weight has been permanently recorded on the outside.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p data-lang-id="038-block-2-p3">Only when these ecobrick standards are  met can the plastic inside be considered to be sequestered.</p>
+		<br><br>
+        <a class="action-btn" href="how.php" data-lang-id="039-block-2-btn">ℹ️ How to Make</a>
+        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="040-block-2-p4">View our 10 Step Guide on Making an Ecobrick.</p>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block3">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="041-block-3-header">Cigbricks</h4>
+            <h5 data-lang-id="042-block-3-subheader">Plastic sequestration for cigarette filers.</h5>
+        </div>
+        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed3">
+        <div class="row">
+            <div class="main2">
+                <p data-lang-id="043-block-3-main-p1">Cigbricks are a class of ecobrick to secure the potentially toxic plastic/acetate of the cigarette filters-- one of the most prevalent and damaging of all plastic pollutants. Cigbricks are made exclusively from the packed acetate filters of cigarette butts once the paper and ash has been fully removed.</p>
+            </div>
+            <div class="side2" data-lang-id="044-block-3-img1-alt">
+                <img src="../svgs/Cigbrick.svg" width="300" style="width:100%;" alt="Cigbricks are for cigarettes" loading="lazy" >
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="045-block-3-main-p2">To be a Cigbrick the following standards must be met:</p>
+            </div>
+            <div class="side3" data-lang-id="046-block-3-img2-alt">
+                <img src="../svgs/Cigbrick.svg" width="120" style="width:100%;" alt="Cigbricks are for cigarettes" loading="lazy" >
+            </div>
+        </div>
+
+        <ul>
+            <li data-lang-id="047-block-3-li-1">A density higher than 0.29 g/ml</li>
+            <li data-lang-id="048-block-3-li-2">A maximum density of 0.70g/ml</li>
+            <li data-lang-id="049-block-3-li-3">Only packed with acetate cigarette butts – the paper and ash have been removed.</li>
+            <li data-lang-id="050-block-3-li-4">The cigbrick is sealed tight with a screw down lid.</li>
+            <li data-lang-id="051-block-3-li-5">Care has been taken to prepare the cigbrick as a reusable building block:
+                <ul>
+                    <li data-lang-id="052-block-3-li-5-1">The label has been removed and ecobricked.</li>
+                    <li data-lang-id="053-block-3-li-5-2">A bottom color has been added</li>
+                    <li data-lang-id="054-block-3-li-5-3">The weight has been recorded on the outside.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p data-lang-id="055-block-3-p1">Only cigbricks that meet these standards can be authenticated and count as sequestered plastic.</p>
+
+        <a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn" style="margin-top:20px">ℹ️ About Cigbricks</a>
+        <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Learn more about Cibricks.</p>
+    </div>
+</div>
+
+
 <!-- PAGE SIDE BAR STARTS HERE-->
                 <div class="side">
 
@@ -66,6 +221,9 @@
         <?php require_once ("../footer-2025.php");?>
 
 <!-- CUSTOM PAGE SCRIPTS-->
+
+<!-- This script is for pages that use the accordion content system-->
+<script src="../js/accordion-scripts.js?v=2" defer></script>
 
 </div>
 </body>
