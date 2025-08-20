@@ -10,7 +10,13 @@ deployment:
     - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/es/earthwand.php
     - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/fr/earthwand.php
     - /usr/bin/install -m 644 en/earthwand.php $WEBROOT/id/earthwand.php
-    -
+
+    - /usr/bin/install -m 644 en/ecojoiners.php $WEBROOT/zh/ecojoiners.php
+    - /usr/bin/install -m 644 en/ecojoiners.php $WEBROOT/es/ecojoiners.php
+    - /usr/bin/install -m 644 en/ecojoiners.php $WEBROOT/fr/ecojoiners.php
+    - /usr/bin/install -m 644 en/ecojoiners.php $WEBROOT/id/ecojoiners.php
+
+
     - /usr/bin/install -m 644 en/training.php $WEBROOT/zh/training.php
     - /usr/bin/install -m 644 en/training.php $WEBROOT/es/training.php
     - /usr/bin/install -m 644 en/training.php $WEBROOT/fr/training.php
