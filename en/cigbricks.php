@@ -41,46 +41,59 @@
 				Cigbricking enable us to take personal responsibility for our cigarette butts, to secure the plastic fibres from degrading and contaminating, and turn the routine of smoking into a conscious, inspiring and transformational ritual.</p>
 			</div>	
 
-			<section id="SEQUESTRATION">
+			<section id="SMALLBUTTBIG">
                 <div class="reg-content-block" id="block1">
 		            <div class="opener-header">
 		            	<div class="opener-header-text">
-		            	    <h4 data-lang-id="008-block-1-opener-header">Plastic Sequestration</h4>
+		            	    <h4 data-lang-id="008-block-1-opener-header">A Small Butt Big Problem</h4>
 							<br>
 						</div>
 		           		<button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
 					</div>
 					
 					<div id="preclosed1">
-						<p data-lang-id="009-block-1-paragraph1">Like normal ecobricks, OEBs are a collaboration powered technology, grounded in <a href="/principles">regenerative principles.</a></p>
-						<p data-lang-id="010-block-1-paragraph2">The primary purpose of ocean ecobricks is <a href ="/sequest">plastic sequestration</a>— securing potentially toxic plastic out of the biosphere.   Once made, ocean ecobricks can be used as reusable building blocks.  Earth building methods further secure the contained plastic into long term constructions.</p>
-						<p data-lang-id="011-block-1-paragraph3"><a href="/sequest">Learn more about plastic sequestration</a></p>
+						<p data-lang-id="009-block-1-paragraph1">Despite their small size, of all plastic wastes, cigarette filters are the most abundant and massive of all. It is a big problem: over 4.5 trillion cigarette butts are discarded every year (1). In beach clean ups around the world, they are the most picked up item (2). Many people aren’t aware that 95% of cigarette filters are made of cellulose acetate (a type of plastic).</p>
+						<p data-lang-id="010-block-1-paragraph2">Many smokers assume that you can throw a cigarette butt on to the ground and it will biodegrade. Alas, this is <b><i>not the case</i></b>. Acetate does not biodegrade like a banana peel or paper.   A recent scientific examining the effect of filters concludes “Cellulose acetate is photodegradable but not bio-degradable.  Although ultraviolet rays from the sun will eventually break the filter into smaller pieces under ideal environmental conditions, the source material never disappears; it essentially becomes diluted in water or soil. (3) These micro-plastics cause all sorts of problems. Microplastics can have possible <b>direct ecotoxicological impacts, accumulate in food chains and cause economic damage because of food safety concerns.</b> (4)</p>
+						<p data-lang-id="011-block-1-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life (5).</p>
                         <div class="side2">
                             <a href"../photos/plastic-sequestration-ocean-ecobrick.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
                         </div>
+						<p data-lang-id="012-block-1-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year (6).</p>
+                        <br>
+                        <ul>
+                            <li data-lang-id="013a-block-1-list-paragraph1">__________________________________________________________________________________________________________________________________________________________________</li>
+                            <li data-lang-id="013b-block-1-list-paragraph2">1. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes</li>
+                            <li data-lang-id="013c-block-1-list-paragraph3">2. Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007.</li>
+                            <li data-lang-id="013d-block-1-list-paragraph4">3. <a href"https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3</li>
+                            <li data-lang-id="013e-block-1-list-paragraph5">4. Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a>,</i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99</li>
+                            <li data-lang-id="013f-block-1-list-paragraph6">5. Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25</li>
+                            <li data-lang-id="013g-block-1-list-paragraph7">6. Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008.</li>
+                        </ul>
 	                </div>
 				</div>
 		    </section>
 	
-            <section id="MAKING">
+            <section id="EASYSTUFF">
                 <div class="reg-content-block" id="block2">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="012-block-2-opener-header">Making an Ocean Ecobrick</h4>
-                            <h5 data-lang-id="013-block-2-opener-subheader">Making an Ocean Ecobrick (OEB) is straightforward– no special tools, machines or skills are required. </h5>
+                            <h4 data-lang-id="014-block-2-opener-header">Easy Stuff: The Technique<h4>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(2)" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
                     </div>
                     <div id="preclosed2">
-                        <p data-lang-id="014-block-2-paragraph-1">An OEB is essentially two PET bottles, cut, packed with plastic, then sealed bottom to bottom. By cutting a bottle’s top off, one creates a wide opening for packing the chunky, large and solid plastics found on the beach.</p>
                         <div class="side2">
                             <a href"../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
                     	    <p data-lang-id="014c-block-2-main-p1" style="font-size:0.9em !important">Click to enlarge instructions</p>
                         </div>
-                        <p data-lang-id="015-block-2-paragraph-2">For the lining of the bottom and the top of the OEB a soft plastic is used to give the bottom a color.  Ideally both the top and bottom of the OEB are given the same color.  This adds the ability to create designs and patterns in OEB building applications.</p>
-                        <p data-lang-id="016-block-2-paragraph-3">A simple bamboo stick is then used to pack the bottle as full and as solid as possible of ocean plastic. Once the bottom is 80% complete, the top is silvered, then packed 30% full.  Packing anymore than this will make it difficult to join the top and bottom together later.</p>
-                        <p data-lang-id="017-block-2-paragraph-4">The techniques of making a good normal ecobrick apply to ocean ecobrick making. <a href="/how">See our 10 Step Guide to Ecobrick Making to learn mow to make an awesome OEB.</a></p>
+                        <p data-lang-id="015-block-2-paragraph-1">Using cigarette filters to make an ecobrick is easy. Just remove the paper covering from the used butt and stuff the filter (plastic acetate) into a plastic bottle.  The paper is biodegradable, which, unlike the acetate, is not a toxic concern and can be thrown away.  Biodegradables, like paper, are not added to ecobricks (1). Then, use a stick to pack down and compress the filters and any other plastic you pack in. Was there a plastic wrapper around your cigarette box? Finished with that plastic lighter? You can pack those in too! Of course, to make a pure Cigbrick — use just the filters!</p>
+                        <p data-lang-id="016-block-2-paragraph-2">If packed properly, the end result is a remarkably dense and solid building block that can be used for a whole bunch of exciting applications. Best of all, the otherwise toxic acetate is 100% contained and put to good use!</p>
+                        <br>
+                        <ul>
+                            <li data-lang-id="017a-block-2-list-paragraph1">__________________________________________________________________________________________________________________________________________________________________</li>
+                            <li data-lang-id="017b-block-2-list-paragraph2">1. Adding paper and biodegradables to an ecobrick is not necessary (as unlike plastic, they are not toxic in the environment). In addition, biodegradables in particular can affect the safety and integrity of the ecobrick as a building block. They increase the risk of methane build up in the ecobrick and add a flammability risk over time. Plus, rotting stuff in your ecobrick doesn’t look very nice!</li>
+                        </ul>
                     </div>
                 </div>
             </section>
