@@ -7,6 +7,8 @@
 <link rel="preload" as="image" href="../svgs/top-clouds-animated-desktop.svg?v=2">
 <!--This loads CSS specific to this page-->
 
+<?php require_once ("../meta/build-$lang.php");?>
+
 <STYLE>
 	
 @media screen and (max-width: 700px) { 
