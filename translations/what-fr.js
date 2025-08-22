@@ -17,9 +17,35 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const fr_Page_Translations = {
 
-    '001-splash-title': 'Les écobriques',
+    const fr_Page_Translations = {
+        "001-splash-title": "Écobriques",
+        "002-splash-subtitle": "Une technologie simple, basse-tech et non-capitaliste pour prendre soin de notre plastique.",
+        "003-splash-image-alt": "<img src=\"../svgs/eb-blue-no-clouds.svg\" style=\"width: 95%\" alt=\"Les bases des écobriques\">",
+        "004-lead-page-paragraph": "L’écobriquage est une manière de capturer le plastique usagé, abondamment disponible, pour réaliser de grands projets écologiques qui maintiennent le plastique hors de l’industrie et de la biosphère.",
+        "005-first-page-paragraph": "Une écobrique est une bouteille en plastique remplie solidement de plastique usagé, propre et sec. Les écobriques sont fabriquées manuellement à une densité définie pour <a href=\"sequest.php\">séquestrer le plastique</a> et créer des blocs de construction réutilisables pouvant servir à fabriquer du mobilier, des jardins et des structures. Cela empêche le plastique de <a href=\"/why\">se dégrader en toxines et microplastiques</a> et de participer à des processus industriels énergivores et polluants. Le plus important, c’est que le processus pratique d’écobriquage approfondit notre conscience des enjeux écologiques et de leurs alternatives régénératives – ce que nous appelons <a href=\"transition.php\">la transition plastique</a>.",
+        "006-second-page-paragraph": "Une fois qu’un grand nombre d’écobriques est disponible, elles peuvent être utilisées à court terme dans des <a href=\"/modules\">unités modulaires</a>, du <a href=\"/dms\">mobilier lego</a> et des <a href=\"/openspace\">espaces ouverts.</a> Plus tard, nos écobriques peuvent également être utilisées à long terme dans des <a href=\"earth.php\">jardins et structures terrestres</a>. Dans leur fabrication et leur application, les écobriques incarnent des <a href=\"principles.php\">principes régénératifs</a> et une <a href=\"/ayyew\">vision ayyew</a> fondée sur l’exemple de la <a href=\"plastic.php\">Terre pour sécuriser le carbone</a> et reverdir la biosphère.",
+        "007-block-1-header": "Normes d’Écobriquage",
+        "008-block-1-subheader": "L’AGE maintient des normes pour les écobriques réparties en six catégories.",
+        "009-block-1-main-p1": "L’<a href=\"about.php\">Alliance Globale d'Écobriques (AGE)</a> promeut l’écobriquage comme moyen de <a href=\"transition.php\">transition pétro-capitaliste</a> et de <a href=\"sequest.php\">séquestration plastique.</a>",
+        "010-block-1-main-p2": "L’AGE maintient des normes pour les écobriques réparties en six catégories, basées sur ses <a href=\"sequest.php\">six critères de séquestration du plastique</a>. Ces normes garantissent que les critères sont respectés et que notre écobriquage est aligné avec les principes de l'Éthique Terrestre. Ainsi, nous pouvons être sûrs de suivre <a href=\"plastic.php\">l’exemple de la Terre en matière de soin vert du carbone.</a>",
+        "011-block-1-img1-alt": "<img src=\"../svgs/authenticated-brik.svg\" width=\"300\" style=\"width:100%;\" alt=\"Une écobrique authentifiée a été validée par trois pairs\" loading=\"lazy\">",
+        "012-block-1-main-p3": "Une écobrique doit remplir les critères suivants :",
+        "013-block-1-img2-alt": "<img src=\"../svgs/authenticated-brik.svg\" width=\"125\" style=\"width:100%;\" alt=\"Une écobrique authentifiée a été validée par trois pairs\" loading=\"lazy\">",
+        "014-block-1-li-1": "Être créée par une motivation sans but lucratif et pour la Terre.",
+        "015-block-1-li-2": "Compacter manuellement du plastique usagé dans un bloc de construction transparent, réutilisable à court et à long terme.",
+        "016-block-1-li-3": "Résulter en plus de plastique et de CO2 retirés de la biosphère que ce qui a été ajouté durant le processus de fabrication.",
+        "017-block-1-li-4": "Contribuer à des applications de construction qui soutiennent et encouragent la biodiversité.",
+        "018-block-1-li-5": "Élever la conscience écologique individuelle et collective des personnes impliquées.",
+        "019-block-1-p1": "Le plastique qui a été emballé selon ces normes et authentifié en tant que tel est considéré par l’AGE comme une contribution écologique précieuse. L’AGE maintient la <a href=\"brikcoins.php\">blockchain Brikcoin</a> et la <a href=\"gobrik.php\">plateforme GoBrik</a> pour permettre l’authentification des écobriques selon ces normes. L’authentification aboutit à la marchandisation du <a href=\"/aes\">plastique écobriqué authentifié.</a>",
+        "020-block-1-p2": "Actuellement, l’AGE reconnaît trois types d’écobriques : écobriques régulières, cigbricks et écobriques océaniques. Voir ci-dessous les normes techniques pour chaque type.",
+        "021-block-1-p3": "Les normes d’écobriquage et de séquestration ont été développées par des écobriqueurs à travers le monde, puis affinées et maintenues par l’AGE.",
+        "022-block-1-info-1": "ℹ️ En savoir plus sur les <a href=\"sequest.php\">critères de séquestration plastique.</a>",
+        "023-block-1-info-2": "ℹ️ En savoir plus sur <a href=\"plastic.php\">l’exemple de la Terre.</a>",
+        "022-block-2-header": "Écobriques Régulières",
 
-  "023-block-2-subheader": "Une bouteille PET remplie de plastique",
+
+
+    "023-block-2-subheader": "Une bouteille PET remplie de plastique",
   "024-block-2-main-p1": "Les écobriques régulières sont réalisées avec n’importe quelle taille de bouteille en plastique PET transparent. La bouteille et le plastique emballé doivent être propres et secs pour éviter la prolifération des bactéries. Généralement, les écobriqueurs utilisent un bâton de bois ou de bambou pour compacter manuellement le plastique dans la bouteille. Le plastique est découpé ou déchiré en petits morceaux puis inséré progressivement, en alternant ajout et compression, couche par couche. La bouteille est tournée à chaque pression pour assurer une répartition homogène. Cela évite les vides et garantit la solidité nécessaire pour des applications de construction.",
   "025-block-2-img1-alt": "<img src=\"../webp/brik-cascade.webp\" width=\"150\" alt=\"Une cascade d'écobriques remplies de plastique usagé\" style=\"width:100%;\" loading=\"lazy\">",
   "026-block-2-p2": "Les écobriques finies sont suffisamment solides pour supporter le poids d’une personne sans se déformer et pour réduire <a href=\"/fire\">l’inflammabilité</a>, tout en maximisant leur durabilité et leur réutilisabilité.",

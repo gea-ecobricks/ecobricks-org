@@ -2,7 +2,7 @@
 <?php $version='2.1';?>
 <?php $page='what';?>
 <!DOCTYPE html>
-<HTML lang="<?php $lang ;?>">
+<html lang="<?php echo $lang; ?>">
 <HEAD>
 <META charset="UTF-8">
 
