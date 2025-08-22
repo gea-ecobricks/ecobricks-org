@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
+<html lang="<?php echo $lang; ?>">
 <HEAD>
 <META charset="UTF-8">
 <?php $version='2.03';?>

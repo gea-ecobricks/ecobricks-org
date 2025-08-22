@@ -17,7 +17,7 @@ FRENCH SNIPPETS FOR ECOBRICKS.ORG
 
 const fr_Page_Translations = {
 
-    const fr_Page_Translations = {
+
         "001-splash-title": "Écobriques",
         "002-splash-subtitle": "Une technologie simple, basse-tech et non-capitaliste pour prendre soin de notre plastique.",
         "003-splash-image-alt": "<img src=\"../svgs/eb-blue-no-clouds.svg\" style=\"width: 95%\" alt=\"Les bases des écobriques\">",
@@ -42,8 +42,6 @@ const fr_Page_Translations = {
         "022-block-1-info-1": "ℹ️ En savoir plus sur les <a href=\"sequest.php\">critères de séquestration plastique.</a>",
         "023-block-1-info-2": "ℹ️ En savoir plus sur <a href=\"plastic.php\">l’exemple de la Terre.</a>",
         "022-block-2-header": "Écobriques Régulières",
-
-
 
     "023-block-2-subheader": "Une bouteille PET remplie de plastique",
   "024-block-2-main-p1": "Les écobriques régulières sont réalisées avec n’importe quelle taille de bouteille en plastique PET transparent. La bouteille et le plastique emballé doivent être propres et secs pour éviter la prolifération des bactéries. Généralement, les écobriqueurs utilisent un bâton de bois ou de bambou pour compacter manuellement le plastique dans la bouteille. Le plastique est découpé ou déchiré en petits morceaux puis inséré progressivement, en alternant ajout et compression, couche par couche. La bouteille est tournée à chaque pression pour assurer une répartition homogène. Cela évite les vides et garantit la solidité nécessaire pour des applications de construction.",
@@ -107,7 +105,7 @@ const fr_Page_Translations = {
   "082-list-item4": "<a href=\"build.php\">Construire avec des écobriques</a>",
   "083-list-item5": "<a href=\"movement.php\">Le Mouvement</a>",
   "084-list-item6": "<a href=\"/dropoff\">Où déposer les écobriques ?</a>",
-  "085-list-item7": "<a href=\"/trainings\">Formations Écobriques</a>",
+  "085-list-item7": "<a href=\"/trainings\">Formations Écobriques</a>"
 
 }
         
