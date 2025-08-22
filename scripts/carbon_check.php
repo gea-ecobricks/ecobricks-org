@@ -4,8 +4,11 @@
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
-// Hardcoded URL to check
-$target_url = 'https://ecobricks.org/en/index.php';
+// URL to check is passed as a query string.  Fallback to the English
+// index page if none is supplied or the provided URL is invalid.
+$target_url = isset($_GET['url']) && filter_var($_GET['url'], FILTER_VALIDATE_URL)
+    ? $_GET['url']
+    : 'https://ecobricks.org/en/index.php';
 $encoded_url = urlencode($target_url);
 
 // API endpoint
