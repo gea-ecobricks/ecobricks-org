@@ -26,11 +26,11 @@
                 <div class="main">
 
                         <div class="lead-page-paragraph">
-                        <p data-lang-id="004-lead-page-paragraph">Ecojoiners are bamboo connectors that lock ecobricks together into sturdy cubic frames for tables, chairs and more.</p>
+                        <p data-lang-id="004-lead-page-paragraph">Ecojoiners leverage the versatility of bamboo to create a powerful new way to build with bottles.</p>
                         </div>
 
                         <div class="page-paragraph">
-                                <p data-lang-id="005-first-page-paragraph">Much like Lego, Ecojoiners open limitless possibilities for regenerative design. The technology is open source and plans will soon be available here.</p>
+                                <p data-lang-id="005-first-page-paragraph">We're thrilled to introduce a whole new way to connect your ecobricks.  After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source (non-patented!) and fully Earthen technology (biodegradeable, spiral, modular, carbon sequestering) to create cubic latices.  That's a fancy way to say... if you can imagine it, you can use ecojoiners and ecobricks to build it green and great.  </p>
 
                         </div>
 
@@ -49,38 +49,19 @@
     </div>
 
     <div id="preclosed1">
-        <div class="row">
-            <div class="main2">
-                <p data-lang-id="009-block-1-main-p1">The <a href="about.php">Global Ecobrick Alliance (GEA)</a> advocates ecobricking as means of <a href="transition.php">petro-capital transition</a> and <a href="sequest.php">plastic sequestration.</a></p>
+
+                <p data-lang-id="009-block-1-main-p1">Ecobricks are great.  They sequester plastic and you can build all sorts of stuff with them.  Consequently, folks around the world pack their plastic into bottles so that they can build their projects with them.</p>
+
+                <p>But what if the stuff you could build was even more awesome?</p>
                 <p data-lang-id="010-block-1-main-p2">
-				The GEA maintains standards for ecobricking that are divided into six categories based on the GEA’s six <a href="sequest.php">criteria for plastic sequestration</a>.  The GEA's ecobrick standards ensure that the criteria of plastic sequestration have been met and that our ecobriking is in line with the principles of Earthen Ethics.  This way, we can be sure we are following <a href="plastic.php">Earth’s example of green, carbon care.</a>.</p>
-            </div>
-            <div class="side2" data-lang-id="011-block-1-img1-alt">
-                <img src="../svgs/authenticated-brik.svg" width="300" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
-            </div>
-        </div>
-        <div class="row2">
-            <div class="main3">
-                <p data-lang-id="012-block-1-main-p3">An ecobrick must fulfil the following crieria:</p>
-            </div>
-            <div class="side3" data-lang-id="013-block-1-img2-alt">
-                <img src="../svgs/authenticated-brik.svg" width="125" style="width:100%;" alt="An authenticated ecobrick has been validated by three peers" loading="lazy" >
-            </div>
-        </div>
+				For the last three years our R&D team, led by GEA co-founder Russell Maier, has been working on the situation that the true potential for ecobrick construction remained untapped.  Afterall, ecobricks are solid, resilient and strong.  Surely, we could do better than connecting into hexagons and triangular modules-- and if we could, it would provide a powerful and compelling incentive for folks around the world, concerned about plastic pollution, to ecobrick their plastic more-- and to dump, recycle and burn their plastic less.</p>
 
-        <ul>
-            <li data-lang-id="014-block-1-li-1">Be created by a not-for-profit, for-Earth motivation.</li>
-            <li data-lang-id="015-block-1-li-2">Manually compact and secure used plastic into a transparent, building block that can be indefinitely reused in the short and long term.</li>
-            <li data-lang-id="016-block-1-li-3">Result in more plastic and CO2 being subtracted from the biosphere than was added by the process of making</li>
-            <li data-lang-id="017-block-1-li-4">Result in building applications that contribute to the maintenance and encouragement of biodiversity</li>
-            <li data-lang-id="018-block-1-li-5">Raise the individual and collective ecological consciousness of those involved in the process.</li>
-        </ul>
+				<p>With the stakes high, the GEA team explored dozens of ways in which we could connect ecobricks.  Of course, our design process wasn't just based on function-- so too were we guided and constrained by the Earthen principles that guide the regenerative plastic transition movement.</p>
 
-        <p data-lang-id="019-block-1-p1">
-		Plastic that has been packed according to these standards and authenticated as such is considered by the GEA as a valuable ecological contribution.  The GEA maintains the <a href="brikcoins.php">Brikcoin blockchain</a> and the <a href="gobrik.php">GoBrik platform</a> to enable the authentication of ecobricks according to these standards.  Authentication results in commodification of <a href="/aes">authenticated ecobricked plastic.</a></p>
+				<p>After considering 3D printed joiners, joiners using re-molded plastic and even wood, we finally settled on bamboo as our medium of choice.  When it comes to being green, bamboo is hard to beat!  Widely available in South East Asia, it is a strong, durable and extremely versatile material.  Best of all, bamboo groves and forests support biodiversity and their growth sequesters CO2 out of the atmosphere.</p>
 
-        <p data-lang-id="020-block-1-p2">Currently, the GEA recognizes three types of ecobricks, regular ecobricks, cigbricks and ocean ecobricks.  See below the technical standards for each type of ecobrick.</p>
-        <p data-lang-id="021-block-1-p3">Ecobricking and sequestration standards were developed by ecobrickers around the world and have been refined and are maintained by the GEA.</p>
+				<p>Oh... and bamboo is circular-- perfect for embracing a bottle!</p>
+
         <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</h5>
         <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="plastic.php">Earth's example.</a></h5>
     </div>
@@ -99,10 +80,10 @@
     <div id="preclosed2">
         <div class="row">
             <div class="main2">
-                <p data-lang-id="024-block-2-main-p1">Normal ecobricks are made with any size of transparent PET plastic bottle. The bottle and the packed plastic are clean and dry to prevent the growth of bacteria. Typically, ecobrickers use a wood or bamboo stick to manually pack plastic into the plastic bottle.  Plastic is cut or ripped into small pieces then packed little by little, alternating between adding the plastic and compacting it, layer by layer. The bottle is rotated with each press to ensure the plastic is evenly compacted throughout the bottle. This helps prevent voids and that the packing reaches the requisite solidity needed for a building block applications.</p>
+                <p data-lang-id="024-block-2-main-p1">Our first generation of ecojoiners enables cubic geometry.  Ecojoiners can be connected together into cubes that connect to other cubes-- enabling matrices that can serve as the basis for a wide variety of structures and applications.  Imagine minecraft for ecobricks!  These cubic joiners enable creations of 3D like pixels.</p>
             </div>
             <div class="side2" data-lang-id="025-block-2-img1-alt">
-                <img src="../webp/brik-cascade.webp" width="150" alt="A cascade of ecobricks packed with used plastic" style="width:100%;" loading="lazy" >
+                <img src="../webp/ecojoiner-table-400px.webp" width="150" alt="Ecojoiner table" style="width:100%;" loading="lazy" >
             </div>
         </div>
 
