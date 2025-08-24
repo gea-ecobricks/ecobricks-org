@@ -32,7 +32,7 @@
                         <div class="page-paragraph">
                                 <p data-lang-id="005-first-page-paragraph-x">We're thrilled to introduce a whole new way to connect your ecobricks.  After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source (non-patented!) and fully Earthen technology (biodegradeable, spiral, modular, carbon sequestering) to create cubic latices.  That's a fancy way to say... if you can imagine it, you can use ecojoiners and ecobricks to build it green and great.  </p>
 
-                         <img src="../webps/cubic-matrix.webp" style="width:100%">
+                         <img src="../webp/cubic-matrix.webp" style="width:100%">
 
                         </div>
 
@@ -63,7 +63,7 @@
                         <p data-lang-id="043-block-4-main-p1">Ecojoiners leverage the versatility of bamboo to create a powerful new way to build with ecobricks.  Both ecobricks and ecojoiners sequester carbon in terms of CO2 and plastic.  Both are subaltern technologies that follow the principles of Earthen design: non-capital, open-source, modular, circular, and carbon+plastic negative.</p>
                     </div>
                     <div class="side2" data-lang-id="044-block-4-img1-alt">
-                        <img src="../webps/carbon-cube-500px.webp" width="300" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
+                        <img src="../webp/carbon-cube-500px.webp" width="300" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
                     </div>
                 </div>
 
@@ -72,7 +72,7 @@
                         <p data-lang-id="045-block-4-main-p2">T<p>And because the combination of ecojoiners and ecobricks is indefinitely cubic and completely modular, simple chairs and tables are just the beginning of the great green things we can make together.</p></p>
                     </div>
                     <div class="side3" data-lang-id="046-block-3-img2-alt">
-                        <img src="../webps/carbon-cube-500px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
+                        <img src="../webp/carbon-cube-500px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
                     </div>
                 </div>
 
@@ -102,7 +102,7 @@
                         <p data-lang-id="009-block-1-main-p1-x">Ecobricks are great.  They sequester plastic and you can build all sorts of stuff with them.  Consequently, folks around the world pack their plastic into bottles so that they can build their projects with them.</p>
                     </div>
                     <div class="side2" data-lang-id="044-block-4-img1-alt">
-                        <img src="../webps/carbon-cube-chair-400px.webp" width="300" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
+                        <img src="../webp/carbon-cube-chair-400px.webp" width="300" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
                     </div>
                 </div>
 
@@ -111,7 +111,7 @@
                         <p data-lang-id="045-block-1-main-p2"><p>But what if the stuff you could build was even more awesome?</p></p>
                     </div>
                     <div class="side3" data-lang-id="046-block-3-img2-alt">
-                        <img src="../webps/carbon-cube-chair-400px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
+                        <img src="../webp/carbon-cube-chair-400px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
                     </div>
                 </div>
 
@@ -179,7 +179,7 @@
     </div>
 
     <div id="preclosed3">
-        <div class="row">
+
 
         <p data-lang-id="055-block-3-p1">We're still working hard on the ecojoiner core concept!  We have a little more testing to do, then we will release the designs here.  </p>
 
