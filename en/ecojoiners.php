@@ -26,11 +26,15 @@
                 <div class="main">
 
                         <div class="lead-page-paragraph">
-                        <p data-lang-id="004-lead-page-paragraph-x">Ecojoiners leverage the versatility of bamboo to create a powerful new way to build with bottles.</p>
+                        <p data-lang-id="004-lead-page-paragraph-x">"Imagine furniture & structures that have a greater green impact than they do grey."</p>
                         </div>
 
                         <div class="page-paragraph">
                                 <p data-lang-id="005-first-page-paragraph-x">We're thrilled to introduce a whole new way to connect your ecobricks.  After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source (non-patented!) and fully Earthen technology (biodegradeable, spiral, modular, carbon sequestering) to create cubic latices.  That's a fancy way to say... if you can imagine it, you can use ecojoiners and ecobricks to build it green and great.  </p>
+
+                                <p>Ecojoiners leverage the versatility of bamboo to create a powerful new way to build with ecobricks.  Both ecobricks and ecojoiners sequester carbon in terms of CO2 and plastic.  Both are subaltern technologies that follow the principles of Earthen design: non-capital, open-source, modular, circular, and carbon+plastic negative.</p>
+
+                                <p>And because the combination of ecojoiners and ecobricks is indefinitely cubic and completely modular, simple chairs and tables are just the beginning of the great green things we can make together.</p>
 
                         </div>
 
