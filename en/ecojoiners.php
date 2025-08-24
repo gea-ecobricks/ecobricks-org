@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.3';?>
+<?php $version='2.31';?>
 <?php $page='ecojoiners';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -26,11 +26,11 @@
                 <div class="main">
 
                         <div class="lead-page-paragraph">
-                        <p data-lang-id="004-lead-page-paragraph">Ecojoiners leverage the versatility of bamboo to create a powerful new way to build with bottles.</p>
+                        <p data-lang-id="004-lead-page-paragraph-x">Ecojoiners leverage the versatility of bamboo to create a powerful new way to build with bottles.</p>
                         </div>
 
                         <div class="page-paragraph">
-                                <p data-lang-id="005-first-page-paragraph">We're thrilled to introduce a whole new way to connect your ecobricks.  After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source (non-patented!) and fully Earthen technology (biodegradeable, spiral, modular, carbon sequestering) to create cubic latices.  That's a fancy way to say... if you can imagine it, you can use ecojoiners and ecobricks to build it green and great.  </p>
+                                <p data-lang-id="005-first-page-paragraph-x">We're thrilled to introduce a whole new way to connect your ecobricks.  After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source (non-patented!) and fully Earthen technology (biodegradeable, spiral, modular, carbon sequestering) to create cubic latices.  That's a fancy way to say... if you can imagine it, you can use ecojoiners and ecobricks to build it green and great.  </p>
 
                         </div>
 
@@ -50,10 +50,10 @@
 
     <div id="preclosed1">
 
-                <p data-lang-id="009-block-1-main-p1">Ecobricks are great.  They sequester plastic and you can build all sorts of stuff with them.  Consequently, folks around the world pack their plastic into bottles so that they can build their projects with them.</p>
+                <p data-lang-id="009-block-1-main-p1-x">Ecobricks are great.  They sequester plastic and you can build all sorts of stuff with them.  Consequently, folks around the world pack their plastic into bottles so that they can build their projects with them.</p>
 
                 <p>But what if the stuff you could build was even more awesome?</p>
-                <p data-lang-id="010-block-1-main-p2">
+                <p data-lang-id="010-block-1-main-p2-x">
 				For the last three years our R&D team, led by GEA co-founder Russell Maier, has been working on the situation that the true potential for ecobrick construction remained untapped.  Afterall, ecobricks are solid, resilient and strong.  Surely, we could do better than connecting into hexagons and triangular modules-- and if we could, it would provide a powerful and compelling incentive for folks around the world, concerned about plastic pollution, to ecobrick their plastic more-- and to dump, recycle and burn their plastic less.</p>
 
 				<p>With the stakes high, the GEA team explored dozens of ways in which we could connect ecobricks.  Of course, our design process wasn't just based on function-- so too were we guided and constrained by the Earthen principles that guide the regenerative plastic transition movement.</p>
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <p data-lang-id="026-block-2-p2">Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="/fire">flammability</a> while maximizing its durability and re-usability.</p>
+        <p data-lang-id="026-block-2-p2-x">Completed ecobricks are packed solid enough that they can bear the weight of a person without deforming and to prohibit easy <a href="/fire">flammability</a> while maximizing its durability and re-usability.</p>
 
         <div class="row2">
             <div class="main3">
