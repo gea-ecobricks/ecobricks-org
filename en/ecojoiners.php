@@ -125,6 +125,7 @@
 				<p>After considering 3D printed joiners, joiners using re-molded plastic and even wood, we finally settled on bamboo as our medium of choice.  When it comes to being green, bamboo is hard to beat!  Widely available in South East Asia, it is a strong, durable and extremely versatile material.  Best of all, bamboo groves and forests support biodiversity and their growth sequesters CO2 out of the atmosphere.</p>
 
 				<p>Oh... and bamboo is circular-- perfect for embracing a bottle!</p>
+				<br><br>
 
         <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</h5>
         <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="plastic.php">Earth's example.</a></h5>
@@ -162,10 +163,10 @@
             </div>
         </div>
 
-    <p data-lang-id="045-block-1-main-p3"><p>Best of all ecojoiners enable spiral designs:  when your done with your creation you can take and part and build another.  But, there's more to it than that.  When ecojoiners break or can't be used anymore, then they can safely composted as bamboo is entirely organic.  Meanwhile, the ecobricks can be put to use in longer term constructions like modules or earthen constructions.  </p>
+    <p data-lang-id="045-block-1-main-p3"><p>Best of all ecojoiners enable spiral designs:  when your done with your creation you can take and part and build another.  But, there's more to it than that.  When ecojoiners break or can't be used anymore, then they can safely composted as bamboo is entirely organic.  Meanwhile, the ecobricks can be put to use in longer term constructions like modules or earthen constructions.</p>
 
-                    <p>Is all about having a plan for your cycles!</p>
-
+                    <p>The key is having a plan for your cycles!</p>
+<br><br><br><br>
         <a class="action-btn" href="spiral.php" data-lang-id="039-block-2-btn">ℹ️ Spiral Design</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="040-block-2-p4">Learn about the Earthen principle of Spiral Design</p>
     </div>
@@ -174,7 +175,7 @@
 <div class="reg-content-block" id="block3">
     <div class="opener-header">
         <div class="opener-header-text">
-            <h4 data-lang-id="041-block-3-header">Open Source Designs/h4>
+            <h4 data-lang-id="041-block-3-header">Open Source Designs</h4>
             <h5 data-lang-id="042-block-3-subheader">Download the plans to build and make your own ecojoiners from Bamboo</h5>
         </div>
         <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3" aria-label="Plus">+</button>
@@ -190,20 +191,61 @@
     </div>
 </div>
 
+<div class="page-paragraph">
+    			<h4 data-lang-id="048-page-end-header">Examples of Ocean Ecobricks</p>
+    			<p data-lang-id="049-end-page-paragraph">
+    			Ocean Ecobricks come in all sizes and shapes– it all depends on what you plan to build!</p>
+    		</div>
+            <div id="three-column-gal-srs1" class="three-column-gal">
+                <!--photo1-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/6fc-ecojoiner-777px.webp', '6FC Bamboo Ecojoiner')">
+                    <img src="../photos/ecojoiners/6fc-ecojoiner-777px.webp" alt="6FC Bamboo Ecojoiner" loading="lazy">
+                </div>
 
+                <!--photo2-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/ecojoiners-and-briks-777px.webp', 'Ecojoiners and Ecobricks ready to assemble')">
+                    <img src="../photos/ecojoiners/ecojoiners-and-briks-777px.webp" alt="Ecojoiners and Ecobricks ready to assemble" loading="lazy">
+                </div>
+                <!--photo3-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/assembly-777px.webp', 'Ecojoiner assembly into a cube chair')">
+                                    <img src="../photos/ecojoiners/assembly-777px.webp" alt="Ecojoiner assembly into a cube chair" loading="lazy">
+                </div>
+            </div>
+            <br>
+            <div id="three-column-gal-srs2" class="three-column-gal">
 
-                        <div class="side-module-desktop-mobile" style="display:flex;flex-flow: row; width: 100%; padding: 10px; gap: 10px;">
-                                <div>
-                                    <img src="../webp/carbon-cube-chair-400px.webp" width="250" style="full-width-image" loading="lazy" alt="eco brik and earth building can make circular benches with trees planted in the middle">
-                                </div>
+                <!--photo1-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/cube-777px.webp', 'A modular ecojoiner cube')">
+                    <img src="../photos/ecojoiners/cube-777px.webp" alt="A modular ecojoiner cube">
+                </div>
 
-                                <div>
-                                    <h4>Carbon Cube Chair</h4>
-                                    <p>Coming soon!  A simple, awesome and carbon sequestering cube chair that you can assemble with your ecobricks.</P>
-                                    </p>
-                                </div>
+                <!--photo2-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/coffee-table-777px.webp', 'An ecojoiner coffee table in action')">
+                    <img src="../photos/ecojoiners/coffee-table-777px.webp" alt="An ecojoiner coffee table in action">
+                </div>
+
+                <!--photo3-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/singapore-festival-777px.webp', 'Ecojoiners in action at a green festival')">
+                    <img src="../photos/ecojoiners/singapore-festival-777px.webp" alt="Ecojoiners in action at a green festival">
+                </div>
+            </div>
+            <br>
+                    <div id="three-column-gal-srs3" class="three-column-gal">
+
+                        <!--photo1-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/ecorack-777px.webp', 'Using ecojoiners for shelving')">
+                            <img src="../photos/ecojoiners/ecorack-777px.webp" alt="Using ecojoiners for shelving">
                         </div>
 
+                        <!--photo2-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/cube-table-777px.webp', 'An ecojoiner coffee table in action')">
+                            <img src="../photos/ecojoiners/coffee-table-777px.webp" alt="An ecojoiner coffee table in action">
+                        </div>
+
+                        <!--photo3-->
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/singapore-festival-777px.webp', 'Ecojoiners in action at a green festival')">
+                            <img src="../photos/ecojoiners/singapore-festival-777px.webp" alt="Ecojoiners in action at a green festival">
+                        </div>
                     </div>
 
 
