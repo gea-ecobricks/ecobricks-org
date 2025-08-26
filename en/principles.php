@@ -300,10 +300,7 @@
 
 		<?php include 'side-modules/for-earth-principle.php';?> 
 
-
 			<?php include 'side-modules/biodiversity-principle.php';?>
-
-			<?php include 'side-modules/for-earth-principle.php';?>
 
 			<?php include 'side-modules/concentration-principle.php';?>
 

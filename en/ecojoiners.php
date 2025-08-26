@@ -30,9 +30,9 @@
                         </div>
 
                         <div class="page-paragraph">
-                                <p data-lang-id="005-first-page-paragraph-x">We're thrilled to introduce a whole new way to build with your ecobricks.  Leveraging the versality of bottles and bamboo, its a deep green new way to build creations that sequester more carbon and more plastic than their creation produces.</p>
+                                <p data-lang-id="005-first-page-paragraph-x">We're thrilled to introduce a whole new way to build with your ecobricks.  Leveraging the versality of bottles and bamboo, its a deep green new way to build creations that have the net impact of sequestering more carbon and more plastic than their creation produces.</p>
 
-                                 <p> After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source (non-patented!) and fully Earthen technology (biodegradeable, spiral, modular, carbon sequestering) to create cubic latices.  That's a fancy way to say... if you can imagine it, you can use ecojoiners and ecobricks to build it green and great.  </p>
+                                 <p> After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source and fully <a href="principles.php">Earthen technology</p> that can create modular cubic latices.  Imagine 3D pixels from bottles and bamboo!  Imagine a real-world minecraft where you can assemble solid structures without any glue or bolts, then take it apart just as quick.</p>
 
                          <img src="../webp/cubic-matrix.webp" style="width:100%">
 
@@ -56,7 +56,6 @@
     </div>
 
     <div id="preclosed1">
-
                 <div class="row">
                     <div class="main2">
                         <p data-lang-id="009-block-1-main-p1-x">Ecobricks are great.  You can get started right away to build simple furniture with them.  Later you can create gardens and structures.  This alone has inspired millions of folks around to start packing, building and saving tons of plastic from contaminating the biosphere.</p>
@@ -158,7 +157,7 @@
 
             </div>
             <div class="side3" data-lang-id="046-block-3-img2-alt">
-                <img src="../ecojoiner-table-400px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
+                <img src="../webp/ecojoiner-table-400px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
             </div>
         </div>
 
@@ -188,6 +187,45 @@
 
         <!--<a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn" style="margin-top:20px">ℹ️ 600ml Aqua Bottle 6-Face-Cubic Ecojoiner v.1.0.1</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Download the plans & dimensions</p>-->
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block5">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="041-block-5-header">Ecological Accounting</h4>
+            <h5 data-lang-id="042-block-5-subheader">Ecojoiners sequester more carbon and more plastic than their creation produces</h5>
+        </div>
+        <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed5">
+
+<div class="row">
+            <div class="main2">
+                <p data-lang-id="024-block-5-main-p1">What makes ecojoiners truly revolutionary is that they enable truly green constructions.  We're not talking constructions that minimize their environmental harm.  We're talking creations that literally make local ecosystems greener than they were before.</p>
+            </div>
+            <div class="side2" data-lang-id="025-block-2-img1-alt">
+                <img src="../webp/2020-regen-report.webp" width="150" alt="Ecojoiner Regen Report" style="width:100%;" loading="lazy" >
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="045-block-1-main-p2"><p>We've done the numbers: ecojoiners sequester more carbon and more plastic than they produce</p>
+
+
+            </div>
+            <div class="side3" data-lang-id="046-block-3-img2-alt">
+                <img src="../webp/2020-regen-report.webp" width="120" style="width:100%;" alt="Ecojoiner Regen Report" loading="lazy" >
+            </div>
+        </div>
+
+
+        <p>Check our Ecojoiner Regnerativity Report for our 600ml Aqua Ecojoiners to see a full breakdown of our carbon and plastic impact estimates</p>
+
+
     </div>
 </div>
 
@@ -253,10 +291,16 @@
                 <div class="side">
 
 
+			<?php include 'side-modules/spiral-design-principle.php';?>
 
-<?php require_once ("side-modules/transition-module.php");?>
+            <?php include 'side-modules/earthen-ethics-principle.php';?>
 
-<?php require_once ("side-modules/earthen-ethics.php");?>
+            <?php include 'side-modules/eco-accounting-principle.php';?>
+
+            <?php include 'side-modules/for-earth-principle.php';?>
+
+            			<?php include 'side-modules/concentration-principle.php';?>
+
 
                 </div>
 
