@@ -239,16 +239,16 @@
 
                         <!--photo2-->
                         <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/cube-table-777px.webp', 'An ecojoiner coffee table in action')">
-                            <img src="../photos/ecojoiners/coffee-table-777px.webp" alt="An ecojoiner coffee table in action">
+                            <img src="../photos/ecojoiners/cube-table-777px.webp" alt="An ecojoiner coffee table in action">
                         </div>
 
                         <!--photo3-->
-                        <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/singapore-festival-777px.webp', 'Ecojoiners in action at a green festival')">
-                            <img src="../photos/ecojoiners/singapore-festival-777px.webp" alt="Ecojoiners in action at a green festival">
+                        <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/sitting-space-777px.webp', 'An organic sitting space made with ecobricks, wood and bamboo')">
+                            <img src="../photos/ecojoiners/sitting-space-777px.webp" alt="An organic sitting space made with ecobricks, wood and bamboo">
                         </div>
                     </div>
 
-
+</di>
 <!-- PAGE SIDE BAR STARTS HERE-->
                 <div class="side">
 
