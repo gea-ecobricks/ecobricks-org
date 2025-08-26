@@ -248,7 +248,7 @@
                         </div>
                     </div>
 
-</di>
+</div>
 <!-- PAGE SIDE BAR STARTS HERE-->
                 <div class="side">
 
