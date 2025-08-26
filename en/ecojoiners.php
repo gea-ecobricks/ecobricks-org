@@ -32,7 +32,9 @@
                         <div class="page-paragraph">
                                 <p data-lang-id="005-first-page-paragraph-x">We're thrilled to introduce a whole new way to build with your ecobricks.  Leveraging the versality of bottles and bamboo, its a deep green new way to build creations that have the net impact of sequestering more carbon and more plastic than their creation produces.</p>
 
-                                 <p> After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source and fully <a href="principles.php">Earthen technology</p> that can create modular cubic latices.  Imagine 3D pixels from bottles and bamboo!  Imagine a real-world minecraft where you can assemble solid structures without any glue or bolts, then take it apart just as quick.</p>
+                                 <p> After three years of research and development, the Global Ecobrick Alliance is launching <b>ecojoiners</b> as an open source and fully <a href="principles.php">Earthen technology</a> that can create modular cubic latices.  Imagine 3D pixels from bottles and bamboo.</p>
+
+                                   <p>Imagine a real-world minecraft where you can assemble solid structures without any glue or bolts, then take it apart just as quick.</p>
 
                          <img src="../webp/cubic-matrix.webp" style="width:100%">
 
@@ -228,6 +230,7 @@
 
     </div>
 </div>
+<br><br><br>
 
 <div class="page-paragraph">
     			<h4 data-lang-id="048-page-end-header">Ecojoiners in use</h4>
