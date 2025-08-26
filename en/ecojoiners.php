@@ -225,7 +225,7 @@
         </div>
 
 
-        <p>Check our Ecojoiner Regnerativity Report for our 600ml Aqua Ecojoiners to see a full breakdown of our carbon and plastic impact estimates</p>
+        <p>Check our <a href="../pdfs/Regen-Report:--6FC-600ml-Aqua-Ecojoiner.pdf">Ecojoiner Regen Report for our 600ml Aqua Ecojoiners</a> to see a full breakdown of our carbon and plastic impact estimates</p>
 
 
     </div>
