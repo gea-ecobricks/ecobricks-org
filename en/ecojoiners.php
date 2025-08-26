@@ -42,6 +42,55 @@
 
 <!--ACCORDION CONTENT-->
 
+<!-- WHY ECOJOINERS -->
+
+<div class="reg-content-block" id="block1">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="007-block-1-header">Why Ecojoiners?</h4>
+            <h5 data-lang-id="008-block-1-subheader">The story and Inspiration behind their development</h5>
+        </div>
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
+    </div>
+
+    <div id="preclosed1">
+
+                <div class="row">
+                    <div class="main2">
+                        <p data-lang-id="009-block-1-main-p1-x">Ecobricks are great.  You can get started right away to build simple furniture with them.  Later you can create gardens and structures.  This alone has inspired millions of folks around to start packing, building and saving tons of plastic from contaminating the biosphere.</p>
+
+                        <p>But what if we could build even better, faster, greener and even more practical furniture and structures right awa with them?</p>
+                    </div>
+                    <div class="side2" data-lang-id="044-block-4-img1-alt">
+                        <img src="../webp/carbon-cube-chair-400px.webp" width="360" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="main3">
+                        <p data-lang-id="045-block-1-main-p2">This question has driven us for the last three years-- because if we could find the right answer, we could keep even more plastic out of local and global ecosystems and of course-- build great stuff for our fellow humans!</p>
+
+                        <p>With the stakes high, for the last three years our R&D team, led by GEA co-founder Russell Maier, has been working on the premise that the true potential for ecobrick construction has remained untapped.</p>
+                    </div>
+                    <div class="side3" data-lang-id="046-block-3-img2-alt">
+                        <img src="../webp/carbon-cube-chair-400px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
+                    </div>
+                </div>
+
+                <p data-lang-id="010-block-1-main-p2-x">
+				Afterall, ecobricks are solid, resilient and strong.  Surely, we could do better than connecting into hexagons and triangular modules-- and if we could, it would provide a powerful and compelling incentive for folks around the world, concerned about plastic pollution, to ecobrick their plastic more-- and to dump, recycle and burn their plastic less.</p>
+
+				<p>With the stakes high, the GEA team explored dozens of ways in which we could connect ecobricks.  Of course, our design process wasn't just based on function-- so too were we guided and constrained by the Earthen principles that guide the regenerative plastic transition movement.</p>
+
+				<p>After considering 3D printed joiners, joiners using re-molded plastic and even wood, we finally settled on bamboo as our medium of choice.  When it comes to being green, bamboo is hard to beat!  Widely available in South East Asia, it is a strong, durable and extremely versatile material.  Best of all, bamboo groves and forests support biodiversity and their growth sequesters CO2 out of the atmosphere.</p>
+
+				<p>Oh... and bamboo is circular-- perfect for embracing a bottle!</p>
+				<br><br>
+
+        <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</h5>
+        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="plastic.php">Earth's example.</a></h5>
+    </div>
+</div>
 
 
 <!--WHAT ARE ECOJOINERS-->
@@ -75,63 +124,11 @@
                         <img src="../webp/carbon-cube-500px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
                     </div>
                 </div>
-
-
-
-
-
-
     </div>
 </div>
 
 
-
-<div class="reg-content-block" id="block1">
-    <div class="opener-header">
-        <div class="opener-header-text">
-            <h4 data-lang-id="007-block-1-header">Why Ecojoiners?</h4>
-            <h5 data-lang-id="008-block-1-subheader">The story and Inspiration behind their development</h5>
-        </div>
-        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" aria-label="Plus">+</button>
-    </div>
-
-    <div id="preclosed1">
-
-                <div class="row">
-                    <div class="main2">
-                        <p data-lang-id="009-block-1-main-p1-x">Ecobricks are great.  They sequester plastic and you can build all sorts of stuff with them.  Consequently, folks around the world pack their plastic into bottles so that they can build their projects with them.</p>
-
-                        <p>But what if the stuff you could build was even more awesome?</p>
-                    </div>
-                    <div class="side2" data-lang-id="044-block-4-img1-alt">
-                        <img src="../webp/carbon-cube-chair-400px.webp" width="360" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
-                    </div>
-                </div>
-
-                <div class="row2">
-                    <div class="main3">
-                        <p data-lang-id="045-block-1-main-p2">For the last three years our R&D team, led by GEA co-founder Russell Maier, has been working on the situation that the true potential for ecobrick construction remained untapped.</p>
-                    </div>
-                    <div class="side3" data-lang-id="046-block-3-img2-alt">
-                        <img src="../webp/carbon-cube-chair-400px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
-                    </div>
-                </div>
-
-                <p data-lang-id="010-block-1-main-p2-x">
-				Afterall, ecobricks are solid, resilient and strong.  Surely, we could do better than connecting into hexagons and triangular modules-- and if we could, it would provide a powerful and compelling incentive for folks around the world, concerned about plastic pollution, to ecobrick their plastic more-- and to dump, recycle and burn their plastic less.</p>
-
-				<p>With the stakes high, the GEA team explored dozens of ways in which we could connect ecobricks.  Of course, our design process wasn't just based on function-- so too were we guided and constrained by the Earthen principles that guide the regenerative plastic transition movement.</p>
-
-				<p>After considering 3D printed joiners, joiners using re-molded plastic and even wood, we finally settled on bamboo as our medium of choice.  When it comes to being green, bamboo is hard to beat!  Widely available in South East Asia, it is a strong, durable and extremely versatile material.  Best of all, bamboo groves and forests support biodiversity and their growth sequesters CO2 out of the atmosphere.</p>
-
-				<p>Oh... and bamboo is circular-- perfect for embracing a bottle!</p>
-				<br><br>
-
-        <h5 data-lang-id="022-block-1-info-1">ℹ️ Learn more about <a href="sequest.php">criteria of plastic sequestration.</h5>
-        <h5 data-lang-id="023-block-1-info-2">ℹ️ Learn more about <a href="plastic.php">Earth's example.</a></h5>
-    </div>
-</div>
-
+<!--WHAT CAN THEY BUILD ? -->
 
 <div class="reg-content-block" id="block2">
     <div class="opener-header">
@@ -184,7 +181,8 @@
     <div id="preclosed3">
 
 
-        <p data-lang-id="055-block-3-p1">We're still working hard on the ecojoiner core concept!  We have a little more testing to do, then we will release the designs here.  </p>
+        <h4>Coming soon...</h4>
+        <p data-lang-id="055-block-3-p1">We're still working hard on the ecojoiner core concept!  We have a little more testing to do, then we will release the designs here.</p>
 
         <!--<a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn" style="margin-top:20px">ℹ️ 600ml Aqua Bottle 6-Face-Cubic Ecojoiner v.1.0.1</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Download the plans & dimensions</p>-->
@@ -192,9 +190,9 @@
 </div>
 
 <div class="page-paragraph">
-    			<h4 data-lang-id="048-page-end-header">Examples of Ocean Ecobricks</p>
+    			<h4 data-lang-id="048-page-end-header">Ecojoiners in use</h4>
     			<p data-lang-id="049-end-page-paragraph">
-    			Ocean Ecobricks come in all sizes and shapes– it all depends on what you plan to build!</p>
+    			We're just getting going with putting ecojoiners to use.  Here are some of the first creations our team has come up with...</p>
     		</div>
             <div id="three-column-gal-srs1" class="three-column-gal">
                 <!--photo1-->
