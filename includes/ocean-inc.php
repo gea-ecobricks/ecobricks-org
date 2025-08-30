@@ -24,7 +24,7 @@
 	.splash-content-block {
      
 
-		background: url(../svgs/BlUE-ode-to-plastic-Sequestration.svg) top #00E6FF;
+		background: url(../svgs/BlUE-ode-to-plastic-Sequestration.svg) top;
 	
 
 }
