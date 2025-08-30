@@ -46,7 +46,7 @@
 		            <div class="opener-header">
 		            	<div class="opener-header-text">
 		            	    <h4 data-lang-id="008-block-1-opener-header">A Regenerative Solution</h4>
-                            <h5 data-lang-id="013-block-1-opener-subheader">No capital, machines or special skills needed to sequester recovered plastic. </h5>
+                            <h5 data-lang-id="008b-block-1-opener-subheader">No capital, machines or special skills needed to sequester recovered plastic. </h5>
 
 							<br>
 						</div>
@@ -210,8 +210,11 @@
                     </div>
                 </div>
             </section>
+
+
+
         	<div class="page-paragraph">
-    			<h4 data-lang-id="048-page-end-header">Examples of Ocean Ecobricks</p>
+    			<h4 data-lang-id="048-page-end-header">Examples of Ocean Ecobricks</h4>
     			<p data-lang-id="049-end-page-paragraph">
     			Ocean Ecobricks come in all sizes and shapes– it all depends on what you plan to build!</p>
     		</div>

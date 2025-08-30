@@ -13,7 +13,8 @@ const en_Page_Translations = {
     "007-third-page-paragraph": "An ocean ecobrick is made by packing solid two cut bottles halves with plastic. By definition the making of an ocean ecobrick is manual and does not require machines, special skills or equipment.  OEBs can be used to make make <a href=\"/modules\">modular</a> furniture.  However they are especially suited for building green spaces using <a href =\"/earth-methods\">earth building techniques</a> and <a href =\"/earth\">principles.</a>",
 
     // 📦 Section: Plastic Sequestration
-    "008-block-1-opener-header": "Plastic Sequestration",
+    "008-block-1-opener-header": "A Regenerative Solution",
+    "008b-block-1-opener-subheader": "No capital, machines or special skills needed to sequester recovered plastic.",
     "009-block-1-paragraph1": "Like normal ecobricks, OEBs are a collaboration powered technology, grounded in <a href=\"/principles\">regenerative principles.</a>",
     "010-block-1-paragraph2": "The primary purpose of ocean ecobricks is <a href =\"/sequest\">plastic sequestration</a>— securing potentially toxic plastic out of the biosphere.   Once made, ocean ecobricks can be used as reusable building blocks.  Earth building methods further secure the contained plastic into long term constructions.",
     "011-block-1-paragraph3": "<a href=\"/sequest\">Learn more about plastic sequestration</a>",
