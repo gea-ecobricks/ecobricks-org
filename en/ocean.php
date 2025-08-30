@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='1.0';?>
+<?php $version='1.1';?>
 <?php $page='ocean';?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang; ?>">
@@ -84,6 +84,8 @@
                     </div>
                 </div>
             </section>
+
+
             <section id="SEALING">
                 <div class="reg-content-block" id="block3">
                     <div class="opener-header">
