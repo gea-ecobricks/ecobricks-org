@@ -2,7 +2,7 @@
 <?php $version='1.0';?>
 <?php $page='ocean';?>
 <!DOCTYPE html>
-<HTML lang="<?php $lang ;?>">
+<html lang="<?php echo $lang; ?>">
 <HEAD>
 <META charset="UTF-8">
 
@@ -84,7 +84,7 @@
                     </div>
                 </div>
             </section>
-            <section id="SELLING">
+            <section id="SEALING">
                 <div class="reg-content-block" id="block3">
                     <div class="opener-header">
                         <div class="opener-header-text">
