@@ -13,7 +13,7 @@
 	
 @media screen and (max-width: 700px) { 
 	.splash-content-block {
-		background-color: #00E6FF;
+
 		background: url(../svgs/earthwand-background-mobile.svg) top;
 	
 	}
@@ -23,7 +23,7 @@
 @media screen and (min-width: 700px) { 
 	.splash-content-block {
      
-        	background-color: #00E6FF;
+
 		background: url(../svgs/BlUE-ode-to-plastic-Sequestration.svg) top #00E6FF;
 	
 
@@ -32,7 +32,7 @@
 
 
 #splash-bar {
-
+ display: none;
 	background-color: #00E6FF;
 
     }

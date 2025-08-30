@@ -45,7 +45,9 @@
                 <div class="reg-content-block" id="block1">
 		            <div class="opener-header">
 		            	<div class="opener-header-text">
-		            	    <h4 data-lang-id="008-block-1-opener-header">Plastic Sequestration</h4>
+		            	    <h4 data-lang-id="008-block-1-opener-header">A Regenerative Solution</h4>
+                            <h5 data-lang-id="013-block-1-opener-subheader">No capital, machines or special skills needed to sequester recovered plastic. </h5>
+
 							<br>
 						</div>
 		           		<button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Secion One">+</button>
