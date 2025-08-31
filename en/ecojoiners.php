@@ -185,20 +185,19 @@
 
 
 
-        <p data-lang-id="055-block-3-p1">We're still working hard on the ecojoiner core concept and how to display the source files here.  We have a little more testing to do, then we will release the designs here.</p>
-        <p> Meanwhile, here's a sneak peak of the designs we're about to publish at the begining of September 2025.</p>
+        <p data-lang-id="055-block-3-p1">Ecojoiners are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.  Please attribute all usages to "The Global Ecobrick Alliance, ecobricks.org" using the same license.  Please use the terms 'ecobrick' and 'ecojoiner'  to enable others to find and reference the core concepts.</p>
  <div id="three-column-gal-srs1" class="three-column-gal">
                 <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/coke-ecojoiner.webp', '1.5L Coke Bottle Ecojoiner')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/coke-ecojoiner.webp', '1.5L Coke Bottle Ecojoiner', '../pdfs/1.5L-Coke Bottle-Ecojoiner-v1.0.pdf')">
                     <img src="../photos/ecojoiners/coke-ecojoiner.webp" alt="6FC Bamboo Ecojoiner" loading="lazy">
                 </div>
 
                 <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/aqua-600-ecojoiner.webp', '600ml Aqua Bottle Ecojoiner')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/aqua-600-ecojoiner.webp', '600ml Aqua Bottle Ecojoiner', '../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf')">
                     <img src="../photos/ecojoiners/aqua-600-ecojoiner.webp" alt="Ecojoiners and Ecobricks ready to assemble" loading="lazy">
                 </div>
                 <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/generic-15-ecojoiner.webp', 'Ecojoiner assembly into a cube chair')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/generic-15-ecojoiner.webp', 'Ecojoiner assembly into a cube chair', '../pdfs/1.5L-85mm-Generic-Water-Bottle-Ecojoiner-v-1.pdf')">
                                     <img src="../photos/ecojoiners/generic-15-ecojoiner.webp" alt="Generic 1.5L Water Bottle 85mm Ecojoiner" loading="lazy">
                 </div>
             </div>
