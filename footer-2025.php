@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-function viewGalleryImage(imageSrc, altText) {
+function viewGalleryImage(imageSrc, altText, pdfSrc) {
     const modal = document.getElementById('form-modal-message');
     const contentBox = modal.querySelector('.modal-content-box'); // This is the part we want to hide
     const photoBox = modal.querySelector('.modal-photo-box'); // This is where we'll show the image
@@ -294,6 +294,17 @@ function viewGalleryImage(imageSrc, altText) {
     // Append image and caption to the photo container
     photoContainer.appendChild(img);
     photoContainer.appendChild(caption);
+
+    // If a PDF source is provided, add a download link under the caption
+    if (pdfSrc) {
+        const downloadLink = document.createElement('a');
+        downloadLink.href = pdfSrc;
+        downloadLink.textContent = 'Download Source file';
+        downloadLink.style.display = 'block';
+        downloadLink.style.textAlign = 'center';
+        downloadLink.target = '_blank';
+        photoContainer.appendChild(downloadLink);
+    }
 
     // Show the modal
     modal.style.display = 'flex';
