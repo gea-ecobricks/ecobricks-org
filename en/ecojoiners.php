@@ -184,9 +184,24 @@
     <div id="preclosed3">
 
 
-        <h4>Coming soon...</h4>
+
         <p data-lang-id="055-block-3-p1">We're still working hard on the ecojoiner core concept!  We have a little more testing to do, then we will release the designs here.</p>
 
+ <div id="three-column-gal-srs1" class="three-column-gal">
+                <!--photo1-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/coke-ecojoiner.webp', '1.5L Coke Bottle Ecojoiner')">
+                    <img src="../photos/ecojoiners/coke-ecojoiner.webp" alt="6FC Bamboo Ecojoiner" loading="lazy">
+                </div>
+
+                <!--photo2-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/aqua-600-ecojoiner.webp', '600ml Aqua Bottle Ecojoiner')">
+                    <img src="../photos/ecojoiners/aqua-600-ecojoiner.webp" alt="Ecojoiners and Ecobricks ready to assemble" loading="lazy">
+                </div>
+                <!--photo3-->
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/generic-15-ecojoiner.webp', 'Ecojoiner assembly into a cube chair')">
+                                    <img src="../photos/ecojoiners/generic-15-ecojoiner.web" alt="Generic 1.5L Water Bottle 85mm Ecojoiner" loading="lazy">
+                </div>
+            </div>
         <!--<a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn" style="margin-top:20px">ℹ️ 600ml Aqua Bottle 6-Face-Cubic Ecojoiner v.1.0.1</a>
         <p style="font-size: 0.85em; margin-top:20px;" data-lang-id="057-block-3-p2">Download the plans & dimensions</p>-->
     </div>
