@@ -199,7 +199,7 @@
                 </div>
                 <!--photo3-->
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/generic-15-ecojoiner.webp', 'Ecojoiner assembly into a cube chair')">
-                                    <img src="../photos/ecojoiners/generic-15-ecojoiner.web" alt="Generic 1.5L Water Bottle 85mm Ecojoiner" loading="lazy">
+                                    <img src="../photos/ecojoiners/generic-15-ecojoiner.webp" alt="Generic 1.5L Water Bottle 85mm Ecojoiner" loading="lazy">
                 </div>
             </div>
         <!--<a class="action-btn" href="/cigbricks" data-lang-id="056-block-3-btn" style="margin-top:20px">ℹ️ 600ml Aqua Bottle 6-Face-Cubic Ecojoiner v.1.0.1</a>
