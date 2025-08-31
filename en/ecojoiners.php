@@ -185,8 +185,8 @@
 
 
 
-        <p data-lang-id="055-block-3-p1">We're still working hard on the ecojoiner core concept!  We have a little more testing to do, then we will release the designs here.</p>
-
+        <p data-lang-id="055-block-3-p1">We're still working hard on the ecojoiner core concept and how to display the source files here.  We have a little more testing to do, then we will release the designs here.</p>
+        <p> Meanwhile, here's a sneak peak of the designs we're about to publish.</p>
  <div id="three-column-gal-srs1" class="three-column-gal">
                 <!--photo1-->
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ecojoiners/coke-ecojoiner.webp', '1.5L Coke Bottle Ecojoiner')">
