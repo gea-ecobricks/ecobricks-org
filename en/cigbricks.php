@@ -97,12 +97,12 @@
                     </div>
                 </div>
             </section>
-            <section id="SELLING">
+            <section id="APPLICATION">
                 <div class="reg-content-block" id="block3">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="018-block-3-opener-header">Sealing an Ocean Ecobrick</h4>
-                            <h5 data-lang-id="019-block-3-opener-subheader">An Ocean Ecobrick is sealed shut by pressing together and twisting tight the top and bottom.</h5>
+                            <h4 data-lang-id="018-block-3-opener-header">Application</h4>
+                            <h5 data-lang-id="019-block-3-opener-subheader">Ecobricks can be used for everything from furniture, to gardens to structures. The same goes for Cigbricks.</h5>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(3)" class="block-toggle" id="block-toggle-show3" aria-label="Toggle Section Three">+</button>
@@ -111,8 +111,8 @@
                         <a href"../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
             	        <p data-lang-id="020c-block-3-main-p1" style="font-size:0.9em !important">Click to enlarge instructions</p>
                         <div class="side2">
-                            <p data-lang-id="020-block-3-paragraph-1">An Ocean Ecobrick is unlike a regular ecobrick as it is <b>not</b> sealed air-tight.  This is important as OEBs are made from wet and soiled plastic that will eventually generate methane. The lack of a seal between the two cut bottles, allows gas to escape, avoiding the dangers of gas accumulation (this is why normal ecobricks are made with clean and dry plastic).</p>
-                            <p data-lang-id="021-block-3-paragraph-2">Some ecobricks still choose to use silicone to secure the top to the bottom.  If you choose to do this, be sure that your seal is not perfect and that air can still escape.</p>
+                            <p data-lang-id="020-block-3-paragraph-1">Perhaps the best application is the making of modular furniture, entirely from Cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool. For those who would prefer to hide their Cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for decades or centuries.</p>
+                            <p data-lang-id="021-block-3-paragraph-2">And… if the bench is broken down, the cigbricks can be taken out and used again! Ecobricks are a cradle-to-cradle solution.</p>
                         </div>
                     </div>
                 </div>

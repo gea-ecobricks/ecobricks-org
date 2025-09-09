@@ -238,12 +238,12 @@
 
                 <!--photo1-->
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples4.png', 'Mix a small batch of 1:6 cement')">
-                    <img src="../photos/ocean-examples4.png" alt="Mix a small batch of 1:6 cement">
+                    <img src="../photos/ocean-examples4-preview.png" alt="Mix a small batch of 1:6 cement">
                 </div>
                 
                 <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples5.jpg', 'Lay out your cement foundation/top')">
-                    <img src="../photos/ocean-examples5.jpg" alt="Lay out your cement foundation/top">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples7.jpg', 'Lay out your cement foundation/top')">
+                    <img src="../photos/ocean-examples7.jpg" alt="Lay out your cement foundation/top">
                 </div>
 
                 <!--photo3-->
@@ -254,8 +254,8 @@
             <br>
             <div id="three-column-gal-srs3" class="three-column-gal">
                 <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples7.jpg', 'Add first ecobrick')">
-                    <img src="../photos/ocean-examples7.jpg" alt="Add first ecobrick">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples5.jpg', 'Add first ecobrick')">
+                    <img src="../photos/ocean-examples5.jpg" alt="Add first ecobrick">
                 </div>
 
                 <!--photo2-->
@@ -272,7 +272,7 @@
             <div id="three-column-gal-srs4" class="three-column-gal">
                 <!--photo1-->
                 <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples10.jpg', 'Mix your cob mixture to your ratio.')">
-                    <img src="../photos/ocean-examples10.jpg" alt="Mix your cob mixture to your ratio.">
+                    <img src="../pngs/ocean-examples10-preview.png" alt="Mix your cob mixture to your ratio.">
                 </div>
                     
                 <!--photo2-->
