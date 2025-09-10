@@ -108,21 +108,20 @@
                         <button onclick="toggleAccordion(3)" class="block-toggle" id="block-toggle-show3" aria-label="Toggle Section Three">+</button>
                     </div>
                     <div id="preclosed3">
-                        <a href"../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
-            	        <p data-lang-id="020c-block-3-main-p1" style="font-size:0.9em !important">Click to enlarge instructions</p>
+                        <p data-lang-id="020-block-3-paragraph-1">Perhaps the best application is the making of modular furniture, entirely from Cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool. For those who would prefer to hide their Cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for decades or centuries.</p>
+                            <p data-lang-id="021-block-3-paragraph-2">And… if the bench is broken down, the cigbricks can be taken out and used again! Ecobricks are a <a href="../cradle-to-cradle">cradle-to-cradle</a> solution.</p>
                         <div class="side2">
-                            <p data-lang-id="020-block-3-paragraph-1">Perhaps the best application is the making of modular furniture, entirely from Cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool. For those who would prefer to hide their Cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for decades or centuries.</p>
-                            <p data-lang-id="021-block-3-paragraph-2">And… if the bench is broken down, the cigbricks can be taken out and used again! Ecobricks are a cradle-to-cradle solution.</p>
+                            <a href"../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="FISHING">
+            <section id="RITUAL">
                 <div class="reg-content-block" id="block4">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="022-block-4-opener-header">Fishing Line & Nets</h4>
-                            <h5 data-lang-id="023-block-4-opener-subheader">Fishing nets and gear is one of the most prevalent and problematic plastic found on beaches and in the ocean. </h5>
+                            <h4 data-lang-id="022-block-4-opener-header">Ritual vs Routine</h4>
+                            <h5 data-lang-id="023-block-4-opener-subheader">Most people are not aware of the toxicity of their cigarette butts. Throwing “away” a used filter, is part of their smoking routine and often occurs with little thought or consciousness.  The process of cigbricking transforms the routine into a radical ritual.</h5>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(4)" class="block-toggle" id="block-toggle-show4" aria-label="Toggle Section Four">+</button>
@@ -130,8 +129,11 @@
                     <div id="preclosed4">
                         <img src="../photos/ocean-ecobrick.jpg" style="width:65%" loading ="lazy">
                         <div class="side2">
-                            <p data-lang-id="024-block-4-paragraph-1">Over 10% of the plastic in the oceans is ‘ghost gear’– that’s over <a href="https://static1.squarespace.com/static/5b987b8689c172e29293593f/t/5bd6e9e00d9297316b69bc38/1540811271735/GGGI+who+we+are.NOBLEED.PDF">640,000 tons of fishing nets and equipement.</a> This plastic not only degrades into micro-plastics and toxins but causes a persistent dangers to marine life.   Ocean ecobricks are a great place to put fishing nets and gear found on the beach!</p>
-                            <p data-lang-id="025-block-4-paragraph-2">By packing them into an ocean ecobrick we keep them from causing all sorts of problems for ecologies and marine life.</p>
+                            <p data-lang-id="024-block-4-paragraph-1">Mas Tarto, is a Global Ecobrick Trainer from Pemalang, Java, Indonesia. Mas Tarto is also a tobacco lover.  He makes cigbricking a personal daily ritual. Right after putting out his cigarette, he removes the paper, and packs it into the bottle he always carries with him. If the bottle is not with him, he puts the filter into his pocket for later packing. Sometimes, he even grabs other butts from the ashtray! His act is so astounding that it raises eyebrows wherever he goes.  Whether he is at home, at the cafe, or at a restaurant he is asked about it. He then explains himself, his ecological reasons and his concern for the environment.</p>
+                            <p data-lang-id="025-block-4-paragraph-2">Mas Hindra, is another GEA Ecobrick Trainer who lives and works on a boat in the middle of the South China Sea. Although not a smoker himself, many of his 163 shipmates are.  In order to finish off his personal ecobricking projects, he requests and collects the cigarette butts of all the ship — asking them first to remove the paper. His request and project is so astounding that it gets everyone talking.  It leads to all sorts of interesting questions: “Where would the filter go if it had not been ecobricked?”  “What happens to plastic lighters?”  “What is acetate anyway?” He then explains his love and concern for the ocean, and the dangers of discarded filters.</p>
+                            <p data-lang-id="026-block-4-paragraph-3">Shiloh Vermaak is lives in Durban, South Africa, where plastic is also a problem.  Shiloh is another GEA who also smokes!  As a way to contain and to keep track of her smoking, she also makes Cigbricks.  For her it is simply a focused personal and private habit.</p>
+                            <p data-lang-id="027-block-4-paragraph-4">“Cigarette butts are a great example of the power of collective action. It’s such a small thing, but if everyone is throwing them a way, we have a massive problem. I just don’t want to part of the problem.”</p>
+                            <p data-lang-id="028-block-5-paragraph-5">“It is good to remember the history of tobacco.  It wasn’t so long ago, on the great plains of North America, the First Nations revered tobacco as a sacred plant. They smoked it with great respect, and used it in their rituals.  Often these rituals were focused on peace and healing.”</p>
                         </div>
                     </div>
                 </div>
