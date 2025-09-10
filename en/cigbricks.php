@@ -56,7 +56,6 @@
 						<p data-lang-id="010-block-1-paragraph2">Many smokers assume that you can throw a cigarette butt on to the ground and it will biodegrade. Alas, this is <b><i>not the case</i></b>. Acetate does not biodegrade like a banana peel or paper.   A recent scientific examining the effect of filters concludes “Cellulose acetate is photodegradable but not bio-degradable.  Although ultraviolet rays from the sun will eventually break the filter into smaller pieces under ideal environmental conditions, the source material never disappears; it essentially becomes diluted in water or soil. (3) These micro-plastics cause all sorts of problems. Microplastics can have possible <b>direct ecotoxicological impacts, accumulate in food chains and cause economic damage because of food safety concerns.</b> (4)</p>
 						<p data-lang-id="011-block-1-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life (5).</p>
                         <div class="side2">
-                            <a href"../photos/plastic-sequestration-ocean-ecobrick.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
                         </div>
 						<p data-lang-id="012-block-1-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year (6).</p>
                         <br>
@@ -127,34 +126,30 @@
                         <button onclick="toggleAccordion(4)" class="block-toggle" id="block-toggle-show4" aria-label="Toggle Section Four">+</button>
                     </div>
                     <div id="preclosed4">
-                        <img src="../photos/ocean-ecobrick.jpg" style="width:65%" loading ="lazy">
                         <div class="side2">
                             <p data-lang-id="024-block-4-paragraph-1">Mas Tarto, is a Global Ecobrick Trainer from Pemalang, Java, Indonesia. Mas Tarto is also a tobacco lover.  He makes cigbricking a personal daily ritual. Right after putting out his cigarette, he removes the paper, and packs it into the bottle he always carries with him. If the bottle is not with him, he puts the filter into his pocket for later packing. Sometimes, he even grabs other butts from the ashtray! His act is so astounding that it raises eyebrows wherever he goes.  Whether he is at home, at the cafe, or at a restaurant he is asked about it. He then explains himself, his ecological reasons and his concern for the environment.</p>
                             <p data-lang-id="025-block-4-paragraph-2">Mas Hindra, is another GEA Ecobrick Trainer who lives and works on a boat in the middle of the South China Sea. Although not a smoker himself, many of his 163 shipmates are.  In order to finish off his personal ecobricking projects, he requests and collects the cigarette butts of all the ship — asking them first to remove the paper. His request and project is so astounding that it gets everyone talking.  It leads to all sorts of interesting questions: “Where would the filter go if it had not been ecobricked?”  “What happens to plastic lighters?”  “What is acetate anyway?” He then explains his love and concern for the ocean, and the dangers of discarded filters.</p>
                             <p data-lang-id="026-block-4-paragraph-3">Shiloh Vermaak is lives in Durban, South Africa, where plastic is also a problem.  Shiloh is another GEA who also smokes!  As a way to contain and to keep track of her smoking, she also makes Cigbricks.  For her it is simply a focused personal and private habit.</p>
                             <p data-lang-id="027-block-4-paragraph-4">“Cigarette butts are a great example of the power of collective action. It’s such a small thing, but if everyone is throwing them a way, we have a massive problem. I just don’t want to part of the problem.”</p>
-                            <p data-lang-id="028-block-5-paragraph-5">“It is good to remember the history of tobacco.  It wasn’t so long ago, on the great plains of North America, the First Nations revered tobacco as a sacred plant. They smoked it with great respect, and used it in their rituals.  Often these rituals were focused on peace and healing.”</p>
+                            <p data-lang-id="028-block-5-paragraph-5">It is good to remember the history of tobacco.  It wasn’t so long ago, on the great plains of North America, the First Nations revered tobacco as a sacred plant. They smoked it with great respect, and used it in their rituals.  Often these rituals were focused on peace and healing.</p>
+                            <p data-lang-id="029-block-5-paragraph-6">We’re inspired by the examples of Tarto, Hindra and Shiloh.  Through their courageous and simple acts, they have brought back a powerful ritual to tobacco smoking — just when we need the healing and peace the most.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="RAISING">
+            <section id="CREDITS">
                 <div class="reg-content-block" id="block5">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="026-block-5-opener-header">Raising Ecological Consciousness</h4>
-                            <h5 data-lang-id="027-block-5-opener-subheader">Caring for local ecosystems unites people across class, age, economy and continents.</h5>
+                            <h4 data-lang-id="030-block-5-opener-header">Credits</h4>
+                            <h5 data-lang-id="031-block-5-opener-subheader">Thank you to the Igorot people whose ancestral principle of <a href="http://www.russs.net/ayyew">Ayyew</a> (tighter and tighter cycling of resoures) underlies the concept.  Merci to George Beurnier who inspired the renewed refining of the cigbrick concept.</h5>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(5)" class="block-toggle" id="block-toggle-show5" aria-label="Toggle Section Five">+</button>
                     </div>
                     <div id="preclosed5">
-                        <p data-lang-id="028-block-5-paragraph-1">Not only do ocean ecobricks <a href="/sequest">secure and sequester plastic</a>, they provide a launch pad to <a href="/ayyew">ayyew living</a>, <a href="/principles">regenerative principles</a> and <a>plastic transition</a>.</p>
-                        <p data-lang-id="029-block-5-paragraph-2">By packing them into an ocean ecobrick we keep them from causing all sorts of problems for ecologies and marine life.</p>
-                        <p data-lang-id="030-block-5-paragraph-3">With many ocean ecobricks completed, the process of building with them is likewise an experience of <a href="/circular">circular</a> and <a href="/principles">regenerative principles.</a></p>
-                        <div class="side2">
-                            <img src="../wp-content/uploads/2020/12/eco-consciousness-500-300x300.png" style="width:65%" loading ="lazy">
-                        </div>
+                        <p data-lang-id="032-block-5-paragraph-1">Terimah Kasih to <a href="https://www.instagram.com/shirohyde/">Fabianus Bayu</a> for his help crafting our cartoon Ecobrick bottle, the animated happy-albatross-family, and our vision landscape. Thanks to Elena Molchanova whose animated ecobrick intro and credits set the tone in our <a href="https://youtu.be/rGaJYQuOs-0">Cigbrick 30 second movie.</a>  Salemat Po to El Tiburon Grande for his help with the original vision landscape in the movie. Maternuan to mas Tarto, Reksi and Aysha for prototyping the first Cigbricks. Danku Vel to Shiloh for helping us prototype the paper removal technique.  Thank you to Mas Hindra for going full-steam-ahead once we got the technique set up (he’s approaching 100,000 filters packed now!) and for logging the first proper Cigbrick on GoBrik. Terimah Kasih to <a href="../hindra">Mas Hindra</a> and Mas Suryadi for their photo and video contributions.  Thank you to Irfan Korchak for his editing and discussion of the concept and the redemption of tobacco.  Thank you to Ani Himawati for her executive direction in crafting the Cigbrick concept.</p>
+                        <p data-lang-id="033-block-5-paragraph-2">Thank you to Nurkinanti Laraskusuma for their translation of the concept and the page to Indonesian.</p>
                     </div>
                 </div>
             </section>
@@ -162,16 +157,16 @@
                 <div class="reg-content-block" id="block6">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="031-block-6-opener-header">Building with Ocean Ecobricks</h4>
-                            <h5 data-lang-id="032-block-6-opener-subheader">Building with ocean ecobricks the last step in securing the plastic that has been collected.</h5>
+                            <h4 data-lang-id="035-block-6-opener-header">Building with Ocean Ecobricks</h4>
+                            <h5 data-lang-id="036-block-6-opener-subheader">Building with ocean ecobricks the last step in securing the plastic that has been collected.</h5>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(6)" class="block-toggle" id="block-toggle-show6" aria-label="Toggle Section Six">+</button>
                     </div>
                     <div id="preclosed6">
-                        <p data-lang-id="033-block-6-paragraph-1">Ocean ecobricks are sometimes combined together with silicone to make ecobrick <a href ="/modules">modules</a>.  However, the best application is in making and enhancing <b>green spaces:</b>  home garden walls, play parks, tree ring benches, and forest walkways. Ocean ecobricks are laid down horizontally and combined with <a href="/earth">earth / cob /adobe.</href> In this way they can used to create benches, garden planters, walkways, walls and more.</p>
-                        <p data-lang-id="034-block-6-paragraph-2">Building with ocean ecobricks applies <a href="/circular">circular</a> principles to ensure that we plan for the end of the construction.  In this way, when the construction comes to its end the ocean ecobricks can be extricated and used for another construction.</p>
-                        <p data-lang-id="035-block-6-paragraph-3"><a href"/earth">Learn more about Ecobrick & Earth Building</a></p>
+                        <p data-lang-id="037-block-6-paragraph-1">Ocean ecobricks are sometimes combined together with silicone to make ecobrick <a href ="/modules">modules</a>.  However, the best application is in making and enhancing <b>green spaces:</b>  home garden walls, play parks, tree ring benches, and forest walkways. Ocean ecobricks are laid down horizontally and combined with <a href="/earth">earth / cob /adobe.</href> In this way they can used to create benches, garden planters, walkways, walls and more.</p>
+                        <p data-lang-id="038-block-6-paragraph-2">Building with ocean ecobricks applies <a href="/circular">circular</a> principles to ensure that we plan for the end of the construction.  In this way, when the construction comes to its end the ocean ecobricks can be extricated and used for another construction.</p>
+                        <p data-lang-id="039-block-6-paragraph-3"><a href"/earth">Learn more about Ecobrick & Earth Building</a></p>
                         <div class="side2">
                             <img src="../wp-content/uploads/2020/01/Circle-earth-Bench-300px-wide-212x300.png" style="width:65%" loading ="lazy">
                         </div>
@@ -182,21 +177,21 @@
                 <div class="reg-content-block" id="block7">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="036-block-7-opener-header">Ocean vs Normal Ecobricks</h4>
-                            <h5 data-lang-id="037-block-7-opener-subheader">The Global Ecobrick Alliance promotes ocean ecobricks only as a last resort for plastic.</h5>
+                            <h4 data-lang-id="040-block-7-opener-header">Ocean vs Normal Ecobricks</h4>
+                            <h5 data-lang-id="041-block-7-opener-subheader">The Global Ecobrick Alliance promotes ocean ecobricks only as a last resort for plastic.</h5>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(7)" class="block-toggle" id="block-toggle-show7" aria-label="Toggle Section Seven">+</button>
                     </div>
                     <div id="preclosed7">
-                        <p data-lang-id="038-block-7-paragraph-1">Normal ecobricks are the best way to deal with our daily plastic. Compared to <a href="/what">regular ecobricks</a>, Ocean Ecobricks are more wasteful, fragile, and much less elegant than regular Ecobricks.  They are not ideal for making <a href ="/modules">milstein modules</a> or lego– mainly for <a href="/earth">earth and ecobrick constructions.</a> Nonetheless, Ocean Ecobricks remain <a href="/cradle-to-cradle/">cradle to cradle.</a></p>
+                        <p data-lang-id="042-block-7-paragraph-1">Normal ecobricks are the best way to deal with our daily plastic. Compared to <a href="/what">regular ecobricks</a>, Ocean Ecobricks are more wasteful, fragile, and much less elegant than regular Ecobricks.  They are not ideal for making <a href ="/modules">milstein modules</a> or lego– mainly for <a href="/earth">earth and ecobrick constructions.</a> Nonetheless, Ocean Ecobricks remain <a href="/cradle-to-cradle/">cradle to cradle.</a></p>
                         <div class="side2">
                             <img src="../pngs/justandecobrick.png" style="width:65%" loading ="lazy">
                         </div>
-                        <p data-lang-id="039-block-7-paragraph-2">In other words, making an ecobrick by packing your own clean and dry plastic into an uncut bottle is ideal! </p>
-                        <p data-lang-id="040-block-7-paragraph-3">Ocean ecobricks miss out on the most value aspect of ecobricking:  that of taking personal responsibility for our plastic.</p>
-                        <p data-lang-id="041-block-7-paragraph-4">Also, unlike normal ecobricks, OEB’s generate waste in their making. Bottles must be cut, and the bottle tops and caps are left over. (Note that even though cut, the tops and caps can still be recycled.  PET and HDPE are the most sought after plastics. In most South East Asian countries these will be collected by recyclers.  Simply pack bottle cuttings into an intact PET bottle, cap and recycle.)</p>
-                        <p data-lang-id="042-block-7-paragraph-5">Ocean Ecobricks are therefore ideal for communities near ocean, lake or river shores that are overloaded with plastic.</p>
+                        <p data-lang-id="043-block-7-paragraph-2">In other words, making an ecobrick by packing your own clean and dry plastic into an uncut bottle is ideal! </p>
+                        <p data-lang-id="044-block-7-paragraph-3">Ocean ecobricks miss out on the most value aspect of ecobricking:  that of taking personal responsibility for our plastic.</p>
+                        <p data-lang-id="045-block-7-paragraph-4">Also, unlike normal ecobricks, OEB’s generate waste in their making. Bottles must be cut, and the bottle tops and caps are left over. (Note that even though cut, the tops and caps can still be recycled.  PET and HDPE are the most sought after plastics. In most South East Asian countries these will be collected by recyclers.  Simply pack bottle cuttings into an intact PET bottle, cap and recycle.)</p>
+                        <p data-lang-id="046-block-7-paragraph-5">Ocean Ecobricks are therefore ideal for communities near ocean, lake or river shores that are overloaded with plastic.</p>
                     </div>
                 </div>
             </section>
@@ -204,96 +199,28 @@
                 <div class="reg-content-block" id="block8">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="043-block-8-opener-header">Are Ocean Ecobricks Really a Final Solution for Plastic?</h4>
-                            <h5 data-lang-id="044-block-8-opener-subheader">This is a common question, but one with a false premise. In the circular systems of the biosphere, there’s never such thing as ‘final’.</h5>
+                            <h4 data-lang-id="047-block-8-opener-header">Are Ocean Ecobricks Really a Final Solution for Plastic?</h4>
+                            <h5 data-lang-id="048-block-8-opener-subheader">This is a common question, but one with a false premise. In the circular systems of the biosphere, there’s never such thing as ‘final’.</h5>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(8)" class="block-toggle" id="block-toggle-show8" aria-label="Toggle Section Eight">+</button>
                     </div>
                     <div id="preclosed8">
-                        <p data-lang-id="045-block-8-paragraph-1">Ecological cycles can be very short and they can be very long– but they are never final.   The Earth’s sequestration of carbon is an example of a long cycle– measured in millions of years.   However, as carbon moves from plants to trees and back again, the cycles can be short.</a></p>
+                        <p data-lang-id="049-block-8-paragraph-1">Ecological cycles can be very short and they can be very long– but they are never final.   The Earth’s sequestration of carbon is an example of a long cycle– measured in millions of years.   However, as carbon moves from plants to trees and back again, the cycles can be short.</a></p>
                         <div class="side2">
                             <img src="../wp-content/uploads/2021/06/earth-center-standalone-500px-282x300.png" style="width:65%" loading ="lazy">
                         </div>
-                        <p data-lang-id="046-block-7-paragraph-2">By concentrating our carbon/plastic into building blocks like ocean ecobricks, we secure it from getting into the environment in the short-term.  Then when we put ocean ecobricks into long-term earth constructions, the plastic is further protected.  Covered by earth it cannot be degraded by the sun, fire, or friction– much like the carbon the earth put under ground.</p>
-                        <p data-lang-id="047-block-7-paragraph-3">Even if these structures last decades or centuries, when the structure comes to its end, the plastic can be removed and put to use again.  In this way we copy how the earth removed plastic from ecology and into long-term geology.</p>
-                        <p data-lang-id="048-block-7-paragraph-4">Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.  In the same way the Earth’s carbon was a gift to our age, we can gift our carbon to another.</p>
+                        <p data-lang-id="050-block-7-paragraph-2">By concentrating our carbon/plastic into building blocks like ocean ecobricks, we secure it from getting into the environment in the short-term.  Then when we put ocean ecobricks into long-term earth constructions, the plastic is further protected.  Covered by earth it cannot be degraded by the sun, fire, or friction– much like the carbon the earth put under ground.</p>
+                        <p data-lang-id="051-block-7-paragraph-3">Even if these structures last decades or centuries, when the structure comes to its end, the plastic can be removed and put to use again.  In this way we copy how the earth removed plastic from ecology and into long-term geology.</p>
+                        <p data-lang-id="052-block-7-paragraph-4">Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.  In the same way the Earth’s carbon was a gift to our age, we can gift our carbon to another.</p>
                     </div>
                 </div>
             </section>
         	<div class="page-paragraph">
-    			<h4 data-lang-id="048-page-end-header">Examples of Ocean Ecobricks</p>
-    			<p data-lang-id="049-end-page-paragraph">
+    			<h4 data-lang-id="053-page-end-header">Examples of Ocean Ecobricks</p>
+    			<p data-lang-id="054-end-page-paragraph">
     			Ocean Ecobricks come in all sizes and shapes– it all depends on what you plan to build!</p>
     		</div>
-            <div id="three-column-gal-srs1" class="three-column-gal">
-                <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples1.jpg', 'Soil test')">
-                    <img src="../photos/ocean-examples1.jpg" alt="Soil test" loading="lazy">
-                </div>
-
-                <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples2.jpeg', 'Find a smooth, flat surface (i.e large tile)')">
-                    <img src="../photos/ocean-examples2.jpeg" alt="Find a smooth, flat surface (i.e large tile)" loading="lazy">
-                </div>
-                <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples3.jpeg', 'Put on some oil')">
-                    <img src="../photos/ocean-examples3.jpeg" alt="Put on some oil">
-                </div>
-            </div>
-            <br>
-            <div id="three-column-gal-srs2" class="three-column-gal">
-
-                <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples4.png', 'Mix a small batch of 1:6 cement')">
-                    <img src="../photos/ocean-examples4.png" alt="Mix a small batch of 1:6 cement">
-                </div>
-                
-                <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples5.jpg', 'Lay out your cement foundation/top')">
-                    <img src="../photos/ocean-examples5.jpg" alt="Lay out your cement foundation/top">
-                </div>
-
-                <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples6.jpg', 'Create a hole for the ecobrick')">
-                    <img src="../photos/ocean-examples6.jpg" alt="Create a hole for the ecobrick">
-                </div>
-            </div>
-            <br>
-            <div id="three-column-gal-srs3" class="three-column-gal">
-                <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples7.jpg', 'Add first ecobrick')">
-                    <img src="../photos/ocean-examples7.jpg" alt="Add first ecobrick">
-                </div>
-
-                <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples8.jpg', 'Continue adding ecobricks')">
-                    <img src="../photos/ocean-examples8.jpg" alt="Continue adding ecobricks">
-                </div>
-
-                <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples9.jpg', 'Add all bottles, let dry.')">
-                    <img src="../photos/ocean-examples9.jpg" alt="Add all bottles, let dry.">
-                </div>
-            </div>
-            <br>
-            <div id="three-column-gal-srs4" class="three-column-gal">
-                <!--photo1-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples10.jpg', 'Mix your cob mixture to your ratio.')">
-                    <img src="../photos/ocean-examples10.jpg" alt="Mix your cob mixture to your ratio.">
-                </div>
-                    
-                <!--photo2-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples11.jpg', 'Layer cob on top of dry cement')">
-                    <img src="../photos/ocean-examples11.jpg" alt="Layer cob on top of dry cement">
-                </div>
-                    
-                <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples12.png', 'Finish with a thin layer of cob/cement')">
-                    <img src="../photos/ocean-examples12.jpg" alt="Finish with a thin layer of cob/cement">
-                </div>
-            </div>
-        </div>
 	
         <!-- PAGE SIDE BAR STARTS HERE-->
 
