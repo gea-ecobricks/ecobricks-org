@@ -3,7 +3,7 @@
 const id_Page_Translations = {
   "300-featured-content-1-title": "Acara Pengantar Ecobrick",
   "301-featured-content-1-subtitle": "Bergabunglah dengan kami dalam kursus pengantar langsung dan gratis. Pelajari ilmu, filosofi, dan teknik penting dalam acara komunitas kami 'Plastik, Biosfer & Ecobrick'. Zoom. Gratis.",
-  "302-featured-content-1-button": "↗️ Acara 21 Sept.",
+  "302-featured-content-1-button": "↗️ Acara 5 Okt.",
   "300-featured-content-2-title": "Apa arti hijau yang sebenarnya?",
   "301-featured-content-2-subtitle": "Ecobricking dipandu oleh konsep adat Ayyew. Etos ekologis ini menginspirasi etika Earthen kami, ecobricking kami, dan pemahaman kami tentang Hijau.",
   "302-featured-content-2-button": "↗️ Acara 30 Agustus",

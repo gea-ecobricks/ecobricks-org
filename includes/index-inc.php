@@ -20,10 +20,11 @@
 .feature-content-anchor-box{
 width: 100%;
   margin-top: 0px;
-  padding-top: 90px;
+  padding: 90px 22px 0;
   overflow: clip;
   display: flex;
   flex-flow: column;
+  box-sizing: border-box;
 }
 
 .slider-slide {
@@ -38,8 +39,6 @@ width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 13vh;
-  margin-right: 22px;
-  margin-left: 22px;
   border-radius: 20px;
   max-width: 100%;
 
@@ -59,8 +58,6 @@ width: 100%;
     position: relative;
     overflow: hidden;
     margin-bottom: 9vh;
-    margin-right: 16px;
-    margin-left: 16px;
     border-radius: 18px;
     max-width: 100%;
     margin-top: -5px;
@@ -137,6 +134,8 @@ width: 100%;
   .feature-content-anchor-box{
     height:92vh;
     max-height: 92vh;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   #slider-content-1 {
