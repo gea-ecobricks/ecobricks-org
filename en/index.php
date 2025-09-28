@@ -24,12 +24,12 @@ include '../ecobricks_env.php';
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Intro to Ecobricks Event</div>
                         <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our live community event 'Plastic, the Biosphere & Ecobricks'.  Zoom. Free.</div>
-                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ Sept. 21 Event</a>
+                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ Oct. 5 Event</a>
                     </div>
                 </div>
            </div>
 
-            <div id="slider-content-2" class="slider-slide" >
+            <!-- <div id="slider-content-2" class="slider-slide" >
             <div class="featured-content-shaded-box">
                 <div class="featured-content-text">
                     <div class="featured-content-title" data-lang-id="300-featured-content-2-title">What should green really mean?</div>
@@ -38,7 +38,7 @@ include '../ecobricks_env.php';
                     <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ August 30th Event</a>
                 </div>
             </div>
-       </div>
+       </div> -->
 
             <div id="slider-content-3" class="slider-slide" >
                 <div class="featured-content-shaded-box">
@@ -145,7 +145,7 @@ include '../ecobricks_env.php';
         <div class="gallery-flex-container">
         <?php
     // Updated SQL query to include a WHERE clause and a LIMIT
-    $sql = "SELECT * FROM tb_projects WHERE ready_to_show = 1 ORDER BY project_id DESC LIMIT 20;";
+    $sql = "SELECT * FROM tb_projects WHERE ready_to_show = 1 ORDER BY project_id DESC LIMIT 12;";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -191,7 +191,7 @@ include '../ecobricks_env.php';
     <div class="gallery-flex-container">
         <?php
         // Updated SQL query to include a WHERE clause and a LIMIT
-        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 AND show_report = 1 ORDER BY training_id DESC LIMIT 20;";
+        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 AND show_report = 1 ORDER BY training_id DESC LIMIT 12;";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
