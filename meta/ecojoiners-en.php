@@ -1,16 +1,16 @@
 <!-- Meta tags for page display and search engine listing-->
 
-<title>Introducing Ecojoiners | Ecobricks.org</title>
+<title>Ecojoiners | Ecobricks.org</title>
 
-<meta name="keywords" content="Ecojoiner, bamboo connector, ecobrick furniture, open source building, regenerative design">
+<meta name="keywords" content="Ecojoiner, build, constructions, furniture, bamboo, connector, building, design, spiral, modular, lego, regenerative">
 
-<meta name="description" content="Discover bamboo Ecojoiners that connect ecobricks into strong cubic matrices for furniture and structures. Plans coming soon.">
+<meta name="description" content="Regenerative, bamboo ecojoiners that connect ecobricks into cubic matrices-- enabling green furniture, structures and more.">
 
         <!-- Facebook Open Graph Tags for social sharing-->
 
         <meta property="og:url"           content="https://ecobricks.org/en/ecojoiners.php">
         <meta property="og:type"          content="website">
-        <meta property="og:title"         content="Introducing Ecojoiners">
+        <meta property="og:title"         content="Ecojoiners">
         <meta property="og:description"   content="Open source bamboo connectors to build with ecobricks. Plans coming soon.">
         <meta property="og:image"         content="https://ecobricks.org/webp/ecojoiner-1000px-banner.webp">
         <meta property="og:image:width" content="1000" >
@@ -27,4 +27,4 @@
  <meta name="author" content="Global Ecobrick Alliance" >
  <meta name="twitter:card" content="summary" >
  <meta name="twitter:label1" content="Est. reading time" >
- <meta name="twitter:data1" content="3 minutes" >
+ <meta name="twitter:data1" content="7 minutes" >

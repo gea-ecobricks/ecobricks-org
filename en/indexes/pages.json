@@ -426,6 +426,31 @@
     "section":"Service",
     "image_url":"\/icons\/aes-logo.svg",
     "url":"offsets.php" 
-}
+},
+
+  {
+    "id":"039",
+    "title":"Plastic Offsetting",
+    "description": "Balance your grey plastic impacts with green.",
+    "keywords" : "aes, gobrik, sequestered, plastic, offsets, buy, purchase, balance, plastic consumption",
+    "language":"English",
+    "lang_key":"en",
+    "section":"Service",
+    "image_url":"\/icons\/aes-logo.svg",
+    "url":"offsets.php"
+  },
+
+  {
+    "id":"060",
+    "title":"Ecojoiners",
+    "description": "Regenerative, bamboo ecojoiners that connect ecobricks into cubic matrices-- enabling green furniture, structures and more.",
+    "keywords" : "Ecojoiner, build, constructions, furniture, bamboo, connector, building, design, spiral, modular, lego, regenerative",
+    "language":"English",
+    "lang_key":"en",
+    "section":"Build",
+    "image_url":"\/icons\/ecojoiner-icon.svg",
+    "url":"ecojoiners.php"
+  }
+
 
 ]
