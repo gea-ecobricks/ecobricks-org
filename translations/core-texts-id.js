@@ -50,6 +50,9 @@ const id_Translations = {
 "012-menu-2-sub-item-3": '<a href="earth.php">Konstruksi Bumi</a><span class="circle" title="Halaman ini telah diterjemahkan 15%" style="color:yellow;  ">●</span>',
 "013-menu-2-trans-text-3": "earth.php telah diterjemahkan 15% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js\" class=\"translate-link\">bantu edit ⇗</a>",
 
+"022-menu-2-sub-item-8": '<a href="ecojoiners.php">Ecojoiners</a><span class="circle" title="Halaman ini tersedia dalam bahasa Inggris" style="color:green;  ">●</span>',
+"023-menu-2-trans-text-8": "🇮🇩 ecojoiners.php tersedia dalam bahasa Inggris | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/ecojoiners.php\" class=\"translate-link\">kode ⇗</a>",
+
 "014-menu-2-sub-item-4": '<a href="/earth-methods">Metode Konstruksi Bumi</a><span class="circle" title="Halaman ini telah diterjemahkan 0% dan sedang menunggu migrasi." style="color:red">●</span>',
 "015-menu-2-trans-text-4": "🏴 /earth-methods telah diterjemahkan 0% | menunggu migrasi ke situs git baru",
 "018-menu-2-sub-item-6": '<a href="/openspace">Ruang Terbuka</a><span class="circle" title="Halaman ini telah diterjemahkan 100% dalam bahasa Inggris tetapi sedang menunggu migrasi." style="color:red">●</span>',

@@ -598,14 +598,6 @@ display: none;
         </div>
 
 
-        <div class="submenu-item-container">
-            <div class="submenu-item" >
-                <a href="media.php">Press Kit</a>
-                <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
-            </div>
-            <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴󠁧󠁢󠁥󠁮󠁧󠁿 media.php has been translated 100%</div>
-        </div>
-
     </div>
 </div>
 
@@ -645,6 +637,14 @@ display: none;
         <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>
       </div>
       <div class="translation-info" data-lang-id="013-menu-2-trans-text-3">earth.php has been translated 75% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js" class="translate-link">help edit ⇗</a></div>
+    </div>
+
+    <div class="submenu-item-container">
+      <div class="submenu-item" data-lang-id="022-menu-2-sub-item-8">
+        <a href="ecojoiners.php">Ecojoiners</a>
+        <span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>
+      </div>
+      <div class="translation-info" data-lang-id="023-menu-2-trans-text-8">🏴 ecojoiners.php has been translated 100% | <a href="https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/ecojoiners.php" class="translate-link">code ⇗</a></div>
     </div>
 
     <!-- <div class="submenu-item-container">
@@ -836,6 +836,14 @@ display: none;
   </div>
   <div class="translation-info" data-lang-id="060-menu-5-trans-text-9">🏴󠁧󠁢󠁥󠁮󠁧󠁿  /movement is 100% in English however is in our non-git system | queued for transition</div>
 </div>
+<div class="submenu-item-container">
+  <div class="submenu-item">
+      <a href="media.php">Press Kit</a>
+      <span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>
+  </div>
+  <div class="translation-info" data-lang-id="005-menu-1-trans-text-3">🏴 media.php has been translated 100%</div>
+</div>
+
 
 </div>
 </div>

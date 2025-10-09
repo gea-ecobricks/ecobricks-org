@@ -55,6 +55,9 @@ const fr_Translations = {
     "012-menu-2-sub-item-3": '<a href="earth.php">Construction Terrestre</a><span class="circle" title="Cette page a été traduite à 15%" style="color:yellow;  ">●</span>',
     "013-menu-2-trans-text-3": "earth.php a été traduit à 15% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js\" class=\"translate-link\">aidez à éditer ⇗</a>",
 
+    "022-menu-2-sub-item-8": '<a href="ecojoiners.php">Ecojoiners</a><span class="circle" title="Cette page est disponible en anglais" style="color:green;  ">●</span>',
+    "023-menu-2-trans-text-8": "🇫🇷 ecojoiners.php est disponible en anglais | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/ecojoiners.php\" class=\"translate-link\">code ⇗</a>",
+
     "014-menu-2-sub-item-4": '<a href="/earth-methods">Méthodes de Construction Terrestre</a><span class="circle" title="Cette page a été traduite à 0% et est dans notre format non-git.   En attente de migration." style="color:red">●</span>',
     "015-menu-2-trans-text-4": "🏴 /earth-methods a été traduit à 0% | migration vers le nouveau site git en attente",
     "018-menu-2-sub-item-6": '<a href="/openspace">Espaces Ouverts</a><span class="circle" title="Cette page a été traduite à 100% en anglais mais dans notre format non-git.   En attente de migration." style="color:red">●</span>',

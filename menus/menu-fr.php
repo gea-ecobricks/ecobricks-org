@@ -78,6 +78,7 @@
                     <a href="build.php">Méthodes de construction</a>
                     <a href="/modules">Lego Modules</a>
                     <a href="/earth">Terre & Ecobricks</a>
+                    <a href="ecojoiners.php">Ecojoiners</a>
                     <a href="/openspaces">Open Spaces</a>
                 </div>
             </div>

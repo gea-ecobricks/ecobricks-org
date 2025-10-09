@@ -7,7 +7,7 @@ CHINESE TRANSLATION FOR ECOBRICKS.ORG
 const zh_Page_Translations = {
     "300-featured-content-1-title": "生态砖介绍活动",
     "301-featured-content-1-subtitle": "加入我们的免费直播入门课程。在我们的社区活动‘塑料、生物圈与生态砖’中学习科学、哲学和关键技巧。Zoom。免费。",
-    "302-featured-content-1-button": "↗️ 10月20日活动",
+    "302-featured-content-1-button": "↗️ 10月19日（周日）活动",
   "300-featured-content-2-title": "“绿色”究竟应该意味着什么？",
   "301-featured-content-2-subtitle": "生态砖实践受到本土理念 Ayyew 的指引。这种生态精神启发了我们的土伦理、生态砖制作以及我们对绿色的理解。",
   "302-featured-content-2-button": "↗️ 8月30日活动",
