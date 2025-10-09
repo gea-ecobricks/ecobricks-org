@@ -55,6 +55,8 @@ const en_Translations = {
       "021-menu-2-trans-text-7": "🏴 /earth-methods has been translated 100% | migration to new git site pending",
       "012-menu-2-sub-item-3": '<a href="earth.php">Earth Building</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
       "013-menu-2-trans-text-3": "earth.php has been translated 75% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/translations/earth-fr-translation.js\" class=\"translate-link\">help edit ⇗</a>",
+      "022-menu-2-sub-item-8": '<a href="ecojoiners.php">Ecojoiners</a><span class="circle" title="This page has been 100% translated to English" style="color:green;  ">●</span>',
+      "023-menu-2-trans-text-8": "🏴 ecojoiners.php has been translated 100% | <a href=\"https://github.com/gea-ecobricks/ecobricks-org/blob/main/en/ecojoiners.php\" class=\"translate-link\">code ⇗</a>",
       "014-menu-2-sub-item-4": '<a href="/earth-methods">Earth Building Methods</a><span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>',
       "015-menu-2-trans-text-4": "🏴 /earth-methods has been translated 100% | migration to new git site pending",
       "018-menu-2-sub-item-6": '<a href="/openspace">Open spaces</a><span class="circle" title="This page is 100% translated to English but in our non-git format.   Queued for migration." style="color:orange">●</span>',
