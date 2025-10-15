@@ -153,74 +153,30 @@
                     </div>
                 </div>
             </section>
-            <section id="BUILDING">
+            <section id="ANCESTRAL">
                 <div class="reg-content-block" id="block6">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="035-block-6-opener-header">Building with Ocean Ecobricks</h4>
-                            <h5 data-lang-id="036-block-6-opener-subheader">Building with ocean ecobricks the last step in securing the plastic that has been collected.</h5>
+                            <h4 data-lang-id="034-block-6-opener-header">Ancestral Inspiration</h4>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(6)" class="block-toggle" id="block-toggle-show6" aria-label="Toggle Section Six">+</button>
                     </div>
                     <div id="preclosed6">
-                        <p data-lang-id="037-block-6-paragraph-1">Ocean ecobricks are sometimes combined together with silicone to make ecobrick <a href ="/modules">modules</a>.  However, the best application is in making and enhancing <b>green spaces:</b>  home garden walls, play parks, tree ring benches, and forest walkways. Ocean ecobricks are laid down horizontally and combined with <a href="/earth">earth / cob /adobe.</href> In this way they can used to create benches, garden planters, walkways, walls and more.</p>
-                        <p data-lang-id="038-block-6-paragraph-2">Building with ocean ecobricks applies <a href="/circular">circular</a> principles to ensure that we plan for the end of the construction.  In this way, when the construction comes to its end the ocean ecobricks can be extricated and used for another construction.</p>
-                        <p data-lang-id="039-block-6-paragraph-3"><a href"/earth">Learn more about Ecobrick & Earth Building</a></p>
+                        <p data-lang-id="035-block-6-paragraph-1">For centuries First Nation peoples used tobacco as a way to make offerings and prayers to Spirit.  To this day, on the Great Plains of what is now North America, First Nation peoples have used tobacco with great respect and consciousness.  Tobacco was used in ceremonies to promote physical, spiritual, emotional, and community well-being. Elders emphasized the importance of having good attitudes and thoughts when working with tobacco.  Tobacco was smoked as an offering to the Creator or to a person, place or being. Elders taught that the smoke from burned tobacco carried the thoughts and prayers to the spirit world or to the Creator.3</p>
+                        <p data-lang-id="036-block-6-paragraph-2">Learning from our ancestors, we can reclaim the use of tobacco as a means to catalyse and raise ecological consciousness.  The actions required to make a Cigbrick are such that they can infuse the routine of tabacco smoking with conscious ritual.  With this, the transformative power of tobacco can be harnessed for the healing of Earth, Air and Water once again.</p>
                         <div class="side2">
                             <img src="../wp-content/uploads/2020/01/Circle-earth-Bench-300px-wide-212x300.png" style="width:65%" loading ="lazy">
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="VERSUS">
-                <div class="reg-content-block" id="block7">
-                    <div class="opener-header">
-                        <div class="opener-header-text">
-                            <h4 data-lang-id="040-block-7-opener-header">Ocean vs Normal Ecobricks</h4>
-                            <h5 data-lang-id="041-block-7-opener-subheader">The Global Ecobrick Alliance promotes ocean ecobricks only as a last resort for plastic.</h5>
-                            <br>
-                        </div>
-                        <button onclick="toggleAccordion(7)" class="block-toggle" id="block-toggle-show7" aria-label="Toggle Section Seven">+</button>
-                    </div>
-                    <div id="preclosed7">
-                        <p data-lang-id="042-block-7-paragraph-1">Normal ecobricks are the best way to deal with our daily plastic. Compared to <a href="/what">regular ecobricks</a>, Ocean Ecobricks are more wasteful, fragile, and much less elegant than regular Ecobricks.  They are not ideal for making <a href ="/modules">milstein modules</a> or lego– mainly for <a href="/earth">earth and ecobrick constructions.</a> Nonetheless, Ocean Ecobricks remain <a href="/cradle-to-cradle/">cradle to cradle.</a></p>
-                        <div class="side2">
-                            <img src="../pngs/justandecobrick.png" style="width:65%" loading ="lazy">
-                        </div>
-                        <p data-lang-id="043-block-7-paragraph-2">In other words, making an ecobrick by packing your own clean and dry plastic into an uncut bottle is ideal! </p>
-                        <p data-lang-id="044-block-7-paragraph-3">Ocean ecobricks miss out on the most value aspect of ecobricking:  that of taking personal responsibility for our plastic.</p>
-                        <p data-lang-id="045-block-7-paragraph-4">Also, unlike normal ecobricks, OEB’s generate waste in their making. Bottles must be cut, and the bottle tops and caps are left over. (Note that even though cut, the tops and caps can still be recycled.  PET and HDPE are the most sought after plastics. In most South East Asian countries these will be collected by recyclers.  Simply pack bottle cuttings into an intact PET bottle, cap and recycle.)</p>
-                        <p data-lang-id="046-block-7-paragraph-5">Ocean Ecobricks are therefore ideal for communities near ocean, lake or river shores that are overloaded with plastic.</p>
-                    </div>
-                </div>
-            </section>
-            <section id="FINAL">
-                <div class="reg-content-block" id="block8">
-                    <div class="opener-header">
-                        <div class="opener-header-text">
-                            <h4 data-lang-id="047-block-8-opener-header">Are Ocean Ecobricks Really a Final Solution for Plastic?</h4>
-                            <h5 data-lang-id="048-block-8-opener-subheader">This is a common question, but one with a false premise. In the circular systems of the biosphere, there’s never such thing as ‘final’.</h5>
-                            <br>
-                        </div>
-                        <button onclick="toggleAccordion(8)" class="block-toggle" id="block-toggle-show8" aria-label="Toggle Section Eight">+</button>
-                    </div>
-                    <div id="preclosed8">
-                        <p data-lang-id="049-block-8-paragraph-1">Ecological cycles can be very short and they can be very long– but they are never final.   The Earth’s sequestration of carbon is an example of a long cycle– measured in millions of years.   However, as carbon moves from plants to trees and back again, the cycles can be short.</a></p>
-                        <div class="side2">
-                            <img src="../wp-content/uploads/2021/06/earth-center-standalone-500px-282x300.png" style="width:65%" loading ="lazy">
-                        </div>
-                        <p data-lang-id="050-block-7-paragraph-2">By concentrating our carbon/plastic into building blocks like ocean ecobricks, we secure it from getting into the environment in the short-term.  Then when we put ocean ecobricks into long-term earth constructions, the plastic is further protected.  Covered by earth it cannot be degraded by the sun, fire, or friction– much like the carbon the earth put under ground.</p>
-                        <p data-lang-id="051-block-7-paragraph-3">Even if these structures last decades or centuries, when the structure comes to its end, the plastic can be removed and put to use again.  In this way we copy how the earth removed plastic from ecology and into long-term geology.</p>
-                        <p data-lang-id="052-block-7-paragraph-4">Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.  In the same way the Earth’s carbon was a gift to our age, we can gift our carbon to another.</p>
-                    </div>
-                </div>
-            </section>
         	<div class="page-paragraph">
-    			<h4 data-lang-id="053-page-end-header">Examples of Ocean Ecobricks</p>
-    			<p data-lang-id="054-end-page-paragraph">
-    			Ocean Ecobricks come in all sizes and shapes– it all depends on what you plan to build!</p>
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/Vxsk-GEw2Ho">
+                </iframe>
     		</div>
+        </div>
 	
         <!-- PAGE SIDE BAR STARTS HERE-->
 
