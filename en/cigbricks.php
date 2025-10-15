@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='1.0';?>
+<?php $version='1.3';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -110,7 +110,7 @@
                         <p data-lang-id="020-block-3-paragraph-1">Perhaps the best application is the making of modular furniture, entirely from Cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool. For those who would prefer to hide their Cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for decades or centuries.</p>
                             <p data-lang-id="021-block-3-paragraph-2">And… if the bench is broken down, the cigbricks can be taken out and used again! Ecobricks are a <a href="../cradle-to-cradle">cradle-to-cradle</a> solution.</p>
                         <div class="side2">
-                            <a href"../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
+                            <a href="https://www.ecobricks.org/wp-content/uploads/2019/01/tire-band-5-300x225.jpg"><img src="../wp-content/uploads/2019/01/tire-band-5-300x225.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                 </div>
             </section>
         	<div class="page-paragraph">
-                <iframe width="420" height="315"
+                <iframe width="630" height="472"
                 src="https://www.youtube.com/embed/Vxsk-GEw2Ho">
                 </iframe>
     		</div>
