@@ -95,6 +95,7 @@
                     <a href="build.php">Building Methods</a>
                     <a href="modules.php">Ecobrick Modules</a>
                     <a href="earth.php?v2">Earth & Ecobricks</a>
+                    <a href="ecojoiners.php">Ecojoiners</a>
                     <a href="/openspace/">Open Spaces</a>
                 </div>
             </div>

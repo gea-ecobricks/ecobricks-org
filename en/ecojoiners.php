@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.31';?>
+<?php $version='2.4';?>
 <?php $page='ecojoiners';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
