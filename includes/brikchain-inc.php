@@ -199,6 +199,38 @@
   color: var(--h1);
 }
 
+#brikchain-transactions {
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+}
+
+#brikchain-transactions.dataTable thead th {
+  background-color: var(--table-background-heading);
+  color: var(--main-background);
+}
+
+#brikchain-transactions.dataTable tbody tr.odd,
+#brikchain-transactions.dataTable tbody tr:nth-child(odd) {
+  background-color: var(--table-background-2);
+}
+
+#brikchain-transactions.dataTable tbody tr.even,
+#brikchain-transactions.dataTable tbody tr:nth-child(even) {
+  background-color: var(--table-background-1);
+}
+
+#brikchain-transactions.dataTable tbody tr:hover {
+  background-color: var(--table-background-hover);
+}
+
+#brikchain-transactions a {
+  color: var(--text-color);
+}
+
+#brikchain-transactions a:hover {
+  color: var(--h1);
+}
+
 .dataTables_wrapper {
 	font-family: 'Mulish', Arial, Helvetica, sans-serif;
 }

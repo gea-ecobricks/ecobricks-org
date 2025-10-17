@@ -94,15 +94,23 @@ try {
     $sum_costs = 0;
     $row_count = 0;
 
+    $normalizeValue = static function ($value) {
+        if ($value === null || $value === '') {
+            return 0.0;
+        }
+
+        return (float)str_replace(',', '', (string)$value);
+    };
+
     // Aggregate data
     while ($row = $result->fetch_assoc()) {
         // Normalize values by removing commas and converting to float
-        $sum_ecobricks += (float)str_replace(',', '', $row['brick_count']);
-        $sum_brikcoins += (float)str_replace(',', '', $row['total_brk']);
-        $sum_weight += (float)str_replace(',', '', $row['weight']);
-        $sum_expenses += (float)str_replace(',', '', $row['tot_idr_exp_amt']);
-        $sum_revenue += (float)str_replace(',', '', $row['tot_idr_rev_amt']);
-        $sum_costs += (float)str_replace(',', '', $row['final_aes_plastic_cost_idr']);
+        $sum_ecobricks += $normalizeValue($row['brick_count'] ?? null);
+        $sum_brikcoins += $normalizeValue($row['total_brk'] ?? null);
+        $sum_weight += $normalizeValue($row['weight'] ?? null);
+        $sum_expenses += $normalizeValue($row['tot_idr_exp_amt'] ?? null);
+        $sum_revenue += $normalizeValue($row['tot_idr_rev_amt'] ?? null);
+        $sum_costs += $normalizeValue($row['final_aes_plastic_cost_idr'] ?? null);
         $row_count++;
     }
 
