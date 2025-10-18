@@ -361,6 +361,40 @@ if ($result->num_rows > 0) {
 <!-- CUSTOM PAGE SCRIPTS-->
 
 
+<style>
+    #transaction-details-table.dataTable {
+        border-collapse: collapse;
+        color: var(--text-color);
+    }
+
+    #transaction-details-table.dataTable thead th {
+        background-color: var(--table-background-heading);
+        color: var(--text-color);
+        text-align: left;
+    }
+
+    #transaction-details-table.dataTable tbody td {
+        text-align: left;
+    }
+
+    #transaction-details-table.dataTable tbody tr.transaction-row-odd {
+        background-color: var(--table-background-1) !important;
+    }
+
+    #transaction-details-table.dataTable tbody tr.transaction-row-even {
+        background-color: var(--table-background-2) !important;
+    }
+
+    #transaction-details-table.dataTable tbody tr.transaction-row:hover {
+        background-color: var(--table-background-hover) !important;
+    }
+
+    #transaction-details-table.dataTable tbody tr.transaction-row td {
+        border-top: 1px solid var(--divider-line);
+    }
+</style>
+
+
 <!-- BRK TRANS DATATABLE -->
 <script>
     $(document).ready(function () {
@@ -478,6 +512,60 @@ function openTransactionModal(tran_id) {
         catalyst_name: "Catalyst Name",
     };
 
+    const escapeHtml = (unsafeValue) => {
+        if (unsafeValue === null || unsafeValue === undefined) {
+            return '';
+        }
+
+        return String(unsafeValue)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    };
+
+    const shouldIncludeRow = (value) => {
+        if (value === null || value === undefined) {
+            return false;
+        }
+
+        if (Array.isArray(value)) {
+            return value.some(item => shouldIncludeRow(item));
+        }
+
+        if (typeof value === 'string') {
+            const trimmed = value.trim();
+
+            if (trimmed === '' || trimmed.toLowerCase() === 'null') {
+                return false;
+            }
+
+            const numericCandidate = trimmed.replace(/[, ]/g, '');
+            const sanitizedNumeric = numericCandidate.replace(/[^0-9.-]/g, '');
+
+            if (sanitizedNumeric !== '') {
+                const parsedNumeric = Number.parseFloat(sanitizedNumeric);
+
+                if (
+                    !Number.isNaN(parsedNumeric) &&
+                    parsedNumeric === 0 &&
+                    /^-?0*(?:\.0+)?$/.test(sanitizedNumeric)
+                ) {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        if (typeof value === 'number') {
+            return value !== 0;
+        }
+
+        return true;
+    };
+
     // Fetch transaction details
     fetch(`../api/fetch_brik_transactions.php?tran_id=${tran_id}`)
         .then(response => response.json())
@@ -487,9 +575,17 @@ function openTransactionModal(tran_id) {
             tableHTML += '<thead><tr><th>Field</th><th>Value</th></tr></thead><tbody>';
 
             for (const [field, value] of Object.entries(data)) {
+                if (!shouldIncludeRow(value)) {
+                    continue;
+                }
+
                 // Use the fieldNameMap for human-readable field names, fallback to original field name if not mapped
                 const displayName = fieldNameMap[field] || field;
-                tableHTML += `<tr><td>${displayName}</td><td>${value}</td></tr>`;
+                const formattedValue = Array.isArray(value)
+                    ? value.filter(item => shouldIncludeRow(item)).map(item => item ?? '').join(', ')
+                    : value;
+
+                tableHTML += `<tr><td>${escapeHtml(displayName)}</td><td>${escapeHtml(formattedValue)}</td></tr>`;
             }
 
             tableHTML += '</tbody></table>';
@@ -502,7 +598,11 @@ function openTransactionModal(tran_id) {
                 paging: false, // Disable pagination
                 searching: false, // Disable search
                 info: false, // Disable table info
-                scrollX: true // Enable horizontal scrolling
+                scrollX: true, // Enable horizontal scrolling
+                stripeClasses: ['transaction-row-odd', 'transaction-row-even'],
+                createdRow: function(row) {
+                    $(row).addClass('transaction-row');
+                }
             });
         })
         .catch(error => {
