@@ -223,6 +223,18 @@
   background-color: var(--table-background-hover);
 }
 
+#brikchain-transactions.dataTable tbody tr.odd td.sorting_1 {
+  background-color: var(--table-background-2);
+}
+
+#brikchain-transactions.dataTable tbody tr.even td.sorting_1 {
+  background-color: var(--table-background-1);
+}
+
+#brikchain-transactions.dataTable tbody tr:hover td.sorting_1 {
+  background-color: var(--table-background-hover);
+}
+
 #brikchain-transactions a {
   color: var(--text-color);
 }

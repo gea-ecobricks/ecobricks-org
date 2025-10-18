@@ -2,6 +2,8 @@
 // Include the GoBrik server connection credentials
 require_once '../gobrikconn_env.php';
 
+header('Content-Type: application/json');
+
 try {
     // Check if a specific tran_id is requested
     $tran_id = isset($_GET['tran_id']) ? intval($_GET['tran_id']) : null;
@@ -17,64 +19,26 @@ try {
 
         $stmt->bind_param("i", $tran_id);
 
-$result = $stmt->get_result();
+        if (!$stmt->execute()) {
+            throw new Exception("Failed to execute statement: " . $stmt->error);
+        }
 
-if ($result->num_rows === 0) {
-    throw new Exception("Transaction not found.");
-}
+        $result = $stmt->get_result();
 
-// Return transaction details as JSON
-echo json_encode($result->fetch_assoc());
+        if (!$result || $result->num_rows === 0) {
+            throw new Exception("Transaction not found.");
+        }
 
-With:
+        $data = $result->fetch_assoc();
 
-$stmt->execute();
-$stmt->store_result();
+        if ($result instanceof mysqli_result) {
+            $result->free();
+        }
 
-if ($stmt->num_rows === 0) {
-    throw new Exception("Transaction not found.");
-}
+        $stmt->close();
 
-$stmt->bind_result($tran_id, $tran_name, $individual_amt, $status, $send_ts, $sender_ecobricker, $block_tran_type, $block_amt, $sender, $receiver_or_receivers, $receiver_1, $receiver_2, $receiver_3, $receiver_central_reserve, $sender_central_reserve, $ecobrick_serial_no, $tran_sender_note, $product, $send_dt, $accomp_payment, $authenticator_version, $expense_type, $gea_accounting_category, $shipping_cost_brk, $product_cost_brk, $total_cost_incl_shipping, $shipping_with_currency, $aes_officially_purchased, $country_of_buyer, $currency_for_shipping, $credit_other_ecobricker_yn, $catalyst_name);
-
-$stmt->fetch();
-
-$data = [
-    "tran_id" => $tran_id,
-    "tran_name" => $tran_name,
-    "individual_amt" => $individual_amt,
-    "status" => $status,
-    "send_ts" => $send_ts,
-    "sender_ecobricker" => $sender_ecobricker,
-    "block_tran_type" => $block_tran_type,
-    "block_amt" => $block_amt,
-    "sender" => $sender,
-    "receiver_or_receivers" => $receiver_or_receivers,
-    "receiver_1" => $receiver_1,
-    "receiver_2" => $receiver_2,
-    "receiver_3" => $receiver_3,
-    "receiver_central_reserve" => $receiver_central_reserve,
-    "sender_central_reserve" => $sender_central_reserve,
-    "ecobrick_serial_no" => $ecobrick_serial_no,
-    "tran_sender_note" => $tran_sender_note,
-    "product" => $product,
-    "send_dt" => $send_dt,
-    "accomp_payment" => $accomp_payment,
-    "authenticator_version" => $authenticator_version,
-    "expense_type" => $expense_type,
-    "gea_accounting_category" => $gea_accounting_category,
-    "shipping_cost_brk" => $shipping_cost_brk,
-    "product_cost_brk" => $product_cost_brk,
-    "total_cost_incl_shipping" => $total_cost_incl_shipping,
-    "shipping_with_currency" => $shipping_with_currency,
-    "aes_officially_purchased" => $aes_officially_purchased,
-    "country_of_buyer" => $country_of_buyer,
-    "currency_for_shipping" => $currency_for_shipping,
-    "credit_other_ecobricker_yn" => $credit_other_ecobricker_yn,
-    "catalyst_name" => $catalyst_name,
-];
-
-echo json_encode($data);
+        echo json_encode($data);
+        exit;
     } else {
         // Existing DataTables logic for paginated results
         $start = intval($_POST['start'] ?? 0);
@@ -130,9 +94,19 @@ echo json_encode($data);
             $data[] = $row;
         }
 
+        if ($result instanceof mysqli_result) {
+            $result->free();
+        }
+
+        $stmt->close();
+
         $totalQuery = "SELECT COUNT(*) as total FROM tb_brk_transaction";
         $totalResult = $gobrik_conn->query($totalQuery);
-        $totalRecords = $totalResult->fetch_assoc()['total'];
+        $totalRecords = $totalResult ? $totalResult->fetch_assoc()['total'] : 0;
+
+        if ($totalResult instanceof mysqli_result) {
+            $totalResult->free();
+        }
 
         $response = [
             "draw" => intval($_POST['draw'] ?? 1),
