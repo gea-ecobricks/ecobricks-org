@@ -6,7 +6,7 @@ const es_Page_Translations = {
 
     "300-featured-content-1-title": "Evento de Introducción a los Ecobricks",
     "301-featured-content-1-subtitle": "Únase a nosotros para un curso introductorio en vivo y gratuito. Aprenda la ciencia, la filosofía y las técnicas esenciales en nuestro evento comunitario en vivo 'Plástico, la Biosfera y los Ecobricks'. Zoom. Gratis.",
-    "302-featured-content-1-button": "↗️ Evento Domingo 19 de Oct.",
+    "302-featured-content-1-button": "↗️ Evento Domingo 16 de Nov.",
     "300-featured-content-2-title": "¿Qué debería significar realmente verde?",
     "301-featured-content-2-subtitle": "El ecobricking está guiado por el concepto indígena de Ayyew. Este ethos ecológico inspira nuestra ética terrenal, nuestro ecobricking y nuestra comprensión de lo Verde.",
     "302-featured-content-2-button": "↗️ Evento 30 de Agosto",
