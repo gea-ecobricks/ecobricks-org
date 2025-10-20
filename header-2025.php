@@ -1159,9 +1159,9 @@ function navigateTo(url) {
 
 <div id="login-menu-slider">
   <div class="login-selector-box">
-    <a class="login-selector" target="_blank" href='https://gobrik.com/en/go.php#home'>
+    <a class="login-selector" target="_blank" href='https://gobrik.com'>
       <i style="background: url(../icons/gobrik-icon-white.svg) no-repeat; width:15px; height:15px;display: inline-block;background-size:contain;margin-right:4px;"></i>GoBrik</a>
-    <a class="login-selector" target="_blank" href='https://ecobricks.org/email'>✉️ Trainer Email</a>
+    <a class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org'>✉️ GEA Github</a>
     <a class="login-selector" target="_blank" href='https://nextcloud.ecobricks.org'><i style="background: url(../icons/next-cloud-white.svg) no-repeat; width:22px; height:11px;display: inline-block;background-size:contain;margin-right:4px;"></i>Trainer NextCloud</a>
     <button type="button" class="login-selector" onclick="clearSiteCache()" data-lang-id="1003-reset-preferences">❌ Reset Preferences</button>
   </div>

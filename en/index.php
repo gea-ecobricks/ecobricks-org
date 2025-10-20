@@ -24,7 +24,7 @@ include '../ecobricks_env.php';
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Intro to Ecobricks Event</div>
                         <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our live community event 'Plastic, the Biosphere & Ecobricks'.  Zoom. Free.</div>
-                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ Sunday, Oct. 19 Event</a>
+                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ Sunday, Nov. 16th Event</a>
                     </div>
                 </div>
            </div>
@@ -60,6 +60,7 @@ include '../ecobricks_env.php';
                 </div>
             </div>
 
+            <div class="slider-dots" role="tablist" aria-label="Featured content navigation"></div>
         </div><!--featured-slider-->
 
 
