@@ -1,5 +1,5 @@
 <?php
-$version='6.1';
+$version='6.2';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='index';
 include '../ecobricks_env.php';
