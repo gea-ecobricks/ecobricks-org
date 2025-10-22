@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='1.3';?>
+<?php $version='1.5';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -63,7 +63,7 @@
                             <li data-lang-id="013a-block-1-list-paragraph1">__________________________________________________________________________________________________________________________________________________________________</li>
                             <li data-lang-id="013b-block-1-list-paragraph2">1. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes</li>
                             <li data-lang-id="013c-block-1-list-paragraph3">2. Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007.</li>
-                            <li data-lang-id="013d-block-1-list-paragraph4">3. <a href"https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3</li>
+                            <li data-lang-id="013d-block-1-list-paragraph4">3. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3</li>
                             <li data-lang-id="013e-block-1-list-paragraph5">4. Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a>,</i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99</li>
                             <li data-lang-id="013f-block-1-list-paragraph6">5. Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25</li>
                             <li data-lang-id="013g-block-1-list-paragraph7">6. Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008.</li>
@@ -83,7 +83,7 @@
                     </div>
                     <div id="preclosed2">
                         <div class="side2">
-                            <a href"../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
+                            <a href="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
                     	    <p data-lang-id="014c-block-2-main-p1" style="font-size:0.9em !important">Click to enlarge instructions</p>
                         </div>
                         <p data-lang-id="015-block-2-paragraph-1">Using cigarette filters to make an ecobrick is easy. Just remove the paper covering from the used butt and stuff the filter (plastic acetate) into a plastic bottle.  The paper is biodegradable, which, unlike the acetate, is not a toxic concern and can be thrown away.  Biodegradables, like paper, are not added to ecobricks (1). Then, use a stick to pack down and compress the filters and any other plastic you pack in. Was there a plastic wrapper around your cigarette box? Finished with that plastic lighter? You can pack those in too! Of course, to make a pure Cigbrick — use just the filters!</p>
