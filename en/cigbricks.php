@@ -64,7 +64,7 @@
                         </div>
 						<p data-lang-id="012-block-2-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year (6).</p>
                         <br>
-                        <p data-lang-id="013a-block-2-list-paragraph1">__________________________________________________________________________________________________________________________________________________________________</p>
+                        <p data-lang-id="013a-block-2-list-paragraph1">___________________________________________________________________</p>
                         <p data-lang-id="013b-block-2-list-paragraph2">1. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes</p>
                         <p data-lang-id="013c-block-2-list-paragraph3">2. Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007.</p>
                         <p data-lang-id="013d-block-2-list-paragraph4">3. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3</p>
@@ -92,7 +92,7 @@
                         <p data-lang-id="015-block-3-paragraph-1">Using cigarette filters to make an ecobrick is easy. Just remove the paper covering from the used butt and stuff the filter (plastic acetate) into a plastic bottle.  The paper is biodegradable, which, unlike the acetate, is not a toxic concern and can be thrown away.  Biodegradables, like paper, are not added to ecobricks (1). Then, use a stick to pack down and compress the filters and any other plastic you pack in. Was there a plastic wrapper around your cigarette box? Finished with that plastic lighter? You can pack those in too! Of course, to make a pure Cigbrick — use just the filters!</p>
                         <p data-lang-id="016-block-3-paragraph-2">If packed properly, the end result is a remarkably dense and solid building block that can be used for a whole bunch of exciting applications. Best of all, the otherwise toxic acetate is 100% contained and put to good use!</p>
                         <br>
-                        <p data-lang-id="017a-block-3-list-paragraph1">__________________________________________________________________________________________________________________________________________________________________</p>
+                        <p data-lang-id="017a-block-3-list-paragraph1">___________________________________________________________________</p>
                         <p data-lang-id="017b-block-3-list-paragraph2">1. Adding paper and biodegradables to an ecobrick is not necessary (as unlike plastic, they are not toxic in the environment). In addition, biodegradables in particular can affect the safety and integrity of the ecobrick as a building block. They increase the risk of methane build up in the ecobrick and add a flammability risk over time. Plus, rotting stuff in your ecobrick doesn’t look very nice!</p>
                     </div>
                 </div>
