@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='1.8';?>
+<?php $version='1.9';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -13,10 +13,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Introducing a simple solution for cigarette pollution</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">The Cigbrick</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">The Cigbrick</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Introducing a simple solution for cigarette pollution</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt-X"><img src="../svgs/oebs.svg" style="width: 95%" alt="The basics of ecobricking">
+	<div class="splash-image" data-lang-id="003-splash-image-alt-X"><img src="../webp/Characters-Albatross-Cigar.gif" style="width: 95%" alt="Albatross">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -61,6 +61,7 @@
 						<p data-lang-id="010-block-2-paragraph2">Many smokers assume that you can throw a cigarette butt on to the ground and it will biodegrade. Alas, this is <b><i>not the case</i></b>. Acetate does not biodegrade like a banana peel or paper.   A recent scientific examining the effect of filters concludes “Cellulose acetate is photodegradable but not bio-degradable.  Although ultraviolet rays from the sun will eventually break the filter into smaller pieces under ideal environmental conditions, the source material never disappears; it essentially becomes diluted in water or soil. (3) These micro-plastics cause all sorts of problems. Microplastics can have possible <b>direct ecotoxicological impacts, accumulate in food chains and cause economic damage because of food safety concerns.</b> (4)</p>
 						<p data-lang-id="011-block-2-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life (5).</p>
                         <div class="side2">
+                            <img src="../webp/Characters-Albatross-Cigar.gif"style="width: 95%" alt="Albatross" loading="lazy">
                         </div>
 						<p data-lang-id="012-block-2-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year (6).</p>
                         <br>
@@ -86,8 +87,7 @@
                     </div>
                     <div id="preclosed3">
                         <div class="side2">
-                            <!--<a href="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
-                    	    <p data-lang-id="014c-block-3-main-p1"> Click to enlarge instructions</p>-->
+                            <a href="../svgs/cigbrick-slide-3.svg"><img src="../svgs/cigbrick-slide-3.svg" style="width:65%" alt="Cigbrick Instructions" loading ="lazy"></a>
                         </div>
                         <p data-lang-id="015-block-3-paragraph-1">Using cigarette filters to make an ecobrick is easy. Just remove the paper covering from the used butt and stuff the filter (plastic acetate) into a plastic bottle.  The paper is biodegradable, which, unlike the acetate, is not a toxic concern and can be thrown away.  Biodegradables, like paper, are not added to ecobricks (1). Then, use a stick to pack down and compress the filters and any other plastic you pack in. Was there a plastic wrapper around your cigarette box? Finished with that plastic lighter? You can pack those in too! Of course, to make a pure Cigbrick — use just the filters!</p>
                         <p data-lang-id="016-block-3-paragraph-2">If packed properly, the end result is a remarkably dense and solid building block that can be used for a whole bunch of exciting applications. Best of all, the otherwise toxic acetate is 100% contained and put to good use!</p>
@@ -111,7 +111,7 @@
                         <p data-lang-id="020-block-4-paragraph-1">Perhaps the best application is the making of modular furniture, entirely from Cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool. For those who would prefer to hide their Cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for decades or centuries.</p>
                         <p data-lang-id="021-block-4-paragraph-2">And… if the bench is broken down, the cigbricks can be taken out and used again! Ecobricks are a <a href="../cradle-to-cradle">cradle-to-cradle</a> solution.</p>
                         <div class="side2">
-                            <a href="https://www.ecobricks.org/wp-content/uploads/2019/01/tire-band-5-300x225.jpg"><img src="../wp-content/uploads/2019/01/tire-band-5-300x225.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
+                            <a href="../svgs/tire-band-5-300x225.svg"><img src="../svgs/tire-band-5-300x225.svg" style="width:65%" alt="Tire Band" loading ="lazy"></a>
                         </div>
                     </div>
                 </div>
@@ -128,13 +128,23 @@
                     </div>
                     <div id="preclosed5">
                         <div class="side2">
-                            <p data-lang-id="024-block-5-paragraph-1">Mas Tarto, is a Global Ecobrick Trainer from Pemalang, Java, Indonesia. Mas Tarto is also a tobacco lover.  He makes cigbricking a personal daily ritual. Right after putting out his cigarette, he removes the paper, and packs it into the bottle he always carries with him. If the bottle is not with him, he puts the filter into his pocket for later packing. Sometimes, he even grabs other butts from the ashtray! His act is so astounding that it raises eyebrows wherever he goes.  Whether he is at home, at the cafe, or at a restaurant he is asked about it. He then explains himself, his ecological reasons and his concern for the environment.</p>
-                            <p data-lang-id="025-block-5-paragraph-2">Mas Hindra, is another GEA Ecobrick Trainer who lives and works on a boat in the middle of the South China Sea. Although not a smoker himself, many of his 163 shipmates are.  In order to finish off his personal ecobricking projects, he requests and collects the cigarette butts of all the ship — asking them first to remove the paper. His request and project is so astounding that it gets everyone talking.  It leads to all sorts of interesting questions: “Where would the filter go if it had not been ecobricked?”  “What happens to plastic lighters?”  “What is acetate anyway?” He then explains his love and concern for the ocean, and the dangers of discarded filters.</p>
-                            <p data-lang-id="026-block-5-paragraph-3">Shiloh Vermaak is lives in Durban, South Africa, where plastic is also a problem.  Shiloh is another GEA who also smokes!  As a way to contain and to keep track of her smoking, she also makes Cigbricks.  For her it is simply a focused personal and private habit.</p>
-                            <p data-lang-id="027-block-5-paragraph-4">“Cigarette butts are a great example of the power of collective action. It’s such a small thing, but if everyone is throwing them a way, we have a massive problem. I just don’t want to part of the problem.”</p>
-                            <p data-lang-id="028-block-5-paragraph-5">It is good to remember the history of tobacco.  It wasn’t so long ago, on the great plains of North America, the First Nations revered tobacco as a sacred plant. They smoked it with great respect, and used it in their rituals.  Often these rituals were focused on peace and healing.</p>
-                            <p data-lang-id="029-block-5-paragraph-6">We’re inspired by the examples of Tarto, Hindra and Shiloh.  Through their courageous and simple acts, they have brought back a powerful ritual to tobacco smoking — just when we need the healing and peace the most.</p>
-                        </div>
+                            <a href="../svgs/mas-tarto.svg"><img src="../svgs/mas-tarto.svg" style="width:65%" alt="Mas Tarto" loading ="lazy"></a>
+                            <p data-lang-id="024b-image-paragraph-1">Mas Tarto saves every single cigarette that he smokes and uses it for his Cigbrick.</p>
+                        <div>
+                        <p data-lang-id="024-block-5-paragraph-1">Mas Tarto, is a Global Ecobrick Trainer from Pemalang, Java, Indonesia. Mas Tarto is also a tobacco lover.  He makes cigbricking a personal daily ritual. Right after putting out his cigarette, he removes the paper, and packs it into the bottle he always carries with him. If the bottle is not with him, he puts the filter into his pocket for later packing. Sometimes, he even grabs other butts from the ashtray! His act is so astounding that it raises eyebrows wherever he goes.  Whether he is at home, at the cafe, or at a restaurant he is asked about it. He then explains himself, his ecological reasons and his concern for the environment.</p>
+                        <p data-lang-id="025-block-5-paragraph-2">Mas Hindra, is another GEA Ecobrick Trainer who lives and works on a boat in the middle of the South China Sea. Although not a smoker himself, many of his 163 shipmates are.  In order to finish off his personal ecobricking projects, he requests and collects the cigarette butts of all the ship — asking them first to remove the paper. His request and project is so astounding that it gets everyone talking.  It leads to all sorts of interesting questions: “Where would the filter go if it had not been ecobricked?”  “What happens to plastic lighters?”  “What is acetate anyway?” He then explains his love and concern for the ocean, and the dangers of discarded filters.</p>
+                        <div class="side2">
+                            <a href="../svgs/hindra.svg"><img src="../svgs/hindra.svg" style="width:65%" alt="Mas Hindra" loading ="lazy"></a>
+                            <p data-lang-id="025b-image-paragraph-1">Hindra, a GEA Trainer from Tanjung Pinang, Kepulauan Riau, Indonesia, shows the first ever Cigbrick, properly made and logged on the GoBrik app!</p>
+                        <div>
+                        <div class="side2">
+                            <a href="../svgs/Cigbrick-1.svg"><img src="../svgs/Cigbrick-1.svg" style="width:65%" alt="Shiloh" loading ="lazy"></a>
+                            <p data-lang-id="026b-image-paragraph-1">Shiloh uses her Cigbrick as a way to keep her filters out of the South African biosphere and to track her smoking habit</p>
+                        <div>
+                        <p data-lang-id="026-block-5-paragraph-3">Shiloh Vermaak is lives in Durban, South Africa, where plastic is also a problem.  Shiloh is another GEA who also smokes!  As a way to contain and to keep track of her smoking, she also makes Cigbricks.  For her it is simply a focused personal and private habit.</p>
+                        <p data-lang-id="027-block-5-paragraph-4">“Cigarette butts are a great example of the power of collective action. It’s such a small thing, but if everyone is throwing them a way, we have a massive problem. I just don’t want to part of the problem.”</p>
+                        <p data-lang-id="028-block-5-paragraph-5">It is good to remember the history of tobacco.  It wasn’t so long ago, on the great plains of North America, the First Nations revered tobacco as a sacred plant. They smoked it with great respect, and used it in their rituals.  Often these rituals were focused on peace and healing.</p>
+                        <p data-lang-id="029-block-5-paragraph-6">We’re inspired by the examples of Tarto, Hindra and Shiloh.  Through their courageous and simple acts, they have brought back a powerful ritual to tobacco smoking — just when we need the healing and peace the most.</p>
                     </div>
                 </div>
             </section>
