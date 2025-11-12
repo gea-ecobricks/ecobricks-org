@@ -192,7 +192,7 @@ include '../ecobricks_env.php';
     <div class="gallery-flex-container">
         <?php
         // Updated SQL query to include a WHERE clause and a LIMIT
-        $sql = "SELECT * FROM tb_trainings WHERE ready_to_show = 1 AND show_report = 1 ORDER BY training_id DESC LIMIT 12;";
+        $sql = "SELECT * FROM tb_trainings WHERE show_report = 1 ORDER BY training_id DESC LIMIT 12;";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
