@@ -1,5 +1,5 @@
 <?php
-$version='6.2';
+$version='6.3';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='index';
 include '../ecobricks_env.php';
@@ -178,12 +178,29 @@ include '../ecobricks_env.php';
 <!-- EARTHEN FEATURED CONTENT FEED -->
 
 <?php
-$earthenFeedUrl = 'https://earthen.io/rss';
+$earthenFeedUrl = 'https://earthen.io/rss/';
 $earthenPosts = [];
 $earthenFeedError = '';
-$earthenFeedContent = @file_get_contents($earthenFeedUrl);
+$earthenFeedConsoleLogs = [];
+$earthenFeedConsoleLogs[] = ['type' => 'log', 'message' => 'Earthen feed request initialised for ' . $earthenFeedUrl];
 
-if ($earthenFeedContent !== false) {
+$streamContext = stream_context_create([
+    'http' => [
+        'method' => 'GET',
+        'header' => "User-Agent: Ecobricks.org Feed Loader\r\nAccept: application/rss+xml, application/xml;q=0.9, */*;q=0.8\r\n",
+        'timeout' => 10,
+    ],
+]);
+
+$earthenFeedContent = @file_get_contents($earthenFeedUrl, false, $streamContext);
+
+if ($earthenFeedContent === false) {
+    $error = error_get_last();
+    $errorMessage = $error && isset($error['message']) ? $error['message'] : 'Unknown error retrieving Earthen feed.';
+    $earthenFeedConsoleLogs[] = ['type' => 'error', 'message' => 'Earthen feed fetch failed: ' . $errorMessage];
+    $earthenFeedError = 'Earthen stories are loading soon.';
+} else {
+    $earthenFeedConsoleLogs[] = ['type' => 'log', 'message' => 'Earthen feed fetch succeeded (' . strlen($earthenFeedContent) . ' bytes).'];
     libxml_use_internal_errors(true);
     $earthenFeedXml = simplexml_load_string($earthenFeedContent);
     if ($earthenFeedXml !== false && isset($earthenFeedXml->channel->item)) {
@@ -251,12 +268,18 @@ if ($earthenFeedContent !== false) {
                 break;
             }
         }
+        $earthenFeedConsoleLogs[] = ['type' => 'log', 'message' => 'Earthen feed parsed successfully with ' . count($earthenPosts) . ' posts ready for rendering.'];
     } else {
         $earthenFeedError = 'Earthen stories are loading soon.';
+        $parseErrors = libxml_get_errors();
+        if (!empty($parseErrors)) {
+            $firstError = $parseErrors[0];
+            $earthenFeedConsoleLogs[] = ['type' => 'error', 'message' => 'Earthen feed parse error: ' . trim($firstError->message) . ' on line ' . $firstError->line];
+        } else {
+            $earthenFeedConsoleLogs[] = ['type' => 'error', 'message' => 'Earthen feed parsing returned no channel items.'];
+        }
     }
     libxml_clear_errors();
-} else {
-    $earthenFeedError = 'Earthen stories are loading soon.';
 }
 ?>
 
@@ -289,6 +312,24 @@ if ($earthenFeedContent !== false) {
 </div>
 
 
+
+<?php if (!empty($earthenFeedConsoleLogs)) : ?>
+    <script>
+        (function(logs) {
+            if (!window.console) {
+                return;
+            }
+            logs.forEach(function(entry) {
+                var method = entry.type === 'error' ? 'error' : 'log';
+                if (typeof console[method] === 'function') {
+                    console[method](entry.message);
+                } else {
+                    console.log(entry.message);
+                }
+            });
+        })(<?= json_encode($earthenFeedConsoleLogs, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_AMP | JSON_HEX_QUOT); ?>);
+    </script>
+<?php endif; ?>
 
 <!-- TRAININGS GALLERY -->
 
