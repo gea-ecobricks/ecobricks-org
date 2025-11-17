@@ -197,7 +197,35 @@ $earthenFeedContent = @file_get_contents($earthenFeedUrl, false, $streamContext)
 if ($earthenFeedContent === false) {
     $error = error_get_last();
     $errorMessage = $error && isset($error['message']) ? $error['message'] : 'Unknown error retrieving Earthen feed.';
-    $earthenFeedConsoleLogs[] = ['type' => 'error', 'message' => 'Earthen feed fetch failed: ' . $errorMessage];
+    $earthenFeedConsoleLogs[] = ['type' => 'warn', 'message' => 'Earthen feed fetch failed using file_get_contents: ' . $errorMessage];
+
+    // Fallback to cURL in case stream wrappers like https are disabled on the server.
+    if (function_exists('curl_init')) {
+        $ch = curl_init();
+        curl_setopt_array($ch, [
+            CURLOPT_URL => $earthenFeedUrl,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT => 10,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTPHEADER => [
+                'User-Agent: Ecobricks.org Feed Loader',
+                'Accept: application/rss+xml, application/xml;q=0.9, */*;q=0.8',
+            ],
+        ]);
+        $earthenFeedContent = curl_exec($ch);
+        if ($earthenFeedContent === false) {
+            $curlError = curl_error($ch);
+            $earthenFeedConsoleLogs[] = ['type' => 'error', 'message' => 'Earthen feed fetch failed using cURL: ' . $curlError];
+        } else {
+            $earthenFeedConsoleLogs[] = ['type' => 'log', 'message' => 'Earthen feed fetched via cURL (' . strlen($earthenFeedContent) . ' bytes).'];
+        }
+        curl_close($ch);
+    } else {
+        $earthenFeedConsoleLogs[] = ['type' => 'error', 'message' => 'cURL extension is not available for Earthen feed fallback.'];
+    }
+}
+
+if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFeedContent === '') {
     $earthenFeedError = 'Earthen stories are loading soon.';
 } else {
     $earthenFeedConsoleLogs[] = ['type' => 'log', 'message' => 'Earthen feed fetch succeeded (' . strlen($earthenFeedContent) . ' bytes).'];
