@@ -24,7 +24,7 @@ include '../ecobricks_env.php';
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Intro to Ecobricks Event</div>
                         <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our live community event 'Plastic, the Biosphere & Ecobricks'.  Zoom. Free.</div>
-                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ Sunday, Nov. 16th Event</a>
+                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ December 7th Event</a>
                     </div>
                 </div>
            </div>
@@ -172,6 +172,121 @@ include '../ecobricks_env.php';
         <a href="add-project.php" class="feature-button" data-lang-id="405b-post-project-button" aria-label="Post your project">➕ Post your project</a>
         <div class="feature-reference-links">Share your ecobrick application</div>-->
     </div>
+
+
+
+<!-- EARTHEN FEATURED CONTENT FEED -->
+
+<?php
+$earthenFeedUrl = 'https://earthen.io/rss';
+$earthenPosts = [];
+$earthenFeedError = '';
+$earthenFeedContent = @file_get_contents($earthenFeedUrl);
+
+if ($earthenFeedContent !== false) {
+    libxml_use_internal_errors(true);
+    $earthenFeedXml = simplexml_load_string($earthenFeedContent);
+    if ($earthenFeedXml !== false && isset($earthenFeedXml->channel->item)) {
+        $feedItems = $earthenFeedXml->channel->item;
+        $count = 0;
+        foreach ($feedItems as $item) {
+            $title = trim((string) $item->title);
+            $description = trim(strip_tags((string) $item->description));
+            if ($description === '' && isset($item->children('http://purl.org/rss/1.0/modules/content/')->encoded)) {
+                $description = trim(strip_tags((string) $item->children('http://purl.org/rss/1.0/modules/content/')->encoded));
+            }
+            if ($description !== '') {
+                if (function_exists('mb_strlen')) {
+                    if (mb_strlen($description) > 220) {
+                        $description = mb_substr($description, 0, 217) . '…';
+                    }
+                } elseif (strlen($description) > 220) {
+                    $description = substr($description, 0, 217) . '…';
+                }
+            }
+
+            $link = trim((string) $item->link);
+            $author = 'Earthen';
+            $dc = $item->children('http://purl.org/dc/elements/1.1/');
+            if ($dc && isset($dc->creator) && trim((string) $dc->creator) !== '') {
+                $author = trim((string) $dc->creator);
+            }
+
+            $imageUrl = '';
+            $media = $item->children('http://search.yahoo.com/mrss/');
+            if ($media && isset($media->thumbnail)) {
+                $thumbnailAttributes = $media->thumbnail->attributes();
+                if ($thumbnailAttributes && isset($thumbnailAttributes['url'])) {
+                    $imageUrl = (string) $thumbnailAttributes['url'];
+                }
+            }
+            if ($imageUrl === '' && $media && isset($media->content)) {
+                foreach ($media->content as $content) {
+                    $contentAttributes = $content->attributes();
+                    if ($contentAttributes && isset($contentAttributes['url'])) {
+                        $imageUrl = (string) $contentAttributes['url'];
+                        break;
+                    }
+                }
+            }
+            if ($imageUrl === '') {
+                if (preg_match('/<img[^>]+src=\"([^\"]+)\"/i', (string) $item->description, $matches)) {
+                    $imageUrl = $matches[1];
+                }
+            }
+            if ($imageUrl === '') {
+                $imageUrl = 'https://earthen.io/content/images/size/w1200/2022/09/earthen-og.jpg';
+            }
+
+            $earthenPosts[] = [
+                'title' => $title,
+                'description' => $description,
+                'link' => $link,
+                'author' => $author,
+                'image' => $imageUrl,
+            ];
+
+            $count++;
+            if ($count >= 4) {
+                break;
+            }
+        }
+    } else {
+        $earthenFeedError = 'Earthen stories are loading soon.';
+    }
+    libxml_clear_errors();
+} else {
+    $earthenFeedError = 'Earthen stories are loading soon.';
+}
+?>
+
+<div class="featured-earthen-content-feed" style="overflow-x:clip;">
+    <div class="feature-content-box">
+        <div class="feature-big-header"><h4>Earthen Latest</h4></div>
+        <div class="feature-sub-text">Fresh perspectives from the Earthen regenerative movement.</div>
+    </div>
+    <div class="earthen-feed-grid">
+        <?php if (!empty($earthenPosts)) : ?>
+            <?php foreach ($earthenPosts as $post) : ?>
+                <a class="earthen-feed-card" href="<?= htmlspecialchars($post['link'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener noreferrer">
+                    <div class="earthen-feed-image">
+                        <img src="<?= htmlspecialchars($post['image'], ENT_QUOTES, 'UTF-8'); ?>" alt="Featured image for <?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8'); ?>" loading="lazy" />
+                    </div>
+                    <div class="earthen-feed-content">
+                        <div class="earthen-feed-meta">
+                            <img src="https://earthen.io/favicon.png" alt="Earthen icon" loading="lazy" />
+                            <span><?= htmlspecialchars($post['author'], ENT_QUOTES, 'UTF-8'); ?></span>
+                        </div>
+                        <h5><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8'); ?></h5>
+                        <p><?= htmlspecialchars($post['description'], ENT_QUOTES, 'UTF-8'); ?></p>
+                    </div>
+                </a>
+            <?php endforeach; ?>
+        <?php else : ?>
+            <div class="earthen-feed-empty"><?= htmlspecialchars($earthenFeedError, ENT_QUOTES, 'UTF-8'); ?></div>
+        <?php endif; ?>
+    </div>
+</div>
 
 
 
