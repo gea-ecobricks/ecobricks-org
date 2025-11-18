@@ -311,7 +311,7 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
 }
 ?>
 
-<div class="featured-earthen-content-feed" style="overflow-x:clip;">
+<div class="featured-earthen-content-feed">
     <div class="feature-content-box">
         <div class="feature-big-header"><h4>Earthen Latest</h4></div>
         <div class="feature-sub-text">Fresh perspectives from the Earthen regenerative movement.</div>

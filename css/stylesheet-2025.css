@@ -1483,18 +1483,38 @@ Login Selector Menu
     margin: 60px auto;
     max-width: 1200px;
     padding: 0 20px;
+    overflow: hidden;
 }
 
 .earthen-feed-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(260px, 25%);
     gap: 24px;
-    margin-top: 20px;
+    margin: 20px -30px 0;
+    padding: 0 30px 12px;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+}
+
+.earthen-feed-grid::-webkit-scrollbar {
+    height: 8px;
+}
+
+.earthen-feed-grid::-webkit-scrollbar-thumb {
+    background-color: rgba(82, 166, 117, 0.4);
+    border-radius: 4px;
+}
+
+.earthen-feed-grid::-webkit-scrollbar-track {
+    background-color: transparent;
 }
 
 .earthen-feed-card {
-    background: var(--module-bg, rgba(255, 255, 255, 0.75));
-    border: 1px solid rgba(25, 118, 84, 0.2);
+    background: var(--gallery);
+    border: 1px solid var(--divider-line);
     border-radius: 18px;
     display: flex;
     flex-direction: column;
@@ -1503,6 +1523,7 @@ Login Selector Menu
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
     overflow: hidden;
+    scroll-snap-align: start;
 }
 
 .earthen-feed-card:hover {
@@ -1515,7 +1536,7 @@ Login Selector Menu
     position: relative;
     padding-top: 56%;
     overflow: hidden;
-    background: #0b1b13;
+    background: var(--main-background);
 }
 
 .earthen-feed-image img {
@@ -1569,30 +1590,21 @@ Login Selector Menu
     border: 1px dashed rgba(25, 118, 84, 0.4);
 }
 
+@media screen and (max-width: 1024px) {
+    .earthen-feed-grid {
+        grid-auto-columns: minmax(260px, 45%);
+    }
+}
+
 @media screen and (max-width: 640px) {
     .featured-earthen-content-feed {
         padding: 0 10px;
     }
 
     .earthen-feed-grid {
-        display: flex;
-        flex-wrap: nowrap;
+        margin: 20px -10px 0;
+        padding: 0 10px 10px;
         gap: 18px;
-        overflow-x: auto;
-        margin: 20px -5px 0;
-        padding: 0 5px 10px;
-        scroll-snap-type: x proximity;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .earthen-feed-card {
-        flex: 0 0 82%;
-        max-width: 82%;
-        border-radius: 16px;
-        scroll-snap-align: start;
-    }
-
-    .earthen-feed-card:last-child {
-        margin-right: 10px;
+        grid-auto-columns: minmax(220px, 82%);
     }
 }
