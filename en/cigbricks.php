@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='1.11';?>
+<?php $version='1.12';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -75,7 +75,7 @@
                         </div>
                         <button onclick="toggleAccordion(2)" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
                     </div>
-                    <div id="preclosed3">
+                    <div id="preclosed2">
                         <div class="side2">
                             <a href="../svgs/cigbrick-slide-3.svg"><img src="../svgs/cigbrick-slide-3.svg" style="width:65%" alt="Cigbrick Instructions" loading ="lazy"></a>
                         </div>
