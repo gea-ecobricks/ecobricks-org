@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='1.10';?>
+<?php $version='1.11';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -42,7 +42,7 @@
 		            <div class="opener-header">
 		            	<div class="opener-header-text">
 		            	    <h4 data-lang-id="008-block-1-opener-header">A Small Butt Big Problem</h4>
-		            	    <h4 data-lang-id="009-block-1-opener-subheader">Despite their small size, of all plastic wastes, cigarette filters are the most abundant and massive of all.</h4>
+		            	    <h5 data-lang-id="009-block-1-opener-subheader">Despite their small size, of all plastic wastes, cigarette filters are the most abundant and massive of all.</h4>
 							<br>
 						</div>
 		           		<button onclick="toggleAccordion(1)" class="block-toggle" id="block-toggle-show1" aria-label="Open Section One">+</button>
