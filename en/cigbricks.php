@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='1.12';?>
+<?php $version='1.13';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -54,7 +54,7 @@
 						<p data-lang-id="012-block-1-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life (5).</p>
 						<p data-lang-id="013-block-1-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year (6).</p>
                         <br>
-                        <p data-lang-id="013a-block-1-list-paragraph1">___________________________________________________________________</p>
+                        <hr>
                         <p data-lang-id="013b-block-1-list-paragraph2">1. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes</p>
                         <p data-lang-id="013c-block-1-list-paragraph3">2. Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007.</p>
                         <p data-lang-id="013d-block-1-list-paragraph4">3. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3</p>
@@ -82,7 +82,7 @@
                         <p data-lang-id="016-block-2-paragraph-1">Just remove the paper covering from the used butt and stuff the filter (plastic acetate) into a plastic bottle.  The paper is biodegradable, which, unlike the acetate, is not a toxic concern and can be thrown away.  Biodegradables, like paper, are not added to ecobricks (1). Then, use a stick to pack down and compress the filters and any other plastic you pack in. Was there a plastic wrapper around your cigarette box? Finished with that plastic lighter? You can pack those in too! Of course, to make a pure Cigbrick — use just the filters!</p>
                         <p data-lang-id="017-block-2-paragraph-2">If packed properly, the end result is a remarkably dense and solid building block that can be used for a whole bunch of exciting applications. Best of all, the otherwise toxic acetate is 100% contained and put to good use!</p>
                         <br>
-                        <p data-lang-id="017a-block-2-list-paragraph1">___________________________________________________________________</p>
+                        <hr>
                         <p data-lang-id="017b-block-2-list-paragraph2">1. Adding paper and biodegradables to an ecobrick is not necessary (as unlike plastic, they are not toxic in the environment). In addition, biodegradables in particular can affect the safety and integrity of the ecobrick as a building block. They increase the risk of methane build up in the ecobrick and add a flammability risk over time. Plus, rotting stuff in your ecobrick doesn’t look very nice!</p>
                     </div>
                 </div>
@@ -138,41 +138,43 @@
                     </div>
                 </div>
             </section>
-            <section id="CREDITS">
+            <section id="ANCESTRAL">
                 <div class="reg-content-block" id="block5">
                     <div class="opener-header">
                         <div class="opener-header-text">
-                            <h4 data-lang-id="030-block-5-opener-header">Credits</h4>
-                            <h5 data-lang-id="031-block-5-opener-subheader">Thank you to the Igorot people whose ancestral principle of <a href="http://www.russs.net/ayyew">Ayyew</a> (tighter and tighter cycling of resoures) underlies the concept.  Merci to George Beurnier who inspired the renewed refining of the cigbrick concept.</h5>
+                            <h4 data-lang-id="030-block-5-opener-header">Ancestral Inspiration</h4>
+                            <h5 data-lang-id="031-block-5-opener-subheader">For centuries First Nation peoples used tobacco as a way to make offerings and prayers to Spirit.</h5>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(5)" class="block-toggle" id="block-toggle-show5" aria-label="Toggle Section Five">+</button>
                     </div>
                     <div id="preclosed5">
-                        <p data-lang-id="032-block-5-paragraph-1">Terimah Kasih to <a href="https://www.instagram.com/shirohyde/">Fabianus Bayu</a> for his help crafting our cartoon Ecobrick bottle, the animated happy-albatross-family, and our vision landscape. Thanks to Elena Molchanova whose animated ecobrick intro and credits set the tone in our <a href="https://youtu.be/rGaJYQuOs-0">Cigbrick 30 second movie.</a>  Salemat Po to El Tiburon Grande for his help with the original vision landscape in the movie. Maternuan to mas Tarto, Reksi and Aysha for prototyping the first Cigbricks. Danku Vel to Shiloh for helping us prototype the paper removal technique.  Thank you to Mas Hindra for going full-steam-ahead once we got the technique set up (he’s approaching 100,000 filters packed now!) and for logging the first proper Cigbrick on GoBrik. Terimah Kasih to <a href="../hindra">Mas Hindra</a> and Mas Suryadi for their photo and video contributions.  Thank you to Irfan Korchak for his editing and discussion of the concept and the redemption of tobacco.  Thank you to Ani Himawati for her executive direction in crafting the Cigbrick concept.</p>
-                        <p data-lang-id="033-block-5-paragraph-2">Thank you to Nurkinanti Laraskusuma for their translation of the concept and the page to Indonesian.</p>
-                    </div>
-                </div>
-            </section>
-            <section id="ANCESTRAL">
-                <div class="reg-content-block" id="block6">
-                    <div class="opener-header">
-                        <div class="opener-header-text">
-                            <h4 data-lang-id="034-block-6-opener-header">Ancestral Inspiration</h4>
-                            <h5 data-lang-id="035-block-6-opener-subheader">For centuries First Nation peoples used tobacco as a way to make offerings and prayers to Spirit.</h5>
-                            <br>
-                        </div>
-                        <button onclick="toggleAccordion(6)" class="block-toggle" id="block-toggle-show6" aria-label="Toggle Section Six">+</button>
-                    </div>
-                    <div id="preclosed6">
-                        <p data-lang-id="036-block-6-paragraph-1">To this day, on the Great Plains of what is now North America, First Nation peoples have used tobacco with great respect and consciousness.  Tobacco was used in ceremonies to promote physical, spiritual, emotional, and community well-being. Elders emphasized the importance of having good attitudes and thoughts when working with tobacco.  Tobacco was smoked as an offering to the Creator or to a person, place or being. Elders taught that the smoke from burned tobacco carried the thoughts and prayers to the spirit world or to the Creator.3</p>
-                        <p data-lang-id="037-block-6-paragraph-2">Learning from our ancestors, we can reclaim the use of tobacco as a means to catalyse and raise ecological consciousness.  The actions required to make a Cigbrick are such that they can infuse the routine of tabacco smoking with conscious ritual.  With this, the transformative power of tobacco can be harnessed for the healing of Earth, Air and Water once again.</p>
+                        <p data-lang-id="032-block-5-paragraph-1">To this day, on the Great Plains of what is now North America, First Nation peoples have used tobacco with great respect and consciousness.  Tobacco was used in ceremonies to promote physical, spiritual, emotional, and community well-being. Elders emphasized the importance of having good attitudes and thoughts when working with tobacco.  Tobacco was smoked as an offering to the Creator or to a person, place or being. Elders taught that the smoke from burned tobacco carried the thoughts and prayers to the spirit world or to the Creator.3</p>
+                        <p data-lang-id="033-block-5-paragraph-2">Learning from our ancestors, we can reclaim the use of tobacco as a means to catalyse and raise ecological consciousness.  The actions required to make a Cigbrick are such that they can infuse the routine of tabacco smoking with conscious ritual.  With this, the transformative power of tobacco can be harnessed for the healing of Earth, Air and Water once again.</p>
                         <div class="side2">
                             <img src="../wp-content/uploads/2020/01/Circle-earth-Bench-300px-wide-212x300.png" style="width:65%" loading ="lazy">
                         </div>
                     </div>
                 </div>
             </section>
+            <section id="CREDITS">
+                <div class="reg-content-block" id="block6">
+                    <div class="opener-header">
+                        <div class="opener-header-text">
+                            <h4 data-lang-id="034-block-6-opener-header">Credits</h4>
+                            <h5 data-lang-id="035-block-6-opener-subheader">Thank you to the Igorot people whose ancestral principle of <a href="http://www.russs.net/ayyew">Ayyew</a> (tighter and tighter cycling of resoures) underlies the concept.  Merci to George Beurnier who inspired the renewed refining of the cigbrick concept.</h5>
+                            <br>
+                        </div>
+                        <button onclick="toggleAccordion(6)" class="block-toggle" id="block-toggle-show6" aria-label="Toggle Section Six">+</button>
+                    </div>
+                    <div id="preclosed6">
+                        <p data-lang-id="036-block-6-paragraph-1">Terimah Kasih to <a href="https://www.instagram.com/shirohyde/">Fabianus Bayu</a> for his help crafting our cartoon Ecobrick bottle, the animated happy-albatross-family, and our vision landscape. Thanks to Elena Molchanova whose animated ecobrick intro and credits set the tone in our <a href="https://youtu.be/rGaJYQuOs-0">Cigbrick 30 second movie.</a>  Salemat Po to El Tiburon Grande for his help with the original vision landscape in the movie. Maternuan to mas Tarto, Reksi and Aysha for prototyping the first Cigbricks. Danku Vel to Shiloh for helping us prototype the paper removal technique.  Thank you to Mas Hindra for going full-steam-ahead once we got the technique set up (he’s approaching 100,000 filters packed now!) and for logging the first proper Cigbrick on GoBrik. Terimah Kasih to <a href="../hindra">Mas Hindra</a> and Mas Suryadi for their photo and video contributions.  Thank you to Irfan Korchak for his editing and discussion of the concept and the redemption of tobacco.  Thank you to Ani Himawati for her executive direction in crafting the Cigbrick concept.</p>
+                        <p data-lang-id="037-block-6-paragraph-2">Thank you to Nurkinanti Laraskusuma for their translation of the concept and the page to Indonesian.</p>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
         	<div class="page-paragraph">
                 <iframe width="630" height="472"
                 src="https://www.youtube.com/embed/Vxsk-GEw2Ho">
