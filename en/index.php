@@ -182,6 +182,7 @@ $earthenFeedUrl = 'https://earthen.io/rss/';
 $earthenPosts = [];
 $earthenFeedError = '';
 $earthenFeedConsoleLogs = [];
+$earthenNewsletterName = 'Earthen Newsletter';
 $earthenFeedConsoleLogs[] = ['type' => 'log', 'message' => 'Earthen feed request initialised for ' . $earthenFeedUrl];
 
 $streamContext = stream_context_create([
@@ -232,6 +233,9 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
     libxml_use_internal_errors(true);
     $earthenFeedXml = simplexml_load_string($earthenFeedContent);
     if ($earthenFeedXml !== false && isset($earthenFeedXml->channel->item)) {
+        if (isset($earthenFeedXml->channel->title) && trim((string) $earthenFeedXml->channel->title) !== '') {
+            $earthenNewsletterName = trim((string) $earthenFeedXml->channel->title);
+        }
         $feedItems = $earthenFeedXml->channel->item;
         $count = 0;
         foreach ($feedItems as $item) {
@@ -242,11 +246,11 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
             }
             if ($description !== '') {
                 if (function_exists('mb_strlen')) {
-                    if (mb_strlen($description) > 220) {
-                        $description = mb_substr($description, 0, 217) . '…';
+                    if (mb_strlen($description) > 176) {
+                        $description = mb_substr($description, 0, 173) . '…';
                     }
-                } elseif (strlen($description) > 220) {
-                    $description = substr($description, 0, 217) . '…';
+                } elseif (strlen($description) > 176) {
+                    $description = substr($description, 0, 173) . '…';
                 }
             }
 
@@ -289,6 +293,7 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
                 'link' => $link,
                 'author' => $author,
                 'image' => $imageUrl,
+                'newsletter' => $earthenNewsletterName,
             ];
 
             $count++;
@@ -311,10 +316,10 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
 }
 ?>
 
-<div class="featured-earthen-content-feed">
+<div class="featured-content-gallery" style="overflow-x:clip;">
     <div class="feature-content-box">
-        <div class="feature-big-header"><h4>Earthen Latest</h4></div>
-        <div class="feature-sub-text">Fresh perspectives from the Earthen regenerative movement.</div>
+        <div class="feature-big-header"><h4>The Latest from Earthen</h4></div>
+        <div class="feature-sub-text">Breakthroughs, News and Essays from  <i>Earthen</i>-- the GEA's regenerative publishing platform of choice.</div>
     </div>
     <div class="earthen-feed-grid">
         <?php if (!empty($earthenPosts)) : ?>
@@ -326,7 +331,7 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
                     <div class="earthen-feed-content">
                         <div class="earthen-feed-meta">
                             <img src="https://earthen.io/favicon.png" alt="Earthen icon" loading="lazy" />
-                            <span><?= htmlspecialchars($post['author'], ENT_QUOTES, 'UTF-8'); ?></span>
+                            <span><?= htmlspecialchars($post['newsletter'], ENT_QUOTES, 'UTF-8'); ?></span>
                         </div>
                         <h5><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8'); ?></h5>
                         <p><?= htmlspecialchars($post['description'], ENT_QUOTES, 'UTF-8'); ?></p>
