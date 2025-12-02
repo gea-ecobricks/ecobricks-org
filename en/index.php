@@ -1,5 +1,5 @@
 <?php
-$version='6.4';
+$version='6.5';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='index';
 include '../ecobricks_env.php';
@@ -355,11 +355,13 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
         <?php endif; ?>
     </div>
 
-    <div class="earthen-feed-footer-text">
+    <div class="feature-sub-text">
         We've got a collection of great regenerative newsletters on Earthen for you to select from. Join <span class="earthen-subscriber-pill">69,0231</span> others planet passionate subscribers.
     </div>
 
     <a class="feature-button" href="https://earthen.io" target="_blank" rel="noopener noreferrer">🌿 Explore Earthen</a>
+
+    <div class="feature-reference-links">Signup is free.</div>
 </div>
 
 
