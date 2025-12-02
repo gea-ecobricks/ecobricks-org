@@ -1581,6 +1581,11 @@ Login Selector Menu
     line-height: 1.4;
 }
 
+.earthen-feed-publication {
+    font-weight: 700;
+    color: var(--text-color);
+}
+
 .earthen-feed-empty {
     grid-column: 1 / -1;
     text-align: center;
@@ -1588,6 +1593,22 @@ Login Selector Menu
     padding: 30px 10px;
     border-radius: 16px;
     border: 1px dashed rgba(25, 118, 84, 0.4);
+}
+
+.earthen-feed-footer-text {
+    margin: 26px 0 10px;
+    color: var(--subdued-text);
+    font-size: 1.05em;
+    line-height: 1.5;
+}
+
+.earthen-subscriber-pill {
+    display: inline-block;
+    background: #52a675;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 1024px) {

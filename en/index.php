@@ -287,6 +287,17 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
                 $imageUrl = 'https://earthen.io/content/images/size/w1200/2022/09/earthen-og.jpg';
             }
 
+            $publication = $earthenNewsletterName;
+            if (isset($item->category)) {
+                foreach ($item->category as $category) {
+                    $categoryName = trim((string) $category);
+                    if ($categoryName !== '') {
+                        $publication = $categoryName;
+                        break;
+                    }
+                }
+            }
+
             $earthenPosts[] = [
                 'title' => $title,
                 'description' => $description,
@@ -294,6 +305,7 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
                 'author' => $author,
                 'image' => $imageUrl,
                 'newsletter' => $earthenNewsletterName,
+                'publication' => $publication,
             ];
 
             $count++;
@@ -331,7 +343,7 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
                     <div class="earthen-feed-content">
                         <div class="earthen-feed-meta">
                             <img src="https://earthen.io/favicon.png" alt="Earthen icon" loading="lazy" />
-                            <span><?= htmlspecialchars($post['newsletter'], ENT_QUOTES, 'UTF-8'); ?></span>
+                            <span class="earthen-feed-publication"><?= htmlspecialchars($post['publication'], ENT_QUOTES, 'UTF-8'); ?></span>
                         </div>
                         <h5><?= htmlspecialchars($post['title'], ENT_QUOTES, 'UTF-8'); ?></h5>
                         <p><?= htmlspecialchars($post['description'], ENT_QUOTES, 'UTF-8'); ?></p>
@@ -342,6 +354,12 @@ if ($earthenFeedContent === false || $earthenFeedContent === null || $earthenFee
             <div class="earthen-feed-empty"><?= htmlspecialchars($earthenFeedError, ENT_QUOTES, 'UTF-8'); ?></div>
         <?php endif; ?>
     </div>
+
+    <div class="earthen-feed-footer-text">
+        We've got a collection of great regenerative newsletters on Earthen for you to select from. Join <span class="earthen-subscriber-pill">69,0231</span> others planet passionate subscribers.
+    </div>
+
+    <a class="feature-button" href="https://earthen.io" target="_blank" rel="noopener noreferrer">🌿 Explore Earthen</a>
 </div>
 
 
