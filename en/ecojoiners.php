@@ -222,7 +222,7 @@
             <div class="main2">
                 <p data-lang-id="024-block-5-main-p1">What makes ecojoiners truly revolutionary is that they enable truly green constructions.  We're not talking constructions that minimize their environmental harm.  We're talking creations that literally make local ecosystems greener than they were before.</p>
             </div>
-            <div class="side2" data-lang-id="059-block-5-img1-alt">
+            <div class="side2" data-lang-id="025-block-2-img1-alt">
                 <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">
                     <img src="../webp/2020-regen-report.webp" width="150" alt="Ecojoiner Regen Report" style="width:100%;" loading="lazy" >
                 </a>
@@ -235,7 +235,7 @@
 
 
             </div>
-            <div class="side3" data-lang-id="059-block-5-img2-alt">
+            <div class="side3" data-lang-id="046-block-3-img2-alt">
                 <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">
                     <img src="../webp/2020-regen-report.webp" width="120" style="width:100%;" alt="Ecojoiner Regen Report" loading="lazy" >
                 </a>
