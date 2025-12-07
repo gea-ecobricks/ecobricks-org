@@ -11,7 +11,7 @@
         <meta property="og:url"           content="https://ecobricks.org/id/ecojoiners.php">
         <meta property="og:type"          content="website">
         <meta property="og:title"         content="Mengenal Ecojoiner">
-        <meta property="og:description"   content="Penghubung bambu untuk membangun dengan ecobrick. Rencana open source segera dibagikan.">
+        <meta property="og:description"   content="Konektor bambu sumber terbuka untuk membangun furnitur dan struktur matriks kubik dengan ecobrick.">
         <meta property="og:image"         content="https://ecobricks.org/webp/ecojoiner-1000px-banner.webp">
         <meta property="og:image:width" content="1000" >
         <meta property="og:image:height" content="665" >

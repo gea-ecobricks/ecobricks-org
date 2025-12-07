@@ -11,7 +11,7 @@
         <meta property="og:url"           content="https://ecobricks.org/en/ecojoiners.php">
         <meta property="og:type"          content="website">
         <meta property="og:title"         content="Ecojoiners">
-        <meta property="og:description"   content="Open source bamboo connectors to build with ecobricks. Plans coming soon.">
+        <meta property="og:description"   content="Open source bamboo connectors to build cubic-matrix furniture and structures with ecobricks.">
         <meta property="og:image"         content="https://ecobricks.org/webp/ecojoiner-1000px-banner.webp">
         <meta property="og:image:width" content="1000" >
         <meta property="og:image:height" content="665" >
