@@ -39,5 +39,5 @@ const id_Page_Translations = {
     '024-block-5-main-p1': 'Apa yang membuat ecojoiner benar-benar revolusioner adalah karena mereka memungkinkan konstruksi yang benar-benar hijau. Kami tidak berbicara tentang konstruksi yang meminimalkan dampak lingkungan. Kami berbicara tentang kreasi yang secara literal membuat ekosistem lokal lebih hijau daripada sebelumnya.',
     '048-page-end-header': 'Ecojoiner sedang digunakan',
     '049-end-page-paragraph': 'Kami baru mulai menggunakan ecojoiner. Berikut beberapa kreasi pertama yang dibuat tim kami...',
-    '058-block-5-report-link': 'Lihat <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">Laporan Regen Ecojoiner untuk Aqua 600ml</a> untuk rincian lengkap perkiraan dampak karbon dan plastik kami.'
+    '058-block-5-report-link': 'Lihat <a href="../pdfs/Regen-Report--6FC-600ml-Aqua-Ecojoiner.pdf">Laporan Regen Ecojoiner untuk Aqua 600ml</a> untuk rincian lengkap perkiraan dampak karbon dan plastik kami.'
 };
