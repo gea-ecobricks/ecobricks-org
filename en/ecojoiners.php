@@ -153,12 +153,12 @@
         </div>
 
         <div class="row2">
-            <div class="main3">
-                <p data-lang-id="045-block-1-main-p2"><p>So far, we've built chairs, shelves and tables.  What more could we put together?  The answer is up to you</p>
+                    <div class="main3">
+                        <p data-lang-id="026-block-2-main-p2"><p>So far, we've built chairs, shelves and tables.  What more could we put together?  The answer is up to you</p>
 
 
             </div>
-            <div class="side3" data-lang-id="046-block-3-img2-alt">
+            <div class="side3" data-lang-id="026-block-2-img2-alt">
                 <img src="../webp/ecojoiner-table-400px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
             </div>
         </div>
@@ -231,7 +231,7 @@
 
         <div class="row2">
             <div class="main3">
-                <p data-lang-id="045-block-1-main-p2"><p>We've done the numbers: ecojoiners sequester more carbon and more plastic than they produce</p>
+                <p data-lang-id="059-block-5-main-p2"><p>We've done the numbers: ecojoiners sequester more carbon and more plastic than they produce</p>
 
 
             </div>
