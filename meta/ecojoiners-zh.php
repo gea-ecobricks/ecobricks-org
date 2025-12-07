@@ -11,7 +11,7 @@
         <meta property="og:url"           content="https://ecobricks.org/zh/ecojoiners.php">
         <meta property="og:type"          content="website">
         <meta property="og:title"         content="介绍Ecojoiners">
-        <meta property="og:description"   content="竹制连接件让你用生态砖搭建家具和结构，开源设计即将推出。">
+        <meta property="og:description"   content="开源竹制连接器，用于用生态砖搭建立方体矩阵家具和结构。">
         <meta property="og:image"         content="https://ecobricks.org/webp/ecojoiner-1000px-banner.webp">
         <meta property="og:image:width" content="1000" >
         <meta property="og:image:height" content="665" >
