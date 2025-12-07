@@ -10,5 +10,5 @@ const zh_Page_Translations = {
     '003-splash-image-alt': '<img src="../webp/ecojoiner-1000px-banner.webp" style="width:95%" alt="竹制连接的生态砖"/>',
     '004-lead-page-paragraph': 'Ecojoiner是一种竹制连接件，可将生态砖锁成坚固的立方框架，用于桌椅等。',
     '005-first-page-paragraph': '像乐高一样，Ecojoiner为再生设计带来无限可能。该技术开源，制作图纸即将在此提供。<b>页面建设中。</b>',
-    '058-block-5-report-link': '查看我们的<a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">600毫升 Aqua Ecojoiner 再生报告</a>，了解我们对碳和塑料影响的完整估算'
+    '058-block-5-report-link': '查看我们的<a href="../pdfs/Regen-Report--6FC-600ml-Aqua-Ecojoiner.pdf">600毫升 Aqua Ecojoiner 再生报告</a>，了解我们对碳和塑料影响的完整估算'
 };

@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.5';?>
+<?php $version='3.6';?>
 <?php $page='ecojoiners';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -223,7 +223,7 @@
                 <p data-lang-id="024-block-5-main-p1">What makes ecojoiners truly revolutionary is that they enable truly green constructions.  We're not talking constructions that minimize their environmental harm.  We're talking creations that literally make local ecosystems greener than they were before.</p>
             </div>
             <div class="side2" data-lang-id="025-block-2-img1-alt">
-                <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">
+                <a href="../pdfs/Regen-Report--6FC-600ml-Aqua-Ecojoiner.pdf">
                     <img src="../webp/2020-regen-report.webp" width="150" alt="Ecojoiner Regen Report" style="width:100%;" loading="lazy" >
                 </a>
             </div>
@@ -236,14 +236,14 @@
 
             </div>
             <div class="side3" data-lang-id="046-block-3-img2-alt">
-                <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">
+                <a href="../pdfs/Regen-Report--6FC-600ml-Aqua-Ecojoiner.pdf">
                     <img src="../webp/2020-regen-report.webp" width="120" style="width:100%;" alt="Ecojoiner Regen Report" loading="lazy" >
                 </a>
             </div>
         </div>
 
 
-        <p data-lang-id="058-block-5-report-link">Check our <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">Ecojoiner Regen Report for our 600ml Aqua Ecojoiners</a> to see a full breakdown of our carbon and plastic impact estimates</p>
+        <p data-lang-id="058-block-5-report-link">Check our <a href="../pdfs/Regen-Report--6FC-600ml-Aqua-Ecojoiner.pdf">Ecojoiner Regen Report for our 600ml Aqua Ecojoiners</a> to see a full breakdown of our carbon and plastic impact estimates</p>
 
 
     </div>
