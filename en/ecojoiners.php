@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.4';?>
+<?php $version='2.5';?>
 <?php $page='ecojoiners';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -153,12 +153,12 @@
         </div>
 
         <div class="row2">
-            <div class="main3">
-                <p data-lang-id="045-block-1-main-p2"><p>So far, we've built chairs, shelves and tables.  What more could we put together?  The answer is up to you</p>
+                    <div class="main3">
+                        <p data-lang-id="026-block-2-main-p2"><p>So far, we've built chairs, shelves and tables.  What more could we put together?  The answer is up to you</p>
 
 
             </div>
-            <div class="side3" data-lang-id="046-block-3-img2-alt">
+            <div class="side3" data-lang-id="026-block-2-img2-alt">
                 <img src="../webp/ecojoiner-table-400px.webp" width="120" style="width:100%;" alt="A cubic matrix made with bottles and bamboo" loading="lazy" >
             </div>
         </div>
@@ -222,24 +222,28 @@
             <div class="main2">
                 <p data-lang-id="024-block-5-main-p1">What makes ecojoiners truly revolutionary is that they enable truly green constructions.  We're not talking constructions that minimize their environmental harm.  We're talking creations that literally make local ecosystems greener than they were before.</p>
             </div>
-            <div class="side2" data-lang-id="025-block-2-img1-alt">
-                <img src="../webp/2020-regen-report.webp" width="150" alt="Ecojoiner Regen Report" style="width:100%;" loading="lazy" >
+            <div class="side2" data-lang-id="059-block-5-img1-alt">
+                <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">
+                    <img src="../webp/2020-regen-report.webp" width="150" alt="Ecojoiner Regen Report" style="width:100%;" loading="lazy" >
+                </a>
             </div>
         </div>
 
         <div class="row2">
             <div class="main3">
-                <p data-lang-id="045-block-1-main-p2"><p>We've done the numbers: ecojoiners sequester more carbon and more plastic than they produce</p>
+                <p data-lang-id="059-block-5-main-p2"><p>We've done the numbers: ecojoiners sequester more carbon and more plastic than they produce</p>
 
 
             </div>
-            <div class="side3" data-lang-id="046-block-3-img2-alt">
-                <img src="../webp/2020-regen-report.webp" width="120" style="width:100%;" alt="Ecojoiner Regen Report" loading="lazy" >
+            <div class="side3" data-lang-id="059-block-5-img2-alt">
+                <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">
+                    <img src="../webp/2020-regen-report.webp" width="120" style="width:100%;" alt="Ecojoiner Regen Report" loading="lazy" >
+                </a>
             </div>
         </div>
 
 
-        <p>Check our <a href="../pdfs/Regen-Report:--6FC-600ml-Aqua-Ecojoiner.pdf">Ecojoiner Regen Report for our 600ml Aqua Ecojoiners</a> to see a full breakdown of our carbon and plastic impact estimates</p>
+        <p data-lang-id="058-block-5-report-link">Check our <a href="../pdfs/600ml-Aqua-Bottle-Ecojoiner-v1.0.pdf">Ecojoiner Regen Report for our 600ml Aqua Ecojoiners</a> to see a full breakdown of our carbon and plastic impact estimates</p>
 
 
     </div>
