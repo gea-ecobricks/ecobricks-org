@@ -8,6 +8,65 @@
 
 
 <?php require_once ("../includes/cigbricks-inc.php");?>
+<style>
+    .split-page-paragraph {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .split-page-paragraph .split-text {
+        width: 100%;
+    }
+
+    .split-page-paragraph .split-image {
+        display: flex;
+        justify-content: center;
+        max-width: 277px;
+        width: 100%;
+    }
+
+    .split-page-paragraph .split-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    @media (min-width: 769px) {
+        .split-page-paragraph {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .split-page-paragraph .split-text {
+            flex: 1;
+        }
+
+        .split-page-paragraph .split-image {
+            max-width: 300px;
+            padding: 10px;
+        }
+    }
+
+    .footnotes {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .footnotes ol {
+        font-size: 0.9em;
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .footnotes li {
+        margin-bottom: 6px;
+    }
+
+    .footnotes a {
+        text-decoration: none;
+    }
+</style>
 <!--TOP PAGE BANNER-->
 
 
@@ -16,8 +75,8 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">The Cigbrick</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Introducing a simple solution for cigarette pollution</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt-X"><img src="../webp/Characters-Albatross-Cigar.gif" style="width: 95%" alt="Albatross">
-    </div>	
+        <div class="splash-image" data-lang-id="003-splash-image-alt-X"><img src="../svgs/cigbricks.svg" style="width: 95%" alt="Albatross">
+    </div>
 </div>
 <div id="splash-bar"></div>
 
@@ -28,13 +87,20 @@
 	<div class="row">
 		<div class="main">
 
-			<div class="lead-page-paragraph">
-                <h4 data-lang-id="004-lead-page-paragraph">Enter the Ecobrick & Cigbrick</h4>
-				<br>
-		        <p data-lang-id="005-first-page-paragraph">Many people don’t realize that cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it can cause all sorts of problems. Ecobricks are designed to keep plastic (like filters!) out of the environment in order to make a reusable building block.</p>
-		        <p data-lang-id="006-second-page-paragraph">Ecobricks make use of plastic to secure plastic!  Ecobricks keep plastic from degrading into micro-plastics, gases and toxins! It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  If you’re really ambitious you can do a full ecobrick from filters!  We call this a <b><i>Cigbrick</i></b>.  One 600ml Cigbrick can contain over 1000 filters!</p>
-	        	<p data-lang-id="007-third-page-paragraph">Cigbricking enable us to take personal responsibility for our cigarette butts, to secure the plastic fibres from degrading and contaminating, and turn the routine of smoking into a conscious, inspiring and transformational ritual.</p>
-			</div>
+                        <div class="lead-page-paragraph">
+                <h4 data-lang-id="004-lead-page-paragraph"></h4>
+                                <br>
+                        <div class="page-paragraph split-page-paragraph">
+                            <div class="split-text">
+                                <p data-lang-id="005-first-page-paragraph">Many people don’t realize that cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it can cause all sorts of problems. Ecobricks are designed to keep plastic (like filters!) out of the environment in order to make a reusable building block.</p>
+                            </div>
+                            <div class="split-image">
+                                <img src="https://ecobricks.org/webp/Characters-Albatross-Cigar.gif" alt="Albatross with cigarette" loading="lazy">
+                            </div>
+                        </div>
+                        <p data-lang-id="006-second-page-paragraph">Ecobricks make use of plastic to secure plastic!  Ecobricks keep plastic from degrading into micro-plastics, gases and toxins! It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  If you’re really ambitious you can do a full ecobrick from filters!  We call this a <b><i>Cigbrick</i></b>.  One 600ml Cigbrick can contain over 1000 filters!</p>
+                        <p data-lang-id="007-third-page-paragraph">Cigbricking enable us to take personal responsibility for our cigarette butts, to secure the plastic fibres from degrading and contaminating, and turn the routine of smoking into a conscious, inspiring and transformational ritual.</p>
+                        </div>
 
 
 			<section id="SMALLBUTTBIG">
@@ -49,18 +115,22 @@
 					</div>
 					
 					<div id="preclosed1">
-						<p data-lang-id="010-block-1-paragraph1">It is a big problem: over 4.5 trillion cigarette butts are discarded every year (1). In beach clean ups around the world, they are the most picked up item (2). Many people aren’t aware that 95% of cigarette filters are made of cellulose acetate (a type of plastic).</p>
-						<p data-lang-id="011-block-1-paragraph2">Many smokers assume that you can throw a cigarette butt on to the ground and it will biodegrade. Alas, this is <b><i>not the case</i></b>. Acetate does not biodegrade like a banana peel or paper.   A recent scientific examining the effect of filters concludes “Cellulose acetate is photodegradable but not bio-degradable.  Although ultraviolet rays from the sun will eventually break the filter into smaller pieces under ideal environmental conditions, the source material never disappears; it essentially becomes diluted in water or soil. (3) These micro-plastics cause all sorts of problems. Microplastics can have possible <b>direct ecotoxicological impacts, accumulate in food chains and cause economic damage because of food safety concerns.</b> (4)</p>
-						<p data-lang-id="012-block-1-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life (5).</p>
-						<p data-lang-id="013-block-1-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year (6).</p>
+                                                <p data-lang-id="010-block-1-paragraph1">It is a big problem: over 4.5 trillion cigarette butts are discarded every year <sup id="fnref1"><a href="#fn1">1</a></sup>. In beach clean ups around the world, they are the most picked up item <sup id="fnref2"><a href="#fn2">2</a></sup>. Many people aren’t aware that 95% of cigarette filters are made of cellulose acetate (a type of plastic).</p>
+                                                <p data-lang-id="011-block-1-paragraph2">Many smokers assume that you can throw a cigarette butt on to the ground and it will biodegrade. Alas, this is <b><i>not the case</i></b>. Acetate does not biodegrade like a banana peel or paper.   A recent scientific examining the effect of filters concludes “Cellulose acetate is photodegradable but not bio-degradable.  Although ultraviolet rays from the sun will eventually break the filter into smaller pieces under ideal environmental conditions, the source material never disappears; it essentially becomes diluted in water or soil." <sup id="fnref3"><a href="#fn3">3</a></sup> These micro-plastics cause all sorts of problems. Microplastics can have possible <b>direct ecotoxicological impacts, accumulate in food chains and cause economic damage because of food safety concerns.</b> <sup id="fnref4"><a href="#fn4">4</a></sup></p>
+                                                <p data-lang-id="012-block-1-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life <sup id="fnref5"><a href="#fn5">5</a></sup>.</p>
+                                                <p data-lang-id="013-block-1-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year <sup id="fnref6"><a href="#fn6">6</a></sup>.</p>
                         <br>
                         <hr>
-                        <p data-lang-id="013b-block-1-list-paragraph2">1. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes</p>
-                        <p data-lang-id="013c-block-1-list-paragraph3">2. Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007.</p>
-                        <p data-lang-id="013d-block-1-list-paragraph4">3. <a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3</p>
-                        <p data-lang-id="013e-block-1-list-paragraph5">4. Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a>,</i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99</p>
-                        <p data-lang-id="013f-block-1-list-paragraph6">5. Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25</p>
-                        <p data-lang-id="013g-block-1-list-paragraph7">6. Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008.</p>
+                        <div class="footnotes">
+                            <ol>
+                                <li id="fn1" data-lang-id="013b-block-1-list-paragraph2"><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes <a href="#fnref1">↩︎</a></li>
+                                <li id="fn2" data-lang-id="013c-block-1-list-paragraph3">Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007. <a href="#fnref2">↩︎</a></li>
+                                <li id="fn3" data-lang-id="013d-block-1-list-paragraph4"><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3 <a href="#fnref3">↩︎</a></li>
+                                <li id="fn4" data-lang-id="013e-block-1-list-paragraph5">Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a></i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99 <a href="#fnref4">↩︎</a></li>
+                                <li id="fn5" data-lang-id="013f-block-1-list-paragraph6">Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25 <a href="#fnref5">↩︎</a></li>
+                                <li id="fn6" data-lang-id="013g-block-1-list-paragraph7">Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008. <a href="#fnref6">↩︎</a></li>
+                            </ol>
+                        </div>
 	                </div>
 				</div>
 		    </section>
