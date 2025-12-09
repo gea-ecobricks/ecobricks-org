@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.0';?>
+<?php $version='2.1';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -72,10 +72,10 @@
 
 <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">The Cigbrick</div>
-	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Introducing a simple solution for cigarette pollution</div>
+		<div class="splash-heading" data-lang-id="001-splash-title-new">The Cigbrick</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle-new">Introducing a simple solution for cigarette pollution</div>
 	</div>
-        <div class="splash-image" data-lang-id="003-splash-image-alt-XX"><img src="../svgs/cigbrick.svg" style="width: 95%" alt="The cigbrick is the green solution for cigarette butts">
+        <div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/cigbrick.svg" style="width: 95%" alt="The cigbrick is the green solution for cigarette butts">
     </div>
 </div>
 <div id="splash-bar"></div>
@@ -90,14 +90,15 @@
                         <div class="lead-page-paragraph">
                         <div class="page-paragraph split-page-paragraph">
                             <div class="split-text">
-                                <p data-lang-id="005-first-page-paragraph">Many people don’t realize that cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it can cause all sorts of problems. Ecobricks are designed to keep plastic (like filters!) out of the environment in order to make a reusable building block.</p>
+                                <p data-lang-id="005-first-page-paragraph">Many people don’t realize that cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it breaks down into microplastic and leaches out chemicals.  This can cause also sorts of problems for us, ecosystems and animals.</p>
                             </div>
                             <div class="split-image">
-                                <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross with cigarette" loading="lazy">
+                                <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross nest with cigarette pollution disapearing" loading="lazy">
                             </div>
                         </div>
-                        <p data-lang-id="006-second-page-paragraph">Ecobricks make use of plastic to secure plastic!  Ecobricks keep plastic from degrading into micro-plastics, gases and toxins! It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  If you’re really ambitious you can do a full ecobrick from filters!  We call this a <b><i>Cigbrick</i></b>.  One 600ml Cigbrick can contain over 1000 filters!</p>
-                        <p data-lang-id="007-third-page-paragraph">Cigbricking enable us to take personal responsibility for our cigarette butts, to secure the plastic fibres from degrading and contaminating, and turn the routine of smoking into a conscious, inspiring and transformational ritual.</p>
+                        <p data-lang-id="006-second-page-paragraph-b">Enter the cigbrick!  Cigbricks, like normal ecobricks, secure plastic into a bottle to make a sturdy, reusable building block.  This prevents plastic from degrading into micro-plastics, off-gasing and from leaching chemicals.  It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  However, for dramatic effect, you can do a full ecobrick from filters!  We call this a <b><i>Cigbrick</i></b>.  One 600ml Cigbrick can contain over 1000 filters!</p>
+
+                        <p data-lang-id="007-third-page-paragraph-b">Cigbricking enable us to take personal responsibility for our cigarette butts and turn the routine of smoking into a conscious and transformational ritual.</p>
                         </div>
 
 
