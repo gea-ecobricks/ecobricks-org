@@ -75,7 +75,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">The Cigbrick</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Introducing a simple solution for cigarette pollution</div>
 	</div>
-        <div class="splash-image" data-lang-id="003-splash-image-alt-XX"><img src="../svgs/cigbricks.svg" style="width: 95%" alt="Albatross">
+        <div class="splash-image" data-lang-id="003-splash-image-alt-XX"><img src="../svgs/cigbrick.svg" style="width: 95%" alt="The cigbrick is the green solution for cigarette butts">
     </div>
 </div>
 <div id="splash-bar"></div>
