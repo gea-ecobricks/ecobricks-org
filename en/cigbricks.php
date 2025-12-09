@@ -55,16 +55,50 @@
 
     .footnotes ol {
         font-size: 0.9em;
-        padding-left: 20px;
+        padding-left: 0;
         margin: 0;
+        list-style: none;
     }
 
     .footnotes li {
         margin-bottom: 6px;
+        display: flex;
+        gap: 6px;
     }
 
     .footnotes a {
         text-decoration: none;
+    }
+
+    .footnote-number {
+        font-weight: 700;
+    }
+
+    .credit-list {
+        margin: 0 0 10px 20px;
+        padding-left: 0;
+        list-style: disc;
+    }
+
+    .credit-list li {
+        margin-bottom: 6px;
+    }
+
+    .feature-image {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .feature-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    .feature-image figcaption {
+        font-size: 0.9em;
+        color: #555;
+        margin-top: 6px;
     }
 </style>
 <!--TOP PAGE BANNER-->
@@ -96,7 +130,7 @@
                                 <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross nest with cigarette pollution disapearing" loading="lazy">
                             </div>
                         </div>
-                        <p data-lang-id="006-second-page-paragraph-b">Enter the cigbrick!  Cigbricks, like normal ecobricks, secure plastic into a bottle to make a sturdy, reusable building block.  This prevents plastic from degrading into micro-plastics, off-gasing and from leaching chemicals.  It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  However, for dramatic effect, you can do a full ecobrick from filters!  We call this a <b><i>Cigbrick</i></b>.  One 600ml Cigbrick can contain over 1000 filters!</p>
+                        <p data-lang-id="006-second-page-paragraph-b">Enter the cigbrick!  Cigbricks, like normal ecobricks, secure plastic into a bottle to make a sturdy, reusable building block.  This prevents plastic from degrading into micro-plastics, off-gasing and from leaching chemicals.  It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  However, for dramatic effect, you can do a full ecobrick from filters!  We call this a <b><i>cigbrick</i></b>.  One 600ml cigbrick can contain over 1000 filters!</p>
 
                         <p data-lang-id="007-third-page-paragraph-b">Cigbricking enable us to take personal responsibility for our cigarette butts and turn the routine of smoking into a conscious and transformational ritual.</p>
                         </div>
@@ -122,16 +156,16 @@
                         <hr>
                         <div class="footnotes">
                             <ol>
-                                <li id="fn1" data-lang-id="013b-block-1-list-paragraph2"><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes <a href="#fnref1">↩︎</a></li>
-                                <li id="fn2" data-lang-id="013c-block-1-list-paragraph3">Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007. <a href="#fnref2">↩︎</a></li>
-                                <li id="fn3" data-lang-id="013d-block-1-list-paragraph4"><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3 <a href="#fnref3">↩︎</a></li>
-                                <li id="fn4" data-lang-id="013e-block-1-list-paragraph5">Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a></i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99 <a href="#fnref4">↩︎</a></li>
-                                <li id="fn5" data-lang-id="013f-block-1-list-paragraph6">Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25 <a href="#fnref5">↩︎</a></li>
-                                <li id="fn6" data-lang-id="013g-block-1-list-paragraph7">Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008. <a href="#fnref6">↩︎</a></li>
+                                <li id="fn1" data-lang-id="013b-block-1-list-paragraph2"><span class="footnote-number">1.</span><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes <a href="#fnref1">↩︎</a></li>
+                                <li id="fn2" data-lang-id="013c-block-1-list-paragraph3"><span class="footnote-number">2.</span>Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007. <a href="#fnref2">↩︎</a></li>
+                                <li id="fn3" data-lang-id="013d-block-1-list-paragraph4"><span class="footnote-number">3.</span><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3 <a href="#fnref3">↩︎</a></li>
+                                <li id="fn4" data-lang-id="013e-block-1-list-paragraph5"><span class="footnote-number">4.</span>Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a></i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99 <a href="#fnref4">↩︎</a></li>
+                                <li id="fn5" data-lang-id="013f-block-1-list-paragraph6"><span class="footnote-number">5.</span>Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25 <a href="#fnref5">↩︎</a></li>
+                                <li id="fn6" data-lang-id="013g-block-1-list-paragraph7"><span class="footnote-number">6.</span>Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008. <a href="#fnref6">↩︎</a></li>
                             </ol>
                         </div>
-	                </div>
-				</div>
+                        </div>
+                                </div>
 		    </section>
 	
             <section id="EASYSTUFF">
@@ -148,11 +182,15 @@
                         <div class="side2">
                             <a href="../svgs/cigbrick-slide-3.svg"><img src="../svgs/cigbrick-slide-3.svg" style="width:65%" alt="Cigbrick Instructions" loading ="lazy"></a>
                         </div>
-                        <p data-lang-id="016-block-2-paragraph-1">Just remove the paper covering from the used butt and stuff the filter (plastic acetate) into a plastic bottle.  The paper is biodegradable, which, unlike the acetate, is not a toxic concern and can be thrown away.  Biodegradables, like paper, are not added to ecobricks (1). Then, use a stick to pack down and compress the filters and any other plastic you pack in. Was there a plastic wrapper around your cigarette box? Finished with that plastic lighter? You can pack those in too! Of course, to make a pure Cigbrick — use just the filters!</p>
+                        <p data-lang-id="016-block-2-paragraph-1">Just remove the paper covering from the used butt and stuff the filter (plastic acetate) into a plastic bottle.  The paper is biodegradable, which, unlike the acetate, is not a toxic concern and can be thrown away.  Biodegradables, like paper, are not added to ecobricks <sup id="fnref-easy1"><a href="#fn-easy1">1</a></sup>. Then, use a stick to pack down and compress the filters and any other plastic you pack in. Was there a plastic wrapper around your cigarette box? Finished with that plastic lighter? You can pack those in too! Of course, to make a pure cigbrick — use just the filters!</p>
                         <p data-lang-id="017-block-2-paragraph-2">If packed properly, the end result is a remarkably dense and solid building block that can be used for a whole bunch of exciting applications. Best of all, the otherwise toxic acetate is 100% contained and put to good use!</p>
                         <br>
                         <hr>
-                        <p data-lang-id="017b-block-2-list-paragraph2">1. Adding paper and biodegradables to an ecobrick is not necessary (as unlike plastic, they are not toxic in the environment). In addition, biodegradables in particular can affect the safety and integrity of the ecobrick as a building block. They increase the risk of methane build up in the ecobrick and add a flammability risk over time. Plus, rotting stuff in your ecobrick doesn’t look very nice!</p>
+                        <div class="footnotes">
+                            <ol>
+                                <li id="fn-easy1" data-lang-id="017b-block-2-list-paragraph2"><span class="footnote-number">1.</span>Adding paper and biodegradables to an ecobrick is not necessary (as unlike plastic, they are not toxic in the environment). In addition, biodegradables in particular can affect the safety and integrity of the ecobrick as a building block. They increase the risk of methane build up in the ecobrick and add a flammability risk over time. Plus, rotting stuff in your ecobrick doesn’t look very nice! <a href="#fnref-easy1">↩︎</a></li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -161,13 +199,13 @@
                     <div class="opener-header">
                         <div class="opener-header-text">
                             <h4 data-lang-id="018-block-3-opener-header">Application</h4>
-                            <h5 data-lang-id="019-block-3-opener-subheader">Ecobricks can be used for everything from furniture, to gardens to structures. The same goes for Cigbricks.</h5>
+                            <h5 data-lang-id="019-block-3-opener-subheader">Ecobricks can be used for everything from furniture, to gardens to structures. The same goes for cigbricks.</h5>
                             <br>
                         </div>
                         <button onclick="toggleAccordion(3)" class="block-toggle" id="block-toggle-show3" aria-label="Toggle Section Three">+</button>
                     </div>
                     <div id="preclosed3">
-                        <p data-lang-id="020-block-3-paragraph-1">Perhaps the best application is the making of modular furniture, entirely from Cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool. For those who would prefer to hide their Cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for decades or centuries.</p>
+                        <p data-lang-id="020-block-3-paragraph-1">Perhaps the best application is the making of modular furniture, entirely from cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool. For those who would prefer to hide their cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for decades or centuries.</p>
                         <p data-lang-id="021-block-3-paragraph-2">And… if the bench is broken down, the cigbricks can be taken out and used again! Ecobricks are a <a href="../cradle-to-cradle">cradle-to-cradle</a> solution.</p>
                         <div class="side2">
                             <a href="../svgs/tire-band-5-300x225.svg"><img src="../svgs/tire-band-5-300x225.svg" style="width:65%" alt="Tire Band" loading ="lazy"></a>
@@ -188,19 +226,19 @@
                     <div id="preclosed4">
                         <div class="side2">
                             <a href="../svgs/mas-tarto.svg"><img src="../svgs/mas-tarto.svg" style="width:65%" alt="Mas Tarto" loading ="lazy"></a>
-                            <p data-lang-id="024b-image-paragraph-1">Mas Tarto saves every single cigarette that he smokes and uses it for his Cigbrick.</p>
+                            <p data-lang-id="024b-image-paragraph-1">Mas Tarto saves every single cigarette that he smokes and uses it for his cigbrick.</p>
                         <div>
-                        <p data-lang-id="024-block-4-paragraph-1">Mas Tarto, is a Global Ecobrick Trainer from Pemalang, Java, Indonesia. Mas Tarto is also a tobacco lover.  He makes cigbricking a personal daily ritual. Right after putting out his cigarette, he removes the paper, and packs it into the bottle he always carries with him. If the bottle is not with him, he puts the filter into his pocket for later packing. Sometimes, he even grabs other butts from the ashtray! His act is so astounding that it raises eyebrows wherever he goes.  Whether he is at home, at the cafe, or at a restaurant he is asked about it. He then explains himself, his ecological reasons and his concern for the environment.</p>
-                        <p data-lang-id="025-block-4-paragraph-2">Mas Hindra, is another GEA Ecobrick Trainer who lives and works on a boat in the middle of the South China Sea. Although not a smoker himself, many of his 163 shipmates are.  In order to finish off his personal ecobricking projects, he requests and collects the cigarette butts of all the ship — asking them first to remove the paper. His request and project is so astounding that it gets everyone talking.  It leads to all sorts of interesting questions: “Where would the filter go if it had not been ecobricked?”  “What happens to plastic lighters?”  “What is acetate anyway?” He then explains his love and concern for the ocean, and the dangers of discarded filters.</p>
+                        <p data-lang-id="024-block-4-paragraph-1">Mas Tarto, is a Global ecobrick trainer from Pemalang, Java, Indonesia. Mas Tarto is also a tobacco lover.  He makes cigbricking a personal daily ritual. Right after putting out his cigarette, he removes the paper, and packs it into the bottle he always carries with him. If the bottle is not with him, he puts the filter into his pocket for later packing. Sometimes, he even grabs other butts from the ashtray! His act is so astounding that it raises eyebrows wherever he goes.  Whether he is at home, at the cafe, or at a restaurant he is asked about it. He then explains himself, his ecological reasons and his concern for the environment.</p>
+                        <p data-lang-id="025-block-4-paragraph-2">Mas Hindra, is another GEA ecobrick trainer who lives and works on a boat in the middle of the South China Sea. Although not a smoker himself, many of his 163 shipmates are.  In order to finish off his personal ecobricking projects, he requests and collects the cigarette butts of all the ship — asking them first to remove the paper. His request and project is so astounding that it gets everyone talking.  It leads to all sorts of interesting questions: “Where would the filter go if it had not been ecobricked?”  “What happens to plastic lighters?”  “What is acetate anyway?” He then explains his love and concern for the ocean, and the dangers of discarded filters.</p>
                         <div class="side2">
                             <a href="../svgs/hindra.svg"><img src="../svgs/hindra.svg" style="width:65%" alt="Mas Hindra" loading ="lazy"></a>
-                            <p data-lang-id="025b-image-paragraph-1">Hindra, a GEA Trainer from Tanjung Pinang, Kepulauan Riau, Indonesia, shows the first ever Cigbrick, properly made and logged on the GoBrik app!</p>
+                            <p data-lang-id="025b-image-paragraph-1">Hindra, a GEA Trainer from Tanjung Pinang, Kepulauan Riau, Indonesia, shows the first ever cigbrick, properly made and logged on the GoBrik app!</p>
                         <div>
                         <div class="side2">
                             <a href="../svgs/Cigbrick-1.svg"><img src="../svgs/Cigbrick-1.svg" style="width:65%" alt="Shiloh" loading ="lazy"></a>
-                            <p data-lang-id="026b-image-paragraph-1">Shiloh uses her Cigbrick as a way to keep her filters out of the South African biosphere and to track her smoking habit</p>
+                            <p data-lang-id="026b-image-paragraph-1">Shiloh uses her cigbrick as a way to keep her filters out of the South African biosphere and to track her smoking habit</p>
                         <div>
-                        <p data-lang-id="026-block-4-paragraph-3">Shiloh Vermaak is lives in Durban, South Africa, where plastic is also a problem.  Shiloh is another GEA who also smokes!  As a way to contain and to keep track of her smoking, she also makes Cigbricks.  For her it is simply a focused personal and private habit.</p>
+                        <p data-lang-id="026-block-4-paragraph-3">Shiloh Vermaak is lives in Durban, South Africa, where plastic is also a problem.  Shiloh is another GEA who also smokes!  As a way to contain and to keep track of her smoking, she also makes cigbricks.  For her it is simply a focused personal and private habit.</p>
                         <p data-lang-id="027-block-4-paragraph-4">“Cigarette butts are a great example of the power of collective action. It’s such a small thing, but if everyone is throwing them a way, we have a massive problem. I just don’t want to part of the problem.”</p>
                         <p data-lang-id="028-block-4-paragraph-5">It is good to remember the history of tobacco.  It wasn’t so long ago, on the great plains of North America, the First Nations revered tobacco as a sacred plant. They smoked it with great respect, and used it in their rituals.  Often these rituals were focused on peace and healing.</p>
                         <p data-lang-id="029-block-4-paragraph-6">We’re inspired by the examples of Tarto, Hindra and Shiloh.  Through their courageous and simple acts, they have brought back a powerful ritual to tobacco smoking — just when we need the healing and peace the most.</p>
@@ -218,11 +256,12 @@
                         <button onclick="toggleAccordion(5)" class="block-toggle" id="block-toggle-show5" aria-label="Toggle Section Five">+</button>
                     </div>
                     <div id="preclosed5">
-                        <p data-lang-id="032-block-5-paragraph-1">To this day, on the Great Plains of what is now North America, First Nation peoples have used tobacco with great respect and consciousness.  Tobacco was used in ceremonies to promote physical, spiritual, emotional, and community well-being. Elders emphasized the importance of having good attitudes and thoughts when working with tobacco.  Tobacco was smoked as an offering to the Creator or to a person, place or being. Elders taught that the smoke from burned tobacco carried the thoughts and prayers to the spirit world or to the Creator.3</p>
-                        <p data-lang-id="033-block-5-paragraph-2">Learning from our ancestors, we can reclaim the use of tobacco as a means to catalyse and raise ecological consciousness.  The actions required to make a Cigbrick are such that they can infuse the routine of tabacco smoking with conscious ritual.  With this, the transformative power of tobacco can be harnessed for the healing of Earth, Air and Water once again.</p>
-                        <div class="side2">
-                            <img src="../wp-content/uploads/2020/01/Circle-earth-Bench-300px-wide-212x300.png" style="width:65%" loading ="lazy">
-                        </div>
+                        <figure class="feature-image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Pipe_ceremony_at_Standing_Rock_%2830562907835%29.jpg" alt="First Nation elders sharing a pipe during a tobacco ceremony" loading="lazy">
+                            <figcaption>Photo: Fibonacci Blue (CC BY 2.0). Source: <a href="https://commons.wikimedia.org/wiki/File:Pipe_ceremony_at_Standing_Rock_(30562907835).jpg">Wikimedia Commons</a>.</figcaption>
+                        </figure>
+                        <p data-lang-id="032-block-5-paragraph-1">To this day, on the Great Plains of what is now North America, First Nation peoples have used tobacco with great respect and consciousness.  Tobacco was used in ceremonies to promote physical, spiritual, emotional, and community well-being. Elders emphasized the importance of having good attitudes and thoughts when working with tobacco.  Tobacco was smoked as an offering to the Creator or to a person, place or being. Elders taught that the smoke from burned tobacco carried the thoughts and prayers to the spirit world or to the Creator.</p>
+                        <p data-lang-id="033-block-5-paragraph-2">Learning from our ancestors, we can reclaim the use of tobacco as a means to catalyse and raise ecological consciousness.  The actions required to make a cigbrick are such that they can infuse the routine of tabacco smoking with conscious ritual.  With this, the transformative power of tobacco can be harnessed for the healing of Earth, Air and Water once again.</p>
                     </div>
                 </div>
             </section>
@@ -237,7 +276,17 @@
                         <button onclick="toggleAccordion(6)" class="block-toggle" id="block-toggle-show6" aria-label="Toggle Section Six">+</button>
                     </div>
                     <div id="preclosed6">
-                        <p data-lang-id="036-block-6-paragraph-1">Terimah Kasih to <a href="https://www.instagram.com/shirohyde/">Fabianus Bayu</a> for his help crafting our cartoon Ecobrick bottle, the animated happy-albatross-family, and our vision landscape. Thanks to Elena Molchanova whose animated ecobrick intro and credits set the tone in our <a href="https://youtu.be/rGaJYQuOs-0">Cigbrick 30 second movie.</a>  Salemat Po to El Tiburon Grande for his help with the original vision landscape in the movie. Maternuan to mas Tarto, Reksi and Aysha for prototyping the first Cigbricks. Danku Vel to Shiloh for helping us prototype the paper removal technique.  Thank you to Mas Hindra for going full-steam-ahead once we got the technique set up (he’s approaching 100,000 filters packed now!) and for logging the first proper Cigbrick on GoBrik. Terimah Kasih to <a href="../hindra">Mas Hindra</a> and Mas Suryadi for their photo and video contributions.  Thank you to Irfan Korchak for his editing and discussion of the concept and the redemption of tobacco.  Thank you to Ani Himawati for her executive direction in crafting the Cigbrick concept.</p>
+                        <ul class="credit-list">
+                            <li>Terimah Kasih to <a href="https://www.instagram.com/shirohyde/">Fabianus Bayu</a> for crafting our cartoon ecobrick bottle, the animated happy-albatross-family, and our vision landscape.</li>
+                            <li>Thanks to Elena Molchanova whose animated ecobrick intro and credits set the tone in our <a href="https://youtu.be/rGaJYQuOs-0">cigbrick 30 second movie.</a></li>
+                            <li>Salemat Po to El Tiburon Grande for help with the original vision landscape in the movie.</li>
+                            <li>Maternuan to mas Tarto, Reksi and Aysha for prototyping the first cigbricks.</li>
+                            <li>Danku Vel to Shiloh for helping us prototype the paper removal technique.</li>
+                            <li>Thank you to Mas Hindra for going full-steam-ahead once we got the technique set up (he’s approaching 100,000 filters packed now!) and for logging the first proper cigbrick on GoBrik.</li>
+                            <li>Terimah Kasih to <a href="../hindra">Mas Hindra</a> and Mas Suryadi for their photo and video contributions.</li>
+                            <li>Thank you to Irfan Korchak for his editing and discussion of the concept and the redemption of tobacco.</li>
+                            <li>Thank you to Ani Himawati for her executive direction in crafting the cigbrick concept.</li>
+                        </ul>
                         <p data-lang-id="037-block-6-paragraph-2">Thank you to Nurkinanti Laraskusuma for their translation of the concept and the page to Indonesian.</p>
                     </div>
                 </div>
