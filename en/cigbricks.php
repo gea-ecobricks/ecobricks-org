@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='1.13';?>
+<?php $version='2.0';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -75,7 +75,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">The Cigbrick</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Introducing a simple solution for cigarette pollution</div>
 	</div>
-        <div class="splash-image" data-lang-id="003-splash-image-alt-X"><img src="../svgs/cigbricks.svg" style="width: 95%" alt="Albatross">
+        <div class="splash-image" data-lang-id="003-splash-image-alt-XX"><img src="../svgs/cigbricks.svg" style="width: 95%" alt="Albatross">
     </div>
 </div>
 <div id="splash-bar"></div>
@@ -88,14 +88,12 @@
 		<div class="main">
 
                         <div class="lead-page-paragraph">
-                <h4 data-lang-id="004-lead-page-paragraph"></h4>
-                                <br>
                         <div class="page-paragraph split-page-paragraph">
                             <div class="split-text">
                                 <p data-lang-id="005-first-page-paragraph">Many people don’t realize that cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it can cause all sorts of problems. Ecobricks are designed to keep plastic (like filters!) out of the environment in order to make a reusable building block.</p>
                             </div>
                             <div class="split-image">
-                                <img src="https://ecobricks.org/webp/Characters-Albatross-Cigar.gif" alt="Albatross with cigarette" loading="lazy">
+                                <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross with cigarette" loading="lazy">
                             </div>
                         </div>
                         <p data-lang-id="006-second-page-paragraph">Ecobricks make use of plastic to secure plastic!  Ecobricks keep plastic from degrading into micro-plastics, gases and toxins! It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  If you’re really ambitious you can do a full ecobrick from filters!  We call this a <b><i>Cigbrick</i></b>.  One 600ml Cigbrick can contain over 1000 filters!</p>
