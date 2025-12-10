@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.3';?>
+<?php $version='2.4';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -55,23 +55,17 @@
 
     .footnotes ol {
         font-size: 0.9em;
-        padding-left: 0;
+        padding-left: 20px;
         margin: 0;
-        list-style: none;
+        list-style: decimal;
     }
 
     .footnotes li {
-        margin-bottom: 6px;
-        display: flex;
-        gap: 6px;
+        margin-bottom: 8px;
     }
 
     .footnotes a {
         text-decoration: none;
-    }
-
-    .footnote-number {
-        font-weight: 700;
     }
 
     .credit-list {
@@ -157,12 +151,12 @@
                         <hr>
                         <div class="footnotes">
                             <ol>
-                                <li id="fn1" data-lang-id="013b-block-1-list-paragraph2"><span class="footnote-number">1.</span><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes <a href="#fnref1">↩︎</a></li>
-                                <li id="fn2" data-lang-id="013c-block-1-list-paragraph3"><span class="footnote-number">2.</span>Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007. <a href="#fnref2">↩︎</a></li>
-                                <li id="fn3" data-lang-id="013d-block-1-list-paragraph4"><span class="footnote-number">3.</span><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3 <a href="#fnref3">↩︎</a></li>
-                                <li id="fn4" data-lang-id="013e-block-1-list-paragraph5"><span class="footnote-number">4.</span>Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a></i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99 <a href="#fnref4">↩︎</a></li>
-                                <li id="fn5" data-lang-id="013f-block-1-list-paragraph6"><span class="footnote-number">5.</span>Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25 <a href="#fnref5">↩︎</a></li>
-                                <li id="fn6" data-lang-id="013g-block-1-list-paragraph7"><span class="footnote-number">6.</span>Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008. <a href="#fnref6">↩︎</a></li>
+                                <li id="fn1" data-lang-id="013b-block-1-list-paragraph2"><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Cigarettes butts and the case for an environmental policy on hazardous cigarette waste.</a> Int J Environ Res Public Health 2009;6:1691–705. Thomas E. Novotny 1,2,*, Kristen Lum, Elizabeth Smith, Vivian Wang and Richard Barnes</li>
+                                <li id="fn2" data-lang-id="013c-block-1-list-paragraph3">Cigarettes and Cigarette Filters Collected in the United States in the International Coastal Cleanup, 1996–2007. Source: Ocean Conservancy 2007.</li>
+                                <li id="fn3" data-lang-id="013d-block-1-list-paragraph4"><a href="https://www.ncbi.nlm.nih.gov/pubmed/19543415">Butts and the Case for an Environmental Policy on Hazardous Cigarette Waste</a>, page 3</li>
+                                <li id="fn4" data-lang-id="013e-block-1-list-paragraph5">Ansje Lohr, Heidi Savelli, Raoul Beunen, Marco Kalz, Ad Ragas, Frank Van Belleghem, <i><a href="https://www.sciencedirect.com/science/article/pii/S1877343517300386?via%3Dihub">‘Solutions for global marine litter pollution‘</a></i> (sciencedirect.com, Current opinion in Environmental Sustainability, Vol 28, October 2017) 90-99</li>
+                                <li id="fn5" data-lang-id="013f-block-1-list-paragraph6">Slaughter E, Gersberg RM, Watanabe K, et al, Toxicity of cigarette butts, and their chemical components, to marine and freshwater fish, Tobacco Control 2011;20:i25-i29. http://tobaccocontrol.bmj.com/content/20/Suppl_1/i25</li>
+                                <li id="fn6" data-lang-id="013g-block-1-list-paragraph7">Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008.</li>
                             </ol>
                         </div>
                         </div>
@@ -189,7 +183,7 @@
                         <hr>
                         <div class="footnotes">
                             <ol>
-                                <li id="fn-easy1" data-lang-id="017b-block-2-list-paragraph2"><span class="footnote-number">1.</span>Adding paper and biodegradables to an ecobrick is not necessary (as unlike plastic, they are not toxic in the environment). In addition, biodegradables in particular can affect the safety and integrity of the ecobrick as a building block. They increase the risk of methane build up in the ecobrick and add a flammability risk over time. Plus, rotting stuff in your ecobrick doesn’t look very nice! <a href="#fnref-easy1">↩︎</a></li>
+                                <li id="fn-easy1" data-lang-id="017b-block-2-list-paragraph2">Adding paper and biodegradables to an ecobrick is not necessary (as unlike plastic, they are not toxic in the environment). In addition, biodegradables in particular can affect the safety and integrity of the ecobrick as a building block. They increase the risk of methane build up in the ecobrick and add a flammability risk over time. Plus, rotting stuff in your ecobrick doesn’t look very nice!</li>
                             </ol>
                         </div>
                     </div>
