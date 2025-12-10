@@ -122,12 +122,13 @@
 		<div class="main">
 
                         <div class="lead-page-paragraph">
-                        <div class="page-paragraph split-page-paragraph">
-                            <div class="split-text">
-                                <p data-lang-id="005b-first-page-paragraph">Many people don’t realize that cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it breaks down into microplastic and leaches out chemicals.  This can cause also sorts of problems for us, ecosystems and animals.</p>
-                            </div>
-                            <div class="split-image">
-                                <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross nest with cigarette pollution disapearing" loading="lazy">
+                            <div class="page-paragraph split-page-paragraph">
+                                <div class="split-text">
+                                    <p data-lang-id="005b-first-page-paragraph">Cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it breaks down into microplastic and leaches out chemicals.  This can cause also sorts of health problems for all living creatures.</p>
+                                </div>
+                                <div class="split-image">
+                                    <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross nest with cigarette pollution disapearing" loading="lazy">
+                                </div>
                             </div>
                         </div>
                         <p data-lang-id="006-second-page-paragraph-b">Enter the cigbrick!  Like all ecobricks, cigbricks secure plastic into a bottle to make a sturdy, reusable building block.  This prevents plastic from degrading into micro-plastics, off-gasing and from leaching chemicals.  It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  However, for dramatic effect, you can do a full ecobrick from filters!  <i>This</i> is a <b><i>cigbrick</i></b>.  A single 600ml cigbrick can contain over 1000 filters!</p>
