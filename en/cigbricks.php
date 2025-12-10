@@ -128,7 +128,7 @@
                         <p data-lang-id="006-second-page-paragraph-b">Enter the cigbrick!  Like all ecobricks, cigbricks secure plastic into a bottle to make a sturdy, reusable building block.  This prevents plastic from degrading into micro-plastics, off-gasing and from leaching chemicals.  It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  However, for dramatic effect, you can do a full ecobrick from filters!  <i>This</i> is a <b><i>cigbrick</i></b>.  A single 600ml cigbrick can contain over 1000 filters!</p>
 
                         <p data-lang-id="007-third-page-paragraph-b">Cigbricking enable us to take personal responsibility for our cigarette butts and turn the routine of smoking into a conscious and transformational ritual.</p>
-                        </div>
+
 
 
 			<section id="SMALLBUTTBIG">
