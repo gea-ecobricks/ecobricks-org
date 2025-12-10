@@ -205,11 +205,11 @@
                         <button onclick="toggleAccordion(3)" class="block-toggle" id="block-toggle-show3" aria-label="Toggle Section Three">+</button>
                     </div>
                     <div id="preclosed3">
-                        <p data-lang-id="020-block-3-paragraph-1">Perhaps the best application is the making of modular furniture, entirely from cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool. For those who would prefer to hide their cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for decades or centuries.</p>
-                        <p data-lang-id="021-block-3-paragraph-2">And… if the bench is broken down, the cigbricks can be taken out and used again! Ecobricks are a <a href="../cradle-to-cradle">cradle-to-cradle</a> solution.</p>
-                        <div class="side2">
-                            <a href="../svgs/tire-band-5-300x225.svg"><img src="../svgs/tire-band-5-300x225.svg" style="width:65%" alt="Tire Band" loading ="lazy"></a>
-                        </div>
+                        <p data-lang-id="020-block-3-paragraph-1b">Perhaps the best application is the making of modular furniture, entirely from cigbricks!  Mas Hindra is working on the first one. Using cut inner tubes to hold the ecobricks together, the color combination of beige and black makes a profound sitting stool.</p>
+
+                        <p data-lang-id="020-block-3-paragraph-2">For those who would prefer to hide their cigbricks, they make good building blocks for gardens and walls. There are tons of cool things you can build this way. We have a whole section on our web site dedicated to <a href="../earth.php">earth and ecobrick building.</a> The beauty of earth building is that the plastics are essentially buried into the bench or wall. Because plastics do not breakdown without the presence of light or heat, those cigbricks will effectively sequester the plastic acetate for the long term</p>
+                        <p data-lang-id="021-block-3-paragraph-2">And… if the bench is broken down, the cigbricks can be taken out and used again for another application. Cigbricks and ecobricks are a fundamentally <a href="spiral.php">spiral</a> buidling material.</p>
+
                     </div>
                 </div>
             </section>
@@ -257,11 +257,12 @@
                     </div>
                     <div id="preclosed5">
                         <figure class="feature-image">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Pipe_ceremony_at_Standing_Rock_%2830562907835%29.jpg" alt="First Nation elders sharing a pipe during a tobacco ceremony" loading="lazy">
-                            <figcaption>Photo: Fibonacci Blue (CC BY 2.0). Source: <a href="https://commons.wikimedia.org/wiki/File:Pipe_ceremony_at_Standing_Rock_(30562907835).jpg">Wikimedia Commons</a>.</figcaption>
+                            <img src="../photos/1st-pipe-ceremony-james-roderick.jpg" alt="1st Pipe Ceremony is a painting by James RODERICK" loading="lazy">
+                            <figcaption>1st Pipe Ceremony is a painting by James Roderick<a href="https://fineartamerica.com/featured/1st-pipe-ceremony-james-roderick.html">Wikimedia Commons</a>.</figcaption>
                         </figure>
                         <p data-lang-id="032-block-5-paragraph-1">To this day, on the Great Plains of what is now North America, First Nation peoples have used tobacco with great respect and consciousness.  Tobacco was used in ceremonies to promote physical, spiritual, emotional, and community well-being. Elders emphasized the importance of having good attitudes and thoughts when working with tobacco.  Tobacco was smoked as an offering to the Creator or to a person, place or being. Elders taught that the smoke from burned tobacco carried the thoughts and prayers to the spirit world or to the Creator.</p>
                         <p data-lang-id="033-block-5-paragraph-2">Learning from our ancestors, we can reclaim the use of tobacco as a means to catalyse and raise ecological consciousness.  The actions required to make a cigbrick are such that they can infuse the routine of tabacco smoking with conscious ritual.  With this, the transformative power of tobacco can be harnessed for the healing of Earth, Air and Water once again.</p>
+                        <p>See:  <a href="https://www.uvic.ca/research/centres/cisur/assets/docs/iminds/war-smoking-pipe-outline.pdf" target="_blank">Smoking the Pipe: Peace or War?</p>
                     </div>
                 </div>
             </section>
@@ -308,9 +309,6 @@
 
             <?php require_once ("side-modules/sequest-module.php");?>
 
-            <?php require_once ("side-modules/signup-now.php");?>
-    
-            <?php require_once ("side-modules/transition-module.php");?>
 
             <?php require_once ("side-modules/earthen-ethics.php");?>
         </div>
