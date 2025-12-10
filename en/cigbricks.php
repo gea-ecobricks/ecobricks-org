@@ -43,7 +43,7 @@
         }
 
         .split-page-paragraph .split-image {
-            max-width: 300px;
+            max-width: 222px;
             padding: 10px;
         }
     }
@@ -115,7 +115,7 @@
 	<div class="row">
 		<div class="main">
 
-                        <div class="lead-page-paragraph">
+
                             <div class="page-paragraph split-page-paragraph">
                                 <div class="split-text">
                                     <p data-lang-id="005b-first-page-paragraph">Cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it breaks down into microplastic and leaches out chemicals.  This can cause also sorts of health problems for all living creatures.</p>
@@ -124,7 +124,7 @@
                                     <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross nest with cigarette pollution disapearing" loading="lazy">
                                 </div>
                             </div>
-                        </div>
+
                         <p data-lang-id="006-second-page-paragraph-b">Enter the cigbrick!  Like all ecobricks, cigbricks secure plastic into a bottle to make a sturdy, reusable building block.  This prevents plastic from degrading into micro-plastics, off-gasing and from leaching chemicals.  It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  However, for dramatic effect, you can do a full ecobrick from filters!  <i>This</i> is a <b><i>cigbrick</i></b>.  A single 600ml cigbrick can contain over 1000 filters!</p>
 
                         <p data-lang-id="007-third-page-paragraph-b">Cigbricking enable us to take personal responsibility for our cigarette butts and turn the routine of smoking into a conscious and transformational ritual.</p>
@@ -257,7 +257,7 @@
                         </figure>
                         <p data-lang-id="032-block-5-paragraph-1">To this day, on the Great Plains of what is now North America, First Nation peoples have used tobacco with great respect and consciousness.  Tobacco was used in ceremonies to promote physical, spiritual, emotional, and community well-being. Elders emphasized the importance of having good attitudes and thoughts when working with tobacco.  Tobacco was smoked as an offering to the Creator or to a person, place or being. Elders taught that the smoke from burned tobacco carried the thoughts and prayers to the spirit world or to the Creator.</p>
                         <p data-lang-id="033-block-5-paragraph-2">Learning from our ancestors, we can reclaim the use of tobacco as a means to catalyse and raise ecological consciousness.  The actions required to make a cigbrick are such that they can infuse the routine of tabacco smoking with conscious ritual.  With this, the transformative power of tobacco can be harnessed for the healing of Earth, Air and Water once again.</p>
-                        <p>See:  <a href="https://www.uvic.ca/research/centres/cisur/assets/docs/iminds/war-smoking-pipe-outline.pdf" target="_blank">Smoking the Pipe: Peace or War?</p>
+                        <p>See:  <a href="https://www.uvic.ca/research/centres/cisur/assets/docs/iminds/war-smoking-pipe-outline.pdf" target="_blank">Smoking the Pipe: Peace or War?</a></p>
                     </div>
                 </div>
             </section>
