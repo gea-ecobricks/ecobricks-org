@@ -35,7 +35,7 @@ include '../ecobricks_env.php';
                     <div class="featured-content-title" data-lang-id="300-featured-content-2-title">What should green really mean?</div>
                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the indigenous concept of Ayyew.  This ecological ethos inspires our Earthen ethics, our ecobricking and our understanding of Green.</div>
 
-                    <a class="content-button" href="ayyew.php" data-lang-id="302-featured-content-2-button">↗️ August 30th Event</a>
+                    <a class="content-button" href="ayyew.php" data-lang-id="302-featured-content-2-button">All About Ayyew</a>
                 </div>
             </div>
        </div>
