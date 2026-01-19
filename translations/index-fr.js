@@ -2,7 +2,7 @@
 const fr_Page_Translations = {
   "300-featured-content-1-title": "Événement d'introduction aux écobriques",
   "301-featured-content-1-subtitle": "Rejoignez-nous pour un cours introductif en direct et gratuit. Apprenez la science, la philosophie et les techniques essentielles lors de notre événement communautaire en direct 'Plastique, la biosphère et les écobriques'. Zoom. Gratuit.",
-  "302-featured-content-1-button": "↗️ Événement du 7 déc.",
+  "302-featured-content-1-button": "↗️ Événement du 28 févr.",
   "300-featured-content-2-title": "Que devrait vraiment signifier le vert ?",
   "301-featured-content-2-subtitle": "L'écobriquage est guidé par le concept indigène d'Ayyew. Cet ethos écologique inspire notre éthique terrestre, notre écobriquage et notre compréhension du Vert.",
   "302-featured-content-2-button": "↗️ Événement du 30 août",
