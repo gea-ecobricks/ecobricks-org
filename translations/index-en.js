@@ -6,7 +6,7 @@ const en_Page_Translations = {
   "302-featured-content-1-button": "↗️ February 28th",
   "300-featured-content-2-title": "What should green really mean?",
   "301-featured-content-2-subtitle": "Ecobricking is guided by the indigenous concept of Ayyew.  This ecological ethos inspires our Earthen ethics, our ecobricking and our understanding of Green.",
-  "302-featured-content-2-button": "↗️ August 30th Event",
+  "302-featured-content-2-button": "All About Ayyew",
   "300-featured-content-3-title": "The Stellar Story of Plastic",
   "301-featured-content-3-subtitle": "Where does plastic really come from?  Plastic's planetary story started billions of years ago...",
   "302-featured-content-3-button": "🌎 Go deep!",

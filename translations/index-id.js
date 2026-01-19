@@ -6,7 +6,7 @@ const id_Page_Translations = {
   "302-featured-content-1-button": "↗️ Acara 28 Feb.",
   "300-featured-content-2-title": "Apa arti hijau yang sebenarnya?",
   "301-featured-content-2-subtitle": "Ecobricking dipandu oleh konsep adat Ayyew. Etos ekologis ini menginspirasi etika Earthen kami, ecobricking kami, dan pemahaman kami tentang Hijau.",
-  "302-featured-content-2-button": "↗️ Acara 30 Agustus",
+  "302-featured-content-2-button": "Semua tentang Ayyew",
 
   "300-featured-content-3-title": "Kisah Bintang Plastik",
   "301-featured-content-3-subtitle": "Dari mana sebenarnya plastik berasal? Kisah planet plastik dimulai miliaran tahun yang lalu...",

@@ -9,7 +9,7 @@ const es_Page_Translations = {
     "302-featured-content-1-button": "↗️ Evento 28 de Feb.",
     "300-featured-content-2-title": "¿Qué debería significar realmente verde?",
     "301-featured-content-2-subtitle": "El ecobricking está guiado por el concepto indígena de Ayyew. Este ethos ecológico inspira nuestra ética terrenal, nuestro ecobricking y nuestra comprensión de lo Verde.",
-    "302-featured-content-2-button": "↗️ Evento 30 de Agosto",
+    "302-featured-content-2-button": "Todo sobre Ayyew",
 
     "300-featured-content-3-title": "La Historia Estelar del Plástico",
     "301-featured-content-3-subtitle": "¿De dónde viene realmente el plástico? La historia planetaria del plástico comenzó hace miles de millones de años...",

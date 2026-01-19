@@ -5,7 +5,7 @@ const fr_Page_Translations = {
   "302-featured-content-1-button": "↗️ Événement du 28 févr.",
   "300-featured-content-2-title": "Que devrait vraiment signifier le vert ?",
   "301-featured-content-2-subtitle": "L'écobriquage est guidé par le concept indigène d'Ayyew. Cet ethos écologique inspire notre éthique terrestre, notre écobriquage et notre compréhension du Vert.",
-  "302-featured-content-2-button": "↗️ Événement du 30 août",
+  "302-featured-content-2-button": "Tout sur Ayyew",
 
   "300-featured-content-3-title": "L'histoire stellaire du plastique",
   "301-featured-content-3-subtitle": "D'où vient vraiment le plastique ? L'histoire planétaire du plastique a commencé il y a des milliards d'années...",
