@@ -1,5 +1,5 @@
 <?php
-$version='6.5';
+$version='6.6';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='index';
 include '../ecobricks_env.php';
@@ -24,21 +24,21 @@ include '../ecobricks_env.php';
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Intro to Ecobricks Event</div>
                         <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our live community event 'Plastic, the Biosphere & Ecobricks'.  Zoom. Free.</div>
-                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ December 7th Event</a>
+                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ February 28th</a>
                     </div>
                 </div>
            </div>
 
-            <!-- <div id="slider-content-2" class="slider-slide" >
+            <div id="slider-content-2" class="slider-slide" >
             <div class="featured-content-shaded-box">
                 <div class="featured-content-text">
                     <div class="featured-content-title" data-lang-id="300-featured-content-2-title">What should green really mean?</div>
                     <div class="featured-content-subtitle" data-lang-id="301-featured-content-2-subtitle">Ecobricking is guided by the indigenous concept of Ayyew.  This ecological ethos inspires our Earthen ethics, our ecobricking and our understanding of Green.</div>
 
-                    <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-2-button">↗️ August 30th Event</a>
+                    <a class="content-button" href="ayyew.php" data-lang-id="302-featured-content-2-button">↗️ August 30th Event</a>
                 </div>
             </div>
-       </div> -->
+       </div>
 
             <div id="slider-content-3" class="slider-slide" >
                 <div class="featured-content-shaded-box">
