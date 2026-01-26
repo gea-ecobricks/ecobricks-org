@@ -190,7 +190,7 @@ echo '
 				
 				<div class="page-paragraph">
                 <p style="font-size:smaller">Training Location:</p>
-                <p style="font-size:normal">' . $array["training_location"] . '</p><br>
+                <!--<p style="font-size:normal">' . $array["training_location"] . '</p><br>-->
                 <br><hr><br> 
                 <div class="page-paragraph">
                     <h3><p data-lang-id="151">Global Ecobrick Alliance Workshops & Trainings</p></h3>
