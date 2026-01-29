@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <?php
+http_response_code(404);
+
 // Get the current page URL
 $current_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
@@ -22,7 +24,7 @@ $lang = isset($path_segments[0]) ? $path_segments[0] : 'en'; // Default to Engli
 
  <div class="splash-content-block">
 	<div class="splash-box">
-		<div class="splash-heading" data-lang-id="001-splash-title">Sorry!</div>
+		<div class="splash-heading" data-lang-id="001-splash-title">Sorry!!!</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">It seems that the page you're looking for can't be found.</div>
 	</div>
 	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../svgs/question.svg" style="width: 75%" alt="Ecobricks making a question mark">
