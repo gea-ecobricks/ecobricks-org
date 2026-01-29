@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.4';?>
+<?php $version='2.6';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -175,7 +175,7 @@
                     </div>
                     <div id="preclosed2">
                         <div class="side2">
-                            <a href="../svgs/cigbrick-slide-3.svg"><img src="../svgs/cigbrick-slide-3.svg" style="width:65%" alt="Cigbrick Instructions" loading ="lazy"></a>
+                            <a href="../webp/cigbrick-slide-3.webp"><img src="../webp/cigbrick-slide-3.webp" style="width:65%" alt="Cigbrick Instructions" loading ="lazy"></a>
                         </div>
                         <p data-lang-id="016-block-2-paragraph-1">Just remove the paper covering from the used butt and stuff the filter (plastic acetate) into a plastic bottle.  The paper is biodegradable, which, unlike the acetate, is not a toxic concern and can be thrown away.  Biodegradables, like paper, are not added to ecobricks <sup id="fnref-easy1"><a href="#fn-easy1">1</a></sup>. Then, use a stick to pack down and compress the filters and any other plastic you pack in. Was there a plastic wrapper around your cigarette box? Finished with that plastic lighter? You can pack those in too! Of course, to make a pure cigbrick — use just the filters!</p>
                         <p data-lang-id="017-block-2-paragraph-2">If packed properly, the end result is a remarkably dense and solid building block that can be used for a whole bunch of exciting applications. Best of all, the otherwise toxic acetate is 100% contained and put to good use!</p>
@@ -220,17 +220,17 @@
                     </div>
                     <div id="preclosed4">
                         <div class="side2">
-                            <a href="../svgs/mas-tarto.svg"><img src="../svgs/mas-tarto.svg" style="width:65%" alt="Mas Tarto" loading ="lazy"></a>
+                            <a href="../webp/mas-tarto.webp"><img src="../webp/mas-tarto.webp" style="width:65%" alt="Mas Tarto" loading ="lazy"></a>
                             <p data-lang-id="024b-image-paragraph-1">Mas Tarto saves every single cigarette that he smokes and uses it for his cigbrick.</p>
                         <div>
                         <p data-lang-id="024-block-4-paragraph-1">Mas Tarto, is a Global ecobrick trainer from Pemalang, Java, Indonesia. Mas Tarto is also a tobacco lover.  He makes cigbricking a personal daily ritual. Right after putting out his cigarette, he removes the paper, and packs it into the bottle he always carries with him. If the bottle is not with him, he puts the filter into his pocket for later packing. Sometimes, he even grabs other butts from the ashtray! His act is so astounding that it raises eyebrows wherever he goes.  Whether he is at home, at the cafe, or at a restaurant he is asked about it. He then explains himself, his ecological reasons and his concern for the environment.</p>
                         <p data-lang-id="025-block-4-paragraph-2">Mas Hindra, is another GEA ecobrick trainer who lives and works on a boat in the middle of the South China Sea. Although not a smoker himself, many of his 163 shipmates are.  In order to finish off his personal ecobricking projects, he requests and collects the cigarette butts of all the ship — asking them first to remove the paper. His request and project is so astounding that it gets everyone talking.  It leads to all sorts of interesting questions: “Where would the filter go if it had not been ecobricked?”  “What happens to plastic lighters?”  “What is acetate anyway?” He then explains his love and concern for the ocean, and the dangers of discarded filters.</p>
                         <div class="side2">
-                            <a href="../svgs/hindra.svg"><img src="../svgs/hindra.svg" style="width:65%" alt="Mas Hindra" loading ="lazy"></a>
+                            <a href="../webp/hindra.webp"><img src="../webp/hindra.webp" style="width:65%" alt="Mas Hindra" loading ="lazy"></a>
                             <p data-lang-id="025b-image-paragraph-1">Hindra, a GEA Trainer from Tanjung Pinang, Kepulauan Riau, Indonesia, shows the first ever cigbrick, properly made and logged on the GoBrik app!</p>
                         <div>
                         <div class="side2">
-                            <a href="../svgs/Cigbrick-1.svg"><img src="../svgs/Cigbrick-1.svg" style="width:65%" alt="Shiloh" loading ="lazy"></a>
+                            <a href="../webp/Cigbrick-1.webp"><img src="../webp/Cigbrick-1.webp" style="width:65%" alt="Shiloh" loading ="lazy"></a>
                             <p data-lang-id="026b-image-paragraph-1">Shiloh uses her cigbrick as a way to keep her filters out of the South African biosphere and to track her smoking habit</p>
                         <div>
                         <p data-lang-id="026-block-4-paragraph-3">Shiloh Vermaak is lives in Durban, South Africa, where plastic is also a problem.  Shiloh is another GEA who also smokes!  As a way to contain and to keep track of her smoking, she also makes cigbricks.  For her it is simply a focused personal and private habit.</p>

@@ -10,7 +10,7 @@ const zh_Page_Translations = {
     "302-featured-content-1-button": "↗️ 2月28日活动",
   "300-featured-content-2-title": "“绿色”究竟应该意味着什么？",
   "301-featured-content-2-subtitle": "生态砖实践受到本土理念 Ayyew 的指引。这种生态精神启发了我们的土伦理、生态砖制作以及我们对绿色的理解。",
-  "302-featured-content-2-button": "↗️ 8月30日活动",
+  "302-featured-content-2-button": "关于 Ayyew",
 
     "300-featured-content-3-title": "塑料的星际故事",
     "301-featured-content-3-subtitle": "塑料究竟来自何处？塑料的行星故事始于数十亿年前……",
@@ -128,6 +128,6 @@ const zh_Page_Translations = {
     "419-conclusion-disclosure": "我们追踪并公开我们的净绿色生态影响。请查看我们的<a href=\"https://ecobricks.org/en/regenreports.php\" target=\"_blank\">再生报告</a>和<a href=\"https://www.gobrik.com/#my-catalyst/enterprise-disclosure/5e1f513586a7fe0015e77628/\" target=\"_blank\">2024 年动态影响会计</a>。",
     "420-conclusion-contribute": "Ecobricks.org 网站使用开源 HTML、PHP、MYSQL、CSS 和 Javascript 手工编写。通过在 GitHub 上提交错误报告或推送请求来协助改进本页面：",
     "421-conclusion-data": "我们网站上的所有教育内容（照片、视频和文本）均由生态砖联盟根据<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\">知识共享署名-相同方式共享4.0国际许可协议</a>提供共享。<br>请将所有使用归属为“全球生态砖联盟，ecobricks.org”，并使用相同许可。",
-    "422-conclusion-copyright": "Ecobricks.org、GEA、Earthen、AES 和 GoBrik 的标志与徽章版权所有 © 全球生态砖联盟 2010–2025。"
+    "422-conclusion-copyright": "Ecobricks.org、GEA、Earthen、AES 和 GoBrik 的标志与徽章版权所有 © 全球生态砖联盟 2010–2026。"
 
 };
