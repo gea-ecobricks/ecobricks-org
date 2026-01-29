@@ -2,6 +2,8 @@
 
 <?php
 http_response_code(404);
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+
 
 // Get the current page URL
 $current_url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";

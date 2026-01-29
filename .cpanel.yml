@@ -48,6 +48,11 @@ deployment:
     - /usr/bin/install -m 644 en/index.php $WEBROOT/fr/index.php
     - /usr/bin/install -m 644 en/index.php $WEBROOT/id/index.php
 
+    - /usr/bin/install -m 644 en/404.php $WEBROOT/zh/404.php
+    - /usr/bin/install -m 644 en/404.php $WEBROOT/es/404.php
+    - /usr/bin/install -m 644 en/404.php $WEBROOT/fr/404.php
+    - /usr/bin/install -m 644 en/404.php $WEBROOT/id/404.php
+
     # 4) Copy side-modules (individual files)
     - /usr/bin/install -m 644 en/side-modules/sequest-module.php $WEBROOT/zh/side-modules/sequest-module.php
     - /usr/bin/install -m 644 en/side-modules/signup-now.php $WEBROOT/zh/side-modules/signup-now.php
