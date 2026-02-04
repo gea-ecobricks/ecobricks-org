@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.6';?>
+<?php $version='2.7';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -143,10 +143,13 @@
 					</div>
 					
 					<div id="preclosed1">
-                                                <p data-lang-id="010-block-1-paragraph1">It is a big problem: over 4.5 trillion cigarette butts are discarded every year <sup id="fnref1"><a href="#fn1">1</a></sup>. In beach clean ups around the world, they are the most picked up item <sup id="fnref2"><a href="#fn2">2</a></sup>. Many people aren’t aware that 95% of cigarette filters are made of cellulose acetate (a type of plastic).</p>
-                                                <p data-lang-id="011-block-1-paragraph2">Many smokers assume that you can throw a cigarette butt on to the ground and it will biodegrade. Alas, this is <b><i>not the case</i></b>. Acetate does not biodegrade like a banana peel or paper.   A recent scientific examining the effect of filters concludes “Cellulose acetate is photodegradable but not bio-degradable.  Although ultraviolet rays from the sun will eventually break the filter into smaller pieces under ideal environmental conditions, the source material never disappears; it essentially becomes diluted in water or soil." <sup id="fnref3"><a href="#fn3">3</a></sup> These micro-plastics cause all sorts of problems. Microplastics can have possible <b>direct ecotoxicological impacts, accumulate in food chains and cause economic damage because of food safety concerns.</b> <sup id="fnref4"><a href="#fn4">4</a></sup></p>
-                                                <p data-lang-id="012-block-1-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life <sup id="fnref5"><a href="#fn5">5</a></sup>.</p>
-                                                <p data-lang-id="013-block-1-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year <sup id="fnref6"><a href="#fn6">6</a></sup>.</p>
+                        <div class="side1">
+                            <a href="../webp/Cigbrick-collection.webp"><img src="../webp//Cigbrick-collection.webp" style="width:65%" alt="Cigbrick Instructions" loading ="lazy"></a>
+                        </div>
+                        <p data-lang-id="010-block-1-paragraph1">It is a big problem: over 4.5 trillion cigarette butts are discarded every year <sup id="fnref1"><a href="#fn1">1</a></sup>. In beach clean ups around the world, they are the most picked up item <sup id="fnref2"><a href="#fn2">2</a></sup>. Many people aren’t aware that 95% of cigarette filters are made of cellulose acetate (a type of plastic).</p>
+                        <p data-lang-id="011-block-1-paragraph2">Many smokers assume that you can throw a cigarette butt on to the ground and it will biodegrade. Alas, this is <b><i>not the case</i></b>. Acetate does not biodegrade like a banana peel or paper.   A recent scientific examining the effect of filters concludes “Cellulose acetate is photodegradable but not bio-degradable.  Although ultraviolet rays from the sun will eventually break the filter into smaller pieces under ideal environmental conditions, the source material never disappears; it essentially becomes diluted in water or soil." <sup id="fnref3"><a href="#fn3">3</a></sup> These micro-plastics cause all sorts of problems. Microplastics can have possible <b>direct ecotoxicological impacts, accumulate in food chains and cause economic damage because of food safety concerns.</b> <sup id="fnref4"><a href="#fn4">4</a></sup></p>
+                        <p data-lang-id="012-block-1-paragraph3">A 2011 study done by marine biologist at the University of San Diego clearly showed that a cornucopia of over 4000 chemicals in a used acetate filter leach out and are toxic to marine life <sup id="fnref5"><a href="#fn5">5</a></sup>.</p>
+                        <p data-lang-id="013-block-1-paragraph4">While the environmental impact of a single disposed cigarette filter is minimal, there were 1.35 trillion filtered cigarettes manufactured in the United States in 2007 alone. It is estimated that 875,000 tons of cigarette butts hit the biosphere every year <sup id="fnref6"><a href="#fn6">6</a></sup>.</p>
                         <br>
                         <hr>
                         <div class="footnotes">
