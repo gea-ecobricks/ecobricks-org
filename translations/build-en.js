@@ -25,8 +25,8 @@ const en_Page_Translations = {
     "011-long-term-content": "Earth and Ecobrick building techniques are used to create structures that can last years or decades (it is not uncommon for traditional constructions to last centuries!). Earth mixes (i.e Cob (material), Wattle and daub, adobe) are used to lay ecobricks horizontally and completely cover them for full protection against all forms of degradation.",
     "012-very-long-term-header": "<b>Very long-term</b>",
     "013-very-long-term-content": "Short and long-term ecobrick applications put plastic into a cyclical spiral trajectory into the future, where the likelihood of plastic staying safe, secure, and contained is much more likely than currently available alternatives.",
-    "014-millenium-img-alt": '<a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>',
-    "015-link to-chart": 'View a <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.',
+    "014-millenium-img-alt": '<a href="pdfs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy"></a>',
+    "015-link to-chart": 'View a <a href="pdfs/Plastic-Mellenium-Paths.pdf" target="_blank">chart of the various paths plastic can take</a> over 1000 years.',
 
     "016-opener-header-text": "<h4>Ecobrick Storage</h4><h5>Before you build with ecobricks, it is essential to store them properly.</h5><br>",
     "017-storage-img-alt": '<img src="../photos/eco-brick-storage-1000px.jpg" width="100%" alt="An example of an eco brick storage depot to prepare for building" loading="lazy">',

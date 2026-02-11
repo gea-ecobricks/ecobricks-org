@@ -58,7 +58,7 @@
 						<p data-lang-id="010-block-1-paragraph2">The primary purpose of ocean ecobricks is <a href ="/sequest">plastic sequestration</a>— securing potentially toxic plastic out of the biosphere.   Once made, ocean ecobricks can be used as reusable building blocks.  Earth building methods further secure the contained plastic into long term constructions.</p>
 						<p data-lang-id="011-block-1-paragraph3"><a href="/sequest">Learn more about plastic sequestration</a></p>
                         <div class="side2">
-                            <a href"../photos/plastic-sequestration-ocean-ecobrick.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
+                            <a href"../webp/plastic-sequestration-ocean-ecobrick.webp"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
                         </div>
 	                </div>
 				</div>

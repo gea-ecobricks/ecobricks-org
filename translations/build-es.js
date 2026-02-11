@@ -24,8 +24,8 @@ const es_Page_Translations = {
   "011-long-term-content": "Las técnicas de construcción con Tierra y Ecobricks se utilizan para crear estructuras que pueden durar años o décadas (¡no es raro que las construcciones tradicionales duren siglos!). Las mezclas de tierra (es decir, cob, wattle and daub, adobe) se utilizan para colocar ecobricks horizontalmente y cubrirlos completamente para protección total contra todas las formas de degradación.",
   "012-very-long-term-header": "<b>Muy Largo Plazo</b>",
   "013-very-long-term-content": "Las aplicaciones de ecobricks a corto y largo plazo ponen el plástico en una trayectoria espiral cíclica hacia el futuro, donde la probabilidad de que el plástico permanezca seguro, protegido y contenido es mucho más probable que las alternativas disponibles actualmente.",
-  "014-millenium-img-alt": '<a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="Un ejemplo de un depósito de almacenamiento de ecobricks para prepararse para la construcción" loading="lazy"></a>',
-  "015-link to-chart": 'Ver un <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">gráfico de los diversos caminos que puede tomar el plástico</a> durante 1000 años.',
+  "014-millenium-img-alt": '<a href="pdfs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="Un ejemplo de un depósito de almacenamiento de ecobricks para prepararse para la construcción" loading="lazy"></a>',
+  "015-link to-chart": 'Ver un <a href="pdfs/Plastic-Mellenium-Paths.pdf" target="_blank">gráfico de los diversos caminos que puede tomar el plástico</a> durante 1000 años.',
 
   "006-opener-header-text": "<h4>Pensando a Corto, Largo y Muy Largo Plazo</h4><h5>Los ecobricks se pueden usar para aplicaciones a corto o largo plazo que equilibran los beneficios de la utilidad y la seguridad del plástico.</h5><br>",
   "007-short-term-header": "<b>Aplicaciones a Corto Plazo</b>",
@@ -36,7 +36,7 @@ const es_Page_Translations = {
   "012-very-long-term-header": "<b>Muy Largo Plazo</b>",
   "013-very-long-term-content": "Las aplicaciones de ecobricks a corto y largo plazo ponen el plástico en una trayectoria espiral cíclica hacia el futuro, donde la probabilidad de que el plástico permanezca seguro, protegido y contenido es mucho más probable que las alternativas disponibles actualmente.",
   "014-millenium-img-alt": '<a href="../pdfs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="Un ejemplo de un depósito de almacenamiento de ecobricks para prepararse para la construcción" loading="lazy"></a>',
-  "015-link to-chart": 'Ver un <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">gráfico de los diversos caminos que puede tomar el plástico</a> durante 1000 años.',
+  "015-link to-chart": 'Ver un <a href="pdfs/Plastic-Mellenium-Paths.pdf" target="_blank">gráfico de los diversos caminos que puede tomar el plástico</a> durante 1000 años.',
 
 
 

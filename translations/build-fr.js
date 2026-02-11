@@ -24,7 +24,7 @@ const fr_Page_Translations = {
     "012-very-long-term-header": "<b>Très Long Terme</b>",
     "013-very-long-term-content": "Les applications d'écobriques à court et long terme mettent le plastique dans une trajectoire spirale cyclique vers l'avenir, où la probabilité que le plastique reste sûr, sécurisé et contenu est bien plus élevée que les alternatives actuellement disponibles.",
     "014-millenium-img-alt": '<a href="../pdfs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="Un exemple de dépôt de stockage d’écobriques pour la préparation de la construction" loading="lazy"></a>',
-    "015-link to-chart": 'Voir un <a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank">graphique des différents chemins que le plastique peut emprunter</a> sur 1000 ans.',
+    "015-link to-chart": 'Voir un <a href="pdfs/Plastic-Mellenium-Paths.pdf" target="_blank">graphique des différents chemins que le plastique peut emprunter</a> sur 1000 ans.',
 
 
 

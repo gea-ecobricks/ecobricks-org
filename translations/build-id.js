@@ -31,7 +31,7 @@ const id_Page_Translations = {
     "011-long-term-content": "Teknik bangunan Earth dan Ecobrick digunakan untuk menciptakan struktur yang dapat bertahan selama bertahun-tahun atau beberapa dekade (tidak jarang untuk konstruksi tradisional bertahan selama berabad-abad!). Campuran tanah (mis. Cob, wattle and daub, adobe) digunakan untuk meletakkan ecobrick secara horizontal dan menutupi mereka sepenuhnya untuk perlindungan penuh terhadap semua bentuk degradasi.",
     "012-very-long-term-header": "<b>Sangat Jangka Panjang</b>",
     "013-very-long-term-content": "Aplikasi ecobrick jangka pendek dan panjang menempatkan plastik dalam lintasan spiral siklis ke masa depan, di mana kemungkinan plastik tetap aman, terjaga, dan terkandung jauh lebih besar daripada alternatif yang saat ini tersedia.",
-    "014-millenium-img-alt": '<a href="svgs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="Contoh depot penyimpanan ecobrick untuk persiapan pembangunan" loading="lazy"></a>',
+    "014-millenium-img-alt": '<a href="pdfs/Plastic-Mellenium-Paths.pdf" target="_blank"><img src="../webp/mellenium-paths-400px.webp?v1.0" width="100%" alt="Contoh depot penyimpanan ecobrick untuk persiapan pembangunan" loading="lazy"></a>',
     "015-link to-chart": 'Lihat <a href="../pdfs/Plastic-Mellenium-Paths.pdf" target="_blank">grafik berbagai jalur yang dapat diambil plastik</a> selama 1000 tahun.',
 
 
