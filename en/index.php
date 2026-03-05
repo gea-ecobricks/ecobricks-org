@@ -1,5 +1,5 @@
 <?php
-$version='6.7';
+$version='6.8';
 $lang = basename(dirname($_SERVER['SCRIPT_NAME']));
 $page='index';
 include '../ecobricks_env.php';
@@ -22,9 +22,9 @@ include '../ecobricks_env.php';
             <div id="slider-content-1" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
-                        <div class="featured-content-title" data-lang-id="300-featured-content-1-title">Intro to Ecobricks Event</div>
-                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Join us for a live and free introductory course.  Learn the science, philosophy and essential techniques in our live community event 'Plastic, the Biosphere & Ecobricks'.  Zoom. Free.</div>
-                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ February 28th</a>
+                        <div class="featured-content-title" data-lang-id="300-featured-content-1-title">An Intro to Ecobricks</div>
+                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Register for a 90min overview of the Earth science, indigenous philosophy, and best practices behind making and building with ecobricks.  — 20$ SGD</div>
+                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ March 28th</a>
                     </div>
                 </div>
            </div>
