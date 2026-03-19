@@ -98,6 +98,11 @@
         width: 100%;
     }
 
+    .block2 .preclosed2 .side2 img {
+        width: 100%;
+        height: auto;
+    }
+
     @media (min-width: 769px) {
         .block2 {
             flex-direction: row;
@@ -105,6 +110,106 @@
         }
 
         .block2 .preclosed2 {
+            flex: 1;
+        }
+       .block2 .preclosed2 .side2 {
+           max-width: 222px;
+           padding: 10px;
+        }
+    }
+
+    .block3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .block3 .preclosed3 {
+        width: 100%;
+    }
+
+    @media (min-width: 769px) {
+        .block3 {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .block3 .preclosed3 {
+            flex: 1;
+        }
+    }
+    .block4{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .block4 .preclosed4 {
+        width: 100%;
+    }
+
+    .block4 .preclosed4 .side2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    @media (min-width: 769px) {
+        .block4 {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .block4 .preclosed4 {
+            flex: 1;
+        }
+       .block4 .preclosed4 .side2 {
+           max-width: 222px;
+           padding: 10px;
+        }
+    }
+
+    .block5{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .block5 .preclosed5 {
+        width: 100%;
+    }
+
+    @media (min-width: 769px) {
+        .block5 {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .block5 .preclosed5 {
+            flex: 1;
+        }
+    }
+
+   .block6{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .block6 .preclosed6 {
+        width: 100%;
+    }
+
+    @media (min-width: 769px) {
+        .block6 {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .block6 .preclosed6 {
             flex: 1;
         }
     }
