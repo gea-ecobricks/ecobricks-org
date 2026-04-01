@@ -55,207 +55,251 @@
         align-items: center;
     }
 
-    .block1 .preclosed1 {
+    .block1 .preclosed1
+    {
         width: 100%;
     }
 
-    .block1 .preclosed1 .side1 {
+    .block1 .preclosed1 .side1
+    {
         display: flex;
         justify-content: center;
         max-width: 277px;
         width: 100%;
     }
 
-    .block1 .preclosed1 .side1 img {
+    .block1 .preclosed1 .side1 img
+    {
         width: 100%;
         height: auto;
     }
 
-    @media (min-width: 769px) {
+    @media (min-width: 769px)
+    {
         .block1 {
             flex-direction: row;
             align-items: flex-start;
         }
 
-        .block1 .preclosed1 {
+        .block1 .preclosed1
+        {
             flex: 1;
         }
 
-       .block1 .preclosed1 .side1 {
-           max-width: 222px;
-           padding: 10px;
+        .block1 .preclosed1 .side1
+        {
+            max-width: 222px;
+            padding: 10px;
         }
     }
 
-    .block2{
+    .block2
+    {
         display: flex;
         flex-direction: column;
         gap: 10px;
         align-items: center;
     }
 
-    .block2 .preclosed2 {
+    .block2 .preclosed2
+    {
         width: 100%;
     }
 
-    .block2 .preclosed2 .side2 img {
+    .block2 .preclosed2 .side2 img
+    {
         width: 100%;
         height: auto;
     }
 
-    @media (min-width: 769px) {
-        .block2 {
+    @media (min-width: 769px)
+    {
+        .block2
+        {
             flex-direction: row;
             align-items: flex-start;
         }
 
-        .block2 .preclosed2 {
+        .block2 .preclosed2
+        {
             flex: 1;
         }
-       .block2 .preclosed2 .side2 {
+        .block2 .preclosed2 .side2
+        {
            max-width: 222px;
            padding: 10px;
         }
     }
 
-    .block3{
+    .block3
+    {
         display: flex;
         flex-direction: column;
         gap: 10px;
         align-items: center;
     }
 
-    .block3 .preclosed3 {
+    .block3 .preclosed3
+    {
         width: 100%;
     }
 
-    @media (min-width: 769px) {
-        .block3 {
+    @media (min-width: 769px)
+    {
+        .block3
+        {
             flex-direction: row;
             align-items: flex-start;
         }
 
-        .block3 .preclosed3 {
+        .block3 .preclosed3
+        {
             flex: 1;
         }
     }
-    .block4{
+    .block4
+    {
         display: flex;
         flex-direction: column;
         gap: 10px;
         align-items: center;
     }
 
-    .block4 .preclosed4 {
+    .block4 .preclosed4
+    {
         width: 100%;
     }
 
-    .block4 .preclosed4 .side2 img {
+    .block4 .preclosed4 .side2 img
+    {
         width: 100%;
         height: auto;
     }
 
-    @media (min-width: 769px) {
-        .block4 {
+    @media (min-width: 769px)
+    {
+        .block4
+        {
             flex-direction: row;
             align-items: flex-start;
         }
 
-        .block4 .preclosed4 {
+        .block4 .preclosed4
+        {
             flex: 1;
         }
-       .block4 .preclosed4 .side2 {
+        .block4 .preclosed4 .side2
+        {
            max-width: 222px;
            padding: 10px;
         }
     }
 
-    .block5{
+    .block5
+    {
         display: flex;
         flex-direction: column;
         gap: 10px;
         align-items: center;
     }
 
-    .block5 .preclosed5 {
+    .block5 .preclosed5
+    {
         width: 100%;
     }
 
-    @media (min-width: 769px) {
-        .block5 {
+    @media (min-width: 769px)
+    {
+        .block5
+        {
             flex-direction: row;
             align-items: flex-start;
         }
 
-        .block5 .preclosed5 {
+        .block5 .preclosed5
+        {
             flex: 1;
         }
     }
 
-   .block6{
+    .block6
+    {
         display: flex;
         flex-direction: column;
         gap: 10px;
         align-items: center;
     }
 
-    .block6 .preclosed6 {
+    .block6 .preclosed6
+    {
         width: 100%;
     }
 
-    @media (min-width: 769px) {
-        .block6 {
+    @media (min-width: 769px)
+    {
+        .block6
+        {
             flex-direction: row;
             align-items: flex-start;
         }
 
-        .block6 .preclosed6 {
+        .block6 .preclosed6
+        {
             flex: 1;
         }
     }
 
-    .footnotes {
+    .footnotes
+    {
         margin-top: 10px;
         margin-left: 15px;
     }
 
-    .footnotes ol {
+    .footnotes ol
+    {
         font-size: 0.9em;
         padding-left: 20px;
         margin: 0;
         list-style: decimal;
     }
 
-    .footnotes li {
+    .footnotes li
+    {
         margin-bottom: 8px;
     }
 
-    .footnotes a {
+    .footnotes a
+    {
         text-decoration: none;
     }
 
-    .credit-list {
+    .credit-list
+    {
         margin: 0 0 10px 20px;
         padding-left: 0;
         list-style: disc;
     }
 
-    .credit-list li {
+    .credit-list li
+    {
         margin-bottom: 6px;
     }
 
-    .feature-image {
+    .feature-image
+    {
         margin-bottom: 15px;
         text-align: center;
     }
 
-    .feature-image img {
+    .feature-image img
+    {
         max-width: 100%;
         height: auto;
         border-radius: 6px;
     }
 
-    .feature-image figcaption {
+    .feature-image figcaption
+    {
         font-size: 0.9em;
         color: #555;
         margin-top: 6px;
@@ -281,21 +325,16 @@
 	<div class="row">
 		<div class="main">
 
-
-                            <div class="page-paragraph split-page-paragraph">
-                                <div class="split-text">
-                                    <p data-lang-id="005b-first-page-paragraph">Cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it breaks down into microplastic and leaches out chemicals.  This can cause also sorts of health problems for all living creatures.</p>
-                                </div>
-                                <div class="split-image">
-                                    <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross nest with cigarette pollution disapearing" loading="lazy">
-                                </div>
-                            </div>
-
-                        <p data-lang-id="006-second-page-paragraph-b">Enter the cigbrick!  Like all ecobricks, cigbricks secure plastic into a bottle to make a sturdy, reusable building block.  This prevents plastic from degrading into micro-plastics, off-gasing and from leaching chemicals.  It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  However, for dramatic effect, you can do a full ecobrick from filters!  <i>This</i> is a <b><i>cigbrick</i></b>.  A single 600ml cigbrick can contain over 1000 filters!</p>
-
-                        <p data-lang-id="007-third-page-paragraph-b">Cigbricking enable us to take personal responsibility for our cigarette butts and turn the routine of smoking into a conscious and transformational ritual.</p>
-
-
+             <div class="page-paragraph split-page-paragraph">
+                <div class="split-text">
+                    <p data-lang-id="005b-first-page-paragraph">Cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it breaks down into microplastic and leaches out chemicals.  This can cause also sorts of health problems for all living creatures.</p>
+                </div>
+                <div class="split-image">
+                    <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross nest with cigarette pollution disapearing" loading="lazy">
+                </div>
+                <p data-lang-id="006-second-page-paragraph-b">Enter the cigbrick!  Like all ecobricks, cigbricks secure plastic into a bottle to make a sturdy, reusable building block.  This prevents plastic from degrading into micro-plastics, off-gasing and from leaching chemicals.  It is as simple as removing the cigarette paper from the acetate filter and adding it to your ecobrick.  However, for dramatic effect, you can do a full ecobrick from filters!  <i>This</i> is a <b><i>cigbrick</i></b>.  A single 600ml cigbrick can contain over 1000 filters!</p>
+                <p data-lang-id="007-third-page-paragraph-b">Cigbricking enable us to take personal responsibility for our cigarette butts and turn the routine of smoking into a conscious and transformational ritual.</p>
+            </div>
 
 			<section id="SMALLBUTTBIG">
                 <div class="reg-content-block" id="block1">
