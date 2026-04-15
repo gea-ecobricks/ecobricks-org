@@ -6,7 +6,7 @@ const es_Page_Translations = {
 
     "300-featured-content-1-title": "Una Introducción a los Ecobricks",
     "301-featured-content-1-subtitle": "Regístrese para una visión general de 90 minutos sobre la ciencia de la Tierra, la filosofía indígena y las mejores prácticas para hacer y construir con ecobricks.  — 20$ SGD",
-    "302-featured-content-1-button": "↗️ 28 de marzo",
+    "302-featured-content-1-button": "↗️ 25 de abril",
     "300-featured-content-2-title": "¿Qué debería significar realmente verde?",
     "301-featured-content-2-subtitle": "El ecobricking está guiado por el concepto indígena de Ayyew. Este ethos ecológico inspira nuestra ética terrenal, nuestro ecobricking y nuestra comprensión de lo Verde.",
     "302-featured-content-2-button": "Todo sobre Ayyew",

@@ -3,7 +3,7 @@
 const en_Page_Translations = {
   "300-featured-content-1-title": "An Intro to Ecobricks",
   "301-featured-content-1-subtitle": "Register for a 90min overview of the Earth science, indigenous philosophy, and best practices behind making and building with ecobricks.  — 20$ SGD",
-  "302-featured-content-1-button": "↗️ March 28th",
+  "302-featured-content-1-button": "↗️ April 25th",
   "300-featured-content-2-title": "What should green really mean?",
   "301-featured-content-2-subtitle": "Ecobricking is guided by the indigenous concept of Ayyew.  This ecological ethos inspires our Earthen ethics, our ecobricking and our understanding of Green.",
   "302-featured-content-2-button": "All About Ayyew",

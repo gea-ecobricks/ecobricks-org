@@ -2,7 +2,7 @@
 const fr_Page_Translations = {
   "300-featured-content-1-title": "Une Introduction aux Écobriques",
   "301-featured-content-1-subtitle": "Inscrivez-vous pour un aperçu de 90 minutes sur la science de la Terre, la philosophie indigène et les meilleures pratiques pour fabriquer et construire avec des écobriques.  — 20$ SGD",
-  "302-featured-content-1-button": "↗️ 28 mars",
+  "302-featured-content-1-button": "↗️ 25 avril",
   "300-featured-content-2-title": "Que devrait vraiment signifier le vert ?",
   "301-featured-content-2-subtitle": "L'écobriquage est guidé par le concept indigène d'Ayyew. Cet ethos écologique inspire notre éthique terrestre, notre écobriquage et notre compréhension du Vert.",
   "302-featured-content-2-button": "Tout sur Ayyew",

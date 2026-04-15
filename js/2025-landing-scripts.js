@@ -89,7 +89,7 @@ function ecobrickPreview(brik_serial, weight, owner, location) {
 
 function projectPreview(project_id, name, description, location_full, ecobricks_used, start) {
     // Construct the image source URL
-    var imageUrl = 'https://ecobricks.org/projects/photos/project-' + project_id + '-1.webp';
+    var imageUrl = 'https://gobrik.com/projects/photos/project-' + project_id + '-1.webp';
 
     // Fetch the existing modal elements
     var modal = document.getElementById('form-modal-message');

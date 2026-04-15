@@ -3,7 +3,7 @@
 const id_Page_Translations = {
   "300-featured-content-1-title": "Pengantar Ecobrick",
   "301-featured-content-1-subtitle": "Daftarkan diri untuk tinjauan 90 menit tentang ilmu bumi, filosofi adat, dan praktik terbaik dalam membuat dan membangun dengan ecobrick.  — 20$ SGD",
-  "302-featured-content-1-button": "↗️ 28 Maret",
+  "302-featured-content-1-button": "↗️ 25 April",
   "300-featured-content-2-title": "Apa arti hijau yang sebenarnya?",
   "301-featured-content-2-subtitle": "Ecobricking dipandu oleh konsep adat Ayyew. Etos ekologis ini menginspirasi etika Earthen kami, ecobricking kami, dan pemahaman kami tentang Hijau.",
   "302-featured-content-2-button": "Semua tentang Ayyew",

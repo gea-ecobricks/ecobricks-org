@@ -24,7 +24,7 @@ include '../ecobricks_env.php';
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-1-title">An Intro to Ecobricks</div>
                         <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Register for a 90min overview of the Earth science, indigenous philosophy, and best practices behind making and building with ecobricks.  — 20$ SGD</div>
-                        <a class="content-button" href="https://gobrik.com/en/courses.php" data-lang-id="302-featured-content-1-button">↗️ March 28th</a>
+                        <a class="content-button" href="https://gobrik.com/en/courses.php" target="_blank" data-lang-id="302-featured-content-1-button">↗️ April 25th</a>
                     </div>
                 </div>
            </div>
@@ -154,7 +154,7 @@ include '../ecobricks_env.php';
         while ($row = $result->fetch_assoc()) {
             echo '<div class="gal-project-photo">
                     <div class="photo-box">
-                        <img src="' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["briks_used"] . '\', \'' . $row["start_dt"] . '\')" title="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" loading="lazy">
+                        <img src="https://gobrik.com/' . $row["photo1_tmb"] . '?v=1" alt="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" onclick="projectPreview(\'' . $row["project_id"] . '\', \'' . $row["project_name"] . '\', \'' . $row["description_short"] . '\', \'' . $row["location_full"] . '\', \'' . $row["briks_used"] . '\', \'' . $row["start_dt"] . '\')" title="' . $row["project_name"] . ' in ' . $row["location_full"] . ' has sequestered ' . $row["est_total_weight"] . ' kg of plastic using ' . $row["briks_used"] . ' ecobricks" loading="lazy">
                     </div>
                 </div>';
                 //when photo is clicked the projectPreview function defined in 2024 landing scripts is called

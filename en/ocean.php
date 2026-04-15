@@ -16,8 +16,8 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Ocean Ecobricks</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">A Sequestration Solution for Dirty Plastics</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt-X"><img src="../svgs/oebs.svg" style="width: 95%" alt="The basics of ecobricking">
-    </div>	
+	<div class="splash-image"><img src="../svgs/oebs.svg" style="width: 95%" alt="The basics of ecobricking" data-lang-id="003-splash-image-alt">
+    </div>
 </div>
 <div id="splash-bar"></div>
 
@@ -36,7 +36,7 @@
 			<div class="page-paragraph">
 				<p data-lang-id="005-first-page-paragraph">Ocean ecobricks (OEBs) are a low-tech <a href ="/sequest">plastic sequestration technology.</a>   OEBs allow the packing of dirty and wet plastics (unlike normal ecobricks) in order to secure them from <a href="/why">degrading into toxins and microplastics.</a> In so doing a zero-carbon reusable building block is made. </p>
 				<p data-lang-id="006-second-page-paragraph">
-				OEBs were developed in partnership with <a href ="www.trashhero.org" >TrashHero.org</a>, a global beach clean up movement, as a local and <a href ="/principles">regenerative</a> solution to the ocean plastic that they recovered.  Rather than returning the collected plastic to be dumped, recycled or incinerated, trash heroes often use OEBs to secure the plastic that they pick up.</p>
+				OEBs were developed in partnership with <a href="https://www.trashhero.org" target="_blank" rel="noopener">TrashHero.org</a>, a global beach clean up movement, as a local and <a href ="/principles">regenerative</a> solution to the ocean plastic that they recovered.  Rather than returning the collected plastic to be dumped, recycled or incinerated, trash heroes often use OEBs to secure the plastic that they pick up.</p>
 				<p data-lang-id="007-third-page-paragraph">
 				An ocean ecobrick is made by packing solid two cut bottles halves with plastic. By definition the making of an ocean ecobrick is manual and does not require machines, special skills or equipment.  OEBs can be used to make make <a href="/modules">modular</a> furniture.  However they are especially suited for building green spaces using <a href ="/earth-methods">earth building techniques</a> and <a href ="/earth">principles.</a></p>
 			</div>	
@@ -54,12 +54,10 @@
 					</div>
 					
 					<div id="preclosed1">
+                        <img src="../photos/oebs/making-oebs.webp" style="width:100%" alt="Making ocean ecobricks" loading="lazy">
 						<p data-lang-id="009-block-1-paragraph1">Like normal ecobricks, OEBs are a collaboration powered technology, grounded in <a href="/principles">regenerative principles.</a></p>
-						<p data-lang-id="010-block-1-paragraph2">The primary purpose of ocean ecobricks is <a href ="/sequest">plastic sequestration</a>— securing potentially toxic plastic out of the biosphere.   Once made, ocean ecobricks can be used as reusable building blocks.  Earth building methods further secure the contained plastic into long term constructions.</p>
+						<p data-lang-id="010-block-1-paragraph2">The primary purpose of ocean ecobricks is <a href="/sequest">plastic sequestration</a>— securing potentially toxic plastic out of the biosphere.   Once made, ocean ecobricks can be used as reusable building blocks.  Earth building methods further secure the contained plastic into long term constructions.</p>
 						<p data-lang-id="011-block-1-paragraph3"><a href="/sequest">Learn more about plastic sequestration</a></p>
-                        <div class="side2">
-                            <a href"../webp/plastic-sequestration-ocean-ecobrick.webp"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
-                        </div>
 	                </div>
 				</div>
 		    </section>
@@ -75,39 +73,22 @@
                         <button onclick="toggleAccordion(2)" class="block-toggle" id="block-toggle-show2" aria-label="Toggle Section Two">+</button>
                     </div>
                     <div id="preclosed2">
+                        <img src="../photos/oebs/many-oebs.webp" style="width:100%" alt="Ocean ecobricks" loading="lazy">
                         <p data-lang-id="014-block-2-paragraph-1">An OEB is essentially two PET bottles, cut, packed with plastic, then sealed bottom to bottom. By cutting a bottle’s top off, one creates a wide opening for packing the chunky, large and solid plastics found on the beach.</p>
-                        <div class="side2">
-                            <a href"../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p1-231x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
-                    	    <p data-lang-id="014c-block-2-main-p1" style="font-size:0.9em !important">Click to enlarge instructions</p>
-                        </div>
                         <p data-lang-id="015-block-2-paragraph-2">For the lining of the bottom and the top of the OEB a soft plastic is used to give the bottom a color.  Ideally both the top and bottom of the OEB are given the same color.  This adds the ability to create designs and patterns in OEB building applications.</p>
                         <p data-lang-id="016-block-2-paragraph-3">A simple bamboo stick is then used to pack the bottle as full and as solid as possible of ocean plastic. Once the bottom is 80% complete, the top is silvered, then packed 30% full.  Packing anymore than this will make it difficult to join the top and bottom together later.</p>
-                        <p data-lang-id="017-block-2-paragraph-4">The techniques of making a good normal ecobrick apply to ocean ecobrick making. <a href="/how">See our 10 Step Guide to Ecobrick Making to learn mow to make an awesome OEB.</a></p>
+                        <p data-lang-id="017-block-2-paragraph-4">The techniques of making a good normal ecobrick apply to ocean ecobrick making. <a href="/how">See our 10 Step Guide to Ecobrick Making to learn how to make an awesome OEB.</a></p>
+                        <p data-lang-id="020-block-3-paragraph-1">An Ocean Ecobrick is unlike a regular ecobrick as it is <b>not</b> sealed air-tight.  This is important as OEBs are made from wet and soiled plastic that will eventually generate methane. The lack of a seal between the two cut bottles, allows gas to escape, avoiding the dangers of gas accumulation (this is why normal ecobricks are made with clean and dry plastic).</p>
+                        <p data-lang-id="021-block-3-paragraph-2">Some ecobricks still choose to use silicone to secure the top to the bottom.  If you choose to do this, be sure that your seal is not perfect and that air can still escape.</p>
+                        <div style="display:flex; gap:10px; margin-top:1em;">
+                            <img src="../photos/oebs/oeb-1.jpg" style="width:48%" alt="Ocean ecobrick example 1" loading="lazy">
+                            <img src="../photos/oebs/oeb-2.jpg" style="width:48%" alt="Ocean ecobrick example 2" loading="lazy">
+                        </div>
                     </div>
                 </div>
             </section>
 
 
-            <section id="SEALING">
-                <div class="reg-content-block" id="block3">
-                    <div class="opener-header">
-                        <div class="opener-header-text">
-                            <h4 data-lang-id="018-block-3-opener-header">Sealing an Ocean Ecobrick</h4>
-                            <h5 data-lang-id="019-block-3-opener-subheader">An Ocean Ecobrick is sealed shut by pressing together and twisting tight the top and bottom.</h5>
-                            <br>
-                        </div>
-                        <button onclick="toggleAccordion(3)" class="block-toggle" id="block-toggle-show3" aria-label="Toggle Section Three">+</button>
-                    </div>
-                    <div id="preclosed3">
-                        <a href"../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg"><img src="../wp-content/uploads/2017/02/Doc-23-Feb-2017-16.56-p2-e1519524032542-276x300.jpg" style="width:65%" alt="Click to enlarge instructions" loading ="lazy"></a>
-            	        <p data-lang-id="020c-block-3-main-p1" style="font-size:0.9em !important">Click to enlarge instructions</p>
-                        <div class="side2">
-                            <p data-lang-id="020-block-3-paragraph-1">An Ocean Ecobrick is unlike a regular ecobrick as it is <b>not</b> sealed air-tight.  This is important as OEBs are made from wet and soiled plastic that will eventually generate methane. The lack of a seal between the two cut bottles, allows gas to escape, avoiding the dangers of gas accumulation (this is why normal ecobricks are made with clean and dry plastic).</p>
-                            <p data-lang-id="021-block-3-paragraph-2">Some ecobricks still choose to use silicone to secure the top to the bottom.  If you choose to do this, be sure that your seal is not perfect and that air can still escape.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section id="FISHING">
                 <div class="reg-content-block" id="block4">
                     <div class="opener-header">
@@ -138,12 +119,9 @@
                         <button onclick="toggleAccordion(5)" class="block-toggle" id="block-toggle-show5" aria-label="Toggle Section Five">+</button>
                     </div>
                     <div id="preclosed5">
-                        <p data-lang-id="028-block-5-paragraph-1">Not only do ocean ecobricks <a href="/sequest">secure and sequester plastic</a>, they provide a launch pad to <a href="/ayyew">ayyew living</a>, <a href="/principles">regenerative principles</a> and <a>plastic transition</a>.</p>
+                        <p data-lang-id="028-block-5-paragraph-1">Not only do ocean ecobricks <a href="/sequest">secure and sequester plastic</a>, they provide a launch pad to <a href="/ayyew">ayyew living</a>, <a href="/principles">regenerative principles</a> and <a href="/transition">plastic transition</a>.</p>
                         <p data-lang-id="029-block-5-paragraph-2">By packing them into an ocean ecobrick we keep them from causing all sorts of problems for ecologies and marine life.</p>
                         <p data-lang-id="030-block-5-paragraph-3">With many ocean ecobricks completed, the process of building with them is likewise an experience of <a href="/circular">circular</a> and <a href="/principles">regenerative principles.</a></p>
-                        <div class="side2">
-                            <img src="../wp-content/uploads/2020/12/eco-consciousness-500-300x300.png" style="width:65%" loading ="lazy">
-                        </div>
                     </div>
                 </div>
             </section>
@@ -158,12 +136,9 @@
                         <button onclick="toggleAccordion(6)" class="block-toggle" id="block-toggle-show6" aria-label="Toggle Section Six">+</button>
                     </div>
                     <div id="preclosed6">
-                        <p data-lang-id="033-block-6-paragraph-1">Ocean ecobricks are sometimes combined together with silicone to make ecobrick <a href ="/modules">modules</a>.  However, the best application is in making and enhancing <b>green spaces:</b>  home garden walls, play parks, tree ring benches, and forest walkways. Ocean ecobricks are laid down horizontally and combined with <a href="/earth">earth / cob /adobe.</href> In this way they can used to create benches, garden planters, walkways, walls and more.</p>
+                        <p data-lang-id="033-block-6-paragraph-1">Ocean ecobricks are sometimes combined together with silicone to make ecobrick <a href="/modules">modules</a>.  However, the best application is in making and enhancing <b>green spaces:</b>  home garden walls, play parks, tree ring benches, and forest walkways. Ocean ecobricks are laid down horizontally and combined with <a href="/earth">earth / cob /adobe.</a> In this way they can used to create benches, garden planters, walkways, walls and more.</p>
                         <p data-lang-id="034-block-6-paragraph-2">Building with ocean ecobricks applies <a href="/circular">circular</a> principles to ensure that we plan for the end of the construction.  In this way, when the construction comes to its end the ocean ecobricks can be extricated and used for another construction.</p>
-                        <p data-lang-id="035-block-6-paragraph-3"><a href"/earth">Learn more about Ecobrick & Earth Building</a></p>
-                        <div class="side2">
-                            <img src="../wp-content/uploads/2020/01/Circle-earth-Bench-300px-wide-212x300.png" style="width:65%" loading ="lazy">
-                        </div>
+                        <p data-lang-id="035-block-6-paragraph-3"><a href="/earth">Learn more about Ecobrick &amp; Earth Building</a></p>
                     </div>
                 </div>
             </section>
@@ -179,9 +154,6 @@
                     </div>
                     <div id="preclosed7">
                         <p data-lang-id="038-block-7-paragraph-1">Normal ecobricks are the best way to deal with our daily plastic. Compared to <a href="/what">regular ecobricks</a>, Ocean Ecobricks are more wasteful, fragile, and much less elegant than regular Ecobricks.  They are not ideal for making <a href ="/modules">milstein modules</a> or lego– mainly for <a href="/earth">earth and ecobrick constructions.</a> Nonetheless, Ocean Ecobricks remain <a href="/cradle-to-cradle/">cradle to cradle.</a></p>
-                        <div class="side2">
-                            <img src="../pngs/justandecobrick.png" style="width:65%" loading ="lazy">
-                        </div>
                         <p data-lang-id="039-block-7-paragraph-2">In other words, making an ecobrick by packing your own clean and dry plastic into an uncut bottle is ideal! </p>
                         <p data-lang-id="040-block-7-paragraph-3">Ocean ecobricks miss out on the most value aspect of ecobricking:  that of taking personal responsibility for our plastic.</p>
                         <p data-lang-id="041-block-7-paragraph-4">Also, unlike normal ecobricks, OEB’s generate waste in their making. Bottles must be cut, and the bottle tops and caps are left over. (Note that even though cut, the tops and caps can still be recycled.  PET and HDPE are the most sought after plastics. In most South East Asian countries these will be collected by recyclers.  Simply pack bottle cuttings into an intact PET bottle, cap and recycle.)</p>
@@ -200,13 +172,13 @@
                         <button onclick="toggleAccordion(8)" class="block-toggle" id="block-toggle-show8" aria-label="Toggle Section Eight">+</button>
                     </div>
                     <div id="preclosed8">
-                        <p data-lang-id="045-block-8-paragraph-1">Ecological cycles can be very short and they can be very long– but they are never final.   The Earth’s sequestration of carbon is an example of a long cycle– measured in millions of years.   However, as carbon moves from plants to trees and back again, the cycles can be short.</a></p>
+                        <p data-lang-id="045-block-8-paragraph-1">Ecological cycles can be very short and they can be very long– but they are never final.   The Earth’s sequestration of carbon is an example of a long cycle– measured in millions of years.   However, as carbon moves from plants to trees and back again, the cycles can be short.</p>
                         <div class="side2">
                             <img src="../wp-content/uploads/2021/06/earth-center-standalone-500px-282x300.png" style="width:65%" loading ="lazy">
                         </div>
-                        <p data-lang-id="046-block-7-paragraph-2">By concentrating our carbon/plastic into building blocks like ocean ecobricks, we secure it from getting into the environment in the short-term.  Then when we put ocean ecobricks into long-term earth constructions, the plastic is further protected.  Covered by earth it cannot be degraded by the sun, fire, or friction– much like the carbon the earth put under ground.</p>
-                        <p data-lang-id="047-block-7-paragraph-3">Even if these structures last decades or centuries, when the structure comes to its end, the plastic can be removed and put to use again.  In this way we copy how the earth removed plastic from ecology and into long-term geology.</p>
-                        <p data-lang-id="048-block-7-paragraph-4">Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.  In the same way the Earth’s carbon was a gift to our age, we can gift our carbon to another.</p>
+                        <p data-lang-id="046-block-8-paragraph-2">By concentrating our carbon/plastic into building blocks like ocean ecobricks, we secure it from getting into the environment in the short-term.  Then when we put ocean ecobricks into long-term earth constructions, the plastic is further protected.  Covered by earth it cannot be degraded by the sun, fire, or friction– much like the carbon the earth put under ground.</p>
+                        <p data-lang-id="047-block-8-paragraph-3">Even if these structures last decades or centuries, when the structure comes to its end, the plastic can be removed and put to use again.  In this way we copy how the earth removed plastic from ecology and into long-term geology.</p>
+                        <p data-lang-id="048-block-8-paragraph-4">Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.  In the same way the Earth’s carbon was a gift to our age, we can gift our carbon to another.</p>
                     </div>
                 </div>
             </section>
@@ -281,7 +253,7 @@
                 </div>
                     
                 <!--photo3-->
-                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples12.png', 'Finish with a thin layer of cob/cement')">
+                <div class="gal-photo" onclick="viewGalleryImage('../photos/ocean-examples12.jpg', 'Finish with a thin layer of cob/cement')">
                     <img src="../photos/ocean-examples12.jpg" alt="Finish with a thin layer of cob/cement">
                 </div>
             </div>
