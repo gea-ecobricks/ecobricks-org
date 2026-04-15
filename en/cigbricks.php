@@ -1,5 +1,5 @@
 <?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
-<?php $version='2.7';?>
+<?php $version='2.8';?>
 <?php $page='cigbricks';?>
 <!DOCTYPE html>
 <HTML lang="<?php $lang ;?>">
@@ -326,9 +326,7 @@
 		<div class="main">
 
              <div class="page-paragraph split-page-paragraph">
-                <div class="split-text">
-                    <p data-lang-id="005b-first-page-paragraph">Cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it breaks down into microplastic and leaches out chemicals.  This can cause also sorts of health problems for all living creatures.</p>
-                </div>
+                <p data-lang-id="005b-first-page-paragraph">Cigarette filters are made from a form of plastic called acetate.  When acetate gets into the environment it breaks down into microplastic and leaches out chemicals.  This can cause also sorts of health problems for all living creatures.</p>
                 <div class="split-image">
                     <img src="../webp/Characters-Albatross-Cigar.gif" alt="Albatross nest with cigarette pollution disapearing" loading="lazy">
                 </div>
@@ -367,8 +365,8 @@
                                 <li id="fn6" data-lang-id="013g-block-1-list-paragraph7">Carlozo, LR. Cigarettes: 1.7 billion pounds of trash. Chicago Tribune 2008.</li>
                             </ol>
                         </div>
-                        </div>
-                                </div>
+                    </div>
+                </div>
 		    </section>
 	
             <section id="EASYSTUFF">
