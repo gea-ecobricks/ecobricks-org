@@ -100,28 +100,9 @@
                         <button onclick="toggleAccordion(4)" class="block-toggle" id="block-toggle-show4" aria-label="Toggle Section Four">+</button>
                     </div>
                     <div id="preclosed4">
-                        <img src="../photos/ocean-ecobrick.jpg" style="width:65%" loading ="lazy">
-                        <div class="side2">
-                            <p data-lang-id="024-block-4-paragraph-1">Over 10% of the plastic in the oceans is ‘ghost gear’– that’s over <a href="https://static1.squarespace.com/static/5b987b8689c172e29293593f/t/5bd6e9e00d9297316b69bc38/1540811271735/GGGI+who+we+are.NOBLEED.PDF">640,000 tons of fishing nets and equipement.</a> This plastic not only degrades into micro-plastics and toxins but causes a persistent dangers to marine life.   Ocean ecobricks are a great place to put fishing nets and gear found on the beach!</p>
-                            <p data-lang-id="025-block-4-paragraph-2">By packing them into an ocean ecobrick we keep them from causing all sorts of problems for ecologies and marine life.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="RAISING">
-                <div class="reg-content-block" id="block5">
-                    <div class="opener-header">
-                        <div class="opener-header-text">
-                            <h4 data-lang-id="026-block-5-opener-header">Raising Ecological Consciousness</h4>
-                            <h5 data-lang-id="027-block-5-opener-subheader">Caring for local ecosystems unites people across class, age, economy and continents.</h5>
-                            <br>
-                        </div>
-                        <button onclick="toggleAccordion(5)" class="block-toggle" id="block-toggle-show5" aria-label="Toggle Section Five">+</button>
-                    </div>
-                    <div id="preclosed5">
-                        <p data-lang-id="028-block-5-paragraph-1">Not only do ocean ecobricks <a href="/sequest">secure and sequester plastic</a>, they provide a launch pad to <a href="/ayyew">ayyew living</a>, <a href="/principles">regenerative principles</a> and <a href="/transition">plastic transition</a>.</p>
-                        <p data-lang-id="029-block-5-paragraph-2">By packing them into an ocean ecobrick we keep them from causing all sorts of problems for ecologies and marine life.</p>
-                        <p data-lang-id="030-block-5-paragraph-3">With many ocean ecobricks completed, the process of building with them is likewise an experience of <a href="/circular">circular</a> and <a href="/principles">regenerative principles.</a></p>
+                        <img src="../photos/ocean-ecobrick.jpg" style="width:100%" loading="lazy">
+                        <p data-lang-id="024-block-4-paragraph-1">Over 10% of the plastic in the oceans is ‘ghost gear’– that’s over <a href="https://static1.squarespace.com/static/5b987b8689c172e29293593f/t/5bd6e9e00d9297316b69bc38/1540811271735/GGGI+who+we+are.NOBLEED.PDF">640,000 tons of fishing nets and equipement.</a> This plastic not only degrades into micro-plastics and toxins but causes a persistent dangers to marine life.   Ocean ecobricks are a great place to put fishing nets and gear found on the beach!</p>
+                        <p data-lang-id="025-block-4-paragraph-2">By packing them into an ocean ecobrick we keep them from causing all sorts of problems for ecologies and marine life.</p>
                     </div>
                 </div>
             </section>
@@ -136,6 +117,7 @@
                         <button onclick="toggleAccordion(6)" class="block-toggle" id="block-toggle-show6" aria-label="Toggle Section Six">+</button>
                     </div>
                     <div id="preclosed6">
+                        <img src="../photos/oebs/build-with-oebs.webp" style="width:100%" alt="Building with ocean ecobricks" loading="lazy">
                         <p data-lang-id="033-block-6-paragraph-1">Ocean ecobricks are sometimes combined together with silicone to make ecobrick <a href="/modules">modules</a>.  However, the best application is in making and enhancing <b>green spaces:</b>  home garden walls, play parks, tree ring benches, and forest walkways. Ocean ecobricks are laid down horizontally and combined with <a href="/earth">earth / cob /adobe.</a> In this way they can used to create benches, garden planters, walkways, walls and more.</p>
                         <p data-lang-id="034-block-6-paragraph-2">Building with ocean ecobricks applies <a href="/circular">circular</a> principles to ensure that we plan for the end of the construction.  In this way, when the construction comes to its end the ocean ecobricks can be extricated and used for another construction.</p>
                         <p data-lang-id="035-block-6-paragraph-3"><a href="/earth">Learn more about Ecobrick &amp; Earth Building</a></p>
@@ -153,6 +135,7 @@
                         <button onclick="toggleAccordion(7)" class="block-toggle" id="block-toggle-show7" aria-label="Toggle Section Seven">+</button>
                     </div>
                     <div id="preclosed7">
+                        <img src="../photos/oebs/example-oeb.webp" style="width:100%" alt="Ocean ecobrick example" loading="lazy">
                         <p data-lang-id="038-block-7-paragraph-1">Normal ecobricks are the best way to deal with our daily plastic. Compared to <a href="/what">regular ecobricks</a>, Ocean Ecobricks are more wasteful, fragile, and much less elegant than regular Ecobricks.  They are not ideal for making <a href ="/modules">milstein modules</a> or lego– mainly for <a href="/earth">earth and ecobrick constructions.</a> Nonetheless, Ocean Ecobricks remain <a href="/cradle-to-cradle/">cradle to cradle.</a></p>
                         <p data-lang-id="039-block-7-paragraph-2">In other words, making an ecobrick by packing your own clean and dry plastic into an uncut bottle is ideal! </p>
                         <p data-lang-id="040-block-7-paragraph-3">Ocean ecobricks miss out on the most value aspect of ecobricking:  that of taking personal responsibility for our plastic.</p>
@@ -173,12 +156,12 @@
                     </div>
                     <div id="preclosed8">
                         <p data-lang-id="045-block-8-paragraph-1">Ecological cycles can be very short and they can be very long– but they are never final.   The Earth’s sequestration of carbon is an example of a long cycle– measured in millions of years.   However, as carbon moves from plants to trees and back again, the cycles can be short.</p>
-                        <div class="side2">
-                            <img src="../wp-content/uploads/2021/06/earth-center-standalone-500px-282x300.png" style="width:65%" loading ="lazy">
-                        </div>
                         <p data-lang-id="046-block-8-paragraph-2">By concentrating our carbon/plastic into building blocks like ocean ecobricks, we secure it from getting into the environment in the short-term.  Then when we put ocean ecobricks into long-term earth constructions, the plastic is further protected.  Covered by earth it cannot be degraded by the sun, fire, or friction– much like the carbon the earth put under ground.</p>
                         <p data-lang-id="047-block-8-paragraph-3">Even if these structures last decades or centuries, when the structure comes to its end, the plastic can be removed and put to use again.  In this way we copy how the earth removed plastic from ecology and into long-term geology.</p>
                         <p data-lang-id="048-block-8-paragraph-4">Although we don’t know how it will be used, we do know that it makes a better gift for the future compacted and concentrated than scattered and loose in the biosphere.  In the same way the Earth’s carbon was a gift to our age, we can gift our carbon to another.</p>
+                        <p data-lang-id="028-block-5-paragraph-1">Not only do ocean ecobricks <a href="/sequest">secure and sequester plastic</a>, they provide a launch pad to <a href="/ayyew">ayyew living</a>, <a href="/principles">regenerative principles</a> and <a href="/transition">plastic transition</a>.</p>
+                        <p data-lang-id="029-block-5-paragraph-2">By packing them into an ocean ecobrick we keep them from causing all sorts of problems for ecologies and marine life.</p>
+                        <p data-lang-id="030-block-5-paragraph-3">With many ocean ecobricks completed, the process of building with them is likewise an experience of <a href="/circular">circular</a> and <a href="/principles">regenerative principles.</a></p>
                     </div>
                 </div>
             </section>
