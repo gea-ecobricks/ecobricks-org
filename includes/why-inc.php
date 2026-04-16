@@ -31,7 +31,7 @@ _END;?>
 
 <!-- This loads the page's meta tags:  Be sure the page name is in place in English-->
 
-<?php require_once ("../meta/how-$lang.php");?>
+<?php require_once ("../meta/why-$lang.php");?>
 
  
 <STYLE>
