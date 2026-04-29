@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.01';?>
+<?php $version='2.02';?>
 <?php $page='why';?>
 
 <?php require_once ("../includes/why-inc.php");?>
@@ -17,7 +17,7 @@
 		<div class="splash-heading" data-lang-id="001-splash-title">Why Make Ecobricks?</div>
 	    <div class="splash-sub" data-lang-id="002-splash-subtitle">Why bother with the hard work of ecobricking plastic?</div>
 	</div>
-	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/sad_albatross-1.webp" style="width: 85%" alt="Why bother with the hard work of ecobricking plastic?">
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../webp/sad-albatross-1.webp" style="width: 85%" alt="Why bother with the hard work of ecobricking plastic?">
     </div>	
 </div>
 <div id="splash-bar"></div>
@@ -81,7 +81,7 @@
 
                     <div id="preclosed2">
                         <br>
-                        <img src="../webp/Where-does-the-oil-come-from2.webp" width="640" alt="Where does the oil come from?" loading="lazy" class="full-width-image" data-lang-id="014-block-2-main-image-alt">
+                        <img src="../webp/Page-background-december.webp" width="640" alt="Page background" loading="lazy" class="full-width-image" data-lang-id="014-block-2-main-image-alt">
                         <br>
                         <p data-lang-id="015-block-2-paragraph-1">Plastics degrade to the extent that their surface area is exposed – in particular to the sun, water and friction. Alas the majority of non-recyclable single use plastics are sheets and films with large surface areas and are highly susceptible to degradation .    Plastic that is burned or incinerated, releases toxic gases into the biosphere.(2) When plastic is left in the sun it photodegrades into smaller and smaller particles, know as microplastics. (3) Recent studies have also shown that photodegradation of plastic emits greenhouse gases, methane and ethylene..(4)  All this <a href="../poison.php">disrupts ecological cycles.</a> (1)</p>
                         <div id="quote1">
@@ -97,7 +97,7 @@
                                 <li id="fn3" data-lang-id="020c-block-2-list-paragraph3">Anthony L. Andrady,‘Microplastics in the marine environment’, (sciencedirect.com, Marine Pollution Bulletin, vol 62, issue 8, August 2011), 1596–1605. http://dx.doi.org/10.1016/j.</li>
                                 <li id="fn4" data-lang-id="020d-block-2-list-paragraph4">Sarah-Jeanne Royer, Sara Ferrón, Samuel T. Wilson, David M. Karl, ‘Production of methane and ethylene from plastic in the environment‘, (Published: August 1, 2018)</li>
                                 <li id="fn5" data-lang-id="020e-block-2-list-paragraph5">(Ecobricks.org) ‘Ecobricks are Cradle to Cradle Low Technology‘</li>
-                                <li id="fn6" data-lang-id="020f-block-2-list-paragraph6">(Ecobricks.org) <a href="">www.ecobricks.org/earth</li>
+                                <li id="fn6" data-lang-id="020f-block-2-list-paragraph6">(Ecobricks.org) <a href="www.ecobricks.org/earth">www.ecobricks.org/earth</a></li>
                                 <li id="fn7" data-lang-id="020g-block-2-list-paragraph7">It is worth noting that plastic is also highly resistant to microbial degradation: “Plastics are resistant against microbial attack, since during their relatively short time of presence in nature, evolution has not yet design new enzyme structures capable of degrading synthetic polymers” Polyethylene and biodegradable mulches for agricultural applications: a review, p 510, Subrahmaniyan Kasirajan & Mathieu Ngouajio, 12 January 2012</li>
                                 <li id="fn8" data-lang-id="020h-block-2-list-paragraph8">Assuming a 95% petro-combustible and photodegradeable plastic content in an ecobrick. Calculated on the approximate weight ratio for carbon to carbon dioxide of 12 to 44.</li>
                             </ol>
