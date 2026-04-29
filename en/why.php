@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='2.02';?>
+<?php $version='2.03';?>
 <?php $page='why';?>
 
 <?php require_once ("../includes/why-inc.php");?>
@@ -120,7 +120,7 @@
 					<div id="preclosed3">
 						<br>
 						<div class="splash-box-block3">
-    						<img src="../webp/where-does-it-come-from2.webp" width="640" loading="lazy" alt="Where does it come from?" class="full-width-image" data-lang-id="023-block-3-main-image-alt">
+    						<img src="../webp/where-does-it-come-from-2.webp" width="640" loading="lazy" alt="Where does it come from?" class="full-width-image" data-lang-id="023-block-3-main-image-alt">
                             <p data-lang-id="024-splash-text-paragraph">Plastic pollution is fundamentally caused by short sighted, linear thinking and ignorance of the properties of plastic.  Ecobricking is unique among plastic management technologies, as it directly engages consumers and inspires reflection.   Many consumers of plasitc don’t know where their plastic comes from– or where it is going.  Many do not realize just how dangerous and toxic plastic can be– they thus continue consuming, tossing, burning or recycling their plastic.  Ecobricking addresses this directly– getting to the root of the consumtion paragdigm.</p>
                         </div>
 
