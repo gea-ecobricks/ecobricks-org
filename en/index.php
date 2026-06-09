@@ -19,12 +19,24 @@ include '../ecobricks_env.php';
 
         <div id="featured-slider">
 
+            <!--
             <div id="slider-content-1" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
                         <div class="featured-content-title" data-lang-id="300-featured-content-1-title">An Intro to Ecobricks</div>
                         <div class="featured-content-subtitle" data-lang-id="301-featured-content-1-subtitle">Register for a 90min overview of the Earth science, indigenous philosophy, and best practices behind making and building with ecobricks.  — 20$ SGD</div>
                         <a class="content-button" href="https://gobrik.com/en/courses.php" target="_blank" data-lang-id="302-featured-content-1-button">↗️ April 25th</a>
+                    </div>
+                </div>
+           </div>
+           -->
+
+            <div id="slider-content-5" class="slider-slide" >
+                <div class="featured-content-shaded-box">
+                    <div class="featured-content-text">
+                        <div class="featured-content-title" data-lang-id="300-featured-content-5-title">An Intro to Earth &amp; Ecobrick Building</div>
+                        <div class="featured-content-subtitle" data-lang-id="301-featured-content-5-subtitle">Register for a 90min overview of the Earth science, indigenous philosophy, and best practices behind making and building with ecobricks.</div>
+                        <a class="content-button" href="https://gobrik.com/en/courses.php" target="_blank" data-lang-id="302-featured-content-5-button">↗️ Sign Up</a>
                     </div>
                 </div>
            </div>

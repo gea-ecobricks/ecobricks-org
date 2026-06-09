@@ -153,6 +153,10 @@ width: 100%;
     #slider-content-4 {
       background-image: url('../photos/photo4-mobile.webp?v=1');
     }
+
+  #slider-content-5 {
+      background-image: url('../photos/earth-home-sagada.jpg?v=1');
+    }
   .featured-content-shaded-box {
     min-height: 40vh;
   }
@@ -174,6 +178,10 @@ width: 100%;
 
     #slider-content-4 {
       background-image: url('../photos/photo4-tablet.webp?v=3');
+    }
+
+  #slider-content-5 {
+      background-image: url('../photos/earth-home-sagada.jpg?v=1');
     }
   .featured-content-shaded-box {
     min-height: 35vh;
@@ -201,6 +209,10 @@ width: 100%;
 
   #slider-content-4 {
       background-image: url('../photos/photo4-desktop.webp?v=3');
+    }
+
+  #slider-content-5 {
+      background-image: url('../photos/earth-home-sagada.jpg?v=1');
     }
 
   .featured-content-shaded-box {
