@@ -1,4 +1,4 @@
-
+<?php require_once '../includes/require-admin.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
