@@ -277,9 +277,12 @@ strong {
             $cashTranId = $_GET['cash_tran_id'];
 
             // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-            $sql = "SELECT * FROM tb_cash_transaction WHERE cash_tran_id = " . $cashTranId;
+            $sql = "SELECT * FROM tb_cash_transaction WHERE cash_tran_id = ?";
 
-            $result = $conn->query($sql);
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("i", $cashTranId);
+            $stmt->execute();
+            $result = $stmt->get_result();
             if ($result->num_rows > 0) {
 
                 //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row
