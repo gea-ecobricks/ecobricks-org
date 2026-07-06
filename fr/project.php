@@ -21,11 +21,12 @@ ini_set('display_errors', 1);?>
 
 	$projectId = $_GET['project_id'];
 
-	$sql = "SELECT * FROM tb_projects WHERE project_id = '" . $projectId . "'";
+	$sql = "SELECT * FROM tb_projects WHERE project_id = ?";
 
-
-
-	$result = $conn->query($sql);
+	$stmt = $conn->prepare($sql);
+	$stmt->bind_param("i", $projectId);
+	$stmt->execute();
+	$result = $stmt->get_result();
 	if ($result->num_rows > 0) {
 	
     while($array = $result->fetch_assoc()) {

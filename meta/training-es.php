@@ -7,10 +7,12 @@ include '../ecobricks_env.php';
 
 $trainingId = isset($_GET['training_id']) ? $_GET['training_id'] : (isset($_GET['id']) ? $_GET['id'] : 0);
 
-$sql = "SELECT * FROM tb_trainings WHERE training_id = '" . $trainingId . "'";
+$sql = "SELECT * FROM tb_trainings WHERE training_id = ?";
 
-
-$result = $conn->query($sql);
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $trainingId);
+$stmt->execute();
+$result = $stmt->get_result();
 if ($result->num_rows > 0) {
 	
     while($array = $result->fetch_assoc()) {

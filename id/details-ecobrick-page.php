@@ -18,9 +18,12 @@ include '../ssp.class.php';
 $serialNo = $_GET['serial_no'];
 
 // Référence à https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = '" . $serialNo . "'";
+$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = ?";
 
-$result = $conn->query($sql);
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("s", $serialNo);
+$stmt->execute();
+$result = $stmt->get_result();
 if ($result->num_rows > 0) {
 
     //  echo "<h1> Utiliser le numéro de série de l'URL => " . $serialNo ."</h1>"; Données de sortie de chaque ligne 

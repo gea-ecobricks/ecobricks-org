@@ -257,9 +257,12 @@ b {font-weight: 500;}
 // Get the contents from the Transaction table as an ordered View, using the transaction id from the URL.
 $transactionId = $_GET['tran_id'];
 
-$sql = "SELECT * FROM vw_brk_tran_ledgerid_asc WHERE chain_ledger_id = " . $transactionId;
+$sql = "SELECT * FROM vw_brk_tran_ledgerid_asc WHERE chain_ledger_id = ?";
 
-$result = $conn->query($sql);
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $transactionId);
+$stmt->execute();
+$result = $stmt->get_result();
 if ($result->num_rows > 0) {
 	//echo "</br><h3>" . $transactionId . "</h1>";
     //  Output data of each row

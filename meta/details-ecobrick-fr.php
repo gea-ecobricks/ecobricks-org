@@ -8,9 +8,12 @@ include '../ecobricks_env.php';
 $serialNo = $_GET['serial_no'];
 
 // Refered to  https://www.w3schools.com/php/php_mysql_select_where.asp1
-$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = " . $serialNo;
+$sql = "SELECT * FROM tb_ecobricks WHERE serial_no = ?";
 
-$result = $conn->query($sql);
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("s", $serialNo);
+$stmt->execute();
+$result = $stmt->get_result();
 if ($result->num_rows > 0) {
 	
     //  echo "<h1> Use Serial Number from URL => " . $serialNo ."</h1>"; Output data of each row 
@@ -31,7 +34,7 @@ if ($result->num_rows > 0) {
         echo '<meta property="og:title"         content="Écobrique '. $array["serial_no"] .' | '. $array["weight_g"] .'g of plastic sequestered by '. $array["owner"] .' in '. $array["location_full"] .'.">';
         echo '<meta property="og:description"   content="Une écobrique authentifiée qui a été publiée et archivée sur la blockchain manuelle brikcoin sur ' . $array["last_validation_ts"] .'"/>';
         echo '<meta property="og:image"         content="'. $array["ecobrick_full_photo_url"] .'"/>';
-        echo '<meta property="og:image:alt"     content="L'enregistrement brikchain d'une écobrick authentifiée sur la brikchain"/>';
+        echo '<meta property="og:image:alt"     content="L\'enregistrement brikchain d\'une écobrick authentifiée sur la brikchain"/>';
         echo '<meta property="og:locale" content="fr_FR" />';
         echo '<meta property="og:type"          content="website">';
  	   
