@@ -1,8 +1,5 @@
 <?php
 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
@@ -59,11 +56,13 @@ if ($stmt->execute()) {
         $conn->close();
             echo "<script>window.location.href = 'add-project-images.php?project_id=" . $project_id . "';</script>";
         } else {
-            echo "Error: " . $stmt->error . "<br>";
+            error_log("add-project.php execute failed: " . $stmt->error);
+            echo "Error: something went wrong saving your project. Please try again.<br>";
         }
         $stmt->close();
     } else {
-        echo "Prepare failed: " . $conn->error;
+        error_log("add-project.php prepare failed: " . $conn->error);
+        echo "Error: something went wrong saving your project. Please try again.";
     }
     $conn->close();
 }

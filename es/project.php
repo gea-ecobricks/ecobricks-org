@@ -2,9 +2,7 @@
 <HTML lang="es"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='es';
-error_reporting(E_ALL);
-ini_set('display_errors', 1);?>
+<?php $lang='es';?>
 <?php $version='2.14
 ';?>
 <?php $page='project';?>

@@ -1,9 +1,4 @@
 <?php
-// Enable error reporting for debugging
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 // Include the GoBrik server connection credentials
 require_once '../gobrikconn_env.php';
 
@@ -22,8 +17,9 @@ $sql = "SELECT * FROM tb_cash_transaction WHERE cash_tran_id = ?";
 
 $stmt = $gobrik_conn->prepare($sql);
 if (!$stmt) {
+    error_log("fetch_cash_trans.php prepare failed: " . $gobrik_conn->error);
     http_response_code(500); // Internal Server Error
-    echo json_encode(['error' => 'Failed to prepare database query: ' . $gobrik_conn->error]);
+    echo json_encode(['error' => 'Failed to prepare database query.']);
     exit;
 }
 

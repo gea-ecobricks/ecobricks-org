@@ -7,9 +7,7 @@
 <HEAD>
 <META charset="UTF-8">
 
-<?php $lang='en';
-error_reporting(E_ALL);
-ini_set('display_errors', 1);?>
+<?php $lang='en';?>
 
 
 <?php 

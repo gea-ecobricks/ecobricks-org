@@ -15,7 +15,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("<script>alert('Connection failed: " . $conn->connect_error . "');</script>");
+    error_log("process_training2.php connection failed: " . $conn->connect_error);
+    die("<script>alert('Connection failed.');</script>");
 }
 
 // Prepare filters
@@ -116,14 +117,16 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 // Prepare and bind
                 $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_date, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_photo3_main, training_photo4_main, training_photo5_main, training_photo6_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
-                    die("<script>alert('Prepare failed: " . htmlspecialchars($conn->error) . "');</script>");
+                    error_log("process_training2.php prepare failed: " . $conn->error);
+                    die("<script>alert('Prepare failed.');</script>");
                 }
                 $stmt->bind_param("sssssssssssssssssssss", $training_id, $training_title, $training_date, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_photo4_main, $training_photo5_main, $training_photo6_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
                 // Execute statement
                 if (!$stmt->execute()) {
                     $success = false;
-                    $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
+                    error_log("process_training2.php execute failed: " . $stmt->error);
+                    $errors[] = "Execute failed.";
                 }
                 
                 // Close the statement
@@ -238,9 +241,6 @@ for ($i = 0; $i < 7; $i++) {
 }
 
 
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 if (!empty($db_fields) && empty($error_message)) {
     echo "<script>console.log('Updating database with new image data');</script>";
 
@@ -269,7 +269,8 @@ if (!empty($db_fields) && empty($error_message)) {
 
         // Check connection again
         if ($conn->connect_error) {
-            die("<script>alert('Reconnection failed: " . $conn->connect_error . "');</script>");
+            error_log("process_training2.php reconnection failed: " . $conn->connect_error);
+            die("<script>alert('Reconnection failed.');</script>");
         } else {
             echo "<script>console.log('Reconnected to the database');</script>";
         }
@@ -277,14 +278,14 @@ if (!empty($db_fields) && empty($error_message)) {
 
     $update_stmt = $conn->prepare($update_sql);
     if ($update_stmt === false) {
-        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
-        die("Prepare failed: " . $conn->error);
+        error_log("process_training2.php prepare failed: " . $conn->error);
+        die("Prepare failed.");
     }
     $update_stmt->bind_param($db_types, ...$db_values);
 
     if (!$update_stmt->execute()) {
-        $error_message .= "Database update failed: " . $update_stmt->error;
-        echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
+        error_log("process_training2.php database update failed: " . $update_stmt->error);
+        $error_message .= "Database update failed.";
     } else {
         echo "<script>console.log('Database updated successfully');</script>";
     }

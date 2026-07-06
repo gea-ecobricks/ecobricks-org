@@ -18,8 +18,9 @@ $result = $gobrik_conn->query($sql);
 
 // Check for query execution errors
 if (!$result) {
+    error_log("fetch_revenues_trans.php query failed: " . $gobrik_conn->error);
     http_response_code(500);
-    echo json_encode(["error" => "Database query failed: " . $gobrik_conn->error]);
+    echo json_encode(["error" => "Database query failed."]);
     exit;
 }
 

@@ -46,9 +46,6 @@
        <?php
 //PART 1 show latest transfers
 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 include '../ecobricks_env.php';
 $conn->set_charset("utf8mb4");
 
@@ -118,7 +115,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
+    error_log("process_ecobrick_for_maker_id.php connection failed: " . $conn->connect_error);
+    die("<script>confirm('Connection failed. Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
 }
 
 // Prepare filters to get records with the transfer status field field_2526 set to "No" and field_534 containing "Authenticated"
@@ -243,7 +241,8 @@ $conn2 = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn2->connect_error) {
-    die("<script>confirm('Connection failed: " . $conn2->connect_error . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
+    error_log("process_ecobrick_for_maker_id.php connection failed: " . $conn2->connect_error);
+    die("<script>confirm('Connection failed. Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
 }
 echo "<p>Connected to Brikchain database...</p>";
 
@@ -257,11 +256,13 @@ if ($stmt_update_ecobrick) {
     if ($stmt_update_ecobrick->execute()) {
         echo "<p>Successfully updated ecobrick with serial number $ecobrick_unique_id. Maker ID set to $maker_record_id.</p>";
     } else {
-        echo "<p>Error updating ecobrick: " . $stmt_update_ecobrick->error . "</p>";
+        error_log("process_ecobrick_for_maker_id.php update failed: " . $stmt_update_ecobrick->error);
+        echo "<p>Error updating ecobrick.</p>";
     }
     $stmt_update_ecobrick->close();
 } else {
-    echo "<p>Error preparing statement: " . $conn2->error . "</p>";
+    error_log("process_ecobrick_for_maker_id.php prepare failed: " . $conn2->error);
+    echo "<p>Error preparing statement.</p>";
 }
 
 $conn2->close();

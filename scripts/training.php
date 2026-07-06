@@ -8,7 +8,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("<script>alert('Connection failed: " . $conn->connect_error . "');</script>");
+    error_log("training.php connection failed: " . $conn->connect_error);
+    die("<script>alert('Connection failed.');</script>");
 }
 
 // Check if the form is submitted to delete the training
@@ -21,7 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['action']) && $_POST['a
     if ($delete_stmt->execute()) {
         echo "<script>alert('Training deleted successfully.'); window.location.href='get-training.php';</script>";
     } else {
-        echo "<script>alert('Error deleting training: " . $delete_stmt->error . "');</script>";
+        error_log("training.php delete failed: " . $delete_stmt->error);
+        echo "<script>alert('Error deleting training.');</script>";
     }
 
     $delete_stmt->close();
