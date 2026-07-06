@@ -14,7 +14,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next training?'); window.location.href = 'process_training.php?training_id=" . ($training_id + 1) . "';</script>");
+    error_log("process_training3.php connection failed: " . $conn->connect_error);
+    die("<script>confirm('Connection failed. Do you want to proceed to the next training?'); window.location.href = 'process_training.php?training_id=" . ($training_id + 1) . "';</script>");
 }
 
 // Prepare filters
@@ -115,14 +116,16 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 // Prepare and bind
                 $stmt = $conn->prepare("INSERT INTO tb_trainings (training_id, training_title, training_date, no_participants, lead_trainer, training_photo0_main, training_photo1_main, training_photo2_main, training_photo3_main, training_photo4_main, training_photo5_main, training_photo6_main, training_type, briks_made, est_plastic_packed, location_full, training_summary, training_agenda, training_success, training_challenges, training_lessons_learned) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
-                    echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next training?')) { window.location.href = 'process_training2.php?training_id=" . ($training_id + 1) . "'; }</script>";
+                    error_log("process_training3.php prepare failed: " . $conn->error);
+                    echo "<script>if(confirm('Prepare failed. Do you want to proceed to the next training?')) { window.location.href = 'process_training2.php?training_id=" . ($training_id + 1) . "'; }</script>";
                 }
                 $stmt->bind_param("sssssssssssssssssssss", $training_id, $training_title, $training_date, $no_participants, $lead_trainer, $training_photo0_main, $training_photo1_main, $training_photo2_main, $training_photo3_main, $training_photo4_main, $training_photo5_main, $training_photo6_main, $training_type, $briks_made, $est_plastic_packed, $location_full, $training_summary, $training_agenda, $training_success, $training_challenges, $training_lessons_learned);
 
                 // Execute statement
                 if (!$stmt->execute()) {
                     $success = false;
-                    $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
+                    error_log("process_training3.php execute failed: " . $stmt->error);
+                    $errors[] = "Execute failed.";
                 }
 
                 // Close the statement
@@ -276,7 +279,8 @@ if (!empty($db_fields) && empty($error_message)) {
 
         // Check connection again
         if ($conn->connect_error) {
-            echo "<script>if(confirm('Reconnection failed: " . addslashes($conn->connect_error) . ". Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
+            error_log("process_training3.php reconnection failed: " . $conn->connect_error);
+            echo "<script>if(confirm('Reconnection failed. Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
         } else {
             echo "<script>console.log('Reconnected to the database');</script>";
         }
@@ -284,15 +288,15 @@ if (!empty($db_fields) && empty($error_message)) {
 
     $update_stmt = $conn->prepare($update_sql);
     if ($update_stmt === false) {
-        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
-        echo "<script>if(confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
+        error_log("process_training3.php prepare failed: " . $conn->error);
+        echo "<script>if(confirm('Prepare failed. Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
     } else {
         $update_stmt->bind_param($db_types, ...$db_values);
 
         if (!$update_stmt->execute()) {
-            $error_message .= "Database update failed: " . $update_stmt->error;
-            echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
-            echo "<script>if(confirm('Database update failed: " . addslashes($update_stmt->error) . ". Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
+            error_log("process_training3.php database update failed: " . $update_stmt->error);
+            $error_message .= "Database update failed.";
+            echo "<script>if(confirm('Database update failed. Do you want to proceed to the next training?')) { window.location.href = 'training.php?training_id=" . ($training_id + 1) . "'; }</script>";
         } else {
             echo "<script>console.log('Database updated successfully');</script>";
         }

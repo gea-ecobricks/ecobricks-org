@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <?php
     $lang = 'en';
-    error_reporting(E_ALL);
-    ini_set('display_errors', 1);
     $version = '1';
     $page = 'project';
     ?>

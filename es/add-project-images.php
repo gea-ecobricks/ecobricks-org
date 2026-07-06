@@ -1,7 +1,5 @@
 <?php
 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 include '../ecobricks_env.php';
 
 $error_message = '';
@@ -70,7 +68,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['project_id'])) {
         $update_stmt = $conn->prepare($update_sql);
         $update_stmt->bind_param($db_types, ...$db_values);
         if (!$update_stmt->execute()) {
-            $error_message .= "Database update failed: " . $update_stmt->error;
+            error_log("add-project-images.php update failed: " . $update_stmt->error);
+            $error_message .= "Database update failed.";
         }
         $update_stmt->close();
     }

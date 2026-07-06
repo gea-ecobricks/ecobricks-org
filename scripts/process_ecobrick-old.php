@@ -66,9 +66,6 @@
 
         <?php
 
-        ini_set('display_errors', 1);
-        error_reporting(E_ALL);
-
         include '../ecobricks_env.php';
         $conn->set_charset("utf8mb4");
 
@@ -142,7 +139,8 @@
 
     // Check connection
     if ($conn->connect_error) {
-        die("<script>confirm('Connection failed: " . $conn->connect_error . ". Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
+        error_log("process_ecobrick-old.php connection failed: " . $conn->connect_error);
+        die("<script>confirm('Connection failed. Do you want to proceed to the next ecobrick?'); window.location.href = 'process_ecobricks.php';</script>");
     }
 
     // Prepare filters to get records with field_2492 set to "No" and field_534 containing "Authenticated"
@@ -326,14 +324,16 @@ if (isset($data['records']) && count($data['records']) > 0) {
                 // Prepare and bind
                 $stmt = $conn->prepare("INSERT INTO tb_ecobricks (ecobrick_unique_id, serial_no, owner, ecobricker_maker, ecobrick_full_photo_url, volume_ml, universal_volume_ml, weight_g, density, date_logged_ts, CO2_kg, sequestration_type, last_validation_ts, validator_1, validator_2, validator_3, validation_score_avg, knack_record_id, final_validation_score, vision, last_ownership_change, non_registered_maker_name, actual_maker_name, weight_authenticated_kg, location_country, location_region, community_name, brand_name, bottom_colour, plastic_from, ecobrick_brk_display_value, ecobrick_dec_brk_val, ecobrick_brk_amt, photo_choice, location_city, location_full, catalyst, brik_notes, maker_record_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
                 if ($stmt === false) {
-                    echo "<script>if(confirm('Prepare failed: " . htmlspecialchars($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
+                    error_log("process_ecobrick-old.php prepare failed: " . $conn->error);
+                    echo "<script>if(confirm('Prepare failed. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
                 }
                 $stmt->bind_param("sssssssssssssssssssssssssssssssssssssss", $ecobrick_unique_id, $serial_no, $owner, $ecobricker_maker, $ecobrick_full_photo_url, $volume_ml, $universal_volume_ml, $weight_g, $density, $date_logged_ts, $CO2_kg, $sequestration_type, $last_validation_ts, $validator_1, $validator_2, $validator_3, $validation_score_avg, $knack_record_id, $final_validation_score, $vision, $last_ownership_change, $non_registered_maker_name, $actual_maker_name, $weight_authenticated_kg, $location_country, $location_region, $community_name, $brand_name, $bottom_colour, $plastic_from, $ecobrick_brk_display_value, $ecobrick_dec_brk_val, $ecobrick_brk_amt, $photo_choice, $location_city, $location_full, $catalyst, $brik_notes, $maker_record_id);
 
                 // Execute statement
                 if (!$stmt->execute()) {
                     $success = false;
-                    $errors[] = "Execute failed: " . htmlspecialchars($stmt->error);
+                    error_log("process_ecobrick-old.php execute failed: " . $stmt->error);
+                    $errors[] = "Execute failed.";
                 }
 
                 // Close the statement
@@ -477,7 +477,8 @@ if (!empty($db_fields) && empty($error_message)) {
 
         // Check connection again
         if ($conn->connect_error) {
-            echo "<script>if(confirm('Reconnection failed: " . addslashes($conn->connect_error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
+            error_log("process_ecobrick-old.php reconnection failed: " . $conn->connect_error);
+            echo "<script>if(confirm('Reconnection failed. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
         } else {
             echo "<script>console.log('Reconnected to the database');</script>";
         }
@@ -487,15 +488,15 @@ if (!empty($db_fields) && empty($error_message)) {
 
     $update_stmt = $conn->prepare($update_sql);
     if ($update_stmt === false) {
-        echo "<script>console.log('Prepare failed: " . addslashes($conn->error) . "');</script>";
-        echo "<script>if(confirm('Prepare failed: " . addslashes($conn->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
+        error_log("process_ecobrick-old.php prepare failed: " . $conn->error);
+        echo "<script>if(confirm('Prepare failed. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
     } else {
         $update_stmt->bind_param($db_types, ...$db_values);
 
         if (!$update_stmt->execute()) {
-            $error_message .= "Database update failed: " . $update_stmt->error;
-            echo "<script>console.log('Database update failed: " . addslashes($update_stmt->error) . "');</script>";
-            echo "<script>if(confirm('Database update failed: " . addslashes($update_stmt->error) . ". Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
+            error_log("process_ecobrick-old.php database update failed: " . $update_stmt->error);
+            $error_message .= "Database update failed.";
+            echo "<script>if(confirm('Database update failed. Do you want to proceed to the next ecobrick?')) { window.location.href = 'process_ecobrick.php'; }</script>";
         } else {
             echo "<script>console.log('Database updated successfully');</script>";
         }

@@ -1,9 +1,4 @@
 <?php
-// Enable error reporting for debugging
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 // Include the GoBrik server connection credentials
 require_once '../gobrikconn_env.php';
 
@@ -23,8 +18,9 @@ $result = $gobrik_conn->query($sql);
 
 // Check for query execution errors
 if (!$result) {
+    error_log("fetch_expenses_trans.php query failed: " . $gobrik_conn->error);
     http_response_code(500); // Internal Server Error
-    echo json_encode(["error" => "Database query failed: " . $gobrik_conn->error]);
+    echo json_encode(["error" => "Database query failed."]);
     exit;
 }
 

@@ -2,9 +2,7 @@
 <HTML lang="id"> 
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='id';
-error_reporting(E_ALL);
-ini_set('display_errors', 1);?>
+<?php $lang='id';?>
 <?php $version='2.13';?>
 <?php $page='project';?>
 

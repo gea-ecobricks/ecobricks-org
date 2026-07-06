@@ -9,7 +9,8 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
-    die("<script>alert('Connection failed: " . $conn->connect_error . "');</script>");
+    error_log("update-training-database.php connection failed: " . $conn->connect_error);
+    die("<script>alert('Connection failed.');</script>");
 }
 
 echo "<div class='message'>Updating database with new image data</div>";
@@ -69,7 +70,8 @@ if ($conn->ping()) {
 
     // Check connection again
     if ($conn->connect_error) {
-        echo "<div class='alert'>Reconnection failed: " . $conn->connect_error . "</div>";
+        error_log("update-training-database.php reconnection failed: " . $conn->connect_error);
+        echo "<div class='alert'>Reconnection failed.</div>";
         ob_flush(); flush();
         exit;
     } else {
@@ -80,15 +82,17 @@ if ($conn->ping()) {
 
 $update_stmt = $conn->prepare($update_sql);
 if ($update_stmt === false) {
-    echo "<div class='alert'>Prepare failed: " . htmlspecialchars($conn->error) . "</div>";
+    error_log("update-training-database.php prepare failed: " . $conn->error);
+    echo "<div class='alert'>Prepare failed.</div>";
     ob_flush(); flush();
     exit;
 }
 $update_stmt->bind_param($db_types, ...$db_values);
 
 if (!$update_stmt->execute()) {
-    $error_message .= "Database update failed: " . $update_stmt->error;
-    echo "<div class='alert'>Database update failed: " . htmlspecialchars($update_stmt->error) . "</div>";
+    error_log("update-training-database.php update failed: " . $update_stmt->error);
+    $error_message .= "Database update failed.";
+    echo "<div class='alert'>Database update failed.</div>";
     ob_flush(); flush();
 } else {
     echo "<div class='message'>Database updated successfully</div>";
