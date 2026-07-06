@@ -8,6 +8,7 @@
 
 	<link rel="canonical" href="https://ecobricks.org/<?php echo ($lang); ;?>/<?php echo ($name); ;?>">
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<meta name="referrer" content="strict-origin-when-cross-origin">
 
 	<link rel="alternate" href="https://ecobricks.org/en/<?php echo ($name); ;?>" hreflang="en">
 	<link rel="alternate" href="https://ecobricks.org/id/<?php echo ($name); ;?>" hreflang="id">
