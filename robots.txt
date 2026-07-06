@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /scripts/
+Disallow: /api/
+Disallow: /includes/
+Disallow: /meta/
+Disallow: /translations/
+
+Sitemap: https://ecobricks.org/sitemap.xml
+Sitemap: https://ecobricks.org/sitemap-multilingual.xml
