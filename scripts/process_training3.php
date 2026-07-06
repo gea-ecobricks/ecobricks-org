@@ -2,6 +2,7 @@
 // PART 1 of the code
 // process_training2.php
 
+require_once '../includes/require-admin.php';
 include '../ecobricks_env.php';
 
 // Knack API settings

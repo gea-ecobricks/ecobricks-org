@@ -1,4 +1,5 @@
 <?php
+require_once '../includes/require-admin.php';
 include '../ecobricks_env.php';
 
 $training_id = $_GET['training_id'];
