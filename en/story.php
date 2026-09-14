@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="UTF-8">
+<?php $lang='en';?>
+<?php $version='1.0';?>
+<?php $page='story';?>
+
+<?php require_once ("../includes/story-inc2.php");?>
+
+
+
+<!--TOP PAGE BANNER-->
+
+<div class="splash-content-block">
+	<div class="splash-box">
+		<div class="splash-heading" data-lang-id="001-splash-title">Our Story</div>
+	    <div class="splash-sub" data-lang-id="002-splash-subtitle">The Global Ecobrick Alliance is rooted in the land and the wisdom tradition of the Igorots of Northern Luzon</div>
+	</div>
+	<div class="splash-image" data-lang-id="003-splash-image-alt"><img src="../photos/igorot-land.webp" style="width: 85%" alt="A view of the verdant Igorot highlands of Northern Luzon">
+    </div>
+</div>
+<div id="splash-bar"></div>
+
+<div id="main-content">
+	<!-- The flexible grid (content) -->
+	<div class="row">
+		<div class="main">
+			<div class="lead-page-paragraph" data-lang-id="004-lead-paragraph">
+				<p>The Global Ecobrick Alliance has been focused on plastic transition for over a decade. We do so through the mandalic dissemination of principled and practical ecobricking to raise ecological consciousness.</p>
+			</div>
+
+			<div class="page-paragraph">
+				<p data-lang-id="005-first-page-paragraph">The GEA was born in the green valley of the Chico River, in the traditional territory of the Igorot people (<i>Kaigorotan</i>) of the Northern Philippine Cordilleras. Guided by their <a href="/ayyew">Ayyew</a> ethos and regenerative principles, we became convinced that truly solving plastic requires a new and careful relationship with the petro-capital economy. So we established the GEA as a not-for-profit Earth Enterprise&mdash; free to maintain global standards for ecobricking and plastic sequestration without a profit motive, and instead with a full focus on Earth service.</p>
+
+				<p data-lang-id="006-second-page-paragraph">The Global Ecobrick Alliance (GEA) is made up of 400+ transition trainers from all walks of life, ages, and backgrounds. We are connected around the world in our concern for the biosphere and its harm by plastic pollution. We are united by our passion for transitioning from plastic to ever greener living, and by our conviction that raising personal and collective ecological consciousness is what gets us there.</p>
+			</div>
+
+
+<div class="reg-content-block" id="block1">
+
+    <div class="opener-header">
+
+        <div class="opener-header-text">
+            <h4 data-lang-id="008-block1-header">Our Story</h4>
+            <h5 data-lang-id="009-block1-subheader">How a stranded traveller, a river, and a mountain community sparked a global movement.</h5>
+        </div>
+
+        <button onclick="preclosed1()" class="block-toggle" id="block-toggle-show1" >+</button>
+
+    </div>
+
+    <div id="preclosed1">
+
+        <div class="row">
+            <div class="main2">
+                <p data-lang-id="012-block1-main2-p1">The Global Ecobrick Alliance finds its roots in the mountains of the remote Northern Philippines. In 2010, on a vacation gone wrong, Canadian artist Russell Maier became stranded in a small village in the Sabangan Valley, in the land of the Igorot people. Unable to make ends meet and return home, Russell&mdash; an artist with a background in philosophy&mdash; was compelled to make his home in the Cordilleras for five years.</p>
+                <p data-lang-id="013-block1-main2-p2">Living in the community, he began to wonder what was happening to the plastic bottles, packaging and other items he was consuming and throwing away. Following his neighbours as they gathered and carried away the neighbourhood waste, he discovered his plastic was being dumped into the local Chico River, near where the children swam and the men fished. Disturbed by this, he began experimenting with upcycling&mdash; refurbishing his home with plastic creations and selling them abroad. But he was haunted by one question: what happens when these plastic creations come to their end? Was the plastic problem really being solved?</p>
+            </div>
+            <div class="side2" data-lang-id="016-block1-side2-image"><img src="../webp/chico-river-green.webp" width="300" style="width:88%" alt="The Chico River near Bontoc, in the land of the Igorot people" data-lang-id="017-block1-side2-image-alt">
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="018-block1-main3-p1">Around this time, Russell was introduced to the work of Andreas Froese, who had been filling bottles with sand in Central America to make &ldquo;bottle bricks&rdquo;. Russell and his friends headed down to the Chico River to try the technique. The spot where they gathered sand happened to be where the local plastic was dumped and burned&mdash; so they improvised, packing a mix of sand and plastic into the bottles. It worked just as well, so they added more and more plastic. With a mix of bottles&mdash; some packed with sand, some packed solely with plastic&mdash; they built a small garden wall. Not only were the plastic-filled bottles just as effective, they had the added benefit of securing plastic that would otherwise have washed into the river.</p>
+            </div>
+            <div class="side3" data-lang-id="019-block1-side3-image"><img src="../webp/chico-river-green.webp" width="120" style="width:88%" alt="The Chico River near Bontoc, in the land of the Igorot people" data-lang-id="020-block1-side3-image-alt">
+            </div>
+        </div>
+
+        <br>
+
+        <p data-lang-id="021-block1-p1">Russell continued the experiment at home, building his garden with them. His neighbours wanted to know more, so he worked with the town school to clean up an old pile of plastic. Word spread quickly, and the idea was met with overwhelming enthusiasm&mdash; first in their town, then in neighbouring towns. As plastic waste management reached a crisis point in Bontoc, the provincial capital, demand grew for an accessible solution. Russell and Irene Bakisan developed the first Vision Ecobrick Guidebook&mdash; a simple, photocopiable resource distributed to hundreds of schools. By 2014, almost three thousand schools had implemented the ecobricks program across the Northern Philippines Department of Education.</p>
+
+        <p data-lang-id="022-block1-p2">The development of ecobrick concepts was deeply influenced by Igorot principles. Inspired by a stone rice-terrace wall that had collapsed in a storm and was rebuilt using the very same stones, Russell and Irene were determined that ecobrick constructions should also be reusable over and over again. Inspired by the concept of <a href="/ayyew" data-lang-id="023-block1-link1">Ayyew</a>, the team prioritized using ecobricks for building green spaces that would enrich neighbourhoods and schools.</p>
+
+        <p data-lang-id="024-block1-p3">With the launch of Ecobricks.org in 2013, the Filipino ecobrick movement discovered that people around the world&mdash; desperate for a simple solution to plastic&mdash; had begun ecobricking independently. After making contact with movement leaders in South Africa and North and Central America, it was decided to form an alliance to establish consistency across the growing global movement. Spearheaded by Russell Maier, Jo Stodgel (Upcycle Santa Fe), Candice Mostert, Patricia Acuna and Irene Bakisan, the Global Ecobrick Alliance (GEA) was formed alongside the Vision Ecobrick Guidebook v2.0. In 2014, with the support of Ian Domisse, founder of the Ecobrick Exchange in South Africa, the alliance agreed to use the non-hyphenated, lower-case term <b>&ldquo;ecobrick&rdquo;</b> as the standardized term across all materials&mdash; so that ecobrickers everywhere could rally around one word, one hashtag, and one search term.</p>
+
+        <p data-lang-id="025-block1-p4">In early 2015, the Vision Ecobrick Guide was translated into Indonesian by Nurkinanti Laraskusuma. At the end of 2015, Russell Maier and Ani Himawati officially founded the GEA as a not-for-profit Earth Enterprise, with the mission of supporting the technological and philosophical infrastructure of the global ecobrick movement. In 2016, the movement ignited in Yogyakarta, Indonesia. Ani Himawati was instrumental in developing the GEA&rsquo;s training methodology, applying the principles of mandalic community manifestation developed by Russell Maier&mdash; a methodology that has since carried the Indonesian movement to exponential growth through starter workshops, trainer-of-trainer programs, and ecobrick convergences.</p>
+
+        <p data-lang-id="026-block1-p5">The ecobrick movement in the UK ignited shortly after the airing of Blue Planet II in December 2017. In January 2018, Mary Bacoo and Lucie Mann joined the GEA as trainers from the UK. Lucie started the Ecobricks UK Facebook page, which took off in October 2018 as concurrent scandals in the UK recycling industry broke in the news and sent ecobricking viral. Today there are 30+ GEA Trainers in the UK and hundreds of thousands of ecobrickers there.</p>
+
+        <br><br>
+        <h5 data-lang-id="027-block1-quote1"><i>&ldquo;We don&rsquo;t understand how it happens, but with Blue Planet II, suddenly the world was electrified about the crime of chucking plastic into the ocean.&rdquo;</i></h5>
+
+        <h5 data-lang-id="028-block1-quote1-citation">&mdash; David Attenborough</h5>
+
+        <br>
+
+        <p data-lang-id="029-block1-p6">Over 2017&ndash;18, hundreds of trainers joined the GEA network across the Philippines, Indonesia, and South Africa through our live and online trainer-of-trainer programs. In 2018, our first three USA trainers&mdash; Sabrina Auclair, Luke Henkel and Jess Beck&mdash; joined the team.</p>
+
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block2">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="030-block2-header">Earth Enterprise</h4>
+            <h5 data-lang-id="031-block2-subheader">Our not-for-profit enterprise is focused on Earth service.</h5><br>
+        </div>
+        <button onclick="preclosed2()" class="block-toggle" id="block-toggle-show2">+</button>
+    </div>
+
+    <div id="preclosed2">
+        <div class="row">
+            <div class="main2">
+                <p data-lang-id="032-block2-p1">An Earth Enterprise is focused on serving the Earth through the harnessing of collaboration, not-for-profit operation, principled revenue generation and investment. In 2016, GEA principals Russell Maier and Ani Himawati discussed what path to follow for the GEA. Should it become a company? Register as an NGO, or a foundation? Neither course resonated with the mission and vision that was becoming clear. So we decided to define the GEA on our own terms&mdash; with a principled buffer from the pull of the capital economy, and full autonomy to serve as a non-biased third party maintaining the standards of plastic sequestration and deep plastic transition, much as the Wikimedia Foundation maintains Wikipedia, or the Mozilla Foundation maintains a healthy, open internet.</p>
+            </div>
+            <div class="side2"><img src="../webp/for-earth500px.webp" style="width:95%" width="300" alt="We make ecobricks to serve the Earth" >
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="main3">
+                <p data-lang-id="033-block2-p2">Consulting leading authorities on alternative business structures, alternative currencies and open source intellectual property, we crafted the Earth Enterprise concept for the GEA&mdash; building on the idea of a &ldquo;social enterprise&rdquo; and on the Earth Corporation concept developed by Marc Donovan, and integrating the Post Growth Institute&rsquo;s definition of a not-for-profit (NFP) enterprise. Where a social enterprise serves communities and people, our service is to the Earth itself&mdash; its ecological health, and that of the people and species who depend on it.</p>
+            </div>
+            <div class="side3" data-lang-id="034-block2-side3-image-alt"><img src="../webp/for-earth500px.webp" width="120" style="width:95%" alt="We make ecobricks to serve the Earth" >
+            </div>
+        </div>
+
+        <br>
+
+        <p data-lang-id="035-block2-unlike-company-title"><b>Unlike a Company&hellip;</b></p>
+
+        <p data-lang-id="036-block2-p3">Unlike most companies, we do not distribute profits to individuals&mdash; not to owners, shareholders, investors, workers, managers, board directors, trainers, members or core team. We do not have owners or shareholders who expect to make money from the business, and none of our assets will be distributed to individuals when the enterprise comes to its end.</p>
+
+        <p data-lang-id="037-block2-p4">That doesn&rsquo;t mean we&rsquo;re for loss, either. We earn revenue from our services and products, and raise funds for our projects. But unlike many companies, we fully disclose where our revenue comes from and where it goes (see our <a href="open-books.php">Open Books</a>), and we strive to keep our content open source and freely available. Any surplus is cycled back into the GEA to better fulfil our mission.</p>
+
+        <p data-lang-id="038-block2-unlike-charity-title"><b>Unlike a Charity&hellip;</b></p>
+
+        <p data-lang-id="039-block2-p5">Unlike a charity, we do not take donations, CSR funds, or sponsorships from companies or governments. This keeps us unbeholden to any outside agenda. Instead, we generate all of our revenue from the sale of our own goods and services&mdash; trainings, catalyst programs, EarthWands, and more&mdash; so we can fund our work with full authenticity. We have no staff, employees, offices or paid positions. Our trainers, members and core team are not remunerated for generating profit, but for the value they bring in fulfilling our mission&mdash; they are fully autonomous, and are paid directly for the trainings, workshops, consultations and products they provide.</p>
+
+        <p data-lang-id="040-block2-unlike-foundation-title"><b>Unlike a Foundation&hellip;</b></p>
+
+        <p data-lang-id="041-block2-p6">Unlike many foundations, we spend nothing on advertising or marketing, relying instead on authenticity and the principles of collaborative mandalic manifestation. And unlike an NGO, we do not rely on volunteers&mdash; all of our operations are carried out by our GEA Trainer and Core Team: people who have completed one of our advanced trainings and remain perpetually committed to our mission, vision and principles.</p>
+
+        <br><br>
+        <h5 data-lang-id="042-block2-quote">&ldquo;In a world with NFP business at its heart, profit is a means by which social and environmental well-being is achieved; it is not a goal in itself.&rdquo;</h5>
+
+        <h5 data-lang-id="043-block2-citation">&ndash; How on Earth, Hinton &amp; Maclurcan (2016)</h5>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block3">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="044-block3-header">Being the Change</h4>
+            <h5 data-lang-id="045-block3-subheader">We strive to lead by example in our households and enterprises.</h5>
+        </div>
+        <button onclick="preclosed3()" class="block-toggle" id="block-toggle-show3">+</button>
+    </div>
+
+    <div id="preclosed3">
+        <p data-lang-id="046-block3-p1">As ecobrickers ourselves, we&rsquo;ve been ecobricking our own plastic and building with our ecobricks for years. This has given us the chance to reflect on our own plastic consumption. We feel that solving plastic is a lot more complex than banning straws or bringing a bag to the shops. While such small steps are essential, deeply solving plastic requires a much longer journey&mdash; from the personal, to the household, to the community, to economic shift.</p>
+
+        <p data-lang-id="047-block3-p2">We observe that the consumption and production of plastic is rooted in our cultures and in how the global economy works&mdash; inextricably bound to the petroleum and capital that make it spin. Rather than stress about these big systemic issues, we&rsquo;ve chosen to focus first on our own personal plastic consumption&mdash; something we can be sure to do something about. Small as it may seem, we believe our own plastic is important enough that &lsquo;leading by personal example&rsquo; is one of our <a href="/principles" data-lang-id="048-block3-link1">core principles</a>. As we&rsquo;ve come together as the Global Ecobrick Alliance, we&rsquo;ve realized that deeply solving plastic also means leading through our allied action, our enterprise structure, and our principles.</p>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block4">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="049-block4-header">Principled Practice</h4>
+            <h5 data-lang-id="050-block4-subheader">As an Earth Enterprise the GEA follows seven principles that ensure our goals, operations and results stay deeply in line with our vision and mission, in both the short and long term.</h5>
+        </div>
+        <button onclick="preclosed4()" class="block-toggle" id="block-toggle-show4">+</button>
+    </div>
+    <div id="preclosed4">
+        <p data-lang-id="051-block4-p1"><b>1. Regenerative Earth Service</b></p>
+        <p data-lang-id="052-block4-p2">The methods, techniques, processes and principles of our work are focused on serving the ecological health of the planet by enriching the cycles of interdependence between us and our fellow species. We ensure our enterprise is regenerative by accounting for our ecological impacts&mdash; both greening and greying&mdash; and ensuring our net impact is green.</p>
+        <p data-lang-id="053-block4-p3"><b>2. Leading by Example</b></p>
+        <p data-lang-id="054-block4-p4">We ensure the processes, methods, products and services of our enterprise are fully in line with the principles of the ecobrick movement. Through our trainings and organizational parameters, we ensure every member of our team instantiates and embodies these principles in their life and work.</p>
+        <p data-lang-id="055-block4-p5"><b>3. Open Source</b></p>
+        <p data-lang-id="056-block4-p6">We strive to make our content accessible and free to the world&mdash; our guidebooks, non-personal GoBrik data, illustrations and source files&mdash; under Creative Commons Attribution-ShareAlike licenses, and to work wherever possible with organizations that resonate with our principles.</p>
+        <p data-lang-id="057-block4-p7"><b>4. Gender, Age &amp; Status Transcendent</b></p>
+        <p data-lang-id="058-block4-p8">We craft methods and processes that don&rsquo;t restrict participation by men and women, young and old, rich and poor, and everyone in between&mdash; and we actively encourage co-creative partnerships across these divides.</p>
+        <p data-lang-id="059-block4-p9"><b>5. Fair &amp; Abundant Remuneration for Earth Service</b></p>
+        <p data-lang-id="060-block4-p10">We actively cultivate the space and parameters so our trainers, staff and principals receive fair and abundant remuneration for their service to the Earth. As our enterprise expands, we will maintain a defined ratio between the highest- and lowest-paid person in the organization.</p>
+        <p data-lang-id="061-block4-p11"><b>6. Financial and Impact Transparency</b></p>
+        <p data-lang-id="062-block4-p12">We strive to make all our financials&mdash; both in fiat currency and on our Brikcoin blockchain&mdash; transparent and accessible, and we disclose our net impacts in terms of CO2 and plastic.</p>
+        <p data-lang-id="063-block4-p13"><b>7. Not for Profit</b></p>
+        <p data-lang-id="064-block4-p14">No individuals or shareholders profit from the operation of the enterprise. At the end of the year, any unspent funds are reinvested back into fulfilling our mission and vision.</p>
+        <h6 data-lang-id="065-block4-link1"><a href="principles.php">Learn more about ecobricking principles</a></h6>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block5">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="066-block5-header">Our Work</h4>
+            <h5 data-lang-id="067-block5-subheader">We maintain the technical and philosophical infrastructure for the local and global ecobrick movements.</h5>
+        </div>
+        <button onclick="preclosed5()" class="block-toggle" id="block-toggle-show5">+</button>
+    </div>
+    <div id="preclosed5">
+        <p data-lang-id="068-block5-p1"><b>Ecobricks.org</b></p>
+        <p data-lang-id="069-block5-p2">We maintain Ecobricks.org (this site) as the go-to source for up-to-date ecobrick information, methods, data and best practices.</p>
+        <p data-lang-id="070-block5-p3"><b>GoBrik.com</b></p>
+        <p data-lang-id="071-block5-p4">The GEA maintains and develops the free <a href="https://gobrik.com" target="_blank" rel="noopener">GoBrik.com web app</a> to support and connect ecobrickers and their communities.</p>
+        <p data-lang-id="072-block5-p5"><b>Brikcoin Manual Blockchain</b></p>
+        <p data-lang-id="073-block5-p6">The GEA developed and maintains the <a href="brikcoins.php">Brikcoin manual blockchain</a> as a means to value the plastic sequestration service of ecobrickers, and to build a medium of exchange rooted in ecological value. Brikcoins are generated and exchanged on GoBrik with a free account.</p>
+        <p data-lang-id="074-block5-p7"><b>Ecobrick Best Practices</b></p>
+        <p data-lang-id="075-block5-p8">We maintain best practices and standards for <a href="what.php">making ecobricks</a> and for their <a href="build.php">building applications</a>.</p>
+        <p data-lang-id="076-block5-p9"><b>GEA Team Platforms</b></p>
+        <p data-lang-id="077-block5-p10">We maintain team communication and file-server platforms for the GEA Core Team and Trainer network, run on our own servers.</p>
+        <p data-lang-id="078-block5-p11"><b>Reports &amp; Whitepapers</b></p>
+        <p data-lang-id="079-block5-p12">We actively develop and publish reports, research and white papers on ecobrick and plastic transition topics.</p>
+        <p data-lang-id="080-block5-p13"><b>Ecobrick Educational Resources</b></p>
+        <p data-lang-id="081-block5-p14">The GEA develops and deploys resources such as <a href="https://youtube.com/ecobricks" target="_blank" rel="noopener">video tutorials</a> on our YouTube channel, photocopiable PDF guidebooks, ecobrickable design parameters, and <a href="/trainings">ecobrick trainings</a>.</p>
+        <p data-lang-id="082-block5-p15"><b>Plastic Accounting Coefficients</b></p>
+        <p data-lang-id="083-block5-p16">The GEA researches, publishes and maintains <a href="coefficients.php">standards for plastic equivalencies</a> for regenerative accounting.</p>
+        <p data-lang-id="084-block5-p17"><b>Academic, Scientific &amp; Indigenous Peoples&rsquo; Dialogue</b></p>
+        <p data-lang-id="085-block5-p18">The GEA dialogues with scientists, academics and indigenous leaders to support their work researching plastic pollution and developing plastic transition solutions.</p>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block6">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="086-block6-header">Methodology</h4>
+            <h5 data-lang-id="087-block6-subheader">We cultivate a global network of certified ecobrick trainers to carry the movement forward.</h5>
+        </div>
+        <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+    </div>
+    <div id="preclosed6">
+        <p data-lang-id="088-block6-p1">The GEA fulfils its mission and vision of plastic transition by first and foremost cultivating a global network of certified ecobrick trainers. We believe there is nothing more impactful than empowering everyday people to lead by example and &ldquo;be the change we want to see in the world&rdquo;. Our trainers are versed in the science and philosophy behind plastic transition and, though fully independent and autonomous from the GEA, are supported by their national team community and by the GEA itself.</p>
+        <p data-lang-id="089-block6-p2"><b>Ecobrick Starter Workshops</b></p>
+        <p data-lang-id="090-block6-p3">Our global network of GEA Trainers leads basic Ecobrick Starter Workshops in their local communities&mdash; introducing fundamental techniques and principles, and uniting groups around transformative community projects. Keen participants are encouraged to join our Trainer of Trainers program.</p>
+        <p data-lang-id="091-block6-p4"><b>Training of Trainers</b></p>
+        <p data-lang-id="092-block6-p5">In our ToT programs, ecobrickers gain in-depth knowledge of the science and techniques behind ecobricking, with a special emphasis on leading by example. Our new trainers then run their own starter workshops, establish their own ecobrick community hubs, and cultivate their own networks of ecobrickers.</p>
+        <p data-lang-id="093-block6-p6"><b>GEA Country Teams</b></p>
+        <p data-lang-id="094-block6-p7">As ecobricks spread, we set up teams of GEA Trainers to preside over the often-viral interest and adoption of ecobricks&mdash; coordinating workshops, media and business interest in their region.</p>
+        <p data-lang-id="095-block6-p8"><b>Country Social Media Pages</b></p>
+        <p data-lang-id="096-block6-p9">Our GEA Country teams set up Facebook and social media pages to help energize the spread of ecobricks locally. These groups often grow to thousands of members and are ideal for fielding beginners&rsquo; questions and correcting misconceptions.</p>
+        <p data-lang-id="097-block6-p10">The GEA methodology and the core of our trainer programs embody the principles of Collaborative Mandalic Manifestation, developed by GEA founder Russell Maier.</p>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block7">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="098-block7-header">Participation</h4>
+            <h5 data-lang-id="099-block7-subheader">Participation in the GEA is proportional to commitment.</h5>
+        </div>
+        <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+    </div>
+    <div id="preclosed7">
+        <p data-lang-id="100-block7-p1"><b>Anyone</b></p>
+        <p data-lang-id="101-block7-p2">Anyone anywhere is welcome to join one of our Ecobrick Starter Workshops and register for a free GoBrik account&mdash; or simply to start ecobricking.</p>
+        <p data-lang-id="102-block7-p3"><b>Ecobrickers</b></p>
+        <p data-lang-id="103-block7-p4">Any experienced ecobricker is welcome to join our Trainer Training Program&mdash; either a live ToT or one of our online trainer courses.</p>
+        <p data-lang-id="104-block7-p5"><b>GEA Trainers</b></p>
+        <p data-lang-id="105-block7-p6">GEA Certified Trainers are invited to join our national trainer teams and, where keen, our coordination committees. Trainers who complete our Earth &amp; Ecobrick Building course are eligible to lead GEA Earth Building Workshops, and trainers who complete our mentored Master Trainer program can run live and online ToTs in their country.</p>
+        <p data-lang-id="106-block7-p7"><b>GEA Members</b></p>
+        <p data-lang-id="107-block7-p8">GEA Certified Trainers who maintain good standing, complete the GEA Mandalic Collaboration Training, and meet membership requirements are eligible for GEA membership and voting status&mdash; including the ability to lead our Circular Committees and join our core team.</p>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block8">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="108-block8-header">The GEA Intention Map</h4>
+            <h5 data-lang-id="109-block8-subheader">Our operations and standards, fully disclosed.</h5>
+        </div>
+        <button onclick="preclosed8()" class="block-toggle" id="block-toggle-show8">+</button>
+    </div>
+    <div id="preclosed8">
+        <p data-lang-id="110-block8-p1">The Global Ecobrick Alliance operates according to its ever-evolving Earth Enterprise Intention Map.</p>
+        <p data-lang-id="111-block8-p2">We continually post our fiat financials to our <a href="open-books.php">Open Books</a> accounting system, while every Brikcoin transaction can be searched and viewed on our <a href="brikchain.php">Brikchain Explorer</a>.</p>
+    </div>
+</div>
+
+	<div class="page-paragraph-reg">
+	<br><br>
+
+	<h4 data-lang-id="112-vision-title"><b>Our Vision</b></h4>
+		<p data-lang-id="113-vision-p">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth&rsquo;s Cycles.</p>
+		<br><br>
+		<h4 data-lang-id="114-mission-title"><b>Our Mission</b></h4>
+		<p data-lang-id="115-mission-p">To raise Ecological Consciousness through the spread of Ecobricking and the transformation of global plastic into local solutions.</p>
+		<br><br>
+		<h4 data-lang-id="116-dedication-title"><b>Dedication</b></h4>
+		<p data-lang-id="117-dedication-p">Our work is dedicated to our Children, our Children&rsquo;s Children&hellip; and the children of all species, for all time.</p>
+		<br><br>
+		<p data-lang-id="118-together-p"><i>Together we can be the transition to ever increasing harmony with the cycles of life.</i></p>
+	</div>
+
+		</div>
+
+		<div class="side">
+
+
+		<?php require_once ("side-modules/for-earth.php");?>
+
+		<?php require_once ("side-modules/transition-module.php");?>
+
+		<?php require_once ("side-modules/eco-accounting.php");?>
+
+		<?php require_once ("side-modules/earthen-ethics.php");?>
+
+		<?php require_once ("side-modules/signup-now.php");?>
+
+		</div>
+
+	</div>
+</div>
+
+
+
+	<!--FOOTER STARTS HERE-->
+
+	<?php require_once ("../footer-2025.php");?>
+
+
+<!-- CUSTOM PAGE SCRIPTS-->
+
+
+<!-- This script is for pages that use the accordion content system-->
+<script src="../js/accordion-scripts.js?v=2" defer></script>
+
+</div>
+</body>
+</html>

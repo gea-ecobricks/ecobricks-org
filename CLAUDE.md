@@ -4,6 +4,16 @@ This file provides orientation for Claude Code (and human contributors) working 
 
 ---
 
+## Commands
+
+There is no build system — no `package.json`, no `composer.json`, no bundler, linter, or test suite. This is hand-edited PHP/JS/CSS served directly by the webserver.
+
+- **Local syntax check for a PHP file:** `php -l path/to/file.php`
+- **Spell-check:** `.cspell/custom-dictionary-folder-ecobricks-org.txt` backs a cspell config (`cspell.config.yaml`) for editor spell-checking; add project-specific terms (ecobrick jargon, Indonesian/Spanish/French words) there rather than suppressing warnings inline.
+- **Verifying a change:** there is no local server config committed (DB connection files aren't in the repo — see below), so changes are typically verified by reading the rendered PHP/HTML directly and, for anything DB-backed, checking that queries use prepared statements correctly. There's no automated test suite to run.
+
+---
+
 ## Project Overview
 
 **Ecobricks.org** is the official website for the **Global Ecobrick Alliance (GEA)**, a not-for-profit based in Indonesia. It promotes ecobricking — packing plastic waste into PET bottles to create reusable building blocks — and connects a global community of ecobrickers via its sister platform, **GoBrik**.
@@ -21,6 +31,9 @@ The site is **hand-coded, vanilla PHP** with no framework. It is multilingual, c
 ├── /meta/                       # PHP SEO meta tag files — one per page per language
 ├── /translations/               # JS translation object files — one per page per language
 ├── /api/                        # JSON API endpoints (MySQLi, DataTables-compatible)
+├── /scripts/                    # AJAX handlers (ajax-*.php) + standalone processing scripts
+│                                 #   (process_ecobrick*.php, training*.php, ssp.class.php for
+│                                 #   DataTables server-side processing) — distinct from /api/
 ├── /js/                         # Global JavaScript modules
 ├── /css/                        # Stylesheets (main, content, light/dark mode, footer)
 ├── /fonts/                      # Mulish and Arvo font files

@@ -58,6 +58,11 @@ deployment:
     - /usr/bin/install -m 644 en/ocean.php $WEBROOT/fr/ocean.php
     - /usr/bin/install -m 644 en/ocean.php $WEBROOT/id/ocean.php
 
+    - /usr/bin/install -m 644 en/story.php $WEBROOT/zh/story.php
+    - /usr/bin/install -m 644 en/story.php $WEBROOT/es/story.php
+    - /usr/bin/install -m 644 en/story.php $WEBROOT/fr/story.php
+    - /usr/bin/install -m 644 en/story.php $WEBROOT/id/story.php
+
     # 4) Copy side-modules (individual files)
     - /usr/bin/install -m 644 en/side-modules/sequest-module.php $WEBROOT/zh/side-modules/sequest-module.php
     - /usr/bin/install -m 644 en/side-modules/signup-now.php $WEBROOT/zh/side-modules/signup-now.php
