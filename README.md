@@ -20,7 +20,7 @@ The site is entirely hand-coded using:
 
 We have intentionally built and maintained our own stack since 2011 in order to embody regenerative principles directly in our digital infrastructure.
 
-We deploy frequent updates from this repository, often daily.
+We deploy frequent updates from this repository, often daily.  Let us know on github if you see any bugs or can suggest any improvements.
 
 ---
 
