@@ -31,6 +31,7 @@ include '../ecobricks_env.php';
            </div>
            -->
 
+            <!--
             <div id="slider-content-5" class="slider-slide" >
                 <div class="featured-content-shaded-box">
                     <div class="featured-content-text">
@@ -40,6 +41,7 @@ include '../ecobricks_env.php';
                     </div>
                 </div>
            </div>
+           -->
 
             <div id="slider-content-2" class="slider-slide" >
             <div class="featured-content-shaded-box">
