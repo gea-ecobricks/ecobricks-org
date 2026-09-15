@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.2';?>
+<?php $version='1.3';?>
 <?php $page='story';?>
 
 <?php require_once ("../includes/story-inc2.php");?>

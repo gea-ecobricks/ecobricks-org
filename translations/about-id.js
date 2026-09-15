@@ -109,10 +109,20 @@ const id_Page_Translations = {
 '088-page-paragraph-p5': '<b>Dedikasi</b>',
 '089-page-paragraph-p6': 'Pekerjaan kami didedikasikan untuk Anak-anak kami, Anak-anak dari Anak-anak kami… dan anak-anak dari semua spesies, untuk seluruh waktu.',
 '090-page-paragraph-p7': '<i>Bersama kita dapat menjadi transisi menuju harmoni yang semakin meningkat dengan siklus kehidupan.</i>',
+'091-story-module-image-alt': 'Pemandangan dataran tinggi Igorot yang subur di Luzon Utara',
+'092-story-module-header': 'Kisah Kami',
+'093-story-module-text': 'Aliansi Ecobrick Global lahir di tanah masyarakat adat Igorot, dan cara kami dipandu oleh etos ekologis siklosentris mereka.',
+'094-story-module-btn': 'Baca Kisah Kami',
+'095-block6-header': 'Para Pendiri',
+'096-block6-subheader': 'GEA dimulai oleh para pemimpin akar rumput global dalam gerakan ini pada tahun 2013.',
+'097-block6-p1': 'Pada tahun 2013, gerakan &ldquo;bottle bricks&rdquo;, &ldquo;eco-bricks&rdquo;, dan &ldquo;EcoBricks&rdquo; sedang berkembang pesat di seluruh dunia. Melalui media sosial, Jo Stodgel (AS), Candice Mostert (Afrika Selatan), Russell Maier (Kanada/Filipina), Irene Bakisan (Filipina), dan Ian Domisse (Afrika Selatan) saling terhubung. Mereka memutuskan bahwa penting untuk menyelaraskan cara mereka berbicara dan mengajarkan metodologi transformasi plastik yang pada dasarnya sama. Pertama, mereka sepakat menggunakan istilah yang konsisten: kata tunggal &lsquo;ecobrick&rsquo;, tanpa huruf kapital dan tanpa tanda hubung. Mereka mendaftarkan domain ini, dan mulai membuat halaman Wikipedia resmi untuk &lsquo;ecobrick&rsquo;. Kemudian, mereka memutuskan pentingnya memiliki sebuah organisasi yang menjaga pedoman dasar dan praktik terbaik yang mereka sadari sangat penting. Dari sinilah, Aliansi Ecobrick Global terbentuk, dan selebihnya adalah sejarah.',
+'098-block6-p2': 'Anda dapat membaca kisah lengkap Aliansi Ecobrick Global <a href="story.php">di sini</a>.',
+'099-block6-p3': 'Lihat juga <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">halaman Wikipedia Ecobricks</a>.',
+'100-block7-header': 'Lingkaran Inti',
+'101-block7-subheader': 'Aliansi Ecobrick Global dipandu oleh sekelompok sukarelawan Pelatih GEA dan Pelatih Master yang telah maju untuk mengelola operasional dan keputusan penting organisasi.',
+'102-block7-p1': 'Per September 2026, Lingkaran Inti GEA kami terdiri dari:',
+'103-block7-list': '<ul><li>Aang Hudaya &ndash; Bogor, Indonesia (Pelatih Master GEA)</li><li>Ani Himawati &ndash; Jogja, Indonesia (Pelatih Master GEA)</li><li>Fran O&rsquo;Flanagan &ndash; Swindon, Inggris (Pelatih)</li><li>Russell Maier (Pelatih Master, Pendiri)</li><li>Lucie Mann &ndash; Hythe, Inggris (Pelatih Master)</li><li>Paula Apollonia &ndash; Jerman (Pelatih)</li><li>Rere Bening &ndash; Jawa Timur, Indonesia (Pelatih Master)</li></ul>'
 
-
-
-    
 }
         
       
