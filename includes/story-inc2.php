@@ -1,6 +1,6 @@
 <!--Image files to preload that are unique to this page-->
 
-<link rel="preload" as="image" href="../photos/igorot-land.webp">
+<link rel="preload" as="image" href="../pngs/community.png">
 <link rel="preload" as="image" href="../webp/about-banner-1500px-b.webp">
 <link rel="preload" as="image" href="../webp/about-banner-800px.webp">
 
@@ -93,8 +93,11 @@
   background: var(--emblem-green-over);
 }
 
-
-
+hr.story-divider {
+  border: none;
+  border-top: 2px solid var(--emblem-green);
+  margin: 30px 0;
+}
 
 </style>
 

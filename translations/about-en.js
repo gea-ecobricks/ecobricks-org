@@ -102,9 +102,20 @@ const en_Page_Translations= {
     '088-page-paragraph-p5': '<b>Dedication</b>',
     '089-page-paragraph-p6': 'Our work is dedicated to our Children, our Children’s Children… and the Children of all species, for all time.',
     '090-page-paragraph-p7': '<i>Together we can be the transition to ever increasing harmony with the cycles of life.</i>',
+    '091-story-module-image-alt': 'A view of the verdant Igorot highlands of Northern Luzon',
+    '092-story-module-header': 'Our Story',
+    '093-story-module-text': 'The Global Ecobrick Alliance was born in the land of the indigenous Igorot people and our ways are guided by their cyclocentric ecological ethos.',
+    '094-story-module-btn': 'Read Our Story',
+    '095-block6-header': 'Founders',
+    '096-block6-subheader': 'The GEA was started by global grassroots leaders in the movement back in 2013.',
+    '097-block6-p1': 'Back in 2013, &ldquo;bottle bricks&rdquo;, &ldquo;eco-bricks&rdquo; and &ldquo;EcoBricks&rdquo; movements were taking off around the world. Over social media Jo Stodgel (USA), Candice Mostert (South Africa), Russell Maier (Canada/Philippines), Irene Bakisan (Philippines) and Ian Domisse (South Africa) connected with one another. They decided it was important to get consistent with the way they were talking and teaching about essentially the same plastic transformation methodology. First, they settled on using the same consistent terminology: the single non-capitalized, non-hyphenated term &lsquo;ecobrick&rsquo;. They registered this very domain, and they got started on the official &lsquo;ecobrick&rsquo; Wikipedia page. Then, they decided it was important to have an organization that kept on top of the basic guidelines and best practices that they were fast learning were crucial. Out of this, the Global Ecobrick Alliance was formed, and the rest is history.',
+    '098-block6-p2': 'You can read the full story of the Global Ecobrick Alliance <a href="story.php">here</a>.',
+    '099-block6-p3': 'See also the <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">Ecobricks Wikipedia page</a>.',
+    '100-block7-header': 'Center Circle',
+    '101-block7-subheader': 'The Global Ecobrick Alliance is guided by a volunteer group of GEA Trainers and Master Trainers who have stepped up to manage the operations and important decisions of the organization.',
+    '102-block7-p1': 'As of September, 2026 our GEA Center Circle is comprised of:',
+    '103-block7-list': '<ul><li>Aang Hudaya &ndash; Bogor, Indonesia (GEA Master Trainer)</li><li>Ani Himawati &ndash; Jogja, Indonesia (GEA Master Trainer)</li><li>Fran O&rsquo;Flanagan &ndash; Swindon, UK (Trainer)</li><li>Russell Maier (Master Trainer, Founder)</li><li>Lucie Mann &ndash; Hythe, UK (Master Trainer)</li><li>Paula Apollonia &ndash; Germany (Trainer)</li><li>Rere Bening &ndash; East Java, Indonesia (Master Trainer)</li></ul>'
 
-
-    
 }
         
       

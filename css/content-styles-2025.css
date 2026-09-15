@@ -631,6 +631,27 @@ SPLASH TOP
     color:var(--top-header);
 }
 
+.ghost-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border: 2px solid var(--emblem-green);
+    border-radius: 20px;
+    color: var(--emblem-green);
+    background: transparent;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.ghost-btn:hover {
+    background: var(--emblem-green);
+    color: #fff;
+    text-decoration: none;
+}
+
 .block-toggle {
     cursor:pointer;
 }
