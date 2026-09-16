@@ -64,6 +64,9 @@ deployment:
     - /usr/bin/install -m 644 en/story.php $WEBROOT/id/story.php
 
     - /usr/bin/install -m 644 en/about.php $WEBROOT/zh/about.php
+    - /usr/bin/install -m 644 en/about.php $WEBROOT/es/about.php
+    - /usr/bin/install -m 644 en/about.php $WEBROOT/fr/about.php
+    - /usr/bin/install -m 644 en/about.php $WEBROOT/id/about.php
 
     # 4) Copy side-modules (individual files)
     - /usr/bin/install -m 644 en/side-modules/sequest-module.php $WEBROOT/zh/side-modules/sequest-module.php
