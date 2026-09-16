@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.5';?>
+<?php $version='1.7';?>
 <?php $page='story';?>
 
 <?php require_once ("../includes/story-inc2.php");?>
@@ -42,22 +42,10 @@
     <img src="../webp/chico-river-green.webp" style="width:100%" loading="lazy" alt="Rice terraces in Northern Luzon" data-lang-id="010-block1-hero-image-alt">
     <p style="font-size:smaller;color:grey;margin-bottom:10px" data-lang-id="011-block1-hero-caption">Rice terraces in Northern, Luzon have been kept by the Igorots for centuries as a means of food self-sufficiency.</p>
 
-    <div class="row">
-        <div class="main2">
-            <p data-lang-id="012-block1-main2-p1">The Global Ecobrick Alliance finds its roots in the mountains of the remote Northern Philippines. In 2010, on a vacation gone wrong, <a href="https://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank" rel="noopener">Canadian artist Russell Maier became stranded in a small village in the Sabangan Valley</a>, in the land of the Igorot people. Unable to make ends meet and return home, Russell&mdash; an artist with a background in philosophy&mdash; was compelled to make his home in the Cordilleras for five years.</p>
-            <p data-lang-id="013-block1-main2-p2">Living in the community, he began to wonder what was happening to the plastic bottles, packaging and other items he was consuming and throwing away. Following his neighbours as they gathered and carried away the neighbourhood waste, he discovered his plastic was being dumped into the local Chico River, near where the children swam and the men fished. Disturbed by this, he began experimenting with upcycling&mdash; refurbishing his home with plastic creations and selling them abroad. But he was haunted by one question: what happens when these plastic creations come to their end? Was the plastic problem really being solved?</p>
-        </div>
-        <div class="side2" data-lang-id="016-block1-side2-image"><img src="../webp/chico-river-green.webp" width="300" style="width:88%" alt="The Chico River near Bontoc, in the land of the Igorot people" data-lang-id="017-block1-side2-image-alt">
-        </div>
-    </div>
+    <p data-lang-id="012-block1-main2-p1">The Global Ecobrick Alliance finds its roots in the mountains of the remote Northern Philippines. In 2010, on a vacation gone wrong, <a href="https://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank" rel="noopener">Canadian artist Russell Maier became stranded in a small village in the Sabangan Valley</a>, in the land of the Igorot people. Unable to make ends meet and return home, Russell&mdash; an artist with a background in philosophy&mdash; <a href="https://russs.net/how-i-fucked-up-my-life-and-became-stranded-in-a-remote-tribal-village-for-four-years/" target="_blank" rel="noopener" data-lang-id="012a-block1-link1">was compelled to make his home in the Cordilleras for five years</a>.</p>
+    <p data-lang-id="013-block1-main2-p2">Living in the community, he began to wonder what was happening to the plastic bottles, packaging and other items he was consuming and throwing away. Following his neighbours as they gathered and carried away the neighbourhood waste, he discovered his plastic was being dumped into the local Chico River, near where the children swam and the men fished. Disturbed by this, he began experimenting with upcycling&mdash; refurbishing his home with plastic creations and selling them abroad. But he was haunted by one question: what happens when these plastic creations come to their end? Was the plastic problem really being solved?</p>
 
-    <div class="row2">
-        <div class="main3">
-            <p data-lang-id="018-block1-main3-p1">Around this time, Russell was introduced to the work of Andreas Froese, who had been filling bottles with sand in Central America to make &ldquo;bottle bricks&rdquo;. Russell and his friends headed down to the Chico River to try the technique. The spot where they gathered sand happened to be where the local plastic was dumped and burned&mdash; so they improvised, packing a mix of sand and plastic into the bottles. It worked just as well, so they added more and more plastic. With a mix of bottles&mdash; some packed with sand, some packed solely with plastic&mdash; they built a small garden wall. Not only were the plastic-filled bottles just as effective, they had the added benefit of securing plastic that would otherwise have washed into the river.</p>
-        </div>
-        <div class="side3" data-lang-id="019-block1-side3-image"><img src="../webp/chico-river-green.webp" width="120" style="width:88%" alt="The Chico River near Bontoc, in the land of the Igorot people" data-lang-id="020-block1-side3-image-alt">
-        </div>
-    </div>
+    <p data-lang-id="018-block1-main3-p1">Around this time, Russell was introduced to the work of Andreas Froese, who had been filling bottles with sand in Central America to make &ldquo;bottle bricks&rdquo;. Russell and his friends headed down to the Chico River to try the technique. The spot where they gathered sand happened to be where the local plastic was dumped and burned&mdash; so they improvised, packing a mix of sand and plastic into the bottles. It worked just as well, so they added more and more plastic. With a mix of bottles&mdash; some packed with sand, some packed solely with plastic&mdash; they built a small garden wall. Not only were the plastic-filled bottles just as effective, they had the added benefit of securing plastic that would otherwise have washed into the river.</p>
 
     <br>
 
@@ -66,6 +54,7 @@
     <div class="video-placeholder" id="video-placeholder-1" style="background-image:url('https://img.youtube.com/vi/Ynh0RYORsOM/hqdefault.jpg')">
         <div class="play-button" id="play-button-1"></div>
     </div>
+    <p style="font-size:smaller;color:grey;margin-bottom:10px" data-lang-id="032-block1-video1-caption">Solving Plastic -- one bottle at a time in the Northern Philippines</p>
 
     <p data-lang-id="022-block1-p2">The development of ecobrick concepts was deeply influenced by Igorot principles. Inspired by a stone rice-terrace wall that had collapsed in a storm and was rebuilt using the very same stones, Russell and Irene were determined that ecobrick constructions should also be reusable over and over again. Inspired by the concept of <a href="/ayyew" data-lang-id="023-block1-link1">Ayyew</a>, the team prioritized using ecobricks for building green spaces that would enrich neighbourhoods and schools.</p>
 
@@ -74,8 +63,11 @@
     <div class="video-placeholder" id="video-placeholder-2" style="background-image:url('https://img.youtube.com/vi/peDg7qwWMKU/hqdefault.jpg')">
         <div class="play-button" id="play-button-2"></div>
     </div>
+    <p style="font-size:smaller;color:grey;margin-bottom:10px" data-lang-id="033-block1-video2-caption">Seni Mengolah Sampah Plastik &ndash; Insight with Desi Anwar</p>
 
-    <p data-lang-id="025-block1-p4">In early 2015, Russell moved to Indonesia and with the help of Nurkinanti Laraskusuma the Vision Ecobrick Guide was translated to Indonesian. At the end of 2015, Russell Maier and Ani Himawati officially founded the GEA as a not-for-profit Earth Enterprise, with the mission of supporting the technological and philosophical infrastructure of the global ecobrick movement. In 2016, the movement ignited in Yogyakarta, Indonesia. Ani Himawati was instrumental in developing the GEA&rsquo;s training methodology, applying the principles of mandalic community manifestation developed by Russell Maier&mdash; a methodology that has since carried the Indonesian movement to exponential growth through starter workshops, trainer-of-trainer programs, and ecobrick convergences.</p>
+    <p data-lang-id="025-block1-p4">In early 2015, Russell moved to Indonesia and with the help of Nurkinanti Laraskusuma the Vision Ecobrick Guide was translated to Indonesian. At the end of 2015, Russell Maier and Ani Himawati officially founded the GEA as a not-for-profit Earth Enterprise, with the mission of supporting the technological and philosophical infrastructure of the global ecobrick movement. In 2016, the movement ignited in Yogyakarta, Indonesia. Ani Himawati was instrumental in developing the GEA&rsquo;s training methodology, applying <a href="https://russs.net/mandalas/" target="_blank" rel="noopener" data-lang-id="025a-block1-link1">the principles of mandalic community manifestation developed by Russell Maier</a>&mdash; a methodology that has since carried the Indonesian movement to exponential growth through starter workshops, trainer-of-trainer programs, and ecobrick convergences.</p>
+
+    <p data-lang-id="034-block1-p9">In the years since, the Indonesian ecobrick movement, partnering with various local governments, Church and Islamic organizations, national scouts and student ecological movements, has been introduced to tens of millions of Indonesians across the nation&rsquo;s archipelago.</p>
 
     <p data-lang-id="029-block1-p6">Over 2017&ndash;18, hundreds of trainers joined the GEA network across the Philippines, Indonesia, and South Africa through our live and online <a href="/trainings" data-lang-id="029a-block1-link1">trainer-of-trainer programs</a>. In 2018, our first three USA trainers&mdash; Sabrina Auclair, Luke Henkel and Jess Beck&mdash; joined the team.</p>
 
@@ -141,8 +133,8 @@ function loadStoryVideo(placeholderId, playButtonId, videoId, title) {
     });
 }
 
-loadStoryVideo('video-placeholder-1', 'play-button-1', 'Ynh0RYORsOM', 'Our Story');
-loadStoryVideo('video-placeholder-2', 'play-button-2', 'peDg7qwWMKU', 'Our Story');
+loadStoryVideo('video-placeholder-1', 'play-button-1', 'Ynh0RYORsOM', 'Solving Plastic -- one bottle at a time in the Northern Philippines');
+loadStoryVideo('video-placeholder-2', 'play-button-2', 'peDg7qwWMKU', 'Seni Mengolah Sampah Plastik – Insight with Desi Anwar');
 </script>
 
 </div>
