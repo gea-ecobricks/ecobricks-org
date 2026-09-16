@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='en';?>
-<?php $version='1.3';?>
+<?php $version='1.4';?>
 <?php $page='story';?>
 
 <?php require_once ("../includes/story-inc2.php");?>
@@ -41,7 +41,7 @@
 
     <div class="row">
         <div class="main2">
-            <p data-lang-id="012-block1-main2-p1">The Global Ecobrick Alliance finds its roots in the mountains of the remote Northern Philippines. In 2010, on a vacation gone wrong, Canadian artist <a href="about.php">Russell Maier</a> became stranded in a small village in the Sabangan Valley, in the land of the Igorot people. Unable to make ends meet and return home, Russell&mdash; an artist with a background in philosophy&mdash; was compelled to make his home in the Cordilleras for five years.</p>
+            <p data-lang-id="012-block1-main2-p1">The Global Ecobrick Alliance finds its roots in the mountains of the remote Northern Philippines. In 2010, on a vacation gone wrong, <a href="https://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank" rel="noopener">Canadian artist Russell Maier became stranded in a small village in the Sabangan Valley</a>, in the land of the Igorot people. Unable to make ends meet and return home, Russell&mdash; an artist with a background in philosophy&mdash; was compelled to make his home in the Cordilleras for five years.</p>
             <p data-lang-id="013-block1-main2-p2">Living in the community, he began to wonder what was happening to the plastic bottles, packaging and other items he was consuming and throwing away. Following his neighbours as they gathered and carried away the neighbourhood waste, he discovered his plastic was being dumped into the local Chico River, near where the children swam and the men fished. Disturbed by this, he began experimenting with upcycling&mdash; refurbishing his home with plastic creations and selling them abroad. But he was haunted by one question: what happens when these plastic creations come to their end? Was the plastic problem really being solved?</p>
         </div>
         <div class="side2" data-lang-id="016-block1-side2-image"><img src="../webp/chico-river-green.webp" width="300" style="width:88%" alt="The Chico River near Bontoc, in the land of the Igorot people" data-lang-id="017-block1-side2-image-alt">
