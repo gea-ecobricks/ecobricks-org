@@ -63,6 +63,8 @@ deployment:
     - /usr/bin/install -m 644 en/story.php $WEBROOT/fr/story.php
     - /usr/bin/install -m 644 en/story.php $WEBROOT/id/story.php
 
+    - /usr/bin/install -m 644 en/about.php $WEBROOT/zh/about.php
+
     # 4) Copy side-modules (individual files)
     - /usr/bin/install -m 644 en/side-modules/sequest-module.php $WEBROOT/zh/side-modules/sequest-module.php
     - /usr/bin/install -m 644 en/side-modules/signup-now.php $WEBROOT/zh/side-modules/signup-now.php
@@ -70,3 +72,5 @@ deployment:
     - /usr/bin/install -m 644 en/side-modules/earthen-ethics.php $WEBROOT/zh/side-modules/earthen-ethics.php
     - /usr/bin/install -m 644 en/side-modules/about-gea.php $WEBROOT/zh/side-modules/about-gea.php
     - /usr/bin/install -m 644 en/side-modules/for-earth.php $WEBROOT/zh/side-modules/for-earth.php
+    - /usr/bin/install -m 644 en/side-modules/story-teaser.php $WEBROOT/zh/side-modules/story-teaser.php
+    - /usr/bin/install -m 644 en/side-modules/eco-accounting.php $WEBROOT/zh/side-modules/eco-accounting.php

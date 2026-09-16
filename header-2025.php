@@ -780,7 +780,7 @@ display: none;
 <!-- Our History -->
 <div class="submenu-item-container">
     <div class="submenu-item" data-lang-id="045-menu-5-sub-item-2">
-        <a href="/story">Our History</a>
+        <a href="story.php">Our History</a>
         <span class="circle" title="This page is 100% translated to English but in our non-git format.  Queued for migration." style="color:orange; ">●</span>
     </div>
     <div class="translation-info" data-lang-id="046-menu-5-trans-text-2">🏴󠁧󠁢󠁥󠁮󠁧󠁿 /story has been translated 100% | migration to new git site pending</div>

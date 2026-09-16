@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="UTF-8">
 <?php $lang='id';?>
-<?php $version='1.65';?>
+<?php $version='1.66';?>
 <?php $page='about';?>
 
 <?php require_once ("../includes/about2-inc.php");?>
@@ -214,9 +214,53 @@
     </div>
 </div>
 
+<div class="reg-content-block" id="block6">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="095-block6-header">Founders</h4>
+            <h5 data-lang-id="096-block6-subheader">The GEA was started by global grassroots leaders in the movement back in 2013.</h5>
+        </div>
+        <button onclick="preclosed6()" class="block-toggle" id="block-toggle-show6">+</button>
+    </div>
+
+    <div id="preclosed6">
+        <p data-lang-id="097-block6-p1">Back in 2013, &ldquo;bottle bricks&rdquo;, &ldquo;eco-bricks&rdquo; and &ldquo;EcoBricks&rdquo; movements were taking off around the world. Over social media Jo Stodgel (USA), Candice Mostert (South Africa), Russell Maier (Canada/Philippines), Irene Bakisan (Philippines) and Ian Domisse (South Africa) connected with one another. They decided it was important to get consistent with the way they were talking and teaching about essentially the same plastic transformation methodology. First, they settled on using the same consistent terminology: the single non-capitalized, non-hyphenated term &lsquo;ecobrick&rsquo;. They registered this very domain, and they got started on the official &lsquo;ecobrick&rsquo; Wikipedia page. Then, they decided it was important to have an organization that kept on top of the basic guidelines and best practices that they were fast learning were crucial. Out of this, the Global Ecobrick Alliance was formed, and the rest is history.</p>
+
+        <p data-lang-id="098-block6-p2">You can read the full story of the Global Ecobrick Alliance <a href="story.php">here</a>.</p>
+
+        <p data-lang-id="099-block6-p3">See also the <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">Ecobricks Wikipedia page</a>.</p>
+    </div>
+</div>
+
+
+<div class="reg-content-block" id="block7">
+    <div class="opener-header">
+        <div class="opener-header-text">
+            <h4 data-lang-id="100-block7-header">Center Circle</h4>
+            <h5 data-lang-id="101-block7-subheader">The Global Ecobrick Alliance is guided by a volunteer group of GEA Trainers and Master Trainers who have stepped up to manage the operations and important decisions of the organization.</h5>
+        </div>
+        <button onclick="preclosed7()" class="block-toggle" id="block-toggle-show7">+</button>
+    </div>
+
+    <div id="preclosed7">
+        <p data-lang-id="102-block7-p1">As of September, 2026 our GEA Center Circle is comprised of:</p>
+        <ul data-lang-id="103-block7-list">
+            <li>Aang Hudaya &ndash; Bogor, Indonesia (GEA Master Trainer)</li>
+            <li>Alex Setiadji &ndash; Kediri, Indonesia (Master Trainer)</li>
+            <li>Ani Himawati &ndash; Jogja, Indonesia (GEA Master Trainer)</li>
+            <li>Fran O&rsquo;Flanagan &ndash; Swindon, UK (Trainer)</li>
+            <li>Russell Maier (Master Trainer, Co-Founder)</li>
+            <li>Lucie Mann &ndash; Hythe, UK (Master Trainer)</li>
+            <li>Paula Apollonia &ndash; Germany (Trainer)</li>
+            <li>Rere Bening &ndash; East Java, Indonesia (Master Trainer)</li>
+        </ul>
+    </div>
+</div>
+
+
 	<div class="page-paragraph">
 	<br><br>
-	
+
 	<h4 data-lang-id="084-page-paragraph-p1"><b>Our Vision</b></h4>
 		<p data-lang-id="085-page-paragraph-p2">We envision a Transition from Plastic in our Households, Communities and Enterprises to an ever Greener Harmony with Earth’s Cycles.</p>
 		<br><br>
@@ -238,7 +282,8 @@
 
 		<div class="side">
 
-		
+		<?php require_once ("side-modules/story-teaser.php");?>
+
 		<?php require_once ("side-modules/for-earth.php");?>
 
 		<?php require_once ("side-modules/transition-module.php");?>

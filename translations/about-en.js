@@ -114,7 +114,7 @@ const en_Page_Translations= {
     '100-block7-header': 'Center Circle',
     '101-block7-subheader': 'The Global Ecobrick Alliance is guided by a volunteer group of GEA Trainers and Master Trainers who have stepped up to manage the operations and important decisions of the organization.',
     '102-block7-p1': 'As of September, 2026 our GEA Center Circle is comprised of:',
-    '103-block7-list': '<ul><li>Aang Hudaya &ndash; Bogor, Indonesia (GEA Master Trainer)</li><li>Ani Himawati &ndash; Jogja, Indonesia (GEA Master Trainer)</li><li>Fran O&rsquo;Flanagan &ndash; Swindon, UK (Trainer)</li><li>Russell Maier (Master Trainer, Founder)</li><li>Lucie Mann &ndash; Hythe, UK (Master Trainer)</li><li>Paula Apollonia &ndash; Germany (Trainer)</li><li>Rere Bening &ndash; East Java, Indonesia (Master Trainer)</li></ul>'
+    '103-block7-list': '<ul><li>Aang Hudaya &ndash; Bogor, Indonesia (GEA Master Trainer)</li><li>Alex Setiadji &ndash; Kediri, Indonesia (Master Trainer)</li><li>Ani Himawati &ndash; Jogja, Indonesia (GEA Master Trainer)</li><li>Fran O&rsquo;Flanagan &ndash; Swindon, UK (Trainer)</li><li>Russell Maier (Master Trainer, Co-Founder)</li><li>Lucie Mann &ndash; Hythe, UK (Master Trainer)</li><li>Paula Apollonia &ndash; Germany (Trainer)</li><li>Rere Bening &ndash; East Java, Indonesia (Master Trainer)</li></ul>'
 
 }
         

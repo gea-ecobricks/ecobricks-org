@@ -121,7 +121,7 @@ const id_Page_Translations = {
 '100-block7-header': 'Lingkaran Inti',
 '101-block7-subheader': 'Aliansi Ecobrick Global dipandu oleh sekelompok sukarelawan Pelatih GEA dan Pelatih Master yang telah maju untuk mengelola operasional dan keputusan penting organisasi.',
 '102-block7-p1': 'Per September 2026, Lingkaran Inti GEA kami terdiri dari:',
-'103-block7-list': '<ul><li>Aang Hudaya &ndash; Bogor, Indonesia (Pelatih Master GEA)</li><li>Ani Himawati &ndash; Jogja, Indonesia (Pelatih Master GEA)</li><li>Fran O&rsquo;Flanagan &ndash; Swindon, Inggris (Pelatih)</li><li>Russell Maier (Pelatih Master, Pendiri)</li><li>Lucie Mann &ndash; Hythe, Inggris (Pelatih Master)</li><li>Paula Apollonia &ndash; Jerman (Pelatih)</li><li>Rere Bening &ndash; Jawa Timur, Indonesia (Pelatih Master)</li></ul>'
+'103-block7-list': '<ul><li>Aang Hudaya &ndash; Bogor, Indonesia (Pelatih Master GEA)</li><li>Alex Setiadji &ndash; Kediri, Indonesia (Pelatih Master)</li><li>Ani Himawati &ndash; Jogja, Indonesia (Pelatih Master GEA)</li><li>Fran O&rsquo;Flanagan &ndash; Swindon, Inggris (Pelatih)</li><li>Russell Maier (Pelatih Master, Salah Satu Pendiri)</li><li>Lucie Mann &ndash; Hythe, Inggris (Pelatih Master)</li><li>Paula Apollonia &ndash; Jerman (Pelatih)</li><li>Rere Bening &ndash; Jawa Timur, Indonesia (Pelatih Master)</li></ul>'
 
 }
         

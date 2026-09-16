@@ -104,10 +104,20 @@ const es_Page_Translations = {
 '088-page-paragraph-p5': '<b>Dedicación</b>',
 '089-page-paragraph-p6': 'Nuestro trabajo está dedicado a nuestros Niños, los Niños de nuestros Niños... y a los niños de todas las especies, por todo el tiempo.',
 '090-page-paragraph-p7': '<i>Juntos podemos ser la transición hacia una armonía cada vez mayor con los ciclos de la vida.</i>',
+'091-story-module-image-alt': 'Una vista de las exuberantes tierras altas Igorot del norte de Luzón',
+'092-story-module-header': 'Nuestra Historia',
+'093-story-module-text': 'La Alianza Global de Ecoladrillos nació en la tierra del pueblo indígena Igorot y nuestras costumbres se guían por su ética ecológica ciclocéntrica.',
+'094-story-module-btn': 'Lee Nuestra Historia',
+'095-block6-header': 'Fundadores',
+'096-block6-subheader': 'La AGE fue iniciada por líderes de base globales del movimiento allá por 2013.',
+'097-block6-p1': 'En 2013, los movimientos de &ldquo;bottle bricks&rdquo;, &ldquo;eco-bricks&rdquo; y &ldquo;EcoBricks&rdquo; estaban despegando alrededor del mundo. A través de las redes sociales, Jo Stodgel (EE.UU.), Candice Mostert (Sudáfrica), Russell Maier (Canadá/Filipinas), Irene Bakisan (Filipinas) e Ian Domisse (Sudáfrica) se conectaron entre sí. Decidieron que era importante ser coherentes en la forma en que hablaban y enseñaban sobre lo que era esencialmente la misma metodología de transformación plástica. Primero, acordaron usar la misma terminología consistente: el término único, sin mayúsculas y sin guion &lsquo;ecoladrillo&rsquo; (ecobrick). Registraron este mismo dominio, y comenzaron la página oficial de Wikipedia sobre &lsquo;ecobrick&rsquo;. Luego, decidieron que era importante contar con una organización que mantuviera al día las pautas básicas y las mejores prácticas que rápidamente aprendían que eran cruciales. De esto surgió la Alianza Global de Ecoladrillos, y el resto es historia.',
+'098-block6-p2': 'Puedes leer la historia completa de la Alianza Global de Ecoladrillos <a href="story.php">aquí</a>.',
+'099-block6-p3': 'Consulta también la <a href="https://en.wikipedia.org/wiki/Ecobricks" target="_blank" rel="noopener">página de Wikipedia sobre Ecobricks</a>.',
+'100-block7-header': 'Círculo Central',
+'101-block7-subheader': 'La Alianza Global de Ecoladrillos está guiada por un grupo voluntario de Entrenadores y Entrenadores Maestros de la AGE que han dado un paso al frente para gestionar las operaciones y las decisiones importantes de la organización.',
+'102-block7-p1': 'A partir de septiembre de 2026, nuestro Círculo Central de la AGE está conformado por:',
+'103-block7-list': '<ul><li>Aang Hudaya &ndash; Bogor, Indonesia (Entrenador Maestro de la AGE)</li><li>Alex Setiadji &ndash; Kediri, Indonesia (Entrenador Maestro)</li><li>Ani Himawati &ndash; Jogja, Indonesia (Entrenador Maestro de la AGE)</li><li>Fran O&rsquo;Flanagan &ndash; Swindon, Reino Unido (Entrenador)</li><li>Russell Maier (Entrenador Maestro, Cofundador)</li><li>Lucie Mann &ndash; Hythe, Reino Unido (Entrenador Maestro)</li><li>Paula Apollonia &ndash; Alemania (Entrenadora)</li><li>Rere Bening &ndash; Java Oriental, Indonesia (Entrenador Maestro)</li></ul>'
 
-
-
-    
 }
         
       
