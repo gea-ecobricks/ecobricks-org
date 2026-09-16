@@ -74,3 +74,4 @@ deployment:
     - /usr/bin/install -m 644 en/side-modules/for-earth.php $WEBROOT/zh/side-modules/for-earth.php
     - /usr/bin/install -m 644 en/side-modules/story-teaser.php $WEBROOT/zh/side-modules/story-teaser.php
     - /usr/bin/install -m 644 en/side-modules/eco-accounting.php $WEBROOT/zh/side-modules/eco-accounting.php
+    - /usr/bin/install -m 644 en/side-modules/gea-intro.php $WEBROOT/zh/side-modules/gea-intro.php
