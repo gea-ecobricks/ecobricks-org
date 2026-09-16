@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<HTML lang="en">
+<?php $lang = basename(dirname($_SERVER['SCRIPT_NAME']));?>
+<HTML lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>">
 <HEAD>
 <META charset="UTF-8">
-<?php $lang='en';?>
-<?php $version='1.7';?>
+<?php $version='1.8';?>
 <?php $page='story';?>
 
 <?php require_once ("../includes/story-inc2.php");?>
