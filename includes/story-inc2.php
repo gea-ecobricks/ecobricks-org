@@ -138,6 +138,27 @@ hr.story-divider {
   transform: translate(-50%, -50%);
 }
 
+.story-hero-image {
+  display: block;
+  width: 100%;
+}
+
+/* Give the body text in the story block a normal margin on mobile,
+   while letting the hero image and video thumbnails stay full-bleed */
+@media screen and (max-width: 700px) {
+  #block1 {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  #block1 .story-hero-image,
+  #block1 .video-placeholder {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
 </style>
 
 <?php require_once ("../header-2025.php");?>

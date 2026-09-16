@@ -3,7 +3,7 @@
 <HTML lang="<?php echo htmlspecialchars($lang, ENT_QUOTES, 'UTF-8'); ?>">
 <HEAD>
 <META charset="UTF-8">
-<?php $version='1.8';?>
+<?php $version='2.2';?>
 <?php $page='story';?>
 
 <?php require_once ("../includes/story-inc2.php");?>
@@ -39,7 +39,7 @@
         <h5 data-lang-id="009-block1-subheader">How a stranded traveller, a river, and a mountain community sparked a global movement.</h5>
     </div>
 
-    <img src="../webp/chico-river-green.webp" style="width:100%" loading="lazy" alt="Rice terraces in Northern Luzon" data-lang-id="010-block1-hero-image-alt">
+    <img class="story-hero-image" src="../webp/chico-river-green.webp" loading="lazy" alt="Rice terraces in Northern Luzon" data-lang-id="010-block1-hero-image-alt">
     <p style="font-size:smaller;color:grey;margin-bottom:10px" data-lang-id="011-block1-hero-caption">Rice terraces in Northern, Luzon have been kept by the Igorots for centuries as a means of food self-sufficiency.</p>
 
     <p data-lang-id="012-block1-main2-p1">The Global Ecobrick Alliance finds its roots in the mountains of the remote Northern Philippines. In 2010, on a vacation gone wrong, <a href="https://www.spot.ph/newsfeatures/newsfeatures-peopleparties/71089/interview-russel-maier-ecobricks-a00171-20170810-lfrm2" target="_blank" rel="noopener">Canadian artist Russell Maier became stranded in a small village in the Sabangan Valley</a>, in the land of the Igorot people. Unable to make ends meet and return home, Russell&mdash; an artist with a background in philosophy&mdash; <a href="https://russs.net/how-i-fucked-up-my-life-and-became-stranded-in-a-remote-tribal-village-for-four-years/" target="_blank" rel="noopener" data-lang-id="012a-block1-link1">was compelled to make his home in the Cordilleras for five years</a>.</p>
@@ -65,13 +65,13 @@
     </div>
     <p style="font-size:smaller;color:grey;margin-bottom:10px" data-lang-id="033-block1-video2-caption">Seni Mengolah Sampah Plastik &ndash; Insight with Desi Anwar</p>
 
-    <p data-lang-id="025-block1-p4">In early 2015, Russell moved to Indonesia and with the help of Nurkinanti Laraskusuma the Vision Ecobrick Guide was translated to Indonesian. At the end of 2015, Russell Maier and Ani Himawati officially founded the GEA as a not-for-profit Earth Enterprise, with the mission of supporting the technological and philosophical infrastructure of the global ecobrick movement. In 2016, the movement ignited in Yogyakarta, Indonesia. Ani Himawati was instrumental in developing the GEA&rsquo;s training methodology, applying <a href="https://russs.net/mandalas/" target="_blank" rel="noopener" data-lang-id="025a-block1-link1">the principles of mandalic community manifestation developed by Russell Maier</a>&mdash; a methodology that has since carried the Indonesian movement to exponential growth through starter workshops, trainer-of-trainer programs, and ecobrick convergences.</p>
+    <p data-lang-id="025-block1-p4">In early 2015, Russell moved to Indonesia and with the help of Nurkinanti Laraskusuma the Vision Ecobrick Guide was translated to Indonesian. At the end of 2015, Russell Maier and Ani Himawati officially founded the GEA as a not-for-profit Earth Enterprise, with the mission of supporting the technological and philosophical infrastructure of the global ecobrick movement. <a href="http://jogjatv.tv/pemkot-luncurkan-ecobricks-untuk-atasi-sampah-plastik/" target="_blank" rel="noopener" data-lang-id="025c-block1-link3">In 2016,</a> the movement <a href="https://www.youtube.com/watch?v=fK-cc8SfSW8" target="_blank" rel="noopener" data-lang-id="025b-block1-link2">ignited in Yogyakarta, Indonesia</a>. Ani Himawati was instrumental in developing the GEA&rsquo;s training methodology, applying <a href="https://russs.net/mandalas/" target="_blank" rel="noopener" data-lang-id="025a-block1-link1">the principles of mandalic community manifestation developed by Russell Maier</a>&mdash; a methodology that has since carried the Indonesian movement to exponential growth through starter workshops, trainer-of-trainer programs, and ecobrick convergences.</p>
 
     <p data-lang-id="034-block1-p9">In the years since, the Indonesian ecobrick movement, partnering with various local governments, Church and Islamic organizations, national scouts and student ecological movements, has been introduced to tens of millions of Indonesians across the nation&rsquo;s archipelago.</p>
 
     <p data-lang-id="029-block1-p6">Over 2017&ndash;18, hundreds of trainers joined the GEA network across the Philippines, Indonesia, and South Africa through our live and online <a href="/trainings" data-lang-id="029a-block1-link1">trainer-of-trainer programs</a>. In 2018, our first three USA trainers&mdash; Sabrina Auclair, Luke Henkel and Jess Beck&mdash; joined the team.</p>
 
-    <p data-lang-id="026-block1-p5">The ecobrick movement in the UK ignited shortly after the airing of Blue Planet II in December 2017. In January 2018, Mary Bacoo and Lucie Mann joined the GEA as trainers from the UK. Lucie started the Ecobricks UK Facebook page, which took off in October 2018 as concurrent scandals in the UK recycling industry broke in the news and sent ecobricking viral. By 2019 there were over 30 GEA Trainers in the UK, and the movement involved hundreds of thousands of ecobrickers.</p>
+    <p data-lang-id="026-block1-p5">The ecobrick movement in the UK ignited shortly after the airing of Blue Planet II in December 2017. In January 2018, Mary Bacoo and Lucie Mann joined the GEA as trainers from the UK. Lucie started the <a href="https://www.facebook.com/groups/ecobricksUK" target="_blank" rel="noopener" data-lang-id="026a-block1-link1">Ecobricks UK Facebook page</a>, which took off in October 2018 as concurrent scandals in the UK recycling industry broke in the news and sent ecobricking viral. By 2019 there were over 30 GEA Trainers in the UK, and the movement involved hundreds of thousands of ecobrickers.</p>
 
     <p data-lang-id="030-block1-p7">In late 2019, the world&rsquo;s attention shifted from the dangers of plastic to the dangers of COVID-19. Ecobricking saw a decrease in participation around the world.</p>
 
@@ -93,8 +93,6 @@
 		<?php require_once ("side-modules/for-earth.php");?>
 
 		<?php require_once ("side-modules/transition-module.php");?>
-
-		<?php require_once ("side-modules/eco-accounting.php");?>
 
 		<?php require_once ("side-modules/earthen-ethics.php");?>
 
